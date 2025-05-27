@@ -1,0 +1,37 @@
+From 74f0d93e533fc8544db3ae8c7553d9253d14422c Mon Sep 17 00:00:00 2001
+From: anonym <anonym@riseup.net>
+Date: Wed, 27 Feb 2019 09:45:04 +0100
+Subject: [PATCH 1/2] Prefer fetched configurations using SSL over plaintext.
+
+---
+ comm/mail/components/accountcreation/readFromXML.jsm | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+Index: thunderbird/comm/mail/components/accountcreation/modules/readFromXML.sys.mjs
+===================================================================
+--- thunderbird.orig/comm/mail/components/accountcreation/modules/readFromXML.sys.mjs	2024-11-07 11:07:29.569041316 +0100
++++ thunderbird/comm/mail/components/accountcreation/modules/readFromXML.sys.mjs	2024-11-07 11:07:29.565041373 +0100
+@@ -102,7 +102,10 @@
+             SSL: Ci.nsMsgSocketType.SSL,
+             STARTTLS: Ci.nsMsgSocketType.alwaysSTARTTLS,
+           });
+-          break; // take first that we support
++          if (iO.socketType != Ci.nsMsgSocketType.plain) {
++            // pick first non-plaintext protocol, if available
++            break;
++          }
+         } catch (e) {
+           exception = e;
+         }
+@@ -225,7 +228,10 @@
+             SSL: Ci.nsMsgSocketType.SSL,
+             STARTTLS: Ci.nsMsgSocketType.alwaysSTARTTLS,
+           });
+-          break; // take first that we support
++          if (oO.socketType != Ci.nsMsgSocketType.plain) {
++            // pick first non-plaintext protocol, if available
++            break;
++          }
+         } catch (e) {
+           exception = e;
+         }

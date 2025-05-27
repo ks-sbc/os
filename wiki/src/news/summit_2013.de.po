@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-04-05 17:54+0000\n"
+"PO-Revision-Date: 2024-11-27 10:18+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 2013 summit report\"]]\n"
+msgstr "[[!meta title=\"Tails 2013 Gipfelbericht\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 09 Aug 2013 09:12:07 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 09 Aug 2013 09:12:07 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+msgid ""
+"A bunch of people spend a dozen days together in July at the third Tails "
+"developers yearly summit. This was a great opportunity to have crazy hacking "
+"sessions in person, as well as to discuss where we are heading to and how."
+msgstr ""
+"Eine Gruppe von Leuten verbrachte im Juli ein Dutzend Tage zusammen auf dem "
+"dritten jährlichen Tails-Entwickler-Gipfel. Das war eine großartige "
+"Gelegenheit, um persönlich verrückte Hacking-Sessions zu veranstalten und zu "
+"besprechen, wohin und wie wir uns entwickeln wollen."
+
+#. type: Title #
+#, no-wrap
+msgid "Discussions"
+msgstr "Diskussionen"
+
+#. type: Plain text
+msgid ""
+"We mainly discussed the **growth of the project**: given the growing number "
+"of users and our super-short release cycle, it is a challenge to keep the "
+"project sustainable and maintainable in the mid/long term."
+msgstr ""
+"Wir haben vor allem über das **Wachstum des Projekts** gesprochen: "
+"Angesichts der wachsenden Zahl von Nutzern und unseres superkurzen "
+"Veröffentlichungszyklus ist es eine Herausforderung, das Projekt mittel- bis "
+"langfristig nachhaltig und wartbar zu halten."
+
+#. type: Plain text
+msgid ""
+"Our take on this is first reflected by our **updated roadmap**: we now have "
+"a better vision of what we want to focus on for the next major releases of "
+"Tails: the 1.0, 1.1 and 2.0 milestones are now pretty well defined, and we "
+"even were bold enough to draft goals for 3.0."
+msgstr ""
+"Unsere Sichtweise spiegelt sich zunächst in unserer **aktualisierten "
+"Roadmap** wider: Wir haben jetzt eine klarere Vorstellung davon, worauf wir "
+"uns in den nächsten großen Tails-Versionen konzentrieren wollen. Die "
+"Meilensteine für die Versionen 1.0, 1.1 und 2.0 sind nun recht gut "
+"definiert, und wir waren sogar mutig genug, Ziele für Version 3.0 zu "
+"entwerfen."
+
+#. type: Plain text
+msgid ""
+"Another key aspect on this topic was that we need to **make it easier to "
+"contribute** to Tails. We have listed many enhancements that could be made "
+"in this direction, especially on the website.  We also have identified areas "
+"that could benefit most from a few new dedicated contributors. We will "
+"publish targeted calls for help in the next few months."
+msgstr ""
+"Ein weiterer wichtiger Aspekt zu diesem Thema war, dass wir **es einfacher "
+"machen müssen, zu Tails beizutragen**. Wir haben viele Verbesserungen "
+"aufgelistet, die in dieser Richtung vorgenommen werden könnten, insbesondere "
+"auf der Website. Wir haben auch Bereiche identifiziert, die am meisten von "
+"einigen neuen engagierten Mitwirkenden profitieren könnten. In den nächsten "
+"Monaten werden wir gezielte Aufrufe zur Hilfe veröffentlichen."
+
+#. type: Plain text
+msgid ""
+"We also **redesigned our communication channels** to ease involvement of new "
+"contributors, to make more workload sharing possible, and to be able to "
+"provide better user support. In short:"
+msgstr ""
+"Wir haben auch unsere **Kommunikationskanäle neu gestaltet**, um die "
+"Beteiligung neuer Mitwirkender zu erleichtern, um mehr Arbeitsbelastung zu "
+"teilen und um besseren Benutzersupport bieten zu können. Kurz gesagt:"
+
+#. type: Bullet: '  * '
+msgid ""
+"Our mailing lists see quite a lot of traffic these days.  This might deter "
+"people from reading it. So, we will create two specialized mailing lists: a "
+"private, encrypted one will receive bug reports, while a public one will be "
+"dedicated to user support."
+msgstr ""
+"Unsere Mailinglisten haben derzeit ziemlich viel Verkehr. Das könnte die "
+"Leute davon abhalten, sie zu lesen. Daher werden wir zwei spezialisierte "
+"Mailinglisten erstellen: Eine private, verschlüsselte Liste wird Bugberichte "
+"erhalten, während eine öffentliche Liste dem Benutzersupport gewidmet sein "
+"wird."
+
+#. type: Bullet: '  * '
+msgid ""
+"A growing FAQ will be assembled: it will be a tool for self-service help, "
+"and should make support work less repetitive."
+msgstr ""
+"Eine wachsende FAQ wird zusammengestellt: Sie wird ein Werkzeug für die "
+"Selbsthilfe sein und sollte die Support-Arbeit weniger repetitiv gestalten."
+
+#. type: Bullet: '  * '
+msgid ""
+"In a few months, we will evaluate how all this fares and we will reconsider "
+"web support, which is postponed for the moment."
+msgstr ""
+"In ein paar Monaten werden wir bewerten, wie sich all dies entwickelt, und "
+"wir werden den Websupport, der im Moment verschoben ist, erneut überdenken."
+
+#. type: Plain text
+msgid ""
+"Still, the tails-dev mailing list remains the main communication channel for "
+"development and project-wide discussions."
+msgstr ""
+"Dennoch bleibt die tails-dev-Mailingliste der Hauptkommunikationskanal für "
+"Entwicklungs- und projektweite Diskussionen."
+
+#. type: Plain text
+msgid ""
+"This summit gave us the chance to **evaluate and refine processes** that we "
+"have set up a year ago, such as our time-based release schedule and a formal "
+"merge policy."
+msgstr ""
+"Dieser Gipfel gab uns die Möglichkeit, **Prozesse zu bewerten und zu "
+"verfeinern**, die wir vor einem Jahr eingerichtet haben, wie unseren "
+"zeitbasierten Release-Zeitplan und eine formelle Zusammenführungsrichtlinie."
+
+#. type: Plain text
+msgid ""
+"To end with, the **public development meetings** experiment will be "
+"extended, and we will go on having monthly **Low Hanging Fruits sessions**. "
+"Not only these sessions are very useful to make Tails better, but we were "
+"happy to see new people join these parties recently. We hope to see even "
+"more of that in the future: these sessions are great times to **start "
+"contributing** to Tails!"
+msgstr ""
+"Abschließend wird das Experiment mit den **öffentlichen Entwicklungstreffen**"
+" verlängert, und wir werden weiterhin monatliche **Low Hanging Fruits-"
+"Sitzungen** abhalten. Diese Sitzungen sind nicht nur sehr nützlich, um Tails "
+"zu verbessern, sondern wir haben uns auch gefreut, kürzlich neue Leute bei "
+"diesen Treffen begrüßen zu dürfen. Wir hoffen, dass wir in Zukunft noch mehr "
+"davon sehen: Diese Sitzungen sind großartige Gelegenheiten, um "
+"**beizutragen** und Tails zu unterstützen!"
+
+#. type: Title #
+#, no-wrap
+msgid "Hack"
+msgstr "Hack"
+
+#. type: Plain text
+msgid ""
+"Hours of meetings were certainly a necessary part of the summit, but we also "
+"dedicated a fair share of our time to hands-on activities.  Fortunately "
+"there is quite a lot of room for improvements in Tails, so we were never "
+"left unoccupied."
+msgstr ""
+"Stundenlange Besprechungen waren sicherlich ein notwendiger Teil des "
+"Gipfels, aber wir haben auch einen fairen Teil unserer Zeit praktischen "
+"Aktivitäten gewidmet. Zum Glück gibt es in Tails noch einiges an "
+"Verbesserungspotential, sodass wir nie ohne Beschäftigung waren."
+
+#. type: Plain text
+msgid ""
+"The most noticeable technical change that happened during the summit was "
+"perhaps our **move to Redmine** for managing our tasks and plans. We are not "
+"exploiting the full potential of Redmine yet, but it already feels far less "
+"messy than how we did previously. Hopefully this will help others get "
+"involved! Many thanks go to Riseup for hosting the Redmine instance we use.  "
+"Note that we will keep using ikiwiki for blueprints."
+msgstr ""
+"Die auffälligste technische Änderung, die während des Gipfels stattfand, war "
+"vielleicht unser **Umstieg auf Redmine** zur Verwaltung unserer Aufgaben und "
+"Pläne. Wir nutzen das volle Potenzial von Redmine noch nicht, aber es fühlt "
+"sich bereits viel weniger chaotisch an als zuvor. Hoffentlich wird dies "
+"anderen helfen, sich zu engagieren! Ein herzlicher Dank geht an Riseup für "
+"das Hosting der von uns verwendeten Redmine-Instanz. Bitte beachten Sie, "
+"dass wir weiterhin ikiwiki für die Blaupausen verwenden werden."
+
+#. type: Plain text
+msgid ""
+"Taking advantage of Redmine, we have started classifying tasks in various "
+"useful ways: e.g. **easy tickets** do not require much knowledge of the "
+"Tails internals to be solved, and are ideal places to get involved. In "
+"passing, other nice custom queries provide lists of tasks involving "
+"sysadmin.  and web development."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We spent some time listing problems with early builds of **Tails based on "
+"Debian Wheezy**. It is now clearer to us what remains to do: [[!tails_ticket "
+"6015 desc=\"a few dozens tickets\"]] were created. Did we mention that any "
+"kind of help is warmly welcome? :)"
+msgstr ""
+"Wir haben etwas Zeit damit verbracht, Probleme mit frühen Versionen von **"
+"Tails basierend auf Debian Wheezy** aufzulisten. Jetzt ist uns klarer, was "
+"noch zu tun ist: [[!tails_ticket 6015 desc=\"ein paar Dutzend Tickets\"]] "
+"wurden erstellt. Haben wir erwähnt, dass jede Art von Hilfe herzlich "
+"willkommen ist? :)"
+
+#. type: Plain text
+msgid ""
+"Our **Jenkins instance** also had been taken care of: it is getting closer "
+"to something we can use and rely upon as part of our daily workflow."
+msgstr ""
+"Unsere **Jenkins-Instanz** wurde ebenfalls betreut: Sie kommt näher an "
+"etwas, das wir als Teil unseres täglichen Arbeitsablaufs nutzen und auf das "
+"wir uns verlassen können."
+
+#. type: Plain text
+msgid ""
+"A lot of branches were **merged for the upcoming 0.20 release**, including "
+"the installation of Dasher and a first step towards the replacement of "
+"TrueCrypt."
+msgstr ""
+"Viele Branches wurden **für die bevorstehende Version 0.20 zusammengeführt**"
+", einschließlich der Installation von Dasher und einem ersten Schritt in "
+"Richtung der Ablösung von TrueCrypt."
+
+#. type: Plain text
+msgid ""
+"The **Pidgin and OTR documentation** was rewritten to be clearer and more "
+"precise, as well as our explanation of the way random nicknames are "
+"generated for Pidgin accounts."
+msgstr ""
+"Die **Dokumentation zu Pidgin und OTR** wurde überarbeitet, um klarer und "
+"präziser zu sein, ebenso wie unsere Erklärung zur Generierung zufälliger "
+"Spitznamen für Pidgin-Konten."
+
+#. type: Plain text
+msgid ""
+"More steps have also been done towards **not starting Iceweasel** on startup."
+msgstr ""
+"Es wurden weitere Schritte unternommen, um **Iceweasel** beim Start nicht zu "
+"starten."
+
+#. type: Title #
+#, no-wrap
+msgid "At the end is the beginning"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"As you can guess, this summit was as intense as the previous ones.  Tails is "
+"living decisive times, so we expect the next year to be pretty interesting. "
+"*You* can perhaps make the difference, so do not hesitate [[joining the "
+"dance|contribute]]!"
+msgstr ""

@@ -1,0 +1,117 @@
+[[!meta title="System requirements and recommended hardware"]]
+
+Summary
+=======
+
+- Tails works on:
+
+  * Most PC computers that are less than 10 years old
+  * Some older Mac computers with an Intel processor
+
+- Tails does not work:
+
+  * Newer Mac computers with an Apple processor (M1 or M2)
+  * Smartphones or tablets
+  * Raspberry Pi
+
+- Tails might not work on:
+
+  * Some older computers, for example, if they don't have 2 GB of RAM.
+
+  * Some newer computers, for example, if their [[graphics card is incompatible with Linux|support/known_issues/graphics]].
+    Nvidia or AMD Radeon cards often do not work in Tails.
+
+<p>See our [[list of known hardware compatibility
+issues|support/known_issues]].</p>
+
+</div>
+
+Detailed hardware requirements
+==============================
+
+- A USB stick of 8 GB minimum or a recordable DVD.
+
+  All the data on this USB stick or DVD is lost when installing Tails.
+
+- The ability to start from a USB stick or a DVD reader.
+
+- A 64-bit [[!wikipedia x86-64]] [[!wikipedia IBM PC compatible]]
+  processor.
+
+  * Tails does not works on
+    [[!wikipedia ARM_architecture desc="ARM"]] or
+    [[!wikipedia PowerPC]] processors.
+
+  * Tails does not work on 32-bit computers since [[Tails 3.0|news/Tails_3.0_will_require_a_64-bit_processor]] (June 2017).
+
+- 2 GB of RAM to work smoothly.
+
+  Tails can work with less than 2 GB RAM but might behave strangely or crash.
+
+Recommended hardware
+====================
+
+Laptop models evolve too rapidly for us to be able to provide an up-to-date
+list of recommended hardware. Below are some guidelines if you, or your
+organization, are considering acquiring a laptop dedicated to running Tails.
+
+### For PC
+
+- Avoid "gaming" models with Nvidia or AMD Radeon graphics cards.
+
+- Consider buying a refurbished laptop from a high-end (professional) series.
+  These are cheaper and will last longer than new but lower-quality laptops.
+
+  * For example, the Lenovo ThinkPad series work well with Tails,
+    including the X250, X1 Carbon, T440, T480, and T490 models.
+
+  * If you live in a part of the world where buying refurbished laptops is
+    uncommon, look on eBay and Amazon. Amazon offers a 90-day [Amazon Renewed
+    Guarantee](https://www.amazon.com/gp/help/customer/display.html?nodeId=G4ZAA22U35N373NX).
+
+- Consider buying a new laptop from vendors who guarantee the compatibility
+  with Linux and Tails like [ThinkPenguin](https://www.thinkpenguin.com/).
+
+### For Mac
+
+Unfortunately, we don't know of any Mac model that works well in Tails and can
+run the latest macOS version.
+
+<!--
+
+To update the list of Mac computer:
+
+1. Store an archive of WhisperBack reports from the last 6 months in a folder.
+
+2. Decrypt all the reports:
+
+   ~/Tails/blueprints/stats/whisperback_scripts/decrypt.rb
+
+3. Extract the list of computer models:
+
+   ~/Tails/blueprints/stats/whisperback_scripts/content_of.rb "/usr/sbin/dmidecode -s system-product-name" > machines
+
+4. Sort and count identical models:
+
+   grep -v Bug_report machines | sort | uniq -c | sort -rhk 1 > top
+
+5. Share WhisperBack reports number with the Tails team and ask them to
+   evaluate hardware compatibility hints in those reports.
+
+   While analyzing the reports corresponding from each model, FT should:
+
+   - Check whether they were sent from the same email address, if any
+
+   - Check whether the wlan0 interface was the same hardware device
+
+   - Check whether the report was about hardware compatibility issues
+
+6. Check whether these Mac models still support the latest version of macOS.
+
+To update the list of PC computers:
+
+- Check what's commonly available with refurbishing companies.
+
+- Ask assembly@ for models.
+
+-->

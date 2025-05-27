@@ -1,0 +1,58 @@
+diff -Naur /etc/apparmor.d/abstractions.orig/base /etc/apparmor.d/abstractions/base
+--- a/etc/apparmor.d/abstractions/base	2023-02-14 11:49:15.000000000 +0000
++++ b/etc/apparmor.d/abstractions/base	2023-05-27 17:17:50.492891624 +0000
+@@ -32,6 +32,7 @@
+   @{etc_ro}/locale/**          r,
+   @{etc_ro}/locale.alias       r,
+   @{etc_ro}/localtime          r,
++  /etc/tor/torsocks.conf         r,
+   /etc/writable/localtime        r,
+   /usr/share/locale-bundle/**    r,
+   /usr/share/locale-langpack/**  r,
+@@ -70,9 +71,9 @@
+   /opt/*-linux-uclibc/lib/ld-uClibc*so* mr,
+ 
+   # we might as well allow everything to use common libraries
+-  /{usr/,}lib{,32,64}/**                r,
+-  /{usr/,}lib{,32,64}/**.so*       mr,
+-  /{usr/,}lib/@{multiarch}/**            r,
++  /{usr/,}lib{,32,64}/{[^l],l[^i],li[^v],liv[^e],live[^/]}**           r,
++  /{usr/,}lib{,32,64}/{[^l],l[^i],li[^v],liv[^e],live[^/]}**.so*       mr,
++  /{usr/,}lib/@{multiarch}/{[^l],l[^i],li[^v],liv[^e],live[^/]}**      r,
+   /{usr/,}lib/@{multiarch}/**.so*   mr,
+   /{usr/,}lib/tls/i686/{cmov,nosegneg}/*.so*    mr,
+   /{usr/,}lib/i386-linux-gnu/tls/i686/{cmov,nosegneg}/*.so*    mr,
+diff -Naur /etc/apparmor.d/abstractions.orig/ubuntu-helpers /etc/apparmor.d/abstractions/ubuntu-helpers
+--- a/etc/apparmor.d/abstractions/ubuntu-helpers	2023-02-14 11:49:15.000000000 +0000
++++ b/etc/apparmor.d/abstractions/ubuntu-helpers	2023-05-27 17:19:33.761291530 +0000
+@@ -54,7 +54,8 @@
+   /{usr/,usr/local/,}{bin,sbin}/* Pixr,
+ 
+   # Allow exec of libexec applications in /usr/lib* and /usr/local/lib*
+-  /usr/{,local/}lib*/{,**/}* Pixr,
++  /usr/{,local/}lib*/* Pixr,
++  /usr/{,local/}lib*/{[^l],l[^i],li[^v],liv[^e],live[^/]}{,**/}* Pixr,
+ 
+   # Allow exec of software-center scripts. We may need to allow wider
+   # permissions for /usr/share, but for now just do this. (LP: #972367)
+@@ -67,8 +68,8 @@
+   # in limited libraries so glibc's secure execution should be enough to not
+   # require the santized_helper (ie, LD_PRELOAD will only use standard system
+   # paths (man ld.so)).
+-  /usr/lib/chromium-browser/chromium-browser-sandbox PUxr,
+-  /usr/lib/chromium{,-browser}/chrome-sandbox PUxr,
++  # /usr/lib/chromium-browser/chromium-browser-sandbox PUxr,
++  # /usr/lib/chromium{,-browser}/chrome-sandbox PUxr,
+   /opt/google/chrome{,-beta,-unstable}/chrome-sandbox PUxr,
+   /opt/google/chrome{,-beta,-unstable}/google-chrome Pixr,
+   /opt/google/chrome{,-beta,-unstable}/chrome Pixr,
+@@ -85,7 +86,8 @@
+   # Full access
+   / r,
+   /** rwkl,
+-  /{,usr/,usr/local/}lib{,32,64}/{,**/}*.so{,.*} m,
++  /lib/{[^l],l[^i],li[^v],liv[^e],live[^/]}{,**/}*.so{,.*} m,
++  /usr{/,/local/}lib{,32,64}/{,**/}*.so{,.*} m,
+ 
+   # Dangerous files
+   audit deny owner /**/* m,              # compiled libraries

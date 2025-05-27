@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -eu
+
+echo 'Updating org.onionshare.OnionShare.desktop'
+sed -i --regexp-extended \
+    's;^Exec=\S+;Exec=/usr/local/bin/onionshare;' \
+    /usr/share/applications/org.onionshare.OnionShare.desktop

@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-26 12:26+0100\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 5.15.1\"]]\n"
+msgstr "[[!meta title=\"Tails 5.15.1\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 11 Jul 2023 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 11 Jul 2023 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [12.5](https://blog.torproject.org/new-release-tor-"
+"browser-125)."
+msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [12.5](https://blog."
+"torproject.org/new-release-tor-browser-125)."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  [Tor Browser 12.5](https://blog.torproject.org/new-release-tor-browser-125)\n"
+"  has a new circuit view and better information about onion services.\n"
+msgstr ""
+"  El [Navegador Tor 12.5](https://blog.torproject.org/new-release-tor-browser-125)\n"
+"  té una nova vista de circuit i una millor informació sobre els serveis d'onion.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img doc/anonymous_internet/Tor_Browser/circuit-view.png link=\"no\"]]\n"
+msgstr "  [[!img doc/anonymous_internet/Tor_Browser/circuit-view.png link=\"no\"]]\n"
+
+#. type: Plain text
+msgid "- Support onion service authentication in *Tor Browser*."
+msgstr "- S'admet l'autenticació del servei d'onion al *Navegador Tor*."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  For example, onion service authentication is used by *OnionShare* outside of\n"
+"  Tails.\n"
+msgstr ""
+"  Per exemple, *OnionShare* utilitza l'autenticació del servei d'onion fora de\n"
+"  Tails.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img authentication.png link=\"no\" alt=\"Tor Browser asking for a private key to connect to an onion service\"]]\n"
+msgstr "  [[!img authentication.png link=\"no\" alt=\"Navegador Tor demanant la clau privada per connectar-se a un servei onion\"]]\n"
+
+#. type: Plain text
+msgid "- Display the version of Tails in the Boot Loader"
+msgstr "- Es mostra la versió de Tails al carregador d'arrencada"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img version.png link=\"no\" alt=\"SYSLINUX Boot Loader displaying 'Tails 5.15.1'\"]]\n"
+msgstr "  [[!img version.png link=\"no\" alt=\"Carregador d'arrencada SYSLINUX mostrant 'Tails 5.15.1'\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
+
+#. type: Plain text
+msgid ""
+"- Fix the search of some languages and keyboard layouts. ([[!tails_ticket "
+"19200]])"
+msgstr ""
+"- S'ha arreglat la cerca d'alguns idiomes i dissenys de teclat. ([[!"
+"tails_ticket 19200]])"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img language.png link=\"no\" alt=\"Searching for 'esp' now returns 'Español'\"]]\n"
+msgstr "  [[!img language.png link=\"no\" alt=\"La cerca de 'esp' ara retorna 'Español'\"]]\n"
+
+#. type: Plain text
+msgid "- Make the upgrade of the Persistent Storage more reliable:"
+msgstr "- L'actualització de l'Emmagatzematge Persistent ara és més fiable:"
+
+#. type: Bullet: '  * '
+msgid ""
+"On some systems, the message \"*Upgrading the persistent storage*\" was "
+"displayed every time in Tails 5.14 when Tails failed to upgrade one of the "
+"cryptographic parameters. ([[!tails_ticket 19734]])"
+msgstr ""
+"En alguns sistemes, el missatge «*S'està actualitzant l'Emmagatzematge "
+"Persistent*» es mostrava cada vegada a Tails 5.14 quan fallava en "
+"actualitzar un dels paràmetres criptogràfics. ([[!tails_ticket 19734]])"
+
+#. type: Bullet: '  * '
+msgid ""
+"On some USB sticks, upgrading the Persistent Storage was too slow and failed "
+"with the error message \"*Upgrade of persistent storage failed*\".  ([[!"
+"tails_ticket 19728]])"
+msgstr ""
+"En alguns llapis USB, l'actualització de l'Emmagatzematge Persistent era "
+"massa lenta i fallava amb el missatge d'error «*S'ha produït un error en "
+"actualitzar l'Emmagatzematge Persistent*». ([[!tails_ticket 19728]])"
+
+#. type: Plain text
+msgid ""
+"- Fix opening documentation links from *Tails Installer*. ([[!tails_ticket "
+"19870]])"
+msgstr ""
+"- S'ha arreglat l'obertura d'enllaços de documentació des de l'*Instal·lador "
+"de Tails*. ([[!tails_ticket 19870]])"
+
+#. type: Bullet: '- '
+msgid ""
+"Prevent *Tor Browser* to access information about other Tor circuits.  ([[!"
+"tails_ticket 19740]])"
+msgstr ""
+"S'ha impedit que el *Navegador Tor* accedeixi a informació sobre altres "
+"circuits Tor. ([[!tails_ticket 19740]])"
+
+#. type: Bullet: '- '
+msgid ""
+"Make the error when scanning the QR code of a bridge more consistent.  ([[!"
+"tails_ticket 19737]])"
+msgstr ""
+"S'ha fet que l'error en escanejar el codi QR d'un pont sigui més coherent. "
+"([[!tails_ticket 19737]])"
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+"Per a més detalls, llegiu el nostre [[!tails_gitweb debian/changelog desc="
+"\"registre de canvis\"]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
+
+#. type: Plain text
+msgid ""
+"[[!tails_ticket 19728]] was affecting 5.14, and it might still be present. "
+"If you encounter this bug, please [[send us a *WhisperBack* report|doc/"
+"first_steps/whisperback/#whisperback]]."
+msgstr ""
+"[[!tails_ticket 19728]] afectava la versió 5.14, i encara podria ser "
+"present. Si trobeu aquest error, si us plau, [[envieu-nos un *informe de "
+"WhisperBack*|doc/first_steps/whisperback/#whisperback]]."
+
+#. type: Plain text
+msgid "See the list of [[long-standing issues|support/known_issues]]."
+msgstr ""
+"Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.15.1</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 5.15.1</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.15.1."
+msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.15.1."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+"  Podeu [[reduir la mida de la baixada|doc/upgrade#reduce]] de futures\n"
+"  actualitzacions automàtiques fent una actualització manual a la darrera "
+"versió.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr "Per instal·lar Tails en un nou llapis USB"
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Windows|install/windows]]"
+msgstr "[[Instal·lar des de Windows|install/windows]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from macOS|install/mac]]"
+msgstr "[[Instal·lar des de macOS|install/mac]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Linux|install/linux]]"
+msgstr "[[Instal·lar des de Linux|install/linux]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr "Per només baixar"
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.15.1 directly:"
+msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.15.1 directament:"
+
+#. type: Bullet: '  - '
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
+
+#. type: Bullet: '  - '
+msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"

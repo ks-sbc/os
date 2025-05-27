@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-01-23 00:41+0000\n"
+"PO-Revision-Date: 2024-01-27 10:36+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Bullet: '      1. '
+msgid "To change your passphrase, execute the following command."
+msgstr "Para cambiar tu frase de contraseña, ejecuta el siguiente comando."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"         Replace <span class=\"command-placeholder\">[partition]</span> with the\n"
+"         partition name found in step 1.6.\n"
+msgstr ""
+"         Remplaza <span class=\"command-placeholder\">[partición]</span> con "
+"el\n"
+"         nombre de la partición encontrada en el paso 1.6.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "        <p class=\"pre command-template\">cryptsetup luksChangeKey /dev/<span class=\"command-placeholder\">[partition]</span></p>\n"
+msgstr ""
+"        <p class=\"pre command-template\">cryptsetup luksChangeKey /dev/"
+"<span class=\"command-placeholder\">[partición]</span></p>\n"

@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 09 Dec 2020 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 09 Dec 2020 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Deprecation of the Tails Verification extension\"]]\n"
+msgstr "[[!meta title=\"Obsoletació de l'extensió de verificació de Tails\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"Today, we are retiring the *Tails Verification* browser extension that used "
+"to be advertised on our download page. We are replacing it with similar "
+"JavaScript code that now runs directly on the page."
+msgstr ""
+"Avui, retirem l'extensió del navegador *Tails Verification* que abans "
+"s'anunciava a la nostra pàgina de baixada. L'estem substituint per codi de "
+"JavaScript similar que ara s'executa directament a la pàgina."
+
+#. type: Plain text
+msgid "This new verification procedure is:"
+msgstr "Aquest nou procediment de verificació és:"
+
+#. type: Plain text
+msgid "- Simpler and faster for first-time users"
+msgstr "- Més senzill i ràpid per als usuaris novells"
+
+#. type: Plain text
+msgid "- Compatible with more web browsers, for example, Edge and Safari"
+msgstr "- Compatible amb més navegadors web, per exemple, Edge i Safari"
+
+#. type: Plain text
+msgid "- As secure as the *Tails Verification* extension"
+msgstr "- Tan segur com l'extensió *Tails Verification*"
+
+#. type: Plain text
+msgid ""
+"From the logs on our website, it seems like only a minority of downloads are "
+"currently being verified. We believe that this simplified verification "
+"procedure will greatly increase the number of downloads being verified and "
+"improve the security of our users."
+msgstr ""
+"Segons els registres del nostre lloc web, sembla que actualment només "
+"s'estan verificant una minoria de baixades. Creiem que aquest procediment de "
+"verificació simplificat augmentarà considerablement el nombre de baixades "
+"verificades i millorarà la seguretat dels nostres usuaris."
+
+#. type: Plain text
+msgid ""
+"Users of the *Tails Verification* extension can safely remove it from their "
+"browser. They will be reminded to do so on the download page."
+msgstr ""
+"Els usuaris de l'extensió *Tails Verification* poden eliminar-la del seu "
+"navegador amb seguretat. Se'ls recordarà que ho facin a la pàgina de baixada."
+
+#. type: Plain text
+msgid ""
+"We will remove the *Tails Verification* extension from the Firefox and "
+"Chrome stores in a few days."
+msgstr ""
+"Eliminarem l'extensió *Tails Verification* de les botigues de Firefox i "
+"Chrome d'aquí a uns dies."
+
+#. type: Plain text
+msgid "The other 2 verification techniques are still available:"
+msgstr "Les altres dues tècniques de verificació encara estan disponibles:"
+
+#. type: Bullet: '- '
+msgid ""
+"If you download Tails using BitTorrent, your BitTorrent client automatically "
+"verifies the checksum of the Tails image when the download finishes."
+msgstr ""
+"Si baixeu Tails mitjançant BitTorrent, el vostre client BitTorrent "
+"verificarà automàticament la suma de verificació de la imatge de Tails quan "
+"finalitzi la baixada."
+
+#. type: Bullet: '- '
+msgid ""
+"If you know OpenPGP, you can verify your Tails image using an OpenPGP "
+"signature."
+msgstr ""
+"Si coneixeu OpenPGP, podeu verificar la vostra imatge de Tails mitjançant "
+"una signatura OpenPGP."
+
+#. type: Plain text
+msgid ""
+"Special thanks to [Mike Meixler](https://www.meixler-tech.com/) who donated "
+"his time to help us with the verification JavaScript!"
+msgstr ""
+"Un agraïment especial a [Mike Meixler](https://www.meixler-tech.com/) que va "
+"donar el seu temps per ajudar-nos amb el JavaScript de verificació!"
+
+#. type: Plain text
+msgid ""
+"In the future, this simplification will allow us to further simplify the "
+"download page and installation instructions. We also want to research how to "
+"make the verification faster. If you know WebAssembly, see if you can help "
+"us [speed up the checksum computation](https://gitlab.tails.boum.org/tails/"
+"tails/-/issues/16905)."
+msgstr ""
+"En el futur, aquesta simplificació ens permetrà simplificar encara més la "
+"pàgina de baixada i les instruccions d'instal·lació. També volem investigar "
+"com fer la verificació més ràpida. Si coneixeu WebAssembly, mireu si ens "
+"podeu ajudar a [accelerar el càlcul de la suma de verificació](https://"
+"gitlab.tails.boum.org/tails/tails/-/issues/16905)."
+
+#. type: Plain text
+msgid ""
+"See also our [[design document on the security and threat model of the "
+"download verification|contribute/design/download_verification]]."
+msgstr ""
+"Vegeu també el nostre [[document de disseny sobre el model de seguretat i "
+"amenaça de la verificació de la baixada|contribute/design/"
+"download_verification]]."
+
+#~ msgid ""
+#~ "- Simpler and faster for first-time users - Compatible with more web "
+#~ "browsers, for example, Edge and Safari - As secure as the *Tails "
+#~ "Verification* extension"
+#~ msgstr ""
+#~ "- Més senzill i ràpid per als usuaris novells\n"
+#~ "- Compatible amb més navegadors web, per exemple, Edge i Safari\n"
+#~ "- Tan segur com l'extensió *Tails Verification*"

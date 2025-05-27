@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-11-15 14:41+0100\n"
+"PO-Revision-Date: 2024-05-03 12:33+0000\n"
+"Last-Translator: Chre <tor@renaudineau.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta title=\"Possible remote attack on onion services\"]]\n"
+msgstr ""
+"[[!meta title=\"Attaque à distance possible sur les services onion\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta date=\"Wed, 15 Nov 2023 14:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Wed, 15 Nov 2023 14:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<div class=\"caution\">\n"
+msgstr "<div class=\"caution\">\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"<p><strong>Creating onion services from Tails 5.19 and earlier is "
+"unsafe.</strong></p>\n"
+msgstr ""
+"<p><strong>La création de services onion à partir de Tails 5.19 et des "
+"versions antérieurs est dangereux.</strong></p>\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"<p>We recommend that you stop using <em>OnionShare</em> and upgrade to "
+"Tails\n"
+"5.19.1.</p>\n"
+msgstr ""
+"<p>Nous vous recommandons d'arrêter d'utiliser <em>OnionShare</em> et de "
+"mettre à jour vers Tails\n"
+"5.19.1.</p>\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"The Tor Project has released a security fix for a vulnerability named "
+"TROVE-2023-006."
+msgstr ""
+"The Tor Project a publié un correctif de sécurité pour une vulnérabilité "
+"nommée TROVE-2023-006."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"[[!inline pages=\"news/version_5.19.1/TROVE-2023-006.inline\" raw=\"yes\" "
+"sort=\"age\"]]\n"
+msgstr ""
+"[[!inline pages=\"news/version_5.19.1/TROVE-2023-006.inline.fr\" raw=\"yes\" "
+"sort=\"age\"]]\n"

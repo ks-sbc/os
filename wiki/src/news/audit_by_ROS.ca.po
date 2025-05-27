@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-11-14 10:03+0000\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Security audit of Persistent Storage and Tor integration\"]]\n"
+msgstr ""
+"[[!meta title=\"Auditoria de seguretat de l'Emmagatzematge Persistent i la "
+"integració de Tor\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 10 Nov 2023 17:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 10 Nov 2023 17:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/audit]]\n"
+msgstr "[[!tag security/audit]]\n"
+
+#. type: Plain text
+msgid ""
+"In March 2023, [Radically Open Security](https://www.radicallyopensecurity."
+"com/) conducted a security audit on the major improvements that we released "
+"in [[Tails 5.8|version_5.8]] (December 2022) on the Persistent Storage, the "
+"Unsafe Browser, and the Wayland integration."
+msgstr ""
+"El març de 2023, [Radically Open Security](https://www.radicallyopensecurity."
+"com/) va dur a terme una auditoria de seguretat sobre les principals "
+"millores que vam publicar a [[Tails 5.8|version_5.8]] (desembre de 2022) a "
+"l'Emmagatzematge Persistent, el Navegador Insegur i la integració de Wayland."
+
+#. type: Plain text
+msgid ""
+"To better protect our users, we addressed most of the security "
+"vulnerabilities as soon as they were discovered and reported to us, without "
+"waiting for the audit to be complete and public. We can now share with your "
+"the [final report](https://gitlab.tails.boum.org/tails/tails/uploads/"
+"df935595f41faa687805136a6bfa2910/tails-ros-penetration-test-report-1-2.pdf)."
+msgstr ""
+"Per protegir millor els nostres usuaris, vam abordar la majoria de les "
+"vulnerabilitats de seguretat tan bon punt van ser descobertes i informades, "
+"sense esperar que l'auditoria fos completa i pública. Ara podem compartir "
+"amb vosaltres l'[informe final](https://gitlab.tails.boum.org/tails/tails/"
+"uploads/df935595f41faa687805136a6bfa2910/tails-ros-penetration-test-"
+"report-1-2.pdf)."
+
+#. type: Plain text
+msgid "We are proud of the conclusion of the auditors:"
+msgstr "Estem orgullosos de la conclusió dels auditors:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"> ***Overall, the Tails operating system left a solid impression and addressed\n"
+"> most of the concerns of an average user in need of anonymity.***\n"
+">\n"
+"> *This is particularly evident in the isolation of various components by the\n"
+"> developers. For example, the configured AppArmor rules often prevented a\n"
+"> significant impact of the found vulnerabilities. Shifting to Wayland was a\n"
+"> good decision, as it provides more security by isolating individual GUI\n"
+"> applications.*\n"
+">\n"
+"> *All in all, no serious vulnerabilities were found through the integration\n"
+"> into Wayland. Unsafe Browser and Persistent Storage should now be less\n"
+"> vulnerable to attack, as all vulnerabilities have been fixed.*\n"
+msgstr ""
+"> ***En general, el sistema operatiu Tails ha deixat una impressió sòlida i "
+"s'aborden\n"
+"> la majoria de les preocupacions d'un usuari mitjà que necessita "
+"anonimat.***\n"
+">\n"
+"> *Això és especialment evident en l'aïllament de diversos components per "
+"part dels\n"
+"> desenvolupadors. Per exemple, les regles d'AppArmor configurades sovint "
+"impedeixen un\n"
+"> impacte significatiu de les vulnerabilitats trobades. El canvi a Wayland "
+"va ser una\n"
+"> bona decisió, ja que proporciona més seguretat aïllant aplicacions GUI\n"
+"> individuals.*\n"
+">\n"
+"> *En conjunt, no s'han trobat vulnerabilitats greus a través de la "
+"integració\n"
+"> a Wayland. El Navegador Insegur i l'Emmagatzematge Persistent ara haurien "
+"de ser menys\n"
+"> vulnerables als atacs, ja que totes les vulnerabilitats s'han solucionat.*"
+"\n"
+
+#. type: Plain text
+msgid ""
+"The auditors found 6 *High*, 1 *Moderate*, 3 *Low*-severity issues. Another "
+"issue was fixed before the actual impact was assessed and so marked as "
+"having *Unknown* severity."
+msgstr ""
+"Els auditors van trobar 6 problemes de gravetat *Alta*, 1 de *Moderada* i 3 "
+"de *Baixa*. Es va solucionar un altre problema abans que s'avalués l'impacte "
+"real i s'ha marcat com a de gravetat *Desconeguda*."
+
+#. type: Plain text
+msgid ""
+"We fixed all these issues as soon as possible and before making them public "
+"on our GitLab. The last issue was fixed in 5.14, 3 weeks after it was "
+"reported to us."
+msgstr ""
+"Hem solucionat tots aquests problemes tan aviat com hem pogut i abans de fer-"
+"los públics al nostre GitLab. L'últim problema es va solucionar a Tails "
+"5.14, tres setmanes després que se'ns informés."
+
+#. type: Plain text
+msgid ""
+"As good as the results of this audit are, they also serve as a reminder that "
+"no software is ever 100% secure and that every release of Tails can fix "
+"critical security vulnerabilities. Your best protection against all kinds of "
+"attack is to keep your Tails up-to-date."
+msgstr ""
+"Per molt bons que siguin els resultats d'aquesta auditoria, també serveixen "
+"com a recordatori que cap programari és mai 100% segur i que cada llançament "
+"de Tails pot solucionar vulnerabilitats de seguretat crítiques. La vostra "
+"millor protecció contra tot tipus d'atac és mantenir el vostre Tails "
+"actualitzat."
+
+#. type: Plain text
+msgid ""
+"Because at Tails we believe that transparency is key to building trust, all "
+"the code of our software is public and the results of this audit as well. "
+"You can find below a summary of all the issues and their fixes."
+msgstr ""
+"Perquè a Tails creiem que la transparència és clau per generar confiança, "
+"tot el codi del nostre programari és públic i els resultats d'aquesta "
+"auditoria també. A continuació podeu trobar un resum de tots els problemes i "
+"les seves resolucions."
+
+#. type: Title #
+#, no-wrap
+msgid "Detailed findings"
+msgstr "Descobriments detallats"
+
+#. type: Title ##
+#, no-wrap
+msgid "Tor integration"
+msgstr "Integració Tor"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>ID</th><th>Issue</th><th>Description</th><th>Impact</th><th>Status</th><th>Release</th></tr>\n"
+"<tr><td>TLS-012</td><td>[[!tails_ticket 19585]]</td><td>Leak clear IP as low-privileged user amnesia</td><td>High</td><td>Fixed</td><td>5.12</td></tr>\n"
+"<tr><td>TLS-013</td><td>[[!tails_ticket 19594]]</td><td>Local privilege escalation to Tor Connection sandbox</td><td>High</td><td>Fixed</td><td>5.12</td></tr>\n"
+"<tr><td>TLS-014</td><td>[[!tails_ticket 19595]]</td><td>Local privilege escalation to Tor Browser sandbox</td><td>Moderate</td><td>Fixed</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-017</td><td>[[!tails_ticket 19610]]</td><td>Insecure permissions of chroot overlay</td><td>Unknown</td><td>Fixed</td><td>5.13</td></tr>\n"
+"</table>\n"
+msgstr ""
+"<table>\n"
+"<tr><th>Identificació</th><th>Problema</th><th>Descripció</th><th>Impacte</th"
+"><th>Estat</th><th>Llançament</th></tr>\n"
+"<tr><td>TLS-012</td><td>[[!tails_ticket 19585]]</td><td>Filtració d'IP clara "
+"com a usuari amb privilegis baixos "
+"amnesia</td><td>Alt</td><td>Corregit</td><td>5.12</td></tr>\n"
+"<tr><td>TLS-013</td><td>[[!tails_ticket 19594]]</td><td>Escalada de "
+"privilegis locals al sandbox Connexió "
+"Tor</td><td>Alt</td><td>Corregit</td><td>5.12</td></tr>\n"
+"<tr><td>TLS-014</td><td>[[!tails_ticket 19595]]</td><td>Escalada de "
+"privilegis locals al sandbox del Navegador "
+"Tor</td><td>Moderat</td><td>Corregit</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-017</td><td>[[!tails_ticket 19610]]</td><td>Permisos insegurs de "
+"superposició chroot</td><td>Desconegut</td><td>Corregit</td><td>5."
+"13</td></tr>\n"
+"</table>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Persistent Storage"
+msgstr "Emmagatzematge Persistent"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>ID</th><th>Issue</th><th>Description</th><th>Impact</th><th>Status</th><th>Release</th></tr>\n"
+"<tr><td>TLS-003</td><td>[[!tails_ticket 19546]]</td><td>Local privilege escalation in Persistent folder activation hook</td><td>High</td><td>Fixed</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-004</td><td>[[!tails_ticket 19547]]</td><td>Symlink attack in Persistent folder deactivation hook</td><td>Low</td><td>Fixed</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-005</td><td>[[!tails_ticket 19548]]</td><td>Local privilege escalation in GnuPG feature activation hook</td><td>High</td><td>Fixed</td><td>5.11</td></tr>\n"
+"</table>\n"
+msgstr ""
+"<table>\n"
+"<tr><th>Identificació</th><th>Problema</th><th>Descripció</th><th>Impacte</th"
+"><th>Estat</th><th>Llançament</th></tr>\n"
+"<tr><td>TLS-003</td><td>[[!tails_ticket 19546]]</td><td>Escalada de "
+"privilegis locals a l'activació de carpetes "
+"persistents</td><td>Alt</td><td>Corregit</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-004</td><td>[[!tails_ticket 19547]]</td><td>Atac d'enllaç "
+"simbòlic a la desactivació de carpetes "
+"persistents</td><td>Baix</td><td>Corregit</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-005</td><td>[[!tails_ticket 19548]]</td><td>Escalada de "
+"privilegis locals a l'activació de la funció "
+"GnuPG</td><td>Alt</td><td>Corregit</td><td>5.11</td></tr>\n"
+"</table>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Core"
+msgstr "Nucli"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>ID</th><th>Issue</th><th>Description</th><th>Impact</th><th>Status</th><th>Release</th></tr>\n"
+"<tr><td>TLS-001</td><td>[[!tails_ticket 19464]]</td><td>Local privilege escalation in tails-shell-library</td><td>High</td><td>Fixed</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-009</td><td>[[!tails_ticket 19599]]</td><td>Man-in-the-middle attack on onion-grater service</td><td>Low</td><td>Fixed</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-011</td><td>[[!tails_ticket 19576]]</td><td>Limited path traversal in tails-documentation</td><td>Low</td><td>Fixed</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-019</td><td>[[!tails_ticket 19677]]</td><td>Local privilege escalation in tailslib leads to arbitrary file read</td><td>High</td><td>Fixed</td><td>5.14</td></tr>\n"
+"</table>\n"
+msgstr ""
+"<table>\n"
+"<tr><th>Identificació</th><th>Problema</th><th>Descripció</th><th>Impacte</th"
+"><th>Estat</th><th>Llançament</th></tr>\n"
+"<tr><td>TLS-001</td><td>[[!tails_ticket 19464]]</td><td>Escalada de "
+"privilegis locals a la biblioteca tails-shell-"
+"library</td><td>Alt</td><td>Corregit</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-009</td><td>[[!tails_ticket 19599]]</td><td>Atac d'home al mig "
+"al servei d'onion-grater</td><td>Baix</td><td>Corregit</td><td>5.13</td></tr>"
+"\n"
+"<tr><td>TLS-011</td><td>[[!tails_ticket 19576]]</td><td>Travessa del camí "
+"limitat a la documentació de tails</td><td>Baix</td><td>Corregit</td><td>5."
+"13</td></tr>\n"
+"<tr><td>TLS-019</td><td>[[!tails_ticket 19677]]</td><td>Escalada de "
+"privilegis locals a tailslib condueix a una lectura arbitrària del "
+"fitxer</td><td>Alt</td><td>Corregit</td><td>5.14</td></tr>\n"
+"</table>\n"

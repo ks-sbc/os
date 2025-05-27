@@ -1,0 +1,433 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-08-24 19:56+0000\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 5.1 is out\"]]\n"
+msgstr "[[!meta title=\"Tails 5.1\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sat, 04 Jun 2022 18:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 04 Jun 2022 18:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"This release fixes the security vulnerability in the JavaScript engine of "
+"*Firefox* and *Tor Browser* announced on [[May 24|security/"
+"prototype_pollution]]."
+msgstr ""
+"Aquesta versió corregeix la vulnerabilitat de seguretat del motor de "
+"JavaScript de *Firefox* i el *Navegador Tor* anunciada el [[24 de maig|"
+"security/prototype_pollution]]."
+
+#. type: Plain text
+msgid ""
+"This release was delayed from May 31 to June 5 because of a delay in the "
+"release of *Tor Browser* [11.0.14](https://blog.torproject.org/new-release-"
+"tor-browser-11014/)."
+msgstr ""
+"Aquesta versió s'ha retardat del 31 de maig al 5 de juny a causa d'un retard "
+"en el llançament del *Navegador Tor* [11.0.14](https://blog.torproject.org/"
+"new-release-tor-browser-11014/)."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Tor Connection assistant"
+msgstr "assistent de Connexió Tor"
+
+#. type: Plain text
+msgid "Tails 5.1 includes many improvements to the Tor Connection assistant:"
+msgstr "Tails 5.1 inclou moltes millores a l'assistent de Connexió Tor:"
+
+#. type: Bullet: '- '
+msgid ""
+"The *Tor Connection* assistant now automatically fixes the computer clock if "
+"you choose to connect to Tor automatically."
+msgstr ""
+"L'assistent de *Connexió Tor* ara corregeix automàticament el rellotge de "
+"l'ordinador si trieu connectar-vos a Tor automàticament."
+
+#. type: Plain text
+#, no-wrap
+msgid "  This makes is much easier for people in Asia to circumvent censorship.\n"
+msgstr ""
+"  Això fa que sigui molt més fàcil per a la gent a Àsia eludir la censura.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  Tails learns the current time by connecting to the captive portal detection\n"
+"  service of [Fedora](https://getfedora.org/), which is used by most Linux\n"
+"  distributions. This connection does not go through the Tor network and is an\n"
+"  exception to our policy of only making Internet connections through the Tor\n"
+"  network.\n"
+msgstr ""
+"  Tails determina l'hora actual connectant-se al servei de detecció del "
+"portal\n"
+"  captiu de [Fedora](https://getfedora.org/), que és utilitzat per la "
+"majoria de distribucions\n"
+"  Linux. Aquesta connexió no passa per la xarxa Tor i és una\n"
+"  excepció a la nostra política de fer connexions a Internet només a través "
+"de la xarxa\n"
+"  Tor.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  <div class=\"next\">\n"
+msgstr "  <div class=\"next\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  <p>You can learn more about our security assessment of this time\n"
+"  synchronization in our [[design documentation about non-Tor\n"
+"  traffic|contribute/design/Tor_enforcement#non-tor-traffic]].</p>\n"
+msgstr ""
+"  <p>Podeu obtenir més informació sobre la nostra avaluació de seguretat d'"
+"aquesta\n"
+"  sincronització de l'hora a la nostra [[documentació de disseny sobre "
+"trànsit\n"
+"  que no passa per Tor|contribute/design/Tor_enforcement#non-tor-"
+"traffic]].</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  </div>\n"
+msgstr "  </div>\n"
+
+#. type: Bullet: '- '
+msgid ""
+"The time displayed in the top navigation uses the time zone selected when "
+"fixing the clock in the *Tor Connection* assistant."
+msgstr ""
+"L'hora que es mostra a la navegació superior utilitza la zona horària "
+"seleccionada en arreglar el rellotge a l'assistent de *Connexió Tor*."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  In the future, we will make it possible to change the displayed time zone for\n"
+"  everybody from the desktop ([[!tails_ticket 10819]]) and store it in the\n"
+"  Persistent Storage ([[!tails_ticket 12094]]).\n"
+msgstr ""
+"  En un futur, farem possible canviar la zona horària que es mostra per a\n"
+"  tothom des de l'escriptori ([[!tails_ticket 10819]]) i desar-la a\n"
+"  l'Emmagatzematge Persistent ([[!tails_ticket 12094]]).\n"
+
+#. type: Bullet: '- '
+msgid ""
+"The last screen of the *Tor Connection* assistant makes it clear whether you "
+"are connected using Tor bridges or not."
+msgstr ""
+"L'última pantalla de l'assistent de *Connexió Tor* deixa clar si us esteu "
+"connectat mitjançant ponts de Tor o no."
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img bridges.png link=\"no\" alt=\"Connected to Tor successfully with bridges\"]]\n"
+msgstr ""
+"  [[!img bridges.png link=\"no\" alt=\"Connectat a Tor amb èxit mitjançant "
+"ponts\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "*Unsafe Browser* and captive portals"
+msgstr "*Navegador Insegur* i portals captius"
+
+#. type: Bullet: '- '
+msgid ""
+"We wrote a new homepage for the *Unsafe Browser* when you are not connected "
+"to the Tor network yet. This new version makes it easier to understand how "
+"to sign in to the network using a captive portal."
+msgstr ""
+"Hem escrit una nova pàgina d'inici per al *Navegador Insegur* quan encara no "
+"esteu connectat a la xarxa Tor. Aquesta nova versió facilita la comprensió "
+"de com iniciar la sessió a la xarxa mitjançant un portal captiu."
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img doc/anonymous_internet/unsafe_browser/captive_portal.svg link=\"no\" alt=\"Example of captive portal: Free Wi-Fi hotspot\"]]\n"
+msgstr ""
+"  [[!img doc/anonymous_internet/unsafe_browser/captive_portal.svg link=\"no\""
+" alt=\"Exemple de portal captiu: punt d'accés Wi-Fi gratuït\"]]\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Tails now asks for confirmation before restarting when the *Unsafe Browser* "
+"was not enabled in the Welcome Screen. This prevents losing work too easily."
+msgstr ""
+"Tails ara demana confirmació abans de reiniciar quan el *Navegador Insegur* "
+"no estava habilitat a la Pantalla de Benvinguda. Això evita perdre feina amb "
+"massa facilitat."
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img confirmation.png link=\"no\" alt=\"\"]]\n"
+msgstr "  [[!img confirmation.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Kleopatra"
+msgstr "Kleopatra"
+
+#. type: Plain text
+msgid "- Associate OpenPGP files with *Kleopatra* in the *Files* browser."
+msgstr "- Associeu fitxers OpenPGP amb *Kleopatra* al navegador de *Fitxers*."
+
+#. type: Plain text
+#, no-wrap
+msgid "  You can now double-click on `.gpg` files to decrypt them.\n"
+msgstr "  Ara podeu fer doble clic als fitxers `.gpg` per desencriptar-los.\n"
+
+#. type: Plain text
+msgid "- Add *Kleopatra* to the Favorites applications."
+msgstr "- S'ha afegit *Kleopatra* a les aplicacions Preferides."
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img favorites.png link=\"no\" alt=\"\"]]\n"
+msgstr "  [[!img favorites.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Included software"
+msgstr "Programari inclòs"
+
+#. type: Plain text
+msgid "- Update *tor* to 0.4.7.7."
+msgstr "- S'ha actualitzat *Tor* a la versió 0.4.7.7."
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [11.0.14](https://blog.torproject.org/new-release-"
+"tor-browser-11014/)."
+msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [11.0.14](https://blog."
+"torproject.org/new-release-tor-browser-11014/)."
+
+#. type: Plain text
+msgid ""
+"- Update *Thunderbird* to [91.9](https://www.thunderbird.net/en-US/"
+"thunderbird/91.9.0/releasenotes/)."
+msgstr ""
+"- S'ha actualitzat el *Thunderbird* a la versió [91.9](https://www."
+"thunderbird.net/en-US/thunderbird/91.9.0/releasenotes/)."
+
+#. type: Bullet: '- '
+msgid ""
+"Update the *Linux* kernel to 5.10.113. This should improve the support for "
+"newer hardware: graphics, Wi-Fi, and so on."
+msgstr ""
+"S'ha actualitzat el nucli de Linux* a la versió 5.10.113. Això hauria de "
+"millorar la compatibilitat amb el maquinari més nou: gràfics, Wi-Fi, etc."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Remove the automatic selection of the option **Configure a bridge** when "
+"rolling back from the option to hide that you are connecting to Tor.  ([[!"
+"tails_ticket 18546]])"
+msgstr ""
+"S'ha eliminat la selecció automàtica de l'opció **Configura un pont** quan "
+"torneu enrere des de l'opció per ocultar que us esteu connectant a Tor. ([["
+"!tails_ticket 18546]])"
+
+#. type: Bullet: '- '
+msgid ""
+"Give the same instructions on both screens where you have to configure a "
+"bridge. ([[!tails_ticket 18596]])"
+msgstr ""
+"Ara es donen les mateixes instruccions a les dues pantalles on s'ha de "
+"configurar un pont. ([[!tails_ticket 18596]])"
+
+#. type: Bullet: '- '
+msgid ""
+"Help rename the default *KeePassXC* database to open it automatically in the "
+"future. ([[!tails_ticket 18966]])"
+msgstr ""
+"S'ajuda a canviar el nom de la base de dades predeterminada *KeePassXC* per "
+"obrir-la automàticament en el futur. ([[!tails_ticket 18966]])"
+
+#. type: Bullet: '- '
+msgid ""
+"Fix sharing files using *OnionShare* from the *Files* browser.  ([[!"
+"tails_ticket 18990]])"
+msgstr ""
+"S'ha corregit l'ús compartit de fitxers mitjançant *OnionShare* des del "
+"navegador de *Fitxers*. ([[!tails_ticket 18990]])"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img onionshare.png link=\"no\" alt=\"Share via OnionShare\"]]\n"
+msgstr ""
+"  [[!img onionshare.png link=\"no\" alt=\"Comparteix amb OnionShare\"]]\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Disable search providers in the Activities overview: files, calculator, and "
+"terminal. ([[!tails_ticket 18952]])"
+msgstr ""
+"S'han desactivat els proveïdors de cerca a la visió general d'Activitats: "
+"fitxers, calculadora i terminal. ([[!tails_ticket 18952]])"
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
+"\"]]."
+msgstr ""
+"Per a més detalls, llegiu el nostre [[!tails_gitweb debian/changelog desc="
+"\"registre de canvis\"]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
+
+#. type: Plain text
+msgid "None specific to this release."
+msgstr "Cap específic d'aquesta versió."
+
+#. type: Plain text
+msgid "See the list of [[long-standing issues|support/known_issues]]."
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.1</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 5.1</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 5.0."
+msgstr "- Les actualitzacions automàtiques estan disponibles des de Tails 5.0."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+"  Podeu [[reduir la mida de la baixada|doc/upgrade#reduce]] de futures\n"
+"  actualitzacions automàtiques fent una actualització manual a la darrera "
+"versió.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr "Per instal·lar Tails en un nou llapis USB"
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Windows|install/windows]]"
+msgstr "[[Instal·lar des de Windows|install/windows]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from macOS|install/mac]]"
+msgstr "[[Instal·lar des de macOS|install/mac]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Linux|install/linux]]"
+msgstr "[[Instal·lar des de Linux|install/linux]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr "Per només baixar"
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.1 directly:"
+msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.1 directament:"
+
+#. type: Bullet: '  - '
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
+
+#. type: Bullet: '  - '
+msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"next\">What's coming up?</h1>\n"
+msgstr "<h1 id=\"next\">Què ve?</h1>\n"
+
+#. type: Plain text
+msgid "Tails 5.2 is [[scheduled|contribute/calendar]] for June 28."
+msgstr "Tails 5.2 està [[programat|contribute/calendar]] per al 28 de juny."

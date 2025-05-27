@@ -1,0 +1,23 @@
+[[!meta title="Installing additional fonts"]]
+
+You can install additional fonts in Tails to use in *LibreOffice*, *Inkscape*, or *GIMP*.
+
+To do so:
+
+1. Turn on the [[Dotfiles|persistent_storage/configure#dotfiles]] feature of
+   the Persistent Storage.
+
+1. Choose **Places&nbsp;▸ Dotfiles** from the top navigation bar to open the
+   *Dotfiles* folder in the *Files* browser.
+
+1. Choose **[[!img lib/open-menu.png alt="Menu" class="symbolic"
+   link="no"]]&nbsp;▸ Show Hidden Files** in the *Files* browser to display
+   hidden files and folders.
+
+1. Create a new folder named *.fonts* (notice the `.`) in this *Dotfiles* folder.
+
+1. Store the fonts that you want to persist in this *.fonts* folder.
+
+   You can store TTF and ODT fonts.
+
+1. Restart Tails.

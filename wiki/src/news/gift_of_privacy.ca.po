@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-10-28 23:12+0000\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Make the gift of privacy!\"]]\n"
+msgstr "[[!meta title=\"Feu el regal de la privadesa!\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sat, 28 Oct 2023 23:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 28 Oct 2023 23:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"With malicious actors’ intrusions into human rights growing in "
+"sophistication and scale, Tails offers hope for those seeking refuge in a "
+"more secure digital environment. We stand on the precipice of a future where "
+"digital privacy should be a fundamental right, not a luxury."
+msgstr ""
+"Amb les intrusions d'agents maliciosos en els drets humans creixent en "
+"sofisticació i escala, Tails ofereix esperança per a aquells que busquen "
+"refugi en un entorn digital més segur. Estem al precipici d'un futur on la "
+"privadesa digital hauria de ser un dret fonamental, no un luxe."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img donate/godzilla.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img donate/godzilla.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Since we started in 2008, millions of people around the world have used "
+"Tails to be more secure, autonomous, and anonymous in their digital lives."
+msgstr ""
+"Des que vam començar l'any 2008, milions de persones a tot el món han "
+"utilitzat Tails per ser més segurs, autònoms i anònims en la seva vida "
+"digital."
+
+#. type: Plain text
+msgid ""
+"We have come so far thanks to you, and need your support to continue to do "
+"what we do best: deliver the world's most privacy-preserving operating "
+"system!"
+msgstr ""
+"Hem arribat fins aquí gràcies a vosaltres i necessitem el vostre suport per "
+"continuar fent el que millor sabem fer: oferir el sistema operatiu que més "
+"preserva la privadesa del món!"
+
+#. type: Plain text
+msgid ""
+"Your donations a lion's share [[of our income|donate#income]]. But, this "
+"share has reduced in the last couple of years. Globally, philanthropic "
+"giving has fallen, in what is yet another symptom of the challenging "
+"political and economic conditions we find ourselves in. But this hasn’t "
+"tempered our ambitions. Despite these challenges, Tails has gotten bigger "
+"and better over the past year. We have spent more time improving Tails this "
+"year than any previous year. But to achieve this, we have relied a bit more "
+"on support from large, institutional donors."
+msgstr ""
+"Les vostres donacions són una part molt important [[dels nostres "
+"ingressos|donate#income]]. Però aquesta quota s'ha reduït en els darrers dos "
+"anys. A nivell mundial, la donació filantròpica ha caigut, en el que és un "
+"símptoma més de les difícils condicions polítiques i econòmiques en què ens "
+"trobem. Però això no ha temperat les nostres ambicions. Malgrat aquests "
+"reptes, Tails s'ha fet més gran i millor durant l'últim any. Hem dedicat més "
+"temps a millorar Tails aquest any que qualsevol altre any anterior. Però per "
+"aconseguir-ho, hem confiat una mica més en el suport de grans donants "
+"institucionals."
+
+#. type: Plain text
+msgid ""
+"While we are grateful for the support and generosity of our \"large\" "
+"donors, we want to keep our reliance on them to a minimum. We are betting on "
+"having diversified income streams as our insurance from economic volatility "
+"and assurance of growing Tails sustainably and with complete decisional "
+"autonomy.  Although, this means that we rely on you even more. And hence "
+"this fundraiser!"
+msgstr ""
+"Tot i que agraïm el suport i la generositat dels nostres “grans” donants, "
+"volem mantenir la nostra confiança en ells al mínim. Apostem per tenir "
+"ingressos diversificats com a assegurança de la volatilitat econòmica i la "
+"garantia de fer créixer Tails de manera sostenible i amb total autonomia de "
+"decisió. Tot i que això vol dir que confiem encara més en vosaltres. I "
+"d'aquí aquesta recaptació de fons!"
+
+#. type: Plain text
+msgid ""
+"Our goal is clear: to make Tails even more useful for vulnerable people in "
+"high-risk environments. And we want to do this while remaining as autonomous "
+"as our users are."
+msgstr ""
+"El nostre objectiu és clar: fer que Tails sigui encara més útil per a "
+"persones vulnerables en entorns d'alt risc. I ho volem fer tot mantenint la "
+"mateixa autonomia com ho són els nostres usuaris."
+
+#. type: Plain text
+msgid ""
+"The proceeds from this fundraiser will drive initiatives that will make "
+"Tails even more usable and secure. We want to add new, big features to "
+"Tails, enhance user experience with even more usability tests, and increase "
+"Tails’ use in more geographies around the world."
+msgstr ""
+"Els ingressos d'aquesta recaptació de fons impulsaran iniciatives que faran "
+"que Tails sigui encara més utilitzable i segur. Volem afegir funcionalitats "
+"noves i grans a Tails, millorar l'experiència d'usuari amb encara més proves "
+"d'usabilitat i augmentar l'ús de Tails a més ubicacions d'arreu del món."
+
+#. type: Plain text
+msgid ""
+"Every donation, no matter how small, makes a difference. Please donate today "
+"and help us keep Tails alive and well in 2024 and beyond! Here are 5 ways "
+"you can get involved:"
+msgstr ""
+"Cada donació, per petita que sigui, marca la diferència. Si us plau, feu una "
+"donació avui i ajudeu-nos a mantenir Tails sa i estalvi el 2024 i durant els "
+"pròxims anys! Aquí teniu cinc maneres de participar:"
+
+#. type: Bullet: '1. '
+msgid ""
+"<b>By making a recurring donation.</b> [[Recurring donations|donate]] are "
+"the best insurance for Tails' mission. These help us weather economic "
+"uncertainties and plan our work sustainably."
+msgstr ""
+"<b>Fent una donació recurrent.</b> Les [[donacions recurrents|donate]] són "
+"la millor assegurança per a la missió de Tails. Això ens ajuda a superar les "
+"incerteses econòmiques i a planificar el nostre treball de manera sostenible."
+
+#. type: Bullet: '2. '
+msgid ""
+"<b>With a one-time gift.</b> If you can't set-up a recurring donation, you "
+"can make a [[one-time donation|donate]]. Donate via PayPal, bank transfers, "
+"mail in your checks, or just send us good, old cash. Here's a pro-tip: "
+"donations of over $1&#8239;000 entitle you to some neat [[sponsorship "
+"benefits|sponsors/become]]."
+msgstr ""
+"<b>Amb un regal únic.</b> Si no podeu configurar una donació recurrent, "
+"podeu fer una [[donació única|donate]]. Feu una donació mitjançant PayPal, "
+"transferències bancàries, envieu els vostres xecs per correu o simplement "
+"envieu-nos diners en efectiu. Aquí teniu una dada útil: les donacions de més "
+"de 1&#8239;000$ us donen dret a alguns [[avantatges de patrocini|sponsors/"
+"become]]."
+
+#. type: Bullet: '3. '
+msgid ""
+"<b>Through cryptocurrency.</b> We accept [[crypto donations|donate]] in "
+"Bitcoin, Ethereum, and Monero."
+msgstr ""
+"<b>A través de criptomoneda.</b> Acceptem [[donacions de "
+"criptomoneda|donate]] en Bitcoin, Ethereum i Monero."
+
+#. type: Bullet: '4. '
+msgid ""
+"<b>Gift matching.</b> If your employer runs gift-matching programmes, "
+"consider looking up <b>Riseup Labs</b> and donate to <b>Tails via Riseup "
+"Labs</b>. Riseup Labs is our fiscal sponsor in the United States of America."
+msgstr ""
+"<b>Combinació de regals.</b> Si el vostre patró gestiona programes de "
+"combinació de regals, penseu a buscar <b>Riseup Labs</b> i feu una donació a "
+"<b>Tails mitjançant Riseup Labs</b>. Riseup Labs és el nostre patrocinador "
+"fiscal als Estats Units d'Amèrica."
+
+#. type: Bullet: '5. '
+msgid ""
+"<b>Spread the word.</b> And finally, please share this fundraiser with your "
+"network, friends, and colleagues. Help us amplify our impact by reaching a "
+"wider audience!"
+msgstr ""
+"<b>Compartiu-ho.</b> I, finalment, compartiu aquesta recaptació de fons amb "
+"la vostra xarxa, amics i companys. Ajudeu-nos a amplificar el nostre impacte "
+"arribant a un públic més ampli!"
+
+#. type: Plain text
+msgid ""
+"Thank you for being part of this journey and a toast to our future "
+"adventures together! Oh, and in case you have somehow managed to skip over "
+"all the links to our donations page so far, here it is: <https://tails.net/"
+"donate/>."
+msgstr ""
+"Gràcies per formar part d'aquest viatge i un brindis per les nostres futures "
+"aventures conjuntes! Ah, i per si d'alguna manera heu aconseguit saltar-vos "
+"tots els enllaços a la nostra pàgina de donacions fins ara, aquí la teniu: "
+"<https://tails.net/donate/index.ca.html>."

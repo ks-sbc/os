@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-04-05 02:50+0000\n"
+"PO-Revision-Date: 2025-03-06 14:56+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: Spanish <http://translate.tails.net/projects/tails/"
+"new_project_name/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Wed, 07 Apr 2010 18:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Wed, 07 Apr 2010 18:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "*amnesia* is now to be called *The (Amnesic) Incognito Live System*.\n"
+msgstr "*amnesia* se llama a partir de ahora *The (Amnesic) Incognito Live System*.\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The Incognito author [has declared it to be dead](http://www."
+#| "anonymityanywhere.com/incognito/) on March 23, 2010, and written that "
+#| "*amnesia* \"should be considered as its spiritual successor\". He adds "
+#| "that \"there's been some talk of making it the new Incognito even by "
+#| "name\". It did happen."
+msgid ""
+"The Incognito author has declared it to be dead on March 23, 2010, and "
+"written that *amnesia* \"should be considered as its spiritual successor\". "
+"He adds that \"there's been some talk of making it the new Incognito even by "
+"name\". It did happen."
+msgstr ""
+"El autor de Incognito [lo ha declarado muerto](http://www.anonymityanywhere."
+"com/incognito/) el 23 de marzo de 2010 y escribió que *amnesia* \"debe ser "
+"considerada como su sucesora espiritual\". Añade que \"se ha hablado de "
+"convertirlo en el nuevo Incognito incluso por el nombre\". Sucedió."
+
+#. type: Plain text
+msgid ""
+"A new release will happen soon, that will not only reflect the name change, "
+"but also fix a bunch of annoying bugs and bring a few new features."
+msgstr ""
+"Pronto se producirá una nueva versión que no solo reflejará el cambio de "
+"nombre, sino que también corregirá un montón de errores molestos y traerá "
+"algunas funcionalidades nuevas."

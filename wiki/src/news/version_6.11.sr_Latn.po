@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-01-09 10:02+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sr_Latn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 6.11\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Thu, 09 Jan 2025 00:00:00 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"security\">Critical security fixes</h1>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"attack\">\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>The vulnerabilities described below were identified during an external\n"
+"security audit by <a href=\"https://www.radicallyopensecurity.com/\">Radically\n"
+"Open Security</a> and disclosed responsibly to our team. We are not aware of\n"
+"these attacks being used against Tails users until now.</p>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>These vulnerabilities can only be exploited by a powerful attacker who has\n"
+"already exploited another vulnerability to take control of an application in\n"
+"Tails.</p>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>If you want to be extra careful and used Tails a lot since January 9 without\n"
+"upgrading, we recommend that you do a [[manual upgrade|upgrade/#manual]]\n"
+"instead of an automatic upgrade.</p>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Prevent an attacker from installing malicious software permanently. ([[!"
+"tails_ticket 20701]])"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  In Tails 6.10 or earlier, an attacker who has already taken control of an\n"
+"  application in Tails could then exploit a vulnerability in *Tails Upgrader*\n"
+"  to install a malicious upgrade and permanently take control of your Tails.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  Doing a [[manual upgrade|upgrade/#manual]] would erase such malicious software.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Prevent an attacker from monitoring online activity. ([[!tails_ticket "
+"20709]] and [[!tails_ticket 20702]])"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  In Tails 6.10 or earlier, an attacker who has already taken control of an\n"
+"  application in Tails could then exploit vulnerabilities in other applications\n"
+"  that might lead to deanonymization or the monitoring of browsing activity:\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid ""
+"In *Onion Circuits*, to get information about Tor circuits and close them."
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid ""
+"In *Unsafe Browser*, to connect to the Internet without going through Tor."
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "In *Tor Browser*, to monitor your browsing activity."
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid ""
+"In *Tor Connection*, to reconfigure or block your connection to the Tor "
+"network."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Prevent an attacker from changing the Persistent Storage settings. ([[!"
+"tails_ticket 20710]])"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2>Detection of partitioning errors</h2>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Sometimes, the partitions on a Tails USB stick get corrupted. This creates "
+"errors with the Persistent Storage or during upgrades. Partitions can get "
+"corrupted because of broken or counterfeit hardware, software errors, or "
+"physically removing the USB stick while Tails is running."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Tails now warns about such partitioning errors earlier. For example, if "
+"partitioning errors are detected when there is no Persistent Storage, Tails "
+"recommends that you reinstall or use a new USB stick."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img partitioning_errors.png link=\"no\" alt=\"Warning in the Welcome Screen: Errors were detected in the partitioning of your Tails USB stick.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [14.0.4](https://blog.torproject.org/new-release-"
+"tor-browser-1404)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Update *Thunderbird* to [128.5.0esr](https://www.thunderbird.net/en-US/"
+"thunderbird/128.5.0esr/releasenotes/)."
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Remove support for hardware wallets in *Electrum*. Trezor wallets stopped "
+"working in Debian 12 (Bookworm), and so in Tails 6.0 or later."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Disable *GNOME Text Editor* from reopening on the last file. ([[!"
+"tails_ticket 20704]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Add a link to the *Tor Connection* assistant from the menu of the Tor status "
+"icon on the desktop."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Make it easier for our team to find useful information in *WhisperBack* "
+"reports."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 6.11</h1>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 6.0 or later to 6.11."
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails 6.11 on a new USB stick"
+msgstr ""
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 6.11 directly:"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr ""

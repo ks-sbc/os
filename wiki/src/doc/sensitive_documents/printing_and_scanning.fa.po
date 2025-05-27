@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-01-07 18:09+0000\n"
+"PO-Revision-Date: 2015-10-14 08:42+0000\n"
+"Last-Translator: sprint5 <translation5@451f.org>\n"
+"Language-Team: Persian <http://weblate.451f.org:8889/projects/tails/"
+"printing_and_scanning/fa/>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4-dev\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Printing and scanning\"]]\n"
+msgstr "[[!meta title=\"چاپ کردن و اسکن کردن\"]]\n"
+
+#. type: Title =
+#, fuzzy, no-wrap
+msgid "Printing"
+msgstr "چاپ کردن\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+msgid ""
+"To configure a printer or manage your printing jobs choose\n"
+"<span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">System Tools</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Settings</span></span>&nbsp;▸\n"
+"  <span class=\"bold\">Printers</span></span>.\n"
+msgstr ""
+"برای پیکربندی یک چاپ‌گر یا مدیریت چیزهایی که می‌خواهید چاپ کنید از این مسیر بروید:\n"
+"<span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">ابزارها</span>&nbsp;◀\n"
+"  <span class=\"guisubmenu\">ابزارهای سیستمی</span>&nbsp;◀\n"
+"  <span class=\"guisubmenu\">ترجیحات</span>&nbsp;◀\n"
+"  <span class=\"guimenuitem\">تنظیمات سیستمی</span></span>&nbsp;◀\n"
+"  <span class=\"bold\">چاپ‌گرها</span></span>.\n"
+
+#. type: Plain text
+#, fuzzy
+msgid ""
+"To check the compatibility of your printer with Linux and Tails, consult the "
+"[OpenPrinting database](https://openprinting.github.io/printers/) of the "
+"Linux Foundation."
+msgstr ""
+"برای بررسی سازگاری چاپ‌گر خود با لینوکس و تیلز از [پایگاه داده‌های "
+"OpenPrinting](https://www.openprinting.org/printers) بنیاد لینوکس استفاده "
+"کنید."
+
+#. type: Plain text
+#, fuzzy, no-wrap
+msgid ""
+"<div class=\"tip\">\n"
+"<p>To reuse the configuration of your printers across different working\n"
+"sessions, turn on the [[Printers|persistent_storage/configure#printers]]\n"
+"feature of the Persistent Storage.</p>\n"
+"</div>\n"
+msgstr ""
+"<div class=\"tip\">\n"
+"برای استفادهٔ دوباره از پیکربندی چاپ‌گرها در نشست‌های کاری مختلف\n"
+"می‌توانید ویژگی [[<span class=\"guilabel\">چاپ‌گر</span>\n"
+"مانا|doc/first_steps/persistence/configure/#printers]]\n"
+"را فعال کنید.\n"
+"</div>\n"
+
+#. type: Title =
+#, fuzzy, no-wrap
+msgid "Scanning"
+msgstr "اسکن کردن\n"
+
+#. type: Plain text
+#, fuzzy
+msgid ""
+"Tails includes the [*Document Scanner*](https://gitlab.gnome.org/GNOME/"
+"simple-scan)  utility to scan documents and photos."
+msgstr ""
+"تیلز دارای <span class=\"application\">[سیمپل\n"
+"اسکن](https://launchpad.net/simple-scan)</span>، ابزاری برای اسکن کردن\n"
+"عکس‌ها و سندها است.\n"
+
+#. type: Plain text
+msgid ""
+"To start *Document Scanner*, choose **Applications**&nbsp;▸ "
+"**Utilities**&nbsp;▸ **Document Scanner**."
+msgstr ""
+
+#, fuzzy, no-wrap
+#~ msgid ""
+#~ "To start <span class=\"application\">Simple Scan</span> choose\n"
+#~ "<span class=\"menuchoice\">\n"
+#~ "  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+#~ "  <span class=\"guisubmenu\">Graphics</span>&nbsp;▸\n"
+#~ "  <span class=\"guimenuitem\">Simple Scan</span></span>.\n"
+#~ msgstr ""
+#~ "برای راه‌اندازی <span class=\"application\">سیمپل اسکن</span> از این مسیر بروید:\n"
+#~ "<span class=\"menuchoice\">\n"
+#~ "  <span class=\"guimenu\">ابزارها</span>&nbsp;◀\n"
+#~ "  <span class=\"guisubmenu\">گرافیک‌ها</span>&nbsp;◀\n"
+#~ "  <span class=\"guimenuitem\">سیمپل اسکن</span></span>.\n"

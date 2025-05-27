@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-10-14 21:01+0000\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 6.8.1\"]]\n"
+msgstr "[[!meta title=\"Tails 6.8.1\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Thu, 10 Oct 2024 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Thu, 10 Oct 2024 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"This release is an emergency release to fix a critical security "
+"vulnerability in *Tor Browser*."
+msgstr ""
+"Aquesta versió és una versió d'emergència per solucionar una vulnerabilitat "
+"de seguretat crítica al *Navegador Tor*."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Update *Tor Browser* to [13.5.7](https://blog.torproject.org/new-release-tor-"
+"browser-1357), which fixes [MFSA 2024-51](https://www.mozilla.org/en-US/"
+"security/advisories/mfsa2024-51/), a major use-after-free vulnerability. "
+"Using this vulnerability, an attacker could take control of *Tor Browser*, "
+"but probably not deanonymize you in Tails."
+msgstr ""
+"S'ha actualitzat el *Navegador Tor* a la versió [13.5.7](https://blog."
+"torproject.org/new-release-tor-browser-1357), que corregeix [MFSA "
+"2024-51](https://www.mozilla.org/en-US/security/advisories/mfsa2024-51/), "
+"una vulnerabilitat crítica d'ús de memòria alliberada (use-after-free). "
+"Utilitzant aquesta vulnerabilitat, un atacant podria prendre el control del *"
+"Navegador Tor*, però probablement no desanonimitzar-vos a Tails."
+
+#. type: Plain text
+#, no-wrap
+msgid "  <div class=\"attack\">\n"
+msgstr "  <div class=\"attack\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  <p>Mozilla is aware of this attack being used <a href=\"https://blog.mozilla.org/security/2024/10/11/behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">in the wild</a>.</p>\n"
+msgstr ""
+"  <p>Mozilla té constància que aquest atac ha estat <a href=\"https://blog."
+"mozilla.org/security/2024/10/11/"
+"behind-the-scenes-fixing-an-in-the-wild-firefox-exploit/\">explotat</a>.</p>"
+"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  </div>\n"
+msgstr "  </div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+"Per a més detalls, llegiu el nostre [[!tails_gitweb debian/changelog desc="
+"\"registre de canvis\"]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 6.8.1</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 6.8.1</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 6.0 or later to 6.8.1."
+msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 6.0 o "
+"posterior a la versió 6.8.1."
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails 6.8.1 on a new USB stick"
+msgstr "Per instal·lar Tails 6.8.1 en un nou llapis USB"
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
+
+#. type: Plain text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr "- [[Instal·lar des de Windows|install/windows]]"
+
+#. type: Plain text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr "- [[Instal·lar des de macOS|install/mac]]"
+
+#. type: Plain text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr "- [[Instal·lar des de Linux|install/linux]]"
+
+#. type: Plain text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+"- [[Instal·lar des de Debian o Ubuntu usant la línia d'ordres i GnuPG|"
+"install/expert]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr "Per només baixar"
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 6.8.1 directly:"
+msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 6.8.1 directament:"
+
+#. type: Plain text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr "- [[Per a llapis USB (imatge USB)|install/download]]"
+
+#. type: Plain text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "- [[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"

@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-10-31 09:58+0100\n"
+"PO-Revision-Date: 2025-04-17 17:39+0000\n"
+"Last-Translator: Chre <tor@renaudineau.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta title=\"Tails 5.19\"]]\n"
+msgstr "[[!meta title=\"Tails 5.19\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta date=\"Tue, 31 Oct 2023 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 31 Oct 2023 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr "<h1 id=\"features\">Nouvelles fonctionnalités</h1>\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h2>Closing a Tor circuit from <i>Onion Circuits</i></h2>\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"You can now close a given Tor circuit from the *Onion Circuits* "
+"interface. This can help replace a particularly slow Tor circuit or "
+"troubleshoot issues on the Tor network."
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!img close_circuit.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img close_circuit.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+#, markdown-text
+msgid "To close a Tor circuit:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#, markdown-text
+msgid "[[Connect to the Tor network.|doc/anonymous_internet/tor]]"
+msgstr ""
+
+#. type: Bullet: '1. '
+#, markdown-text
+msgid ""
+"Choose [[!img lib/symbolic/tor-connected.png alt=\"Tor status menu\" "
+"link=\"no\" class=\"symbolic\"]]&nbsp;▸ **Open Onion Circuits** in the top "
+"navigation bar."
+msgstr ""
+
+#. type: Bullet: '1. '
+#, markdown-text
+msgid ""
+"Right-click (on Mac, click with two fingers) on the circuit that you want to "
+"close."
+msgstr ""
+"Faites un clic droit (sur Mac, cliquez avec deux doigts) sur le circuit que "
+"vous voulez fermer."
+
+#. type: Bullet: '1. '
+#, markdown-text
+msgid "Choose **Close this circuit** in the shortcut menu."
+msgstr "Choisissez **Close this circuit** dans le menu de raccourci."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"   When you close a circuit that is being used by an application, your\n"
+"   application gets disconnected from this destination service.\n"
+msgstr ""
+"   Quand vous fermez un circuit utilisé par une application, votre\n"
+"   application est déconnectée de ce service de destination.\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"   For example, when you close a circuit while <i>Tor Browser</i> is\n"
+"   downloading a file, the download fails.\n"
+msgstr ""
+"   Par exemple, lorsque vous fermez un circuit pendant que le <i>Navigateur "
+"Tor</i>\n"
+"   télécharge un fichier, le téléchargement échoue.\n"
+
+#. type: Bullet: '1. '
+#, markdown-text
+msgid ""
+"If you connect to the same destination server again, Tor uses a different "
+"circuit to replace the circuit that you closed."
+msgstr ""
+"Si vous vous connectez à nouveau au même serveur de destination, Tor utilise "
+"un circuit différent pour remplacer celui que vous avez fermé."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"   For example, if you download the same file again, Tor uses a new "
+"circuit.\n"
+msgstr ""
+"   Par exemple, si vous téléchargez à nouveau le même fichier, Tor utilise "
+"un nouveau circuit.\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h2>Addition of <span class=\"code\">sq-keyring-linter</span></h2>\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"At the request of people who use [SecureDrop](https://securedrop.org/) to "
+"provide secure whistleblowing platforms across the world, we added the "
+"[`sq-keyring-linter`](https://tracker.debian.org/pkg/rust-sequoia-keyring-linter)  "
+"package. `sq-keyring-linter` improves the cryptographic parameters of PGP "
+"keys stored in their airgapped machines."
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Changements et mises à jour</h1>\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- Update *Tor Browser* to "
+"[13.0.1](https://blog.torproject.org/new-release-tor-browser-1301)."
+msgstr ""
+"- Mise à jour du *Navigateur Tor* vers la version [13.0.1](https://blog."
+"torproject.org/new-release-tor-browser-1301)."
+
+#. type: Plain text
+#, markdown-text
+msgid "- Update the *Tor* client to 0.4.8.7."
+msgstr "- Mise à jour du client *Tor* vers la version 0.4.8.7."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- Update *Thunderbird* to "
+"[115.4.1](https://www.thunderbird.net/en-US/thunderbird/115.4.1/releasenotes/)."
+msgstr ""
+"- Mise à jour de *Thunderbird* vers la version [115.4.1](https://www."
+"thunderbird.net/en-US/thunderbird/115.4.1/releasenotes/)."
+
+#. type: Plain text
+#, markdown-text
+msgid "- Update the *Linux* kernel to 6.1.55."
+msgstr "- Mise à jour du noyau *Linux* vers la version 6.1.55."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Problèmes corrigés</h1>\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+"Pour plus de détails, lisez notre [[!tails_gitweb debian/changelog desc="
+"\"liste des changements\"]]."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr "<h1 id=\"issues\">Problèmes connus</h1>\n"
+
+#. type: Plain text
+#, markdown-text
+msgid "None specific to this release."
+msgstr "Aucun spécifique à cette version."
+
+#. type: Plain text
+#, markdown-text
+msgid "See the list of [[long-standing issues|support/known_issues]]."
+msgstr ""
+"Voir la liste des [[problèmes connus de longue date|support/known_issues]]."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.19</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 5.19</h1>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
+
+#. type: Plain text
+#, markdown-text
+msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.19."
+msgstr ""
+"- Mises à jour automatiques disponibles depuis Tails 5.0 ou plus récent vers "
+"la version 5.19."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+"  Vous pouvez [[réduire la taille du téléchargement|doc/upgrade#reduce]] des "
+"futures\n"
+"  mises à jours automatiques en effectuant une mise à jour manuelle vers la "
+"dernière version.\n"
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual "
+"upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Si vous ne pouvez pas faire une mise à jour automatique ou si le démarrage "
+"de Tails échoue après une mise à jour automatique, merci d'essayer de faire "
+"une [[mise à jour manuelle|doc/upgrade/#manual]]."
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr "Pour installer Tails sur une nouvelle clé USB"
+
+#. type: Plain text
+#, markdown-text
+msgid "Follow our installation instructions:"
+msgstr "Suivez nos instructions d'installation :"
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid "[[Install from Windows|install/windows]]"
+msgstr "[[Installer depuis Windows|install/windows]]"
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid "[[Install from macOS|install/mac]]"
+msgstr "[[Installer depuis macOS|install/mac]]"
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid "[[Install from Linux|install/linux]]"
+msgstr "[[Installer depuis Linux|install/linux]]"
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid ""
+"[[Install from Debian or Ubuntu using the command line and "
+"GnuPG|install/expert]]"
+msgstr ""
+"[[Installer depuis Debian ou Ubuntu en utilisant la ligne de commande et "
+"GnuPG|install/expert]]"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be "
+"lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>Le stockage persistant de la clé USB sera perdu "
+"si\n"
+"vous faites une installation au lieu d'une mise à jour.</p></div>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To download only"
+msgstr "Pour seulement télécharger"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.19 directly:"
+msgstr ""
+"Si vous n'avez pas besoin d'instructions d'installation ou de mise à jour, "
+"vous pouvez télécharger directement Tails 5.19 :"
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr "[[Pour clés USB (image USB)|install/download]]"
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "[[Pour DVD et machines virtuelles (image ISO)|install/download-iso]]"

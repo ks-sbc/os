@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-08 03:39+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Mon, 26 Dec 2016 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 26 Dec 2016 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Thank you and see you in Hamburg!\"]]\n"
+msgstr "[[!meta title=\"Gràcies i ens veiem aviat a Hamburg!\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"As part of our donation campaign we already explained you [[why we need "
+"donations|news/why_we_need_donations]], [[what we do with your money|news/"
+"what_we_do_with_your_money]], and that [[Mediapart is the first news "
+"organization to commit to support Tails every year|news/mediapart]]."
+msgstr ""
+"Com a part de la nostra campanya de donació ja us hem explicat [[per què "
+"necessitem donacions|news/why_we_need_donations]], [[què fem amb els vostres "
+"diners|news/what_we_do_with_your_money]], i que [[Mediapart és la primera "
+"organització de notícies que es compromet a donar suport a Tails cada any|"
+"news/mediapart]]."
+
+#. type: Plain text
+msgid "But today we are just writing to give you all a big thank you!"
+msgstr ""
+"Però avui només estem escrivint per a donar-vos les gràcies a tots vosaltres!"
+
+#. type: Plain text
+#, no-wrap
+msgid "**Since October 13, we have received $98 579 in donations.**\n"
+msgstr "**Des del 13 d'octubre, hem rebut 98 579 dòlars en donacions (aproximadament 94 272 euros).**\n"
+
+#. type: Plain text
+msgid ""
+"This is our first donation campaign and we are completely blown away by the "
+"results! It feels really good to see that our community of users understands "
+"the real value of Tails and why it is important for them to help us back and "
+"keep the project alive and independent."
+msgstr ""
+"Aquesta és la nostra primera campanya de donació i estem impressionats amb "
+"els resultats! És realment bo veure que la nostra comunitat d'usuaris entén "
+"el valor real de Tails i per què és important que ens ajudin a mantenir viu "
+"i independent el projecte."
+
+#. type: Plain text
+msgid ""
+"Starting from today we will be present at the [33rd Chaos Communication "
+"Congress in Hamburg](https://events.ccc.de/congress/2016/wiki/Main_Page).  "
+"You are encouraged to pass by and meet us at the [Secure Desktops assembly]"
+"(https://events.ccc.de/congress/2016/wiki/Assembly:Secure_Desktops)."
+msgstr ""
+"A partir d'avui estarem presents en el [33è Congrés de Comunicació del Chaos "
+"a Hamburg](https://events.ccc.de/congress/2016/wiki/Main_Page). Us animem a "
+"passar-vos i conèixer-nos en el [Secure Desktops assembly](https://events."
+"ccc.de/congress/2016/wiki/Assembly:Secure_Desktops)."
+
+#. type: Plain text
+msgid ""
+"We accept donations in cash and people donating more than 50€ in Hamburg "
+"will get a Tails t-shirt!"
+msgstr ""
+"Acceptem donacions en efectiu i les persones que donin més de 50€ a Hamburg "
+"rebran una samarreta de Tails!"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img t-shirt.jpg link=\"no\"]]\n"
+msgstr "[[!img t-shirt.jpg link=\"no\"]]\n"
+
+#. type: Plain text
+msgid "[[Donate]]"
+msgstr "[[Feu una donació|donate]]"
+
+#, no-wrap
+#~ msgid "<div class=\"button\"><a href=\"https://tails.net/donate/?r=thanks\">Donate</a></div>\n"
+#~ msgstr "<div class=\"button\"><a href=\"https://tails.net/donate/index.ca.html?r=thanks\">Feu una donació</a></div>\n"

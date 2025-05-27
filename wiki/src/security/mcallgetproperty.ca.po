@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-11-13 14:27+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Wed, 11 Nov 2020 21:15:09 +0000\"]]\n"
+msgstr "[[!meta date=\"Wed, 11 Nov 2020 21:15:09 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"JavaScript vulnerability in Tor Browser\"]]\n"
+msgstr "[[!meta title=\"Vulnerabilitat de JavaScript al Navegador Tor\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Plain text
+msgid ""
+"A [critical vulnerability](https://www.mozilla.org/en-US/security/advisories/"
+"mfsa2020-49/)  was discovered in the JavaScript engine of *Firefox* and *Tor "
+"Browser*."
+msgstr ""
+"Es va descobrir una [vulnerabilitat crítica](https://www.mozilla.org/en-US/"
+"security/advisories/mfsa2020-49/) al motor de JavaScript de *Firefox* i del "
+"*Navegador Tor*."
+
+#. type: Plain text
+msgid ""
+"Until Tails 4.13 (November 17), we recommend all users to set the [[security "
+"level of *Tor Browser*|doc/anonymous_internet/Tor_Browser#security-level]] "
+"to *Safer* or *Safest*."
+msgstr ""
+"Fins a Tails 4.13 (17 de novembre), recomanem a tots els usuaris que "
+"estableixin el [[nivell de seguretat del *Navegador Tor*|doc/"
+"anonymous_internet/Tor_Browser#security-level]] a *Més segur* o *Seguretat "
+"màxima*."
+
+#. type: Plain text
+msgid ""
+"This vulnerability was discovered during the Tianfu Cup 2020 International "
+"Cybersecurity Contest. The details of the vulnerability were not disclosed."
+msgstr ""
+"Aquesta vulnerabilitat es va descobrir durant el Concurs Internacional de "
+"Ciberseguretat de la Copa Tianfu 2020. No es van revelar els detalls de la "
+"vulnerabilitat."
+
+#. type: Plain text
+msgid "We are not aware of any use of this vulnerability against actual users."
+msgstr ""
+"No som conscients de cap ús d'aquesta vulnerabilitat contra usuaris reals."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"The *Safer* or *Safest* security level of *Tor Browser* are not affected\n"
+"because the feature of JavaScript that is affected, the *[[!wikipedia\n"
+"just-in-time compilation]]*, is disabled at these security levels.\n"
+msgstr ""
+"Els nivells de seguretat *Més segur* o *Seguretat màxima* del *Navegador Tor* no es veuen afectats\n"
+"perquè la característica de JavaScript que es veu afectada, la *[[!wikipedia_ca compilació just-in-time]]*, està desactivada en aquests nivells de seguretat.\n"
+
+#. type: Plain text
+msgid ""
+"Mozilla fixed this vulnerability in *Firefox* 78.4.1 and Tor fixed this "
+"vulnerability in *Tor Browser* 10.0.4."
+msgstr ""
+"Mozilla va solucionar aquesta vulnerabilitat a *Firefox* 78.4.1 i Tor la va "
+"solucionar al *Navegador Tor* 10.0.4."
+
+#. type: Plain text
+msgid "We decided not to release an emergency upgrade of Tails because:"
+msgstr ""
+"Vam decidir no publicar una actualització d'emergència de Tails perquè:"
+
+#. type: Bullet: '- '
+msgid ""
+"Tails 4.13 is already scheduled for November 17 and will fix this "
+"vulnerability."
+msgstr ""
+"Tails 4.13 ja està programat per al 17 de novembre i solucionarà aquesta "
+"vulnerabilitat."
+
+#. type: Bullet: '- '
+msgid ""
+"Our main release manager left the team recently and we have very limited "
+"staffpower right now."
+msgstr ""
+"El nostre director de llançament principal va deixar l'equip recentment i "
+"ara tenim un personal molt limitat."
+
+#. type: Bullet: '- '
+msgid ""
+"The details of the vulnerability were not disclosed, making it harder to "
+"exploit, and we are not aware of any use of this vulnerability against "
+"actual users."
+msgstr ""
+"Els detalls de la vulnerabilitat no es van revelar, cosa que dificultava "
+"l'explotació, i no som conscients de cap ús d'aquesta vulnerabilitat contra "
+"usuaris reals."

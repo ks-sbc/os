@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-05-13 00:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta title=\"Fighting against a nuclear project in France\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta date=\"Mon, 12 May 2025 23:19:23 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"[[!img contribute/how/user_experience/interviews/robin.jpg link=\"no\" "
+"alt=\"Stop sign in front of a nuclear power plant\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"Robin is an activist in struggle against a nuclear project in France. He has "
+"been using Tails as his default operating system for all his activism since "
+"5 years, creating a clear separation between his activism (using Tails) and "
+"personal life (using encrypted Debian)."
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"At his place, many nomadic activists use Tails USB sticks instead of having "
+"personal computers, allowing them to maintain privacy while using shared "
+"devices."
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"After facing repression, encrypting all their data became a baseline "
+"practice in his group. He prefers training others on Tails because it's "
+"easier to implement than teaching full computer encryption."
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"> *Because Tails is easy to share, even people with low technical abilities "
+"are\n"
+"> able to use it. For the security of a group, what matters is the lowest\n"
+"> security level within that group.*\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"[[Read our full interview with "
+"Robin.|contribute/how/user_experience/interviews/robin]]"
+msgstr ""

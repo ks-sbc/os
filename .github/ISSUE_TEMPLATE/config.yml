@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerability
+    url: https://github.com/ks-sbc/os/security/policy
+    about: Please review our security policy for reporting vulnerabilities
+  - name: Upstream Tails Issues
+    url: https://gitlab.tails.boum.org/tails/tails/-/issues
+    about: For issues with inherited Tails functionality
+  - name: DRUIDS Architecture Discussion
+    url: https://github.com/ks-sbc/os/discussions
+    about: For discussions about DRUIDS design and architecture

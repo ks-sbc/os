@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-12-18 17:11+0000\n"
+"PO-Revision-Date: 2024-11-27 10:18+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Call for help: improve the infrastructure behind Tails\"]]\n"
+msgstr "[[!meta title=\"Hilferuf: Verbessere die Infrastruktur hinter Tails\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Thu, 01 May 2014 12:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Thu, 01 May 2014 12:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Tails is becoming increasingly popular: lately, someone boots Tails every "
+"ten seconds somewhere in the world. And also, every six weeks, there is a "
+"Firefox security update and we subsequently release a new version of Tails."
+msgstr ""
+"Tails erfreut sich immer größerer Beliebtheit: In letzter Zeit startet alle "
+"zehn Sekunden irgendwo auf der Welt jemand Tails. Außerdem gibt es alle "
+"sechs Wochen ein Sicherheitsupdate für Firefox und wir veröffentlichen "
+"daraufhin eine neue Version von Tails."
+
+#. type: Plain text
+msgid ""
+"Because of that amount of users and such a short release cycle, it is a "
+"challenge to keep Tails alive and getting better."
+msgstr ""
+"Aufgrund der vielen Nutzer und des kurzen Veröffentlichungszyklus ist es "
+"eine Herausforderung, Tails am Leben zu erhalten und weiter zu verbessern."
+
+#. type: Plain text
+msgid "We needs more hands!"
+msgstr "Wir brauchen mehr helfende Hände!"
+
+#. type: Plain text
+msgid ""
+"Among the things we know we should do in the next few years, we have "
+"identified some areas that could benefit the most from new dedicated "
+"contributors."
+msgstr ""
+"Unter den Aufgaben, die wir in den nächsten Jahren erledigen sollten, haben "
+"wir einige Bereiche identifiziert, die am meisten von neuen engagierten "
+"Mitwirkenden profitieren könnten."
+
+#. type: Plain text
+msgid ""
+"Today, we are talking of **improving the infrastructure behind Tails**. So, "
+"if you are a system administrator, a software developer, or anything in "
+"between, we need you! Please read on."
+msgstr ""
+"Heute sprechen wir über **die Verbesserung der Infrastruktur hinter Tails**. "
+"Wenn Sie also Systemadministrator, Softwareentwickler oder etwas dazwischen "
+"sind, brauchen wir Sie! Bitte lesen Sie weiter."
+
+#. type: Title =
+#, no-wrap
+msgid "What is the mission?"
+msgstr "Was ist die Mission?"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The Tails [[system administrators|contribute/working_together/roles/"
+#| "sysadmins]] set up and maintain the infrastructure that supports the "
+#| "development and operations of Tails. We aim at making the life of Tails "
+#| "contributors easier, and to improve the quality of our releases."
+msgid ""
+"The Tails [[system administrators|https://gitlab.torproject.org/tpo/tpa/"
+"team/-/wikis/tails/role-description]] set up and maintain the infrastructure "
+"that supports the development and operations of Tails. We aim at making the "
+"life of Tails contributors easier, and to improve the quality of our "
+"releases."
+msgstr ""
+"Die Tails [[Systemadministratoren|contribute/working_together/roles/"
+"sysadmins]] richten die Infrastruktur ein und warten sie, die die "
+"Entwicklung und den Betrieb von Tails unterstützt. Wir haben das Ziel, das "
+"Leben der Tails-Mitwirkenden zu erleichtern und die Qualität unserer "
+"Versionen zu verbessern."
+
+#. type: Plain text
+msgid "Our main tools are: Debian, Puppet, Git and Jenkins."
+msgstr "Unsere Hauptwerkzeuge sind: Debian, Puppet, Git und Jenkins."
+
+#. type: Plain text
+msgid "The most important, and larger pieces on our roadmap currently are:"
+msgstr ""
+"Die wichtigsten und umfangreichsten Punkte auf unserem aktuellen Fahrplan "
+"sind:"
+
+#. type: Bullet: '* '
+msgid ""
+"Continuous Integration: we want to drastically cut down the amount of work "
+"needed to prepare a Tails release; we also want to detect regressions as "
+"soon as possible. Everything we merge should go through an automated test "
+"suite, and our Debian packages should be automatically built from Git tags."
+msgstr ""
+"Kontinuierliche Integration: Wir möchten die Menge an Arbeit, die für die "
+"Vorbereitung einer Tails-Version erforderlich ist, drastisch reduzieren; "
+"außerdem wollen wir Rückschritte so früh wie möglich erkennen. Alles, was "
+"wir zusammenführen, sollte durch eine automatisierte Testsuite gehen, und "
+"unsere Debian-Pakete sollten automatisch aus Git-Tags erstellt werden."
+
+#. type: Bullet: '* '
+msgid ""
+"Freezable APT repository: we need to freeze our APT repository when we "
+"freeze our release branch; this is also a first and important milestone on "
+"our way towards reproducible builds."
+msgstr ""
+"Frierbare APT-Repository: Wir müssen unser APT-Repository einfrieren, wenn "
+"wir unseren Release-Zweig einfrieren; dies ist auch ein erster und wichtiger "
+"Meilenstein auf unserem Weg zu reproduzierbaren Builds."
+
+#. type: Plain text
+msgid ""
+"Exciting, uh? Needless to say, we also have plenty of smaller tasks on our "
+"plate :)"
+msgstr ""
+"Spannend, oder? Es versteht sich von selbst, dass wir auch viele kleinere "
+"Aufgaben auf unserem Teller haben :)"
+
+#. type: Title =
+#, no-wrap
+msgid "How can I help?"
+msgstr "Wie kann ich helfen?"
+
+#. type: Plain text
+msgid ""
+"There are many ways to give us a hand in this area.  [[Read more about it|"
+"contribute/how/sysadmin]]!"
+msgstr ""
+"Es gibt viele Möglichkeiten, uns in diesem Bereich zu unterstützen. "
+"[[Erfahren Sie mehr darüber|contribute/how/sysadmin]]!"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"note\">\n"
+msgstr "<div class=\"note\">\n"
+
+#. type: Plain text
+msgid ""
+"When getting in touch with us, please attach a patch, or your plans, for a "
+"ticket marked *Easy*: this way, you can quickly get up to speed, and we can "
+"get used to working together. Of course, if the ticket you want to work on "
+"lacks the information you need to resolve it, don't hesitate asking us for "
+"clarification first."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"

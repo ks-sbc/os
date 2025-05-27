@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-05-10 15:03+0000\n"
+"PO-Revision-Date: 2025-02-24 23:58+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta robots=\"noindex\"]]\n"
+msgstr "[[!meta robots=\"noindex\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1>Other ways to donate</h1>\n"
+msgstr "<h1>Altres maneres de fer una donació</h1>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>One of the other ways to donate to Tails might be better for you:</p>\n"
+msgstr ""
+"<p>Una de les altres maneres de fer una donació a Tails podria resultar-vos "
+"millor:</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li>[[Bank transfer|donate#transfer]]</li>\n"
+"  <li>[[Cash|donate#post]]</li>\n"
+"  <li>[[US check|donate#post]]</li>\n"
+"  <li>[[Cryptocurrencies|donate#cryptos]]</li>\n"
+"  <li>[[Corporate matching programs|donate#corporate]]</li>\n"
+"</ul>\n"
+msgstr ""
+"<ul>\n"
+"  <li>[[Transferència bancària|donate#transfer]]</li>\n"
+"  <li>[[Efectiu|donate#post]]</li>\n"
+"  <li>[[Xec dels EUA|donate#post]]</li>\n"
+"  <li>[[Criptomonedes|donate#cryptos]]</li>\n"
+"  <li>[[Programes de concordança corporatius|donate#corporate]]</li>\n"
+"</ul>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>See our [[donation page|donate]] for more details.</p>\n"
+msgstr ""
+"<p>Consulteu la nostra [[pàgina de donació|donate]] per a més detalls.</p>\n"

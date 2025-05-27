@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2021-11-29 17:12+0000\n"
+"PO-Revision-Date: 2024-11-27 10:18+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Berliners, come test new features with us (again) and get a T-shirt!\"]]\n"
+msgstr ""
+"[[!meta title=\"Berliner, kommt und testet mit uns (wieder) neue Funktionen "
+"und holt euch ein T-Shirt!\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Wed, 10 Jan 2018 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Wed, 10 Jan 2018 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"We are working on making it much easier to **permanently install additional "
+"software in Tails**."
+msgstr ""
+"Wir arbeiten daran, die **Dauerinstallation zusätzlicher Software in Tails** "
+"zu vereinfachen."
+
+#. type: Plain text
+msgid ""
+"We want to test our design with users to make sure that it is really easy to "
+"use."
+msgstr ""
+"Wir wollen unser Design mit Nutzern testen, um sicherzustellen, dass es "
+"wirklich einfach zu bedienen ist."
+
+#. type: Plain text
+msgid ""
+"Don't be shy! It will be a great opportunity to contribute to world-class "
+"privacy software like Tails, even if you don't feel really tech-savvy."
+msgstr ""
+"Seien Sie nicht schüchtern! Es ist eine großartige Gelegenheit, zu einer "
+"Weltklasse-Datenschutzsoftware wie Tails beizutragen, auch wenn Sie sich mit "
+"der Technik nicht wirklich auskennen."
+
+#. type: Plain text
+msgid "The tests will take place in Berlin (Wedding) in January on:"
+msgstr ""
+"Die Tests finden im Januar in Berlin (Wedding) an folgenden Terminen statt:"
+
+#. type: Plain text
+msgid "- Saturday 27 - Sunday 28 - Monday 29"
+msgstr "- Samstag, 27 - Sonntag, 28 - Montag, 29"
+
+#. type: Plain text
+msgid "Plan to stay with us for 1 hour."
+msgstr "Planen Sie, 1 Stunde mit uns zu verbringen."
+
+#. type: Plain text
+msgid "We will give you a Tails T-shirt as a token of our thanks."
+msgstr "Wir werden Ihnen ein Tails-T-Shirt als Zeichen unseres Dankes schenken."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img 33c3/t-shirt.jpg link=\"no\"]]\n"
+msgstr "[[!img 33c3/t-shirt.jpg link=\"no\"]]\n"
+
+#. type: Plain text
+msgid "Please, take this survey so we can organize our schedule:"
+msgstr ""
+"Bitte nehmen Sie an dieser Umfrage teil, damit wir unseren Zeitplan "
+"organisieren können:"
+
+#. type: Plain text
+#, no-wrap
+msgid "<strike>https://survey.tails.boum.org/</strike> (We have enough people already!)\n"
+msgstr ""
+"<strike>https://survey.tails.boum.org/</strike> (Wir haben bereits genügend "
+"Personen!)\n"
+
+#. type: Plain text
+msgid ""
+"And if you can't come, maybe you can share this with 2-3 other people in "
+"Berlin?"
+msgstr ""
+"Und wenn Sie nicht kommen können, vielleicht können Sie dies mit 2-3 anderen "
+"Personen in Berlin teilen?"

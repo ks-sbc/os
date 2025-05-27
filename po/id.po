@@ -1,0 +1,4558 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Andika Triwidada <andika@gmail.com>, 2022
+# f952c994a186aafe51026d7b069e8fbe_4f82a74, 2015
+# cholif yulian <cholifyulian123@gmail.com>, 2015
+# Dewie Ang, 2021-2022
+# wongcie <dwexz_cie@yahoo.com>, 2015
+# Emma Peel, 2019
+# Fery Setiawan <gembelweb@gmail.com>, 2020
+# Frengky Sinaga <frengkys5@gmail.com>, 2016
+# Ibnu Daru Aji, 2014
+# hadymaggot <9hs@tuta.io>, 2021
+# ical, 2018-2021
+# I Putu Cahya Adi Ganesha, 2021-2022
+# Joshua, 2019-2020
+# se7entime <se7entime@disroot.org>, 2015
+# L1Nus <multazam_ali@me.com>, 2014
+# Robert Dafis <robertdafis@gmail.com>, 2018
+# Sidiq Pangestu <sani21bimo@gmail.com>, 2021
+# Trio Gempar Surya Giri <suryagiri200@gmail.com>, 2018
+# zk, 2015-2016
+# zk, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Tor Project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-30 09:33+0200\n"
+"PO-Revision-Date: 2025-04-03 14:14+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/tor/tails-gui/"
+"id/>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11-dev\n"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:209
+#, python-brace-format
+msgid ""
+"{details} Please check your list of additional software or read the system "
+"log to understand the problem."
+msgstr ""
+"{details} tolong, mohon cek daftar perangkat lunak tambahan anda atau baca "
+"catatan sistem untuk memahami masalahnya."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:216
+msgid ""
+"Please check your list of additional software or read the system log to "
+"understand the problem."
+msgstr ""
+"tolong, mohon cek daftar perangkat lunak tambahan anda atau baca catatan "
+"sistem untuk memahami masalahnya."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:222
+msgid "Show Log"
+msgstr "Tampilkan Log"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:222
+msgid "Configure"
+msgstr "Konfigurasikan"
+
+#. Translators: Don't translate {packages}, it's a placeholder and will
+#. be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:45
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:76
+#, python-brace-format
+msgid "Add {packages} to your additional software?"
+msgstr "menambah {packages} untuk perangkat lunak tambahanmu?"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:47
+msgid ""
+"To install it automatically from your persistent storage when starting Tails."
+msgstr ""
+"Untuk memasangnya secara otomatis dari tempat penyimpanan tetap Anda saat "
+"memulai Tails."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:49
+msgid "Install Every Time"
+msgstr "Memasang Setiap Waktu"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:50
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:82
+msgid "Install Only Once"
+msgstr "Memasang Hanya Sekali"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:57
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:88
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:172
+msgid "The configuration of your additional software failed."
+msgstr "Konfigurasi pada perangkat lunak tambahan Anda gagal."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:78
+msgid ""
+"To install it automatically when starting Tails, you can create a Persistent "
+"Storage and activate the <b>Additional Software</b> feature."
+msgstr ""
+"Untuk memasang secara otomatis saat memulai Tails, Anda dapat membuat "
+"Penyimpanan Tetap dan mengaktifkan fitur <b>Perangkat Lunak Tambahan</b>."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:81
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:270
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:289
+msgid "Create Persistent Storage"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:90
+msgid "Creating your Persistent Storage failed."
+msgstr "Pembuatan Penyimpanan Tetap Anda gagal."
+
+#. Translators: Don't translate {packages}, it's a placeholder and
+#. will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:99
+#, python-brace-format
+msgid "You could install {packages} automatically when starting Tails"
+msgstr "Anda dapat memasang {packages} secara otomatis saat memulai Tails"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:102
+msgid "To do so, you need to run Tails from a USB stick."
+msgstr "Untuk melakukannya, Anda harus menjalankan Tails dari stik USB."
+
+#. Translators: Don't translate {packages}, it's a placeholder and will be
+#. replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:159
+#, python-brace-format
+msgid "Remove {packages} from your additional software?"
+msgstr "Hapus {packages} dari perangkat lunak tambahan Anda?"
+
+#. Translators: Don't translate {packages}, it's a placeholder
+#. and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:163
+#, python-brace-format
+msgid "This will stop installing {packages} automatically."
+msgstr "Ini akan menghentikan pemasangan {packages} secara otomatis."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:165
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:188
+msgid "Remove"
+msgstr "Hapus"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:166
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:178
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:483
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:834
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:728
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:376
+msgid "Cancel"
+msgstr "Batal"
+
+#. Translators: Don't translate {beginning} or {last}, they are
+#. placeholders and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:186
+#, python-brace-format
+msgid "{beginning} and {last}"
+msgstr "{beginning} dan {last}"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:187
+msgid ", "
+msgstr ", "
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:37
+msgid "The check for upgrades of your additional software failed"
+msgstr "Pengecekan pemutakhiran untuk perangkat lunak tambahan Anda gagal"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:39
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:47
+msgid ""
+"Please check your network connection, restart Tails, or read the system log "
+"to understand the problem."
+msgstr ""
+"Mohon periksa koneksi jaringan anda, mulai ulang Tails, atau baca catatan "
+"sistem untuk memahami masalahnya."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:46
+msgid "The upgrade of your additional software failed"
+msgstr "Pembaruan perangkat lunak tambahan Anda gagal"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:111
+msgid "Installing your additional software from persistent storage..."
+msgstr "Memasang perangkat lunak tambahan Anda dari penyimpanan tetap..."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:113
+msgid "This can take several minutes."
+msgstr "Ini akan memakan waktu beberapa menit."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:126
+msgid "The installation of your additional software failed"
+msgstr "Pemasangan perangkat lunak tambahan Anda gagal"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:142
+msgid "Additional software installed successfully"
+msgstr "Perangkat lunak tambahan berhasil terpasang"
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.AdditionalSoftware.desktop.in.h:1
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:646
+msgid "Additional Software"
+msgstr "Perangkat Lunak Tambahan"
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:51
+msgid ""
+"You can install additional software automatically from your persistent "
+"storage when starting Tails."
+msgstr ""
+"Anda dapat memasang perangkat lunak tambahan secara otomatis dari tempat "
+"penyimpanan tetap saat memulai Tails."
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:77
+msgid ""
+"The following software is installed automatically from your persistent "
+"storage when starting Tails."
+msgstr ""
+"Perangkat lunak ini terpasang secara otomatis dari tempat penyimpanan tetap "
+"saat memulai Tails."
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:135
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:205
+msgid ""
+"To add more, install some software using <a "
+"href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a "
+"href=\"org.gnome.Terminal.desktop\">APT on the command line</a>."
+msgstr ""
+"Untuk menambah, pasang perangkat lunak menggunakan <a "
+"href=\"synaptic.desktop\">Synaptic Package Manager</a> atau <a "
+"href=\"org.gnome.Terminal.desktop\">APT pada baris perintah</a>."
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:154
+msgid "_Create persistent storage"
+msgstr "_Buat tempat penyimpanan tetap"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:69
+msgid ""
+"Tails needs donations to keep everybody free and safe online.\n"
+"\n"
+"Every bit helps in our fight against surveillance and censorship!\n"
+"\n"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:79
+msgid ""
+"Tails protects your wallet.\n"
+"\n"
+"Help us keep your bitcoins safe!\n"
+"\n"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:156
+msgid "Donate Now"
+msgstr "Donasi Sekarang"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:158
+msgid "Later"
+msgstr "Nanti"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:173
+msgid "Opening Electrum with our donation address..."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:174
+msgid "Thank you for making the Internet a safer place!"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:208
+msgid "Persistence is disabled for Electrum"
+msgstr "Persistensi dinonfungsikan untuk Electrum"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:210
+msgid ""
+"When you reboot Tails, all of Electrum's data will be lost, including your "
+"Bitcoin wallet.\n"
+"It is strongly recommended to only run Electrum when its persistence feature "
+"is activated."
+msgstr ""
+"Saat Anda memulai ulang Tails, semua data Electrum akan hilang, termasuk "
+"dompet Bitcoin Anda.\n"
+"Sangat direkomendasikan untuk menggunakan Electrum hanya saat fitur "
+"penyimpanan persisten diaktifkan."
+
+#: config/chroot_local-includes/usr/local/bin/electrum:212
+msgid "Do you want to start Electrum anyway?"
+msgstr "Apakah Anda tetap ingin memulai Electrum?"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:218
+msgid "_Launch"
+msgstr "_Luncurkan"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:219
+msgid "_Exit"
+msgstr "_Keluar"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:59
+msgid "Unknown time"
+msgstr "Waktu tidak diketahui"
+
+#. Translators: Don't translate {count}, it's a place holder and
+#. will be replaced.
+#. y is the short form for years.
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:78
+#, perl-brace-format
+msgid "1y"
+msgid_plural "{count}y"
+msgstr[0] "{count}t"
+
+#. Translators: Don't translate {count}, it's a place holder and
+#. will be replaced.
+#. d is the short form for days.
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:82
+#, perl-brace-format
+msgid "1d"
+msgid_plural "{count}d"
+msgstr[0] "{count}h"
+
+#. Translators: Don't translate {count}, it's a place holder and
+#. will be replaced.
+#. h is the short form for hours;
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:86
+#, perl-brace-format
+msgid "1h"
+msgid_plural "{count}h"
+msgstr[0] "{count}j"
+
+#. Translators: Don't translate {count}, it's a place holder and
+#. will be replaced.
+#. m is the short form for minutes;
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:90
+#, perl-brace-format
+msgid "1m"
+msgid_plural "{count}m"
+msgstr[0] "{count}m"
+
+#. Translators: Don't translate {count}, it's a place holder and
+#. will be replaced.
+#. s is the short form for seconds;
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:94
+#, perl-brace-format
+msgid "1s"
+msgid_plural "{count}s"
+msgstr[0] "{count}d"
+
+#. Translators: don't translate {time}, {downloaded}, {size}
+#. and {speed}, they are placeholders and will be replaced.
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:139
+#, perl-brace-format
+msgid "#{time} left — {downloaded} of {size} ({speed}/sec)\n"
+msgstr "#{time} tersisa — {downloaded} dari {size} ({speed}/detik)\n"
+
+#. Translators: KB is the short form for kilobyte
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Role/FormatByte.pm:32
+msgid "KB"
+msgstr "KB"
+
+#. Translators: MB is the short form for megabyte
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Role/FormatByte.pm:34
+msgid "MB"
+msgstr "MB"
+
+#. Translators: GB is the short form for gigabyte
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Role/FormatByte.pm:36
+msgid "GB"
+msgstr "GB"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Role/FormatByte.pm:42
+msgid "bytes"
+msgstr "bita"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:296
+#, fuzzy
+msgid ""
+"<b>An error occurred while updating the signing key.</b>\\n\\n<b>This "
+"prevents determining whether an upgrade is available from our website.</"
+"b>\\n\\nCheck your network connection and restart Tails.\\n\\nIf the problem "
+"persists, try doing a manual upgrade."
+msgstr ""
+"<b>Sebuah galat terjadi sat memperbarui kunci tanda tangan .</b>\\n\\n<b> "
+"Ini mencegah penentuan mengenai ada atau tidaknya pembaruan dari situs web "
+"kami. </b>\\n\\nPeriksa koneksi internet Anda, dan mulai ulang Tails untuk "
+"mencoba memperbarui kembali. \\n\\nJika masalah masih terjadi, pergi ke "
+"file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:310
+msgid "Error while downloading the signing key"
+msgstr "Terjadi kesalahan saat mengunduh kunci penandatanganan"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:343
+msgid "Error while checking for upgrades"
+msgstr "Galat saat memeriksa pemutakhiran"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:345
+#, fuzzy
+msgid ""
+"<b>Could not determine whether an upgrade is available from our website.</"
+"b>\n"
+"\n"
+"Check your network connection and restart Tails.\n"
+"\n"
+"If the problem persists, try doing a manual upgrade."
+msgstr ""
+"<b>Tidak dapat menentukan apakah pemutakhiran tersedia dari situs web kami.</"
+"b>\n"
+"\n"
+"Periksa koneksi jaringan Anda, dan memulai ulang Tails untuk mencoba "
+"memutakhirkannya lagi.\n"
+"\n"
+"Jika masalah tetap ada, kunjungi file:///usr/share/doc/tails/website/doc/"
+"upgrade/error/check.en.html"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:360
+msgid "no automatic upgrade is available from our website for this version"
+msgstr ""
+"tidak ada pemutakhiran otomatis yang tersedia di situs kami untuk versi ini"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:366
+msgid "your device was not created using a USB image or Tails Cloner"
+msgstr "perangkat Anda tidak dibuat menggunakan image USB atau Tails Cloner"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:371
+msgid "Tails was started from a DVD or a read-only device"
+msgstr "Tails telah dijalankan dari DVD atau perangkat baca-saja"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:376
+msgid "there is not enough free space on the Tails system partition"
+msgstr "tidak cukup ruang kosong pada partisi sistem Tails"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:381
+msgid "not enough memory is available on this system"
+msgstr "memori yang tersedia tidak cukup pada sistem ini"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:386
+#, perl-brace-format
+msgid "No explanation available for reason '{reason}'."
+msgstr "Tidak ada penjelasan yang tersedia untuk alasan '{reason}'."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:409
+msgid "The system is up-to-date"
+msgstr "Sistem paling mutakhir"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:412
+msgid ""
+"You are currently running the latest version. There is no upgrade "
+"available.\n"
+msgstr ""
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:415
+#, fuzzy
+msgid "Tails is up to date"
+msgstr "Sistem paling mutakhir"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:421
+msgid "This version of Tails is outdated, and may have security issues."
+msgstr ""
+"Versi Tails ini sudah usang, dan mungkin memiliki banyak masalah keamanan."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:451
+#, perl-brace-format
+msgid ""
+"The available incremental upgrade requires {space_needed} of free space on "
+"Tails system partition,  but only {free_space} is available."
+msgstr ""
+"Pembaruan tambahan yang tersedia membutuhkan {space_needed} dari partisi "
+"Tails, namun hanya {free_space} tersedia."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:463
+#, perl-brace-format
+msgid ""
+"The available incremental upgrade requires {memory_needed} of free memory, "
+"but only {free_memory} is available."
+msgstr ""
+"Pembaruan tambahan yang tersedia membutuhkan {memory_needed} dari "
+"keseluruhan memori, namun hanya {free_memory} yang tersedia."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:474
+msgid ""
+"An error ocurred while detecting available upgrades.\n"
+"This should not happen. Please report a bug."
+msgstr ""
+"Sebuah galat terjadi saat mendeteksi pemutakhiran yang tersedia.\n"
+"Hal ini seharusnya tidak terjadi. Mohon laporkan bug tersebut."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:477
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:496
+msgid "Error while detecting available upgrades"
+msgstr "Galat saat mendeteksi pemutakhiran yang tersedia"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:492
+msgid ""
+"An incremental upgrade is available, but no full upgrade is.\n"
+"This should not happen. Please report a bug."
+msgstr ""
+"Sebuah pemutakhiran berjenjang tersedia, tidak dengan pemutakhiran penuh.\n"
+"Hal ini seharusnya tidak terjadi. Mohon lapor Bug tersebut."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:505
+#, perl-brace-format
+msgid ""
+"<b>You should upgrade to {name} {version}.</b>\n"
+"\n"
+"For more information about this new version, go to {details_url}\n"
+"\n"
+"We recommend you close all other applications during the upgrade.\n"
+"Downloading the upgrade might take a long time, from several minutes to a "
+"few hours.\n"
+"\n"
+"Download size: {size}\n"
+"\n"
+"Do you want to upgrade now?"
+msgstr ""
+"<b>Anda harus memperbarui ke {name} {version}..</b>\n"
+"\n"
+"Untuk informasi lebih lanjut mengenai versi ini, pergi ke {details_url}\n"
+"\n"
+"Kami merekomendasikan Anda menutup semua aplikasi lain selama pembaruan.\n"
+"Mengunduh pembaruan membutuhkan waktu yang lama, dari beberapa menit hingga "
+"beberapa jam.\n"
+"\n"
+"Ukuran berkas: {size}\n"
+"\n"
+"Apakah Anda ingin memperbarui sekarang?"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:518
+msgid "Upgrade available"
+msgstr "Tersedia pemutakhiran"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:519
+msgid "Upgrade now"
+msgstr "Mutakhirkan sekarang"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:520
+msgid "Upgrade later"
+msgstr "Mutakhirkan nanti"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:528
+#, perl-brace-format
+msgid ""
+"<b>You should do a manual upgrade to the latest version of {name}.</b>\n"
+"\n"
+"For more information about this new version, go to {details_url}\n"
+"\n"
+"It is impossible to do an automatic upgrade of your Tails to this new "
+"version: {explanation}.\n"
+"\n"
+"To learn how to do a manual upgrade, go to {manual_upgrade_url}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:538
+msgid "New version available"
+msgstr "Versi baru telah tersedia"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:619
+msgid "Downloading upgrade"
+msgstr "Mengunduh pemutakhiran"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:621
+#, perl-brace-format
+msgid "Downloading the upgrade to {name} {version}..."
+msgstr "Mengunduh pembaruan ke {name} {version}..."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:712
+#, fuzzy
+msgid ""
+"<b>The upgrade could not be downloaded.</b>\\n\\nCheck your network "
+"connection, and restart Tails to try upgrading again."
+msgstr ""
+"<b>Pemutakhiran tidak bisa diunduh.</b>\\n\\nPeriksa sambungan jaringan "
+"Anda, dan mulai ulang Tails untuk mencoba memutakhirkannya lagi.\\n\\nJika "
+"masalah masih tetap ada, baca file:///usr/share/doc/tails/website/doc/"
+"upgrade/error/download.en.html"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:715
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:730
+msgid "Error while downloading the upgrade"
+msgstr "Terjadi kesalahan dalam proses pengunduhan pemutakhiran"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:725
+#, perl-brace-format
+msgid ""
+"Output file '{output_file}' does not exist, but tails-iuk-get-target-file "
+"did not complain. Please report a bug."
+msgstr ""
+"Berkas keluaran '{output_file}' tidak ada, naun tails-iuk-get-target-file "
+"tidak menyampaikan masalah. Mohon laporkan bug."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:741
+msgid "Error while creating temporary downloading directory"
+msgstr ""
+"Terjadi kesalahan dalam proses pembuatan direktori pengunduhan sementara"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:744
+msgid "Failed to create temporary download directory"
+msgstr "Terjadi kegagalan dalam pembuatan direktori pengunduhan sementara"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:756
+msgid ""
+"The upgrade was successfully downloaded.\n"
+"\n"
+"The network connection will be disabled when applying the upgrade.\n"
+"\n"
+"Please save your work and close all other applications."
+msgstr ""
+"Pemutakhiran berhasil telah diunduh.\n"
+"\n"
+"Koneksi jaringan akan dimatikan saat mengaplikasikan pemutakhiran.\n"
+"\n"
+"Mohon simpan pekerjaan Anda dan tutup aplikasi lainnya."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:761
+msgid "Upgrade successfully downloaded"
+msgstr "Pembaruan berhasil diunduh"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:762
+msgid "Apply upgrade"
+msgstr "Pasang pembaruan"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:769
+msgid ""
+"<b>Your Tails device was successfully upgraded.</b>\n"
+"\n"
+"Some security features were temporarily disabled.\n"
+"You should restart Tails on the new version as soon as possible.\n"
+"\n"
+"Do you want to restart now?"
+msgstr ""
+"<b>Perangkat Tails Anda telah sukses ditingkatkan.</b>\n"
+"\n"
+"Beberapa fitur keamanan untuk sementara dimatikan.\n"
+"Anda harus restart Tails ke versi yang baru sesegera mungkin\n"
+"\n"
+"Apakah Anda ingin restart sekarang?"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:774
+msgid "Restart Tails"
+msgstr "Memulai kembali Tails"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:775
+msgid "Restart now"
+msgstr "Memulai kembali sekarang"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:776
+msgid "Restart later"
+msgstr "Memulai kembali nanti"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:787
+msgid "Error while restarting the system"
+msgstr "Error selagi restart sistem"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:788
+msgid "Failed to restart the system"
+msgstr "gagal untuk restart sistem"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:801
+msgid "Error while shutting down the network"
+msgstr "Error selagi shut down jaringan"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:802
+msgid "Failed to shutdown network"
+msgstr "Gagal untuk shutdown jaringan"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:812
+msgid "Error while cancelling the upgrade download"
+msgstr "Terjadi kesalahan saat membatalkan pengunduhan peningkatan"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:813
+msgid "Failed to cancel the upgrade download"
+msgstr "Gagal untuk membatalkan pengunduhan pembaruan"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:819
+msgid "Upgrading the system"
+msgstr "Upgrade sistem"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:821
+msgid ""
+"<b>Your Tails device is being upgraded...</b>\n"
+"\n"
+"For security reasons, the network connection is now disabled."
+msgstr ""
+"<b>Perangkat Tails Anda sedang diperbarui...</b>\n"
+"\n"
+"Untuk alasan keamanan, saat ini, koneksi jaringan dimatikan."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:856
+#, fuzzy
+msgid ""
+"<b>An error occurred while installing the upgrade.</b>\\n\\nYour Tails "
+"device needs to be repaired and might be unable to restart.\\n\\nPlease "
+"follow the instructions at file:///usr/share/doc/tails/website/doc/upgrade/"
+"error/install.en.html"
+msgstr ""
+"<b>Terjadi error selagi instal upgrade.</b>\\n\\nPerangkat Tails anda harus "
+"di repair dan mungkin tidak bisa di restart .\\n\\nSilakan ikuti instruksi "
+"pada file:///usr/share/doc/tails/website/doc/upgrade/error/install.en.html"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:861
+msgid "Error while installing the upgrade"
+msgstr "Error selagi instal upgrade"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:32
+msgid "Additional Settings"
+msgstr "Pengaturan Tambahan"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:44
+msgid "Add"
+msgstr "Tambah"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:52
+msgid "Back"
+msgstr "Kembali"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:65
+msgid "_Administration Password"
+msgstr "_Password Admin"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:196
+msgid "_MAC Address Anonymization"
+msgstr "Pengaturan anonim alamat _MAC"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:267
+msgid "_Offline Mode"
+msgstr "Mode _Offline"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:276
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:445
+msgid "Enable networking (default)"
+msgstr "Aktifkan jaringan (default)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:278
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:491
+msgid "Disable all networking"
+msgstr "Nonaktifkan semua jaringan"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:339
+msgid "_Network Connection"
+msgstr "_Koneksi Jaringan"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:347
+msgid "Obsolete"
+msgstr "Obsolet"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:362
+msgid "_Unsafe Browser"
+msgstr "_Penjelajah tidak aman"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:371
+msgid "Enabled (default)"
+msgstr "Dimatikan (bawaan)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:373
+msgid "Disabled"
+msgstr "Nonaktifkan"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:442
+msgid "On (default)"
+msgstr "Aktif (default)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:444
+msgid "On"
+msgstr "Hidup"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:446
+msgid "Off"
+msgstr "Mati"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:448
+msgid "Off (default)"
+msgstr "Nonaktif (default)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:174
+msgid "Persistent Storage Still Locked"
+msgstr "Penyimpanan Persisten Masih Terkunci"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:176
+msgid ""
+"Do you really want to start Tails without unlocking your Persistent Storage?"
+msgstr ""
+"Anda yakin hendak memulai Tails tanpa membuka Penyimpanan Persisten Anda?"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:179
+msgid "Start Without Persistent Storage"
+msgstr "Mulai Tanpa Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:247
+msgid ""
+"Impossible to unlock the Persistent Storage because the USB stick is read-"
+"only."
+msgstr ""
+"Tidak mungkin membuka kunci Penyimpanan Persisten karena flash disk USB "
+"hanya-baca."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:408
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:440
+msgid "Unlocking…"
+msgstr "Membuka kunci…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:448
+msgid "Checking the file system…"
+msgstr "Memeriksa sistem berkas…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:481
+msgid "Repairing the File System"
+msgstr "Memperbaiki Sistem Berkas"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:482
+msgid "This might take a long time..."
+msgstr "Ini mungkin makan waktu lama..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:500
+msgid "Failed to repair the file system of your Persistent Storage."
+msgstr "Gagal memperbaiki sistem berkas Penyimpanan Persistent Anda."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:502
+msgid "Start Tails to send an error report and learn how to recover your data."
+msgstr ""
+"Mulailah Tails untuk mengirim laporan kesalahan dan belajar bagaimana "
+"memulihkan data Anda."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:516
+msgid "File System Repaired Successfully"
+msgstr "Sistem Berkas Sukses Diperbaiki"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:518
+msgid ""
+"It's possible that some data was lost during the repair. Please check the "
+"contents of your Persistent Storage and restore any lost data from a backup."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:522
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:32
+msgid "Close"
+msgstr "Tutup"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:537
+msgid ""
+"You aborted the repair of the file system. You can either start Tails "
+"without Persistent Storage or restart the computer to try repairing the file "
+"system again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:756
+msgid "Start Tails and open the Persistent Storage settings to find out more."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:785
+#, fuzzy
+msgid ""
+"Your Persistent Storage is unlocked. Its content will be available until you "
+"shut down Tails."
+msgstr ""
+"Penyimpanan Menetap Anda tidak terkunci. Memulai kembali Tails untuk "
+"menguncinya lagi."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:800
+msgid "Incorrect passphrase. Please try again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:811
+msgid ""
+"Error reading data from your Persistent Storage. The hardware of your USB "
+"stick is probably failing."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:813
+msgid "Start Tails to learn how to recover your data."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:824
+msgid "File System Errors"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:826
+msgid ""
+"Errors were detected in the file system of your Persistent Storage.\n"
+"                \n"
+"Tails can try to fix these errors, but this might erase some of your data "
+"and take a long time.\n"
+"\n"
+"If you already have an up-to-date backup of your Persistent Storage, we "
+"recommend that you try to repair.\n"
+"                \n"
+"If you don't have a backup, we recommend that you create a partition image "
+"of your Persistent Storage first."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:835
+msgid "Repair File System"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:836
+#, fuzzy
+msgid "Create Partition Image"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:847
+#, fuzzy
+msgid ""
+"Start Tails to learn how to create a partition image of your Persistent "
+"Storage."
+msgstr "Gagal untuk mengatur Penyimpanan Persistent Anda"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:856
+#, fuzzy
+msgid "Failed to unlock the Persistent Storage due to file system errors."
+msgstr "Gagal untuk mengatur Penyimpanan Persistent Anda"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:865
+msgid ""
+"Failed to upgrade the Persistent Storage. Please start Tails and send an "
+"error report."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:872
+msgid ""
+"Failed to unlock the Persistent Storage. Please start Tails and send an "
+"error report."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:880
+msgid ""
+"Failed to activate the Persistent Storage. Please start Tails and send an "
+"error report."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:891
+#, fuzzy
+msgid "Upgrading the Persistent Storage. This might take a while…"
+msgstr "Pembuatan Penyimpanan Tetap Anda gagal."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:125
+#, fuzzy
+msgid "Error unlocking Persistent Storage: {}"
+msgstr "_Penyimpanan Menetap Terenkripsi"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:150
+#, fuzzy
+msgid "Error upgrading Persistent Storage: {}"
+msgstr "_Penyimpanan Menetap Terenkripsi"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:176
+#, fuzzy, python-brace-format
+msgid "Failed to activate some features of the Persistent Storage: {features}."
+msgstr "Gagal untuk mengatur Penyimpanan Persistent Anda"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:181
+#, fuzzy
+msgid "Error activating Persistent Storage: {}"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:202
+#, fuzzy
+msgid "Failed to abort when repairing Persistent Storage filesystem: {}"
+msgstr "Gagal untuk mengatur Penyimpanan Persistent Anda"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:191
+msgid "_Language"
+msgstr "_Bahasa"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:234
+msgid "_Formats"
+msgstr "_Format"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:271
+msgid "_Keyboard Layout"
+msgstr "_Tata Letak Keyboard"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:321
+#, python-format
+msgid "Unable to write on %(device)s, skipping."
+msgstr "Tidak bisa menulis pada %(device)s, lewati."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:370
+#, fuzzy, python-format
+msgid "Wrote to device at %(speed)d MB/s"
+msgstr "Menulis ke perangkat dengan kecepatan %(speed)d MB/sec"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:382
+#, fuzzy
+msgid "Extracting live image to the target device..."
+msgstr "Extract image yang ada /Live ke Device target"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:477
+#, python-format
+msgid ""
+"There was a problem executing the following command: `%(command)s`.\n"
+"A more detailed error log has been written to \"%(filename)s\"."
+msgstr ""
+"Terdapat sebuah kesalahan saat mengeksekusi perintah berikut ini: "
+"'%(command)s'.\n"
+"Log kesalahan yang lebih rinci sudah dituliskan ke \"%(filename)s\"."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:496
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%(iso_size)dMB ISO + %(overlay_size)dMB overlay > %(free_space)dMB free space"
+msgstr ""
+"Tidak cukup ruang penyimpanan dalam perangkat.\n"
+"%(iso_size)dMB ISO + %(overlay_size)dMB overlay> %(free_space)dMB ruang bebas"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:509
+#, python-format
+msgid "Creating %sMB persistent overlay"
+msgstr "Membuat %sMB penyimpanan persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:575
+#, python-format
+msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
+msgstr "Tidak bisa menyalin %(infile)s ke %(outfile)s: %(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:588
+msgid "Removing existing Tails system"
+msgstr "Mencabut sistem Tails yang sudah ada"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:599
+#, python-format
+msgid "Unable to remove file from previous Tails system: %(message)s"
+msgstr ""
+"Tidak bisa menghapus berkas dari sistem Tails yang sebelumnya : %(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:609
+#, fuzzy, python-format
+msgid "Unable to chmod %(file)s: %(message)s"
+msgstr "Unable to chmod %(file)s: %(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:617
+#, python-format
+msgid "Unable to remove directory from previous Tails system: %(message)s"
+msgstr ""
+"Tidak bisa menghapus direktori dari sistem Tails sebelunya : %(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:668
+#, python-format
+msgid "Cannot find device %s"
+msgstr "Tidak bisa menemukan perangkat %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:704
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1024
+msgid "Unknown filesystem.  Your device may need to be reformatted."
+msgstr "Sistem file yang tidak dikenal. perangkat anda mesti di format."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:707
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1027
+#, python-format
+msgid "Unsupported filesystem: %s"
+msgstr "Filesystem yang tidak didukung: %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:723
+#, python-format
+msgid "Unknown GLib exception while trying to mount device: %(message)s"
+msgstr ""
+"GLib exception tidak diketahui ketika mencoba melakukan mount alat: "
+"%(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:730
+#, python-format
+msgid "Unable to mount device: %(message)s"
+msgstr "Tidak dapat/gagal ke mount device: %(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:735
+msgid "No mount points found"
+msgstr "Tidak ada titik kait"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:805
+#, fuzzy
+msgid "Target device has opened files"
+msgstr "Menulis ke perangkat dengan kecepatan %(speed)d MB/sec"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:833
+#, python-format
+msgid "Mount %s exists after unmounting"
+msgstr "Mount%s ada setelah tidak terpasang"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:864
+#, python-format
+msgid "Partitioning device %(device)s"
+msgstr "Mempartisi device %(device)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1008
+#, python-format
+msgid "Unsupported device '%(device)s', please report a bug."
+msgstr ""
+"Perangkat yang tidak didukung '%(device)s', silakan laporkan sebagai bug."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1011
+msgid "Trying to continue anyway."
+msgstr "Mencoba untuk melanjutkan."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1020
+msgid "Verifying filesystem..."
+msgstr "Memeriksa filesystem..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1043
+#, python-format
+msgid "Unable to change volume label: %s"
+msgstr "Tidak bisa merubah volume label %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1049
+msgid "Installing bootloader..."
+msgstr "Memasang bootloader..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1057
+#, python-format
+msgid "Removing %(file)s"
+msgstr "Menghapus %(file)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1086
+#, fuzzy
+msgid "Cloning Persistent Storage..."
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1169
+#, python-format
+msgid "%s already bootable"
+msgstr "%s sudah bisa diboot"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1190
+msgid "Unable to find partition"
+msgstr "Tidak bisa menemukan partisi"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1212
+#, python-format
+msgid "Formatting %(device)s as FAT32"
+msgstr "Memformat %(device)s sebagai FAT32"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1289
+#, python-format
+msgid "Reading extracted MBR from %s"
+msgstr "Membaca MBR yang diekstrak dari %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1294
+#, python-format
+msgid "Could not read the extracted MBR from %(path)s"
+msgstr "Tidak dapat membaca MBR yang diekstrak dari %(path)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1308
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1309
+#, python-format
+msgid "Resetting Master Boot Record of %s"
+msgstr "Mengatur ulang Master Boot Record dari %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1313
+#, python-format
+msgid "Writing random seed to LBA 34 of %s"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1320
+msgid "Drive is a loopback, skipping MBR reset"
+msgstr "Perangkat balikan (loopback), melewatkan mengatur ulang MBR"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1324
+msgid "Synchronizing data on disk..."
+msgstr "Sinkronisasi data pada disk..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:148
+msgid ""
+"Unable to clone because the target USB stick is being used. Close all open "
+"files on the target USB stick, restart Tails Cloner, and try to clone again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:180
+msgid ""
+"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
+"continue."
+msgstr ""
+"Kesalahan: Tidak dapat mengatur label atau memperoleh UUID perangkat Anda. "
+"Tidak dapat melanjutkan."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:225
+#, fuzzy, python-format
+msgid "Cloning complete! (%s)"
+msgstr "Pemasangan sudah tuntas! (%s)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:230
+msgid "Tails installation failed!"
+msgstr "Instalasi Tails gagal!"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:332
+#: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
+#, fuzzy
+msgid "Tails Cloner"
+msgstr "Installer untuk Tails"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:384
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
+msgid "Clone the current Tails"
+msgstr "Kloning Tails sekarang"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:392
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:200
+msgid "Use a downloaded Tails ISO image"
+msgstr "Gunakan gambar Tails ISO yang sudah diunduh"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:444
+msgid "Upgrade"
+msgstr "Pemutakhiran"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:445
+msgid "Manual Upgrade Instructions"
+msgstr "Petunjuk Upgrade Manual"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:456
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:714
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:374
+msgid "Install"
+msgstr "Install"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:459
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:131
+msgid "Installation Instructions"
+msgstr "Instruksi Pemasangan"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:462
+#, fuzzy
+msgid "Backup Instructions"
+msgstr "Petunjuk Upgrade Manual"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:473
+#, python-format
+msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr "%(size)s %(vendor)s %(model)s alat (%(device)s)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:486
+msgid "No ISO image selected"
+msgstr "Tidak ada file ISO yang dipilih"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:486
+msgid "Please select a Tails ISO image."
+msgstr "Silakan pilih file ISO dari Tails."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:537
+msgid ""
+"Clone the current Persistent Storage\n"
+"Impossible to clone the Persistent Storage because it is locked."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:541
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
+#, fuzzy
+msgid "Clone the current Persistent Storage"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:544
+msgid ""
+"Clone the current Persistent Storage\n"
+"You can only choose to reinstall when cloning the Persistent Storage."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:582
+#, python-format
+msgid ""
+"The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
+"manufacturer and Tails will fail to start from it. Please try installing on "
+"a different model."
+msgstr ""
+"USB flash disk %(pretty_name)sdiatur sebagai tidak dapat dicopot oleh "
+"produsennya dan Tails akan gagal jika dijalankan dengan menggunakan flash "
+"disk tersebut. Silakan lakukan instalasi dengan merek atau model flash disk "
+"lain."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:592
+#, python-format
+msgid ""
+"The device \"%(pretty_name)s\" is too small to install Tails (at least "
+"%(size)s GB is required)."
+msgstr ""
+"Device \"%(pretty_name)s\" terlalu kecil untuk menginstall Tails (minimal "
+"perlu %(size)s GB)."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:607
+#, python-format
+msgid ""
+"To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a "
+"downloaded Tails ISO image:\n"
+"%(dl_url)s"
+msgstr ""
+"Untuk memutakhirkan perangkat \"%(pretty_name)s\" dari Tails ini, Anda harus "
+"menggunakan image ISO Tails yang telah diunduh:\n"
+"%(dl_url)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:628
+msgid "No device suitable to install Tails could be found"
+msgstr "Alat yang cocok untuk instalasi Tails tidak ditemukan"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:631
+#, fuzzy, python-format
+msgid "Plug in a USB stick of at least %0.1f GB."
+msgstr "Silakan masukkan USB flash disk atau SD card sebesar minimal %0.1fGB."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:644
+msgid "An error happened while installing Tails"
+msgstr "Sebuah kesalahan terjadi ketika melakukan instalasi Tails"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:701
+msgid "Installation complete!"
+msgstr "Pemasangan sudah tuntas!"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:757
+#, python-format
+msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr "%(parent_size)s %(vendor)s %(model)s alat (%(device)s)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:770
+#, fuzzy
+msgid ""
+"\n"
+"\n"
+"The Persistent Storage on this USB stick will be lost."
+msgstr ""
+"\n"
+"\n"
+"Penyimpanan persisten pada stik USB ini akan hilang."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:772
+msgid "Delete Persistent Storage and Reinstall"
+msgstr "Hapus Penyimpanan Persisten dan Instal Ulang"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:774
+msgid ""
+"\n"
+"\n"
+"All data on this USB stick will be lost."
+msgstr ""
+"\n"
+"\n"
+"Semua data pada stik USB ini akan hilang."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:775
+msgid "Delete All Data and Install"
+msgstr "Hapus semua data dan instal"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:776
+#, python-format
+msgid "%(description)s%(delete_message)s"
+msgstr "%(description)s%(delete_message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:781
+msgid "Confirm the target USB stick"
+msgstr "Konfirmasi tujuan USB flash disk"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:811
+msgid "Unable to mount device"
+msgstr "Gagal memuat perangkat"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:840
+msgid ""
+"The selected file is unreadable. Please fix its permissions or select "
+"another file."
+msgstr ""
+"File terpilih tidak bisa dibaca. silakan perbaharui izinnya atau pilih file "
+"lain."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:850
+msgid ""
+"Unable to use the selected file.  You may have better luck if you move your "
+"ISO to the root of your drive (ie: C:\\)"
+msgstr ""
+"Tidak bisa menggunakan file yang terpilih. anda mungkin lebih beruntung jika "
+"anda memindahkan ISO anda ke akar/root dari drive (ie:C\\) anda"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:859
+#, python-format
+msgid "%(filename)s selected"
+msgstr "%(filename)s terpilih"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:37
+msgid "Unable to find Tails on ISO"
+msgstr "Tidak dapat menemukan Tails pada ISO"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:44
+#, python-format
+msgid "Could not guess underlying block device: %s"
+msgstr "Tak bisa memperkirakan dasar blokir perangkat: %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:61
+#, python-format
+msgid ""
+"There was a problem executing `%(cmd)s`.\n"
+"%(out)s\n"
+"%(err)s"
+msgstr ""
+"Ada masalah dalam mengeksekusi `%(cmd)s`.\n"
+"%(out)s\n"
+"%(err)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:70
+#, python-format
+msgid "\"%s\" does not exist"
+msgstr "\"%s\" tidak ada"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:72
+#, python-format
+msgid "\"%s\" is not a directory"
+msgstr "\"%s\" bukanlah merupakan sebuah direktori"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:84
+#, python-format
+msgid "Skipping \"%(filename)s\""
+msgstr "Melewati \"%(filename)s\""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/utils.py:63
+#, python-format
+msgid ""
+"There was a problem executing `%(cmd)s`.%(out)s\n"
+"%(err)s"
+msgstr ""
+"Ada masalah dalam mengeksekusi `%(cmd)s`.%(out)s\n"
+"%(err)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/utils.py:144
+msgid "Could not open device for writing."
+msgstr "Perangkat tak bisa dibuka untuk menulis."
+
+#: config/chroot_local-includes/usr/local/bin/keepassxc:24
+#, sh-format
+msgid ""
+"<b><big>Do you want to rename your <i>KeePassXC</i> database?</big></b>\n"
+"\n"
+"You have a <i>KeePassXC</i> database in your <i>Persistent</i> folder:\n"
+"\n"
+"<i>${filename}</i>\n"
+"\n"
+"Renaming your database to <i>${default_filename}</i> would allow "
+"<i>KeePassXC</i> to open it automatically in the future."
+msgstr ""
+"<b><big>Apakah Anda hendak mengubah nama basis data <i>KeePassXC</i> Anda?</"
+"big></b>\n"
+"\n"
+"Anda memiliki suatu basis data <i>KeePassXC</i> dalam folder <i>Persistent</"
+"i> Anda:\n"
+"\n"
+"<i>${filename}</i>\n"
+"\n"
+"Mengubah nama basis data Anda ke <i>${default_filename}</i> akan mengizinkan "
+"<i>KeePassXC</i> untuk membukanya secara otomatis nanti."
+
+#: config/chroot_local-includes/usr/local/bin/keepassxc:33
+msgid "Rename"
+msgstr "Ganti nama"
+
+#: config/chroot_local-includes/usr/local/bin/keepassxc:35
+msgid "Keep current name"
+msgstr "Pertahankan nama saat ini"
+
+#: config/chroot_local-includes/usr/local/bin/replace-su-with-sudo:19
+msgid "su is disabled. Please use sudo instead."
+msgstr "su dinonaktifkan. Mohon gunakan sudo sebagai gantinya."
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:3
+msgid "Error Reading Data from Tails USB Stick"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:4
+msgid "The hardware of your USB stick is probably failing."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:5
+msgid "We recommend that you reinstall Tails on a different USB stick."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:7
+#, fuzzy
+msgid ""
+"We recommend that you reinstall Tails on a different USB stick\n"
+"and recover the data from your Persistent Storage as soon as possible."
+msgstr ""
+"Untuk melakukannya, pasang Tails pada stik USB dan buat penyimpanan "
+"persistent."
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:10
+msgid "Dismiss"
+msgstr "Mengabaikan"
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:11
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:40
+msgid "Learn More"
+msgstr "Pelajari lebih lanjut"
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:18
+#, fuzzy
+msgid "Partitioning Error"
+msgstr "Partisi dan Drive"
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:19
+msgid "Errors were detected in the partitioning of your Tails USB stick."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:26
+msgid ""
+"We recommend that you create a backup of your Tails using <i>Tails Cloner</"
+"i> to migrate to a new USB stick."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:33
+#, fuzzy
+msgid "Open Tails Cloner"
+msgstr "Installer untuk Tails"
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:42
+#, fuzzy
+msgid "Creation of Persistent Storage has been disabled."
+msgstr "Pembuatan Penyimpanan Tetap Anda gagal."
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:44
+#, fuzzy
+msgid ""
+"We recommend that you reinstall Tails from scratch. If the error persists, "
+"reinstall on a new USB stick."
+msgstr ""
+"Untuk melakukannya, pasang Tails pada stik USB dan buat penyimpanan "
+"persistent."
+
+#: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:207
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:77
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:79
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:314
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:460
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:593
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1096
+msgid "Error"
+msgstr "Kesalahan"
+
+#: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:209
+msgid ""
+"The device Tails is running from cannot be found. Maybe you used the 'toram' "
+"option?"
+msgstr ""
+"Perangkat yang sedang menjalankan Tails tidak dapat ditemukan. Mungkin Anda "
+"menggunakan pilihan 'toram'?"
+
+#: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:237
+msgid ""
+"The drive Tails is running from cannot be found. Maybe you used the 'toram' "
+"option?"
+msgstr ""
+"Hard drive tempat Tails dijalankan, tidak dapat ditemukan. Mungkin Anda "
+"menggunakan opsi 'toram'?"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:86
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:110
+msgid "Lock Screen"
+msgstr "Kunci Layar"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:90
+msgid "Suspend"
+msgstr "Ditangguhkan"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:94
+msgid "Restart"
+msgstr "Mulai ulang"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:98
+msgid "Power Off"
+msgstr "Matikan"
+
+#: config/chroot_local-includes/usr/local/bin/tails-about:27
+#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
+msgid "Tails"
+msgstr "Tails"
+
+#: config/chroot_local-includes/usr/local/bin/tails-about:30
+#: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
+msgid "About Tails"
+msgstr "Tentang Tails"
+
+#: config/chroot_local-includes/usr/local/bin/tails-about:34
+#, fuzzy
+msgid "Check for Upgrades"
+msgstr "Galat saat memeriksa pemutakhiran"
+
+#: config/chroot_local-includes/usr/local/bin/tails-about:57
+msgid "UNRELEASED"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-about:64
+#, python-format
+msgid "Built from %s"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-additional-software-notify:36
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:114
+#, python-brace-format
+msgid ""
+"Remove {package} from your additional software? This will stop installing "
+"the package automatically."
+msgstr ""
+"Hapus {package} dari perangkat lunak tambahan Anda? Ini akan menghentikan "
+"pemasangan paket secara otomatis."
+
+#. Translators: Don't translate {pkg}, it's a placeholder and will be replaced.
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:127
+#, python-brace-format
+msgid "Failed to remove {pkg}"
+msgstr "Gagal menghapus {pkg}"
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:155
+msgid "Failed to read additional software configuration"
+msgstr "Gagal membaca konfigurasi perangkat lunak tambahan"
+
+#. Translators: Don't translate {package}, it's a placeholder and will be replaced.
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:184
+#, python-brace-format
+msgid "Stop installing {package} automatically"
+msgstr "Hentikan pemasangan {package} secara otomatis"
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:215
+msgid ""
+"To do so, install some software using <a href=\"synaptic.desktop\">Synaptic "
+"Package Manager</a> or <a href=\"org.gnome.Terminal.desktop\">APT on the "
+"command line</a>."
+msgstr ""
+"Untuk melakukannya, pasang perangkat lunak menggunakan <a "
+"href=\"synaptic.desktop\">Synaptic Package Manager</a> atau <a "
+"href=\"org.gnome.Terminal.desktop\">APT pada baris perintah</a>."
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:227
+msgid ""
+"To do so, unlock your Persistent Storage when starting Tails and install "
+"some software using <a href=\"synaptic.desktop\">Synaptic Package Manager</"
+"a> or <a href=\"org.gnome.Terminal.desktop\">APT on the command line</a>."
+msgstr ""
+"Untuk melakukannya, buka kunci penyimpanan tetap Anda saat memulai Tails dan "
+"pasang perangkat lunak menggunakan <a href=\"synaptic.desktop\">Synaptic "
+"Package Manager</a> atau <a href=\"org.gnome.Terminal.desktop\">APT pada "
+"baris perintah</a>."
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:240
+#, fuzzy
+msgid ""
+"To do so, create a Persistent Storage and install some software using <a "
+"href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a "
+"href=\"org.gnome.Terminal.desktop\">APT on the command line</a>."
+msgstr ""
+"Untuk melakukannya, buat sebuah penyimpanan tetap dan pasang perangkat luna "
+"menggunakan <a href=\"synaptic.desktop\">Synaptic Package Manager</a> atau "
+"<a href=\"org.gnome.Terminal.desktop\">APT pada baris perintah</a>."
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:258
+#, fuzzy
+msgid "To do so, install Tails on a USB stick and create a Persistent Storage."
+msgstr ""
+"Untuk melakukannya, pasang Tails pada stik USB dan buat penyimpanan "
+"persistent."
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:304
+msgid "[package not available]"
+msgstr "[paket tidak tersedia]"
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:311
+#, fuzzy
+msgid "[description not available]"
+msgstr "[paket tidak tersedia]"
+
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:68
+msgid "Failed to synchronize the clock!"
+msgstr "Gagal menyinkronisasi jam!"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:125
+msgid "Screen Locker"
+msgstr "Pengunci Layar"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:131
+msgid "Set up a password to unlock the screen."
+msgstr "Buat kata sandi untuk membuka kunci layar."
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:149
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2290
+msgid "Password"
+msgstr "Password"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:150
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:109
+msgid "Confirm"
+msgstr "Konfirmasi"
+
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:121
+msgid "This version of Tails has known security issues:"
+msgstr "Versi Tails ini telah mengetahui isu-isu keamanan:"
+
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:132
+msgid "Known security issues"
+msgstr "Isu keamanan yang diketahui"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:60
+#, sh-format
+msgid "Wi-Fi Interface Disabled"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:61
+#, sh-format
+msgid ""
+"MAC address anonymization failed for one of your Wi-Fi interfaces, so it is "
+"temporarily disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:64
+#, fuzzy, sh-format
+msgid "Wi-Fi Disabled"
+msgstr "Nonaktifkan"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:65
+#, sh-format
+msgid ""
+"MAC address anonymization failed for your Wi-Fi interface, so it is "
+"temporarily disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:67
+#, sh-format
+msgid "Wired Interface Disabled"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:68
+#, sh-format
+msgid ""
+"MAC address anonymization failed for one of your wired interfaces, so it is "
+"temporarily disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:71
+#, fuzzy, sh-format
+msgid "Wired Network Disabled"
+msgstr "Semua jaringan dimatikan"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:72
+#, sh-format
+msgid ""
+"MAC address anonymization failed for your wired interface, so it is "
+"temporarily disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:74
+#, fuzzy, sh-format
+msgid "Network Interface Disabled"
+msgstr "Kartu jaringan ${nic} dimatikan"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:75
+#, sh-format
+msgid ""
+"MAC address anonymization failed for one of your network interfaces, so it "
+"is temporarily disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:87
+#, fuzzy
+msgid "All Networking Disabled"
+msgstr "Semua jaringan dimatikan"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:89
+#, fuzzy, sh-format
+msgid ""
+"MAC address anonymization failed for one of your network interfaces. The "
+"error recovery also failed, so all networking is disabled."
+msgstr ""
+"Pengaturan anonim alamat MAC gagal untuk kartu jaringan ${nic_name} "
+"(${nic}). Pemulihan galat juga gagal dilakukan sehingga jaringan dimatikan.\n"
+"Anda mungkin ingin memulai ulang Tails dan mematikan pengaturan anonim MAC."
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:92
+#, fuzzy, sh-format
+msgid ""
+"MAC address anonymization failed for your network interface. The error "
+"recovery also failed, so all networking is disabled."
+msgstr ""
+"Pengaturan anonim alamat MAC gagal untuk kartu jaringan ${nic_name} "
+"(${nic}). Pemulihan galat juga gagal dilakukan sehingga jaringan dimatikan.\n"
+"Anda mungkin ingin memulai ulang Tails dan mematikan pengaturan anonim MAC."
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:36
+#, python-brace-format
+msgid ""
+"<b>Not enough memory available to check for upgrades.</b>\n"
+"\n"
+"Make sure this system satisfies the requirements for running Tails.\n"
+"See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
+"\n"
+"Try to restart Tails to check for upgrades again.\n"
+"\n"
+"Or do a manual upgrade.\n"
+"See {manual_upgrade_url}"
+msgstr ""
+"<b>Tidak cukup memori tersedia untuk mengeceek pemutakhiran.</b>\n"
+"\n"
+"Pastikan sistem ini memenuhi persyaratan untuk menjalankan Tails.\n"
+"Lihat file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
+"\n"
+"Coba mulai ulang Tails untuk mengecek pemutakhiran lagi.\n"
+"\n"
+"Atau lakukan upgrade manual.\n"
+"Lihat {manual_upgrade_url}"
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:76
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
+msgid "error:"
+msgstr "kesalahan:"
+
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:21
+msgid "Warning: virtual machine detected!"
+msgstr "Peringatan: mesin virtual terdeteksi!"
+
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:23
+msgid "Warning: non-free virtual machine detected!"
+msgstr "Peringatan: mesin virtual non-free terdeteksi!"
+
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:25
+msgid ""
+"Both the host operating system and the virtualization software are able to "
+"monitor what you are doing in Tails. Only free software can be considered "
+"trustworthy, for both the host operating system and the virtualization "
+"software."
+msgstr ""
+"Baik sistem operasi asal dan perangkat lunak virtualisasi dapat memonitor "
+"apa yang sedang kamu lakukan di Tails. Hanya free software yang dapat "
+"dipandang terpercaya, untuk kedua sistem operasi host dan perangkat lunak "
+"virtualisasi."
+
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:38
+msgid "Don't Show Again"
+msgstr "Jangan Tampilkan Lagi"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/config.py:9
+#: config/chroot_local-includes/usr/local/bin/tca:10
+#: ../config/chroot_local-includes/usr/share/applications/tca.desktop.in.h:1
+msgid "Tor Connection"
+msgstr "Koneksi Tor"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:200
+#, fuzzy
+msgid "_Use a bridge that you already know"
+msgstr "_Gunakan bridge yang Anda ketahui."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:242
+#, fuzzy
+msgid ""
+"To save your bridge, <a href=\"doc/persistent_storage\">unlock your "
+"Persistent Storage</a>."
+msgstr ""
+"Untuk menyimpan bridge Anda, <a href=\"doc/first_steps/persistence\">Buka "
+"Penyimpanan Persistent Anda</a>."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:249
+#, fuzzy
+msgid ""
+"To save your bridge, <a href=\"doc/persistent_storage\">create a Persistent "
+"Storage</a> on your Tails USB stick."
+msgstr ""
+"Untuk menyimpan bridge Anda, <a href=\"doc/first_steps/persistence\">Buat "
+"Penyimpanan Persistent</a> pada stik USB Tails Anda."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:269
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:795
+#, python-brace-format
+msgid "Invalid: {exception}"
+msgstr "Tidak valid: {exception}"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:281
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:808
+msgid "You need to configure an obfs4 bridge to hide that you are using Tor"
+msgstr ""
+"Anda perlu mengatur bridge obfs4 untuk menyembunyikan bahwa Anda menggunakan "
+"Tor"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:336
+msgid "Failed to configure your Persistent Storage"
+msgstr "Gagal untuk mengatur Penyimpanan Persistent Anda"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:388
+msgid "Failed to detect a webcam. Maybe your webcam is too old."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:399
+msgid "Failed to scan QR code. Try with more light or closer to the camera."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:410
+msgid "Invalid QR code. Try sending another email and scanning again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:468
+msgid "Synchronizing the system's clock…"
+msgstr "Menyelaraskan jam sistem…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:520
+msgid "Connecting to Tor without bridges…"
+msgstr "Menyambung ke Tor tanpa bridge…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:527
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:551
+msgid "Connecting to Tor with default bridges…"
+msgstr "Menyambung ke Tor dengan bridge default…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:534
+msgid "Connecting to Tor with a custom bridge…"
+msgstr "Menyambung ke Tor dengan bridge kustom…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:642
+msgid "Connected to Tor successfully with bridges"
+msgstr "Sukses tersambung ke Tor dengan bridge"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:644
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2037
+msgid "Connected to Tor successfully"
+msgstr "Sukses Terhubung ke Tor"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:648
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2062
+msgid "You can now browse the Internet anonymously and uncensored."
+msgstr ""
+"Anda sekarang dapat menjelajah Internet secara anonim dan tanpa sensor."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:723
+#, fuzzy
+msgid "This local network seems to be blocking access to Tor."
+msgstr "Jaringan lokal Anda memblokir akses ke Tor."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:798
+msgid "Bridge address malformed"
+msgstr "Alamat bridge cacat"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:816
+msgid "Setting a bridge is needed if you want to hide that you are using Tor"
+msgstr ""
+"Mengatur bridge diperlukan jika Anda ingin menyembunyikan fakta bahwa Anda "
+"sedang menggunakan Tor"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1055
+#, python-brace-format
+msgid "Scanned {bridge_type} bridge: <b>{bridge_info}</b>."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1144
+msgid "Are you sure you want to lose progress?"
+msgstr "Apakah Anda yakin ingin kehilangan kemajuan?"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1148
+msgid ""
+"Tails will continue connecting to Tor after you close the Tor Connection "
+"assistant.\n"
+"\n"
+"If connecting to Tor fails, you will have to wait again until the end of the "
+"progress bar to be able to troubleshoot your connection."
+msgstr ""
+"Tails akan terus berusaha untuk menyambung ke Tor bahkan jika Anda menutup "
+"asisten koneksi Tor.\n"
+"\n"
+"Jika koneksi ke Tor gagal, Anda harus menunggu hingga akhir bar kemajuan "
+"untuk memecahkan masalah koneksi Anda."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1154
+msgid "Close and Lose Progress"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1156
+msgid "Wait"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/thunderbird:41
+msgid "You need to migrate your OpenPGP keys"
+msgstr "Anda perlu migrasikan kunci OpenPGP Anda"
+
+#: config/chroot_local-includes/usr/local/bin/thunderbird:43
+msgid ""
+"<i>Thunderbird</i> 78 now replaces the <i>Enigmail</i> extension with built-"
+"in support for OpenPGP encryption. To continue using your OpenPGP keys in "
+"<i>Thunderbird</i>, follow our migration instructions."
+msgstr ""
+"<i>Thunderbird</i>78 sekarang menggantikan ekstensi <i>Enigmail</i> dengan "
+"dukungan bawaan untuk enkripsi OpenPGP. untuk terus menggunakan kunci "
+"OpenPGP Anda di <i>Thunderbird</i>, ikuti instruksi migrasi kami."
+
+#: config/chroot_local-includes/usr/local/bin/thunderbird:45
+msgid "_Open Migration Instructions"
+msgstr "_Buka Instruksi Migrasi"
+
+#: config/chroot_local-includes/usr/local/bin/thunderbird:46
+#, fuzzy
+msgid "_Migrate Later"
+msgstr "Migrasi di lain waktu"
+
+#: config/chroot_local-includes/usr/local/lib/launch-tor-browser:38
+msgid "Tor is not ready"
+msgstr "Tor belum siap"
+
+#: config/chroot_local-includes/usr/local/lib/launch-tor-browser:39
+msgid "Tor is not ready. Start Tor Browser anyway?"
+msgstr "Tor belum siap. Tetap jalankan Tor Browser?"
+
+#: config/chroot_local-includes/usr/local/lib/launch-tor-browser:40
+msgid "Start Tor Browser Offline"
+msgstr "Mulai Tor Browser Offline"
+
+#: config/chroot_local-includes/usr/local/lib/launch-tor-browser:41
+msgid "Open Tor Connection"
+msgstr "Buka Koneksi Tor"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:37
+msgid "Tor Status"
+msgstr "Status Tor"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:46
+#, fuzzy
+msgid "Open Tor Connection Assistant"
+msgstr "Buka Koneksi Tor"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:50
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2116
+msgid "View Tor Circuits"
+msgstr "Lihat Sirkuit Tor"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:348
+#, python-brace-format
+msgid ""
+"Only {available_memory} KiB of memory is available, need at least "
+"{required_memory} KiB.\n"
+"\n"
+"Try again after closing some applications or rebooting."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:362
+#, fuzzy
+msgid "Creating a partition for the Persistent Storage..."
+msgstr "Koreksi izin/permisi dari volume persistent"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:384
+msgid ""
+"Initializing the LUKS encryption... The computer might stop responding for a "
+"few seconds."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:413
+msgid "Unlocking the encryption..."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:421
+#, fuzzy
+msgid "Formatting the file system..."
+msgstr "Memeriksa filesystem..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:439
+#, fuzzy
+msgid "Activating the Persistent Storage..."
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:444
+#, fuzzy
+msgid "Finishing setting up the Persistent Storage..."
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:697
+msgid ""
+"Can't unmount Persistent Storage, some process is still using it. Please "
+"close all applications that could be accessing it and try again. If that "
+"doesn't work, restart Tails and try deleting the Persistent Storage without "
+"unlocking it."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:730
+msgid ""
+"Not enough memory to change the passphrase of the Persistent Storage. Try "
+"again after closing some applications or rebooting."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/configuration/binding.py:425
+#, python-brace-format
+msgid ""
+"Can't unmount target {target}, some process is still using it. Please close "
+"all applications that could be accessing the target and try again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:30
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:49
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.PersistentStorage.desktop.in.h:1
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:25
+#, fuzzy
+msgid "Persistent Storage"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:56
+#, fuzzy
+msgid "Failed to start the Persistent Storage service"
+msgstr "Gagal untuk mengatur Penyimpanan Persistent Anda"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:80
+msgid "Could not find the WhisperBack application"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:94
+#, fuzzy
+msgid "Delete Data…"
+msgstr "Hapus"
+
+#. Translators: Don't translate {feature}, it's a placeholder
+#. and will be replaced.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:100
+#, python-brace-format
+msgid "Delete {feature} data"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:122
+#, fuzzy
+msgid "Activation failed"
+msgstr "Berkas titik"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:178
+msgid "Activation failed. Try again or delete data."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:180
+msgid "Activation failed. Try again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:182
+msgid "The data of this feature is still saved."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:289
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:296
+#, fuzzy
+msgid "Error activating feature {}"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:297
+#, fuzzy
+msgid "An error occurred while activating the feature."
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:298
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:347
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:411
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:115
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:270
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:298
+msgid "Details"
+msgstr "Detail"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:338
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:345
+#, fuzzy
+msgid "Error deactivating feature {}"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:346
+#, fuzzy
+msgid "An error occurred while deactivating the feature."
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:366
+msgid ""
+"Delete all the data of the {} feature that is saved in the Persistent "
+"Storage?\n"
+"\n"
+"If you cancel, the data will be restored when you turn this feature on again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:377
+#, fuzzy
+msgid "_Delete Data"
+msgstr "Hapus"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:407
+msgid "Error deleting data of feature {}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:408
+msgid "An error occurred while deleting the data of feature {}."
+msgstr ""
+
+#. Translators: Don't translate {applications}, it's a placeholder
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:515
+#, python-brace-format
+msgid "Close {applications} to continue"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:516
+msgid " and "
+msgstr ""
+
+#. Translators: Don't translate {app} and {pid}, they
+#. are placeholders.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:527
+#, python-brace-format
+msgid "{app} (PID: {pid})"
+msgstr ""
+
+#. Translators: Don't translate {app} and {pids}, they
+#. are placeholders.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:532
+#, python-brace-format
+msgid "{app} (PIDs: {pids})"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:37
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:8
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:56
+msgid "Change Passphrase"
+msgstr "Ubah Frasa Sandi"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:92
+#, fuzzy
+msgid "The current passphrase is incorrect"
+msgstr "Kalimat tidak cocok"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:103
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:113
+#, fuzzy
+msgid "Changing the passphrase failed"
+msgstr "Tampilkan Kata Kunci"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:114
+msgid "An error occurred while changing the passphrase."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:44
+msgid "Weak"
+msgstr "Lemah"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:47
+msgid "Fair"
+msgstr "Sedang"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:50
+msgid "Good"
+msgstr "Bagus"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:53
+msgid "Strong"
+msgstr "Kuat"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:54
+msgid "You can send an error report to help solve the issue."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:61
+#, fuzzy
+msgid "_Send Error Report"
+msgstr "Pelaporan Kesalahan WhisperBack"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:153
+msgid ""
+"Impossible to delete the Persistent Storage while it is unlocked.\n"
+"\n"
+"To delete the Persistent Storage, restart Tails without unlocking the "
+"Persistent Storage and open the Persistent Storage settings again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:167
+msgid ""
+"Impossible to delete the Persistent Storage because the USB stick is read-"
+"only.\n"
+"\n"
+"To delete the Persistent Storage, turn off the read-only protection of the "
+"USB stick, restart Tails without unlocking the Persistent Storage and open "
+"the Persistent Storage settings again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:175
+#, fuzzy
+msgid "Impossible to delete the Persistent Storage"
+msgstr "Gagal untuk mengatur Penyimpanan Persistent Anda"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:183
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:218
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:36
+#, fuzzy
+msgid "Delete Persistent Storage"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:187
+msgid ""
+"Are you sure that you want to delete your Persistent Storage? This action "
+"cannot be undone."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:191
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:56
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:304
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:121
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:219
+msgid "_Cancel"
+msgstr "_Batal"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:192
+#, fuzzy
+msgid "_Delete Persistent Storage"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:202
+#, fuzzy
+msgid "Deleting your Persistent Storage..."
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:221
+msgid "_OK"
+msgstr "_Ok"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:230
+msgid ""
+"Sorry, you can't close this app until the ongoing operation has completed."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:233
+msgid "Please wait"
+msgstr "Mohon tunggu"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:261
+#, fuzzy
+msgid "Not enough memory to create Persistent Storage"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:268
+#, fuzzy
+msgid "Failed to create Persistent Storage"
+msgstr "Gagal untuk mengatur Penyimpanan Persistent Anda"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:269
+#, fuzzy
+msgid "An error occurred while creating the Persistent Storage."
+msgstr "_Penyimpanan Menetap Terenkripsi"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:289
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:296
+#, fuzzy
+msgid "Error deleting Persistent Storage"
+msgstr "_Penyimpanan Menetap Terenkripsi"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:297
+#, fuzzy
+msgid "An error occurred while deleting the Persistent Storage."
+msgstr "_Penyimpanan Menetap Terenkripsi"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:334
+msgid "Details (command output)"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:349
+#, fuzzy
+msgid "Failed to open the documentation"
+msgstr "Dokumentasi Tails"
+
+#. Translators: Don't translate {volume_label} or {volume_size},
+#. they are placeholders and will be replaced. They need
+#. to be present in the translated string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:79
+#, python-brace-format
+msgid "{volume_label} ({volume_size})"
+msgstr "{volume_label} ({volume_size})"
+
+#. Translators: Don't translate {partition_name} or {partition_size},
+#. they are placeholders and will be replaced. They need
+#. to be present in the translated string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:86
+#, python-brace-format
+msgid "{partition_name} ({partition_size})"
+msgstr "{partition_name} ({partition_size})"
+
+#. Translators: Don't translate {volume_size}, it's a placeholder
+#. and will be replaced. It needs to be present in the translated
+#. string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:94
+#, python-brace-format
+msgid "{volume_size} Volume"
+msgstr "{volume_size} Volume"
+
+#. Translators: Don't translate {volume_name}, it's a placeholder and
+#. will be replaced. It needs to be present in the translated string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:140
+#, python-brace-format
+msgid "{volume_name} (Read-Only)"
+msgstr "{volume_name} (Hanya-Baca)"
+
+#. Translators: Don't translate {partition_name} and {container_path}, they
+#. are placeholders and will be replaced. They need to be present
+#. in the translated string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:149
+#, python-brace-format
+msgid "{partition_name} in {container_path}"
+msgstr "{partition_name} di {container_path}"
+
+#. Translators: Don't translate {volume_name} and {path_to_file_container},
+#. they are placeholders and will be replaced. You should only have to translate
+#. this string if it makes sense to reverse the order of the placeholders.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:157
+#, python-brace-format
+msgid "{volume_name} – {path_to_file_container}"
+msgstr "{volume_name} – {path_to_file_container}"
+
+#. Translators: Don't translate {partition_name} and {drive_name}, they
+#. are placeholders and will be replaced. They need to be present
+#. in the translated string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:165
+#, python-brace-format
+msgid "{partition_name} on {drive_name}"
+msgstr "{partition_name} pada {drive_name}"
+
+#. Translators: Don't translate {volume_name} and {drive_name},
+#. they are placeholders and will be replaced. You should only have to translate
+#. this string if it makes sense to reverse the order of the placeholders.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:173
+#, python-brace-format
+msgid "{volume_name} – {drive_name}"
+msgstr "{volume_name} – {drive_name}"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:278
+msgid "Wrong passphrase or parameters"
+msgstr "Frasa sandi atau parameter salah"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:280
+msgid "Error unlocking volume"
+msgstr "Gagal membuka volume"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:286
+#, python-brace-format
+msgid ""
+"Couldn't unlock volume {volume_name}:\n"
+"{error_message}"
+msgstr ""
+"Tidak dapat membuka volume {volume_name}:\n"
+"{error_message}"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:403
+msgid "One or more applications are keeping the volume busy."
+msgstr "Satu atau lebih aplikasi menjaga volume sibuk."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:411
+#, python-brace-format
+msgid ""
+"Couldn't lock volume {volume_name}:\n"
+"{error_message}"
+msgstr ""
+"Tidak dapat mengunci volume {volume_name}:\n"
+"{error_message}"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:413
+msgid "Locking the volume failed"
+msgstr "Mengunci volume gagal"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:83
+msgid "No file containers added"
+msgstr "Tidak ada kontainer berkas yang ditambahkan"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:99
+msgid "No VeraCrypt devices detected"
+msgstr "Tidak ada perangkat VeraCrypt terdeteksi"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:43
+#: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:1
+msgid "Unlock VeraCrypt Volumes"
+msgstr "Buka Volume VeraCrypt"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:120
+msgid "Container already added"
+msgstr "Kontainer telah ditambahkan"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:121
+#, python-format
+msgid "The file container %s should already be listed."
+msgstr "Kontainer berkas %s seharusnya sudah terdaftar."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:142
+msgid "Container opened read-only"
+msgstr "Kontainer dibuka dengan hak hanya-baca"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:145
+#, python-brace-format
+msgid ""
+"The file container {path} could not be opened with write access. It was "
+"opened read-only instead. You will not be able to modify the content of the "
+"container.\n"
+"{error_message}"
+msgstr ""
+"Kontainer berkas ini {path} tidak dapat dibuka dengan akses tulis. Ini "
+"dibuka dengan hak hanya-baca. Anda tidak bisa memodifikasi konten dari "
+"kontainer ini.\n"
+"{error_message}"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:151
+msgid "Error opening file"
+msgstr "gagal membuka berkas"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:178
+msgid "Not a VeraCrypt container"
+msgstr "Bukan kontainer VeraCrypt"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:179
+#, python-format
+msgid "The file %s does not seem to be a VeraCrypt container."
+msgstr "Berkas %s tidak terlihat seperti kontainer VeraCrypt."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:183
+msgid "Failed to add container"
+msgstr "Gagal menambahkan kontainer"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:185
+#, python-format
+msgid ""
+"Could not add file container %s: Timeout while waiting for loop setup.\n"
+"Please try using the <i>Disks</i> application instead."
+msgstr ""
+"Tidak dapat menambah kontainer file %s: waktu habis saat menunggu untuk loop "
+"setup.\n"
+"Sebagai gantinya mohon untuk menggunakan aplikasi <i>Disks</i>."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:241
+msgid "Choose File Container"
+msgstr "Pilih Kontainer Berkas"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:47
+msgid "The Unsafe Browser was disabled in the Welcome Screen.\\n\\n"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:50
+msgid ""
+"To use the Unsafe Browser, restart Tails and make sure that the Unsafe "
+"Browser is enabled in the additional settings of the Welcome Screen."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
+#, fuzzy
+msgid "To use the Unsafe Browser, restart Tails."
+msgstr "Matikan Penjelajah yang Tidak Aman (bawaan)"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:55
+msgid "_Restart"
+msgstr "_Memulai Ulang"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+msgid ""
+"Do you really want to restart Tails now?\\n\\nAll your current work will be "
+"lost."
+msgstr ""
+"Anda yakin hendak memulai ulang Tails sekarang?\\n\\nSemua pekerjaan Anda "
+"saat ini akan hilang."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+msgid "Restart Now"
+msgstr "Mulai Ulang Sekarang"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:63
+msgid "Failed to restart the system."
+msgstr "Gagal memulai ulang sistem."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:71
+msgid "Shutting down the Unsafe Browser..."
+msgstr "Mematikan Unsafe Browser..."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:72
+msgid ""
+"This may take a while, and you may not restart the Unsafe Browser until it "
+"is properly shut down."
+msgstr ""
+"Mungkin ini akan memakan waktu, dan Anda tidak boleh memulai ulang Unsafe "
+"Browser sampai ia dimatikan secara layak."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:85
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:544
+msgid "Unsafe Browser"
+msgstr "Unsafe Browser"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:100
+msgid ""
+"Another Unsafe Browser is currently running, or being cleaned up. Please "
+"retry in a while."
+msgstr ""
+"Peramban tak aman lain sedang berjalan, atau sedang dibersihkan. Silakan "
+"coba lagi nanti."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:116
+msgid ""
+"You are not connected to a local network yet.\\n\\nTo be able to start the "
+"Unsafe Browser, you first need to connect to a Wi-Fi, wired, or mobile "
+"network."
+msgstr ""
+"Anda belum terhubung ke jaringan lokal.\\n\\nUntuk bisa menjalankan Browser "
+"yang tidak aman, Anda harus menyambungkan ke Wi-Fi, kabel, atau jaringan "
+"seluler."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:139
+msgid "Failed to run browser."
+msgstr "Gagal menjalankan peramban."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:45
+#, python-format
+msgid ""
+"The %s variable was not found in the configuration file: /etc/whisperback/"
+"config.py"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:136
+msgid "Unable to load a valid configuration."
+msgstr "Tidak dapat memuat konfigurasi yang valid."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:162
+msgid "Sending mail..."
+msgstr "Mengirimkan surat..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:163
+msgid "Sending mail"
+msgstr "Mengirimkan surat"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:165
+msgid "This could take a while..."
+msgstr "Membutuhkan beberapa saat..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:197
+msgid "The contact email address doesn't seem valid."
+msgstr "Alamat surel kontak sepertinya tidak valid."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:218
+msgid "Unable to send the mail: SMTP error."
+msgstr "Tidak dapat mengirim surat: galat SMTP."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:220
+msgid "Unable to connect to the server."
+msgstr "Tidak visa terhubung dengan server."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:222
+#, fuzzy
+msgid "Tor is not ready yet"
+msgstr "Tor belum siap"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:224
+msgid "Unable to create or to send the mail."
+msgstr "Tidak dapat membuat atau mengirim surat."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:229
+msgid ""
+"\n"
+"\n"
+"Make sure that you are connected to Tor and click send again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:239
+msgid "Your message has been sent."
+msgstr "Pesan Anda telah terkirim."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:248
+#, fuzzy
+msgid "An error occurred during encryption."
+msgstr "Sebuah galat terjadi saat proses enkripsi."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:317
+msgid "This doesn't seem to be a valid URL or OpenPGP key."
+msgstr "Ini tidak terlihat sebagai URL atau kunci OpenPGP yang valid."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:57
+#, python-format
+msgid "Invalid contact email: %s"
+msgstr "Alamat email kontak tidak benar: %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:76
+#, python-format
+msgid "Invalid contact OpenPGP key: %s"
+msgstr "Kunci OpenPGP kontak tidak benar: %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:78
+msgid "Invalid contact OpenPGP public key block"
+msgstr "Blok kunci umum OpenPGP kontak tidak benar"
+
+#: config/chroot_local-includes/usr/local/bin/tca:11
+msgid ""
+"You turned on Offline Mode in the Welcome Screen.\n"
+"It is impossible to connect to Tor in Offline Mode.\n"
+"To connect to Tor and the Internet, restart Tails without Offline Mode."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.PersistentStorage.desktop.in.h:2
+msgid ""
+"Configure which files and application configuration are saved between "
+"working sessions"
+msgstr ""
+"Atur konfigurasi file dan aplikasi mana yang disimpan diantara sesi bekerja"
+
+#: ../config/chroot_local-includes/usr/share/applications/root-terminal.desktop.in.h:1
+msgid "Root Terminal"
+msgstr "Terminal asal"
+
+#: ../config/chroot_local-includes/usr/share/applications/root-terminal.desktop.in.h:2
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr ""
+"Buka terminal sebagai pengguna root, menggunakan gksu untuk menanyakan "
+"password"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
+#, fuzzy
+msgid "Tails Documentation"
+msgstr "Dokumentasi Tails"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
+msgid "Learn how to use Tails"
+msgstr "Pelajari bagaimana menggunakan Tails"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
+msgid "Learn more about Tails"
+msgstr "Pelajari lebih lanjut mengenail Tails"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:1
+#, fuzzy
+msgid "Back Up Persistent Storage"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:2
+msgid ""
+"Make a backup of the Tails Persistent Storage to another Tails USB stick"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:2
+msgid "Install, clone, upgrade Tails"
+msgstr "Pasang, klon, dan upgrade Tails"
+
+#: ../config/chroot_local-includes/usr/share/applications/tca.desktop.in.h:2
+msgid "Connect Tails to the Tor network"
+msgstr "Sambungkan Tails ke jaringan Tor"
+
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.TorBrowser.desktop.in.h:1
+msgid "Tor Browser"
+msgstr "Peramban Tor"
+
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.TorBrowser.desktop.in.h:2
+msgid "Anonymous Web Browser"
+msgstr "Tanpanama Web Peramban"
+
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:2
+msgid "Browse the World Wide Web without anonymity"
+msgstr "Jelajahi web tanpa anonimitas"
+
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:3
+#, fuzzy
+msgid "Unsafe Web Browser"
+msgstr "Unsafe Web Browser"
+
+#: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:2
+msgid "Mount VeraCrypt encrypted file containers and devices"
+msgstr "Mount VeraCrypt kontainer dan perangkat file yang dienkripsi"
+
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.AdditionalSoftware.desktop.in.h:2
+#, fuzzy
+msgid ""
+"Configure the additional software installed from your Persistent Storage "
+"when starting Tails"
+msgstr ""
+"Setel perangkat lunak tambahan yang dipasang dari penyimpanan persisten Anda "
+"saat memulai Tails"
+
+#: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:1
+msgid "WhisperBack Error Reporting"
+msgstr "Pelaporan Kesalahan WhisperBack"
+
+#: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:2
+msgid "Send feedback via encrypted e-mail"
+msgstr "kirim umpan balik via surel terenkripsi"
+
+#: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:3
+#, fuzzy
+msgid "feedback;bug;report;tails;error;"
+msgstr "feedback;bug;report;tails;error;"
+
+#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
+msgid "Tails specific tools"
+msgstr "Peralatan spesifik Tails"
+
+#: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.root-terminal.policy.in.h:1
+msgid "To start a Root Terminal, you need to authenticate."
+msgstr ""
+"Untuk menggunakan Terminal dengan akses Dasar, Anda perlu memasukkan "
+"password."
+
+#: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.AdditionalSoftware.policy.in.h:1
+msgid "Remove an additional software package"
+msgstr "Hapus sebuah paket perangkat lunak tambahan"
+
+#: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.AdditionalSoftware.policy.in.h:2
+msgid ""
+"Authentication is required to remove a package from your additional software "
+"($(command_line))"
+msgstr ""
+"Otentikasi diperlukan untuk menghapus sebuah paket dari perangkat lunak "
+"tambahan Anda. ($(command_line))"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:18
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:56
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:827
+msgid "Administration Password"
+msgstr "Password Admin"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:34
+msgid ""
+"Set up an administration password if you need to perform administrative "
+"tasks. Otherwise, the administration password is disabled for better "
+"security."
+msgstr ""
+"Buat sandi administrasi Anda jika Anda perlu menjalankan tugas administrasi. "
+"Jika tidak, sandi administrasi dinonaktifkan untuk keamanan yang lebih baik."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:77
+msgid "Enter an administration password"
+msgstr "Masukkan password admin"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:131
+msgid "Confirm your administration password"
+msgstr "Konfirmasi password admin anda"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:156
+msgid "Disable"
+msgstr "Matikan"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:186
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:831
+msgid "MAC Address Anonymization"
+msgstr "Pengaturan anonim alamat MAC"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:202
+msgid ""
+"MAC address anonymization hides the serial number of your network interface "
+"(Wi-Fi or wired) from the local network. Anonymizing MAC addresses is "
+"generally safer as it helps you hide your geographical location. But it "
+"might also create connectivity problems or look suspicious."
+msgstr ""
+"Pengaturan anonim alamat MAC menyembunyikan nomor serial dari antarmuka "
+"jaringan Anda (Wi-Fi atau kabel) dari jaringan lokal. Pengaturan anonim "
+"alamat MAC secara umum lebih aman karena membantu Anda menyembunyikan lokasi "
+"geografis Anda. Tapi mungkin akan menyebabkan masalah konektivitas atau "
+"terlihat mencurigakan."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:244
+msgid "Anonymize all MAC addresses (default)"
+msgstr "Anonimkan semua alamat MAC (default)"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:290
+msgid "Don't anonymize MAC addresses"
+msgstr "Jangan menganonimkan alamat MAC"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:343
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:835
+msgid "Network Configuration"
+msgstr "Konfigurasi Jaringan"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:359
+msgid ""
+"We replaced this additional setting in Tails 4.19 (June 2021) with a Tor "
+"Connection assistant integrated in the desktop.\n"
+"\n"
+"You will be asked whether you want to use Tor bridges when connecting to Tor "
+"after starting Tails.\n"
+"\n"
+"If you want to work offline, enable the Offline Mode in the additional "
+"settings."
+msgstr ""
+"Kami mengganti pengaturan tambahan ini di Tails 4.19 (Juni 2021) dengan "
+"asisten Tor Connection yang terintegrasi di desktop.\n"
+"\n"
+"Anda akan ditanya apakah Anda ingin menggunakan Tor Bridge saat "
+"menghubungkan ke Tor setelah memulai Tails.\n"
+"\n"
+"Jika Anda ingin bekerja secara offline, aktifkan Mode Offline di pengaturan "
+"tambahan."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:389
+msgid "Offline Mode"
+msgstr "Mode Offline"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:405
+msgid ""
+"If you want to work completely offline, you can disable all networking for "
+"increased security."
+msgstr ""
+"Jika Anda ingin bekerja sepenuhnya secara offline, Anda dapat menonaktifkan "
+"semua jaringan untuk meningkatkan keamanan."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:560
+#, fuzzy
+msgid ""
+"The Unsafe Browser allows you to sign in to a network using a captive "
+"portal.\n"
+"\n"
+"A captive portal is a web page that is displayed before you can access the "
+"Internet. Captive portals usually require you to log in to the network or "
+"enter information such as an email address.\n"
+"\n"
+"The Unsafe Browser is not anonymous and can deanonymize you. Use it only to "
+"sign in to networks.\n"
+"\n"
+"The Unsafe Browser is enabled by default again since Tails 5.8 (December "
+"2022), after we fixed the security vulnerabilities that made us disable it "
+"by default in Tails 4.8 (June 2020)."
+msgstr ""
+"Browser yang Tidak Aman memungkinkan Anda masuk ke jaringan menggunakan "
+"portal captive.\n"
+"\n"
+"Portal captive adalah halaman web yang ditampilkan sebelum Anda dapat "
+"mengakses Internet. Portal captive biasanya mengharuskan Anda untuk masuk ke "
+"jaringan atau memasukkan informasi seperti alamat email.\n"
+"\n"
+"Browser yang Tidak Aman adalah yang tidak anonim dan dapat mendeanonimkan "
+"Anda. Gunakan hanya untuk masuk ke jaringan."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:608
+#, fuzzy
+msgid "Enable the Unsafe Browser (default)"
+msgstr "Matikan Penjelajah yang Tidak Aman (bawaan)"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:654
+#, fuzzy
+msgid "Disable the Unsafe Browser"
+msgstr "Nyalakan Penjelajah yang Tidak Aman"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:46
+#, fuzzy
+msgid "Settings were loaded from the Persistent Storage."
+msgstr "Pengaturan dimuat dari penyimpanan persisten."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:98
+msgid "Welcome to Tails!"
+msgstr "Selamat datang di Tails!"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:131
+msgid "Language and Formats"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:167
+msgid "Default Settings"
+msgstr "Pengaturan Default"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:225
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:337
+#, fuzzy
+msgid "_Persistent Storage"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:245
+msgid ""
+"You can save some of your files and configuration in an encrypted Persistent "
+"Storage on your Tails USB stick: your documents, browser bookmarks, Wi-Fi "
+"passwords, and so on."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:272
+#, fuzzy
+msgid "Create and configure a Persistent Storage after starting Tails"
+msgstr ""
+"Untuk memasangnya secara otomatis dari tempat penyimpanan tetap Anda saat "
+"memulai Tails."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:364
+msgid "Show Passphrase"
+msgstr "Tampilkan Kata Kunci"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:421
+#, fuzzy
+msgid "Enter your passphrase"
+msgstr "Verifikasi Kalimat:"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:436
+msgid "Unlock Encryption"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:503
+#, fuzzy
+msgid "Impossible to unlock the Persistent Storage."
+msgstr "Gagal untuk mengatur Penyimpanan Persistent Anda"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:563
+#, fuzzy
+msgid "Partitioning Errors"
+msgstr "Partisi dan Drive"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:599
+msgid ""
+"Errors were detected in the partitioning of your Tails USB stick.\n"
+"\n"
+"Try reinstalling Tails. If the error persists, reinstall on a new USB stick."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:631
+msgid "_Additional Settings"
+msgstr "_Pengaturan Tambahan"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:714
+msgid "Add an additional setting"
+msgstr "Tambah pengaturan tambahan"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:761
+msgid "Shutdown"
+msgstr "Matikan"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:770
+msgid "_Start Tails"
+msgstr "_Mulai Tails"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:799
+msgid ""
+"The default settings are safe in most situations. To add a custom setting, "
+"press the \"+\" button below."
+msgstr ""
+"Pengaturan default aman untuk banyak situasi. Untuk menambah pengaturan "
+"tambahan, tekan tombol \"+\" di bawah."
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:95
+#, fuzzy
+msgid "Current _Passphrase"
+msgstr "Frasa sandi:"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:131
+#, fuzzy
+msgid "_New Passphrase"
+msgstr "Tampilkan Kata Kunci"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:179
+#, fuzzy
+msgid "_Confirm New Passphrase"
+msgstr "Tampilkan Kata Kunci"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:215
+#, fuzzy
+msgid "_Show Passphrases"
+msgstr "Tampilkan Kata Kunci"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:253
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:301
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:161
+msgid "The passphrases do not match"
+msgstr "Frasa sandi tidak cocok"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:317
+msgid "Ch_ange"
+msgstr "Ub_ah"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/deleted_view.ui.in:21
+#, fuzzy
+msgid "The Persistent Storage was successfully deleted."
+msgstr "Hapus Penyimpanan Persisten dan Instal Ulang"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/deleted_view.ui.in:32
+msgid "_Close"
+msgstr "_Tutup"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:30
+msgid "Oh no! Something has gone wrong."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:45
+msgid ""
+"The Persistent Storage service exited unexpectedly.\n"
+"\n"
+"You can send an error report or check the output of the following commands "
+"to investigate:"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:74
+#, fuzzy
+msgid "Send Error Report"
+msgstr "Pelaporan Kesalahan WhisperBack"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:61
+msgid ""
+"Your Persistent Storage is unlocked.\n"
+"\n"
+"Its content is available until you shut down Tails.\n"
+"\n"
+"<a href=\"doc/persistent_storage/backup\">Learn how to make a backup of your "
+"Persistent Storage.</a>"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:89
+msgid ""
+"Turn on the features of the Persistent Storage for the data that you want to "
+"save to your Tails USB stick."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:106
+#, fuzzy
+msgid "Personal Documents"
+msgstr "Data Pribadi"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:134
+#, fuzzy
+msgid "Persistent Folder"
+msgstr "Hapus volume persistent"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:135
+msgid "A folder where you can save your documents."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:160
+#, fuzzy
+msgid "Open Persistent Folder"
+msgstr "Hapus volume persistent"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:173
+#, fuzzy
+msgid "Activate Persistent Folder"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:200
+msgid "System Settings"
+msgstr "Pengaturan Sistem"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:228
+msgid "Welcome Screen"
+msgstr "Layar Selamat Datang"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:244
+#, fuzzy
+msgid "Activate Welcome Screen"
+msgstr "Layar Selamat Datang"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:257
+msgid "Printers"
+msgstr "Pencetak"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:273
+#, fuzzy
+msgid "Activate Printers"
+msgstr "Pencetak"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:300
+msgid "Network"
+msgstr "Jaringan"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:328
+msgid "Network Connections"
+msgstr "Koneksi Jaringan"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:329
+msgid "Save Wi-Fi passwords and mobile broadband configuration."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:345
+#, fuzzy
+msgid "Activate Network Connections"
+msgstr "Koneksi Jaringan"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:358
+#, fuzzy
+msgid "Tor Bridge"
+msgstr "Tor Bridge"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:374
+#, fuzzy
+msgid "Activate Tor Bridge"
+msgstr "Tor Bridge"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:401
+msgid "Applications"
+msgstr "Aplikasi"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:429
+#, fuzzy
+msgid "Tor Browser Bookmarks"
+msgstr "Markah Peramban"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:445
+#, fuzzy
+msgid "Activate Tor Browser Bookmarks"
+msgstr "Markah Peramban"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:458
+#, fuzzy
+msgid "Electrum Bitcoin Wallet"
+msgstr "Dompet bitcoin dan konfigurasi Electrum"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:474
+#, fuzzy
+msgid "Activate Electrum Bitcoin Wallet"
+msgstr "Dompet bitcoin dan konfigurasi Electrum"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:487
+#, fuzzy
+msgid "Thunderbird Email Client"
+msgstr "Thunderbird"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:503
+msgid "Activate Thunderbird Email Client"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:516
+msgid "GnuPG"
+msgstr "GnuPG"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:517
+#, fuzzy
+msgid "OpenPGP keys outside of Thunderbird, including in Kleopatra."
+msgstr "Kunci-kunci OpenPGP dalam GnuPG dan Kleopatra"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:533
+msgid "Activate GnuPG"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:546
+msgid "Pidgin Internet Messenger"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:562
+msgid "Activate Pidgin Internet Messenger"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:575
+msgid "SSH Client"
+msgstr "Aplikasi SSH"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:591
+#, fuzzy
+msgid "Activate SSH Client"
+msgstr "Aplikasi SSH"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:618
+msgid "Advanced Settings"
+msgstr "Pengaturan Lanjutan"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:647
+#, fuzzy
+msgid "Install additional software automatically when starting Tails."
+msgstr ""
+"Anda dapat memasang perangkat lunak tambahan secara otomatis dari tempat "
+"penyimpanan tetap saat memulai Tails."
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:672
+#, fuzzy
+msgid "Configure Additional Software"
+msgstr "Perangkat Lunak Tambahan"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:685
+#, fuzzy
+msgid "Activate Additional Software"
+msgstr "Perangkat Lunak Tambahan"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:698
+msgid "Dotfiles"
+msgstr "Berkas titik"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:699
+#, fuzzy
+msgid "Symlink every file in the Dotfiles folder into the Home folder."
+msgstr "Symlink semua file di dalam folder Dotfiles ke dalam folder Home"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:732
+#, fuzzy
+msgid "Activate Dotfiles"
+msgstr "Berkas titik"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:764
+msgid "Custom"
+msgstr "Kustom"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:783
+msgid ""
+"To add or remove custom features, modify /live/persistence/"
+"TailsData_unlocked/persistence.conf."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:825
+#, fuzzy
+msgid ""
+"<a href=\"doc/persistent_storage\">Learn more about the Persistent Storage.</"
+"a>"
+msgstr ""
+"Untuk menyimpan bridge Anda, <a href=\"doc/first_steps/persistence\">Buka "
+"Penyimpanan Persistent Anda</a>."
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/locked_view.ui.in:52
+msgid ""
+"<b>Your Persistent Storage is locked.</b>\n"
+"\n"
+"To use or configure your Persistent Storage, unlock it in the Welcome Screen "
+"when starting Tails.\n"
+"\n"
+"To delete your Persistent Storage, click <b>Delete</b> on the right of the "
+"title bar."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:62
+msgid ""
+"Choose the passphrase that you will use to unlock the encryption of your "
+"Persistent Storage and all its data."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:82
+msgid "We recommend a long passphrase of 5 to 7 random words."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:94
+msgid " For example:"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:186
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:46
+msgid "Passphrase:"
+msgstr "Frasa sandi:"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:205
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:65
+msgid "Confirm:"
+msgstr "Konfirmasi:"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:325
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:185
+#, fuzzy
+msgid "_Show Passphrase"
+msgstr "Tampilkan Kata Kunci"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:375
+msgid "_Back"
+msgstr "Mun_dur"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:391
+#, fuzzy
+msgid "_Create Persistent Storage"
+msgstr "Membuat Penyimpanan Persisten"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:56
+msgid ""
+"Everything you do disappears automatically when you shut down Tails.\n"
+"\n"
+"But you can save some of your files and configuration in an encrypted "
+"Persistent Storage on your Tails USB stick, for example:\n"
+"\n"
+"• Your documents\n"
+"• Your Wi-Fi passwords\n"
+"• Your browser bookmarks\n"
+"• ...\n"
+"\n"
+"<a href=\"doc/persistent_storage\">Learn more about the Persistent Storage.</"
+"a>"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:92
+msgid ""
+"Sorry, it is impossible to create a Persistent Storage on this device.\n"
+"\n"
+"To be able to use Tails with a Persistent Storage, please follow our "
+"instructions on <a href=\"install\">installing Tails on a USB stick</a>."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:137
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:232
+msgid "Co_ntinue"
+msgstr "La_njutkan"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:29
+#, fuzzy
+msgid "_Delete…"
+msgstr "Hapus"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:49
+#, fuzzy
+msgid "_Change Passphrase…"
+msgstr "Tampilkan Kata Kunci"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:66
+#, fuzzy
+msgid "_Restart Tails"
+msgstr "Memulai kembali Tails"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:61
+msgid "File Containers"
+msgstr "Wadah Berkas"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:80
+msgid "_Add"
+msgstr "_Tambahkan"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:86
+msgid "Add a file container"
+msgstr "Menambah wadah berkas"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:103
+msgid "Partitions and Drives"
+msgstr "Partisi dan Drive"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:121
+msgid ""
+"This application is not affiliated with or endorsed by the VeraCrypt project "
+"or IDRIX."
+msgstr ""
+"Aplikasi ini tidak terafiliasi dengan, atau disokong oleh proyek VeraCrypt "
+"atau IDRIX."
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:29
+msgid "_Open"
+msgstr "_Buka"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:38
+msgid "Lock this volume"
+msgstr "Kunci volume ini"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:52
+msgid "_Unlock"
+msgstr "_Buka kunci"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:61
+msgid "Detach this volume"
+msgstr "Lepaskan volume ini"
+
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:8
+#, fuzzy
+msgid "Choose Passphrase"
+msgstr "Tampilkan Kata Kunci"
+
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:30
+#, fuzzy
+msgid "Choose the passphrase for the cloned Persistent Storage."
+msgstr "Pilih kata kunci untuk memprotect volume persistent"
+
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:281
+msgid "Target USB stick:"
+msgstr "Sasaran stik USB:"
+
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:357
+msgid "Reinstall (delete all data)"
+msgstr "Pasang ulang (hapus semua data)"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:68
+msgid ""
+"If you want us to encrypt messages when we respond to you, add your key ID, "
+"a link to your key, or the key as a public key block:"
+msgstr ""
+"Jika Anda ingin kami untuk mengenkripsi pesan ketika kami merespon Anda, "
+"tambahkan kunci ID Anda, tautan ke kunci Anda, atau tombol sebagai blok "
+"kunci publik:"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:226
+msgid "WhisperBack"
+msgstr "WhisperBack"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:255
+msgid "Summary"
+msgstr "Ringkasan"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:294
+msgid "What were you trying to achieve?"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:340
+msgid ""
+"<b>What happened instead?</b>\n"
+"Describe the error with as many details as possible."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:385
+msgid ""
+"<b>What did you do that triggered this error?</b>\n"
+"Describe the exact steps that caused the error, so we can try to make it "
+"happen again.\n"
+"Otherwise, we won't be able to troubleshoot and solve it."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:427
+#, fuzzy
+msgid "Error reporting guidelines"
+msgstr "Lihat panduan pelaporan bug kami."
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:445
+msgid ""
+"<b>Email address</b>\n"
+"So we can answer you or ask for more details."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:480
+#, fuzzy
+msgid "Optional PGP Key…"
+msgstr "pilihan kunci PGP"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:505
+#, fuzzy
+msgid ""
+"Even if we are not able to reply to every report, we analyze all reports to "
+"improve Tails."
+msgstr "Perlu diketahui bahwa kami tidak dapat membalas setiap laporan bug."
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:520
+msgid "Description"
+msgstr "Description"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:537
+msgid "Technical Details"
+msgstr "Detail Teknis"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:576
+msgid "Headers"
+msgstr "Tajuk"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:621
+msgid "information about the error being reported"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:669
+#, fuzzy
+msgid "Debugging Information"
+msgstr "info debugging"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:694
+msgid "Technical details to include"
+msgstr "Detail teknis dimasukkan"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:730
+msgid "_Send"
+msgstr "_Kirim"
+
+#: ../config/chroot_local-includes/usr/local/share/mime/packages/unlock-veracrypt-volumes.xml.in.h:1
+msgid "TrueCrypt/VeraCrypt container"
+msgstr "Wadah TrueCrypt/VeraCrypt"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:82
+msgid "Configure a Tor bridge"
+msgstr "Konfigurasikan Tor Bridge"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:106
+msgid ""
+"Bridges are secret Tor relays. Use a bridge as your first Tor relay if "
+"accessing Tor is blocked from where you are."
+msgstr ""
+"Bridge adalah relay Tor yang rahasia. Gunakan bridge sebagai relay Tor "
+"pertama Anda jika mengakses Tor diblokir dari tempat Anda berada."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:122
+msgid "<a href=\"doc/anonymous_internet/tor\">Learn more about Tor bridges</a>"
+msgstr ""
+"<a href=\"doc/anonymous_internet/tor\">Pelajari lebih lanjut tentang "
+"jembatan Tor</a>"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:157
+msgid "Use a _default bridge"
+msgstr "Gunakan _default bridge"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:180
+msgid "obfs4 (recommended)"
+msgstr "obfs4 (direkomendasikan)"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:181
+msgid "meek"
+msgstr "meek"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:204
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1518
+msgid "None"
+msgstr "Tidak ada"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:240
+#, fuzzy
+msgid "_Ask for a Tor bridge by email"
+msgstr "• Bridge melalui email"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:259
+#, fuzzy
+msgid ""
+"Send an empty email to <tt>bridges@torproject.org</tt> from a Gmail or "
+"Riseup email address with your phone and scan the QR code that is attached "
+"to the automatic reply."
+msgstr ""
+"Untuk meminta bridge, Anda dapat mengirim surel kosong ke\n"
+"<tt>bridges@torproject.org</tt> dari alamat surel Gmail atau Riseup.\n"
+"\n"
+"Misalnya, Anda dapat mengirim surel dari ponsel Anda dan ketik bridge di "
+"Tails.\n"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:272
+msgid "Scan _QR code"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:373
+msgid "_Enter a bridge that you already know"
+msgstr "_Masukkan bridge yang sudah Anda ketahui"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:399
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1040
+msgid "Bridge"
+msgstr "Jembatan"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:412
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1053
+msgid "obfs4 ..."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:485
+msgid "Save bridge to _Persistent Storage"
+msgstr "Simpan jembatan ke _Persistent Storage"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:510
+msgid "Save bridge to Persistent Storage"
+msgstr "Simpan bridge ke Persistent Storage"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:650
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1158
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1556
+msgid "_Connect to Tor"
+msgstr "_Connect ke Tor"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:692
+msgid "Error connecting to Tor"
+msgstr "Kesalahan koneksi ke Tor"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:736
+msgid "• Wrong clock"
+msgstr "• Jam salah"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:756
+msgid "Your clock and time zone need to be correct to connect to Tor."
+msgstr "Jam dan zona waktu Anda harus benar untuk terhubung ke Tor."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:769
+msgid "Fix _Clock"
+msgstr "Perbaiki _Clock"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:807
+msgid "• Public network"
+msgstr "• Jaringan publik"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:827
+msgid ""
+"If you are in a shop, hotel, or airport, you might need to sign in to the "
+"local network using the Unsafe Browser."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:840
+msgid "Try _Signing in to the Network"
+msgstr "Coba _Signing ke dalam jaringan"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:879
+msgid "• Local proxy"
+msgstr "• Proxy local"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:899
+msgid ""
+"If you are on a corporate or university network, you might need to configure "
+"a local proxy."
+msgstr ""
+"Jika Anda berada di jaringan perusahaan atau universitas, Anda mungkin perlu "
+"mengonfigurasi proxy lokal."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:912
+msgid "Configure a Local _Proxy"
+msgstr "Konfigurasikan _Proxy Lokal"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:951
+#, fuzzy
+msgid "• Tor bridge by email"
+msgstr "• Bridge melalui email"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:971
+#, fuzzy
+msgid ""
+"Tor bridges are secret Tor relays. Use a bridge as your first Tor relay if "
+"connections to Tor are blocked, for example in some countries, by some "
+"public networks, or by some parental controls."
+msgstr ""
+"Tor Bridge adalah relay Tor yang rahasia. Gunakan bridge sebagai relai Tor "
+"pertama Anda jika koneksi ke Tor diblokir, misalnya di beberapa negara, oleh "
+"beberapa jaringan publik, atau oleh kontrol orang tua.\n"
+"\n"
+"Pilih opsi ini jika Anda sudah tahu bahwa Anda membutuhkan bridge. Jika "
+"tidak, Tails akan otomatis mendeteksi apakah Anda memerlukan bridge untuk "
+"terhubung ke Tor dari jaringan lokal Anda."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:991
+#, fuzzy
+msgid ""
+"To get a bridge, send an empty email to <tt>bridges@torproject.org</tt> from "
+"a Gmail or Riseup email address with your phone and scan the QR code that is "
+"attached to the automatic reply."
+msgstr ""
+"Untuk meminta bridge, Anda dapat mengirim surel kosong ke\n"
+"<tt>bridges@torproject.org</tt> dari alamat surel Gmail atau Riseup.\n"
+"\n"
+"Misalnya, Anda dapat mengirim surel dari ponsel Anda dan ketik bridge di "
+"Tails.\n"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1014
+msgid "Scan QR Code"
+msgstr "Pindai Kode QR"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1145
+msgid ""
+"<a href=\"doc/anonymous_internet/tor/troubleshoot\">Troubleshooting "
+"connecting to Tor</a>"
+msgstr ""
+"<a href=\"doc/anonymous_internet/tor/troubleshoot\">Pemecahan masalah "
+"menyambung ke Tor</a>"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1191
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1599
+msgid ""
+"Everything you do on the Internet from Tails goes through the Tor network."
+msgstr "Semua yang Anda lakukan di Internet dari Tails melewati jaringan Tor."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1205
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1614
+msgid ""
+"Tor encrypts and anonymizes your connection by passing it through 3 relays.\n"
+"Tor relays are servers operated by different organizations and volunteers "
+"around the world."
+msgstr ""
+"Tor mengenkripsi dan menganonimkan koneksi Anda dengan melewatkannya melalui "
+"3 relai.\n"
+"Relay Tor adalah server yang dioperasikan oleh berbagai organisasi dan "
+"sukarelawan di seluruh dunia."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1241
+msgid "<b>Connect to Tor _automatically</b>"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1291
+msgid ""
+"We recommend connecting to Tor automatically if you are on a public Wi-Fi "
+"network or if many people in your country use Tor to circumvent censorship."
+msgstr ""
+"Kami menyarankan untuk menghubungkan ke Tor secara otomatis jika Anda berada "
+"di jaringan Wi-Fi publik atau jika banyak orang di negara Anda menggunakan "
+"Tor untuk menghindari penyensoran."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1309
+msgid ""
+"Tails will try different ways of connecting to Tor until it succeeds.\n"
+"\n"
+"Someone monitoring your Internet connection could identify these attempts as "
+"coming from a Tails user."
+msgstr ""
+"Tails akan mencoba berbagai cara untuk menghubungkan ke Tor sampai "
+"berhasil.\n"
+"\n"
+"Seseorang yang memantau koneksi Internet Anda dapat mengidentifikasi upaya "
+"ini berasal dari pengguna Tails."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1343
+msgid "Configure a Tor _bridge"
+msgstr "Konfigurasikan _bridge Tor"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1389
+msgid ""
+"Tor bridges are secret Tor relays. Use a bridge as your first Tor relay if "
+"connections to Tor are blocked, for example in some countries, by some "
+"public networks, or by some parental controls.\n"
+"\n"
+"Choose this option if you already know that you need a bridge. Otherwise, "
+"Tails will autodetect whether you need a bridge to connect to Tor from your "
+"local network."
+msgstr ""
+"Tor Bridge adalah relay Tor yang rahasia. Gunakan bridge sebagai relai Tor "
+"pertama Anda jika koneksi ke Tor diblokir, misalnya di beberapa negara, oleh "
+"beberapa jaringan publik, atau oleh kontrol orang tua.\n"
+"\n"
+"Pilih opsi ini jika Anda sudah tahu bahwa Anda membutuhkan bridge. Jika "
+"tidak, Tails akan otomatis mendeteksi apakah Anda memerlukan bridge untuk "
+"terhubung ke Tor dari jaringan lokal Anda."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1431
+msgid "<b>_Hide to my local network that I'm connecting to Tor</b>"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1481
+msgid ""
+"You might need to go unnoticed if using Tor could look suspicious to someone "
+"who monitors your Internet connection."
+msgstr ""
+"Anda mungkin perlu diperhatikan jika menggunakan Tor dapat terlihat "
+"mencurigakan bagi seseorang yang memantau koneksi Internet Anda."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1499
+#, fuzzy
+msgid ""
+"Tails will only connect to Tor after you configured a Tor bridge. Bridges "
+"are secret Tor relays that hide that you are connecting to Tor.\n"
+"\n"
+"Our team is doing its best to help you connect to Tor using the most "
+"discreet types of Tor bridges.\n"
+"\n"
+"You will have to do extra configuration if you don't know any Tor bridges "
+"yet, if you connect from a public Wi-Fi network, or if you are in the "
+"Eastern Hemisphere."
+msgstr ""
+"Tails hanya akan terhubung ke Tor setelah Anda mengonfigurasi bridge Tor. "
+"bridge adalah relai Tor rahasia yang menyembunyikan bahwa Anda terhubung ke "
+"Tor.\n"
+"\n"
+"Tim kami melakukan yang terbaik untuk membantu Anda terhubung ke Tor "
+"menggunakan jenis bridge Tor yang paling berbeda.\n"
+"\n"
+"Anda harus melakukan konfigurasi tambahan jika Anda belum mengetahui bridge "
+"Tor, jika Anda terhubung dari jaringan Wi-Fi publik, atau jika Anda berada "
+"di Belahan Bumi Timur."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1544
+msgid ""
+"<a href=\"doc/anonymous_internet/tor\">Learn more about how Tails connects "
+"to Tor</a>"
+msgstr ""
+"<a href=\"doc/anonymous_internet/tor\">Pelajari lebih lanjut tentang "
+"bagaimana Tails terhubung ke Tor</a>"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1634
+msgid "No Wi-Fi hardware detected"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1652
+msgid ""
+"Tails couldn't find any Wi-Fi interface on your computer. If your computer "
+"has a Wi-Fi interface, it might not work on Tails.\n"
+"\n"
+"To connect to the Internet you can try to:\n"
+"\n"
+" • Use an Ethernet cable instead of Wi-Fi. Wired interfaces work much more "
+"reliably than Wi-Fi in Tails.\n"
+" • Use USB tethering to share the Wi-Fi or mobile data connection of your "
+"phone using a cable.\n"
+" • Buy a USB Wi-Fi adapter that works in Tails.\n"
+"                "
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1676
+#, fuzzy
+msgid ""
+"\n"
+"<a href=\"doc/anonymous_internet/no-wifi\">\n"
+"Learn more about troubleshooting Wi-Fi not working.\n"
+"</a>\n"
+"                "
+msgstr ""
+"<a href=\"doc/anonymous_internet/tor\">Pelajari lebih lanjut tentang "
+"bagaimana Tails terhubung ke Tor</a>"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1704
+msgid "Connect to a local network"
+msgstr "Terhubung ke jaringan lokal"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1721
+msgid ""
+"You are not connected to a local network yet. To be able to connect to the "
+"Tor network, you first need to connect to a Wi-Fi, wire, or mobile network."
+msgstr ""
+"Anda belum terhubung ke jaringan lokal. Untuk dapat terhubung ke jaringan "
+"Tor, Anda harus terlebih dahulu terhubung ke Wi-Fi, kabel, atau jaringan "
+"seluler."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1735
+#, fuzzy
+msgid "Open Wi-Fi Settings"
+msgstr "Buka pengaturan Wi-Fi"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1784
+msgid "Testing Internet access…"
+msgstr "Menguji akses Internet…"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1824
+msgid "You have access to the Internet"
+msgstr "Anda memiliki akses ke Internet"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1858
+msgid "Testing access to Tor…"
+msgstr "Menguji akses ke Tor…"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1901
+msgid "You can connect to Tor"
+msgstr "Anda dapat terhubung ke Tor"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1931
+msgid "Failed to connect to Tor without bridges."
+msgstr "Gagal terhubung ke Tor tanpa bridge."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1947
+#, fuzzy
+msgid "This local network is blocking access to Tor."
+msgstr "Jaringan lokal Anda memblokir akses ke Tor."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1979
+msgid "Connecting to Tor…"
+msgstr "Menghubungkan ke Tor…"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2084
+msgid "Start Tor Browser"
+msgstr "Mulai Tor Browser"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2103
+msgid "Open Network Monitor"
+msgstr "Buka Monitor Jaringan"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2156
+msgid "Configure a Local Proxy"
+msgstr "Konfigurasikan Proxy Lokal"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2182
+msgid "Proxy Type"
+msgstr "Tipe Proxy"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2199
+msgid "No proxy"
+msgstr "Tanpa proksi"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2200
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2201
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2202
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2221
+msgid "Address"
+msgstr "Alamat"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2238
+msgid "Username"
+msgstr "Nama pengguna"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2255
+msgid "IP address or hostname"
+msgstr "alamat IP atau nama host"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2273
+msgid "Port"
+msgstr "Port"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2397
+msgid "_Save Proxy Settings"
+msgstr "_Save Pengaturan Proxy"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:7
+msgid "Tor Connection - Fix Clock"
+msgstr "Koneksi Tor - Perbaiki Jam"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:76
+msgid ""
+"Your time zone cannot be used to identify or locate you. Your time zone will "
+"never be sent over the network and will only be used to fix your clock and "
+"connect to Tor."
+msgstr ""
+"Zona waktu Anda tidak dapat digunakan untuk mengidentifikasi atau menemukan "
+"Anda. Zona waktu Anda tidak akan pernah dikirim melalui jaringan dan hanya "
+"akan digunakan untuk memperbaiki jam dan terhubung ke Tor."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:142
+msgid "Time zone"
+msgstr "Zona Waktu"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:186
+msgid "Time"
+msgstr "Waktu"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:223
+msgid ":"
+msgstr ":"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:277
+msgid "Date"
+msgstr "Tanggal"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:311
+msgid "January"
+msgstr "Januari"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:312
+msgid "February"
+msgstr "Februari"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:313
+msgid "March"
+msgstr "Maret"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:314
+msgid "April"
+msgstr "April"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:315
+msgid "May"
+msgstr "Mei"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:316
+msgid "June"
+msgstr "Juni"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:317
+msgid "July"
+msgstr "Juli"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:318
+msgid "August"
+msgstr "Agustus"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:319
+msgid "September"
+msgstr "September"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:320
+msgid "October"
+msgstr "Oktober"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:321
+msgid "November"
+msgstr "November"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:322
+msgid "December"
+msgstr "Desember"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:368
+msgid "Clock"
+msgstr "Jam"
+
+#~ msgid ""
+#~ "For debugging information, execute the following command: sudo tails-"
+#~ "debugging-info"
+#~ msgstr ""
+#~ "Untuk informasi pengawakutuan, eksekusi perintah berikut: sudo tails-"
+#~ "debugging-info"
+
+#~ msgid "Open Onion Circuits"
+#~ msgstr "Buka Sirkuit Onion"
+
+#, fuzzy
+#~ msgid "Starting the Unsafe Browser..."
+#~ msgstr "Memulai Unsafe Browser"
+
+#~ msgid "This may take a while, so please be patient."
+#~ msgstr "Mungkin ini memakan waktu lama, mohon bersabar."
+
+#~ msgid "Reset Tor Connection"
+#~ msgstr "Setel Ulang Koneksi Tor"
+
+#~ msgid "Error while updating the signing key"
+#~ msgstr "Terjadi kesalahan saat memperbarui kunci penandatanganan"
+
+#~ msgid "Create Backup"
+#~ msgstr "Buat Cadangan"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "The bug report could not be sent, likely due to network problems. Please "
+#~ "try to reconnect to the network and click send again.\n"
+#~ "\n"
+#~ "If it does not work, you will be offered to save the bug report."
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Pelaporan kutu tidak bisa dikirimkan, sepertinya karena masalah jaringan. "
+#~ "Mohon coba sambungkan kembali jaringan dan klik kirim lagi.\n"
+#~ "\n"
+#~ "Jika tidak bisa juga, Anda akan ditawari untuk menyimpan laporan kutu "
+#~ "tersebut."
+
+#, python-format
+#~ msgid "Unable to save %s."
+#~ msgstr "Tidak bisa menyimpan %s."
+
+#, python-format
+#~ msgid ""
+#~ "The bug report could not be sent, likely due to network problems.\n"
+#~ "\n"
+#~ "As a work-around you can save the bug report as a file on a USB drive and "
+#~ "try to send it to us at %s from your email account using another system. "
+#~ "Note that your bug report will not be anonymous when doing so unless you "
+#~ "take further steps yourself (e.g. using Tor with a throw-away email "
+#~ "account).\n"
+#~ "\n"
+#~ "Do you want to save the bug report to a file?"
+#~ msgstr ""
+#~ "Laporan kutu tidak bisa dikirim, sepertinya karena maslaah jaringan.\n"
+#~ "\n"
+#~ "Solusinya Anda dapat menyimpan laporan kutu tersebut sebagai sebuah "
+#~ "berkas di perangkat USB dan coba kirimkan kepada kami di %s dari akun "
+#~ "surel Anda dengan menggunakan sistem lain. Mohon dicatat bahwa laporan "
+#~ "kutu Anda tidak akan anonim kecuali Anda mengambil langkah yang lebih "
+#~ "aman (mis. menggunakan Tor dengan akun surel sementara).\n"
+#~ "\n"
+#~ "Apakah Anda ingin menyimpan laporan kutu ke dalam berkas?"
+
+#~ msgid "Cannot unlock encrypted storage with this passphrase."
+#~ msgstr "Tidak dapat membuka penyimpanan terenkripsi dengan frasa sandi ini."
+
+#, fuzzy
+#~ msgid "_Passphrase"
+#~ msgstr "Frasa sandi:"
+
+#~ msgid "Failed to setup chroot."
+#~ msgstr "Gagal mengkonfigurasi chroot."
+
+#~ msgid "Failed to configure browser."
+#~ msgstr "Konfigurasi peramban gagal."
+
+#, fuzzy, sh-format
+#~| msgid ""
+#~| "MAC address anonymization failed for network card ${nic_name} (${nic}) "
+#~| "so it is temporarily disabled.\n"
+#~| "You might prefer to restart Tails and disable MAC address anonymization."
+#~ msgid ""
+#~ "MAC address anonymization failed for network card ${nic_name} (${nic}) so "
+#~ "it is temporarily disabled.\n"
+#~ "\n"
+#~ "You might prefer to restart Tails and disable MAC address anonymization."
+#~ msgstr ""
+#~ "Anonimisasi alamat MAC gagal untuk kartu jaringan ${nic_name} (${nic}) "
+#~ "sehingga dinonaktifkan untuk sementara.\n"
+#~ "Anda mungkin lebih suka memulai ulang Tails dan menonaktifkan anonimisasi "
+#~ "alamat MAC."
+
+#~ msgid "Language & Region"
+#~ msgstr "Bahasa & Wilayah"
+
+#, python-format
+#~ msgid ""
+#~ "Some partitions of the target device %(device)s are mounted. They will be "
+#~ "unmounted before starting the installation process."
+#~ msgstr ""
+#~ "Beberapa partisi dari perangkat target %(device)s terpasang. mereka akan "
+#~ "tidak terpasang sebelum start proses instalasi"
+
+#, python-format
+#~ msgid "Entering unmount_device for \"%(device)s\""
+#~ msgstr "Memasukkan unmount_device untuk \"%(device)s\""
+
+#, python-format
+#~ msgid "Unmounting mounted filesystems on \"%(device)s\""
+#~ msgstr "Mencabut filesystems yang dipasang pada \"%(device)s\""
+
+#, python-format
+#~ msgid "Unmounting \"%(udi)s\" on \"%(device)s\""
+#~ msgstr "Mencabut \"%(udi)s\" pada \"%(device)s\""
+
+#, fuzzy
+#~| msgid "Report an error"
+#~ msgid "Report an Error"
+#~ msgstr "Laporkan kesalahan"
+
+#~ msgid "You turned on Offline Mode in the Welcome Screen."
+#~ msgstr "Anda menyalakan Mode Offline pada Layar Selamat datang."
+
+#~ msgid "It is impossible to connect to Tor in Offline Mode."
+#~ msgstr "Tidak mungkin untuk menyambungkan ke Tor pada Mode Offline."
+
+#~ msgid ""
+#~ "To connect to Tor and the Internet, restart Tails without Offline Mode."
+#~ msgstr ""
+#~ "Untuk menyambungkan ke Tor dan Internet, mulai ulang Tails tanpa Mode "
+#~ "Offline."
+
+#~ msgid "Lock screen"
+#~ msgstr "Kunci layar"
+
+#, fuzzy, python-format
+#~ msgid ""
+#~ "Build information:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Build information:\n"
+#~ "%s"
+
+#~ msgid "not available"
+#~ msgstr "tak tersedia"
+
+#~ msgid "Name of the affected software"
+#~ msgstr "Nama perangkat lunak yang terpengaruh"
+
+#~ msgid "Exact steps to reproduce the error"
+#~ msgstr "Tahapan rinci untuk memproduksi ulang galat"
+
+#~ msgid "Actual result and description of the error"
+#~ msgstr "Hasil aktual dan deskripsi galat"
+
+#~ msgid "Desired result"
+#~ msgstr "Hasil yang diharapkan"
+
+#~ msgid "Send feedback in an encrypted mail."
+#~ msgstr "Kirim umpan balik melalui surel terenkripsi."
+
+#~ msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
+#~ msgstr "Hak Cipta © 2009-2018 Tails developers (tails@boum.org)"
+
+#~ msgid "Tails developers <tails@boum.org>"
+#~ msgstr "Pengembang Tails <tails@boum.org>"
+
+#~ msgid "translator-credits"
+#~ msgstr "Penghargaan untuk Penerjemah"
+
+#~ msgid "Copyright © 2009-2018 tails@boum.org"
+#~ msgstr "Hak Cipta © 2009-2018 tails@boum.org"
+
+#~ msgid ""
+#~ "WhisperBack - Send feedback in an encrypted mail\n"
+#~ "Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
+#~ "\n"
+#~ "This program is  free software; you can redistribute  it and/or modify\n"
+#~ "it under the  terms of the GNU General Public  License as published by\n"
+#~ "the Free Software Foundation; either  version 3 of the License, or (at\n"
+#~ "your option) any later version.\n"
+#~ "\n"
+#~ "This program  is distributed in the  hope that it will  be useful, but\n"
+#~ "WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
+#~ "MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
+#~ "General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+#~ msgstr ""
+#~ "WhisperBack - Kirim umpan balik dalam surel terenkripsi\n"
+#~ "Hak Cipta (C) 2009-2018 pengembang Tails <tails@boum.org>\n"
+#~ "\n"
+#~ "Program ini adalah perangkat lunak gratis; Anda diizinkan untuk "
+#~ "mendistribusikan dan/atau memodifikasinya\n"
+#~ "di bawah ketentuan GNU General Public License sebagaimana seperti yang "
+#~ "dipublikasikan oleh\n"
+#~ "Free Software Foundation; baik versi 3 dari Lisensi, atau (dengan\n"
+#~ "pilihan Anda) versi yang lebih baru.\n"
+#~ "\n"
+#~ "Program ini didistribusikan dengan harapan akan berguna, tetapi\n"
+#~ "TANPA GARANSI; bahkan tanpa jaminan tersirat dari\n"
+#~ "DAGANGAN atau KECOCOKAN UNTUK TUJUAN TERTENTU. Lihat GNU\n"
+#~ "General Public License untuk lebih jelas.\n"
+#~ "\n"
+#~ "Anda seharusnya menerima salinan dari GNU General Public License\n"
+#~ "bersama dengan program ini. Jika tidak, lihat <http://www.gnu.org/"
+#~ "licenses/>.\n"
+
+#~ msgid "Help:"
+#~ msgstr "Bantuan:"
+
+#~ msgid "Email address (if you want an answer from us)"
+#~ msgstr "Alamat surel (Jika Anda ingin jawaban dari kami)"
+
+#~ msgid "Unlock"
+#~ msgstr "Tidak terkunci"
+
+#~ msgid "Encrypted _Persistent Storage"
+#~ msgstr "_Penyimpanan Menetap Terenkripsi"
+
+#~ msgid "Enter your passphrase to unlock the persistent storage"
+#~ msgstr "Masukkan kata kunci untuk memprotect volume persistent"
+
+#, fuzzy
+#~ msgid "_Delete..."
+#~ msgstr "Sedang menghapus...."
+
+#, fuzzy
+#~ msgid "_Change Passphrase..."
+#~ msgstr "Tampilkan Kata Kunci"
+
+#, python-format
+#~ msgid ""
+#~ "<h1>Help us fix your bug!</h1>\n"
+#~ "<p>Read <a href=\"%s\">our bug reporting instructions</a>.</p>\n"
+#~ "<p><strong>Do not include more personal information than\n"
+#~ "needed!</strong></p>\n"
+#~ "<h2>About giving us an email address</h2>\n"
+#~ "<p>\n"
+#~ "Giving us an email address allows us to contact you to clarify the "
+#~ "problem. This\n"
+#~ "is needed for the vast majority of the reports we receive as most "
+#~ "reports\n"
+#~ "without any contact information are useless. On the other hand it also "
+#~ "provides\n"
+#~ "an opportunity for eavesdroppers, like your email or Internet provider, "
+#~ "to\n"
+#~ "confirm that you are using Tails.\n"
+#~ "</p>\n"
+#~ msgstr ""
+#~ "<h1>Bantu kami memperbaiki kutu!</h1>\n"
+#~ "<p>Baca <a href=\"%s\">panduan pelaporan kutu kami</a>.</p>\n"
+#~ "<p><strong>Jangan sertakan informasi personal lebih dari\n"
+#~ "yang diperlukan!</strong></p>\n"
+#~ "<h2>Tentang alamat surel yang Anda berikan kepada kami</h2>\n"
+#~ "<p>\n"
+#~ "Memberikan alamat surel Anda kepada kami memungkinkan kami menghubungi\n"
+#~ "Anda untuk mengklarifikasi masalah tersebut. Hal ini diperlukan untuk "
+#~ "sebagian\n"
+#~ "besar laporan yang kami terima karena kebanyakan laporan tanpa informasi "
+#~ "kontak\n"
+#~ "tidak berguna. Dengan kata lain, hal tersebut juga menyediakan informasi\n"
+#~ "kemungkinan adanya orang di tengah, seperti surel atau penyedia Internet "
+#~ "Anda,\n"
+#~ "untuk mengonfirmasi bahwa Anda menggunakan Tails.\n"
+#~ "</p>\n"
+
+#~ msgid ""
+#~ "<b>Could not choose a download server.</b>\n"
+#~ "\n"
+#~ "This should not happen. Please report a bug."
+#~ msgstr ""
+#~ "<b>Tidak dapat memilih server unduh</b>\n"
+#~ "\n"
+#~ "Hal ini seharusnya tidak terjadi. Silakan laporkan bug."
+
+#~ msgid "Error while choosing a download server"
+#~ msgstr "Kesalahan saat memilih server unduh"
+
+#, fuzzy
+#~ msgid "The Amnesic Incognito Live System"
+#~ msgstr "The Amnesic Incognito Live System"
+
+#~ msgid "Launch the Unsafe Browser?"
+#~ msgstr "Luncurkan Penjelajah yang Tidak Aman?"
+
+#~ msgid "Enabled"
+#~ msgstr "Diaktifkan"
+
+#, python-brace-format
+#~ msgid ""
+#~ "live-persist failed with return code {returncode}:\n"
+#~ "{stderr}"
+#~ msgstr ""
+#~ "live-persist gagal dengan kode {returncode}:\n"
+#~ "{stderr}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "cryptsetup failed with return code {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+#~ msgstr ""
+#~ "cryptsetup gagal dengan kode {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "live-persist failed with return code {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+#~ msgstr ""
+#~ "live-persist gagal dengan kode {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "umount failed with return code {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+#~ msgstr ""
+#~ "umount gagal dengan kode {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+
+#~ msgid "Persistence wizard - Persistent volume creation"
+#~ msgstr "Wizard persistent - persistent volume creation"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "A {size} persistent volume will be created on the <b>{vendor} {model}</b> "
+#~ "device. Data on this volume will be stored in an encrypted form protected "
+#~ "by a passphrase."
+#~ msgstr ""
+#~ "Volume persistent sebesar {size} akan dibuat pada perangkat<b>{vendor} "
+#~ "{model}</b>. Data pada volume ini akan disimpan pada bentuk yang "
+#~ "terenkripsi yang dilindungi oleh kata sandi."
+
+#~ msgid ""
+#~ "<b>Beware!</b> Using persistence has consequences that must be well "
+#~ "understood. Tails can't help you if you use it wrong! See the "
+#~ "<i>Encrypted persistence</i> page of the Tails documentation to learn "
+#~ "more."
+#~ msgstr ""
+#~ "<b>Waspadalah!</b> Menggunakan volume tetap memiliki konsekuensi yang "
+#~ "harus dimengerti. Tails tidak dapat menolong jika Anda salah "
+#~ "menggunakannya! Lihat halaman <i>Volume tetap terenkripsi</i> pada "
+#~ "dokumentasi Tails untuk mempelajari lebih lanjut."
+
+#~ msgid "Passphrase can't be empty"
+#~ msgstr "Kalimat tidak boleh kosong"
+
+#~ msgid "Failed"
+#~ msgstr "Gagal"
+
+#~ msgid "Mounting Tails persistence partition."
+#~ msgstr "Pemasangan Partisi Tail persistent"
+
+#~ msgid "The Tails persistence partition will be mounted."
+#~ msgstr "Partisi persistent akan di pasang"
+
+#~ msgid "The permissions of the persistent volume will be corrected."
+#~ msgstr "Izin  volume persistent akan dikoreksi"
+
+#~ msgid "Creating default persistence configuration."
+#~ msgstr "Membuat konfigurasi volume tetap standar."
+
+#~ msgid "The default persistence configuration will be created."
+#~ msgstr "Konfigurasi standar volume tetap akan dibuat."
+
+#~ msgid "Creating..."
+#~ msgstr "Membuat...."
+
+#~ msgid "Creating the persistent volume..."
+#~ msgstr "Pembuatan volume persistent"
+
+#~ msgid "Persistence wizard - Persistent volume configuration"
+#~ msgstr "Wizard Persistent - konfigurasi persisent volume"
+
+#~ msgid "Specify the files that will be saved in the persistent volume"
+#~ msgstr "File spesifik yang tersimpan di dalam persistent volume"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "The selected files will be stored in the encrypted partition {partition} "
+#~ "({size}), on the <b>{vendor} {model}</b> device."
+#~ msgstr ""
+#~ "File yang terpilih akan disimpan pada partisi yang terenkripsi "
+#~ "{partition} ({size}), pada perangkat <b>{vendor} {model}</b>."
+
+#~ msgid "Save"
+#~ msgstr "Simpan"
+
+#~ msgid "Saving..."
+#~ msgstr "Sedang menyimpan...."
+
+#~ msgid "Saving persistence configuration..."
+#~ msgstr "konfigurasi penyimpanan persistent"
+
+#~ msgid "Persistence wizard - Persistent volume deletion"
+#~ msgstr "Wizard Persistence - Penghapusan volume persistent"
+
+#~ msgid "Your persistent data will be deleted."
+#~ msgstr "Data Persistent anda akan dihapus"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "The persistent volume {partition} ({size}), on the <b>{vendor} {model}</"
+#~ "b> device, will be deleted."
+#~ msgstr ""
+#~ "Volume persistent {partition} ({size}), pada perangkat <b>{vendor} {model}"
+#~ "</b>, akan dihapus."
+
+#~ msgid "Deleting the persistent volume..."
+#~ msgstr "Penghapusan persistent volume"
+
+#~ msgid "Keep files stored in the `Persistent' directory"
+#~ msgstr "Simpan berkas di direktori `Persistent'"
+
+#~ msgid "Language, administration password, and additional settings"
+#~ msgstr "Bahasa, administrasi password, dan pengaturan tambahan"
+
+#~ msgid "Save the last bridge that you used to connect to Tor"
+#~ msgstr "Simpan bridge terakhir yang anda gunakan untuk terhubung ke Tor"
+
+#~ msgid "Bookmarks saved in the Tor Browser"
+#~ msgstr "Markah tersimpan di dalam peramban Tor"
+
+#~ msgid "Configuration of network devices and connections"
+#~ msgstr "Pengaturan perangkat jaringan dan koneksi"
+
+#~ msgid "Software installed when starting Tails"
+#~ msgstr "Perangkat lunak terpasang saat memulai Tails"
+
+#~ msgid "Printers configuration"
+#~ msgstr "Konfigurasi pencetak"
+
+#~ msgid "Thunderbird emails, feeds, and OpenPGP keys"
+#~ msgstr "Surel Thunderbird, feed, dan kunci OpenPGP"
+
+#~ msgid "Bitcoin Client"
+#~ msgstr "Klien Bitcoin"
+
+#~ msgid "Pidgin"
+#~ msgstr "Pidgin"
+
+#~ msgid "Pidgin profiles and OTR keyring"
+#~ msgstr "Profil Pidgin dan keyring OTR"
+
+#~ msgid "SSH keys, configuration and known hosts"
+#~ msgstr "Kunci SSH, konfigurasi dan hos yang dikenal"
+
+#~ msgid "Setup Tails persistent volume"
+#~ msgstr "Pengaturan volume tetap Tails"
+
+#~ msgid "Device already has a persistent volume."
+#~ msgstr "Perangkat telah memiliki volume persistent."
+
+#~ msgid "Device has not enough unallocated space."
+#~ msgstr "Perangkat tidak memiliki ruang kosong yang cukup."
+
+#~ msgid "Device has no persistent volume."
+#~ msgstr "Perangkat tidak memiliki volume yang persisten."
+
+#~ msgid ""
+#~ "Cannot delete the persistent volume while in use. You should restart "
+#~ "Tails without persistence."
+#~ msgstr ""
+#~ "Tidak dapat menghapus volume persistent selagi dalam penggunaan. Anda "
+#~ "harus restart Tails tanpa persistent"
+
+#~ msgid "Persistence volume is not unlocked."
+#~ msgstr "Volume persistent tidak terkunci"
+
+#~ msgid "Persistence volume is not mounted."
+#~ msgstr "Volume persistent tidak terpasang"
+
+#~ msgid ""
+#~ "Persistence volume is not readable. Permissions or ownership problems?"
+#~ msgstr "Volume persistent tidak terbaca. masalah Izin atau kepemilikan"
+
+#~ msgid "Persistence volume is not writable."
+#~ msgstr "Volume yang persisten tidak dapat ditulisi."
+
+#~ msgid "Tails is running from non-USB / non-SDIO device."
+#~ msgstr "Tails berjalan dari non-USB / perangkat non-SDIO."
+
+#~ msgid "Device is optical."
+#~ msgstr "Perangkat adalah optikal"
+
+#~ msgid "Device was not created using a USB image or Tails Installer."
+#~ msgstr "Perangkat tidak dibuat menggunakan image USB atau Installer Tails."
+
+#~ msgid "Persistence wizard - Finished"
+#~ msgstr "Wizard persistent - selesai"
+
+#~ msgid ""
+#~ "Any changes you have made will only take effect after restarting Tails."
+#~ msgstr ""
+#~ "Semua perubahan yang telah Anda buat hanya akan berpengaruh setelah Anda "
+#~ "memulai ulang Tails."
+
+#~ msgid "Tails is configuring your Persistent Storage. Please wait..."
+#~ msgstr ""
+#~ "Tails sedang mengonfigurasi Penyimpanan Persisten Anda. Harap tunggu..."
+
+#~ msgid ""
+#~ "\\n\\nTo always enable the Unsafe Browser, turn on the Welcome Screen "
+#~ "feature of the Persistent Storage."
+#~ msgstr ""
+#~ "\\n\\nUntuk selalu mengaktifkan Unsafe Broswer, nyalakan fitur Layar "
+#~ "Selamat datang dari Penyimpanan persisten."
+
+#~ msgid "Delete the persistent volume and its content"
+#~ msgstr "Hapus volume persistent dan kontennya"
+
+#~ msgid "Configure persistent volume"
+#~ msgstr "Konfigurasi volume persistent"
+
+#~ msgid "image"
+#~ msgstr "image"
+
+#~ msgid "heading"
+#~ msgstr "heading"
+
+#~ msgid "_Request a new bridge"
+#~ msgstr "_Request bridge babru"
+
+#~ msgid "toggle-button"
+#~ msgstr "toggle-button"
+
+#~ msgid ""
+#~ "To request new Tor bridges, you can also:\n"
+#~ "\n"
+#~ "            1. Send an empty email to <tt>bridges@torproject.org</tt> "
+#~ "from a Gmail or Riseup email address.\n"
+#~ "\n"
+#~ "              2. Type below one of the bridges that you received by email."
+#~ msgstr ""
+#~ "Untuk meminta jembatan Tor baru, Anda juga dapat:\n"
+#~ "\n"
+#~ "1. Kirim SUREL kosong ke bridges@torproject.org dari alamat surel Gmail "
+#~ "atau Riseup.\n"
+#~ "\n"
+#~ "2. Ketik di bawah salah satu jembatan yang Anda terima melalui email."

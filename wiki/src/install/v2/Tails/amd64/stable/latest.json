@@ -1,0 +1,32 @@
+{
+    "build_target": "amd64",
+    "channel": "stable",
+    "installations": [
+        {
+            "installation-paths": [
+                {
+                    "target-files": [
+                        {
+                            "sha256": "715c90e95606cda4dbfd58d06884a837a524bedb943d357649da90e9b52b7e93",
+                            "size": 1613758464,
+                            "url": "https://download.tails.net/tails/stable/tails-amd64-6.15.1/tails-amd64-6.15.1.img"
+                        }
+                    ],
+                    "type": "img"
+                },
+                {
+                    "target-files": [
+                        {
+                            "sha256": "3729089983373ae0bfe2f04b230710cf1d625a39684ebd72baa1a42a66e8e108",
+                            "size": 1603930112,
+                            "url": "https://download.tails.net/tails/stable/tails-amd64-6.15.1/tails-amd64-6.15.1.iso"
+                        }
+                    ],
+                    "type": "iso"
+                }
+            ],
+            "version": "6.15.1"
+        }
+    ],
+    "product-name": "Tails"
+}

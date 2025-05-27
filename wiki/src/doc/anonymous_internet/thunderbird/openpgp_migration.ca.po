@@ -1,0 +1,349 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-05-14 22:38+0000\n"
+"PO-Revision-Date: 2024-10-02 23:09+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Migrating OpenPGP configuration from Enigmail in Thunderbird 78\"]]\n"
+msgstr "[[!meta title=\"Migració de la configuració d'OpenPGP des d'Enigmail a Thunderbird 78\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Plain text
+msgid ""
+"Since Tails 4.13 (November 2020), *Thunderbird* 78 replaces the *Enigmail* "
+"extension with built-in support for OpenPGP encryption."
+msgstr ""
+"Des de Tails 4.13 (novembre de 2020), el *Thunderbird* 78 substitueix "
+"l'extensió *Enigmail* amb suport integrat per a l'encriptació OpenPGP."
+
+#. type: Plain text
+msgid ""
+"If you used *Enigmail* before Tails 4.13, follow the instructions below to "
+"migrate from *Enigmail* to *Thunderbird* 78. Tails does not include "
+"*Enigmail* 2.2, the last version of the extension, which automates this "
+"migration."
+msgstr ""
+"Si heu utilitzat l'*Enigmail* abans de Tails 4.13, seguiu les instruccions "
+"següents per migrar d'*Enigmail* al *Thunderbird* 78. Tails no inclou "
+"l'*Enigmail* 2.2, l'última versió de l'extensió, que automatitza aquesta "
+"migració."
+
+#. type: Plain text
+msgid ""
+"See also the official [OpenPGP in Thunderbird - HOWTO and FAQ](https://"
+"support.mozilla.org/kb/openpgp-thunderbird-howto-and-faq)."
+msgstr ""
+"Vegeu també la guia oficial d'[OpenPGP al Thunderbird - HOWTO i "
+"FAQ](https://support.mozilla.org/kb/openpgp-thunderbird-howto-and-faq) (en "
+"anglès)."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"private\">Migrate your private key</h1>\n"
+msgstr "<h1 id=\"private\">Migració de la vostra clau privada</h1>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"export-private\">Export your private key using <em>Kleopatra</em></h2>\n"
+msgstr "<h2 id=\"export-private\">Exporteu la vostra clau privada amb <em>Kleopatra</em></h2>\n"
+
+#. type: Plain text
+msgid "From the desktop:"
+msgstr "Des de l'escriptori:"
+
+#. type: Bullet: '1. '
+msgid "Choose **Applications&nbsp;▸ Accessories&nbsp;▸ Kleopatra**."
+msgstr "Trieu **Aplicacions&nbsp;▸ Accessoris&nbsp;▸ Kleopatra**."
+
+#. type: Bullet: '1. '
+msgid "Select the private key that you want to migrate to *Thunderbird*."
+msgstr "Seleccioneu la clau privada que voleu migrar al *Thunderbird*."
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose **File&nbsp;▸ Backup Secret Keys…** and save this private key to your "
+"*Home* directory."
+msgstr ""
+"Trieu **Fitxer&nbsp;▸ Desa les claus secretes…** i deseu aquesta clau "
+"privada al vostre directori *Inici*."
+
+#. type: Bullet: '1. '
+msgid "Close *Kleopatra*."
+msgstr "Tanqueu *Kleopatra*."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"import-private\">Import your private key in <em>Thunderbird</em></h2>\n"
+msgstr ""
+"<h2 id=\"import-private\">Importeu la vostra clau privada al "
+"<em>Thunderbird</em></h2>\n"
+
+#. type: Plain text
+msgid "In *Thunderbird*:"
+msgstr "Al *Thunderbird*:"
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
+"link=\"no\"]]&nbsp;▸ Account Settings**."
+msgstr ""
+"Trieu **[[!img lib/open-menu.png alt=\"Menú\" class=\"symbolic\" link=\"no\""
+"]]&nbsp;▸ Paràmetres del compte**."
+
+#. type: Bullet: '1. '
+msgid ""
+"In the left pane, identify the account that corresponds to the private key "
+"that you want to import and choose **End-to-End Encryption**."
+msgstr ""
+"Al panell esquerre, identifiqueu el compte que correspon a la clau privada "
+"que voleu importar i trieu **Xifratge d'extrem a extrem**."
+
+#. type: Bullet: '1. '
+msgid "In the right pane, click the **Add Key…** button."
+msgstr "Al panell dret, feu clic al botó **Afegeix una clau…**."
+
+#. type: Bullet: '1. '
+msgid ""
+"In the **Add a Personal OpenPGP Key** dialog, choose **Import an existing "
+"OpenPGP Key** and click **Continue**."
+msgstr ""
+"Al diàleg **Afegeix una clau OpenPGP personal**, trieu **Importa una clau "
+"OpenPGP existent** i feu clic a **Continua**."
+
+#. type: Bullet: '1. '
+msgid ""
+"Click the **Select File to Import…** button and choose the private key that "
+"your exported from *Kleopatra*."
+msgstr ""
+"Feu clic al botó **Selecciona el fitxer per importar…** i trieu la clau "
+"privada que heu exportat des de *Kleopatra*."
+
+#. type: Bullet: '1. '
+msgid ""
+"In the next dialog, make sure that your private key is listed and that the "
+"option **Treat this key as a Personal Key** is selected."
+msgstr ""
+"Al diàleg següent, assegureu-vos que la vostra clau privada aparegui a la "
+"llista i que l'opció **Tracta aquesta clau com a clau personal** estigui "
+"seleccionada."
+
+#. type: Bullet: '1. '
+msgid ""
+"Click **Continue**, enter the passphrase for your private key (if any), and "
+"click **Continue** again."
+msgstr ""
+"Feu clic a **Continua**, introduïu la contrasenya de la vostra clau privada "
+"(si en teniu) i torneu a fer clic a **Continua**."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   Your private key should now be listed in the **End-to-End\n"
+"   Encryption** settings of your account.\n"
+msgstr ""
+"   Ara la vostra clau privada hauria de figurar a la configuració de **"
+"Xifratge\n"
+"   d'extrem a extrem** del vostre compte.\n"
+
+#. type: Bullet: '1. '
+msgid "Select your private key to enable OpenPGP encryption for this account."
+msgstr ""
+"Seleccioneu la vostra clau privada per activar l'encriptatge OpenPGP per a "
+"aquest compte."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"primary-password\">Set up a Primary Password</h2>\n"
+msgstr "<h2 id=\"primary-password\">Configureu una contrasenya principal</h2>\n"
+
+#. type: Plain text
+msgid ""
+"In *Thunderbird* 78, OpenPGP private keys are not protected by a "
+"passphrase.  That's why we recommend that you set up a Primary Password."
+msgstr ""
+"Al *Thunderbird* 78, les claus privades d'OpenPGP no estan protegides per "
+"una contrasenya. És per això que us recomanem que configureu una contrasenya "
+"principal."
+
+#. type: Plain text
+msgid ""
+"With a Primary Password, your private key is encrypted in your *Thunderbird* "
+"profile and is only unlocked while *Thunderbird* is running.  If your "
+"*Thunderbird* profile is stored in your Persistent Storage, then your "
+"private key is encrypted twice: once by *Thunderbird* in your profile and a "
+"second time by the encryption of the Persistent Storage."
+msgstr ""
+"Amb una contrasenya principal, la vostra clau privada està encriptada al "
+"vostre perfil del *Thunderbird* i només es desbloqueja mentre s'executa el "
+"*Thunderbird*. Si el vostre perfil del *Thunderbird* està desat al vostre "
+"Emmagatzematge Persistent, aleshores la vostra clau privada s'encripta dues "
+"vegades: una vegada pel *Thunderbird* al vostre perfil i una segona vegada "
+"mitjançant l'encriptatge de l'Emmagatzematge Persistent."
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
+"link=\"no\"]]&nbsp;▸ Settings**."
+msgstr ""
+"Trieu **[[!img lib/open-menu.png alt=\"Menú\" class=\"symbolic\" link=\"no\""
+"]]&nbsp;▸ Paràmetres**."
+
+#. type: Bullet: '1. '
+msgid "Choose **Privacy & Security**."
+msgstr "Trieu **Privadesa i seguretat**."
+
+#. type: Bullet: '1. '
+msgid ""
+"In the **Passwords** section, select the option **Use a Primary Password**."
+msgstr ""
+"A la secció **Contrasenyes**, seleccioneu l'opció **Utilitza una contrasenya "
+"principal**."
+
+#. type: Bullet: '1. '
+msgid ""
+"In the **Primary Password** dialog, enter your Primary Password and click "
+"**OK**."
+msgstr ""
+"Al diàleg **Contrasenya principal**, introduïu la vostra contrasenya "
+"principal i feu clic a **D'acord**."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"public\">Migrate the public keys of your contacts</h1>\n"
+msgstr "<h1 id=\"public\">Migrar les claus públiques dels vostres contactes</h1>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"export-public\">Export the public keys using <em>Kleopatra</em></h2>\n"
+msgstr "<h2 id=\"export-public\">Exporteu les claus públiques amb <em>Kleopatra</em></h2>\n"
+
+#. type: Bullet: '1. '
+msgid "Select the public keys that you want to migrate to *Thunderbird*."
+msgstr "Seleccioneu les claus públiques que voleu migrar al *Thunderbird*."
+
+#. type: Plain text
+#, no-wrap
+msgid "   You can use **Shift+click** and **Ctrl+click** to select multiple keys.\n"
+msgstr "   Podeu utilitzar **Maj+clic** i **Ctrl+clic** per seleccionar diverses claus.\n"
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose **File&nbsp;▸ Export…** and save these public keys to your *Home* "
+"directory."
+msgstr ""
+"Trieu **Fitxer&nbsp;▸ Exporta…** i deseu aquestes claus públiques al vostre "
+"directori *Inici*."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"import-public\">Import the public keys in <em>Thunderbird</em></h2>\n"
+msgstr ""
+"<h2 id=\"import-public\">Importar les claus públiques al "
+"<em>Thunderbird</em></h2>\n"
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose **[[!img lib/open-menu.png alt=\"Menu\" class=\"symbolic\" "
+"link=\"no\"]]&nbsp;▸ Tools&nbsp;▸ OpenPGP Key Manager**."
+msgstr ""
+"Trieu **[[!img lib/open-menu.png alt=\"Menú\" class=\"symbolic\" "
+"link=\"no\"]]&nbsp;▸ Eines&nbsp;▸ Gestor de claus OpenPGP**."
+
+#. type: Bullet: '1. '
+msgid ""
+"In the **OpenPGP Key Manager**, choose **File&nbsp;▸ Import Public Key(s)  "
+"From File.**"
+msgstr ""
+"Al **Gestor de claus OpenPGP**, trieu **Fitxer&nbsp;▸ Importa les claus "
+"públiques des d'un fitxer.**"
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose the file containing the public keys that you exported from "
+"*Kleopatra*."
+msgstr ""
+"Trieu el fitxer que conté les claus públiques que heu exportat des de "
+"*Kleopatra*."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   If *Thunderbird* fails to import many public keys at once, split\n"
+"   these public keys into several smaller files. *Thunderbird* can only import\n"
+"   public key files of less than 5 MB.\n"
+msgstr ""
+"   Si el *Thunderbird* no pot importar totes les claus públiques alhora, "
+"dividiu\n"
+"   aquestes claus públiques en diversos fitxers més petits. *Thunderbird* "
+"només pot importar\n"
+"   fitxers de clau pública de menys de 5 MB.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"accept-public\">Mark the public keys as accepted</h2>\n"
+msgstr "<h2 id=\"accept-public\">Marqueu les claus públiques com a acceptades</h2>\n"
+
+#. type: Plain text
+msgid ""
+"By default, new public keys are not marked as \"*accepted*\" by "
+"*Thunderbird* and you cannot encrypt emails to \"unaccepted\" keys."
+msgstr ""
+"Per defecte, les claus públiques noves no estan marcades com a «*acceptades*»"
+" pel *Thunderbird* i no podeu encriptar els correus electrònics amb claus «"
+"no acceptades»."
+
+#. type: Plain text
+msgid "To mark a public key as accepted:"
+msgstr "Per marcar una clau pública com a acceptada:"
+
+#. type: Bullet: '1. '
+msgid "Double-click on the public key that you want to mark as accepted."
+msgstr "Feu doble clic a la clau pública que voleu marcar com a acceptada."
+
+#. type: Bullet: '1. '
+msgid ""
+"In the **Your Acceptance** tab of the **Key Properties** dialog, select the "
+"option that applies to how much you verified the public key."
+msgstr ""
+"A la pestanya **La vostra acceptació** del diàleg **Propietats de la clau**, "
+"seleccioneu l'opció que s'aplica a quant heu verificat la clau pública."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"disable-gnupg\">Turn off the GnuPG feature of your Persistent Storage</h2>\n"
+msgstr "<h2 id=\"disable-gnupg\">Desactiveu la funció GnuPG del vostre Emmagatzematge Persistent</h2>\n"
+
+#. type: Plain text
+msgid ""
+"If you only use OpenPGP in *Thunderbird*, you can turn off the GnuPG feature "
+"of the Persistent Storage:"
+msgstr ""
+"Si només utilitzeu OpenPGP al *Thunderbird*, podeu desactivar la funció "
+"GnuPG de l'Emmagatzematge Persistent:"
+
+#. type: Bullet: '1. '
+msgid "Choose **Applications&nbsp;▸ Persistent Storage**."
+msgstr "Trieu **Aplicacions&nbsp;▸ Emmagatzematge Persistent**."
+
+#. type: Bullet: '1. '
+msgid "Turn off the GnuPG feature."
+msgstr "Desactiveu la funció GnuPG."

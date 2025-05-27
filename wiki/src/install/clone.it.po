@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"PO-Revision-Date: 2024-02-28 15:50+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Install by cloning\"]]\n"
+msgstr "[[!meta title=\"installa mediante clonazione\"]]\n"
+
+#
+#. type: Plain text
+msgid "- [[Install by cloning from another Tails on PC|install/clone/pc]]"
+msgstr ""
+"- [[Installa mediante clonazione da un altro Tails su PC|install/clone/pc]]"
+
+#
+#. type: Plain text
+msgid "- [[Install by cloning from another Tails on Mac|install/clone/mac]]"
+msgstr ""
+"- [[Installa mediante clonazione da un altro Tails su Mac|install/clone/mac]]"

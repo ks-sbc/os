@@ -1,0 +1,634 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-08 01:30+0000\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"What we achieved together in 2022\"]]\n"
+msgstr "[[!meta title=\"El que hem aconseguit junts el 2022\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Thu, 23 Nov 2022 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Thu, 23 Nov 2022 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "**If a tool is hard to use, it is less secure.**\n"
+msgstr "**Si una eina és difícil d'utilitzar, és menys segura.**\n"
+
+#. type: Plain text
+msgid ""
+"When digital security tools are too complicated to use, people make mistakes "
+"that compromise their security or simply give up and fall back on more "
+"dangerous practices."
+msgstr ""
+"Quan les eines de seguretat digital són massa complicades d'utilitzar, les "
+"persones cometen errors que comprometen la seva seguretat o simplement es "
+"rendeixen i recorren a pràctiques més perilloses."
+
+#. type: Plain text
+msgid ""
+"Because journalists and whistleblowers use Tails to expose abuse of power "
+"and activists use Tails to defend human rights and our planet, the more "
+"people use Tails, the better we are all protected."
+msgstr ""
+"Com que els periodistes i els denunciants utilitzen Tails per denunciar "
+"l'abús de poder i els activistes utilitzen Tails per defensar els drets "
+"humans i el nostre planeta, com més gent utilitzi Tails, més protegits "
+"estarem."
+
+#. type: Plain text
+msgid ""
+"In 2022, we focused on making it easier to install Tails and improving many "
+"existing features, instead of adding new features. Here are some highlights."
+msgstr ""
+"El 2022, ens vam centrar a facilitar la instal·lació de Tails i a millorar "
+"moltes de les funcions existents, en lloc d'afegir-hi funcions noves. Aquí "
+"hi ha alguns aspectes destacats."
+
+#. type: Plain text
+msgid ""
+"Our work is only possible thanks to the donations of our many supporters. In "
+"2020&ndash;2022, [[donations from passionate people like you|donate]] "
+"represented 76% of our income. This is the best proof of the value of our "
+"work and our biggest motivation."
+msgstr ""
+"La nostra feina només és possible gràcies a les donacions dels nostres "
+"seguidors. Entre 2020 i 2022, les [[donacions de persones apassionades|"
+"donate]] van representar el 76% dels nostres ingressos. Aquesta és la millor "
+"prova del valor del nostre treball i la nostra major motivació."
+
+#. type: Plain text
+msgid "Thanks!"
+msgstr "Gràcies!"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Better tools"
+msgstr "Millors eines"
+
+#. type: Title ##
+#, no-wrap
+msgid "*Persistent Storage*"
+msgstr "*Emmagatzematge Persistent*"
+
+#. type: Plain text
+msgid ""
+"The biggest change is still to come as we will release a complete redesign "
+"of the Persistent Storage in Tails 5.8 (December 20). You can already test "
+"the new Persistent Storage in [[Tails 5.8~beta1|test_5.8-beta1]]."
+msgstr ""
+"El canvi més gran encara està per arribar, ja que llançarem un redisseny "
+"complet de l'Emmagatzematge Persistent a Tails 5.8 (20 de desembre). Ja "
+"podeu provar el nou Emmagatzematge Persistent a [[Tails 5.8~beta1|test_5.8-"
+"beta1]]."
+
+#. type: Plain text
+msgid ""
+"The Persistent Storage hadn't changed much since its first release in 2012 "
+"because the code was hard to modify and improve. But, we learned from users "
+"that the Persistent Storage could do a lot more for you if it had more "
+"features and was easier to use."
+msgstr ""
+"L'Emmagatzematge Persistent no havia canviat gaire des del seu primer "
+"llançament el 2012 perquè el codi era difícil de modificar i millorar. Però, "
+"vam aprendre dels usuaris que l'Emmagatzematge Persistent podria fer molt "
+"més per vosaltres si tingués més funcions i fos més fàcil d'utilitzar."
+
+#. type: Plain text
+msgid ""
+"The new Persistent Storage won't require restarting after creating it or "
+"each time you activate a new feature."
+msgstr ""
+"El nou Emmagatzematge Persistent no necessitarà ser reiniciat després de ser "
+"creat o cada vegada que s'activi una funció nova."
+
+#. type: Plain text
+msgid ""
+"It will also make it easier for us to persist more settings in the future."
+msgstr "També ens facilitarà la conservació de més configuracions en el futur."
+
+#. type: Plain text
+msgid "And finally, it looks so much better!"
+msgstr "I finalment, es veu molt millor!"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img test_5.8-beta1/create.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img test_5.8-beta1/create.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img test_5.8-beta1/features.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img test_5.8-beta1/features.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "PGP tools"
+msgstr "Eines PGP"
+
+#. type: Plain text
+msgid ""
+"We know that lots of our users depend on PGP tools to protect their "
+"communications. But, we also know that PGP tools are notoriously hard to use."
+msgstr ""
+"Sabem que molts dels nostres usuaris depenen de les eines PGP per protegir "
+"les seves comunicacions. Però, també sabem que les eines PGP són notòriament "
+"difícils d'utilitzar."
+
+#. type: Plain text
+msgid "We made 2 big changes to PGP tools in Tails:"
+msgstr "Hem fet dos grans canvis a les eines PGP a Tails:"
+
+#. type: Bullet: '- '
+msgid ""
+"We added [[*Kleopatra*|doc/encryption_and_privacy/kleopatra]], a swiss army "
+"knife for all things PGP."
+msgstr ""
+"Hem afegit [[*Kleopatra*|doc/encryption_and_privacy/kleopatra]], una navalla "
+"suïssa per a tot allò relacionat amb PGP."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  *Kleopatra* replaced the *OpenPGP Applet* and the *Password and Keys*\n"
+"  utility, also known as *Seahorse*, which were not actively developed anymore\n"
+"  and had many issues.\n"
+msgstr ""
+"  *Kleopatra* ha substituït l'*Applet OpenPGP* i la utilitat *Contrasenya i claus*,\n"
+"  també coneguda com a *Seahorse*, que ja no es desenvolupa activament\n"
+"  i tenia molts problemes.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img version_5.0/kleopatra.png alt=\"\" link=\"no\"]]\n"
+msgstr "  [[!img version_5.0/kleopatra.png alt=\"\" link=\"no\"]]\n"
+
+#. type: Bullet: '- '
+msgid ""
+"We updated *Thunderbird* to 102, which includes major usability improvements "
+"to the OpenPGP feature."
+msgstr ""
+"Hem actualitzat el *Thunderbird* a la versió 102, que inclou millores "
+"importants d'usabilitat a la funcionalitat d'OpenPGP."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  When composing an email, you can now see whether it will be encrypted or not.\n"
+"  If encryption is impossible, a key assistant helps you solve key issues.\n"
+msgstr ""
+"  Quan redacteu un correu electrònic, ara podeu veure si s'encriptarà o no.\n"
+"  Si l'encriptatge és impossible, un assistent de claus us ajudarà a resoldre els problemes de les claus.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  [[!img version_5.5/thunderbird_102.png link=\"no\" alt=\"Thunderbird composer\n"
+"  window with encryption turned on and notification about a missing key and how\n"
+"  to resolve the issue.\"]]\n"
+msgstr ""
+"  [[!img version_5.5/thunderbird_102.png link=\"no\" alt=\"Finestra de "
+"composició del Thunderbird\n"
+"  amb l'encriptatge activat i una notificació sobre una clau que falta i "
+"com\n"
+"  resoldre el problema.\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "*Tor Connection* assistant"
+msgstr "Assistent de *Connexió Tor*"
+
+#. type: Plain text
+msgid ""
+"We conducted usability tests of the *Tor Connection* assistant in France and "
+"Brazil with people who were new to Tails to identify issues in complicated "
+"cases: when connecting to Tor is blocked by censorship or a captive portal."
+msgstr ""
+"Hem realitzat proves d'usabilitat de l'assistent de *Connexió Tor* a França "
+"i Brasil amb persones que eren noves a Tails per identificar problemes en "
+"casos complicats: quan la connexió a Tor està bloquejada per la censura o un "
+"portal captiu."
+
+#. type: Plain text
+msgid ""
+"We fixed [28 usability issues](https://gitlab.tails.boum.org/tails/tails/-/"
+"issues/?"
+"sort=closed_desc&state=closed&label_name%5B%5D=C%3ATor%20Connection&first_page_size=20)  "
+"identified during these tests. For example:"
+msgstr ""
+"Hem corregit [28 problemes d'usabilitat](https://gitlab.tails.boum.org/tails/"
+"tails/-/issues/?"
+"sort=closed_desc&state=closed&label_name%5B%5D=C%3ATor%20Connection&first_page_size=20) "
+"identificats durant aquestes proves. Per exemple:"
+
+#. type: Bullet: '- '
+msgid ""
+"The *Tor Connection* assistant now automatically fixes the computer clock if "
+"you choose to connect to Tor automatically. This makes it much easier for "
+"people in Asia to circumvent censorship."
+msgstr ""
+"L'assistent de *Connexió Tor* ara corregeix automàticament el rellotge de "
+"l'ordinador si trieu connectar-vos a Tor automàticament. Això fa que sigui "
+"molt més fàcil per a la gent a Àsia eludir la censura."
+
+#. type: Bullet: '- '
+msgid ""
+"We made it easier to open the *Unsafe Browser* to sign in to a network. This "
+"makes it much easier to use Tails on public networks in airports, libraries, "
+"and so on."
+msgstr ""
+"Hem facilitat l'obertura del *Navegador Insegur* per iniciar sessió a una "
+"xarxa. Això fa que sigui molt més fàcil utilitzar Tails a les xarxes "
+"públiques d'aeroports, biblioteques, etc."
+
+#. type: Bullet: '- '
+msgid ""
+"In Tails 5.8 (December 20), you will be able to scan a QR code from your "
+"phone to enter a Tor bridge:"
+msgstr ""
+"A Tails 5.8 (20 de desembre), podreu escanejar un codi QR des del vostre "
+"telèfon per introduir un pont Tor:"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img test_5.8-beta1/qr_code.png link=\"no\" alt=\"\"]]\n"
+msgstr "  [[!img test_5.8-beta1/qr_code.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "*Unsafe Browser* and Wayland"
+msgstr "*Navegador Insegur* i Wayland"
+
+#. type: Plain text
+msgid ""
+"Tails 5.8 will also make the *Unsafe Browser* both safer and easier to use "
+"by migrating it to the Wayland display technology."
+msgstr ""
+"Tails 5.8 també farà que el *Navegador Insegur* sigui més segur i més fàcil "
+"d'utilitzar migrant-lo a la tecnologia de visualització de Wayland."
+
+#. type: Plain text
+msgid ""
+"Wayland brings more security in-depth to Tails by making it harder for a "
+"compromised application in Tails to compromise or misuse another application."
+msgstr ""
+"Wayland aporta més seguretat a Tails en dificultar que una aplicació "
+"compromesa a Tails comprometi o faci un mal ús d'una altra aplicació."
+
+#. type: Plain text
+msgid ""
+"Wayland also fixes other features that were not working yet in the *Unsafe "
+"Browser*:"
+msgstr ""
+"Wayland també soluciona altres funcions que encara no funcionaven al "
+"*Navegador Insegur*:"
+
+#. type: Plain text
+msgid ""
+"- Sound - Uploads and downloads - Alternative input methods for Chinese and "
+"other non-Latin languages - Accessibility features like the screen reader "
+"and virtual keyboard"
+msgstr ""
+"- So\n"
+"- Càrregues i baixades\n"
+"- Mètodes d'entrada alternatius per al xinès i altres idiomes no llatins\n"
+"- Funcions d'accessibilitat com el lector de pantalla i el teclat virtual"
+
+#. type: Title ##
+#, no-wrap
+msgid "Metadata cleaning"
+msgstr "Neteja de metadades"
+
+#. type: Plain text
+msgid ""
+"We added *Metadata Cleaner*, a new tool to clean metadata from your files."
+msgstr ""
+"S'ha afegit el *Netejador de Metadades*, una nova eina per netejar les "
+"metadades dels vostres fitxers."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img version_5.7/metadata_cleaner.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img version_5.7/metadata_cleaner.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+msgid ""
+"When we switched to *MAT* 0.8.0 in Tails 4.0, *MAT* lost its graphical "
+"interface and was only accessible from the contextual menu of the *Files* "
+"browser. It became especially hard for new users to learn how to clean their "
+"files. *Metadata Cleaner* fixes this by providing a simple and easily "
+"discoverable graphic interface to remove metadata."
+msgstr ""
+"Quan vam canviar a *MAT* 0.8.0 a Tails 4.0, *MAT* va perdre la seva "
+"interfície gràfica i només era accessible des del menú contextual del "
+"navegador de *Fitxers*. Va ser especialment difícil per als usuaris nous "
+"aprendre a netejar els seus fitxers. El *Netejador de Metadades* soluciona "
+"aquest problema proporcionant una interfície gràfica senzilla i fàcil "
+"d'aprendre per eliminar les metadades."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Metadata Cleaner* works on the same file formats and is as secure as *MAT*\n"
+"because *Metadata Cleaner* also uses *MAT* in the background to do the actual\n"
+"cleaning.\n"
+msgstr ""
+"El *Netejador de Metadades* funciona amb els mateixos formats de fitxer i és tan segur com *MAT*\n"
+"perquè el *Netejador de Metadades* també utilitza *MAT* en segon pla per fer la\n"
+"neteja dels fitxers.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Backups"
+msgstr "Còpies de seguretat"
+
+#. type: Plain text
+msgid ""
+"We added a utility to make a backup of the Persistent Storage to another "
+"Tails USB stick."
+msgstr ""
+"Hem afegit una utilitat per fer una còpia de seguretat de l'Emmagatzematge "
+"Persistent a un altre llapis USB de Tails."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img version_4.25/backup.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img version_4.25/backup.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"It's pretty basic. We still want to do something better in [[!tails_ticket\n"
+"7049]], but we didn't want to wait more because we know that backups are a big\n"
+"issue for our users.\n"
+msgstr ""
+"És bastant bàsica. Encara volem fer alguna cosa millor a [[!tails_ticket\n"
+"7049]], però no hem volgut esperar més perquè sabem que les còpies de seguretat són un gran\n"
+"problema per als nostres usuaris.\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Easier installation"
+msgstr "Instal·lació més fàcil"
+
+#. type: Title ##
+#, no-wrap
+msgid "Installation instructions"
+msgstr "Instruccions d'instal·lació"
+
+#. type: Plain text
+msgid ""
+"During usability tests in Mexico and Brazil, we realized that our "
+"installation process was already pretty easy to follow, but that some people "
+"were getting lost while navigating between the different pages."
+msgstr ""
+"Durant les proves d'usabilitat a Mèxic i Brasil, ens vam adonar que el "
+"nostre procés d'instal·lació ja era bastant fàcil de seguir, però que "
+"algunes persones es perdien mentre navegaven entre les diferents pàgines."
+
+#. type: Plain text
+msgid ""
+"We simplified our instructions by making them into a [[single page|install/"
+"windows]]."
+msgstr ""
+"Hem simplificat les nostres instruccions convertint-les en una [[pàgina "
+"única|install/windows]]."
+
+#. type: Plain text
+msgid "We added animations and more exciting visuals."
+msgstr "Hem afegit animacions i imatges més emocionants."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<video autoplay loop muted width=\"200\" height=\"200\" poster=\"https://tails.net/install/inc/success/install.png\">\n"
+"  <source src=\"https://tails.net/install/inc/success/install.mp4\" type=\"video/mp4\" />\n"
+"</video>\n"
+msgstr ""
+"<video autoplay loop muted width=\"200\" height=\"200\" poster=\"https://tails.net/install/inc/success/install.png\">\n"
+"  <source src=\"https://tails.net/install/inc/success/install.mp4\" type=\"video/mp4\" />\n"
+"</video>\n"
+
+#. type: Plain text
+msgid ""
+"Finally, we fixed no less than [30 other smaller usability issues](https://"
+"gitlab.tails.boum.org/tails/tails/-/issues/?"
+"sort=closed_desc&state=closed&label_name%5B%5D=C%3AInstallation&first_page_size=20) "
+"in the instructions!"
+msgstr ""
+"Finalment, hem solucionat no menys de [30 problemes d'usabilitat més petits]"
+"(https://gitlab.tails.boum.org/tails/tails/-/issues/?"
+"sort=closed_desc&state=closed&label_name%5B%5D=C%3AInstallation&first_page_size= "
+"20) a les instruccions!"
+
+#. type: Title ##
+#, no-wrap
+msgid "Tails.net and more reliable downloads"
+msgstr "Tails.net i baixades més fiables"
+
+#. type: Plain text
+msgid ""
+"After 13 years of relying on the domain name of our historical hosting "
+"provider, *boum.org*, we finally acquired a simple, beautiful, and "
+"trustworthy domain name of our own:"
+msgstr ""
+"Després de 13 anys de confiar en el nom de domini del nostre proveïdor "
+"d'allotjament històric, *boum.org*, finalment hem adquirit un nom de domini "
+"senzill, bonic i fiable:"
+
+#. type: Plain text
+msgid "🎉 ✨ ***tails.net*** ✨ 🎉"
+msgstr "🎉 ✨ ***tails.net*** ✨ 🎉"
+
+#. type: Plain text
+msgid "It will take us some time to migrate all our services to this new name."
+msgstr "Ens portarà un temps migrar tots els nostres serveis a aquest nou nom."
+
+#. type: Plain text
+msgid ""
+"As a start, we deployed <https://download.tails.net/>. This new service uses "
+"[Mirrorbits](https://github.com/etix/mirrorbits), a more reliable way of "
+"redirecting downloads to one of our mirrors. It prevents many broken "
+"downloads and automates some tedious work."
+msgstr ""
+"Per començar, vam implementar <https://download.tails.net/>. Aquest nou "
+"servei utilitza [Mirrorbits](https://github.com/etix/mirrorbits), una forma "
+"més fiable de redirigir les baixades a un dels nostres miralls. Evita moltes "
+"baixades trencades i automatitza alguns treballs tediosos."
+
+#. type: Title #
+#, no-wrap
+msgid "Team life"
+msgstr "Vida d'equip"
+
+#. type: Title ##
+#, no-wrap
+msgid "New team members"
+msgstr "Nous membres de l'equip"
+
+#. type: Plain text
+msgid "Our team grew and welcomed 2 new full-time workers:"
+msgstr ""
+"El nostre equip ha crescut i ha acollit dos nous treballadors a temps "
+"complet:"
+
+#. type: Bullet: '- '
+msgid ""
+"[@disoj](https://gitlab.tails.boum.org/disoj) joined us as our Project "
+"Manager in April."
+msgstr ""
+"[@disoj](https://gitlab.tails.boum.org/disoj) es va unir a nosaltres com a "
+"directora de projectes a l'abril."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  She will help our team grow, mature, and ultimately serve our users better.\n"
+"  It's the first time that we hired for a managerial position, so it's a very\n"
+"  big and positive change.\n"
+msgstr ""
+"  Ella ajudarà el nostre equip a créixer, a madurar i, finalment, a servir millor als nostres usuaris.\n"
+"  És la primera vegada que contractem per a un càrrec directiu, així que és un\n"
+"  gran canvi i positiu.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"[@groente](https://gitlab.tails.boum.org/groente), a long-term Sysadmin "
+"consultant, joined us full-time in July."
+msgstr ""
+"[@groente](https://gitlab.tails.boum.org/groente), un consultor de Sysadmin "
+"a llarg termini, es va unir a nosaltres a temps complet al juliol."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  He will help us deploy better infrastructure to make our work more efficient\n"
+"  while keeping all our machines (and thus your Tails) secure.\n"
+msgstr ""
+"  Ens ajudarà a desplegar una millor infraestructura per fer la nostra feina més eficient\n"
+"  mantenint totes les nostres màquines (i, per tant, els vostres Tails) segures.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Organizational redesign"
+msgstr "Redisseny organitzatiu"
+
+#. type: Plain text
+msgid ""
+"Behind the curtains, Tails operates as a small team that values "
+"transparency, autonomy, and horizontal decision-making. We have always "
+"worked fully remotely and now have team members in 10 different countries."
+msgstr ""
+"Darrera les cortines, Tails opera com un petit equip que valora la "
+"transparència, l'autonomia i la presa de decisions horitzontals. Sempre hem "
+"treballat de manera totalment remota i ara tenim membres de l'equip a deu "
+"països diferents."
+
+#. type: Plain text
+msgid "All this can be challenging sometimes :)"
+msgstr "Tot això de vegades pot suposar un repte"
+
+#. type: Plain text
+msgid ""
+"This year, we redesigned, clarified, and documented our internal organizing "
+"a lot. In particular, it is now clearer who is responsible, and legitimate, "
+"to make which decisions. This will make Tails a more pleasant and efficient "
+"working place, so we can focus more of our energy on improving our tools."
+msgstr ""
+"Aquest any hem redissenyat, aclarit i documentat molt la nostra organització "
+"interna. En particular, ara queda més clar qui és responsable i legítim de "
+"prendre quines decisions. Això farà de Tails un lloc de treball més "
+"agradable i eficient, de manera que podem centrar més la nostra energia a "
+"millorar les nostres eines."
+
+#. type: Title #
+#, no-wrap
+msgid "We never let you down!"
+msgstr "No us defraudarem mai!"
+
+#. type: Plain text
+msgid ""
+"To always keep you safe, a significant part of our work consists in "
+"releasing Tails every 4 weeks, updating to new version of *Tor Browser* and "
+"the *Tor* client, migrating to new technologies in GNOME or Debian, etc."
+msgstr ""
+"Per mantenir-vos sempre segur, una part important del nostre treball "
+"consisteix a llançar Tails cada 4 setmanes, actualitzar a una nova versió "
+"del *Navegador Tor* i el client *Tor*, migrar a noves tecnologies a GNOME o "
+"Debian, etc."
+
+#. type: Plain text
+msgid "We released:"
+msgstr "Hem estrenat:"
+
+#. type: Plain text
+msgid "- 14 releases, never skipping a single update of *Tor Browser*."
+msgstr "- 14 versions, sense saltar-nos cap actualització del *Navegador Tor*."
+
+#. type: Plain text
+msgid ""
+"- Tails 5.0 based on Debian Bullseye, with important technical migrations."
+msgstr ""
+"- Tails 5.0 basat en Debian Bullseye, amb importants migracions tècniques."
+
+#. type: Bullet: '- '
+msgid ""
+"2 emergency releases to fix critical vulnerabilities in the *Tor* client and "
+"the *Linux* kernel."
+msgstr ""
+"2 llançaments d'emergència per solucionar vulnerabilitats crítiques al "
+"client de *Tor* i al nucli de *Linux*."
+
+#. type: Plain text
+msgid ""
+"All this work has been made possible by donations from users like you. If "
+"you like these changes and want more, donate now to fund our work in 2023."
+msgstr ""
+"Tot aquest treball ha estat possible gràcies a les donacions d'usuaris com "
+"tu. Si us agraden aquests canvis i en voleu més, feu una donació ara per "
+"finançar la nostra feina el 2023."
+
+#. type: Plain text
+msgid "[[Donate]]"
+msgstr "[[Feu una donació|donate]]"
+
+#, no-wrap
+#~ msgid "<div class=\"cfa\">\n"
+#~ msgstr "<div class=\"cfa\">\n"
+
+#, no-wrap
+#~ msgid "</div>\n"
+#~ msgstr "</div>\n"

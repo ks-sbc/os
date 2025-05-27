@@ -1,0 +1,10 @@
+[[!meta title="XXX"]]
+
+[[!pagetemplate template="newsletter.tmpl"]]
+
+<a id="view-in-browser" href="https://tails.net/newsletter/XXX/">View in your browser<span class="hidden">: https://tails.net/newsletter/XXX/</span></a>
+
+Dear {FIRSTNAME},
+
+In this newsletter, we share inspiring stories of Tails users around the world,
+privacy tips, and the latest from our team with our supporters.

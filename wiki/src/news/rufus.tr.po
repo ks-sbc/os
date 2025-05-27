@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-02-19 16:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Replacing balenaEtcher with Rufus as installer for Windows\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Wed, 19 Feb 2025 00:00:00 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We replaced *balenaEtcher* with *Rufus* in our [[installation instructions "
+"for Windows|install/windows]] to solve privacy concerns with *balenaEtcher*."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Since [[January 2019|report_2019_01]], we had been recommending "
+"[*balenaEtcher*](https://etcher.balena.io/) to install Tails from Windows "
+"and macOS. We loved the simplicity of *balenaEtcher*, which was really "
+"easier to use and worked on macOS as well."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Shortly after, *balenaEtcher* started displaying ads. Although we didn't "
+"like that, we initially didn't view it as a significant privacy risk and had "
+"no better alternative at the time."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"However, in 2024, the situation changed: *balenaEtcher* started sharing the "
+"file name of the image and the model of the USB stick with the Balena "
+"company and possibly with third parties. While we have not experienced or "
+"heard of any attacks against Tails users stemming from this change, we "
+"believe it introduces potential for abuse. To eliminate that risk "
+"altogether, we started looking again for alternatives."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"After evaluating [[!tails_ticket 20423 desc=\"7 other tools\"]], we finally chose\n"
+"[*Rufus*](https://rufus.ie/). We had [[!tails_ticket 7034 desc=\"tested *Rufus*\n"
+"many years ago\"]], even before recommending *balenaEtcher*, but it was much\n"
+"harder to use and modified the Tails image in ways that were risky.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Congratulations to Akeo Consulting, the company behind *Rufus*, for really "
+"improving the usability and reliability of their tool!"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We have not yet replaced *balenaEtcher* in our installation instructions for "
+"macOS because *Rufus* doesn't work on macOS. Also, as Tails doesn't work on "
+"Apple M1 and M2 processors, people who install Tails from macOS represent "
+"less than 10% of installations nowadays."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Still, we recommend [[2 alternatives for macOS|/install/mac#etcher]]: "
+"installing Tails using `dd` on the command line or using [*Raspberry Pi "
+"Imager*](https://www.raspberrypi.com/software/)."
+msgstr ""

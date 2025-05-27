@@ -1,0 +1,142 @@
+[[!meta title="Using Tails is not a crime!"]]
+
+[[!pagetemplate template="newsletter.tmpl"]]
+
+<style>#unsubscribe { display: none; }</style>
+
+In this newsletter, we share inspiring stories of Tails users around the world,
+privacy tips, and the latest from our team with our supporters.
+
+# Help us shape the future of Tails!
+
+<img src="https://tails.net/newsletter/2023-08/workshop.jpg" alt=""/>
+
+In 2021&ndash;2023, we focused on improving the usability of some core features of
+Tails. We redesigned the [Tor Connection](https://tails.net/news/version_4.20)
+to make it easier to circumvent censorship and the [Persistent
+Storage](https://tails.net/news/version_5.8) to make it easier to store
+encrypted data in Tails.
+
+What shall we work on next?
+
+We have identified the need for better communication tools as a priority
+for our users. We are considering 2 main options:
+
+- Make it possible to use a VPN instead of Tor in some cases
+- Add support for better messaging applications
+
+In the coming months, we will do some research to understand the needs of our
+users and decide which of these features to work on first.
+
+As a start, we wanted your opinion as supporters of Tails. Help us decide by
+answering this 5-minute survey.
+
+<a href="https://survey.tails.boum.org/index.php/184541">Take the survey</a>
+
+# Encryption under attack worldwide
+
+French law enforcement is now allowed to spy on suspects by [remotely activating
+the camera, microphone, and GPS](https://www.lemonde.fr/en/france/article/2023/07/06/france-set-to-allow-police-to-spy-through-phones_6044269_7.html) of their electronic devices. It’s not clear how they plan to execute this, but malware like [[!wikipedia Pegasus_(spyware) desc="Pegasus"]] could do the trick.
+
+The Justice Minister has been adamant that
+“*we're far away from the totalitarianism of 1984*” George Orwell's novel about a society under total surveillance.
+And of course, the
+lawmakers were quick to exempt themselves from the invasive law.
+
+The French authorities aren't alone in wanting backdoors in encrypted communications. On
+the other side of the English Channel, lawmakers with the United Kingdom are
+about to [mandate backdoors in all end-to-end encrypted messaging systems](https://www.eff.org/deeplinks/2023/07/uk-government-very-close-eroding-encryption-worldwide) and erode encryption worldwide in the [Online Safety Bill](https://bills.parliament.uk/bills/3137/publications). This perpetual wiretap
+will, allegedly, make the United Kingdom “[*the safest place in the world to be
+online while defending free
+expression*](https://www.gov.uk/government/publications/online-safety-bill-supporting-documents)”.
+
+In a [document from the European Council](https://www.wired.com/story/europe-break-encryption-leaked-document-csa-law/) leaked to WIRED, a majority of
+EU countries are in favor of some form of scanning of encrypted messages. Spain
+has the most extreme position and proposes to “*legislatively prevent EU-based
+service providers from implementing end-to-end encryption*”.
+
+In the USA, the return of the [EARN IT
+Act](https://www.internetsociety.org/resources/2022/internet-impact-brief-how-the-us-earn-it-act-threatens-security-confidentiality-and-safety-online/)
+also threatens the possibility for companies to provide end-to-end encryption.
+
+# Amidst repression in France, using Tails is not a crime
+
+<img src="https://tails.net/newsletter/2023-08/encryption.png" alt=""/>
+
+Tails, together with another 130 people and
+organizations, signed a [call to defend our right to
+encryption](https://www.laquadrature.net/2023/06/15/tribune-attaches-aux-libertes-fondamentales-dans-lespace-numerique-nous-defendons-le-droit-au-chiffrement-de-nos-communications/),
+written by La Quadrature du Net.
+
+Digital surveillance of dissenting socio-political movements
+has been intensifying in France for years.
+[Environmental activists](https://lessoulevementsdelaterre.org/blog/un-traceur-gps-retrouve-sous-le-vehicule-du-porte-parolede-bassines-non-merci)
+are being surveilled with military-grade equipment and Emmanuel Macron [blames social media for the uprising](https://www.laquadrature.net/2023/07/28/revoltes-et-reseaux-sociaux-le-retour-du-coupable-ideal/) that followed the racist killing of a 17-year-old by the police.
+
+As if that wasn’t enough,
+the mere use of privacy-preserving tools like Tor and [Tails is being treated as
+evidence of criminal behavior](https://www.laquadrature.net/en/2023/06/05/criminalization-of-encryption-the-8-december-case/) to muzzle dissenting political groups. In the
+French senate, the Minister of Interior
+begged for
+the power to hack into the phones of demonstrators who use Signal,
+WhatsApp, or Telegram. In this “8 December” case, the suspects’ use of Tails,
+and apparent distrust of GAFAM were used to support an already nebulous case.
+
+In 2009, in a similar wave of repression, we created Tails precisely to avoid activists getting
+in trouble merely because of how they used computers.
+
+In 2023, not much has changed. It’s saddening and enraging that digital privacy
+and safety are rapidly getting out of reach. Tails’s mission as important now,
+if not more, as it was 15 years ago.
+
+On that note, we’d like to thank our sponsors:
+[Nym](https://nymtech.net/),
+[ThinkPenguin](https://www.thinkpenguin.com/),
+[Look to the Right](https://looktotheright.com/),
+[Exam Success](https://www.examsuccess.com.au/), and
+[freiheitsfoo](https://freiheitsfoo.de/). They have all supported
+our work over the last year, and have renewed their support. If you too would
+like to sponsor Tails, get in touch with us at tails-fundraising@boum.org.
+
+# Welcome to tails.net
+
+Tails has a cool, new domain: <a href="https://tails.net/">`tails.net`</a>.
+
+After 14 years of using a subdomain of `boum.org` , we finally found a new home
+that will be easier for everybody to remember and type. Tails
+will become easier to find by the people who need it the most.
+
+The `tails.boum.org` domain will continue working for some time.
+
+Thank you to
+`boum.org`, for supporting us all these years!
+
+# What we’re reading
+
+* In India, the state of [Manipur has spiraled into intense communal and ethnic
+  conflict](https://www.theguardian.com/world/2023/jul/21/manipur-india-why-is-there-conflict-and-how-is-the-government-responding). A 3-month internet shutdown led to the silencing of the minority Kuki
+  community. Internet access was permitted for people with broadband connections
+  who undertook to only use static IP and not use any VPNs. [Mobile internet
+  remains inaccessible](https://www.thehindu.com/news/national/other-states/manipur-partially-withdraws-ban-on-broadband-mobile-internet-remains-suspended/article67119748.ece) and is the dominant way to access the internet for the
+  Kuki community. The dystopian [undertaking](https://i.redd.it/g329xvb6ueeb1.jpg)
+  makes for a <strike>fun</strike> chilling read.
+
+* In [Surveillance: You can know too much](https://www.theguardian.com/technology/2008/jun/17/surveillance.database),
+  Cory Doctorow decries the intrusive data
+  collection tendencies of law enforcement around the world. A seasoned advocate
+  of individuals’ privacy rights and critic of surveillance capitalism, he argues
+  that law enforcement doesn't know what to do with the data it already has. As
+  countries around the world lust after collecting more and more data, this
+  article is both prescient and timeless.
+
+* The IETF, the international organization responsible for all the standards
+  that make the Internet work, has recently published a new standard for the
+  end-to-end encryption of messages for 2 people or more. [MSL (Messaging Layer
+  Security)](https://blog.phnx.im/rfc-9420-mls/) will make it easier and safer
+  to add end-to-end encryption to more Internet applications.
+
+* The Tor project is calling for more *obfs4* bridges to [help people in
+  Turkmenistan circumvent
+  censorship](https://forum.torproject.org/t/tor-relays-help-turkmens-to-bypass-internet-censorship-run-an-obfs4-bridge/7002).
+  If you have access to an IP address that hasn't run a Tor bridge yet, you can
+  help thousands of people in Turkmenistan connect to the Internet.

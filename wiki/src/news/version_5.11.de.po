@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-08-24 19:55+0000\n"
+"PO-Revision-Date: 2024-11-02 20:10+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 5.11 is out\"]]\n"
+msgstr "[[!meta title=\"Tails 5.11 is out\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Mon, 20 Mar 2023 11:36:36 +0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 20 Mar 2023 11:36:36 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr "<h1 id=\"features\">Neue Funktionen</h1>\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Tails now uses the [`zram` Linux kernel module](https://en.wikipedia.org/"
+"wiki/Zram) to extend the capacity of the computer's memory."
+msgstr ""
+"Tails verwendet nun das [`zram` Linux Kernel Modul](https://en.wikipedia.org/"
+"wiki/Zram), um die Speicherkapazität des Computers zu erweitern."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can run more applications or use your session for longer periods of time.\n"
+"  Tails will handle more load before freezing and become slow more\n"
+"  progressively.\n"
+msgstr ""
+"  Sie können mehr Anwendungen ausführen oder Ihre Sitzung über längere "
+"Zeiträume nutzen.\n"
+"  Tails wird mehr Last bewältigen, bevor es einfriert, und allmählicher "
+"langsamer werden.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"You can record screencasts using the integrated feature of GNOME. We "
+"configured this feature to allow unlimited screencasts. See [[screenshot and "
+"screencast|doc/sensitive_documents/screenshot_and_screencast]]."
+msgstr ""
+"Sie können Screencasts mit der integrierten Funktion von GNOME aufnehmen. "
+"Wir haben diese Funktion so konfiguriert, dass unbegrenzte Screencasts "
+"erlaubt sind. Siehe [[Screenshot und Screencast|doc/sensitive_documents/"
+"screenshot_and_screencast]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Änderungen und Updates</h1>\n"
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [12.0.4](https://blog.torproject.org/new-release-"
+"tor-browser-1204)."
+msgstr ""
+"- Update *Tor Browser* auf [12.0.4](https://blog.torproject.org/new-release-"
+"tor-browser-1204)."
+
+#. type: Plain text
+msgid ""
+"- Update *Thunderbird* to [102.9.0](https://www.thunderbird.net/en-US/"
+"thunderbird/102.9.0/releasenotes/)."
+msgstr ""
+"- Aktualisiert *Thunderbird* auf [102.9.0](https://www.thunderbird.net/en-US/"
+"thunderbird/102.9.0/releasenotes/)."
+
+#. type: Plain text
+msgid "- Redesigned the unlocking section of the Welcome Screen."
+msgstr "- Die Entsperrsektion des Willkommensbildschirms wurde neu gestaltet."
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img doc/first_steps/welcome_screen/unlock_persistent_storage.png link=\"no\" alt=\"\"]]\n"
+msgstr ""
+"  [[!img doc/first_steps/welcome_screen/unlock_persistent_storage.png link="
+"\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
+"\"]]."
+msgstr ""
+"Für weitere Details lesen Sie unser [[!tails_gitweb debian/changelog desc="
+"\"Änderungsprotokoll\"]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr "<h1 id=\"issues\">Bekannte Probleme</h1>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<!--\n"
+msgstr "<!--\n"
+
+#. type: Plain text
+msgid ""
+"Copy the known issues from the previous version if they haven't been solved "
+"or move them to /support/known_issues if more appropriate."
+msgstr ""
+"Kopieren Sie die bekannten Probleme aus der Vorgängerversion, falls sie noch "
+"nicht behoben wurden, oder verschieben Sie sie nach /support/known_issues, "
+"falls dies sinnvoller ist."
+
+#. type: Plain text
+#, no-wrap
+msgid "-->\n"
+msgstr "-->\n"
+
+#. type: Plain text
+msgid "None specific to this release."
+msgstr "Keine spezifischen Angaben zu dieser Version."
+
+#. type: Plain text
+msgid "See the list of [[long-standing issues|support/known_issues]]."
+msgstr "Siehe die Liste der [[Altlasten|support/known_issues]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.11</h1>\n"
+msgstr "<h1 id=\"get\">Tails 5.11 herunterladen</h1>⬤\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Um Ihren Tails-USB-Stick zu aktualisieren und Ihren beständigen "
+"Datenspeicher beizubehalten"
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.11."
+msgstr ""
+"- Automatische Upgrades sind von Tails 5.0 oder höher auf 5.11 verfügbar."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+"  Sie können [[die Größe des Downloads|doc/upgrade#reduce]] von zukünftigen\n"
+"  automatischen Upgrades reduzieren, indem Sie ein manuelles Upgrade auf die "
+"neueste Version durchführen.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Wenn Sie ein automatisches Upgrade nicht durchführen können oder Tails nach "
+"einem automatischen Upgrade nicht startet, versuchen Sie bitte ein [["
+"manuelles Upgrade|doc/upgrade/#manual]]."
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr "Um Tails auf einem neuen USB-Stick zu installieren"
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr "Befolgen Sie unsere Installationsanweisungen:"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Windows|install/windows]]"
+msgstr "[[Installieren von Windows|install/windows]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from macOS|install/mac]]"
+msgstr "[[Installieren von macOS|install/mac]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Linux|install/linux]]"
+msgstr "[[Installieren von Linux|install/linux]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+"[[Installation von Debian oder Ubuntu über die Kommandozeile und GnuPG|"
+"install/expert]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>Der beständige Datenspeicher auf dem USB-Stick "
+"geht verloren,\n"
+"wenn Sie installieren anstatt zu aktualisieren.</p></div>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr "Nur herunterladen"
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.11 directly:"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr "[[Für USB-Sticks (USB-Image)|install/download]]"
+
+#. type: Bullet: '  - '
+msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "[[Für DVDs und virtuelle Maschinen (ISO-Image)|install/download-iso]]"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"next\">What's coming up?</h1>\n"
+msgstr "<h1 id=\"next\">Was kommt als Nächstes?</h1>\n"
+
+#. type: Plain text
+msgid "Tails 5.12 is [[scheduled|contribute/calendar]] for April 18."
+msgstr "Tails 5.12 ist [[geplant|contribute/calendar]] für den 18. April."

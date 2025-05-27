@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-03-12 10:49+0000\n"
+"PO-Revision-Date: 2024-10-17 13:09+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: \n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Content of: <div>
+msgid "[[!meta title=\"Donate to fight surveillance and censorship\"]]"
+msgstr ""
+
+#.  See upstream patch: https://ikiwiki.info/todo/support_Twitter_cards/ 
+#. type: Content of: outside any tag (error?)
+msgid ""
+"[[!meta stylesheet=\"donate\" rel=\"stylesheet\" title=\"\"]] [[!meta "
+"stylesheet=\"donate/testimonials.inline\" rel=\"stylesheet\" title=\"\"]] [[!"
+"meta stylesheet=\"hide-donate-banner\" rel=\"stylesheet\" title=\"\"]]"
+msgstr ""
+
+#. type: Content of: <div><div>
+msgid "[[!img godzilla.png link=\"no\" class=\"svg\" alt=\"\"]]"
+msgstr ""
+
+#. type: Content of: <div><div><div><p>
+msgid "<b>[[Tails has merged with the Tor Project|news/tails_tor]]</b>"
+msgstr ""
+
+#. type: Content of: <div><div><div><p>
+msgid ""
+"From now on, all new donations to the Tor Project will support the whole "
+"suite of tools developed by the Tor Project, including Tails, the Tor "
+"network, and Tor Browser."
+msgstr ""
+
+#. type: Content of: <div><div><div><p>
+msgid ""
+"You may hear from fundraising staff from Tails or the Tor Project as we make "
+"the transition. We are excited about this merger and the opportunity to put "
+"more resources towards the development of Tails!"
+msgstr ""
+
+#. type: Content of: <div><div><div><p>
+msgid "Thank you for supporting us through this process."
+msgstr ""
+
+#. type: Content of: <div><div><h1>
+msgid "Tails is their strongest protection"
+msgstr ""
+
+#. type: Content of: <div><div><p>
+msgid ""
+"At Tails, we build a liberating operating system that puts people in control "
+"of their digital lives."
+msgstr ""
+
+#. type: Content of: <div><div><p>
+msgid ""
+"In 2023, Tails touched the lives of approximately 25&#8239;000 individuals "
+"daily, and will surpass a staggering 10 million uses. Over the years, Tails "
+"has become an invaluable ally for those on the front lines of truth-seeking "
+"and progressive political advocacy:"
+msgstr ""
+
+#. type: Content of: <div><div><ul><li><p>
+msgid ""
+"<b>Investigative journalists</b> have used Tails to securely unearth "
+"corruption and wrongdoing, without fear of reprisal. For example, "
+"journalists from PODER and Serendipia used Tails to investigate the "
+"systematic espionage of feminists and LGBTQIA+ groups by the Mexican army."
+msgstr ""
+
+#. type: Content of: <div><div><ul><li><p>
+msgid ""
+"<b>Activists</b> have used Tails to organize and communicate with each "
+"other, even in repressive regimes. For example, reproductive rights "
+"activists in Brazil have used Tails to protect their work and personal data "
+"from intrusive law enforcement and boyfriends alike."
+msgstr ""
+
+#. type: Content of: <div><div><ul><li><p>
+msgid ""
+"<b>Whistleblowers</b> have used Tails to expose wrongdoing without "
+"compromising their identities or endangering their sources. For example, "
+"Edward Snowden and his collaborators used Tails to expose the massive global "
+"surveillance programs orchestrated by the NSA and the Five Eyes intelligence "
+"alliance."
+msgstr ""
+
+#. type: Content of: <div><div><p>
+msgid ""
+"Tails is nonprofit, and runs on a relatively small budget. We have punched "
+"above our weight thanks to your support, and we continue to need your "
+"support every year."
+msgstr ""
+
+#. type: Content of: <div><div><p>
+msgid ""
+"By donating to Tails, you can help us to continue developing and improving "
+"Tails, and to make it more accessible to people who need it most."
+msgstr ""
+
+#. type: Content of: <div><div><div><div><div>
+msgid ""
+"<a href=\"https://donate.torproject.org/\" target=\"_blank\">Donate by "
+"credit card or PayPal</a>"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid ""
+"All donations to the Tor Project will support the whole suite of tools "
+"developed by the Tor Project, including Tails, the Tor network, and Tor "
+"Browser."
+msgstr ""
+
+#. type: Content of: <div><div><div><h3>
+msgid "Become a sponsor"
+msgstr ""
+
+#. type: Content of: <div><div><div><p>
+msgid ""
+"To be featured as a <a href=\"https://www.torproject.org/about/supporters/\" "
+"target=\"_blank\">Tor supporter</a>, please contact <a href=\"mailto:"
+"giving@torproject.org\">giving@torproject.org</a>."
+msgstr ""
+
+#. type: Content of: <div><div><div><h2>
+msgid "Other ways to donate"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><h3>
+msgid "Bitcoin"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><div><p>
+msgid ""
+"<a href=\"bitcoin:bc1qtt04zfgjxg7lpqhk9vk8hnmnwf88ucwww5arsd\">[[!img "
+"bitcoin-bc1qtt04zfgjxg7lpqhk9vk8hnmnwf88ucwww5arsd.png link=\"no\" "
+"alt=\"bitcoin:bc1qtt04zfgjxg7lpqhk9vk8hnmnwf88ucwww5arsd\"]]</a>"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><div><p>
+msgid "<strong>bc1qtt04zfgjxg7lpqhk9vk8hnmnwf88ucwww5arsd</strong>"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><h3>
+msgid "Monero"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid ""
+"<strong>4AcQxuMBUfJM7uAWpZP1Vs1BzQLC1QR6zZL3sMYdBuayWmpZHmaVYo7EQ3cSneyHYf2LRKJnRtrGz5ogZzjmmGygAyusEcJ</"
+"strong>"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><h3>
+msgid "Other cryptocurrencies"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid ""
+"You can <a href=\"https://donate.torproject.org/cryptocurrency/\" "
+"target=\"_blank\">donate other cryptocurrencies</a> from the Tor website."
+msgstr ""
+
+#. type: Content of: <div><div><div><div><h3>
+msgid "Cash, US checks, and money orders"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "You can send us cash, US checks, or money orders to:"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "Tor Project, Inc."
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "PO Box 5"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "Winchester NH 03470"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "USA"
+msgstr ""
+
+#. type: Content of: <div><div><div><div><p>
+msgid "Please make checks and money orders payable to The Tor Project, Inc."
+msgstr ""
+
+#. type: Content of: <div><div><h3>
+msgid "Bank transfer"
+msgstr ""
+
+#. type: Content of: <div><div><ul><li><p>
+msgid ""
+"<b>USA</b>: We can only accept donations via bank transfer for gifts more "
+"than $1&#8239;000 USD. Before making a bank transfer of more than "
+"$1&#8239;000, please contact <a href=\"mailto:giving@torproject."
+"org\">giving@torproject.org</a> with your name and phone number. The Tor "
+"Project will reach out to you to coordinate your donation."
+msgstr ""
+
+#. type: Content of: <div><div><ul><li><p>
+msgid ""
+"<b>European Union</b>: You can donate to the Tor Project in euro via <a "
+"href=\"https://opencollective.com/thetorproject-europe\" "
+"target=\"_blank\">Open Collective</a>, who will issue a receipt for tax "
+"purposes for donations of 10&#8239;000&nbsp;€ or more."
+msgstr ""
+
+#. type: Content of: <div><div><h3>
+msgid "Corporate matching donation programs"
+msgstr ""
+
+#. type: Content of: <div><div><p>
+msgid ""
+"Many companies — such as Google, Microsoft, eBay, PayPal, Apple, Verizon, "
+"Red Hat, many universities, and others — will match donations made by their "
+"employees. The fastest way to find out if your company matches donations is "
+"by checking with your HR department."
+msgstr ""
+
+#. type: Content of: <div><div><p>
+msgid "In these donation matching programs, search for <i>Tor Project</i>."
+msgstr ""
+
+#. type: Content of: <div><div><h3>
+msgid "Contact"
+msgstr ""
+
+#. type: Content of: <div><div><p>
+msgid ""
+"If you have any question or problem regarding your donation, our fundraising "
+"team is here to help you:"
+msgstr ""
+
+#. type: Content of: <div><div><p>
+msgid ""
+"<a href=\"mailto:fundraising@tails.net\">fundraising@tails.net</a> "
+"([[OpenPGP key|fundraising-tails-net.key]])"
+msgstr ""
+
+#. type: Content of: <div><h2>
+msgid "Recommended by"
+msgstr ""
+
+#. type: Content of: <div>
+msgid ""
+"[[!inline pages=\"donate/testimonials.inline\" raw=\"yes\" sort=\"age\"]]"
+msgstr ""

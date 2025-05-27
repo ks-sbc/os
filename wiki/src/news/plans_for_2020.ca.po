@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-05-14 22:38+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Mon, 9 Dec 2019 19:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 9 Dec 2019 19:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Our plans for 2020\"]]\n"
+msgstr "[[!meta title=\"Els nostres plans per al 2020\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"On October 7, we launched our donation campaign by explaining [[why "
+"supporting Tails is more important than ever|news/2019-fundraiser]]. On "
+"October 31, we summarized [[what we did in 2019 to make Tails easier to "
+"adopt by new users|news/achievements_in_2019]]. Today we pass on to you our "
+"plans for 2020."
+msgstr ""
+"El 7 d'octubre vam llançar la nostra campanya de donacions explicant [[per "
+"què donar suport a Tails és més important que mai|news/2019-fundraiser]]. El "
+"31 d'octubre, vam resumir [[què vam fer l'any 2019 per facilitar l'adopció "
+"de Tails pels nous usuaris|news/achievements_in_2019]]. Avui us passem els "
+"nostres plans per al 2020."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"But first, we are pleased that the donation campaign has been pretty successful so far. We received\n"
+"around 50&#8239;000 € already, which is 69% more than last year.\n"
+"Still, these good results are due to some large donations and\n"
+"fewer people have been donating so far, 16% less than in 2018.\n"
+"We hope that after reading this post many of you will consider <a\n"
+"href=\"https://tails.net/donate/?r=plans2020\">donating to Tails</a>.\n"
+msgstr ""
+"Però primer, estem contents que la campanya de donacions hagi tingut bastant èxit fins ara. Hem rebut\n"
+"uns 50&#8239;000€ ja, que és un 69% més que l'any passat.\n"
+"Tot i així, aquests bons resultats es deuen a algunes grans donacions i,\n"
+"fins ara, menys persones han donat, un 16% menys que el 2018.\n"
+"Esperem que després de llegir aquesta notícia molts de vosaltres considereu <a\n"
+"href=\"https://tails.net/donate/index.ca.html?r=plans2020\">donar a Tails</a>.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=1]]\n"
+msgstr "[[!toc levels=1]]\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Less manual upgrades (January 2020)"
+msgstr "Menys actualitzacions manuals (gener de 2020)"
+
+#. type: Plain text
+msgid ""
+"Tails ships an automatic upgrade mechanism since 2013. But this mechanism "
+"only works for a limited amount of upgrades, after which a [[\"manual\" "
+"upgrade|doc/upgrade#manual]] is needed."
+msgstr ""
+"Tails ofereix un mecanisme d'actualització automàtica des del 2013. Però "
+"aquest mecanisme només funciona per a una quantitat limitada "
+"d'actualitzacions, després de les quals cal una [[actualització \"manual\"|"
+"doc/upgrade#manual]]."
+
+#. type: Plain text
+msgid ""
+"These manual upgrades are a major pain point and we know that users often "
+"think their Tails is \"broken\" when automatic upgrades are not possible "
+"anymore."
+msgstr ""
+"Aquestes actualitzacions manuals són un problema important i sabem que els "
+"usuaris sovint pensen que el seu Tails està \"trencat\" quan les "
+"actualitzacions automàtiques ja no són possibles."
+
+#. type: Plain text
+msgid ""
+"In 2020, we will remove the need for most of these manual upgrades. And as "
+"automatic upgrades are also often too painful we will research ways to make "
+"them lighter and more robust."
+msgstr ""
+"El 2020, eliminarem la necessitat de la majoria d'aquestes actualitzacions "
+"manuals. I com que les actualitzacions automàtiques també solen ser massa "
+"doloroses, investigarem maneres de fer-les més lleugeres i robustes."
+
+#. type: Title =
+#, no-wrap
+msgid "New homepage and outreach material (April 2020)"
+msgstr "Nova pàgina d'inici i material de divulgació (abril de 2020)"
+
+#. type: Plain text
+msgid ""
+"Leveraging all the work that we have done in the past years to make Tails "
+"easier to install and use, in 2020, we will explain better what Tails is and "
+"why people should use it."
+msgstr ""
+"Aprofitant tot el treball que hem fet els darrers anys per fer que Tails "
+"sigui més fàcil d'instal·lar i utilitzar, el 2020 explicarem millor què és "
+"Tails i per què la gent l'ha d'utilitzar."
+
+#. type: Plain text
+msgid ""
+"The text on our Home and About pages have not changed significantly since "
+"2011. It is too verbose, too technical for most people, and not sufficiently "
+"engaging visually. Since then Tails has come a long way: the number of "
+"people using Tails has been multiplied by 16. Tails is no longer an "
+"experimental project for privacy experts but a well-established reference."
+msgstr ""
+"El text de la nostra pàgina d'inici i Informació no ha canviat "
+"significativament des del 2011. És massa detallat, massa tècnic per a la "
+"majoria de la gent i no és prou atractiu visualment. Des d'aleshores Tails "
+"ha recorregut un llarg camí: el nombre de persones que utilitzen Tails s'ha "
+"multiplicat per 16. Tails ja no és un projecte experimental per a experts en "
+"privadesa sinó un referent consolidat."
+
+#. type: Plain text
+msgid ""
+"For the less technical part of our target audience, Tails is a technological "
+"object like nothing they have used before. Some of the core concepts of "
+"Tails are particularly innovative and hard to understand before using it:"
+msgstr ""
+"Per a la part menys tècnica del nostre públic objectiu, Tails és un objecte "
+"tecnològic com res que hagin utilitzat abans. Alguns dels conceptes bàsics "
+"de Tails són particularment innovadors i difícils d'entendre abans "
+"d'utilitzar-lo:"
+
+#. type: Plain text
+msgid "- Tails is a full operating system that is started from a USB stick."
+msgstr ""
+"- Tails és un sistema operatiu complet que s'inicia des d'un llapis USB."
+
+#. type: Plain text
+msgid "- Tails forgets everything by default."
+msgstr "- Tails ho oblida tot per defecte."
+
+#. type: Plain text
+msgid ""
+"To make sure that the new explanation of Tails makes sense to less tech-"
+"savvy users, we will use [user-centered](https://simplysecure.org/blog/"
+"formative-testing) [design techniques](https://simplysecure.org/blog/"
+"branding-tails) and work with [[professional graphic designers|jobs/"
+"illustrations_how_tails_work]]."
+msgstr ""
+"Per assegurar-nos que la nova explicació de Tails tingui sentit per als "
+"usuaris menys experts en tecnologia, utilitzarem [tècniques de disseny]"
+"(https://simplysecure.org/blog/branding-tails) [centrades en l'usuari]"
+"(https://simplysecure.org/blog/formative-testing) i treballar amb "
+"[[dissenyadors gràfics professionals|jobs/illustrations_how_tails_work]]."
+
+#. type: Plain text
+msgid ""
+"To reach critical communities of users and digital security trainers "
+"worldwide, we will also print outreach materials based on this new "
+"explanation, make it available in 4 languages, and send it to partner "
+"organizations worldwide."
+msgstr ""
+"Per arribar a comunitats crítiques d'usuaris i formadors de seguretat "
+"digital a tot el món, també imprimirem materials de divulgació basats en "
+"aquesta nova explicació, els posarem a disposició en quatre idiomes i els "
+"enviarem a organitzacions associades d'arreu del món."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"If your organization works with journalists, activists, or\n"
+"human-defenders and is interested in receiving leaflets about\n"
+"Tails in 2020, please <a href=\"mailto:sajolida@pimienta.org\">get in\n"
+"touch with us</a>.\n"
+msgstr ""
+"Si la vostra organització treballa amb periodistes, activistes o\n"
+"defensors dels drets humans i està interessada a rebre fulletons sobre\n"
+"Tails el 2020, <a href=\"mailto:sajolida@pimienta.org\">contacteu\n"
+"amb nosaltres</a>.\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Secure Boot for better hardware support (July 2020)"
+msgstr "Arrencada segura per a un millor suport de maquinari (juliol de 2020)"
+
+#. type: Plain text
+msgid ""
+"In 2019, we worked on making it much easier for users to start Tails on Mac "
+"and as a consequence, their numbers more than doubled."
+msgstr ""
+"El 2019, vam treballar per facilitar als usuaris iniciar Tails a Mac i, com "
+"a conseqüència, el seu nombre es va duplicar."
+
+#. type: Plain text
+msgid ""
+"For years, Secure Boot has been among the main sources of issues reported to "
+"our help desk and prevented less tech-savvy users to adopt Tails."
+msgstr ""
+"Durant anys, Secure Boot ha estat una de les principals fonts de problemes "
+"informats al nostre servei d'assistència i ha impedit que els usuaris menys "
+"experts en tecnologia adoptessin Tails."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Currently, many have to learn how to disable Secure Boot on their\n"
+"computer. This process is slightly different on every computer, is very\n"
+"complicated to learn on your own, and can lead to scary problems on\n"
+"Windows computers, for example [[!tails_ticket 15016#note-19\n"
+"desc=\"*BitLocker* asking you for a recovery key\"]].\n"
+msgstr ""
+"Actualment, molts han d'aprendre a desactivar l'arrencada segura al seu\n"
+"ordinador. Aquest procés és lleugerament diferent a cada ordinador, és molt\n"
+"complicat aprendre pel vostre compte i pot provocar problemes aterridors\n"
+"per a ordinadors Windows, per exemple [[!tails_ticket 15016#note-19\n"
+"desc=\"*BitLocker* us demana una clau de recuperació\"]].\n"
+
+#. type: Plain text
+msgid ""
+"Next year, we will add support for Secure Boot to Tails, making it easier to "
+"start on PC, for which 90% of people download Tails."
+msgstr ""
+"L'any que ve, afegirem suport per a Secure Boot a Tails, cosa que facilitarà "
+"l'inici a l'ordinador, per al qual el 90% de la gent baixa Tails."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<strong>In 2020, we will keep the focus on improving Tails usability\n"
+"and outreaching to the people the most in\n"
+"need of digital security. If you also think that this is important,\n"
+"please take a moment to donate to Tails.</strong>\n"
+msgstr ""
+"<strong>El 2020, ens centrarem en la millora de la usabilitat de Tails\n"
+"i la difusió a la gent amb més\n"
+"necessitat de seguretat digital. Si també creieu que això és important,\n"
+"si us plau, preneu un moment per fer una donació a Tails.</strong>\n"
+
+#. type: Plain text
+msgid "[[Donate]]"
+msgstr "[[Feu una donació|donate]]"
+
+#, no-wrap
+#~ msgid "<div class=\"button\"><a href=\"https://tails.net/donate/?r=plans2020\">Donate</a></div>\n"
+#~ msgstr "<div class=\"button\"><a href=\"https://tails.net/donate/index.ca.html?r=plans2020\">Feu una donació</a></div>\n"

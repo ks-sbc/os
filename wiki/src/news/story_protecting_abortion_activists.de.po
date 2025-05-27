@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-10-08 13:50+0000\n"
+"PO-Revision-Date: 2024-11-27 10:19+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Protecting abortion activists in Brazil\"]]\n"
+msgstr "[[!meta title=\"Schutz von Abtreibungsaktivisten in Brasilien\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Thu, 15 Dec 2022 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Thu, 15 Dec 2022 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img contribute/how/user_experience/interviews/gabriela.jpg link=\"no\" alt=\"Afro-Brazilian handmade jewelry that hides a Tails USB stick\"]]\n"
+msgstr "[[!img contribute/how/user_experience/interviews/gabriela.jpg link=\"no\" alt=\"Afro-brasilianischer handgefertigter Schmuck, der einen Tails-USB-Stick versteckt\"]]\n"
+
+#. type: Plain text
+msgid ""
+"In August, we traveled to Brazil to learn how to improve Tails for the many "
+"people fighting for social change there. We trained 34 people on Tails: "
+"activists, journalists, feminists, and human rights defenders."
+msgstr ""
+"Im August reisten wir nach Brasilien, um zu erfahren, wie wir Tails für die "
+"vielen Menschen, die dort für sozialen Wandel kämpfen, verbessern können. "
+"Wir schulten 34 Personen in der Nutzung von Tails: Aktivisten, Journalisten, "
+"Feministinnen und Menschenrechtsverteidiger."
+
+#. type: Plain text
+msgid ""
+"We also met Gabriela, a feminist hacker who has been training low-income "
+"women from the Bahia region on using Tails."
+msgstr ""
+"Wir trafen auch Gabriela, eine feministische Hackerin, die Frauen mit "
+"geringem Einkommen aus der Region Bahia im Umgang mit Tails schult."
+
+#. type: Plain text
+msgid ""
+"Gabriela introduced these women to Tails by mixing up local culture and "
+"privacy technology and presenting Tails as a *patuá*, a type of Brazilian "
+"protection amulet that hides the USB stick in jewelry."
+msgstr ""
+"Gabriela stellte diese Frauen Tails vor, indem sie lokale Kultur und "
+"Privatsphäre-Technologie mischte und Tails als *patuá* präsentierte, eine "
+"Art brasilianischer Schutzamulett, das den USB-Stick in Schmuck versteckt."
+
+#. type: Plain text
+msgid ""
+"These women didn't have computers of their own and used the computers at "
+"work or in university or the computers of their husbands and boyfriends. "
+"Tails is useful for them to work on reproductive rights but also to protect "
+"their personal data from intrusive boyfriends."
+msgstr ""
+"Diese Frauen hatten keinen eigenen Computer und nutzten die Computer bei der "
+"Arbeit oder an der Universität oder die Computer ihrer Ehemänner und "
+"Freunde. Tails ist für sie nützlich, um an reproduktiven Rechten zu "
+"arbeiten, aber auch, um ihre persönlichen Daten vor aufdringlichen Freunden "
+"zu schützen."
+
+#. type: Plain text
+msgid ""
+"Women working on reproductive rights understand very easily the importance "
+"of privacy tools like Tails because a single mistake can compromise an "
+"entire organization and get them in trouble with the police."
+msgstr ""
+"Frauen, die im Bereich der reproduktiven Rechte arbeiten, verstehen sehr gut "
+"die Bedeutung von Datenschutztools wie Tails, da ein einziger Fehler eine "
+"ganze Organisation gefährden und sie in Schwierigkeiten mit der Polizei "
+"bringen kann."
+
+#. type: Plain text
+msgid ""
+"Some of them had their home raided by the police after being denounced for "
+"their work on abortion. All the information about their patients was not in "
+"their phones, but in their Tails amulet, and the police couldn't find any "
+"evidence about their work."
+msgstr ""
+"Einige von ihnen wurden von der Polizei zu Hause durchsucht, nachdem sie "
+"wegen ihrer Arbeit an Abtreibungen denunziert worden waren. Alle "
+"Informationen über ihre Patienten waren nicht auf ihren Handys, sondern in "
+"ihrem Tails-Amulett, und die Polizei konnte keine Beweise für ihre Arbeit "
+"finden."
+
+#. type: Plain text
+msgid ""
+"[[Read our full interview with Gabriela.|contribute/how/user_experience/"
+"interviews/gabriela]]"
+msgstr ""
+"[[Lesen Sie unser vollständiges Interview mit Gabriela.|contribute/how/"
+"user_experience/interviews/gabriela]]"
+
+#. type: Plain text
+msgid ""
+"As the access to safe abortion continues to be problematic in too many "
+"countries around the world, we are very interested in getting in touch with "
+"more reproductive rights activists who are already using Tails or want to "
+"learn how to use it."
+msgstr ""
+"Da der Zugang zu sicherer Abtreibung in zu vielen Ländern weltweit weiterhin "
+"problematisch ist, sind wir sehr daran interessiert, Kontakt zu weiteren "
+"Aktivisten für reproduktive Rechte aufzunehmen, die bereits Tails verwenden "
+"oder lernen möchten, wie man es benutzt."
+
+#. type: Plain text
+msgid "[[Get in touch with us.|about/contact]]"
+msgstr "[[Nehmen Sie Kontakt mit uns auf.|about/contact]]"
+
+#. type: Plain text
+msgid "[[**Donate now to keep more women safe.**|donate]]"
+msgstr "[[**Spenden Sie jetzt, um mehr Frauen zu schützen.**|donate]]"

@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-06-05 06:07+0000\n"
+"PO-Revision-Date: 2023-11-24 10:43+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Planned outage on Tuesday June 8th\"]]\n"
+msgstr "[[!meta title=\"Geplante Ausfallzeit am Dienstag, den 8. Juni\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 04 Jun 2021 21:30:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 04 Jun 2021 21:30:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Our services will be down for maintenance on Tuesday June 8th between 12:00 "
+"and 15:00 UTC. We'll be changing the IP address of our main server. We "
+"expect the actual switch to be quick. However, it might take some time for "
+"everything to be back up and running while the changes to our DNS records "
+"propagate."
+msgstr ""
+"Unsere Dienste werden am Dienstag, den 8. Juni zwischen 12:00 und 15:00 Uhr "
+"UTC wegen Wartungsarbeiten nicht verfügbar sein. Wir werden die IP-Adresse "
+"unseres Hauptservers ändern. Wir gehen davon aus, dass die eigentliche "
+"Umstellung schnell vonstatten geht. Es kann jedoch einige Zeit dauern, bis "
+"alles wieder funktioniert, während sich die Änderungen in unseren DNS-"
+"Einträgen ausbreiten."
+
+#. type: Plain text
+msgid ""
+"During that period, our website will be offline and Tails upgrades will not "
+"work."
+msgstr ""
+"Während dieser Zeit wird unsere Website offline sein und Tails-Upgrades "
+"werden nicht funktionieren."
+
+#. type: Plain text
+msgid "Sorry for the inconvenience!"
+msgstr "Entschuldigen Sie die Unannehmlichkeiten!"

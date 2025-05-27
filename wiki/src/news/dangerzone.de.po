@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-02-19 18:39+0000\n"
+"PO-Revision-Date: 2024-10-09 13:08+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Converting dangerous documents to safe PDFs using Dangerzone\"]]\n"
+msgstr "[[!meta title=\"Gefährliche Dokumente mit Dangerzone in sichere PDFs umwandeln\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 06 Aug 2024 18:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 06 Aug 2024 18:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"Today, we added documentation on our website to [[install *Dangerzone* in "
+"Tails|doc/persistent_storage/additional_software/dangerzone]]."
+msgstr ""
+"Heute haben wir auf unserer Website eine Dokumentation hinzugefügt, um "
+"[[*Dangerzone* in Tails zu installieren|doc/persistent_storage/"
+"additional_software/dangerzone]]."
+
+#. type: Plain text
+msgid ""
+"When you receive untrusted documents, for example, email attachments, "
+"*[Dangerzone](https://dangerzone.rocks/)* allows you to convert them into "
+"safe PDFs before opening."
+msgstr ""
+"Wenn Sie nicht vertrauenswürdige Dokumente erhalten, zum Beispiel E-Mail-"
+"Anhänge, ermöglicht Ihnen *[Dangerzone](https://dangerzone.rocks/)*, diese "
+"in sichere PDFs umzuwandeln, bevor Sie sie öffnen."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Dangerzone* is particularly useful for journalists who might receive dangerous\n"
+"documents from anonymous sources or download them from the Internet.\n"
+msgstr ""
+"*Dangerzone* ist besonders nützlich für Journalisten, die möglicherweise gefährliche \n"
+"Dokumente von anonymen Quellen erhalten oder aus dem Internet herunterladen.\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid ""
+#| "*Dangerzone* is an essential tool and is built by great people. It was first\n"
+#| "written by [Micah Lee](https://micahflee.com/about/) to protect investigative\n"
+#| "journalists while working at [The Intercept](https://theintercept.com/).\n"
+#| "*Dangerzone* is now maintained by [Freedom of the Press\n"
+#| "Foundation](https://freedom.press), a non-profit that protects public-interest\n"
+#| "journalism. Edward Snowden and Laura Poitras are on its Board of Directors.\n"
+msgid ""
+"*Dangerzone* is an essential tool and is built by great people. It was first\n"
+"written by [Micah Lee](https://micahflee.com/about/) to protect investigative\n"
+"journalists while working at [The Intercept](https://theintercept.com/).\n"
+"*Dangerzone* is now maintained by [Freedom of the Press\n"
+"Foundation](https://freedom.press), a nonprofit that protects public-interest\n"
+"journalism. Edward Snowden and Laura Poitras are on its Board of Directors.\n"
+msgstr ""
+"*Dangerzone* ist ein wichtiges Werkzeug und wird von großartigen Menschen entwickelt. \n"
+"Es wurde erstmals von [Micah Lee](https://micahflee.com/about/) geschrieben, um investigativen Journalisten \n"
+"bei ihrer Arbeit bei [The Intercept](https://theintercept.com/) zu schützen. \n"
+"*Dangerzone* wird jetzt von der [Freedom of the Press Foundation](https://freedom.press) verwaltet, \n"
+"einer gemeinnützigen Organisation, die den Journalismus im öffentlichen Interesse schützt. \n"
+"Edward Snowden und Laura Poitras sind Mitglieder des Vorstands.\n"
+
+#. type: Plain text
+msgid ""
+"It's totally the kind of software that aligns with [[our mission|contribute/"
+"mission]]. The only reason why we are not including *Dangerzone* in Tails by "
+"default is because *Dangerzone* is too big and not available in Debian."
+msgstr ""
+"Es handelt sich definitiv um eine Art von Software, die mit [[unserer "
+"Mission|contribute/mission]] übereinstimmt. Der einzige Grund, warum wir "
+"*Dangerzone* nicht standardmäßig in Tails einfügen, ist, dass *Dangerzone* "
+"zu groß ist und nicht in Debian verfügbar ist."
+
+#. type: Plain text
+msgid ""
+"So, we collaborated with Alex Pyrgiotis from Freedom of the Press Foundation "
+"to make it as easy as possible to install *Dangerzone* in Tails as "
+"[[Additional Software|doc/persistent_storage/additional_software]]. The "
+"setup requires using the command line, but, after that, *Dangerzone* will "
+"install automatically every time you start Tails."
+msgstr ""
+"Also haben wir mit Alex Pyrgiotis von der Freedom of the Press Foundation "
+"zusammengearbeitet, um die Installation von *Dangerzone* in Tails so einfach "
+"wie möglich zu gestalten, als [[Zusätzliche Software|doc/persistent_storage/"
+"additional_software]]. Die Einrichtung erfordert die Verwendung der "
+"Befehlszeile, aber danach wird *Dangerzone* jedes Mal automatisch "
+"installiert, wenn Sie Tails starten."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Dangerzone* will allow more investigative journalists to use the safe\n"
+"environment that Tails provides when manipulating sensitive documents.\n"
+msgstr ""
+"*Dangerzone* wird es mehr investigativen Journalisten ermöglichen, die sichere Umgebung, \n"
+"die Tails beim Umgang mit sensiblen Dokumenten bietet, zu nutzen.\n"
+
+#. type: Plain text
+msgid ""
+"It's also the first time that we recommend installing a 3rd party package "
+"that is not available in Debian. We know that a lot of software that would "
+"be useful for our users is not readily available in Debian. If this first "
+"experiment is successful, we might document more such packages."
+msgstr ""
+"Es ist auch das erste Mal, dass wir die Installation eines Drittanbieter-"
+"Pakets empfehlen, das in Debian nicht verfügbar ist. Wir wissen, dass viele "
+"Software, die für unsere Benutzer nützlich wäre, nicht leicht in Debian "
+"verfügbar ist. Wenn dieses erste Experiment erfolgreich ist, könnten wir "
+"weitere solcher Pakete dokumentieren."

@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-04-05 02:50+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 10 Mar 2014 01:23:45 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 10 Mar 2014 01:23:45 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails launches a logo contest\"]]\n"
+msgstr "[[!meta title=\"Tails llança un concurs de logotips\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"On the 29th of April, we will release Tails 1.0. This will be an important "
+"symbolic milestone about 5 years after our [[first public releases|news/"
+"version_0.2]]."
+msgstr ""
+"El 29 d'abril llançarem Tails 1.0. Aquesta serà una fita simbòlica important "
+"uns 5 anys després de les nostres [[primeres publicacions públiques|news/"
+"version_0.2]]."
+
+#. type: Plain text
+msgid ""
+"We want to have a great logo by then to give Tails the visual impact it "
+"deserves. The image and banner we have been using so far don't really do the "
+"job anymore..."
+msgstr ""
+"Volem tenir un gran logotip per llavors per donar a Tails l'impacte visual "
+"que es mereix. La imatge i el baner que hem estat utilitzant fins ara ja no "
+"fan la feina…"
+
+#. type: Plain text
+#, no-wrap
+msgid "<img src=\"https://gitlab.tails.boum.org/tails/blueprints/-/wikis/logo/tails-logo-round.png\" width=\"250\"/>\n"
+msgstr ""
+"<img src=\"https://gitlab.tails.boum.org/tails/blueprints/-/wikis/logo/tails-"
+"logo-round.png\" width=\"250\"/>\n"
+
+#. type: Plain text
+msgid ""
+"So we're starting a contest for designers to create a logo for Tails.  We "
+"have already brainstormed on the idea, and received some great proposals [[!"
+"tails_ticket 5797 desc=\"in the past\"]]. Still, we had a hard time making "
+"our collective mind on a single proposal, and wanted to give more people a "
+"chance."
+msgstr ""
+"Així que estem començant un concurs per a dissenyadors per crear un logotip "
+"per a Tails. Ja vam fer una pluja d'idees sobre el que volíem i vam rebre "
+"algunes [[!tails_ticket 5797 desc=\"propostes fantàstiques\"]]. Tot i així, "
+"ens ha costat decidir una única proposta i volíem donar una oportunitat a "
+"més gent."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=1]]\n"
+msgstr "[[!toc levels=1]]\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Requirements"
+msgstr "Requeriments"
+
+#. type: Bullet: '  - '
+msgid "Free licence, compatible with GPL3+."
+msgstr "Llicència lliure, compatible amb la llicència GPL3+."
+
+#. type: Bullet: '  - '
+msgid "Source in SVG format."
+msgstr "Font en format SVG."
+
+#. type: Bullet: '  - '
+msgid ""
+"An image with an approximate 1:1 ratio, like the [onion logo](https://media."
+"torproject.org/image/www-images/onion.jpg)."
+msgstr ""
+"Una imatge amb una proporció aproximada d'1:1, com el [logotip d'onion]"
+"(https://media.torproject.org/image/www-images/onion.jpg)."
+
+#. type: Bullet: '  - '
+msgid "Plus the same image along with the \"Tails\" word either:"
+msgstr "A més de la mateixa imatge juntament amb la paraula «Tails»:"
+
+#. type: Bullet: '    - '
+msgid ""
+"merged with the image as in the [Tor logo](https://media.torproject.org/"
+"image/www-images/tor-logo.jpg);"
+msgstr ""
+"fusionada amb la imatge com al [logotip Tor](https://media.torproject.org/"
+"image/www-images/tor-logo.jpg);"
+
+#. type: Bullet: '    - '
+msgid "on the side of the image."
+msgstr "al costat de la imatge."
+
+#. type: Bullet: '  - '
+msgid ""
+"The \"Tails\" name must be spelled with an uppercase \"T\" only, and "
+"lowercase \"ails\"."
+msgstr ""
+"El nom «Tails» només s'ha d'escriure amb una «T» majúscula i «ails» en "
+"minúscula."
+
+#. type: Bullet: '  - '
+msgid ""
+"The image should convey the ideas behind Tails: secrecy, privacy, anonymity, "
+"mystery, simplicity (Tails is ready-to-use)."
+msgstr ""
+"La imatge hauria de transmetre les idees darrere de Tails: secret, "
+"privadesa, anonimat, misteri, senzillesa (Tails està llest per utilitzar)."
+
+#. type: Bullet: '  - '
+msgid "The logo has to be a bit serious, but not sad."
+msgstr "El logotip ha de ser una mica seriós, però no trist."
+
+#. type: Bullet: '  - '
+msgid ""
+"Until now we reuse the colors from Tor (green and purple), but this can be "
+"changed."
+msgstr ""
+"Fins ara reutilitzem els colors de Tor (verd i morat), però això es pot "
+"canviar."
+
+#. type: Bullet: '  - '
+msgid ""
+"We cannot reuse directly the Tor or Debian logo, but evoking it is ok (use "
+"Tor colors, or evoking the Debian swirl)."
+msgstr ""
+"No podem reutilitzar directament el logotip de Tor o Debian, però evocar-lo "
+"està bé (utilitzar colors Tor o evocar el remolí de Debian)."
+
+#. type: Bullet: '  - '
+msgid ""
+"The image should be suited to print on nice stickers that people want to "
+"have on their computers, and on t-shirts that people are happy to wear."
+msgstr ""
+"La imatge s'ha d'adaptar per imprimir en bons adhesius que la gent vulgui "
+"tenir als seus ordinadors i en samarretes que la gent estigui encantada de "
+"portar."
+
+#. type: Bullet: '  - '
+msgid ""
+"Make sure that the fonts that you use are compatible with GPL3+. To be on "
+"the safe side, use fonts available in Debian main, otherwise we will ask you "
+"to prove their compatibility with GPL3+."
+msgstr ""
+"Assegureu-vos que els tipus de lletra que utilitzeu siguin compatibles amb "
+"la llicència GPL3+. Per estar segur, utilitzeu fonts disponibles a Debian "
+"main, en cas contrari us demanarem que demostreu la seva compatibilitat amb "
+"la llicència GPL3+."
+
+#. type: Title =
+#, no-wrap
+msgid "Complementary materials"
+msgstr "Materials complementaris"
+
+#. type: Plain text
+msgid ""
+"As the logo will be used in quite different places, we encourage you to "
+"submit complementary materials. These are not strict requirements but will "
+"help us evaluate your proposal better. Besides, if your logo is chosen, we "
+"will need them anyway before we are able to put it to use publicly."
+msgstr ""
+"Com que el logotip s'utilitzarà en llocs força diferents, us animem a enviar "
+"materials complementaris. Aquests no són requisits estrictes, però ens "
+"ajudaran a avaluar millor la vostra proposta. A més, si s'escull el vostre "
+"logotip, els necessitarem de totes maneres abans de poder-lo fer servir "
+"públicament."
+
+#. type: Plain text
+msgid "These complementary materials are:"
+msgstr "Aquests materials complementaris són:"
+
+#. type: Bullet: '  - '
+msgid ""
+"A banner for the website. The current one is 986x60px, but the new one could "
+"be higher, maybe up to 150px."
+msgstr ""
+"Un bàner per a la web. L'actual és de 986x60px, però el nou podria ser més "
+"alt, potser fins a 150px."
+
+#. type: Bullet: '  - '
+msgid ""
+"A splash screen for boot. Must be 640x480px with a black background, 8-bit/"
+"RGBA. It has to be distinguishable by the user as Tails, but discrete enough "
+"not to attract too much attention from other people around."
+msgstr ""
+"Una pantalla de presentació per a l'arrencada. Ha de ser de 640 x 480 píxels "
+"amb un fons negre, 8 bits/RGBA. Ha de ser distingible per l'usuari com a "
+"Tails, però prou discret per no cridar massa l'atenció d'altres persones del "
+"voltant."
+
+#. type: Bullet: '  - '
+msgid ""
+"A color palette for the website, if it needs to be adapted to match the logo."
+msgstr ""
+"Una paleta de colors per al lloc web, si s'ha d'adaptar perquè coincideixi "
+"amb el logotip."
+
+#. type: Bullet: '  - '
+msgid "Fonts to be used to create other material matching the logo."
+msgstr ""
+"Tipus de lletra que s'utilitzaran per crear altres materials que "
+"coincideixin amb el logotip."
+
+#. type: Bullet: '  - '
+msgid "A CSS patch for colors and fonts on the website, if you are into CSS."
+msgstr ""
+"Un pedaç de CSS per a colors i tipus de lletra al lloc web, si us agrada CSS."
+
+#. type: Bullet: '  - '
+msgid "A grayscale version of the logo."
+msgstr "Una versió en escala de grisos del logotip."
+
+#. type: Title =
+#, no-wrap
+msgid "Calendar"
+msgstr "Calendari"
+
+#. type: Bullet: '  - '
+msgid ""
+"**31st of March**: Deadline for sending proposals to <tails-dev@boum.org>. "
+"No attachments to the email, but link to a public place where we can find "
+"your work."
+msgstr ""
+"**31 de març**: data límit per enviar propostes a <tails-dev@boum.org>. No "
+"adjunteu fitxers al correu electrònic, però enllaceu a un lloc públic on "
+"puguem trobar la vostra feina."
+
+#. type: Bullet: '  - '
+msgid "**9th of April**: The winner is announced."
+msgstr "**9 d'abril**: s'anuncia el guanyador."
+
+#. type: Bullet: '  - '
+msgid ""
+"**15th of April**: All the complementary materials have to be ready so we "
+"have time to include them in Tails 1.0. The designer of the winning logo is "
+"strongly encouraged to do this work, before or after the deadline for "
+"proposals."
+msgstr ""
+"**15 d'abril**: Tots els materials complementaris han d'estar preparats, per "
+"tenir temps per incloure'ls a Tails 1.0. Es recomana al dissenyador del "
+"logotip guanyador que faci aquest treball, abans o després de la data límit "
+"de presentació de propostes."

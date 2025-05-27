@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"PO-Revision-Date: 2023-11-16 21:13+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.9.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Bullet: '   1. '
+msgid "Choose **Applications**&nbsp;▸ **Persistent Storage**."
+msgstr "Trieu **Aplicacions**&nbsp;▸ **Emmagatzematge Persistent**."
+
+#. type: Bullet: '   1. '
+msgid "Click on the **Change Passphrase** button on the left of the title bar."
+msgstr ""
+"Feu clic al botó **Canvia la contrasenya** a l'esquerra de la barra de títol."
+
+#. type: Bullet: '   1. '
+msgid "Enter the current passphrase in the **Current Passphrase** text box."
+msgstr ""
+"Introduïu la contrasenya actual al quadre de text **Contrasenya actual**."
+
+#. type: Bullet: '   1. '
+msgid "Enter your new passphrase in the **New Passphrase** text box."
+msgstr "Introduïu la nova contrasenya al quadre de text **Contrasenya nova**."
+
+#. type: Bullet: '   1. '
+msgid ""
+"Enter your new passphrase again in the **Confirm New Passphrase** text box."
+msgstr ""
+"Torneu a introduir la vostra nova contrasenya al quadre de text **Confirma "
+"la nova contrasenya**."
+
+#. type: Bullet: '   1. '
+msgid "Click **Change**."
+msgstr "Feu clic a **Canvia**."
+
+#. type: Bullet: '   1. '
+msgid "Close the **Persistent Storage** settings."
+msgstr "Tanqueu la configuració de l'**Emmagatzematge Persistent**."

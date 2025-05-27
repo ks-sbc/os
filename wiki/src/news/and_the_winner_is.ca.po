@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2021-11-19 17:07+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sat, 12 Apr 2014 20:23:45 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 12 Apr 2014 20:23:45 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"And the winner is...\"]]\n"
+msgstr "[[!meta title=\"I el guanyador és…\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"Our [[logo contest|logo_contest]] ended up a few days ago.  Since then, 11 "
+"regular Tails contributors voted on the [[!tails_blueprint logo desc=\"36 "
+"proposals\"]]."
+msgstr ""
+"El nostre [[concurs de logotips|logo_contest]] va acabar fa uns dies. Des de "
+"llavors, 11 col·laboradors habituals de Tails van votar entre les [["
+"!tails_blueprint logo desc=\"36 propostes\"]]."
+
+#. type: Title =
+#, no-wrap
+msgid "Winner"
+msgstr "Guanyador"
+
+#. type: Plain text
+msgid ""
+"The winning proposal is the one by [[!tails_blueprint logo#tchou desc=\"Tchou"
+"\"]]."
+msgstr ""
+"La proposta guanyadora és la d'en [[!tails_blueprint logo#tchou desc=\"Tchou"
+"\"]]."
+
+#. type: Plain text
+msgid ""
+"We commented on the initial version and we already came up with an improved "
+"version: [[!tails_blueprint logo/tchou-improved.png]]"
+msgstr ""
+"Hem comentat la versió inicial i ja hem creat una versió millorada: [["
+"!tails_blueprint logo/tchou-improved.png]]"
+
+#. type: Plain text
+msgid "Congratulations!"
+msgstr "Felicitats!"
+
+#. type: Plain text
+msgid ""
+"In the coming days we will keep on fine-tuning it and integrating it in time "
+"for Tails 1.0. So don't hesitate to comment on it."
+msgstr ""
+"En els propers dies seguirem afinant-lo i integrant-lo a temps per a Tails "
+"1.0. Així que no dubteu a comentar-lo."
+
+#. type: Title =
+#, no-wrap
+msgid "Top 7"
+msgstr "Top 7"
+
+#. type: Plain text
+msgid "Six other great proposals made it to the top 7:"
+msgstr "Altres sis grans propostes han arribat als 7 primers:"
+
+#. type: Bullet: '  - '
+msgid ""
+"2nd: tie between [[!tails_blueprint logo#andrew desc=\"Andrew\"]] and [[!"
+"tails_blueprint logo#joe desc=\"Joe\"]]"
+msgstr ""
+"2n: empat entre l'[[!tails_blueprint logo#andrew desc=\"Andrew\"]] i el [["
+"!tails_blueprint logo#joe desc=\"Joe\"]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"4th: tie between [[!tails_blueprint logo#jared desc=\"Jared\"]] and [[!"
+"tails_blueprint logo#renato desc=\"Renato\"]]"
+msgstr ""
+"4t: empat entre [[!tails_blueprint logo#jared desc=\"Jared\"]] i el [["
+"!tails_blueprint logo#renato desc=\"Renato\"]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"6th: tie between [[!tails_blueprint logo#mewchan desc=\"MewChan, hiding cat"
+"\"]] and [[!tails_blueprint logo#christopher desc=\"Christopher\"]]"
+msgstr ""
+"6è: empat entre el [[!tails_blueprint logo#mewchan desc=\"MewChan, gat "
+"amagat\"]] i el [[!tails_blueprint logo#christopher desc=\"Christopher\"]]"
+
+#. type: Plain text
+msgid ""
+"This [[!tails_blueprint logo/top7.pdf desc=\"PDF\"]] shows a graph of how "
+"many voters preferred a given proposal to another one."
+msgstr ""
+"Aquest [[!tails_blueprint logo/top7.pdf desc=\"PDF\"]] mostra un gràfic de "
+"quants votants han preferit una proposta determinada a una altra."
+
+#. type: Plain text
+msgid ""
+"We reiterate our thanks to the 31 designers who worked for this contest to "
+"be such a success."
+msgstr ""
+"Reiterem el nostre agraïment als 31 dissenyadors que han treballat perquè "
+"aquest concurs fos tot un èxit."

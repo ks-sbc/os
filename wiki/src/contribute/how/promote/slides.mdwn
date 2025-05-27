@@ -1,0 +1,13 @@
+[[!meta title="Slides"]]
+
+Generic presentation slides
+===========================
+
+- [[Tails-English.odp]]
+- [[Tails-Spanish.odp]]
+- [[Tails-Portuguese.odp]]
+
+Archive of past talks
+=====================
+
+[[!map pages="contribute/how/promote/slides/*"]]

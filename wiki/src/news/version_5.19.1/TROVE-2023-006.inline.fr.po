@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-04-05 02:50+0000\n"
+"PO-Revision-Date: 2024-10-05 13:31+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  The details of TROVE-2023-006 haven't been disclosed by the Tor Project to\n"
+"  leave time for users to upgrade before revealing more. We only know that the\n"
+"  Tor Project describes TROVE-2023-006 as a \"[*remote triggerable assert on\n"
+"  onion\n"
+"  services*](https://gitlab.torproject.org/tpo/core/team/-/wikis/NetworkTeam/TROVE)\".\n"
+msgstr ""
+"  Les détails de TROVE-2023-006 n'ont pas été divulgués par le Projet Tor "
+"pour\n"
+"  laisser du temps aux personnes l'utilisant de mettre à jour avant d'en "
+"révéler plus. Nous savons uniquement que le\n"
+"  Projet Tor décrit TROVE-2023-006 comme \"[*déclenchable a distance depuis "
+"les\n"
+"  services\n"
+"  onion*](https://gitlab.torproject.org/tpo/core/team/-/wikis/NetworkTeam/"
+"TROVE)\".\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  Our team thinks that this vulnerability could affect Tails users who are\n"
+"  creating onion services from their Tails, for example when sharing files or\n"
+"  publishing a website using *OnionShare*.\n"
+msgstr ""
+"  Notre équipe pense que cette faille de sécurité pourrait affecter les "
+"personnes utilisant Tails qui\n"
+"  créent des services onion depuis leur Tails, par exemple en partageant des "
+"fichiers ou\n"
+"  en publiant un site web avec *OnionShare*.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  This vulnerability might allow an attacker who already knows your\n"
+"  *OnionShare* address to make your Tor client crash. A powerful attacker might\n"
+"  be able to further exploit this crash to reveal your IP address.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  This analysis is only a hypothesis because our team doesn't have access to\n"
+"  more details about this vulnerability. Still, we are releasing this emergency\n"
+"  release as a precaution.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  *OnionShare* is the only application included in Tails that creates onion\n"
+"  services. You are not affected by this vulnerability if you don't use\n"
+"  *OnionShare* in Tails and only use Tails to connect to onion services and\n"
+"  don't create onion services using Additional Software.\n"
+msgstr ""

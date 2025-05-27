@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-26 12:26+0100\n"
+"PO-Revision-Date: 2024-11-27 10:18+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Wed, 01 Feb 2017 10:23:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Wed, 01 Feb 2017 10:23:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 3.0 will require a 64-bit processor\"]]\n"
+msgstr "[[!meta title=\"Tails 3.0 erfordert einen 64-Bit-Prozessor\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Tails 3.0 will require a 64-bit <span\n"
+"class=\"definition\">[[!wikipedia x86-64]]</span> compatible processor.\n"
+"As opposed to older versions of Tails, it will not work on\n"
+"32-bit processors.\n"
+msgstr ""
+"Tails 3.0 erfordert einen 64-Bit-<span\n"
+"class=\"definition\">[[!wikipedia_de x64 desc=\"x86-64\"]]</span> "
+"kompatibler Prozessor.\n"
+"Im Gegensatz zu älteren Versionen von Tails funktioniert es nicht mit\n"
+"32-Bit-Prozessoren.\n"
+
+#. type: Plain text
+msgid ""
+"We have waited for years until we felt it was the right time to do this "
+"switch. Still, this was a hard decision for us to make. Today, we want to "
+"explain why we eventually made this decision, how it will affect users, and "
+"when."
+msgstr ""
+"Wir haben jahrelang gewartet, bis wir das Gefühl hatten, dass es der "
+"richtige Zeitpunkt für diesen Wechsel war. Dennoch ist uns diese "
+"Entscheidung nicht leicht gefallen. Heute möchten wir erklären, warum wir "
+"diese Entscheidung schließlich getroffen haben, wie sie sich auf die Nutzer "
+"auswirken wird und wann."
+
+#. type: Title #
+#, no-wrap
+msgid "When will this transition happen?"
+msgstr "Wann wird dieser Übergang stattfinden?"
+
+#. type: Plain text
+msgid ""
+"Our current goal is to release Tails 3.0, and stop supporting computers with "
+"a 32-bit processor, on **June 13, 2017**."
+msgstr ""
+"Unser aktuelles Ziel ist es, Tails 3.0 zu veröffentlichen und die "
+"Unterstützung für Computer mit einem 32-Bit-Prozessor am **13. Juni 2017** "
+"einzustellen."
+
+#. type: Title #
+#, no-wrap
+msgid "Will Tails still work on this computer?"
+msgstr "Wird Tails auf diesem Computer weiterhin funktionieren?"
+
+#. type: Plain text
+msgid "Here is the quickest way to find out:"
+msgstr "Hier ist der schnellste Weg, um es herauszufinden:"
+
+#. type: Bullet: '1. '
+msgid "Start Tails."
+msgstr "Starte Tails."
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose <span class=\"menuchoice\"><span class=\"guimenu\">Applications</"
+"span>&nbsp;▸ <span class=\"guisubmenu\">Utilities</span>&nbsp;▸ <span "
+"class=\"guimenuitem\">Terminal</span></span> to open a terminal."
+msgstr ""
+"Wählen Sie <span class=\"menuchoice\"><span class=\"guimenu\""
+">Anwendungen</span>&nbsp;▸ <span class=\"guisubmenu\""
+">Dienstprogramme</span>&nbsp;▸ <span class=\"guimenuitem\">Terminal</span></"
+"span>, um ein Terminal zu öffnen."
+
+#. type: Bullet: '1. '
+msgid "Execute the following command to display system information:"
+msgstr "Führen Sie den folgenden Befehl aus, um Systeminformationen anzuzeigen:"
+
+#. type: Plain text
+#, no-wrap
+msgid "           uname -m\n"
+msgstr "           uname -m\n"
+
+#. type: Bullet: '1. '
+msgid "Then, there are two possible cases:"
+msgstr "Dann gibt es zwei mögliche Fälle:"
+
+#. type: Bullet: '   * '
+msgid ""
+"If you see `x86_64`, then you're good: Tails 3.0 should work fine on this "
+"computer. But the best way to be 100% sure is to try one of the test "
+"versions of Tails 3.0. One was released last November, and a new one should "
+"be published later this week, so: stay tuned!"
+msgstr ""
+"Wenn Sie `x86_64` sehen, sind Sie auf der sicheren Seite: Tails 3.0 sollte "
+"auf diesem Computer gut funktionieren. Der beste Weg, um 100 % sicher zu "
+"sein, ist jedoch, eine der Testversionen von Tails 3.0 auszuprobieren. Eine "
+"wurde letzten November veröffentlicht, und eine neue sollte später in dieser "
+"Woche veröffentlicht werden, also: Bleiben Sie dran!"
+
+#. type: Bullet: '   * '
+msgid ""
+"Else, if you see `i686`, then we have bad news: Tails 3.0 will *not* work on "
+"this computer. You now have four and a half months to find a computer with a "
+"64-bit processor. Sorry, and good luck with that!"
+msgstr ""
+"Andernfalls, wenn Sie `i686` sehen, haben wir leider schlechte Nachrichten: "
+"Tails 3.0 wird *nicht* auf diesem Computer funktionieren. Sie haben jetzt "
+"viereinhalb Monate Zeit, einen Computer mit einem 64-Bit-Prozessor zu "
+"finden. Entschuldigung und viel Glück dabei!"
+
+#. type: Title #
+#, no-wrap
+msgid "Why this change?"
+msgstr "Warum diese Änderung?"
+
+#. type: Plain text
+msgid ""
+"It's no surprise that over the last years, the number of people who use "
+"Tails on a 32-bit computer [[!tails_ticket 8183 desc=\"has dropped\"]]: most "
+"32-bit computers are at least ten years old, and one after the other their "
+"hardware stops working. As a result, in the beginning of 2016, [[!toggle "
+"id=\"stats\" text=\"only 4%\"]] of Tails users were still using a 32-bit "
+"computer."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"[[!toggleable id=\"stats\" text=\"\"\"These statistics are gathered from bug "
+"reports we have received from [[WhisperBack|doc/first_steps/"
+"whisperback#whisperback]].\"\"\"]]"
+msgstr ""
+"[[!toggleable id=\"stats\" text=\"\"\"Diese Statistiken stammen aus "
+"Fehlerberichten, die wir von [[WhisperBack|doc/first_steps/"
+"whisperback#whisperback]] erhalten haben.\"\"\" ]]"
+
+#. type: Plain text
+msgid ""
+"Of course, some of these computers will keep working for a while. But once "
+"the number had fallen this low, the benefits of switching Tails to 64-bit "
+"outweighed the reasons we had to keep supporting 32-bit computers."
+msgstr ""
+"Natürlich werden einige dieser Computer noch eine Weile funktionieren. Aber "
+"sobald die Zahl so niedrig gefallen ist, überwogen die Vorteile, Tails auf "
+"64-Bit umzustellen, die Gründe, warum wir weiterhin 32-Bit-Computer "
+"unterstützen sollten."
+
+#. type: Plain text
+msgid "We had two main reasons to switch Tails to 64-bit:"
+msgstr "Wir hatten zwei Hauptgründe, Tails auf 64-Bit umzustellen:"
+
+#. type: Bullet: '* '
+msgid ""
+"**We want Tails users to be safer**: software built for 64-bit processors "
+"can benefit from several improvements that make it harder for attackers to "
+"exploit security vulnerabilities (improved [[!wikipedia Address space layout "
+"randomization]], compulsory support for the [[!wikipedia NX bit]])."
+msgstr ""
+"**Wir möchten, dass Tails-Benutzer sicherer sind**: Software, die für 64-Bit-"
+"Prozessoren entwickelt wurde, kann von mehreren Verbesserungen profitieren, "
+"die es Angreifern erschweren, Sicherheitsanfälligkeiten auszunutzen ("
+"verbesserte [[!wikipedia Address space layout randomization]], "
+"verpflichtende Unterstützung für das [[!wikipedia NX bit]])."
+
+#. type: Bullet: '* '
+msgid ""
+"**We want to our project to be (more) sustainable**: Tails has been using a "
+"64-bit Linux kernel for a while on machines that support it.  But all other "
+"programs included in Tails so far were built for 32-bit processors, and "
+"compatibility issues kept arising. In the last few years, the developers who "
+"maintain Tails have spent lots of time addressing such issues. We would "
+"rather see them spend their time in ways that benefit our users on the long "
+"term, and not on problems that will vanish when Tails switches to 64-bit "
+"eventually."
+msgstr ""
+"**Wir möchten, dass unser Projekt nachhaltig(er) ist**: Tails verwendet seit "
+"einiger Zeit einen 64-Bit-Linux-Kernel auf Maschinen, die ihn unterstützen. "
+"Aber alle anderen in Tails enthaltenen Programme wurden bisher für 32-Bit-"
+"Prozessoren erstellt, und es traten immer wieder Kompatibilitätsprobleme "
+"auf. In den letzten Jahren haben die Entwickler, die Tails betreuen, viel "
+"Zeit damit verbracht, solche Probleme zu beheben. Wir würden es bevorzugen, "
+"dass sie ihre Zeit auf eine Weise verbringen, die unseren Benutzern "
+"langfristig zugutekommt, und nicht mit Problemen, die verschwinden werden, "
+"wenn Tails schließlich auf 64-Bit umschaltet."
+
+#. type: Plain text
+msgid ""
+"Thanks for your attention, and sorry for the inconvenience it may cause to "
+"you."
+msgstr ""

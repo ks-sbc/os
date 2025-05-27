@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-26 12:26+0100\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails user support mailing list\"]]\n"
+msgstr "[[!meta title=\"Llista de correu d'assistència per a usuaris de Tails\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sat, 10 Aug 2013 10:42:51 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 10 Aug 2013 10:42:51 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+msgid ""
+"After we closed off our forum in June, the Tails community was left without "
+"a public user support channel apart from IRC."
+msgstr ""
+"Després de tancar el nostre fòrum al juny, la comunitat de Tails es va "
+"quedar sense un canal públic d'assistència als usuaris a part de l'IRC."
+
+#. type: Title =
+#, no-wrap
+msgid "Introducing tails-support@boum.org"
+msgstr "Us presentem tails-support@boum.org"
+
+#. type: Plain text
+msgid ""
+"To compensate this loss, we decided to create a new public mailing list for "
+"user support."
+msgstr ""
+"Per compensar aquesta pèrdua, hem decidit crear una nova llista de correu "
+"pública per a l'assistència als usuaris."
+
+#. type: Plain text
+msgid "This list is **the right place** for:"
+msgstr "Aquesta llista és **el lloc adequat** per a:"
+
+#. type: Bullet: '  - '
+msgid ""
+"**User support**: solving doubts about how to use Tails, security "
+"implications of Tails, etc."
+msgstr ""
+"**Assistència a l'usuari**: resolució de dubtes sobre com utilitzar Tails, "
+"implicacions de seguretat de Tails, etc."
+
+#. type: Bullet: '  - '
+msgid ""
+"**Community interaction**: information and tricks about ways of using Tails "
+"that are not officially documented but might be of interest to others."
+msgstr ""
+"**Interacció amb la comunitat**: informació i trucs sobre maneres "
+"d'utilitzar Tails que no estan documentades oficialment però que poden ser "
+"d'interès per a altres."
+
+#. type: Bullet: '  - '
+msgid ""
+"**Small issues**: pointing out small things that we needed to fix and do not "
+"require a complete bug report.  That's fine and we appreciate it."
+msgstr ""
+"**Problemes petits**: assenyalar coses petites que havíem de solucionar i "
+"que no requereixen un informe d'error complet. Està bé i ho agraïm."
+
+#. type: Plain text
+msgid "This list is **the wrong place** for:"
+msgstr "Aquesta llista és **el lloc equivocat** per a:"
+
+#. type: Bullet: '  - '
+msgid ""
+"**Bug reports**: see the [[bug reporting documentation|/doc/first_steps/"
+"whisperback]] instead."
+msgstr ""
+"**Informes d'errors**: consulteu la [[documentació d'informes d'errors|/doc/"
+"first_steps/whisperback]]."
+
+#. type: Bullet: '  - '
+msgid ""
+"**Feature requests**: those should be done on the development mailing list: "
+"[[tails-dev@boum.org|about/contact#tails-dev]]."
+msgstr ""
+"**Sol·licituds de funcions**: s'han de fer a la llista de correu de "
+"desenvolupament: [[tails-dev@boum.org|about/contact#tails-dev]]."
+
+#. type: Bullet: '  - '
+msgid ""
+"**Computer security essays and conspiranoia** not directly related to Tails."
+msgstr ""
+"**Assajos de seguretat informàtica i conspiranoia** no relacionats "
+"directament amb Tails."
+
+#. type: Title =
+#, no-wrap
+msgid "Some reasons behind this decision"
+msgstr "Alguns motius darrere d'aquesta decisió"
+
+#. type: Plain text
+msgid ""
+"Since 2012, we worked on replacing the old forum with a question and answer "
+"application. We hoped we could have a shared application with The Tor "
+"Project that was heading in the same direction. For many reasons this did "
+"not happen."
+msgstr ""
+"Des de l'any 2012, treballem per substituir l'antic fòrum per una aplicació "
+"de preguntes i respostes. Esperàvem tenir una aplicació compartida amb The "
+"Tor Project que anava en la mateixa direcció. Per moltes raons això no ha "
+"passat."
+
+#. type: Plain text
+msgid "To solve this we decided to:"
+msgstr "Per solucionar-ho hem decidit:"
+
+#. type: Bullet: '- '
+msgid ""
+"Setup a support mailing list as a new public channel for user support with "
+"the help of the Tails community."
+msgstr ""
+"Configurar una llista de correu d'assistència com a nou canal públic per a "
+"l'assistència als usuaris amb l'ajuda de la comunitat de Tails."
+
+#. type: Bullet: '- '
+msgid ""
+"Gather frequently asked questions from the forum and the list on our website."
+msgstr ""
+"Recollir les preguntes més freqüents del fòrum i de la llista al nostre lloc "
+"web."
+
+#. type: Bullet: '- '
+msgid ""
+"On the long-run, have Askbot into Debian and improve it with the features we "
+"need."
+msgstr ""
+"A la llarga, posar Askbot a Debian i millorar-lo amb les funcions que "
+"necessitem."
+
+#. type: Plain text
+msgid "See the corresponding ticket: [[!tails_ticket 5984]]."
+msgstr "Vegeu el tiquet corresponent: [[!tails_ticket 5984]]."

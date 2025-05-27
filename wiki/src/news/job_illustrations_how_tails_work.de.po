@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-09-29 06:52+0000\n"
+"PO-Revision-Date: 2024-10-09 13:07+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Job offer: illustrations on what is Tails and how it works\"]]\n"
+msgstr ""
+"[[!meta title=\"Stellenangebot: Illustrationen darüber, was Tails ist und "
+"wie es funktioniert\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 27 Sep 2019 22:02:14 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 27 Sep 2019 22:02:14 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"Tails, a portable operating system that protects your privacy and avoids "
+"censorship, is looking for a design contractor to create illustrations "
+"explaining Tails."
+msgstr ""
+"Tails, ein tragbares Betriebssystem, das die Privatsphäre schützt und Zensur "
+"vermeidet, sucht einen Designer, der Illustrationen zur Erklärung von Tails "
+"erstellt."
+
+#. type: Plain text
+msgid "The contractor will create illustrations to aid in communicating:"
+msgstr ""
+"Der Auftragnehmer wird Illustrationen erstellen, um die Kommunikation zu "
+"erleichtern:"
+
+#. type: Plain text
+msgid "- On the homepage: what is Tails and what are its main benefits"
+msgstr "- Auf der Homepage: Was ist Tails und was sind seine Hauptvorteile"
+
+#. type: Plain text
+#, no-wrap
+msgid "  6 small illustrations or icons, around 200px.\n"
+msgstr "  6 kleine Illustrationen oder Icons, etwa 200px groß.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"On the 'How Tails works' page: the main properties and features of Tails"
+msgstr ""
+"Auf der Seite 'Wie Tails funktioniert': die Hauptmerkmale und Eigenschaften "
+"von Tails"
+
+#. type: Plain text
+#, no-wrap
+msgid "  10 medium-size illustrations, around 400px.\n"
+msgstr "  10 mittelgroße Illustrationen, etwa 400px groß.\n"
+
+#. type: Plain text
+msgid ""
+"This work is part of a larger effort to improve the description and "
+"explanation of Tails, adjust the voice and tone of the homepage, and "
+"implement a newly developed brand identity."
+msgstr ""
+"Diese Arbeit ist Teil eines umfassenderen Bestrebens, die Beschreibung und "
+"Erklärung von Tails zu verbessern, den Ton und die Ansprache der Startseite "
+"anzupassen und eine neu entwickelte Markenidentität umzusetzen."
+
+#. type: Plain text
+msgid ""
+"[See the full design brief and how to apply.](https://tails.net/jobs/"
+"illustrations_how_tails_work/)"
+msgstr ""
+"[Sehen Sie das vollständige Design-Briefing und wie Sie sich bewerben "
+"können.](https://tails.net/jobs/illustrations_how_tails_work/)"

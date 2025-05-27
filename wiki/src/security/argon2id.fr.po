@@ -1,0 +1,1061 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-05-14 22:38+0000\n"
+"PO-Revision-Date: 2024-09-30 11:58+0000\n"
+"Last-Translator: Chre <tor@renaudineau.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 14 Jun 2023 12:34:56 -0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 14 Jun 2023 12:34:56 -0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Weak cryptographic parameters in LUKS1\"]]\n"
+msgstr "[[!meta title=\"Paramètres cryptographiques faibles avec LUKS1\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Plain text
+msgid ""
+"The cryptographic parameters of LUKS from Tails 5.12 or earlier are weak "
+"against a state-sponsored attacker with physical access to your device."
+msgstr ""
+"Les paramètres cryptographiques de LUKS jusqu'à Tails 5.12 sont vulnérables "
+"contre un adversaire étatique ayant un accès physique à votre périphérique."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"**We recommend you change the passphrase of your Persistent Storage and other\n"
+"LUKS encrypted volumes unless you use a long passphrase of 5 random words or\n"
+"more.**\n"
+msgstr ""
+"**Nous recommandons de changer la phrase de passe de votre stockage persistant et de tout autre\n"
+"volume LUKS sauf si vous utilisez une phrase de passe longue d'au moins 5 mots aléatoires.**\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"understanding\">Understanding the weakness and its solution</h1>\n"
+msgstr "<h1 id=\"understanding\">Comprendre la vulnérabilité et sa solution</h1>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"race\">The arms race to protect from brute-force attacks</h2>\n"
+msgstr "<h2 id=\"race\">La course à la protection contre les attaques par force brute</h2>\n"
+
+#. type: Plain text
+msgid ""
+"In all encryption technology that protects data on a disk or USB stick with "
+"a password or a passphrase, an attacker can try all possible combinations "
+"until they guess your passphrase and unlock the encryption. This type of "
+"attack is called a *[[!wikipedia brute-force attack]]*."
+msgstr ""
+"Avec toutes les technologies de chiffrement qui protègent des données sur un "
+"disque dur ou une clé USB avec un mot de passe ou une phrase de passe, un "
+"attaquant peut essayer toutes les combinaisons possibles jusqu'à deviner la "
+"phrase de passe et outrepasser le chiffrement. Ce type d'attaque est appelé "
+"une *[[!wikipedia_fr attaque par force brute]]*."
+
+#. type: Plain text
+msgid ""
+"A strong password makes brute-force attacks slower and more expensive. The "
+"longer the passphrase, the more expensive the brute-force attack becomes."
+msgstr ""
+"Un mot de passe robuste rend les attaques par force brute plus lentes et "
+"onéreuses. Plus une phrase de passe est longue, plus l'attaque par force "
+"brute devient onéreuse."
+
+#. type: Plain text
+msgid ""
+"Some cryptographic parameters can also make each guess of a brute-force "
+"attack slower and more expensive, for example by having to do some "
+"complicated calculations on each passphrase before being able to try to "
+"unlock the encryption with the result of this calculation."
+msgstr ""
+"Certains paramètres cryptographiques peuvent également rendre chaque essai "
+"d'attaque par force brute plus lent et plus onéreux, par exemple en ajoutant "
+"des opérations complexes sur chaque phrase de passe avant de pouvoir essayer "
+"de déchiffrer la partition avec le résultat de ces opérations."
+
+#. type: Plain text
+msgid ""
+"Over the years, computers become faster and cheaper. Encryption technologies "
+"regularly upgrade their parameters to find a balance between making "
+"encryption fast and usable by users while making brute-force attacks as "
+"expensive as possible for attackers."
+msgstr ""
+"Au cours des années, les ordinateurs sont devenus de plus en plus rapides et "
+"abordables. Les technologies de chiffrement mettent à jour régulièrement "
+"leurs paramètres pour trouver un équilibre entre rapidité et sécurité pour "
+"les personnes les utilisant et rendre les attaques par force brute aussi "
+"coûteuses que possibles pour les attaquants."
+
+#. type: Plain text
+msgid ""
+"Strong encryption parameters *combined* with a strong passphrase make brute-"
+"force attacks so slow and so expensive that they are impossible to do in "
+"practice. For example, a brute-force attack is impossible to do in practice "
+"if it would take thousands of years even with the most powerful "
+"supercomputers."
+msgstr ""
+"Des paramètres de chiffrement robustes *combinés* avec une phrase de passe "
+"robuste rendent les attaques par force brute tellement lentes et onéreuses "
+"qu'elles sont impossibles à réaliser dans la pratique. Par exemple, une "
+"attaque par force brute est pratiquement impossible si elle nécessite des "
+"milliers d'années même avec les ordinateurs les plus puissants."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"comparison\">Strength of Argon2id compared to PBKDF2</h2>\n"
+msgstr "<h2 id=\"comparison\">Robustesse d'Argon2id comparé à PBKDF2</h2>\n"
+
+#. type: Plain text
+msgid ""
+"Until Tails 5.12 (19 April 2023), Tails created LUKS devices version 1 "
+"(LUKS1)  with PBKDF2 as *key derivation function*, a calculation run on the "
+"passphrase before trying to unlock the encryption with the result."
+msgstr ""
+"Jusqu'à Tails 5.12 (19 avril 2023), Tails créait des partitions LUKS en "
+"version 1 (LUKS1) avec PBKDF2 comme *fonction de dérivation de clé*, une "
+"fonction appliquée à la phrase de passe avant d'essayer de déchiffrer la "
+"partition avec le résultat."
+
+#. type: Plain text
+msgid ""
+"PBKDF2 is now considered too weak compared to available computing power."
+msgstr ""
+"PBKDF2 est maintenant considéré comme trop faible comparativement à la "
+"puissance de calcul disponible."
+
+#. type: Plain text
+msgid ""
+"Some cryptographers think this weakness might have already been [used "
+"against an activist in France](https://mjg59.dreamwidth.org/66429.html) but "
+"the actual operations by the French police are kept secret."
+msgstr ""
+"Certains personnes expertes en cryptographie pensent que cette vulnérabilité "
+"a déjà été [utilisée contre une personne militante en France](https://mjg59."
+"dreamwidth.org/66429.html) mais les opérations réelles menées par la police "
+"française sont gardées secrètes."
+
+#. type: Plain text
+msgid ""
+"Since Tails 5.13 (16 May 2023), Tails creates LUKS devices version 2 "
+"(LUKS2)  with Argon2id as *key derivation function*."
+msgstr ""
+"Depuis Tails 5.13 (16 mai 2023), Tails crée des périphériques LUKS en "
+"version 2 (LUKS2) avec Argon2id comme *fonction de dérivation de clé*."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>Tails version<br/>when encryption was created</th><th>Release date</th><th>LUKS version</th><th>Key derivation function</th><th>Strength</th></tr>\n"
+"<tr><td>5.12 or earlier</td><td>19 April 2023</td><td>LUKS1</td><td>PBKDF2</td><td>Weak</td></tr>\n"
+"<tr><td>5.13 or later</td><td>16 May 2023</td><td>LUKS2</td><td>Argon2id</td><td>Strong</td></tr>\n"
+"</table>\n"
+msgstr ""
+"<table>\n"
+"<tr><th>Version Tails quand<br/>le chiffrement a été initialisé</th><th>Date de sortie</th><th>Version LUKS</th><th>Fonction de dérivation de clé</th><th>Robustesse</th></tr>\n"
+"<tr><td>5.12 ou antérieur</td><td>19 avril 2023</td><td>LUKS1</td><td>PBKDF2</td><td>Faible</td></tr>\n"
+"<tr><td>5.13 ou ultérieur</td><td>16 mai 2023</td><td>LUKS2</td><td>Argon2id</td><td>Fort</td></tr>\n"
+"</table>\n"
+
+#. type: Plain text
+msgid ""
+"We estimated how much electricity it would cost to guess passphrases of "
+"different strengths. As we recommend for the Persistent Storage, we "
+"evaluated passphrases made of several random words."
+msgstr ""
+"Nous avons estimé la quantité d'électricité nécessaire pour deviner des "
+"phrases de passe de différentes robustesses. Comme nous le recommandons pour "
+"le stockage persistant, nous évaluons les phrases de passe faites de "
+"plusieurs mots aléatoires."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>Passphrase length</th><th>PBKDF2</th><th>Argon2id</th></tr>\n"
+"<tr><td>3 random words</td><td>$0.1</td><td>$100</td></tr>\n"
+"<tr><td>4 random words</td><td>$1&#8239;000</td><td>$1&#8239;000&#8239;000</td></tr>\n"
+"<tr><td>5 random words</td><td>$10&#8239;000&#8239;000</td><td>$10&#8239;000&#8239;000&#8239;000</td></tr>\n"
+"<tr><td>6 random words</td><td>$100&#8239;000&#8239;000&#8239;000</td><td>$100&#8239;000&#8239;000&#8239;000&#8239;000</td></tr>\n"
+"<tr><td>7 random words</td><td>$1&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000</td><td>$1&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000</td></tr>\n"
+"</table>\n"
+msgstr ""
+"<table>\n"
+"<tr><th>Longueur de la phrase de passe</th><th>PBKDF2</th><th>Argon2id</th></tr>\n"
+"<tr><td>3 mots aléatoires</td><td>0,1$</td><td>100$</td></tr>\n"
+"<tr><td>4 mots aléatoires</td><td>1&#8239;000$</td><td>1&#8239;000&#8239;000$</td></tr>\n"
+"<tr><td>5 mots aléatoires</td><td>10&#8239;000&#8239;000$</td><td>10&#8239;000&#8239;000&#8239;000$</td></tr>\n"
+"<tr><td>6 mots aléatoires</td><td>100&#8239;000&#8239;000&#8239;000$</td><td>100&#8239;000&#8239;000&#8239;000&#8239;000$</td></tr>\n"
+"<tr><td>7 mots aléatoires</td><td>1&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000$</td><td>1&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000&#8239;000$</td></tr>\n"
+"</table>\n"
+
+#. type: Plain text
+msgid ""
+"These numbers are very rough estimates but give an idea of what length of "
+"passphrase a very powerful adversary like a state-sponsored attacker could "
+"guess."
+msgstr ""
+"Ces nombres sont des estimations très approximatives mais donnent une idée "
+"de la longueur de phrase de passe qu'un adversaire très puissant comme un "
+"attaquant étatique pourrait deviner."
+
+#. type: Plain text
+msgid ""
+"Even if guessing a passphrase of 3 random words with LUKS1 costs very little "
+"energy, any such attack also requires:"
+msgstr ""
+"Même si deviner une phrase de passe de 3 mots aléatoires avec LUKS1 coûte "
+"très peu d'énergie, une attaque de ce type nécessite également :"
+
+#. type: Plain text
+msgid ""
+"- Physical access to the device - Very expensive computer equipment - "
+"Professional hacking skills"
+msgstr ""
+"- Un accès physique à l'appareil\n"
+"- Un équipement informatique très onéreux\n"
+"- Des compétences de piratage professionnelles"
+
+#. type: Plain text
+msgid ""
+"You can see the details of our calculations in [[!tails_ticket 19615]] and "
+"this [spreadsheet](https://cryptpad.disroot.org/sheet/#/2/sheet/view/"
+"KdOJLeuCsc4dS3vq-bHhFw6zByUSRJXsCcAkB-ERxtc/)."
+msgstr ""
+"Vous pouvez voir les détails de nos calculs ici [[!tails_ticket 19615]] et "
+"sur cette [feuille de calcul](https://cryptpad.disroot.org/sheet/#/2/sheet/"
+"view/KdOJLeuCsc4dS3vq-bHhFw6zByUSRJXsCcAkB-ERxtc/)."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"schemes\">Other password schemes give too little guarantee</h2>\n"
+msgstr "<h2 id=\"schemes\">D'autres schémas de mots de passe donnent trop peu de garantie</h2>\n"
+
+#. type: Plain text
+msgid ""
+"We recommend using passphrases made of several random words because using "
+"randomness is the only way to really guarantee the strength of a password."
+msgstr ""
+"Nous recommandons d'utiliser des phrases de passe faites de plusieurs mots "
+"aléatoires parce que l'aléatoire est le seul moyen de réellement garantir la "
+"robustesse d'un mot de passe."
+
+#. type: Plain text
+msgid ""
+"Using other password schemes give little guarantee over the strength of a "
+"password, even if it follows complicated password policies and validates on "
+"password strength meters."
+msgstr ""
+"Utiliser d'autres schémas de mot de passe donne trop peu de garantie sur la "
+"robustesse du mot de passe, même s'il respecte des politiques compliquées et "
+"valide des tests de robustesse."
+
+#. type: Plain text
+msgid ""
+"For example, a [Dutch hacker logged into Donald Trump's Twitter account "
+"*twice*](https://www.washingtonpost.com/world/2020/12/17/dutch-trump-twitter-"
+"password-hack/)  by guessing his passwords, despite that these passwords "
+"included several words, were more than 8 characters, and even had special "
+"characters. They were definitely not random enough: \"*maga2020!*\" and "
+"\"*yourefired*\"."
+msgstr ""
+"Par exemple, un [pirate néerlandais s'est connecté sur le compte Twitter de "
+"Donald Trump *deux fois*](https://www.washingtonpost.com/world/2020/12/17/"
+"dutch-trump-twitter-password-hack/)  en devinant ses mots de passe composés "
+"de plusieurs mots, faisant plus de 8 caractères et contenant même des "
+"caractères spéciaux. Ils n'étaient définitivement pas assez aléatoires : "
+"\"*maga2020!*\" et \"*yourefired*\"."
+
+#. type: Plain text
+msgid ""
+"To understand the maths behind password strength, watch [An information "
+"theoretic model of privacy and security metrics](https://media.libreplanet."
+"org/u/libreplanet/m/an-information-theoretic-model-of-privacy-and-security-"
+"metrics/).  Bill Budington from the EFF explains the concept of entropy and "
+"its implication on browser fingerprinting and password safety in accessible "
+"terms."
+msgstr ""
+"Pour comprendre les mathématiques derrière la robustesse d'un mot de passe, "
+"regardez [An information theoretic model of privacy and security metrics]"
+"(https://media.libreplanet.org/u/libreplanet/m/an-information-theoretic-"
+"model-of-privacy-and-security-metrics/) (en anglais). Bill Budington de "
+"l'EFF explique le concept d'entropie et son implication sur la prise "
+"d'empreinte du navigateur et la sécurité des mots de passe en termes "
+"accessibles."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"updating\">Keeping your encryption secure</h1>\n"
+msgstr "<h1 id=\"updating\">Garder votre chiffrement sûr</h1>\n"
+
+#. type: Plain text
+msgid ""
+"All users are recommended to upgrade to LUKS2 on all their encrypted "
+"devices: Persistent Storage, backup Tails, and other external encrypted "
+"volumes."
+msgstr ""
+"Nous recommandons à toutes les personnes de mettre à jour vers LUKS2 sur "
+"tous leurs périphériques chiffrés : stockage persistant, sauvegarde de Tails "
+"et autres volumes externes chiffrés."
+
+#. type: Plain text
+msgid ""
+"Depending on the strength of your passphrase, we might also recommend "
+"choosing a different passphrase and migrating to another Tails USB stick:"
+msgstr ""
+"En fonction de la robustesse de votre phrase de passe, nous pourrions aussi "
+"vous recommander de choisir une autre phrase de passe et de migrer vers une "
+"autre clé USB Tails :"
+
+#. type: Plain text
+msgid ""
+"- [[If your passphrase has 4 random words or fewer|argon2id#4]] - [[If your "
+"passphrase has 5 random words|argon2id#5]] - [[If your passphrase has 6 "
+"random words or more|argon2id#6]]"
+msgstr ""
+"- [[Si votre phrase de passe a quatre mots aléatoires ou moins|argon2id#4]]\n"
+"- [[Si votre phrase de passe a cinq mots aléatoires|argon2id#5]]\n"
+"- [[Si votre phrase de passe a six mots aléatoires ou plus|argon2id#6]]"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"4\">If your passphrase has 4 random words or fewer</h2>\n"
+msgstr "<h2 id=\"4\">Si votre phrase de passe a quatre mots aléatoires ou moins</h2>\n"
+
+#. type: Plain text
+msgid "If your current passphrase has 4 random words or fewer:"
+msgstr "Si votre phrase de passe actuelle a quatre mots aléatoires ou moins :"
+
+#. type: Plain text
+msgid "- Your encryption is insecure with LUKS1."
+msgstr "- Votre chiffrement n'est pas sûr avec LUKS1."
+
+#. type: Plain text
+#, no-wrap
+msgid "  You have to upgrade to LUKS2.\n"
+msgstr "  Vous devez passer à LUKS2.\n"
+
+#. type: Plain text
+msgid "- Your encryption is more secure with LUKS2."
+msgstr "- Votre chiffrement est plus sûr avec LUKS2."
+
+#. type: Plain text
+#, no-wrap
+msgid "  We still recommend changing your passphrase to be 5 random words or more.\n"
+msgstr "  Nous recommandons tout de même de changer votre phrase de passe pour qu'elle comprenne cinq mots aléatoires ou plus.\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Persistent Storage (4 words or fewer)"
+msgstr "Stockage persistant (quatre mots ou moins)"
+
+#. type: Plain text
+msgid "To secure your Persistent Storage:"
+msgstr "Pour sécuriser votre stockage persistant :"
+
+#. type: Bullet: '1. '
+msgid "Update to Tails 5.14."
+msgstr "Passez à Tails 5.14."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   When starting Tails 5.14 for the first time, Tails will automatically\n"
+"   convert your Persistent Storage to LUKS2.\n"
+msgstr ""
+"   En démarrant Tails 5.14 pour la première fois, Tails convertira automatiquement\n"
+"   votre stockage persistant vers LUKS2.\n"
+
+#. type: Bullet: '1. '
+msgid "Choose a new passphrase of 5 to 7 random words."
+msgstr "Choisissez une nouvelle phrase de passe de 5 à 7 mots aléatoires."
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"4_ps_keepassxc\" text=\"Display the instructions to generate a passphrase using *KeePassXC*.\"]]\n"
+msgstr "   [[!toggle id=\"4_ps_keepassxc\" text=\"Afficher les instructions pour générer une phrase de passe avec *KeePassXC*.\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"4_ps_keepassxc\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"4_ps_keepassxc\" text=\"\"\"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!inline pages=\"security/argon2id/keepassxc.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "   [[!inline pages=\"security/argon2id/keepassxc.inline.fr\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Bullet: '1. '
+msgid "Change your passphrase."
+msgstr "Changez votre phrase de passe."
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"4_ps_passphrase\" text=\"Display the instructions to change the passphrase of your Persistent Storage.\"]]\n"
+msgstr "   [[!toggle id=\"4_ps_passphrase\" text=\"Afficher les instructions pour changer la phrase de passe de votre stockage persistant.\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"4_ps_passphrase\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"4_ps_passphrase\" text=\"\"\"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!inline pages=\"security/argon2id/ps_passphrase.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "   [[!inline pages=\"security/argon2id/ps_passphrase.inline.fr\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Bullet: '1. '
+msgid ""
+"If you created your Persistent Storage with Tails 5.12 or earlier, we "
+"recommend you migrate your entire Tails to a different USB stick and destroy "
+"your old Tails USB stick (or at least [[securely delete the entire device|"
+"doc/encryption_and_privacy/secure_deletion#device]])."
+msgstr ""
+"Si vous avez créé votre stockage persistant en utilisant Tails 5.12 ou "
+"antérieur, nous recommandons que vous migriez votre Tails sur une clé USB "
+"différente et que vous détruisiez votre ancienne clé USB Tails (ou au moins "
+"que vous [[effaciez de manière sûre la totalité du périphérique|doc/"
+"encryption_and_privacy/secure_deletion#device]])."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   If you don't, the previous LUKS1 data might still be written in some recovery\n"
+"   data on the USB stick and could be recovered using advanced data forensics\n"
+"   techniques.\n"
+msgstr ""
+"   Si vous ne le faites pas, des données LUKS1 pourraient encore être écrites dans\n"
+"   certaines portions de la clé USB et pourraient être retrouvées en utilisant des\n"
+"   techniques avancées de récupération de données.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"4_ps_tails_installer\" text=\"Display the instructions to migrate your Tails to a new USB stick.\"]]\n"
+msgstr "   [[!toggle id=\"4_ps_tails_installer\" text=\"Afficher les instructions pour migrer votre Tails sur une nouvelle clé USB.\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"4_ps_tails_installer\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"4_ps_tails_installer\" text=\"\"\"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!inline pages=\"security/argon2id/tails_installer.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "   [[!inline pages=\"security/argon2id/tails_installer.inline.fr\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Backup Tails (4 words or fewer)"
+msgstr "Sauvegardez Tails (quatre mots ou moins)"
+
+#. type: Plain text
+msgid ""
+"To secure your [[backup Tails|doc/persistent_storage/backup]], if you have "
+"one:"
+msgstr ""
+"Pour sécuriser votre [[sauvegarde Tails|doc/persistent_storage/backup]], si "
+"vous en avez une :"
+
+#. type: Bullet: '1. '
+msgid "Start on your main Tails USB stick."
+msgstr "Démarrez sur votre clé USB Tails principale."
+
+#. type: Bullet: '1. '
+msgid "Update your main Tails USB stick to Tails 5.14."
+msgstr "Mettez à jour votre clé USB Tails principale vers la version 5.14."
+
+#. type: Bullet: '1. '
+msgid "Create a new backup Tails using *Tails Cloner*"
+msgstr "Créer une nouvelle sauvegarde de Tails en utilisant *Tails Cloner*"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   If you created your Persistent Storage with Tails 5.12 or earlier, we\n"
+"   recommend you create your new backup Tails on a different USB stick and\n"
+"   destroy your old backup Tails (or at least [[securely delete the entire\n"
+"   device|doc/encryption_and_privacy/secure_deletion#device]]).\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"4_backup_tails_installer\" text=\"Display the instructions to create a new backup.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"4_backup_tails_installer\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"4_backup_tails_installer\" text=\"\"\"\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Other encrypted volumes (4 words or fewer)"
+msgstr "Autres volumes chiffrés (quatre mots ou moins)"
+
+#. type: Plain text
+msgid "To secure your other encrypted volumes, if you have any:"
+msgstr "Pour sécuriser vos autres volumes chiffrés, si vous en avez :"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"4_other_keepassxc\" text=\"Display the instructions to generate a passphrase using *KeePassXC*.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"4_other_keepassxc\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"4_other_keepassxc\" text=\"\"\"\n"
+
+#. type: Plain text
+msgid ""
+"If your encrypted volume is on a traditional hard disk (not an SSD) and you "
+"can use the command line:"
+msgstr ""
+"Si votre volume chiffré est sur un disque dur traditionnel (pas un SSD), et "
+"si vous pouvez utiliser la ligne de commande :"
+
+#. type: Bullet: '1. '
+msgid "Identify the partition name of your encrypted volume."
+msgstr "Identifiez le nom de la partition de votre volume chiffré."
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"4_other_cryptsetup_partition\" text=\"Display the instructions to identify the partition name using the command line.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"4_other_cryptsetup_partition\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"4_other_cryptsetup_partition\" text=\"\"\"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!inline pages=\"security/argon2id/cryptsetup_partition.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "   [[!inline pages=\"security/argon2id/cryptsetup_partition.inline.fr\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Bullet: '1. '
+msgid ""
+"If you created your encrypted volume with Tails 5.12 or earlier, upgrade to "
+"LUKS2."
+msgstr ""
+"Si vous avez créé votre volume chiffré avec Tails 5.12 ou antérieur, passez "
+"à LUKS2."
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"4_other_cryptsetup_upgrade\" text=\"Display the instructions to upgrade to LUKS2 using the command line.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"4_other_cryptsetup_upgrade\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"4_other_cryptsetup_upgrade\" text=\"\"\"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!inline pages=\"security/argon2id/cryptsetup_upgrade.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "   [[!inline pages=\"security/argon2id/cryptsetup_upgrade.inline.fr\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"4_other_cryptsetup_passphrase\" text=\"Display the instructions to change your passphrase using the command line.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"4_other_cryptsetup_passphrase\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"4_other_cryptsetup_passphrase\" text=\"\"\"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!inline pages=\"security/argon2id/cryptsetup_passphrase.inline\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "   [[!inline pages=\"security/argon2id/cryptsetup_passphrase.inline.fr\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Otherwise, if your encrypted volume is on a USB stick (or an SSD) or you are "
+"not comfortable with the command line:"
+msgstr ""
+"Sinon, si votre volume chiffré est sur une clé USB (ou un SSD), ou si vous "
+"n'êtes pas à l'aise avec la ligne de commande :"
+
+#. type: Bullet: '- '
+msgid ""
+"If you created your encrypted volume with Tails 5.13 or later, we recommend "
+"you change your passphrase."
+msgstr ""
+"Si vous avez créé votre volume chiffré avec Tails 5.13 ou ultérieur, nous "
+"recommandons que vous changiez votre phrase de passe."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  Follow our instructions on [[changing the passphrase of an existing encrypted\n"
+"  partition|doc/encryption_and_privacy/encrypted_volumes#changing]].\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"If you created your encrypted volume with Tails 5.12 or earlier, we "
+"recommend you migrate all your encrypted data to a new encrypted device."
+msgstr ""
+"Si vous avez créé votre volume chiffré avec Tails 5.12 ou antérieur, nous "
+"recommandons que vous migriez toutes vos données chiffrées sur un nouveau "
+"périphérique chiffré."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  Follow our instructions on [[creating and using LUKS encrypted\n"
+"  volumes|doc/encryption_and_privacy/encrypted_volumes]].\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  We also recommend you destroy your old device (or at least [[securely delete\n"
+"  the entire device|doc/encryption_and_privacy/secure_deletion#device]]).\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  If you don't, the previous LUKS1 data might still be written in some recovery\n"
+"  data on the USB stick and could be recovered using advanced data forensics\n"
+"  techniques.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"5\">If your passphrase has 5 random words</h2>\n"
+msgstr "<h2 id=\"5\">Si votre phrase de passe a 5 mots aléatoires</h2>\n"
+
+#. type: Plain text
+msgid "If your current passphrase has 5 random words:"
+msgstr "Si votre phrase de passe actuelle a 5 mots aléatoires :"
+
+#. type: Bullet: '- '
+msgid ""
+"Your encryption is secure with LUKS1, except against a very powerful "
+"adversary, like a state-sponsored attacker with a huge budget to spend on "
+"guessing your passphrase."
+msgstr ""
+"Votre chiffrement est sécurisé avec LUKS1, sauf contre un adversaire très "
+"puissant, comme un attaquant étatique disposant d'un budget immense pour "
+"trouver votre phrase de passe."
+
+#. type: Plain text
+#, no-wrap
+msgid "  We still recommend you upgrade to LUKS2.\n"
+msgstr "  Nous recommandons tout de même de passer à LUKS2.\n"
+
+#. type: Plain text
+msgid "- Your encryption is even more secure with LUKS2."
+msgstr "- Votre chiffrement est encore plus sûr avec LUKS2."
+
+#. type: Plain text
+msgid "Congratulations on following our recommendations!"
+msgstr "Félicitations d'avoir suivi nos recommandations !"
+
+#. type: Title ###
+#, no-wrap
+msgid "Persistent Storage (5 words)"
+msgstr "Stockage persistant (5 mots)"
+
+#. type: Bullet: '1. '
+msgid "Consider adding another random word to your passphrase."
+msgstr "Pensez à ajouter un autre mot aléatoire à votre phrase de passe."
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"5_ps_passphrase\" text=\"Display the instructions to change the passphrase of your Persistent Storage.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"5_ps_passphrase\" text=\"\"\"\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid ""
+"If you created your encrypted volume with Tails 5.12 or earlier and are "
+"worried about a very powerful adversary, consider migrating your entire "
+"Tails to a different USB stick and destroying your old Tails USB stick (or "
+"at least [[securely deleting the entire device|doc/encryption_and_privacy/"
+"secure_deletion#device]])."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"5_ps_tails_installer\" text=\"Display the instructions to migrate your entire Tails to a new USB stick.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"5_ps_tails_installer\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"5_ps_tails_installer\" text=\"\"\"\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Backup Tails (5 words)"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid "Update your backup or create a new backup Tails using *Tails Cloner*."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   If you created your backup Tails with Tails 5.12 or earlier and are worried\n"
+"   about a very powerful adversary, consider creating your new backup Tails on a\n"
+"   different USB stick and destroying your old backup Tails (or at least\n"
+"   [[securely deleting the entire\n"
+"   device|doc/encryption_and_privacy/secure_deletion#device]]).\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"5_backup_tails_installer\" text=\"Display the instructions to update your backup or create a new backup.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"5_backup_tails_installer\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"5_backup_tails_installer\" text=\"\"\"\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Other encrypted volumes (5 words)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you created your encrypted volume with Tails 5.12 or earlier and your "
+"encrypted volume is on a traditional hard disk (not an SSD) and you can use "
+"the command line:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"5_other_cryptsetup_partition\" text=\"Display the instructions to identify the partition name using the command line.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"5_other_cryptsetup_partition\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"5_other_cryptsetup_partition\" text=\"\"\"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"5_other_cryptsetup_upgrade\" text=\"Display the instructions to upgrade to LUKS2 using the command line.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"5_other_cryptsetup_upgrade\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"5_other_cryptsetup_upgrade\" text=\"\"\"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"5_other_cryptsetup_passphrase\" text=\"Display the instructions to change your passphrase using the command line.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"5_other_cryptsetup_passphrase\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"5_other_cryptsetup_passphrase\" text=\"\"\"\n"
+
+#. type: Plain text
+msgid ""
+"If you create your encrypted volume with Tails 5.12 or earlier and your "
+"encrypted volume is on a USB stick (or an SSD) or if you are not comfortable "
+"with the command line:"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid "Migrate all your encrypted data to a new encrypted device."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   Follow our instructions on [[creating and using LUKS encrypted\n"
+"   volumes|doc/encryption_and_privacy/encrypted_volumes]].\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid ""
+"If you are worried about a very powerful adversary, consider destroying your "
+"old device (or at least [[securely deleting the entire device|doc/"
+"encryption_and_privacy/secure_deletion#device]])."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"6\">If your passphrase has 6 random words or more</h2>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "If your current passphrase has 6 random words or more:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Your encryption is secure with LUKS1, even against a very powerful "
+"adversary."
+msgstr ""
+
+#. type: Plain text
+msgid "Congratulations on following our most secure recommendations!"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Persistent Storage (6 words or more)"
+msgstr ""
+
+#. type: Plain text
+msgid "Your Persistent Storage is already secure, even with LUKS1."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"After you upgrade to Tails 5.14 or later, Tails will automatically convert "
+"your Persistent Storage to LUKS2 and make your Persistent Storage even more "
+"secure."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Backup Tails (6 words or more)"
+msgstr ""
+
+#. type: Plain text
+msgid "Your backup Tails is already secure, even with LUKS1."
+msgstr ""
+
+#. type: Plain text
+msgid "If you want to upgrade your backup Tails to LUKS2 anyway:"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid "Update your backup using *Tails Cloner*."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"6_backup_tails_installer\" text=\"Display the instructions to update your backup.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"6_backup_tails_installer\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"6_backup_tails_installer\" text=\"\"\"\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Other encrypted volumes (6 words or more)"
+msgstr ""
+
+#. type: Plain text
+msgid "Your other encrypted volumes are already secure, even with LUKS1."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you want to upgrade your other encrypted volumes to LUKS2 anyway and you "
+"know how to use the command line:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"6_other_cryptsetup_partition\" text=\"Display the instructions to identify the partition name using the command line.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"6_other_cryptsetup_partition\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"6_other_cryptsetup_partition\" text=\"\"\"\n"
+
+#. type: Bullet: '1. '
+msgid "Upgrade to LUKS2."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggle id=\"6_other_cryptsetup_upgrade\" text=\"Display the instructions to upgrade to LUKS2 using the command line.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!toggleable id=\"6_other_cryptsetup_upgrade\" text=\"\"\"\n"
+msgstr "   [[!toggleable id=\"6_other_cryptsetup_upgrade\" text=\"\"\"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"checking\">Knowing which version of LUKS is used in your devices</h2>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you know how to use the command line, you can verify whether your "
+"encryption uses PBKDF2 or Argon2id."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Persistent Storage"
+msgstr "Stockage persistant"
+
+#. type: Bullet: '   1. '
+msgid ""
+"When starting Tails, [[set up an administration password|doc/first_steps/"
+"welcome_screen/administration_password/]]."
+msgstr ""
+"Lors du démarrage de Tails, [[définissez un mot de passe d'administration|"
+"doc/first_steps/welcome_screen/administration_password/]]."
+
+#. type: Bullet: '   1. '
+msgid ""
+"Choose **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Root Terminal**."
+msgstr ""
+"Choisissez **Applications**&nbsp; **Outils système**&nbsp; **Terminal "
+"superutilisateur**."
+
+#. type: Bullet: '   1. '
+msgid "Execute the following command:"
+msgstr "Exécutez la commande suivante :"
+
+#. type: Plain text
+#, no-wrap
+msgid "          lsblk\n"
+msgstr "          lsblk\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"      The output is a list of the storage devices and partitions on the system.\n"
+"      For example:\n"
+msgstr ""
+"      La sortie est une liste de périphériques de stockage et de partitions du système.\n"
+"      Par exemple :\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"          NAME                   MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINT\n"
+"          loop0                    7:0    0  1.2G  1 loop  /lib/live/mount/rootfs/filesystem.squashfs\n"
+"          sda                      8:0    1    7G  0 disk\n"
+"          ├─sda1                   8:1    1    4G  0 part  /lib/live/mount/medium\n"
+"          └─sda2                   8:2    1    3G  0 part\n"
+"            └─TailsData_unlocked 253:0    0    3G  0 crypt /run/nosymfollow/live/persistence/TailsData_un...\n"
+"          zram0                  254:0    0  2.8G  0 disk  [SWAP]\n"
+msgstr ""
+"          NAME                   MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINT\n"
+"          loop0                    7:0    0  1.2G  1 loop  /lib/live/mount/rootfs/filesystem.squashfs\n"
+"          sda                      8:0    1    7G  0 disk\n"
+"          ├─sda1                   8:1    1    4G  0 part  /lib/live/mount/medium\n"
+"          └─sda2                   8:2    1    3G  0 part\n"
+"            └─TailsData_unlocked 253:0    0    3G  0 crypt /run/nosymfollow/live/persistence/TailsData_un...\n"
+"          zram0                  254:0    0  2.8G  0 disk  [SWAP]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "      Your Persistent Storage appears as `TailsData_unlocked`.\n"
+msgstr ""
+
+#. type: Bullet: '   1. '
+msgid ""
+"Take note of the *partition name* of your Persistent Storage, which appears "
+"above `TailsData_unlocked`. In this example, the Persistent Storage is in "
+"the partition <span class=\"code\">sda2</span>. Yours might be different."
+msgstr ""
+
+#. type: Bullet: '   1. '
+msgid ""
+"To verify whether your encrypted volume uses PBKDF2 or Argon2id, execute the "
+"following command."
+msgstr ""
+"Pour vérifier si votre volume chiffré utilise PBKDF2 ou Argon2id, exécuter "
+"la commande suivante."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"      Replace <span class=\"command-placeholder\">[partition]</span> with the\n"
+"      partition name found in step 4.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "      <p class=\"pre command-template\">sudo cryptsetup luksDump /dev/<span class=\"command-placeholder\">[partition]</span></p>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "      In the output:\n"
+msgstr "      Dans la sortie :\n"
+
+#. type: Bullet: '      - '
+msgid "`Version` indicates the version of LUKS, either `1` or `2`."
+msgstr "`Version` indique la version de LUKS, `1` ou `2`."
+
+#. type: Bullet: '      - '
+msgid ""
+"`PBKDF` indicates the key derivation function, either `pbkdf2` or `argon2id`."
+msgstr ""
+"`PBKDF` indique la fonction de dérivation de clé, soit `pbkdf2` ou "
+"`argon2id`."
+
+#. type: Title ###
+#, no-wrap
+msgid "Other encrypted volumes"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"      Replace <span class=\"command-placeholder\">[partition]</span> with the\n"
+"      partition name found in step 6.\n"
+msgstr ""
+
+#~ msgid ""
+#~ "<span class=\"command\">Version</span> indicates the version of LUKS, "
+#~ "either <span class=\"command\">1</span> or <span class=\"command\">2</"
+#~ "span>."
+#~ msgstr ""
+#~ "<span class=\"command\">Version</span> indique la version de LUKS, soit "
+#~ "<span class=\"command\">1</span> ou <span class=\"command\">2</span>."

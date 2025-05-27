@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-01-15 00:25+0000\n"
+"PO-Revision-Date: 2024-09-07 10:07+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+msgid "- [[Introduction to the Persistent Storage|persistent_storage]]"
+msgstr "- [[Introduzione all'Archivio Persistente|persistent_storage]]"
+
+#. type: Bullet: '  * '
+msgid "[[Creating the Persistent Storage|persistent_storage/create]]"
+msgstr "[[Creare l'Archivio Persistente|persistent_storage/create]]"
+
+#. type: Bullet: '  * '
+msgid "[[Configuring the Persistent Storage|persistent_storage/configure]]"
+msgstr "[[Configurare l'Archivio Persistente|persistent_storage/configure]]"
+
+#. type: Bullet: '  * '
+msgid "[[Unlocking and using the Persistent Storage|persistent_storage/use]]"
+msgstr ""
+"[[Sblocco e utilizzo dell'Archivio Persistente|persistent_storage/use]]"
+
+#. type: Bullet: '  * '
+msgid ""
+"[[Making a backup of your Persistent Storage|persistent_storage/backup]]"
+msgstr ""
+"[[Fare un backup del tuo Archivio Persistente|persistent_storage/backup]]"
+
+#. type: Bullet: '  * '
+msgid "[[Deleting the Persistent Storage|persistent_storage/delete]]"
+msgstr "[[Cancellare l'Archivio Persistente|persistent_storage/delete]]"
+
+#. type: Plain text
+msgid ""
+"- [[Installing additional software|persistent_storage/additional_software]]"
+msgstr ""
+"- [[Installazione di software aggiuntivo|persistent_storage/"
+"additional_software]]"
+
+#. type: Bullet: '  * '
+#, fuzzy
+#| msgid ""
+#| "[[Installing additional software|persistent_storage/additional_software]]"
+msgid ""
+"[[Converting dangerous documents to safe PDFs using *Dangerzone*|"
+"persistent_storage/additional_software/dangerzone]]"
+msgstr ""
+"[[Installazione di software aggiuntivo|persistent_storage/"
+"additional_software]]"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "- [[Installing additional software|persistent_storage/"
+#| "additional_software]]"
+msgid "- [[Installing additional fonts|persistent_storage/additional_fonts]]"
+msgstr ""
+"- [[Installazione di software aggiuntivo|persistent_storage/"
+"additional_software]]"
+
+#. type: Plain text
+msgid "- Advanced topics on the Persistent Storage"
+msgstr "- Approfondimenti sull'Archivio Persistente"
+
+#. type: Bullet: '  * '
+msgid ""
+"[[Changing the passphrase of the Persistent Storage|persistent_storage/"
+"passphrase]]"
+msgstr ""
+"[[Modificare la passphrase dell'Archivio Persistente|persistent_storage/"
+"passphrase]]"
+
+#. type: Bullet: '  * '
+msgid ""
+"[[Opening your Persistent Storage from another operating system|"
+"persistent_storage/open]]"
+msgstr ""
+"[[Aprire il tuo Archivio Persistente da un altro sistema operativo|"
+"persistent_storage/open]]"
+
+#. type: Bullet: '  * '
+#, fuzzy
+#| msgid "- Advanced topics on the Persistent Storage"
+msgid "Recovering data from the Persistent Storage"
+msgstr "- Approfondimenti sull'Archivio Persistente"
+
+#. type: Bullet: '    - '
+#, fuzzy
+#| msgid ""
+#| "[[Rescuing the Persistent Storage of a broken Tails|persistent_storage/"
+#| "rescue]]"
+msgid ""
+"[[Recovering data from the Persistent Storage when Tails doesn't start|"
+"persistent_storage/recover]]"
+msgstr ""
+"[[Salvataggio dell'Archivio Persistente di un Tails rotto|persistent_storage/"
+"rescue]]"
+
+#. type: Bullet: '    - '
+#, fuzzy
+#| msgid ""
+#| "[[Rescuing the Persistent Storage of a broken Tails|persistent_storage/"
+#| "rescue]]"
+msgid ""
+"[[Recovering data from the Persistent Storage when it has file system errors|"
+"persistent_storage/fsck]]"
+msgstr ""
+"[[Salvataggio dell'Archivio Persistente di un Tails rotto|persistent_storage/"
+"rescue]]"
+
+#~ msgid ""
+#~ "[[Checking the file system of the Persistent Storage|persistent_storage/"
+#~ "check]]"
+#~ msgstr ""
+#~ "[[Verifica del file system dell'Archivio Persistente|persistent_storage/"
+#~ "check]]"

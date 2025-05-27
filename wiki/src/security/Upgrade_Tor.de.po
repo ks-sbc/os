@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"PO-Revision-Date: 2024-11-13 13:35+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sun, 30 Oct 2011 15:12:13 +0000\"]]\n"
+msgstr "[[!meta date=\"Sun, 30 Oct 2011 15:12:13 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"You have to upgrade Tor to fix a critical anonymity vulnerability\"]]\n"
+msgstr ""
+"[[!meta title=\"Sie müssen Tor aktualisieren, um eine kritische Anonymitäts-"
+"Schwachstelle zu beheben\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"tip\">\n"
+msgstr "<div class=\"tip\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>This security issue was fixed in Tails 0.9.</p>\n"
+msgstr "<p>Dieses Sicherheitsproblem wurde in Tails 0.9 behoben.</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Plain text
+msgid ""
+"The version of Tor currently shipped in Tails does not protect your "
+"anonymity as it should.  **This vulnerability is critical.**"
+msgstr ""
+"Die derzeit in Tails enthaltene Version von Tor schützt Ihre Anonymität "
+"nicht so, wie sie sollte.  **Diese Sicherheitslücke ist kritisch.**"
+
+#. type: Plain text
+msgid ""
+"Until a future version of Tails is released (soon), the only way to have "
+"Tails protect your anonymity is to **upgrade Tor every time you start "
+"Tails**, by following the instructions bellow."
+msgstr ""
+"Bis eine zukünftige Version von Tails veröffentlicht wird (bald), ist der "
+"einzige Weg, Tails zu nutzen, um Ihre Anonymität zu schützen, **Tor jedes "
+"Mal zu aktualisieren, wenn Sie Tails starten**, indem Sie die folgenden "
+"Anweisungen befolgen."
+
+#. type: Plain text
+msgid ""
+"(Every time, really? Sure. Tails is amnesic: any change you make in it is "
+"lost upon restart.)"
+msgstr ""
+"(Jedes Mal, wirklich? Sicher. Tails ist amnesisch: Jede Änderung, die Sie "
+"daran vornehmen, geht beim Neustart verloren.)"
+
+#. type: Plain text
+msgid ""
+"To upgrade Tor, start a *Root Terminal* from the "
+"*Applications* → *Accessories* menu, and type the following command in there:"
+msgstr ""
+"Um Tor zu aktualisieren, starten Sie ein *Root Terminal* aus dem Menü "
+"*Anwendungen* → *Zubehör* und geben Sie dort den folgenden Befehl ein:"
+
+#. type: Plain text
+#, no-wrap
+msgid "\tapt-get update && apt-get install tor && service tor start\n"
+msgstr "\tapt-get update && apt-get install tor && service tor start\n"
+
+#. type: Plain text
+msgid ""
+"... then type *Enter*, and wait until the upgrade is completed, which may "
+"take a few minutes. At this time, the Vidalia icon on the top right of the "
+"screen should have changed from the usual green onion to a grey, red-crossed "
+"one. Right click on it and choose *Exit* in the menu that opens. Then, start "
+"a new Vidalia from the *Applications* → *Internet* menu."
+msgstr ""
+"... dann drücken Sie *Enter* und warten Sie, bis das Upgrade abgeschlossen "
+"ist, was einige Minuten dauern kann. Zu diesem Zeitpunkt sollte das Vidalia-"
+"Symbol oben rechts auf dem Bildschirm von der üblichen grünen Zwiebel zu "
+"einer grauen, rot durchgestrichenen Zwiebel gewechselt sein. Klicken Sie mit "
+"der rechten Maustaste darauf und wählen Sie *Beenden* im sich öffnenden "
+"Menü. Starten Sie dann ein neues Vidalia aus dem Menü *Anwendungen* → "
+"*Internet*."
+
+#. type: Plain text
+msgid "Once this is done, you can safely use Tails as usual."
+msgstr ""
+"Sobald dies erledigt ist, können Sie Tails wie gewohnt sicher verwenden."
+
+#. type: Plain text
+msgid ""
+"Want details? See the [Tor project's blog post](https://blog.torproject.org/"
+"blog/tor-02234-released-security-patches)  about it."
+msgstr ""
+"Möchten Sie mehr erfahren? Siehe den [Blogbeitrag des Tor-"
+"Projekts](https://blog.torproject.org/blog/tor-02234-released-security-"
+"patches) dazu."

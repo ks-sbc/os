@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-10-27 09:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <a>
+msgid "<a id=\"donate-banner\" href=\"https://tails.net/donate/\">"
+msgstr ""
+
+#. type: Content of: <a><p>
+msgid ""
+"Everyday, thousands of vulnerable people use Tails to control their digital "
+"lives."
+msgstr ""
+
+#. type: Content of: <a><p>
+msgid "<u>Donate now</u> to fight surveillance and censorship!"
+msgstr ""
+
+#. type: Content of: outside any tag (error?)
+msgid "</a>"
+msgstr ""

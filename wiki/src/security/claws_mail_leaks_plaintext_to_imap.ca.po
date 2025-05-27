@@ -1,0 +1,473 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-01-23 00:41+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Thu, 07 May 2015 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Thu, 07 May 2015 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Claws Mail leaks plaintext of encrypted emails to IMAP server\"]]\n"
+msgstr "[[!meta title=\"Claws Mail filtra text sense format dels correus electrònics encriptats al servidor IMAP\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Plain text
+msgid ""
+"We discovered that *Claws Mail*, the email client in Tails, stores plaintext "
+"copies of all emails on the remote IMAP server, including those that are "
+"meant to be encrypted."
+msgstr ""
+"Hem descobert que *Claws Mail*, el client de correu electrònic de Tails, "
+"emmagatzema còpies de text sense format de tots els correus electrònics al "
+"servidor IMAP remot, inclosos els que estan destinats a ser encriptats."
+
+#. type: Bullet: '  - '
+msgid ""
+"When sending an email, *Claws Mail* copies the email in plaintext to the "
+"sending queue of the IMAP server before encrypting the email.  *Claws Mail* "
+"deletes this plaintext copy after sending the email."
+msgstr ""
+"Quan envia un correu electrònic, *Claws Mail* copia el correu electrònic en "
+"text sense format a la cua d'enviament del servidor IMAP abans d'encriptar "
+"el correu electrònic. *Claws Mail* elimina aquesta còpia de text sense "
+"format després d'enviar el correu electrònic."
+
+#. type: Bullet: '  - '
+msgid ""
+"*Claws Mail* drafts in plaintext on the server. An email can be saved as "
+"draft either:"
+msgstr ""
+"Els esborranys de *Claws Mail* estan en text pla al servidor. Un correu "
+"electrònic es pot desar com a esborrany:"
+
+#. type: Bullet: '    - '
+msgid "Manually by clicking on the **Draft** button when composing an email."
+msgstr ""
+"Manualment fent clic al botó **Esborrany** quan redacteu un correu "
+"electrònic."
+
+#. type: Bullet: '    - '
+msgid ""
+"Automatically if you selected the **automatically save message to Draft "
+"folder** option in the writing preferences. This option is deselected by "
+"default in Tails."
+msgstr ""
+"Automàticament si heu seleccionat l'opció **Desa automàticament el missatge "
+"a la carpeta Esborrany** a les preferències d'escriptura. Aquesta opció està "
+"desactivada per defecte a Tails."
+
+#. type: Plain text
+#, no-wrap
+msgid "**All users of *Claws Mail* using IMAP and its OpenPGP plug-in are affected.**\n"
+msgstr "**Tots els usuaris de *Claws Mail* que utilitzen IMAP i el seu connector OpenPGP es veuen afectats.**\n"
+
+#. type: Plain text
+msgid "Users of *Claws Mail* using POP are not affected."
+msgstr "Els usuaris de *Claws Mail* que utilitzen POP no es veuen afectats."
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"tip\">\n"
+msgstr "<div class=\"tip\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"To know if you are using IMAP or POP, choose <span class=\"menuchoice\">\n"
+"<span class=\"guimenu\">Configuration</span>&nbsp;▸\n"
+"<span class=\"guimenuitem\">Edit accounts&hellip;</span></span> and refer\n"
+"to the <span class=\"guilabel\">Protocol</span> column in the list of\n"
+"accounts.\n"
+msgstr ""
+"Per saber si utilitzeu IMAP o POP, trieu <span class=\"menuchoice\">\n"
+"<span class=\"guimenu\">Configuració</span>&nbsp;▸\n"
+"<span class=\"guimenuitem\">Edita els comptes&hellip;</span></span> i consulteu\n"
+"la columna <span class=\"guilabel\">Protocol</span> de la llista de\n"
+"comptes.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Plain text
+msgid ""
+"Unfortunately, we were not yet able to fix the problem automatically and for "
+"everybody. This would require to either modify *Claws Mail* or to migrate to "
+"a different application. Refer to the workarounds section to solve this "
+"problem in your setup and please warn others around you."
+msgstr ""
+"Malauradament, encara no hem pogut solucionar el problema automàticament i "
+"per a tothom. Això requeriria modificar *Claws Mail* o migrar a una "
+"aplicació diferent. Consulteu la secció de solucions alternatives per "
+"resoldre aquest problema a la vostra configuració i aviseu d'aquest problema "
+"al vostre entorn."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Workarounds"
+msgstr "Solucions temporals"
+
+#. type: Title -
+#, no-wrap
+msgid "Verify the content of your **Drafts** folder"
+msgstr "Verifiqueu el contingut de la vostra carpeta **Esborranys**"
+
+#. type: Plain text
+msgid ""
+"First of all, verify the content of the **Drafts** folder on the server, "
+"either through *Claws Mail* or through the web interface of your email "
+"provider. Delete any plaintext email that might have been stored against "
+"your will in this folder until now."
+msgstr ""
+"En primer lloc, verifiqueu el contingut de la carpeta **Esborranys** al "
+"servidor, ja sigui mitjançant *Claws Mail* o mitjançant la interfície web "
+"del vostre proveïdor de correu electrònic. Suprimiu qualsevol correu "
+"electrònic de text sense format que s'hagués emmagatzemat en contra de la "
+"vostra voluntat en aquesta carpeta fins ara."
+
+#. type: Plain text
+msgid ""
+"Then apply one of the other two workarounds to prevent more leaks in the "
+"future."
+msgstr ""
+"A continuació, apliqueu una de les altres dues solucions temporals per "
+"evitar més fuites en el futur."
+
+#. type: Title -
+#, no-wrap
+msgid "Use POP instead of IMAP"
+msgstr "Utilitzeu POP en comptes d'IMAP"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Claws Mail* can connect to the email server using either the IMAP or POP\n"
+"protocol.\n"
+msgstr ""
+"*Claws Mail* es pot connectar al servidor de correu electrònic mitjançant els\n"
+"protocols IMAP o POP.\n"
+
+#. type: Bullet: '  - '
+msgid ""
+"With IMAP, *Claws Mail* constantly synchronizes with the server and displays "
+"the emails and folders that are currently stored on the server. IMAP is "
+"better suited if you access your emails from different operating systems."
+msgstr ""
+"Amb IMAP, *Claws Mail* es sincronitza constantment amb el servidor i mostra "
+"els correus electrònics i les carpetes que s'emmagatzemen actualment al "
+"servidor. IMAP és més adequat si accediu als vostres correus electrònics des "
+"de diferents sistemes operatius."
+
+#. type: Bullet: '  - '
+msgid ""
+"With POP, *Claws Mail* downloads the emails that are in the inbox on the "
+"server and possibly removes them from the server. POP is better suited if "
+"you access emails from Tails only and store them in the persistent volume."
+msgstr ""
+"Amb POP, *Claws Mail* baixa els correus electrònics que es troben a la "
+"safata d'entrada del servidor i possiblement els elimina del servidor. POP "
+"és més adequat si accediu als correus electrònics només des de Tails i els "
+"deseu al volum persistent."
+
+#. type: Plain text
+msgid ""
+"To know more, see also this Yahoo! Help page on [comparing the differences "
+"between POP and IMAP](https://help.yahoo.com/kb/mail-for-desktop/compare-"
+"differences-pop-imap-sln3769.html)."
+msgstr ""
+"Per saber-ne més, vegeu també aquesta pàgina d'ajuda de Yahoo! sobre "
+"[comparació de les diferències entre POP i IMAP](https://help.yahoo.com/kb/"
+"mail-for-desktop/compare-differences-pop-imap-sln3769.html) (en anglès)."
+
+#. type: Plain text
+msgid ""
+"POP is not affected at all by this security problem. When using POP, only "
+"encrypted emails are sent to the server. So consider switching to POP if you "
+"have an email account dedicated to your activities on Tails.  To do so:"
+msgstr ""
+"POP no es veu afectat en absolut per aquest problema de seguretat. Quan "
+"utilitzeu POP, només s'envien correus electrònics encriptats al servidor. "
+"Així que penseu a canviar a POP si teniu un compte de correu electrònic "
+"dedicat a les vostres activitats a Tails. Per fer-ho:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Choose **File**&nbsp;▸ **Add mailbox**&nbsp;▸ **MH&hellip;** to\n"
+"create a local mailbox where to download your emails.\n"
+msgstr ""
+"1. Trieu **Fitxer**&nbsp;▸ **Afegeix bústia**&nbsp;▸ **MH&hellip;** per\n"
+"crear una bústia de correu local on baixar els vostres correus electrònics.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. To store the mailbox in the persistent volume, specify\n"
+"`.claws-mail/Mail` as location.\n"
+"Make sure to type the `.` before\n"
+"`claws-mail/Mail`.\n"
+msgstr ""
+"1. Per emmagatzemar la bústia al volum persistent, especifiqueu\n"
+"`.claws-mail/Mail` com a ubicació.\n"
+"Assegureu-vos d'escriure el `.` abans de\n"
+"`claws-mail/Mail`.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!img claws_mail_leaks_plaintext_to_imap/add_mailbox.png link=\"no\"]]\n"
+msgstr "   [[!img claws_mail_leaks_plaintext_to_imap/add_mailbox.png link=\"no\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Choose **Configuration**&nbsp;▸ **Edit accounts&hellip;**, select\n"
+"your IMAP account in the list of accounts, and click **Delete** to\n"
+"delete it. Doing so does not delete any email stored on the server.\n"
+msgstr ""
+"1. Trieu **Configuració**&nbsp;▸ **Edita els comptes&hellip;**, seleccioneu\n"
+"el vostre compte IMAP a la llista de comptes i feu clic a **Suprimeix** per\n"
+"esborrar-lo. En fer-ho, no se suprimirà cap correu electrònic emmagatzemat al servidor.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Click **New** and configure this new account as specified by your\n"
+"email provider.\n"
+msgstr ""
+"1. Feu clic a **Nou** i configureu aquest compte nou tal com ho especifica\n"
+"el vostre proveïdor de correu electrònic.\n"
+
+#. type: Bullet: '   - '
+msgid ""
+"In the **Basic** tab, make sure that the **Protocol** option is set to "
+"**POP3**."
+msgstr ""
+"A la pestanya **Bàsic**, assegureu-vos que l'opció **Protocol** estigui "
+"establerta a **POP3**."
+
+#. type: Bullet: '   - '
+msgid ""
+"In the **Receive** tab, click on the **Browse** button of the **Default "
+"Inbox** option and select the **Inbox** folder of the mailbox that you "
+"created in step 2."
+msgstr ""
+"A la pestanya **Rebre**, feu clic al botó **Examina** de l'opció **Safata "
+"d'entrada predeterminada** i seleccioneu la carpeta **Safata d'entrada** de "
+"la bústia de correu que heu creat al pas 2."
+
+#. type: Plain text
+#, no-wrap
+msgid "     [[!img claws_mail_leaks_plaintext_to_imap/select_inbox.png link=\"no\"]]\n"
+msgstr "     [[!img claws_mail_leaks_plaintext_to_imap/select_inbox.png link=\"no\"]]\n"
+
+#. type: Bullet: '   - '
+msgid ""
+"If you want to keep a copy of the received emails on the server, verify the "
+"preferences in the **Receive** tab. We recommend you to disable the **Remove "
+"messages on server when received** option until you make sure that the "
+"emails are stored in the persistent volume."
+msgstr ""
+"Si voleu conservar una còpia dels correus electrònics rebuts al servidor, "
+"verifiqueu les preferències a la pestanya **Rebre**. Us recomanem que "
+"desactiveu l'opció **Elimina els missatges del servidor quan es rebi** fins "
+"que us assegureu que els correus electrònics s'emmagatzemen al volum "
+"persistent."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Close the preferences dialog and the list of accounts to go back to\n"
+"the main window of *Claws Mail*.\n"
+msgstr ""
+"1. Tanqueu el diàleg de preferències i la llista de comptes per tornar\n"
+"a la finestra principal de *Claws Mail*.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Click on the **Get Mail** button to download all emails from the\n"
+"inbox on the server. Emails in other folders are not downloaded.\n"
+msgstr ""
+"1. Feu clic al botó **Obtén el correu** per baixar tots els correus electrònics de la\n"
+"safata d'entrada del servidor. Els correus electrònics d'altres carpetes no es baixen.\n"
+
+#. type: Title -
+#, no-wrap
+msgid "Use local **Drafts** and **Queue** folders"
+msgstr "Utilitzeu les carpetes locals **Esborranys** i **Cua**"
+
+#. type: Plain text
+msgid ""
+"If you want to continue using IMAP, you should configure your IMAP account "
+"to use **Drafts** and **Queue** folders stored in Tails instead of on the "
+"server. To do so:"
+msgstr ""
+"Si voleu continuar utilitzant IMAP, hauríeu de configurar el vostre compte "
+"IMAP perquè utilitzi les carpetes **Esborranys** i **Cua** emmagatzemades a "
+"Tails en comptes de fer-ho al servidor. Per fer-ho:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Choose **Add mailbox**&nbsp;▸ **MH&hellip;** to create a local\n"
+"mailbox where to save your drafts and queued emails.\n"
+msgstr ""
+"1. Trieu **Afegeix bústia**&nbsp;▸ **MH&hellip;** per crear una bústia\n"
+"local on desar els esborranys i els correus electrònics a la cua.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Choose **Configuration**&nbsp;▸ **Edit accounts&hellip;**, select\n"
+"your IMAP account in the list of accounts, and click **Edit** to edit\n"
+"its preferences.\n"
+msgstr ""
+"1. Trieu **Configuració**&nbsp;▸ **Edita els comptes&hellip;**, seleccioneu\n"
+"el vostre compte IMAP a la llista de comptes i feu clic a **Edita** per editar\n"
+"les seves preferències.\n"
+
+#. type: Bullet: '1. '
+msgid "Select **Advanced** in the left pane."
+msgstr "Seleccioneu **Avançat** al panell esquerre."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Select the **Put queued messages in** option, click **Browse**, and\n"
+"select the **Queue** folder of the **MH** mailbox.\n"
+msgstr ""
+"1. Seleccioneu l'opció **Posa missatges a la cua a**, feu clic a **Cerca** i\n"
+"seleccioneu la carpeta **Cua** de la bústia de correu **MH**.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1. Select the **Put draft messages in** option, click **Browse**, and\n"
+"select the **Drafts** folder of the **MH** mailbox.\n"
+msgstr ""
+"1. Seleccioneu l'opció **Posa esborranys de missatges a**, fes clic a **Cerca** i\n"
+"seleccioneu la carpeta **Esborranys** de la bústia de correu **MH**.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img claws_mail_leaks_plaintext_to_imap/local_folders.png link=\"no\"]]\n"
+msgstr "[[!img claws_mail_leaks_plaintext_to_imap/local_folders.png link=\"no\"]]\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Long term solution"
+msgstr "Solució a llarg termini"
+
+#. type: Plain text
+msgid ""
+"As for the possible long term solutions to this problem, we are considering:"
+msgstr ""
+"Pel que fa a les possibles solucions a llarg termini a aquest problema, "
+"estem considerant:"
+
+#. type: Bullet: '- '
+msgid ""
+"Getting the development team of *Claws Mail* to [fix the problem upstream]"
+"(http://www.thewildbeast.co.uk/claws-mail/bugzilla/show_bug.cgi?id=2965).  "
+"We contacted them about this problem already. Please help them provide a "
+"technical solution if you can."
+msgstr ""
+"Aconseguir que l'equip de desenvolupament de *Claws Mail* [solucioni el "
+"problema](http://www.thewildbeast.co.uk/claws-mail/bugzilla/show_bug.cgi?"
+"id=2965). Ja ens vam posar en contacte amb ells per aquest problema. Si us "
+"plau, ajudeu-los a oferir una solució tècnica si podeu."
+
+#. type: Bullet: '- '
+msgid ""
+"Replacing *Claws Mail* with *Icedove* (the name of *Mozilla Thunderbird* in "
+"Debian). We have been willing to do so for years and this problem motivates "
+"us to move faster."
+msgstr ""
+"Substituir *Claws Mail* per *Icedove* (el nom de *Mozilla Thunderbird* a "
+"Debian). Fa anys que estem disposats a fer-ho i aquest problema ens motiva a "
+"fer-ho encara més."
+
+#. type: Title =
+#, no-wrap
+msgid "Technical details"
+msgstr "Detalls tècnics"
+
+#. type: Title -
+#, no-wrap
+msgid "Leak through the sending queue"
+msgstr "Fuga a través de la cua d'enviament"
+
+#. type: Plain text
+msgid ""
+"When sending an email from an IMAP account, *Claws Mail* does the following:"
+msgstr ""
+"Quan s'envia un correu electrònic des d'un compte IMAP, *Claws Mail* fa el "
+"següent:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  1. It connects to the IMAP server and stores a plaintext copy of the\n"
+"  email in the **Queue** folder on the server.\n"
+msgstr ""
+"  1. Es connecta al servidor IMAP i emmagatzema una còpia de text sense format\n"
+"  del correu electrònic a la carpeta **Cua** del servidor.\n"
+
+#. type: Bullet: '  1. '
+msgid "It encrypts the email locally."
+msgstr "Encripta el correu electrònic localment."
+
+#. type: Bullet: '  1. '
+msgid "It sends the encrypted email through the SMTP server."
+msgstr "Envia el correu electrònic encriptat a través del servidor SMTP."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  1. It connects to the IMAP server and stores an encrypted copy of the\n"
+"  email in the **Sent** folder on the server.\n"
+msgstr ""
+"  1. Es connecta al servidor IMAP i emmagatzema una còpia encriptada del\n"
+"  correu electrònic a la carpeta **Enviats** del servidor.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  1. It connects to the IMAP server and deletes the plaintext email\n"
+"  saved in step 1 from the **Queue** folder.\n"
+msgstr ""
+"  1. Es connecta al servidor IMAP i elimina el correu electrònic de text sense format\n"
+"  desat al pas 1 de la carpeta **Cua**.\n"

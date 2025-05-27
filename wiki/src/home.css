@@ -1,0 +1,132 @@
+/* Tor check */
+
+#tor-check {
+  position: absolute;
+  right: 30px;
+  width: auto;
+  margin: 0;
+}
+
+#tor-check a {
+  background: var(--medium-light-green) url('home/onion.png') no-repeat 20px !important;
+  padding-left: 60px;
+  padding-right: 30px !important;
+}
+
+#tor-check a:hover {
+  background-color: var(--medium-dark-green) !important;
+}
+
+/* Random message box */
+
+.random-message {
+  display: none;
+  overflow: auto;
+  margin-bottom: 2em;
+  padding: 1em 2em 1em 2em !important;
+  background: var(--background-gray) !important;
+  border: 1px solid var(--light-gray) !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: var(--gray-button-shadow);
+  color: black !important;
+}
+
+.random-message p:last-child {
+  margin-bottom: 0;
+}
+
+.random-message h2:first-child {
+  margin-top: 0;
+}
+
+/* Survey message */
+
+.survey {
+  background: var(--background-purple) url('lib/survey.png') no-repeat top 50% left 2em !important;
+  border: none !important;
+  padding-left: 9em !important;
+  font-size: 16px;
+}
+
+.survey .answer {
+  background: var(--medium-light-green);
+  color: black !important;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 0.5em 0.25em;
+  text-align: center;
+  box-shadow: var(--green-button-shadow);
+  width: 100%;
+}
+
+/* Donate message outside of the year-end campaign */
+
+#donate-random {
+  background-color: var(--background-gray) !important;
+  background-image: url(donate/year-end/godzilla.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 275px !important;
+  background-position: -35px bottom !important;
+  padding-left: 180px !important;
+  border: 1px solid var(--light-gray) !important;
+  font-size: 14px;
+}
+
+a#donate-random {
+  text-decoration: none;
+}
+
+#donate-random p {
+  width: 68%;
+}
+
+#donate-random span.link {
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid black !important;
+}
+
+/* Donate message during the year-end campaign */
+#donate-year-end {
+  background-color: var(--yellow);
+  background-image: url(donate/year-end/godzilla.png);
+  background-repeat: no-repeat;
+  background-size: 275px;
+  background-position: -35px bottom;
+  overflow: auto;
+  padding: 1em;
+  margin-bottom: 2em;
+  padding-left: 140px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+#donate-year-end p+p, #donate-year-end .qrcode p {
+  margin-bottom: 0;
+}
+
+#donate-year-end a {
+  color: black !important;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid black !important;
+}
+
+#donate-year-end .text {
+  max-width: 550px;
+}
+
+#donate-year-end .qrcode {
+  text-align: center;
+  width: 165px;
+  min-width: 165px;
+}
+
+@media (max-width: 800px) {
+  #donate-year-end {
+    flex-wrap: wrap;
+  }
+}

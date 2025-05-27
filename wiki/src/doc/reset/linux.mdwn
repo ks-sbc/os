@@ -1,0 +1,81 @@
+[[!meta title="Resetting a USB stick using Linux"]]
+
+[[!inline pages="doc/reset.intro" raw="yes" sort="age"]]
+
+[[!toc levels=1]]
+
+<a id="disks"></a>
+
+Using the *Disks* utility
+=========================
+
+<div class="caution">
+
+<p><b>You might overwrite any hard disk on the computer.</b></p>
+
+<p>If at some point you are not sure about which device to choose, stop proceeding.</p>
+
+</div>
+
+1. Make sure that the USB stick that you want to reset is unplugged.
+
+1. Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks** to start the
+   *Disks* utility.
+
+   A list of all the storage devices on the computer appears in the left pane
+   of the window.
+
+1. Plug in the USB stick that you want to reset.
+
+   A new device appears in the list of storage devices. This new device
+   corresponds to the USB stick that you plugged in. Click on it.
+
+1. In the right pane of the window, verify that the device corresponds
+   to the USB stick that you want to reset, its brand, its size, etc.
+
+1. To reset the USB stick, click on the [[!img lib/view-more.png alt="Drive Options" class="symbolic" link="no"]] button
+   in the title bar and choose **Format Disk**
+   to erase all the existing partitions on the device.
+
+1. In the **Format Disk** dialog:
+
+   - If you want to overwrite all data on the device, choose **Overwrite
+     existing data with zeroes** in the **Erase** menu.
+
+     <div class="caution">
+
+     <p>Overwriting existing data does not erase all data on flash
+     memories, such as USB sticks and SSDs (Solid-State Drives).</p>
+
+     <p>See the [[limitations of file deletion|doc/encryption_and_privacy/secure_deletion#spare]].</p>
+
+     </div>
+
+   - Choose **Compatible with all systems and devices (MBR/DOS)** in the
+     **Partitioning** menu.
+
+1. Click **Format**.
+
+1. In the confirmation dialog, click **Format** to confirm.
+
+1. To make sure that all the changes are written to the USB stick, click on the
+   [[!img lib/media-eject.png alt="Eject" class="symbolic" link="no"]]
+   button in the title bar.
+
+Resetting a Tails USB stick from itself
+=======================================
+
+If Tails is your only Linux system, you can generally reset a Tails USB stick
+directly from that USB stick while running Tails.
+
+1.  When starting Tails, add the `toram` boot
+    option in the *Boot Loader*.
+
+    See [[using the *Boot Loader*|advanced_topics/boot_options]].
+
+2.  If Tails starts as usual, follow the instructions for [[resetting a USB stick
+    using the *Disks* utility|linux#disks]].
+
+    **If the system fails to start**, that means that the computer does not have
+    enough memory for this operation mode. Try with another computer, or find
+    another Linux system, such as another Tails USB stick, to do the reset from.

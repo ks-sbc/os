@@ -1,0 +1,140 @@
+[[!meta title="Migrating OpenPGP configuration from Enigmail in Thunderbird 78"]]
+
+[[!toc levels=2]]
+
+Since Tails 4.13 (November 2020), *Thunderbird* 78 replaces the
+*Enigmail* extension with built-in support for OpenPGP encryption.
+
+If you used *Enigmail* before Tails 4.13, follow the instructions below to
+migrate from *Enigmail* to *Thunderbird* 78. Tails does not include *Enigmail*
+2.2, the last version of the extension, which automates this migration.
+
+See also the official [OpenPGP in Thunderbird - HOWTO and
+FAQ](https://support.mozilla.org/kb/openpgp-thunderbird-howto-and-faq).
+
+<h1 id="private">Migrate your private key</h1>
+
+<h2 id="export-private">Export your private key using <em>Kleopatra</em></h2>
+
+From the desktop:
+
+1. Choose **Applications&nbsp;▸ Accessories&nbsp;▸ Kleopatra**.
+
+1. Select the private key that you want to migrate to *Thunderbird*.
+
+1. Choose **File&nbsp;▸ Backup Secret Keys…** and save this private key to your
+   *Home* directory.
+
+1. Close *Kleopatra*.
+
+<h2 id="import-private">Import your private key in <em>Thunderbird</em></h2>
+
+In *Thunderbird*:
+
+1. Choose **[[!img lib/open-menu.png alt="Menu" class="symbolic"
+   link="no"]]&nbsp;▸ Account Settings**.
+
+1. In the left pane, identify the account
+   that corresponds to the private key that you want to import and
+   choose **End-to-End Encryption**.
+
+1. In the right pane, click the **Add Key…** button.
+
+1. In the **Add a Personal OpenPGP Key** dialog, choose **Import an
+   existing OpenPGP Key** and click **Continue**.
+
+1. Click the **Select File to Import…** button and choose
+   the private key that your exported from *Kleopatra*.
+
+1. In the next dialog, make sure that your private key is listed and
+   that the option **Treat this key as a Personal Key** is selected.
+
+1. Click **Continue**, enter the passphrase for your private key (if
+   any), and click **Continue** again.
+
+   Your private key should now be listed in the **End-to-End
+   Encryption** settings of your account.
+
+1. Select your private key to enable OpenPGP encryption for this
+   account.
+
+<h2 id="primary-password">Set up a Primary Password</h2>
+
+In *Thunderbird* 78, OpenPGP private keys are not protected by a passphrase.
+That's why we recommend that you set up a Primary Password.
+
+With a Primary Password, your private key is encrypted in your
+*Thunderbird* profile and is only unlocked while *Thunderbird* is running.
+If your *Thunderbird* profile is stored in your Persistent Storage, then
+your private key is encrypted twice: once by *Thunderbird* in your
+profile and a second time by the encryption of the Persistent Storage.
+
+1. Choose **[[!img lib/open-menu.png alt="Menu" class="symbolic"
+   link="no"]]&nbsp;▸ Settings**.
+
+1. Choose **Privacy & Security**.
+
+1. In the **Passwords** section, select the option **Use a Primary
+   Password**.
+
+1. In the **Primary Password** dialog, enter your Primary Password
+   and click **OK**.
+
+<h1 id="public">Migrate the public keys of your contacts</h1>
+
+<h2 id="export-public">Export the public keys using <em>Kleopatra</em></h2>
+
+From the desktop:
+
+1. Choose **Applications&nbsp;▸ Accessories&nbsp;▸ Kleopatra**.
+
+1. Select the public keys that you want to migrate to *Thunderbird*.
+
+   You can use **Shift+click** and **Ctrl+click** to select multiple keys.
+
+1. Choose **File&nbsp;▸ Export…** and save these public keys to your
+   *Home* directory.
+
+1. Close *Kleopatra*.
+
+<h2 id="import-public">Import the public keys in <em>Thunderbird</em></h2>
+
+In *Thunderbird*:
+
+1. Choose **[[!img lib/open-menu.png alt="Menu" class="symbolic"
+   link="no"]]&nbsp;▸ Tools&nbsp;▸ OpenPGP Key Manager**.
+
+1. In the **OpenPGP Key Manager**, choose **File&nbsp;▸ Import Public Key(s)
+   From File.**
+
+1. Choose the file containing the public keys that you exported from
+   *Kleopatra*.
+
+   If *Thunderbird* fails to import many public keys at once, split
+   these public keys into several smaller files. *Thunderbird* can only import
+   public key files of less than 5 MB.
+
+<h2 id="accept-public">Mark the public keys as accepted</h2>
+
+By default, new public keys are not marked as "*accepted*" by *Thunderbird* and
+you cannot encrypt emails to "unaccepted" keys.
+
+To mark a public key as accepted:
+
+1. Choose **[[!img lib/open-menu.png alt="Menu" class="symbolic"
+   link="no"]]&nbsp;▸ Tools&nbsp;▸ OpenPGP Key Manager**.
+
+1. Double-click on the public key that you want to mark as accepted.
+
+1. In the **Your Acceptance** tab of the **Key Properties** dialog,
+   select the option that applies to how much you verified the public
+   key.
+
+<h2 id="disable-gnupg">Turn off the GnuPG feature of your Persistent Storage</h2>
+
+If you only use OpenPGP in *Thunderbird*, you can turn off the GnuPG
+feature of the Persistent Storage:
+
+1. Choose **Applications&nbsp;▸ Persistent Storage**.
+
+1. Turn off the GnuPG feature.

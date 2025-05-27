@@ -1,0 +1,37 @@
+# KSBC OS Code Owners
+# This file defines who should review changes to different parts of the codebase
+# For security-critical components, multiple reviewers are required
+
+# Global owners (fallback for all files)
+* @ks-sbc/maintainers
+
+# Security-critical components require security team review
+/config/chroot_local-hooks/40-iptables @ks-sbc/security @ks-sbc/maintainers
+/config/chroot_local-hooks/45-enable-AppArmor-profiles @ks-sbc/security @ks-sbc/maintainers
+/config/chroot_local-hooks/48-tweak-AppArmor-profiles @ks-sbc/security @ks-sbc/maintainers
+/config/chroot_local-patches/apparmor-* @ks-sbc/security @ks-sbc/maintainers
+
+# DRUIDS components (when implemented)
+/druids/ @ks-sbc/druids-team @ks-sbc/maintainers
+/config/chroot_local-includes/usr/lib/python*/dist-packages/druids/ @ks-sbc/druids-team
+/config/chroot_local-includes/usr/share/druids/ @ks-sbc/druids-team
+
+# Cryptographic components
+*.key @ks-sbc/security
+*.pem @ks-sbc/security
+*.crt @ks-sbc/security
+
+# Build system
+/auto/ @ks-sbc/build-team
+/config/ @ks-sbc/build-team
+/vagrant/ @ks-sbc/build-team
+Rakefile @ks-sbc/build-team
+
+# Documentation
+*.md @ks-sbc/documentation
+/wiki/ @ks-sbc/documentation
+DRUIDS.md @ks-sbc/druids-team @ks-sbc/maintainers
+
+# CI/CD
+/.github/ @ks-sbc/devops @ks-sbc/security
+/.gitlab-ci* @ks-sbc/devops

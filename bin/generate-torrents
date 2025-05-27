@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -eu
+set -x
+
+tmp="$(mktemp -d)"
+trap 'rm -rf "$tmp"' EXIT
+
+for type in iso img; do
+    dirname="tails-amd64-${VERSION:?}"
+    basename="${dirname}.${type:?}"
+    mkdir -p "${tmp:?}/tails-amd64-${VERSION:?}-${type:?}"
+    cd "${tmp:?}/tails-amd64-${VERSION:?}-${type:?}"
+    for ext in '' '.sig'; do
+        ln -s "${ISOS:?}/${dirname}/${basename}${ext}" .
+    done
+    mktorrent \
+        -o "${ISOS:?}/tails-amd64-${VERSION:?}.${type:?}.torrent" \
+        -a 'udp://tracker.torrent.eu.org:451' \
+        -a 'udp://tracker.coppersurfer.tk:6969' \
+        "${tmp:?}/tails-amd64-${VERSION:?}-${type:?}"
+    transmission-show "${ISOS:?}/tails-amd64-${VERSION:?}.${type:?}.torrent"
+    cd -
+done

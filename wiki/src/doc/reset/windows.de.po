@@ -1,0 +1,402 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-05-02 21:34+0000\n"
+"PO-Revision-Date: 2024-11-02 20:09+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: Tails localization <tails-l10n@boum.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Resetting a USB stick using Windows\"]]\n"
+msgstr "[[!meta title=\"Einen USB-Stick unter Windows zurücksetzen\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/reset.intro\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/reset.intro.de\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"caution\">\n"
+msgstr "<div class=\"caution\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p><b>You might overwrite any hard disk on the computer.</b></p>\n"
+msgstr ""
+"<p><b>Sie könnten jegliche Festplatten des Computers überschreiben.</b></p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>If at some point you are not sure about which device to choose, stop proceeding.</p>\n"
+msgstr ""
+"<p>Falls Sie sich an irgendeinem Punkt unsicher darüber sind, welches Medium "
+"Sie wählen sollen, brechen Sie den Vorgang ab.</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Erase Tails from the USB stick"
+msgstr "Tails vom USB-Stick löschen"
+
+#. type: Plain text
+msgid "First, erase Tails from the USB stick:"
+msgstr "Zuerst löschen Sie Tails vom USB-Stick:"
+
+#. type: Bullet: '1. '
+msgid "Make sure that the USB stick that you want to reset is unplugged."
+msgstr ""
+"Stellen Sie sicher, dass der USB-Stick, den Sie zurücksetzen möchten, nicht "
+"angeschlossen ist."
+
+#. type: Bullet: '1. '
+msgid ""
+"Open the **Start** ([[!img lib/start.png class=\"symbolic\" link=\"no\" "
+"alt=\"\"]]) menu."
+msgstr ""
+"Öffnen Sie das **Start** ([[!img lib/start.png class=\"symbolic\" link=\"no\""
+" alt=\"\"]])-Menü."
+
+#. type: Bullet: '1. '
+msgid "Choose **Windows System**&nbsp;▸ **Command Prompt**."
+msgstr "Wählen Sie **Windows-System**&nbsp;▸ **Eingabeaufforderung**."
+
+#. type: Bullet: '1. '
+msgid "Execute the following command to start the *Diskpart* utility."
+msgstr ""
+"Führen Sie den folgenden Befehl aus, um das *Diskpart*-Dienstprogramm zu "
+"starten."
+
+#. type: Plain text
+#, no-wrap
+msgid "   <p class=\"command-windows\">diskpart</p>\n"
+msgstr "   <p class=\"command-windows\">diskpart</p>\n"
+
+#. type: Bullet: '1. '
+msgid ""
+"Execute the following command to obtain information about the disks in the "
+"computer."
+msgstr ""
+"Führen Sie den folgenden Befehl aus, um Informationen über die Festplatten "
+"im Computer zu erhalten."
+
+#. type: Plain text
+#, no-wrap
+msgid "   <p class=\"command-windows\">list disk</p>\n"
+msgstr "   <p class=\"command-windows\">list disk</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   For example:\n"
+msgstr "   Zum Beispiel:\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "       Diskpart> list disk\n"
+msgstr "       Diskpart> list disk\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"         Disk ###  Status      Size     Free     Dyn  Gpt\n"
+"         --------  ----------  -------  -------  ---  ---\n"
+"         Disk 0    Online        80 GB      0 B\n"
+msgstr ""
+"         Datenträger ###  Status      Größe     Frei     Dyn  GPT\n"
+"         ---------------  -------------  -------  -------  ---  ---\n"
+"         Datenträger 0    Online        80 GB      0 B\n"
+
+#. type: Bullet: '1. '
+msgid "Plug in the USB stick that you want to reset."
+msgstr "Schließen Sie den USB-Stick, den Sie zurücksetzen möchten, an."
+
+#. type: Bullet: '1. '
+msgid "Run the same command again."
+msgstr "Führen Sie denselben Befehl erneut aus."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   A new disk, which corresponds to the USB stick that you plugged in,\n"
+"   appears in the list.\n"
+msgstr ""
+"   Eine neue Festplatte, die dem USB-Stick entspricht, den Sie eingesteckt "
+"haben,\n"
+"   erscheint in der Liste.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "        Diskpart> list disk\n"
+msgstr "        Diskpart> list disk\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"          Disk ###  Status      Size     Free     Dyn  Gpt\n"
+"          --------  ----------  -------  -------  ---  ---\n"
+"          Disk 0    Online        80 GB      0 B\n"
+"          Disk 1    Online         8 GB      0 B\n"
+msgstr ""
+"          Datenträger ###  Status      Größe     Frei     Dyn  GPT\n"
+"          ---------------  -------------  -------  -------  ---  ---\n"
+"          Datenträger 0    Online        80 GB      0 B\n"
+"          Datenträger 1    Online         8 GB      0 B\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   Make sure that its size corresponds to the size of the USB stick that you want to\n"
+"   reset. Note down its disk number.\n"
+msgstr ""
+"   Stellen Sie sicher, dass seine Größe der Größe des USB-Sticks entspricht, "
+"den Sie\n"
+"   zurücksetzen möchten. Notieren Sie sich die Festplattennummer.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   In this example, the disk number of the USB stick is 1.\n"
+"   Yours might be different.\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid ""
+"Execute the following command to select the USB stick. Replace <span "
+"class=\"command-placeholder\">number</span> with the disk number found in "
+"step 7."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   <p class=\"command-windows command-template\">select disk=<span class=\"command-placeholder\">number</span></p>\n"
+msgstr ""
+"   <p class=\"command-windows command-template\">Wählen Sie disk=<span class"
+"=\"command-placeholder\">nummer</span> aus</p>\n"
+
+#. type: Bullet: '1. '
+#, fuzzy
+#| msgid ""
+#| "Execute the <span class=\"command\">clean</span> command to delete the "
+#| "partition table from the USB stick."
+msgid ""
+"Execute the following command to delete the partition table from the USB "
+"stick."
+msgstr ""
+"Führen Sie den Befehl <span class=\"command\">clean</span> aus, um die "
+"Partitionstabelle von dem USB-Stick zu löschen."
+
+#. type: Plain text
+#, no-wrap
+msgid "   <p class=\"command-windows\">clean</p>\n"
+msgstr "   <p class=\"command-windows\">clean</p>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Create a new partition on the USB stick"
+msgstr ""
+
+#. type: Plain text
+msgid "Then, create a new partition on the USB stick:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#, fuzzy
+#| msgid ""
+#| "Execute the <span class=\"command\">convert mbr</span> command to create "
+#| "a new partition table on the USB stick."
+msgid ""
+"Execute the following command to create a new partition table on the USB "
+"stick."
+msgstr ""
+"Führen Sie den Befehl <span class=\"command\">convert mbr</span> aus, um "
+"eine neue Partitionstabelle auf dem USB-Stick zu erstellen."
+
+#. type: Plain text
+#, no-wrap
+msgid "   <p class=\"command-windows\">convert mbr</p>\n"
+msgstr "   <p class=\"command-windows\">convert mbr</p>\n"
+
+#. type: Bullet: '1. '
+#, fuzzy
+#| msgid ""
+#| "Execute the <span class=\"command\">create partition primary</span> "
+#| "command to create a new primary partition on the USB stick."
+msgid ""
+"Execute the following command to create a new primary partition on the USB "
+"stick."
+msgstr ""
+"Führen Sie den Befehl <span class=\"command\">create partition primary</"
+"span> aus, um eine neue primäre Partition auf dem USB-Stick zu erstellen."
+
+#. type: Plain text
+#, no-wrap
+msgid "   <p class=\"command-windows\">create partition primary</p>\n"
+msgstr "   <p class=\"command-windows\">create partition primary</p>\n"
+
+#. type: Bullet: '1. '
+msgid "Unplug the USB stick."
+msgstr "Ziehen Sie den USB-Stick ab."
+
+#. type: Bullet: '1. '
+msgid "Plug the USB stick again."
+msgstr "Stecken Sie den USB-Stick wieder ein."
+
+#. type: Bullet: '1. '
+msgid "A dialog appears to format the disk before using it."
+msgstr ""
+"Ein Dialogfeld erscheint, um die Festplatte vor der Verwendung zu "
+"formatieren."
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!img format.png link=\"no\" class=\"screenshot\" alt=\"You need to format the disk before you can use it. Do you want to format it?\"]]\n"
+msgstr ""
+"   [[!img format.png link=\"no\" class=\"screenshot\" alt=\"Sie müssen die "
+"Festplatte formatieren, bevor Sie sie verwenden können. Möchten Sie sie "
+"formatieren?\"]]\n"
+
+#. type: Bullet: '1. '
+msgid "Click on the **Format disk** button."
+msgstr "Klicken Sie auf die Schaltfläche **Festplatte formatieren**."
+
+#. type: Bullet: '1. '
+msgid ""
+"In the **Format USB Drive** dialog, review the settings and click **Start**."
+msgstr ""
+"Überprüfen Sie im Dialogfeld **USB-Laufwerk formatieren** die Einstellungen "
+"und klicken Sie auf **Start**."
+
+#. type: Bullet: '1. '
+msgid ""
+"After the formatting is complete, the USB stick should appear as a new drive "
+"in the files browser."
+msgstr ""
+"Nachdem die Formatierung abgeschlossen ist, sollte der USB-Stick als neues "
+"Laufwerk im Datei-Browser angezeigt werden."
+
+#. type: Plain text
+#, no-wrap
+msgid "   Otherwise, try unplugging and plugging it again.\n"
+msgstr ""
+"   Andernfalls versuchen Sie, das Gerät erneut zu entfernen und wieder "
+"anzuschließen.\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Troubleshooting"
+msgstr "Fehlerbehebung"
+
+#. type: Plain text
+msgid ""
+"- [How to start the *Command Prompt*](https://www.computerhope.com/issues/"
+"chdos.htm)"
+msgstr ""
+"- [So starten Sie die *Eingabeaufforderung*](https://www.computerhope.com/"
+"issues/chdos.htm)"
+
+#. type: Plain text
+msgid ""
+"- [Microsoft: diskpart](https://learn.microsoft.com/en-us/windows-server/"
+"administration/windows-commands/diskpart)"
+msgstr ""
+"- [Microsoft: diskpart](https://learn.microsoft.com/de-de/windows-server/"
+"administration/windows-commands/diskpart)"
+
+#, no-wrap
+#~ msgid "<div class=\"bug\">\n"
+#~ msgstr "<div class=\"bug\">\n"
+
+#, no-wrap
+#~ msgid ""
+#~ "<strong>The following instructions do not work on Windows XP.</strong><br/>\n"
+#~ "The version of <span class=\"application\">Diskpart</span> on Windows XP does not list removable disks.\n"
+#~ msgstr ""
+#~ "<strong>Die folgenden Anweisungen funktionieren nicht unter Windows XP.</strong><br/>\n"
+#~ "Die Version von <span class=\"application\">Diskpart</span> unter Windows XP unterstützt keine Wechseldatenträger.\n"
+
+#, no-wrap
+#~ msgid "Using <span class=\"application\">Diskpart</span>"
+#~ msgstr "Benutzung von <span class=\"application\">Diskpart</span>"
+
+#, no-wrap
+#~ msgid ""
+#~ "<strong>You might overwrite any hard disk on the computer.</strong><br/>\n"
+#~ "If at some point you are not sure about the disk number, stop proceeding.\n"
+#~ msgstr ""
+#~ "<strong>Sie könnten jegliche Festplatten des Computers überschreiben.</strong><br/>\n"
+#~ "Falls Sie sich an irgendeinem Punkt unsicher darüber sind, welches Medium Sie wählen sollen, brechen Sie den Vorgang ab.\n"
+
+#, fuzzy
+#~| msgid ""
+#~| "Click on the <span class=\"bold\">Start</span> button, and choose <span "
+#~| "class=\"menuchoice\">All Programs&nbsp;▸ Accessories&nbsp;▸ Command "
+#~| "Prompt</span>, to open the <span class=\"application\">[[!wikipedia cmd."
+#~| "exe desc=\"Command Prompt\"]]</span>,"
+#~ msgid ""
+#~ "Click on the <span class=\"bold\">Start</span> button, and choose <span "
+#~ "class=\"menuchoice\">All Programs&nbsp;▸ Accessories&nbsp;▸ Command "
+#~ "Prompt</span>, to open the <span class=\"application\">[[!wikipedia cmd."
+#~ "exe desc=\"Command Prompt\"]]</span>,"
+#~ msgstr ""
+#~ "Klicken Sie auf den <span class=\"bold\">Start</span>-Button und wählen "
+#~ "Sie <span class=\"menuchoice\">Alle Programme&nbsp;▸ Zubehör&nbsp;▸ "
+#~ "Eingabeaufforderung</span> aus, um die <span class=\"application\">[[!"
+#~ "wikipedia_de cmd.exe desc=\"Eingabeaufforderung\"]] zu öffnen</span>,"
+
+#, no-wrap
+#~ msgid ""
+#~ "2.  Execute the <span class=\"command\">diskpart</span> command, to start\n"
+#~ "<span class=\"application\">Diskpart</span>.\n"
+#~ msgstr ""
+#~ "2.  Führen Sie den Befehl <span class=\"command\">diskpart</span> aus, um\n"
+#~ "<span class=\"application\">Diskpart</span> zu starten.\n"
+
+#, no-wrap
+#~ msgid "    For example:\n"
+#~ msgstr "    Zum Beispiel:\n"
+
+#~ msgid ""
+#~ "Plug in the USB stick that you want to reset. Run the <span "
+#~ "class=\"command\">list disk</span> command again."
+#~ msgstr ""
+#~ "Schließen Sie den USB-Stick, den Sie zurücksetzen möchten, an. Führen Sie "
+#~ "den Befehl <span class=\"command\">list disk</span> erneut aus."
+
+#~ msgid ""
+#~ "To select the USB stick, execute the following command: <span "
+#~ "class=\"command\">select disk=<span class=\"replaceable\">number</span></"
+#~ "span>.  Replace <span class=\"replaceable\">number</span> by the disk "
+#~ "number of the USB stick that you want to reset."
+#~ msgstr ""
+#~ "Führen Sie folgenden Befehl aus, um den USB-Stick auszuwählen: <span "
+#~ "class=\"command\">select disk=<span class=\"replaceable\">Nummer</span></"
+#~ "span>. \n"
+#~ "Ersetzen Sie <span class=\"replaceable\">Nummer</span> durch die "
+#~ "Laufwerksnummer des USB-Sticks, welchen Sie zurücksetzen möchten."
+
+#~ msgid ""
+#~ "See the [[Diskpart documentation from Microsoft Support|http://support."
+#~ "microsoft.com/kb/300415]]."
+#~ msgstr ""
+#~ "Lesen Sie die [[Dokumentation zu Diskpart vom Microsoft Support|http://"
+#~ "support.microsoft.com/kb/300415]]."
+
+#~ msgid "Troubleshooting\n"
+#~ msgstr "Fehlersuche\n"

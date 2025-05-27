@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-08 03:39+0000\n"
+"PO-Revision-Date: 2024-11-13 13:36+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Mon, 26 Dec 2016 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 26 Dec 2016 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Thank you and see you in Hamburg!\"]]\n"
+msgstr "[[!meta title=\"Danke, wir sehen uns in Hamburg!\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"As part of our donation campaign we already explained you [[why we need "
+"donations|news/why_we_need_donations]], [[what we do with your money|news/"
+"what_we_do_with_your_money]], and that [[Mediapart is the first news "
+"organization to commit to support Tails every year|news/mediapart]]."
+msgstr ""
+"Als Teil unserer Spendenkampagne haben wir bereits erklärt[[warum wir "
+"Spenden benötigen|news/why_we_need_donations]], [[Was wir mit deinem Geld "
+"machen|news/what_we_do_with_your_money]] und, dass [[Mediapart die erste "
+"Nachrichtenorganisation ist welche Tails jedes Jahr unterstützt|news/"
+"mediapart]]."
+
+#. type: Plain text
+msgid "But today we are just writing to give you all a big thank you!"
+msgstr ""
+"Aber heute schreiben wir nur, um Ihnen allen ein großes Dankeschön zu sagen!"
+
+#. type: Plain text
+#, no-wrap
+msgid "**Since October 13, we have received $98 579 in donations.**\n"
+msgstr "**Seit Oktober dem 13. haben wir Spenden in Höhe von $98 579 erhalten.**\n"
+
+#. type: Plain text
+msgid ""
+"This is our first donation campaign and we are completely blown away by the "
+"results! It feels really good to see that our community of users understands "
+"the real value of Tails and why it is important for them to help us back and "
+"keep the project alive and independent."
+msgstr ""
+"Dies ist unsere erste Spendenkampagne und wir sind total begeister von den "
+"Ergebnissen! Es fühlt sich wirklich gut an, dass unsere Nutzer-Community den "
+"wahren Wert von Tails versteht und auch warum es wichtig ist uns zu "
+"unterstützen und das Projekt unabhängig und am Leben zu erhalten."
+
+#. type: Plain text
+msgid ""
+"Starting from today we will be present at the [33rd Chaos Communication "
+"Congress in Hamburg](https://events.ccc.de/congress/2016/wiki/Main_Page).  "
+"You are encouraged to pass by and meet us at the [Secure Desktops assembly]"
+"(https://events.ccc.de/congress/2016/wiki/Assembly:Secure_Desktops)."
+msgstr ""
+"Ab dem heutigen Tag werden wir auf dem  [33. Chaos Communication Congress in "
+"Hamburg](https://events.ccc.de/congress/2016/wiki/Main_Page) vertreten sein. "
+"Wir laden dich ein vorbei zu kommen und uns bei der [Secure Desktops "
+"assembly](https://events.ccc.de/congress/2016/wiki/Assembly:Secure_Desktops) "
+"zu treffen."
+
+#. type: Plain text
+msgid ""
+"We accept donations in cash and people donating more than 50€ in Hamburg "
+"will get a Tails t-shirt!"
+msgstr ""
+"Wir akzeptieren Spenden in bar, und Personen, die mehr als 50 € in Hamburg "
+"spenden, erhalten ein Tails-T-Shirt!"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img t-shirt.jpg link=\"no\"]]\n"
+msgstr "[[!img t-shirt.jpg link=\"no\"]]\n"
+
+#. type: Plain text
+msgid "[[Donate]]"
+msgstr "[[Spenden|donate]]"

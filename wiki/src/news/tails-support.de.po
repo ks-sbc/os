@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-26 12:26+0100\n"
+"PO-Revision-Date: 2024-11-27 10:18+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails user support mailing list\"]]\n"
+msgstr "[[!meta title=\"Tails-Benutzer-Support-Mailingliste\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sat, 10 Aug 2013 10:42:51 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 10 Aug 2013 10:42:51 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+msgid ""
+"After we closed off our forum in June, the Tails community was left without "
+"a public user support channel apart from IRC."
+msgstr ""
+"Nachdem wir unser Forum im Juni geschlossen hatten, stand die Tails-"
+"Community ohne einen öffentlichen Support-Kanal außer IRC da."
+
+#. type: Title =
+#, no-wrap
+msgid "Introducing tails-support@boum.org"
+msgstr "Wir stellen vor: tails-support@boum.org"
+
+#. type: Plain text
+msgid ""
+"To compensate this loss, we decided to create a new public mailing list for "
+"user support."
+msgstr ""
+"Um diesen Verlust auszugleichen, haben wir beschlossen, eine neue "
+"öffentliche Mailingliste für den Benutzersupport einzurichten."
+
+#. type: Plain text
+msgid "This list is **the right place** for:"
+msgstr "Diese Liste ist **der richtige Ort** für:"
+
+#. type: Bullet: '  - '
+msgid ""
+"**User support**: solving doubts about how to use Tails, security "
+"implications of Tails, etc."
+msgstr ""
+"**Benutzersupport**: Beantwortung von Fragen zur Nutzung von Tails, zu den "
+"Sicherheitsimplikationen von Tails usw."
+
+#. type: Bullet: '  - '
+msgid ""
+"**Community interaction**: information and tricks about ways of using Tails "
+"that are not officially documented but might be of interest to others."
+msgstr ""
+"**Interaktion mit der Community**: Informationen und Tipps zu "
+"Nutzungsmöglichkeiten von Tails, die nicht offiziell dokumentiert sind, aber "
+"für andere von Interesse sein könnten."
+
+#. type: Bullet: '  - '
+msgid ""
+"**Small issues**: pointing out small things that we needed to fix and do not "
+"require a complete bug report.  That's fine and we appreciate it."
+msgstr ""
+"**Kleine Probleme**: Aufzeigen kleiner Dinge, die wir beheben mussten und "
+"die keinen vollständigen Fehlerbericht erfordern. Das ist in Ordnung und wir "
+"schätzen es."
+
+#. type: Plain text
+msgid "This list is **the wrong place** for:"
+msgstr "Diese Liste ist **der falsche Ort** für:"
+
+#. type: Bullet: '  - '
+msgid ""
+"**Bug reports**: see the [[bug reporting documentation|/doc/first_steps/"
+"whisperback]] instead."
+msgstr ""
+"**Fehlerberichte**: siehe stattdessen die [[Dokumentation zum Melden von "
+"Fehlern|/doc/first_steps/whisperback]]."
+
+#. type: Bullet: '  - '
+msgid ""
+"**Feature requests**: those should be done on the development mailing list: "
+"[[tails-dev@boum.org|about/contact#tails-dev]]."
+msgstr ""
+"**Funktionsanfragen**: Diese sollten auf der Entwicklungsmailingliste "
+"erfolgen: [[tails-dev@boum.org|about/contact#tails-dev]]."
+
+#. type: Bullet: '  - '
+msgid ""
+"**Computer security essays and conspiranoia** not directly related to Tails."
+msgstr ""
+"**Aufsätze zur Computersicherheit und Verschwörungstheorien**, die nicht "
+"direkt mit Tails zu tun haben."
+
+#. type: Title =
+#, no-wrap
+msgid "Some reasons behind this decision"
+msgstr "Einige Gründe für diese Entscheidung"
+
+#. type: Plain text
+msgid ""
+"Since 2012, we worked on replacing the old forum with a question and answer "
+"application. We hoped we could have a shared application with The Tor "
+"Project that was heading in the same direction. For many reasons this did "
+"not happen."
+msgstr ""
+"Seit 2012 haben wir daran gearbeitet, das alte Forum durch eine Frage-und-"
+"Antwort-Anwendung zu ersetzen. Wir hatten gehofft, eine gemeinsame Anwendung "
+"mit dem Tor-Projekt zu haben, die in die gleiche Richtung ging. Aus vielen "
+"Gründen ist dies jedoch nicht geschehen."
+
+#. type: Plain text
+msgid "To solve this we decided to:"
+msgstr ""
+"Um dies zu lösen, haben wir beschlossen, folgende Maßnahmen zu ergreifen:"
+
+#. type: Bullet: '- '
+msgid ""
+"Setup a support mailing list as a new public channel for user support with "
+"the help of the Tails community."
+msgstr ""
+"Einrichtung einer Support-Mailingliste als neuer öffentlicher Kanal für den "
+"Benutzersupport mit Hilfe der Tails-Community."
+
+#. type: Bullet: '- '
+msgid ""
+"Gather frequently asked questions from the forum and the list on our website."
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"On the long-run, have Askbot into Debian and improve it with the features we "
+"need."
+msgstr ""
+"Langfristig wird Askbot in Debian integriert und mit den Funktionen "
+"verbessert, die wir benötigen."
+
+#. type: Plain text
+msgid "See the corresponding ticket: [[!tails_ticket 5984]]."
+msgstr "Siehe das entsprechende Ticket: [[!tails_ticket 5984]]."

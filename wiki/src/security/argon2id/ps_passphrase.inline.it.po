@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"PO-Revision-Date: 2024-12-04 10:28+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Bullet: '   1. '
+msgid "Choose **Applications**&nbsp;▸ **Persistent Storage**."
+msgstr ""
+
+#. type: Bullet: '   1. '
+msgid "Click on the **Change Passphrase** button on the left of the title bar."
+msgstr ""
+"Clicca sul tasto **Cambia frase d'accesso** a sinistra della barra del "
+"titolo."
+
+#. type: Bullet: '   1. '
+msgid "Enter the current passphrase in the **Current Passphrase** text box."
+msgstr ""
+"Inserisci l'attuale frase d'accesso nella casella di testo **Attuale frase "
+"d'accesso**."
+
+#. type: Bullet: '   1. '
+msgid "Enter your new passphrase in the **New Passphrase** text box."
+msgstr ""
+"Inserisci la nuova frase d'accesso nella casella di testo **Nuova frase "
+"d'accesso**."
+
+#. type: Bullet: '   1. '
+msgid ""
+"Enter your new passphrase again in the **Confirm New Passphrase** text box."
+msgstr ""
+"Inserisci nuovamente la nuova frase d'accesso nella casella di testo **"
+"Conferma nuova frase d'accesso**."
+
+#. type: Bullet: '   1. '
+msgid "Click **Change**."
+msgstr "Clicca **Cambia**."
+
+#. type: Bullet: '   1. '
+msgid "Close the **Persistent Storage** settings."
+msgstr ""

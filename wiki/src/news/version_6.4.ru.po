@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-08-06 18:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 6.4\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 18 Jun 2024 12:34:56 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2>Random seed</h2>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Tails now stores a random seed on the USB stick to strengthen all "
+"cryptography."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Having a [[!wikipedia cryptographically secure pseudorandom number generator\n"
+"desc=\"secure random number generator\"]] is critical to some of the cryptography\n"
+"used in Tails, for example, in the Persistent Storage, Tor, or HTTPS.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This random seed is stored [[outside of the Persistent Storage|contribute/"
+"design/random]] so that all users can benefit from stronger cryptography."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Switch to using HTTPS addresses instead of an onion addresses for the Debian "
+"and Tails APT repositories. This makes the [[Additional Software|doc/"
+"persistent_storage/additional_software]] feature more reliable."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [13.0.16](https://blog.torproject.org/new-release-"
+"tor-browser-13016)."
+msgstr ""
+
+#. type: Plain text
+msgid "- Update the *Tor* client to 0.4.8.12."
+msgstr ""
+
+#. type: Plain text
+msgid "- Update *Thunderbird* to 115.12.0."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Fix more issues when unlocking the Persistent Storage. ([[!tails_ticket "
+"20020]], [[!tails_ticket 20344]], [[!tails_ticket 19913]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Fix connecting to a mobile broadband network on some hardware.  ([[!"
+"tails_ticket 20291]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Enable again the PDF reader of *Thunderbird* that we disabled in [[Tails 6.3|"
+"news/version_6.3]] for security."
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Improve the error message of *Tails Cloner* when the target USB stick cannot "
+"be unmounted because it is being used. ([[!tails_ticket 19253]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Fix the homepage of *Tor Browser* when using the New Identity feature. This "
+"removes the error message `Tor Browser blocked your homepage from loading`.  "
+"([[!tails_ticket 20381]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Remove the redundant dialog when unlocking a VeraCrypt volume using the "
+"*Unlock VeraCrypt Volumes* utility. ([[!tails_ticket 20281]])"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 6.4</h1>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 6.0 or later to 6.4."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails 6.4 on a new USB stick"
+msgstr ""
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 6.4 directly:"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr ""

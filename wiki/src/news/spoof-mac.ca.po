@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-26 12:27+0100\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Call for testing: MAC address spoofing\"]]\n"
+msgstr ""
+"[[!meta title=\"Convocatòria de proves: anonimització d'adreces MAC\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sun, 29 Dec 2013 12:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Sun, 29 Dec 2013 12:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+msgid ""
+"You can help Tails! The [[MAC address spoofing|contribute/design/"
+"MAC_address]] feature is ready for testing. This feature prevents "
+"geographical tracking of your network devices (and by extension, you) by "
+"randomising their [[!wikipedia MAC addresses]]."
+msgstr ""
+"Podeu ajudar a Tails! La funcionalitat [[Suplantació d'adreces MAC|"
+"contribute/design/MAC_address]] està preparada per a ser posada a prova. "
+"Aquesta característica impedeix el seguiment geogràfic dels vostres "
+"dispositius de xarxa (i, per extensió, de vosaltres) mitjançant "
+"l'aleatorització de les seves [[!wikipedia_ca Adreça_MAC desc=\"adreces MAC\""
+"]]."
+
+#. type: Plain text
+msgid ""
+"If you have security auditing skills you are more than welcome to review our "
+"[[design|contribute/design/MAC_address]] and [[implementation|contribute/"
+"design/MAC_address#implementation]]."
+msgstr ""
+"Si teniu habilitats d'auditoria de seguretat, podeu revisar el nostre "
+"[[disseny|contribute/design/MAC_address]] i [[implementació|contribute/"
+"design/MAC_address#implementation]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Background"
+msgstr "Context"
+
+#. type: Plain text
+msgid ""
+"Every network device (wired, Wi-Fi/wireless, 3G/mobile) has a [[!wikipedia "
+"MAC address]], which is a unique identifier used to address them on the "
+"local network. Broadcasting a unique identifier in this manner introduce a "
+"couple of potential privacy issues for Tails users. Geographical location "
+"tracking is the main one: observing a MAC address at a particular location "
+"and time ties the corresponding device to the same location and time. If the "
+"real identity of the device's owner is known, their movements can be "
+"determined. To prevent this one can temporarily change the MAC address to "
+"something random at each boot, which is referred to as \"MAC address "
+"spoofing\"."
+msgstr ""
+"Cada dispositiu de xarxa (cable, Wi-Fi/sense fil, 3G/mòbil) té una [["
+"!wikipedia_ca adreça MAC]], que és un identificador únic que s'utilitza per "
+"adreçar-los a la xarxa local. La difusió d'un identificador únic d'aquesta "
+"manera introdueix un parell de possibles problemes de privadesa per als "
+"usuaris de Tails. El seguiment de la ubicació geogràfica és el principal: "
+"l'observació d'una adreça MAC en un lloc i hora concrets vincula el "
+"dispositiu corresponent a la mateixa ubicació i hora. Si es coneix la "
+"identitat real del propietari del dispositiu, es poden determinar els seus "
+"moviments. Per evitar-ho, es pot canviar temporalment l'adreça MAC a alguna "
+"cosa aleatòria a cada arrencada, que es coneix com a «suplantació d'adreces "
+"MAC»."
+
+#. type: Title #
+#, no-wrap
+msgid "How to download the test image"
+msgstr "Com baixar la imatge de prova"
+
+#. type: Plain text
+msgid ""
+"Download the latest test ISO from [build_Tails_ISO_devel](http://nightly."
+"tails.boum.org/build_Tails_ISO_devel/). **Keep in mind that this is a test "
+"image.** Do not use it for anything else than testing this feature."
+msgstr ""
+"Baixeu la darrera prova ISO de [build_Tails_ISO_devel](http://nightly.tails."
+"boum.org/build_Tails_ISO_devel/). **Tingueu en compte que es tracta d'una "
+"imatge de prova.** No la feu servir per a res més que provar aquesta funció."
+
+#. type: Title #
+#, no-wrap
+msgid "How to use MAC spoofing in Tails"
+msgstr "Com utilitzar la suplantació de MAC a Tails"
+
+#. type: Plain text
+msgid ""
+"MAC spoofing is enabled by default in this test ISO. You can change this "
+"with a [[startup option|doc/first_steps/welcome_screen]]. The (preliminary) "
+"MAC spoofing documentation tries to explain situations where it actually may "
+"be a bad idea to keep this option enabled. However, as this is just a test "
+"version we of course urge you to not use it for anything serious, and if "
+"possible, to test both to enable and disable the option."
+msgstr ""
+"La suplantació MAC està activada per defecte en aquesta prova ISO. Podeu "
+"canviar-ho amb una [[opció d'inici|doc/first_steps/welcome_screen]]. La "
+"documentació de suplantació MAC (preliminar) intenta explicar situacions en "
+"què realment pot ser una mala idea mantenir aquesta opció activada. "
+"Tanmateix, com que es tracta només d'una versió de prova, per descomptat, us "
+"recomanem que no l'utilitzeu per a res seriós i, si és possible, que proveu "
+"d'habilitar i desactivar l'opció."
+
+#. type: Title #
+#, no-wrap
+msgid "What to test"
+msgstr "Què provar"
+
+#. type: Plain text
+msgid ""
+"For any MAC spoofing-related issues you experience using this test ISO, "
+"please include the output from the following commands when reporting it to "
+"us (note: it requires setting an [[doc/first_steps/welcome_screen/"
+"administration_password]]):"
+msgstr ""
+"Per a qualsevol problema relacionat amb la suplantació MAC que experimenteu "
+"amb aquesta prova ISO, incloeu la sortida de les ordres següents quan ens ho "
+"comuniqueu (nota: cal establir una [[contrasenya d'administració|doc/"
+"first_steps/welcome_screen/administration_password]]):"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    sudo grep spoof-mac /var/log/syslog\n"
+"    sudo grep unblock-network /var/log/syslog\n"
+msgstr ""
+"    sudo grep spoof-mac /var/log/syslog\n"
+"    sudo grep unblock-network /var/log/syslog\n"
+
+#. type: Plain text
+msgid ""
+"In particular, we would like you to pay extra attention to the following "
+"things:"
+msgstr ""
+"En particular, ens agradaria que prestéssiu una atenció especial a les coses "
+"següents:"
+
+#. type: Title ##
+#, no-wrap
+msgid "Verify that the MAC spoofing setting is enforced"
+msgstr "Comproveu que s'aplica la configuració de suplantació MAC"
+
+#. type: Plain text
+msgid ""
+"Please verify that the MAC spoofing setting you select actually is enforced "
+"by issuing the following commands:"
+msgstr ""
+"Si us plau, verifiqueu que la configuració de suplantació MAC que "
+"seleccioneu s'aplica realment emetent les ordres següents:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    . /usr/local/lib/tails-shell-library/hardware.sh\n"
+"    for i in $(get_all_ethernet_nics); do\n"
+"      echo \"Interface $i\"\n"
+"      macchanger $i\n"
+"    done\n"
+msgstr ""
+"    . /usr/local/lib/tails-shell-library/hardware.sh\n"
+"    for i in $(get_all_ethernet_nics); do\n"
+"      echo \"Interface $i\"\n"
+"      macchanger $i\n"
+"    done\n"
+
+#. type: Plain text
+msgid ""
+"For each network device you'll get an entry looking something like this:"
+msgstr ""
+"Per a cada dispositiu de xarxa, obtindreu una entrada semblant a aquesta:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Interface eth0\n"
+"    Permanent MAC: 12:34:56:78:90:ab (unknown)\n"
+"    Current   MAC: 12:34:56:f4:fb:22 (unknown)\n"
+msgstr ""
+"    Interface eth0\n"
+"    Permanent MAC: 12:34:56:78:90:ab (unknown)\n"
+"    Current   MAC: 12:34:56:f4:fb:22 (unknown)\n"
+
+#. type: Plain text
+msgid ""
+"The \"Permanent MAC\" is the network device's \"real\", unique MAC address; "
+"the \"Current MAC\" is whatever it is set to at the moment, spoofed or not. "
+"In other words:"
+msgstr ""
+"La «Permanent MAC» és l'adreça MAC única “real” del dispositiu de xarxa; la «"
+"Current MAC» és la que estigui configurada en aquest moment, falsificada o "
+"no. En altres paraules:"
+
+#. type: Bullet: '* '
+msgid "if they are *different*, then MAC spoofing is *enabled*;"
+msgstr "si són *diferents*, aleshores la suplantació MAC està *habilitada*;"
+
+#. type: Bullet: '* '
+msgid "if they are *the* *same*, then MAC spoofing is *disabled*."
+msgstr "si són *iguals*, aleshores la suplantació MAC està *desactivada*."
+
+#. type: Plain text
+msgid "Please report if you ever get unexpected results."
+msgstr "Si us plau, informeu si obteniu resultats inesperats."
+
+#. type: Title ##
+#, no-wrap
+msgid "MAC address allowlisting problems"
+msgstr "Problemes de llista d'adreces MAC"
+
+#. type: Plain text
+msgid ""
+"Some wireless networks are configured to only allow connections for devices "
+"with certain MAC addresses, called MAC address allowlisting. MAC address "
+"spoofing will cause issues on networks like these. Therefore Tails has a "
+"crude mechanism for detecting this, and will show an informative "
+"notification about what to do about it."
+msgstr ""
+"Algunes xarxes sense fil estan configurades per permetre connexions només "
+"per a dispositius amb determinades adreces MAC, anomenada llista blanca "
+"d'adreces MAC. La suplantació d'adreces MAC provocarà problemes en xarxes "
+"com aquestes. Per tant, Tails té un mecanisme cru per detectar-ho i mostrarà "
+"una notificació informativa sobre què cal fer al respecte."
+
+#. type: Plain text
+msgid ""
+"If you have access to a wireless network that employs MAC address "
+"allowlisting, then connect to it with MAC spoofing enabled and verify that "
+"Tails shows a notification with the headline: \"Network connection blocked?"
+"\"."
+msgstr ""
+"Si teniu accés a una xarxa sense fil que empra la llista blanca d'adreces "
+"MAC, connecteu-vos-hi amb la suplantació MAC activada i comproveu que Tails "
+"mostri una notificació amb el títol: «Connexió de xarxa bloquejada?»."
+
+#. type: Plain text
+msgid ""
+"Note: Tails detection mechanism for MAC address allowlisting only works for "
+"wireless (Wi-Fi) networks."
+msgstr ""
+"Nota: el mecanisme de detecció de Tails per a la llista blanca d'adreces MAC "
+"només funciona per a xarxes sense fil (Wi-Fi)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Network problems"
+msgstr "Problemes de xarxa"
+
+#. type: Plain text
+msgid ""
+"Please report all network device and connection issues, e.g. if any of your "
+"network devices do not get detected by Tails at all, if the network "
+"connection fails, or if the network connection succeeds but actually does "
+"not work. Also check whether you experience the same issues using Tails 0.22."
+msgstr ""
+"Informeu de tots els problemes de connexió i dispositius de xarxa; per "
+"exemple, si algun dels vostres dispositius de xarxa no és detectat per "
+"Tails, si la connexió de xarxa falla o si la connexió de xarxa té èxit però "
+"en realitat no funciona. Comproveu també si experimenteu els mateixos "
+"problemes amb Tails 0.22."
+
+#. type: Title #
+#, no-wrap
+msgid "Known issues"
+msgstr "Problemes coneguts"
+
+#. type: Title ##
+#, no-wrap
+msgid "No fail-safe for hotplugged devices after logging in"
+msgstr "No hi ha cap seguretat per a dispositius connectats en calent després d'iniciar la sessió"
+
+#. type: Plain text
+msgid ""
+"In order to prevent the real MAC address from leaking when MAC spoofing "
+"fails for some network device, Tails has a fail-safe that simply disables "
+"the device. At the moment this only works for network devices present before "
+"logging in with Tails Greeter; the fail-safe does *not* work for e.g. Wi-Fi "
+"USB dongles hotplugged *after* that."
+msgstr ""
+"Per tal d'evitar que l'adreça MAC real es filtri quan la suplantació MAC "
+"falla per a algun dispositiu de xarxa, Tails té un sistema de seguretat que "
+"simplement desactiva el dispositiu. De moment això només funciona per als "
+"dispositius de xarxa presents abans d'iniciar sessió amb Tails Greeter; el "
+"sistema de seguretat *no* funciona per a Dongles USB Wi-Fi connectats en "
+"calent *posteriorment*."

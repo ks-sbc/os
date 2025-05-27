@@ -1,0 +1,4321 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Gediminas Golcevas <>, 2014
+# Marija Grinevičiūtė <marijagrineviciute@outlook.com>, 2020
+# Moo, 2015-2022
+# Tautvydas Ž., 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: Tor Project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-30 09:33+0200\n"
+"PO-Revision-Date: 2025-04-03 14:13+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/tor/tails-gui/"
+"lt/>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.11-dev\n"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:209
+#, python-brace-format
+msgid ""
+"{details} Please check your list of additional software or read the system "
+"log to understand the problem."
+msgstr ""
+"{details} Norėdami išsiaiškinti problemą, patikrinkite savo papildomos "
+"programinės įrangos sąrašą arba skaitykite sistemos žurnalą."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:216
+msgid ""
+"Please check your list of additional software or read the system log to "
+"understand the problem."
+msgstr ""
+"Norėdami išsiaiškinti problemą, patikrinkite savo papildomos programinės "
+"įrangos sąrašą arba skaitykite sistemos žurnalą."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:222
+msgid "Show Log"
+msgstr "Rodyti žurnalą"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/additional_software.py:222
+msgid "Configure"
+msgstr "Konfigūruoti"
+
+#. Translators: Don't translate {packages}, it's a placeholder and will
+#. be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:45
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:76
+#, python-brace-format
+msgid "Add {packages} to your additional software?"
+msgstr "Pridėti {packages} į jūsų papildomą programinę įrangą?"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:47
+msgid ""
+"To install it automatically from your persistent storage when starting Tails."
+msgstr ""
+"Kad, paleidžiant Tails, ji būtų automatiškai įdiegiama iš ilgalaikio "
+"kaupiklio."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:49
+msgid "Install Every Time"
+msgstr "Įdiegti kiekvieną kartą"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:50
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:82
+msgid "Install Only Once"
+msgstr "Įdiegti tik vieną kartą"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:57
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:88
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:172
+msgid "The configuration of your additional software failed."
+msgstr "Jūsų papildomos programinės įrangos konfigūracija patyrė nesėkmę."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:78
+#, fuzzy
+msgid ""
+"To install it automatically when starting Tails, you can create a Persistent "
+"Storage and activate the <b>Additional Software</b> feature."
+msgstr ""
+"Norėdami, paleidžiant Tails, įdiegti ją automatiškai, galite susikurti "
+"ilgalaikį kaupiklį ir aktyvuoti <b>Papildomos programinės įrangos</b> "
+"ypatybę."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:81
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:270
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:289
+msgid "Create Persistent Storage"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:90
+#, fuzzy
+msgid "Creating your Persistent Storage failed."
+msgstr "Jūsų ilgalaikio kaupiklio sukūrimas nepavyko."
+
+#. Translators: Don't translate {packages}, it's a placeholder and
+#. will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:99
+#, python-brace-format
+msgid "You could install {packages} automatically when starting Tails"
+msgstr "Paleisdami Tails, galėtumėte automatiškai įdiegti {packages}"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:102
+msgid "To do so, you need to run Tails from a USB stick."
+msgstr "Norėdami tai padaryti, turite paleisti Tails iš USB atmintuko."
+
+#. Translators: Don't translate {packages}, it's a placeholder and will be
+#. replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:159
+#, python-brace-format
+msgid "Remove {packages} from your additional software?"
+msgstr "Šalinti {packages} iš jūsų papildomos programinės įrangos?"
+
+#. Translators: Don't translate {packages}, it's a placeholder
+#. and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:163
+#, python-brace-format
+msgid "This will stop installing {packages} automatically."
+msgstr "Tai sustabdys automatinį {packages} diegimą."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:165
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:188
+msgid "Remove"
+msgstr "Šalinti"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:166
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:40
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:178
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:483
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:834
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:728
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:119
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:376
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#. Translators: Don't translate {beginning} or {last}, they are
+#. placeholders and will be replaced.
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:186
+#, python-brace-format
+msgid "{beginning} and {last}"
+msgstr "{beginning} ir {last}"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-handle-package-changes:187
+msgid ", "
+msgstr ", "
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:37
+msgid "The check for upgrades of your additional software failed"
+msgstr ""
+"Nepavyko patikrinti jūsų papildomai programinei įrangai skirtų naujinimų"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:39
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:47
+msgid ""
+"Please check your network connection, restart Tails, or read the system log "
+"to understand the problem."
+msgstr ""
+"Norėdami išsiaiškinti problemą, patikrinkite savo tinklo ryšį, paleiskite "
+"Tails iš naujo arba skaitykite sistemos žurnalą."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:46
+msgid "The upgrade of your additional software failed"
+msgstr "Jūsų papildomos programinės įrangos naujinimas patyrė nesėkmę"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:111
+msgid "Installing your additional software from persistent storage..."
+msgstr "Įdiegiama papildoma programinė įranga iš jūsų ilgalaikio kaupiklio..."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:113
+msgid "This can take several minutes."
+msgstr "Tai gali užimti kelias minutes."
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:126
+msgid "The installation of your additional software failed"
+msgstr "Jūsų papildomos programinės įrangos diegimas patyrė nesėkmę"
+
+#: config/chroot_local-includes/usr/local/lib/additional-software/asp-install:142
+msgid "Additional software installed successfully"
+msgstr "Papildoma programinė įranga sėkmingai įdiegta"
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:8
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.AdditionalSoftware.desktop.in.h:1
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:646
+msgid "Additional Software"
+msgstr "Papildoma programinė įranga"
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:51
+msgid ""
+"You can install additional software automatically from your persistent "
+"storage when starting Tails."
+msgstr ""
+"Paleisdami Tails, galite automatiškai įdiegti papildomą programinę įrangą iš "
+"savo ilgalaikio kaupiklio."
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:77
+msgid ""
+"The following software is installed automatically from your persistent "
+"storage when starting Tails."
+msgstr ""
+"Ši programinė įranga yra automatiškai įdiegiama iš jūsų ilgalaikio "
+"kaupiklio, kuomet paleidžiate Tails."
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:135
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:205
+msgid ""
+"To add more, install some software using <a "
+"href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a "
+"href=\"org.gnome.Terminal.desktop\">APT on the command line</a>."
+msgstr ""
+"Norėdami pridėti daugiau, įdiekite programinę įrangą naudodami <a "
+"href=\"synaptic.desktop\">Synaptic paketų tvarkytuvę</a> ar <a "
+"href=\"org.gnome.Terminal.desktop\">APT komandų eilutėje</a>."
+
+#: config/chroot_local-includes/usr/share/tails/additional-software/configuration-window.ui:154
+msgid "_Create persistent storage"
+msgstr "_Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:69
+msgid ""
+"Tails needs donations to keep everybody free and safe online.\n"
+"\n"
+"Every bit helps in our fight against surveillance and censorship!\n"
+"\n"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:79
+msgid ""
+"Tails protects your wallet.\n"
+"\n"
+"Help us keep your bitcoins safe!\n"
+"\n"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:156
+msgid "Donate Now"
+msgstr "Paaukokite dabar"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:158
+msgid "Later"
+msgstr "Vėliau"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:173
+msgid "Opening Electrum with our donation address..."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:174
+msgid "Thank you for making the Internet a safer place!"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/electrum:208
+msgid "Persistence is disabled for Electrum"
+msgstr "Ilgalaikiškumas, skirtas Electrum, yra išjungtas"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:210
+msgid ""
+"When you reboot Tails, all of Electrum's data will be lost, including your "
+"Bitcoin wallet.\n"
+"It is strongly recommended to only run Electrum when its persistence feature "
+"is activated."
+msgstr ""
+"Kai paleisite Tails iš naujo, visi jūsų Electrum duomenys bus prarasti, "
+"įskaitant jūsų Bitcoin piniginę.\n"
+"Yra primygtinai rekomenduojama paleisti Electrum tik tuomet, kai yra "
+"aktyvuota jos ilgalaikiškumo ypatybė."
+
+#: config/chroot_local-includes/usr/local/bin/electrum:212
+msgid "Do you want to start Electrum anyway?"
+msgstr "Ar vis tiek norite paleisti Electrum?"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:218
+msgid "_Launch"
+msgstr "Pa_leisti"
+
+#: config/chroot_local-includes/usr/local/bin/electrum:219
+msgid "_Exit"
+msgstr "Iš_eiti"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:59
+msgid "Unknown time"
+msgstr "Nežinomas laikas"
+
+#. Translators: Don't translate {count}, it's a place holder and
+#. will be replaced.
+#. y is the short form for years.
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:78
+#, fuzzy, perl-brace-format
+msgid "1y"
+msgid_plural "{count}y"
+msgstr[0] "{count}m."
+msgstr[1] "{count}m."
+msgstr[2] "{count}m."
+msgstr[3] "{count}m."
+
+#. Translators: Don't translate {count}, it's a place holder and
+#. will be replaced.
+#. d is the short form for days.
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:82
+#, fuzzy, perl-brace-format
+msgid "1d"
+msgid_plural "{count}d"
+msgstr[0] "{count}d."
+msgstr[1] "{count}d."
+msgstr[2] "{count}d."
+msgstr[3] "{count}d."
+
+#. Translators: Don't translate {count}, it's a place holder and
+#. will be replaced.
+#. h is the short form for hours;
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:86
+#, fuzzy, perl-brace-format
+msgid "1h"
+msgid_plural "{count}h"
+msgstr[0] "{count}val."
+msgstr[1] "{count}val."
+msgstr[2] "{count}val."
+msgstr[3] "{count}val."
+
+#. Translators: Don't translate {count}, it's a place holder and
+#. will be replaced.
+#. m is the short form for minutes;
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:90
+#, fuzzy, perl-brace-format
+msgid "1m"
+msgid_plural "{count}m"
+msgstr[0] "{count}min."
+msgstr[1] "{count}min."
+msgstr[2] "{count}min."
+msgstr[3] "{count}min."
+
+#. Translators: Don't translate {count}, it's a place holder and
+#. will be replaced.
+#. s is the short form for seconds;
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:94
+#, fuzzy, perl-brace-format
+msgid "1s"
+msgid_plural "{count}s"
+msgstr[0] "{count}sek."
+msgstr[1] "{count}sek."
+msgstr[2] "{count}sek."
+msgstr[3] "{count}sek."
+
+#. Translators: don't translate {time}, {downloaded}, {size}
+#. and {speed}, they are placeholders and will be replaced.
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/DownloadProgress.pm:139
+#, perl-brace-format
+msgid "#{time} left — {downloaded} of {size} ({speed}/sec)\n"
+msgstr "#Liko {time} — {downloaded} iš {size} ({speed}/sek.)\n"
+
+#. Translators: KB is the short form for kilobyte
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Role/FormatByte.pm:32
+msgid "KB"
+msgstr "KB"
+
+#. Translators: MB is the short form for megabyte
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Role/FormatByte.pm:34
+msgid "MB"
+msgstr "MB"
+
+#. Translators: GB is the short form for gigabyte
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Role/FormatByte.pm:36
+msgid "GB"
+msgstr "GB"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Role/FormatByte.pm:42
+msgid "bytes"
+msgstr "baitų"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:296
+#, fuzzy
+msgid ""
+"<b>An error occurred while updating the signing key.</b>\\n\\n<b>This "
+"prevents determining whether an upgrade is available from our website.</"
+"b>\\n\\nCheck your network connection and restart Tails.\\n\\nIf the problem "
+"persists, try doing a manual upgrade."
+msgstr ""
+"<b>Atnaujinant pasirašymo raktą, įvyko klaida.</b>\\n\\n<b>Tai neleidžia "
+"nustatyti ar iš mūsų svetainės yra prieinamas atnaujinimas.</"
+"b>\\n\\nPatikrinkite savo tinklo ryšį ir paleiskite Tails iš naujo, kad "
+"pabandytumėte naujinti dar kartą.\\n\\nJei problema išlieka, pereikite į "
+"file:///usr/share/doc/tails/website/doc/upgrade/error/check.en.html"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:310
+msgid "Error while downloading the signing key"
+msgstr "Klaida atsisiunčiant pasirašymo raktą"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:343
+msgid "Error while checking for upgrades"
+msgstr "Klaida, tikrinant ar yra naujinimų"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:345
+#, fuzzy
+msgid ""
+"<b>Could not determine whether an upgrade is available from our website.</"
+"b>\n"
+"\n"
+"Check your network connection and restart Tails.\n"
+"\n"
+"If the problem persists, try doing a manual upgrade."
+msgstr ""
+"<b>Nepavyko nustatyti ar iš mūsų svetainės yra prieinamas naujinimas.</b>\n"
+"\n"
+"Patikrinkite savo tinklo ryšį ir iš naujo paleiskite Tails, kad "
+"pabandytumėte naujinti dar kartą.\n"
+"\n"
+"Jei problema išlieka, pereikite į file:///usr/share/doc/tails/website/doc/"
+"upgrade/error/check.en.html"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:360
+msgid "no automatic upgrade is available from our website for this version"
+msgstr ""
+"šiai versijai, iš mūsų svetainės nėra prieinamas automatinis naujinimas"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:366
+#, fuzzy
+msgid "your device was not created using a USB image or Tails Cloner"
+msgstr ""
+"jūsų įrenginys nebuvo sukurtas naudojant USB atvaizdį ar Tails diegimo "
+"programą"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:371
+msgid "Tails was started from a DVD or a read-only device"
+msgstr "Tails buvo paleista iš DVD arba tik skaitymui skirto įrenginio"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:376
+msgid "there is not enough free space on the Tails system partition"
+msgstr "Tails sistemos skaidinyje nepakanka laisvos vietos"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:381
+msgid "not enough memory is available on this system"
+msgstr "šioje sistemoje nėra prieinama pakankamai atminties"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:386
+#, perl-brace-format
+msgid "No explanation available for reason '{reason}'."
+msgstr "Priežastis „{reason}“ neturi prieinamo paaiškinimo."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:409
+msgid "The system is up-to-date"
+msgstr "Jūsų sistema yra atnaujinta"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:412
+msgid ""
+"You are currently running the latest version. There is no upgrade "
+"available.\n"
+msgstr ""
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:415
+#, fuzzy
+msgid "Tails is up to date"
+msgstr "Jūsų sistema yra atnaujinta"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:421
+msgid "This version of Tails is outdated, and may have security issues."
+msgstr "Ši Tails versija yra pasenusi ir joje gali būti saugumo spragų."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:451
+#, perl-brace-format
+msgid ""
+"The available incremental upgrade requires {space_needed} of free space on "
+"Tails system partition,  but only {free_space} is available."
+msgstr ""
+"Prieinamas prieauginis naujinimas reikalauja {space_needed} laisvos vietos "
+"Tails sistemos skaidinyje, tačiau yra prieinama tik {free_space}."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:463
+#, perl-brace-format
+msgid ""
+"The available incremental upgrade requires {memory_needed} of free memory, "
+"but only {free_memory} is available."
+msgstr ""
+"Prieinamas prieauginis naujinimas reikalauja {memory_needed} laisvos "
+"atminties, tačiau yra prieinama tik {free_memory}."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:474
+msgid ""
+"An error ocurred while detecting available upgrades.\n"
+"This should not happen. Please report a bug."
+msgstr ""
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:477
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:496
+msgid "Error while detecting available upgrades"
+msgstr "Klaida, aptinkant prieinamus naujinimus"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:492
+msgid ""
+"An incremental upgrade is available, but no full upgrade is.\n"
+"This should not happen. Please report a bug."
+msgstr ""
+"Yra prieinamas prieauginis naujinimas, tačiau nėra neprieinamas joks pilnas "
+"naujinimas.\n"
+"Taip neturėtų nutikti. Prašome pranešti apie klaidą."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:505
+#, perl-brace-format
+msgid ""
+"<b>You should upgrade to {name} {version}.</b>\n"
+"\n"
+"For more information about this new version, go to {details_url}\n"
+"\n"
+"We recommend you close all other applications during the upgrade.\n"
+"Downloading the upgrade might take a long time, from several minutes to a "
+"few hours.\n"
+"\n"
+"Download size: {size}\n"
+"\n"
+"Do you want to upgrade now?"
+msgstr ""
+"<b>Turėtumėte atsinaujinti į {name} {version}.</b>\n"
+"\n"
+"Išsamesnei informacijai apie šią naują versiją, pereikite į {details_url}\n"
+"\n"
+"Naujinimo metu, rekomenduojame užverti visas kitas programas.\n"
+"Naujinimo atsiuntimas gali ilgai užtrukti, nuo kelių minučių iki kelių "
+"valandų.\n"
+"\n"
+"Atsiuntimo dydis: {size}\n"
+"\n"
+"Ar norite naujinti dabar?"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:518
+msgid "Upgrade available"
+msgstr "Prieinamas naujinimas"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:519
+msgid "Upgrade now"
+msgstr "Naujinti dabar"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:520
+msgid "Upgrade later"
+msgstr "Naujinti vėliau"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:528
+#, perl-brace-format
+msgid ""
+"<b>You should do a manual upgrade to the latest version of {name}.</b>\n"
+"\n"
+"For more information about this new version, go to {details_url}\n"
+"\n"
+"It is impossible to do an automatic upgrade of your Tails to this new "
+"version: {explanation}.\n"
+"\n"
+"To learn how to do a manual upgrade, go to {manual_upgrade_url}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:538
+msgid "New version available"
+msgstr "Yra prieinama nauja versija"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:619
+msgid "Downloading upgrade"
+msgstr "Atsiunčiamas naujinimas"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:621
+#, perl-brace-format
+msgid "Downloading the upgrade to {name} {version}..."
+msgstr "Atsiunčiamas naujinimas į {name} {version}..."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:712
+#, fuzzy
+msgid ""
+"<b>The upgrade could not be downloaded.</b>\\n\\nCheck your network "
+"connection, and restart Tails to try upgrading again."
+msgstr ""
+"<b>Nepavyko atsisiųsti naujinimo.</b>\\n\\nPatikrinkite savo tinklo ryšį ir "
+"iš naujo paleiskite Tails, kad pabandytumėte naujinti dar kartą.\\n\\nJei "
+"problema išlieka, pereikite į file:///usr/share/doc/tails/website/doc/"
+"upgrade/error/download.en.html"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:715
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:730
+msgid "Error while downloading the upgrade"
+msgstr "Klaida, atsiunčiant naujinimą"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:725
+#, perl-brace-format
+msgid ""
+"Output file '{output_file}' does not exist, but tails-iuk-get-target-file "
+"did not complain. Please report a bug."
+msgstr ""
+"Išvesties failo „{output_file}“ nėra, tačiau tails-iuk-get-target-file "
+"nesiskundė. Prašome pranešti apie klaidą."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:741
+msgid "Error while creating temporary downloading directory"
+msgstr "Klaida, kuriant laikiną atsiuntimo katalogą"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:744
+msgid "Failed to create temporary download directory"
+msgstr "Nepavyko sukurti laikino atsiuntimo katalogo"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:756
+msgid ""
+"The upgrade was successfully downloaded.\n"
+"\n"
+"The network connection will be disabled when applying the upgrade.\n"
+"\n"
+"Please save your work and close all other applications."
+msgstr ""
+"Naujinimas buvo sėkmingai atsisiųstas.\n"
+"\n"
+"Taikant naujinimą, tinklo ryšys bus išjungtas.\n"
+"\n"
+"Įsirašykite savo darbą ir užverkite visas kitas programas."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:761
+msgid "Upgrade successfully downloaded"
+msgstr "Naujinimas sėkmingai atsisiųstas"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:762
+msgid "Apply upgrade"
+msgstr "Taikyti naujinimą"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:769
+msgid ""
+"<b>Your Tails device was successfully upgraded.</b>\n"
+"\n"
+"Some security features were temporarily disabled.\n"
+"You should restart Tails on the new version as soon as possible.\n"
+"\n"
+"Do you want to restart now?"
+msgstr ""
+"<b>Jūsų Tails įrenginys buvo sėkmingai atnaujintas.</b>\n"
+"\n"
+"Kai kurios saugumo ypatybės buvo laikinai išjungtos.\n"
+"Jūs turėtumėte kaip įmanoma greičiau iš naujo paleisti į naująją Tails "
+"versiją.\n"
+"\n"
+"Ar norite paleisti iš naujo dabar?"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:774
+msgid "Restart Tails"
+msgstr "Paleisti Tails iš naujo"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:775
+msgid "Restart now"
+msgstr "Paleisti iš naujo dabar"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:776
+msgid "Restart later"
+msgstr "Paleisti iš naujo vėliau"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:787
+msgid "Error while restarting the system"
+msgstr "Klaida paleidžiant sistemą iš naujo"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:788
+msgid "Failed to restart the system"
+msgstr "Nepavyko paleisti sistemos iš naujo"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:801
+msgid "Error while shutting down the network"
+msgstr "Klaida, sustabdant tinklą"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:802
+msgid "Failed to shutdown network"
+msgstr "Nepavyko sustabdyti tinklo"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:812
+msgid "Error while cancelling the upgrade download"
+msgstr "Klaida, atsisakant naujinimo atsiuntimo"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:813
+msgid "Failed to cancel the upgrade download"
+msgstr "Nepavyko atsisakyti naujinimo atsisiuntimo"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:819
+msgid "Upgrading the system"
+msgstr "Naujinama sistema"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:821
+msgid ""
+"<b>Your Tails device is being upgraded...</b>\n"
+"\n"
+"For security reasons, the network connection is now disabled."
+msgstr ""
+"<b>Jūsų Tails įrenginys yra naujinamas...</b>\n"
+"\n"
+"Saugumo sumetimais, tinklo ryšys šiuo metu yra išjungtas."
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:856
+#, fuzzy
+msgid ""
+"<b>An error occurred while installing the upgrade.</b>\\n\\nYour Tails "
+"device needs to be repaired and might be unable to restart.\\n\\nPlease "
+"follow the instructions at file:///usr/share/doc/tails/website/doc/upgrade/"
+"error/install.en.html"
+msgstr ""
+"<b>Įdiegiant naujinimą, įvyko klaida.</b>\\n\\nJūsų Tails įrenginys turi "
+"būti pataisytas ir gali būti, kad jam nepavyks būti paleistam iš naujo."
+"\\n\\nPrašome sekti instrukcijas, esančias file:///usr/share/doc/tails/"
+"website/doc/upgrade/error/install.en.html"
+
+#: config/chroot_local-includes/usr/src/iuk/lib/Tails/IUK/Frontend.pm:861
+msgid "Error while installing the upgrade"
+msgstr "Klaida, įdiegiant naujinimą"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:32
+msgid "Additional Settings"
+msgstr "Papildomi nustatymai"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:44
+msgid "Add"
+msgstr "Pridėti"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/add_settings_dialog.py:52
+msgid "Back"
+msgstr "Atgal"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:65
+msgid "_Administration Password"
+msgstr "_Administravimo slaptažodis"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:196
+msgid "_MAC Address Anonymization"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:267
+msgid "_Offline Mode"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:276
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:445
+msgid "Enable networking (default)"
+msgstr "Įjungti darbą tinkle (numatytasis)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:278
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:491
+msgid "Disable all networking"
+msgstr "Išjungti visą darbą tinkle"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:339
+msgid "_Network Connection"
+msgstr "Ti_nklo ryšys"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:347
+msgid "Obsolete"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:362
+msgid "_Unsafe Browser"
+msgstr "_Nesaugi naršyklė"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:371
+#, fuzzy
+msgid "Enabled (default)"
+msgstr "Išjungta (numatytasis)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:373
+msgid "Disabled"
+msgstr "Išjungta"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:442
+msgid "On (default)"
+msgstr "Įjungta (numatytasis)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:444
+msgid "On"
+msgstr "Įjungta"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:446
+msgid "Off"
+msgstr "Išjungta"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/additional_settings.py:448
+msgid "Off (default)"
+msgstr "Išjungta (numatytasis)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:174
+#, fuzzy
+msgid "Persistent Storage Still Locked"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:176
+#, fuzzy
+msgid ""
+"Do you really want to start Tails without unlocking your Persistent Storage?"
+msgstr ""
+"Ar tikrai norite dabar paleisti Tails iš naujo?\\n\\nVisa jūsų esama veikla "
+"bus prarasta."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:179
+#, fuzzy
+msgid "Start Without Persistent Storage"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:247
+msgid ""
+"Impossible to unlock the Persistent Storage because the USB stick is read-"
+"only."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:408
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:440
+msgid "Unlocking…"
+msgstr "Atrakinama…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:448
+msgid "Checking the file system…"
+msgstr "Tikrinama failų sistema…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:481
+#, fuzzy
+msgid "Repairing the File System"
+msgstr "Tikrinama failų sistema..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:482
+msgid "This might take a long time..."
+msgstr "Tai gali ilgai užtrukti..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:500
+#, fuzzy
+msgid "Failed to repair the file system of your Persistent Storage."
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:502
+msgid "Start Tails to send an error report and learn how to recover your data."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:516
+msgid "File System Repaired Successfully"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:518
+msgid ""
+"It's possible that some data was lost during the repair. Please check the "
+"contents of your Persistent Storage and restore any lost data from a backup."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:522
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:32
+msgid "Close"
+msgstr "Užverti"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:537
+msgid ""
+"You aborted the repair of the file system. You can either start Tails "
+"without Persistent Storage or restart the computer to try repairing the file "
+"system again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:756
+msgid "Start Tails and open the Persistent Storage settings to find out more."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:785
+#, fuzzy
+msgid ""
+"Your Persistent Storage is unlocked. Its content will be available until you "
+"shut down Tails."
+msgstr ""
+"Jūsų ilgalaikis kaupiklis yra atrakintas. Paleiskite Tails iš naujo, "
+"norėdami jį vėl užrakinti."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:800
+msgid "Incorrect passphrase. Please try again."
+msgstr "Neteisinga slaptafrazė. Bandykite dar kartą."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:811
+msgid ""
+"Error reading data from your Persistent Storage. The hardware of your USB "
+"stick is probably failing."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:813
+msgid "Start Tails to learn how to recover your data."
+msgstr "Paleiskite Tails, kad sužinotumėte kaip atkurti savo duomenis."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:824
+msgid "File System Errors"
+msgstr "Failų sistemos klaidos"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:826
+msgid ""
+"Errors were detected in the file system of your Persistent Storage.\n"
+"                \n"
+"Tails can try to fix these errors, but this might erase some of your data "
+"and take a long time.\n"
+"\n"
+"If you already have an up-to-date backup of your Persistent Storage, we "
+"recommend that you try to repair.\n"
+"                \n"
+"If you don't have a backup, we recommend that you create a partition image "
+"of your Persistent Storage first."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:835
+msgid "Repair File System"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:836
+msgid "Create Partition Image"
+msgstr "Sukurti skaidinio atvaizdį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:847
+#, fuzzy
+msgid ""
+"Start Tails to learn how to create a partition image of your Persistent "
+"Storage."
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:856
+#, fuzzy
+msgid "Failed to unlock the Persistent Storage due to file system errors."
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:865
+msgid ""
+"Failed to upgrade the Persistent Storage. Please start Tails and send an "
+"error report."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:872
+msgid ""
+"Failed to unlock the Persistent Storage. Please start Tails and send an "
+"error report."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:880
+msgid ""
+"Failed to activate the Persistent Storage. Please start Tails and send an "
+"error report."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/main_window.py:891
+#, fuzzy
+msgid "Upgrading the Persistent Storage. This might take a while…"
+msgstr "Jūsų ilgalaikio kaupiklio sukūrimas nepavyko."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:125
+#, fuzzy
+msgid "Error unlocking Persistent Storage: {}"
+msgstr "Šifruotas ilgalaikis kau_piklis"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:150
+#, fuzzy
+msgid "Error upgrading Persistent Storage: {}"
+msgstr "Šifruotas ilgalaikis kau_piklis"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:176
+#, python-brace-format
+msgid "Failed to activate some features of the Persistent Storage: {features}."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:181
+#, fuzzy
+msgid "Error activating Persistent Storage: {}"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/settings/persistence.py:202
+#, fuzzy
+msgid "Failed to abort when repairing Persistent Storage filesystem: {}"
+msgstr "Nepavyko paleisti sistemos iš naujo"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:191
+msgid "_Language"
+msgstr "Ka_lba"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:234
+msgid "_Formats"
+msgstr "_Formatai"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tailsgreeter/ui/region_settings.py:271
+msgid "_Keyboard Layout"
+msgstr "_Klaviatūros išdėstymas"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:321
+#, python-format
+msgid "Unable to write on %(device)s, skipping."
+msgstr "Nepavyko rašyti į %(device)s, praleidžiama."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:370
+#, python-format
+msgid "Wrote to device at %(speed)d MB/s"
+msgstr "Įrašyta į įrenginį %(speed)d MB/sek. greičiu"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:382
+msgid "Extracting live image to the target device..."
+msgstr "Išskleidžiamas paleidimo atvaizdis į paskirties įrenginį..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:477
+#, python-format
+msgid ""
+"There was a problem executing the following command: `%(command)s`.\n"
+"A more detailed error log has been written to \"%(filename)s\"."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:496
+#, python-format
+msgid ""
+"Not enough free space on device.\n"
+"%(iso_size)dMB ISO + %(overlay_size)dMB overlay > %(free_space)dMB free space"
+msgstr ""
+"Įrenginyje nepakanka laisvos vietos.\n"
+"%(iso_size)dMB ISO + %(overlay_size)dMB perdanga > %(free_space)dMB laisvos "
+"vietos"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:509
+#, python-format
+msgid "Creating %sMB persistent overlay"
+msgstr "Kuriama %sMB ilgalaikė perdanga"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:575
+#, python-format
+msgid "Unable to copy %(infile)s to %(outfile)s: %(message)s"
+msgstr "Nepavyko nukopijuoti %(infile)s į %(outfile)s: %(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:588
+msgid "Removing existing Tails system"
+msgstr "Šalinama esama Tails sistema"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:599
+#, python-format
+msgid "Unable to remove file from previous Tails system: %(message)s"
+msgstr "Nepavyksta pašalinti failo iš ankstesnės Tails sistemos: %(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:609
+#, python-format
+msgid "Unable to chmod %(file)s: %(message)s"
+msgstr "Nepavyko atlikti chmod %(file)s: %(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:617
+#, python-format
+msgid "Unable to remove directory from previous Tails system: %(message)s"
+msgstr ""
+"Nepavyksta pašalinti katalogo iš ankstesnės Tails sistemos: %(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:668
+#, python-format
+msgid "Cannot find device %s"
+msgstr "Nepavyksta rasti įrenginio %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:704
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1024
+msgid "Unknown filesystem.  Your device may need to be reformatted."
+msgstr ""
+"Nežinoma failų sistema. Gali būti, kad jūsų įrenginys turi būti iš naujo "
+"formatuotas."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:707
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1027
+#, python-format
+msgid "Unsupported filesystem: %s"
+msgstr "Nepalaikoma failų sistema: %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:723
+#, python-format
+msgid "Unknown GLib exception while trying to mount device: %(message)s"
+msgstr "Nežinoma GLib išimtis, bandant prijungti įrenginį: %(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:730
+#, python-format
+msgid "Unable to mount device: %(message)s"
+msgstr "Nepavyko prijungti įrenginio: %(message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:735
+msgid "No mount points found"
+msgstr "Nerasta jokių prijungimo taškų"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:805
+#, fuzzy
+msgid "Target device has opened files"
+msgstr "Įrašyta į įrenginį %(speed)d MB/sek. greičiu"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:833
+#, python-format
+msgid "Mount %s exists after unmounting"
+msgstr "Prijungimas %s po atjungimo vis dar yra"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:864
+#, python-format
+msgid "Partitioning device %(device)s"
+msgstr "Skaidomas įrenginys %(device)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1008
+#, python-format
+msgid "Unsupported device '%(device)s', please report a bug."
+msgstr "Nepalaikomas įrenginys \"%(device)s\", prašome pranešti apie klaidą."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1011
+msgid "Trying to continue anyway."
+msgstr "Bandoma vis tiek tęsti."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1020
+msgid "Verifying filesystem..."
+msgstr "Tikrinama failų sistema..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1043
+#, python-format
+msgid "Unable to change volume label: %s"
+msgstr "Nepavyko pakeisti tomo etiketės: %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1049
+msgid "Installing bootloader..."
+msgstr "Diegiama paleidyklė..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1057
+#, python-format
+msgid "Removing %(file)s"
+msgstr "Šalinama %(file)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1086
+#, fuzzy
+msgid "Cloning Persistent Storage..."
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1169
+#, python-format
+msgid "%s already bootable"
+msgstr "%s jau ir taip paleidžiamas"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1190
+msgid "Unable to find partition"
+msgstr "Nepavyko rasti skaidinio"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1212
+#, python-format
+msgid "Formatting %(device)s as FAT32"
+msgstr "Formatuojama %(device)s kaip FAT32"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1289
+#, python-format
+msgid "Reading extracted MBR from %s"
+msgstr "Skaitomas paleidimo įrašas (MBR) iš %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1294
+#, python-format
+msgid "Could not read the extracted MBR from %(path)s"
+msgstr "Nepavyko perskaityti išskleisto paleidimo įrašo (MBR) iš %(path)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1308
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1309
+#, python-format
+msgid "Resetting Master Boot Record of %s"
+msgstr "Atstatomas %s paleidimo įrašas (MBR)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1313
+#, python-format
+msgid "Writing random seed to LBA 34 of %s"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1320
+msgid "Drive is a loopback, skipping MBR reset"
+msgstr ""
+"Diskas yra kilpinis sujunginys, praleidžiamas paleidimo įrašo (MBR) "
+"atstatymas"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/creator.py:1324
+msgid "Synchronizing data on disk..."
+msgstr "Sinchronizuojami duomenys diske..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:148
+msgid ""
+"Unable to clone because the target USB stick is being used. Close all open "
+"files on the target USB stick, restart Tails Cloner, and try to clone again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:180
+msgid ""
+"Error: Cannot set the label or obtain the UUID of your device.  Unable to "
+"continue."
+msgstr ""
+"Klaida: Nepavyksta nustatyti etiketės ar gauti jūsų įrenginio UUID.  "
+"Nepavyko tęsti."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:225
+#, fuzzy, python-format
+msgid "Cloning complete! (%s)"
+msgstr "Diegimas baigtas! (%s)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:230
+msgid "Tails installation failed!"
+msgstr "Tails diegimas patyrė nesėkmę!"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:332
+#: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:1
+#, fuzzy
+msgid "Tails Cloner"
+msgstr "Tails diegimo programa"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:384
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:164
+msgid "Clone the current Tails"
+msgstr "Kopijuoti esamą Tails"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:392
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:200
+msgid "Use a downloaded Tails ISO image"
+msgstr "Naudoti atsisiųstą Tails ISO atvaizdį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:444
+msgid "Upgrade"
+msgstr "Naujinti"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:445
+msgid "Manual Upgrade Instructions"
+msgstr "Rankinio naujinimo instrukcijos"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:456
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:714
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:374
+msgid "Install"
+msgstr "Įdiegti"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:459
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:131
+msgid "Installation Instructions"
+msgstr "Diegimo instrukcijos"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:462
+msgid "Backup Instructions"
+msgstr "Atsarginės kopijos instrukcijos"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:473
+#, python-format
+msgid "%(size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr "%(size)s %(vendor)s %(model)s įrenginys (%(device)s)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:486
+msgid "No ISO image selected"
+msgstr "Nepasirinktas joks ISO atvaizdis"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:486
+msgid "Please select a Tails ISO image."
+msgstr "Pasirinkite Tails ISO atvaizdį."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:537
+msgid ""
+"Clone the current Persistent Storage\n"
+"Impossible to clone the Persistent Storage because it is locked."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:541
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:180
+#, fuzzy
+msgid "Clone the current Persistent Storage"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:544
+msgid ""
+"Clone the current Persistent Storage\n"
+"You can only choose to reinstall when cloning the Persistent Storage."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:582
+#, python-format
+msgid ""
+"The USB stick \"%(pretty_name)s\" is configured as non-removable by its "
+"manufacturer and Tails will fail to start from it. Please try installing on "
+"a different model."
+msgstr ""
+"USB atmintuko \"%(pretty_name)s\" gamintojas jį sukonfigūravo kaip "
+"nekeičiamąjį, todėl Tails iš jo nepasileis. Pabandykite įdiegti kitame "
+"modelyje."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:592
+#, python-format
+msgid ""
+"The device \"%(pretty_name)s\" is too small to install Tails (at least "
+"%(size)s GB is required)."
+msgstr ""
+"Įrenginys \"%(pretty_name)s\" yra pernelyg mažas, kad būtų įdiegta Tails "
+"(reikalingas bent %(size)s GB įrenginys)."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:607
+#, python-format
+msgid ""
+"To upgrade device \"%(pretty_name)s\" from this Tails, you need to use a "
+"downloaded Tails ISO image:\n"
+"%(dl_url)s"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:628
+msgid "No device suitable to install Tails could be found"
+msgstr "Nepavyko rasti jokio Tails diegimui tinkamo įrenginio"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:631
+#, python-format
+msgid "Plug in a USB stick of at least %0.1f GB."
+msgstr "Įkiškite bent %0.1f GB USB atmintuką."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:644
+msgid "An error happened while installing Tails"
+msgstr "Diegiant Tails, įvyko klaida"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:701
+msgid "Installation complete!"
+msgstr "Diegimas baigtas!"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:757
+#, python-format
+msgid "%(parent_size)s %(vendor)s %(model)s device (%(device)s)"
+msgstr "%(parent_size)s %(vendor)s %(model)s įrenginys (%(device)s)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:770
+#, fuzzy
+msgid ""
+"\n"
+"\n"
+"The Persistent Storage on this USB stick will be lost."
+msgstr ""
+"\n"
+"\n"
+"Ilgalaikis kaupiklis šiame USB atmintuke bus prarastas."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:772
+msgid "Delete Persistent Storage and Reinstall"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:774
+msgid ""
+"\n"
+"\n"
+"All data on this USB stick will be lost."
+msgstr ""
+"\n"
+"\n"
+"Visi šiame USB atmintuke esantys duomenys bus prarasti."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:775
+msgid "Delete All Data and Install"
+msgstr "Ištrinti visus duomenis ir įdiegti"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:776
+#, python-format
+msgid "%(description)s%(delete_message)s"
+msgstr "%(description)s%(delete_message)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:781
+msgid "Confirm the target USB stick"
+msgstr "Patvirtinkite paskirties USB atmintuką"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:811
+msgid "Unable to mount device"
+msgstr "Nepavyko prijungti įrenginio"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:840
+msgid ""
+"The selected file is unreadable. Please fix its permissions or select "
+"another file."
+msgstr ""
+"Pasirinktas failas yra neperskaitomas. Pataisykite jo leidimus arba "
+"pasirinkite kitą failą."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:850
+msgid ""
+"Unable to use the selected file.  You may have better luck if you move your "
+"ISO to the root of your drive (ie: C:\\)"
+msgstr ""
+"Nepavyko naudoti pasirinkto failo.  Jums gali labiau pasisekti, jei "
+"perkelsite ISO atvaizdį į savo disko šaknies katalogą (t.y.: C:\\)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/gui.py:859
+#, python-format
+msgid "%(filename)s selected"
+msgstr "Pasirinktas %(filename)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:37
+msgid "Unable to find Tails on ISO"
+msgstr "Nepavyko ISO atvaizdyje rasti Tails"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:44
+#, python-format
+msgid "Could not guess underlying block device: %s"
+msgstr "Nepavyko parinkti esamą blokinį įrenginį: %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:61
+#, python-format
+msgid ""
+"There was a problem executing `%(cmd)s`.\n"
+"%(out)s\n"
+"%(err)s"
+msgstr ""
+"Vykdant „%(cmd)s“, atsirado problema.\n"
+"%(out)s\n"
+"%(err)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:70
+#, python-format
+msgid "\"%s\" does not exist"
+msgstr "„%s“ nėra"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:72
+#, python-format
+msgid "\"%s\" is not a directory"
+msgstr "„%s“ nėra katalogas"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/source.py:84
+#, python-format
+msgid "Skipping \"%(filename)s\""
+msgstr "Praleidžiama „%(filename)s“"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/utils.py:63
+#, python-format
+msgid ""
+"There was a problem executing `%(cmd)s`.%(out)s\n"
+"%(err)s"
+msgstr ""
+"Vykdant „%(cmd)s“, atsirado problema.%(out)s\n"
+"%(err)s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tails_installer/utils.py:144
+msgid "Could not open device for writing."
+msgstr "Nepavyko atverti įrenginio rašymui."
+
+#: config/chroot_local-includes/usr/local/bin/keepassxc:24
+#, sh-format
+msgid ""
+"<b><big>Do you want to rename your <i>KeePassXC</i> database?</big></b>\n"
+"\n"
+"You have a <i>KeePassXC</i> database in your <i>Persistent</i> folder:\n"
+"\n"
+"<i>${filename}</i>\n"
+"\n"
+"Renaming your database to <i>${default_filename}</i> would allow "
+"<i>KeePassXC</i> to open it automatically in the future."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/keepassxc:33
+msgid "Rename"
+msgstr "Pervadinti"
+
+#: config/chroot_local-includes/usr/local/bin/keepassxc:35
+msgid "Keep current name"
+msgstr "Palikti esamą pavadinimą"
+
+#: config/chroot_local-includes/usr/local/bin/replace-su-with-sudo:19
+msgid "su is disabled. Please use sudo instead."
+msgstr "su yra išjungta. Vietoj to, naudokite sudo."
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:3
+msgid "Error Reading Data from Tails USB Stick"
+msgstr "Klaida skaitant duomenis iš Tails USB atmintuko"
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:4
+msgid "The hardware of your USB stick is probably failing."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:5
+msgid "We recommend that you reinstall Tails on a different USB stick."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:7
+#, fuzzy
+msgid ""
+"We recommend that you reinstall Tails on a different USB stick\n"
+"and recover the data from your Persistent Storage as soon as possible."
+msgstr ""
+"Norėdami tai atlikti, įdiekite Tails USB atmintuke ir sukurkite ilgalaikį "
+"kaupiklį."
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:10
+msgid "Dismiss"
+msgstr "Atmesti"
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-ioerrors:11
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:40
+msgid "Learn More"
+msgstr "Sužinokite daugiau"
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:18
+#, fuzzy
+msgid "Partitioning Error"
+msgstr "Disko skaidymo klaidos"
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:19
+msgid "Errors were detected in the partitioning of your Tails USB stick."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:26
+msgid ""
+"We recommend that you create a backup of your Tails using <i>Tails Cloner</"
+"i> to migrate to a new USB stick."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:33
+#, fuzzy
+msgid "Open Tails Cloner"
+msgstr "Tails diegimo programa"
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:42
+#, fuzzy
+msgid "Creation of Persistent Storage has been disabled."
+msgstr "Jūsų ilgalaikio kaupiklio sukūrimas nepavyko."
+
+#: config/chroot_local-includes/usr/local/lib/tails-report-disk-partitioning-errors:44
+#, fuzzy
+msgid ""
+"We recommend that you reinstall Tails from scratch. If the error persists, "
+"reinstall on a new USB stick."
+msgstr ""
+"Norėdami tai atlikti, įdiekite Tails USB atmintuke ir sukurkite ilgalaikį "
+"kaupiklį."
+
+#: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:207
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:77
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:79
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:37
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:314
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:460
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:593
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1096
+msgid "Error"
+msgstr "Klaida"
+
+#: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:209
+msgid ""
+"The device Tails is running from cannot be found. Maybe you used the 'toram' "
+"option?"
+msgstr ""
+"Nepavyksta rasti įrenginio, iš kurio yra paleista Tails. Galbūt, jūs "
+"naudojote \"toram\" parametrą?"
+
+#: config/chroot_local-includes/usr/src/perl5lib/lib/Tails/RunningSystem.pm:237
+msgid ""
+"The drive Tails is running from cannot be found. Maybe you used the 'toram' "
+"option?"
+msgstr ""
+"Nepavyksta rasti disko, iš kurio yra paleista Tails. Galbūt, jūs naudojote "
+"\"toram\" parametrą?"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:86
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:110
+msgid "Lock Screen"
+msgstr "Užrakinti ekraną"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:90
+msgid "Suspend"
+msgstr "Pristabdyti"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:94
+msgid "Restart"
+msgstr "Paleisti iš naujo"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/status-menu-helper@tails.boum.org/extension.js:98
+msgid "Power Off"
+msgstr "Išjungti"
+
+#: config/chroot_local-includes/usr/local/bin/tails-about:27
+#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:1
+msgid "Tails"
+msgstr "Tails"
+
+#: config/chroot_local-includes/usr/local/bin/tails-about:30
+#: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:1
+msgid "About Tails"
+msgstr "Apie Tails"
+
+#: config/chroot_local-includes/usr/local/bin/tails-about:34
+#, fuzzy
+msgid "Check for Upgrades"
+msgstr "Klaida, tikrinant ar yra naujinimų"
+
+#: config/chroot_local-includes/usr/local/bin/tails-about:57
+msgid "UNRELEASED"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-about:64
+#, python-format
+msgid "Built from %s"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-additional-software-notify:36
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:114
+#, python-brace-format
+msgid ""
+"Remove {package} from your additional software? This will stop installing "
+"the package automatically."
+msgstr ""
+"Šalinti {package} iš jūsų papildomos programinės įrangos? Paketas daugiau "
+"nebebus įdiegiamas automatiškai."
+
+#. Translators: Don't translate {pkg}, it's a placeholder and will be replaced.
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:127
+#, python-brace-format
+msgid "Failed to remove {pkg}"
+msgstr "Nepavyko pašalinti {pkg}"
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:155
+msgid "Failed to read additional software configuration"
+msgstr "Nepavyko perskaityti papildomos programinės įrangos konfigūracijos"
+
+#. Translators: Don't translate {package}, it's a placeholder and will be replaced.
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:184
+#, python-brace-format
+msgid "Stop installing {package} automatically"
+msgstr "Stabdyti automatinį {package} įdiegimą"
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:215
+msgid ""
+"To do so, install some software using <a href=\"synaptic.desktop\">Synaptic "
+"Package Manager</a> or <a href=\"org.gnome.Terminal.desktop\">APT on the "
+"command line</a>."
+msgstr ""
+"Norėdami tai atlikti, įdiekite programinę įrangą naudodami <a "
+"href=\"synaptic.desktop\">Synaptic paketų tvarkytuvę</a> ar <a "
+"href=\"org.gnome.Terminal.desktop\">APT komandų eilutėje</a>."
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:227
+msgid ""
+"To do so, unlock your Persistent Storage when starting Tails and install "
+"some software using <a href=\"synaptic.desktop\">Synaptic Package Manager</"
+"a> or <a href=\"org.gnome.Terminal.desktop\">APT on the command line</a>."
+msgstr ""
+"Norėdami tai atlikti, paleisdami Tails, atrakinkite savo ilgalaikį kaupiklį "
+"ir įdiekite programinę įrangą naudodami <a "
+"href=\"synaptic.desktop\">Synaptic paketų tvarkytuvę</a> ar <a "
+"href=\"org.gnome.Terminal.desktop\">APT komandų eilutėje</a>."
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:240
+#, fuzzy
+msgid ""
+"To do so, create a Persistent Storage and install some software using <a "
+"href=\"synaptic.desktop\">Synaptic Package Manager</a> or <a "
+"href=\"org.gnome.Terminal.desktop\">APT on the command line</a>."
+msgstr ""
+"Norėdami tai atlikti, sukurkite ilgalaikį kaupiklį ir įdiekite programinę "
+"įrangą naudodami <a href=\"synaptic.desktop\">Synaptic paketų tvarkytuvę</a> "
+"ar <a href=\"org.gnome.Terminal.desktop\">APT komandų eilutėje</a>."
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:258
+#, fuzzy
+msgid "To do so, install Tails on a USB stick and create a Persistent Storage."
+msgstr ""
+"Norėdami tai atlikti, įdiekite Tails USB atmintuke ir sukurkite ilgalaikį "
+"kaupiklį."
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:304
+msgid "[package not available]"
+msgstr "[paketas neprieinamas]"
+
+#: config/chroot_local-includes/usr/local/bin/tails-additional-software-config:311
+msgid "[description not available]"
+msgstr "[aprašas neprieinamas]"
+
+#: config/chroot_local-includes/usr/local/lib/tails-htp-notify-user:68
+msgid "Failed to synchronize the clock!"
+msgstr "Nepavyko sinchronizuoti laikrodžio!"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:125
+msgid "Screen Locker"
+msgstr "Ekrano užrakinimas"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:131
+msgid "Set up a password to unlock the screen."
+msgstr "Nusistatykite slaptažodį ekrano atrakinimui."
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:149
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2290
+msgid "Password"
+msgstr "Slaptažodis"
+
+#: config/chroot_local-includes/usr/local/bin/tails-screen-locker:150
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:109
+msgid "Confirm"
+msgstr "Patvirtinkite"
+
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:121
+msgid "This version of Tails has known security issues:"
+msgstr "Šioje Tails versijoje yra žinomos saugumo problemos:"
+
+#: config/chroot_local-includes/usr/local/bin/tails-security-check:132
+msgid "Known security issues"
+msgstr "Žinomos saugumo problemos"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:60
+#, sh-format
+msgid "Wi-Fi Interface Disabled"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:61
+#, sh-format
+msgid ""
+"MAC address anonymization failed for one of your Wi-Fi interfaces, so it is "
+"temporarily disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:64
+#, fuzzy, sh-format
+msgid "Wi-Fi Disabled"
+msgstr "Išjungta"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:65
+#, sh-format
+msgid ""
+"MAC address anonymization failed for your Wi-Fi interface, so it is "
+"temporarily disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:67
+#, sh-format
+msgid "Wired Interface Disabled"
+msgstr "Laidinė sąsaja išjungta"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:68
+#, sh-format
+msgid ""
+"MAC address anonymization failed for one of your wired interfaces, so it is "
+"temporarily disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:71
+#, sh-format
+msgid "Wired Network Disabled"
+msgstr "Laidinis tinklas išjungtas"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:72
+#, sh-format
+msgid ""
+"MAC address anonymization failed for your wired interface, so it is "
+"temporarily disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:74
+#, sh-format
+msgid "Network Interface Disabled"
+msgstr "Tinklo sąsaja išjungta"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:75
+#, sh-format
+msgid ""
+"MAC address anonymization failed for one of your network interfaces, so it "
+"is temporarily disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:87
+#, fuzzy
+msgid "All Networking Disabled"
+msgstr "Visas darbas tinkle išjungtas"
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:89
+#, sh-format
+msgid ""
+"MAC address anonymization failed for one of your network interfaces. The "
+"error recovery also failed, so all networking is disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/tails-spoof-mac:92
+#, sh-format
+msgid ""
+"MAC address anonymization failed for your network interface. The error "
+"recovery also failed, so all networking is disabled."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:36
+#, python-brace-format
+msgid ""
+"<b>Not enough memory available to check for upgrades.</b>\n"
+"\n"
+"Make sure this system satisfies the requirements for running Tails.\n"
+"See file:///usr/share/doc/tails/website/doc/about/requirements.en.html\n"
+"\n"
+"Try to restart Tails to check for upgrades again.\n"
+"\n"
+"Or do a manual upgrade.\n"
+"See {manual_upgrade_url}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/tails-upgrade-frontend-wrapper:76
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:36
+msgid "error:"
+msgstr "klaida:"
+
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:21
+msgid "Warning: virtual machine detected!"
+msgstr "Įspėjimas: aptikta virtualioji mašina!"
+
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:23
+msgid "Warning: non-free virtual machine detected!"
+msgstr ""
+"Įspėjimas: aptikta ne laisvosios programinės įrangos virtualioji mašina!"
+
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:25
+msgid ""
+"Both the host operating system and the virtualization software are able to "
+"monitor what you are doing in Tails. Only free software can be considered "
+"trustworthy, for both the host operating system and the virtualization "
+"software."
+msgstr ""
+"Tiek pagrindinio kompiuterio operacinė sistema, tiek virtualizacijos "
+"programinė įranga gali stebėti ką jūs darote sistemoje Tails. Tik laisvoji "
+"programinė įranga, naudojama tiek pagrindinio kompiuterio operacinėje "
+"sistemoje, tiek virtualizacijos programinėje įrangoje, gali būti laikoma "
+"patikima."
+
+#: config/chroot_local-includes/usr/local/lib/tails-virt-notify-user:38
+msgid "Don't Show Again"
+msgstr "Daugiau neberodyti"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/config.py:9
+#: config/chroot_local-includes/usr/local/bin/tca:10
+#: ../config/chroot_local-includes/usr/share/applications/tca.desktop.in.h:1
+msgid "Tor Connection"
+msgstr "Tor ryšys"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:200
+msgid "_Use a bridge that you already know"
+msgstr "Na_udoti jau jums žinomą tinklų tiltą"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:242
+msgid ""
+"To save your bridge, <a href=\"doc/persistent_storage\">unlock your "
+"Persistent Storage</a>."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:249
+msgid ""
+"To save your bridge, <a href=\"doc/persistent_storage\">create a Persistent "
+"Storage</a> on your Tails USB stick."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:269
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:795
+#, python-brace-format
+msgid "Invalid: {exception}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:281
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:808
+msgid "You need to configure an obfs4 bridge to hide that you are using Tor"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:336
+msgid "Failed to configure your Persistent Storage"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:388
+msgid "Failed to detect a webcam. Maybe your webcam is too old."
+msgstr "Nepavyko aptikti vaizdo kameros. Galbūt, jūsų vaizdo kamera per sena."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:399
+msgid "Failed to scan QR code. Try with more light or closer to the camera."
+msgstr ""
+"Nepavyko nuskenuoti QR kodo. Pabandykite šviesesnėje aplinkoje arba arčiau "
+"vaizdo kameros."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:410
+msgid "Invalid QR code. Try sending another email and scanning again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:468
+msgid "Synchronizing the system's clock…"
+msgstr "Sinchonizuojamas sistemos laikrodis…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:520
+msgid "Connecting to Tor without bridges…"
+msgstr "Jungiamasi prie Tor be tinklų tiltų…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:527
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:551
+msgid "Connecting to Tor with default bridges…"
+msgstr "Jungiamasi prie Tor naudojant numatytuosius tinklų tiltus…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:534
+msgid "Connecting to Tor with a custom bridge…"
+msgstr "Jungiamasi prie Tor naudojant tinkintus tinklų tiltus…"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:642
+msgid "Connected to Tor successfully with bridges"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:644
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2037
+msgid "Connected to Tor successfully"
+msgstr "Sėkmingai prisijungta prie Tor"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:648
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2062
+msgid "You can now browse the Internet anonymously and uncensored."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:723
+msgid "This local network seems to be blocking access to Tor."
+msgstr "Atrodo, kad šis vietinis tinklas blokuoja prieigą prie Tor."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:798
+msgid "Bridge address malformed"
+msgstr "Netaisyklingas tinklų tilto adresas"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:816
+msgid "Setting a bridge is needed if you want to hide that you are using Tor"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1055
+#, python-brace-format
+msgid "Scanned {bridge_type} bridge: <b>{bridge_info}</b>."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1144
+msgid "Are you sure you want to lose progress?"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1148
+msgid ""
+"Tails will continue connecting to Tor after you close the Tor Connection "
+"assistant.\n"
+"\n"
+"If connecting to Tor fails, you will have to wait again until the end of the "
+"progress bar to be able to troubleshoot your connection."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1154
+msgid "Close and Lose Progress"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tca/ui/main_window.py:1156
+msgid "Wait"
+msgstr "Palaukti"
+
+#: config/chroot_local-includes/usr/local/bin/thunderbird:41
+msgid "You need to migrate your OpenPGP keys"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/thunderbird:43
+msgid ""
+"<i>Thunderbird</i> 78 now replaces the <i>Enigmail</i> extension with built-"
+"in support for OpenPGP encryption. To continue using your OpenPGP keys in "
+"<i>Thunderbird</i>, follow our migration instructions."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/thunderbird:45
+msgid "_Open Migration Instructions"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/bin/thunderbird:46
+msgid "_Migrate Later"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/launch-tor-browser:38
+msgid "Tor is not ready"
+msgstr "Tor neparuoštas"
+
+#: config/chroot_local-includes/usr/local/lib/launch-tor-browser:39
+msgid "Tor is not ready. Start Tor Browser anyway?"
+msgstr "Tor neparuoštas. Vis tiek paleisti Tor Naršyklę?"
+
+#: config/chroot_local-includes/usr/local/lib/launch-tor-browser:40
+msgid "Start Tor Browser Offline"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/lib/launch-tor-browser:41
+msgid "Open Tor Connection"
+msgstr ""
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:37
+msgid "Tor Status"
+msgstr "Tor būsena"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:46
+#, fuzzy
+msgid "Open Tor Connection Assistant"
+msgstr "Atstatyti Tor ryšį"
+
+#: config/chroot_local-includes/usr/share/gnome-shell/extensions/torstatus@tails.boum.org/extension.js:50
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2116
+msgid "View Tor Circuits"
+msgstr "Rodyti Tor grandines"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:348
+#, python-brace-format
+msgid ""
+"Only {available_memory} KiB of memory is available, need at least "
+"{required_memory} KiB.\n"
+"\n"
+"Try again after closing some applications or rebooting."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:362
+#, fuzzy
+msgid "Creating a partition for the Persistent Storage..."
+msgstr "Ištaisomi ilgalaikio tomo leidimai."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:384
+msgid ""
+"Initializing the LUKS encryption... The computer might stop responding for a "
+"few seconds."
+msgstr ""
+"Inicijuojamas LUKS šifravimas... Kompiuteris gali kelias sekundes nereaguoti."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:413
+msgid "Unlocking the encryption..."
+msgstr "Atrakinamas šifravimas..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:421
+msgid "Formatting the file system..."
+msgstr "Formatuojama failų sistema..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:439
+#, fuzzy
+msgid "Activating the Persistent Storage..."
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:444
+#, fuzzy
+msgid "Finishing setting up the Persistent Storage..."
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:697
+msgid ""
+"Can't unmount Persistent Storage, some process is still using it. Please "
+"close all applications that could be accessing it and try again. If that "
+"doesn't work, restart Tails and try deleting the Persistent Storage without "
+"unlocking it."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/device.py:730
+msgid ""
+"Not enough memory to change the passphrase of the Persistent Storage. Try "
+"again after closing some applications or rebooting."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps/configuration/binding.py:425
+#, python-brace-format
+msgid ""
+"Can't unmount target {target}, some process is still using it. Please close "
+"all applications that could be accessing the target and try again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:30
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:49
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.PersistentStorage.desktop.in.h:1
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:25
+#, fuzzy
+msgid "Persistent Storage"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:56
+#, fuzzy
+msgid "Failed to start the Persistent Storage service"
+msgstr "Nepavyko paleisti sistemos iš naujo"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/application.py:80
+msgid "Could not find the WhisperBack application"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:94
+msgid "Delete Data…"
+msgstr "Ištrinti duomenis…"
+
+#. Translators: Don't translate {feature}, it's a placeholder
+#. and will be replaced.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:100
+#, python-brace-format
+msgid "Delete {feature} data"
+msgstr "Ištrinti {feature} duomenis"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:122
+#, fuzzy
+msgid "Activation failed"
+msgstr "Paslėpti failai"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:178
+msgid "Activation failed. Try again or delete data."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:180
+msgid "Activation failed. Try again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:182
+msgid "The data of this feature is still saved."
+msgstr "Šios ypatybės duomenys yra vis dar įrašyti."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:289
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:296
+#, fuzzy
+msgid "Error activating feature {}"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:297
+#, fuzzy
+msgid "An error occurred while activating the feature."
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:298
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:347
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:411
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:115
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:270
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:298
+msgid "Details"
+msgstr "Išsamiau"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:338
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:345
+#, fuzzy
+msgid "Error deactivating feature {}"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:346
+#, fuzzy
+msgid "An error occurred while deactivating the feature."
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:366
+msgid ""
+"Delete all the data of the {} feature that is saved in the Persistent "
+"Storage?\n"
+"\n"
+"If you cancel, the data will be restored when you turn this feature on again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:377
+msgid "_Delete Data"
+msgstr "Iš_trinti duomenis"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:407
+msgid "Error deleting data of feature {}"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:408
+msgid "An error occurred while deleting the data of feature {}."
+msgstr ""
+
+#. Translators: Don't translate {applications}, it's a placeholder
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:515
+#, python-brace-format
+msgid "Close {applications} to continue"
+msgstr "Užverkite {applications} norėdami tęsti"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:516
+msgid " and "
+msgstr " ir "
+
+#. Translators: Don't translate {app} and {pid}, they
+#. are placeholders.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:527
+#, python-brace-format
+msgid "{app} (PID: {pid})"
+msgstr "{app} (PID: {pid})"
+
+#. Translators: Don't translate {app} and {pids}, they
+#. are placeholders.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/feature.py:532
+#, python-brace-format
+msgid "{app} (PIDs: {pids})"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:37
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:8
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:56
+msgid "Change Passphrase"
+msgstr "Keisti slaptafrazę"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:92
+msgid "The current passphrase is incorrect"
+msgstr "Dabartinė slaptafrazė yra neteisinga"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:103
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:113
+msgid "Changing the passphrase failed"
+msgstr "Nepavyko pakeisti slaptafrazės"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/change_passphrase_dialog.py:114
+msgid "An error occurred while changing the passphrase."
+msgstr "Keičiant slaptafrazę įvyko klaida."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:44
+msgid "Weak"
+msgstr "Silpna"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:47
+msgid "Fair"
+msgstr "Nebloga"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:50
+msgid "Good"
+msgstr "Gera"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/passphrase_strength_hint.py:53
+msgid "Strong"
+msgstr "Stipri"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:54
+msgid "You can send an error report to help solve the issue."
+msgstr ""
+"Jūs galite išsiųsti pranešimą apie klaidą, kad padėtumėte išspręsti problemą."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/error_dialog.py:61
+msgid "_Send Error Report"
+msgstr "_Siųsti pranešimą apie klaidą"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:153
+msgid ""
+"Impossible to delete the Persistent Storage while it is unlocked.\n"
+"\n"
+"To delete the Persistent Storage, restart Tails without unlocking the "
+"Persistent Storage and open the Persistent Storage settings again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:167
+msgid ""
+"Impossible to delete the Persistent Storage because the USB stick is read-"
+"only.\n"
+"\n"
+"To delete the Persistent Storage, turn off the read-only protection of the "
+"USB stick, restart Tails without unlocking the Persistent Storage and open "
+"the Persistent Storage settings again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:175
+#, fuzzy
+msgid "Impossible to delete the Persistent Storage"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:183
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:218
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:36
+#, fuzzy
+msgid "Delete Persistent Storage"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:187
+msgid ""
+"Are you sure that you want to delete your Persistent Storage? This action "
+"cannot be undone."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:191
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:56
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:304
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:121
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:219
+msgid "_Cancel"
+msgstr "_Atsisakyti"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:192
+#, fuzzy
+msgid "_Delete Persistent Storage"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:202
+#, fuzzy
+msgid "Deleting your Persistent Storage..."
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:221
+msgid "_OK"
+msgstr "_Gerai"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:230
+msgid ""
+"Sorry, you can't close this app until the ongoing operation has completed."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:233
+msgid "Please wait"
+msgstr "Palaukite"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:261
+#, fuzzy
+msgid "Not enough memory to create Persistent Storage"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:268
+#, fuzzy
+msgid "Failed to create Persistent Storage"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:269
+#, fuzzy
+msgid "An error occurred while creating the Persistent Storage."
+msgstr "Šifruotas ilgalaikis kau_piklis"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:289
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:296
+#, fuzzy
+msgid "Error deleting Persistent Storage"
+msgstr "Šifruotas ilgalaikis kau_piklis"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:297
+#, fuzzy
+msgid "An error occurred while deleting the Persistent Storage."
+msgstr "Šifruotas ilgalaikis kau_piklis"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:334
+msgid "Details (command output)"
+msgstr "Išsamiau (komandos išvestis)"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/tps_frontend/window.py:349
+msgid "Failed to open the documentation"
+msgstr "Nepavyko atverti dokumentacijos"
+
+#. Translators: Don't translate {volume_label} or {volume_size},
+#. they are placeholders and will be replaced. They need
+#. to be present in the translated string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:79
+#, python-brace-format
+msgid "{volume_label} ({volume_size})"
+msgstr "{volume_label} ({volume_size})"
+
+#. Translators: Don't translate {partition_name} or {partition_size},
+#. they are placeholders and will be replaced. They need
+#. to be present in the translated string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:86
+#, python-brace-format
+msgid "{partition_name} ({partition_size})"
+msgstr "{partition_name} ({partition_size})"
+
+#. Translators: Don't translate {volume_size}, it's a placeholder
+#. and will be replaced. It needs to be present in the translated
+#. string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:94
+#, python-brace-format
+msgid "{volume_size} Volume"
+msgstr "{volume_size} tomas"
+
+#. Translators: Don't translate {volume_name}, it's a placeholder and
+#. will be replaced. It needs to be present in the translated string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:140
+#, python-brace-format
+msgid "{volume_name} (Read-Only)"
+msgstr "{volume_name} (Tik skaitymui)"
+
+#. Translators: Don't translate {partition_name} and {container_path}, they
+#. are placeholders and will be replaced. They need to be present
+#. in the translated string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:149
+#, python-brace-format
+msgid "{partition_name} in {container_path}"
+msgstr "{partition_name} ties {container_path}"
+
+#. Translators: Don't translate {volume_name} and {path_to_file_container},
+#. they are placeholders and will be replaced. You should only have to translate
+#. this string if it makes sense to reverse the order of the placeholders.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:157
+#, python-brace-format
+msgid "{volume_name} – {path_to_file_container}"
+msgstr "{volume_name} – {path_to_file_container}"
+
+#. Translators: Don't translate {partition_name} and {drive_name}, they
+#. are placeholders and will be replaced. They need to be present
+#. in the translated string.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:165
+#, python-brace-format
+msgid "{partition_name} on {drive_name}"
+msgstr "{partition_name} ties {drive_name}"
+
+#. Translators: Don't translate {volume_name} and {drive_name},
+#. they are placeholders and will be replaced. You should only have to translate
+#. this string if it makes sense to reverse the order of the placeholders.
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:173
+#, python-brace-format
+msgid "{volume_name} – {drive_name}"
+msgstr "{volume_name} – {drive_name}"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:278
+msgid "Wrong passphrase or parameters"
+msgstr "Neteisinga slaptafrazė arba parametrai"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:280
+msgid "Error unlocking volume"
+msgstr "Klaida atrakinant tomą"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:286
+#, python-brace-format
+msgid ""
+"Couldn't unlock volume {volume_name}:\n"
+"{error_message}"
+msgstr ""
+"Nepavyko atrakinti tomo {volume_name}:\n"
+"{error_message}"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:403
+msgid "One or more applications are keeping the volume busy."
+msgstr "Viena ar daugiau programų laiko tomą užimtą."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:411
+#, python-brace-format
+msgid ""
+"Couldn't lock volume {volume_name}:\n"
+"{error_message}"
+msgstr ""
+"Nepavyko užrakinti tomo {volume_name}:\n"
+"{error_message}"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume.py:413
+msgid "Locking the volume failed"
+msgstr "Tomo užrakinimas nepavyko"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:83
+msgid "No file containers added"
+msgstr "Nepridėta jokių failų konteinerių"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_list.py:99
+msgid "No VeraCrypt devices detected"
+msgstr "Neaptikta jokių VeraCrypt įrenginių"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:43
+#: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:1
+msgid "Unlock VeraCrypt Volumes"
+msgstr "Atrakinti VeraCrypt tomus"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:120
+msgid "Container already added"
+msgstr "Konteineris jau pridėtas"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:121
+#, python-format
+msgid "The file container %s should already be listed."
+msgstr "Failų konteineris %s jau turėtų būti išvardytas."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:142
+msgid "Container opened read-only"
+msgstr "Konteineris atvertas tik skaitymui"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:145
+#, python-brace-format
+msgid ""
+"The file container {path} could not be opened with write access. It was "
+"opened read-only instead. You will not be able to modify the content of the "
+"container.\n"
+"{error_message}"
+msgstr ""
+"Nepavyko atverti failų konteinerio {path} su rašymo prieiga. Vietoj to, jis "
+"buvo atvertas tik skaitymui. Jūs negalėsite modifikuoti konteinerio "
+"turinio.\n"
+"{error_message}"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:151
+msgid "Error opening file"
+msgstr "Klaida atveriant failą"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:178
+msgid "Not a VeraCrypt container"
+msgstr "Nėra VeraCrypt konteineris"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:179
+#, python-format
+msgid "The file %s does not seem to be a VeraCrypt container."
+msgstr "Atrodo, kad failas %s nėra VeraCrypt konteineris."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:183
+msgid "Failed to add container"
+msgstr "Nepavyko pridėti konteinerio"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:185
+#, python-format
+msgid ""
+"Could not add file container %s: Timeout while waiting for loop setup.\n"
+"Please try using the <i>Disks</i> application instead."
+msgstr ""
+"Nepavyko pridėti failų konteinerio %s: Laukiant ciklinės sąrankos, pasibaigė "
+"laikas.\n"
+"Vietoj to, pabandykite naudoti programą <i>Diskai</i>."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/unlock_veracrypt_volumes/volume_manager.py:241
+msgid "Choose File Container"
+msgstr "Pasirinkti failų konteinerį"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:47
+msgid "The Unsafe Browser was disabled in the Welcome Screen.\\n\\n"
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:50
+msgid ""
+"To use the Unsafe Browser, restart Tails and make sure that the Unsafe "
+"Browser is enabled in the additional settings of the Welcome Screen."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:52
+msgid "To use the Unsafe Browser, restart Tails."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:55
+msgid "_Restart"
+msgstr "_Paleisti iš naujo"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:57
+msgid ""
+"Do you really want to restart Tails now?\\n\\nAll your current work will be "
+"lost."
+msgstr ""
+"Ar tikrai norite dabar paleisti Tails iš naujo?\\n\\nVisa jūsų esama veikla "
+"bus prarasta."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:58
+msgid "Restart Now"
+msgstr "Paleisti iš naujo dabar"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:63
+msgid "Failed to restart the system."
+msgstr "Nepavyko paleisti sistemos iš naujo."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:71
+msgid "Shutting down the Unsafe Browser..."
+msgstr "Nesaugi naršyklė išjungiama..."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:72
+msgid ""
+"This may take a while, and you may not restart the Unsafe Browser until it "
+"is properly shut down."
+msgstr ""
+"Tai gali šiek tiek užtrukti. Jūs neturite iš naujo paleisti nesaugios "
+"naršyklės tol, kol ji nebus tinkamai išjungta."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:85
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:1
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:544
+msgid "Unsafe Browser"
+msgstr "Nesaugi naršyklė"
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:100
+msgid ""
+"Another Unsafe Browser is currently running, or being cleaned up. Please "
+"retry in a while."
+msgstr ""
+"Šiuo metu veikia ar yra išvaloma kita nesaugi naršyklė. Šiek tiek palaukite "
+"ir bandykite dar kartą."
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:116
+msgid ""
+"You are not connected to a local network yet.\\n\\nTo be able to start the "
+"Unsafe Browser, you first need to connect to a Wi-Fi, wired, or mobile "
+"network."
+msgstr ""
+
+#: config/chroot_local-includes/usr/local/sbin/unsafe-browser:139
+msgid "Failed to run browser."
+msgstr "Nepavyko paleisti naršyklės."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/exceptions.py:45
+#, python-format
+msgid ""
+"The %s variable was not found in the configuration file: /etc/whisperback/"
+"config.py"
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:136
+msgid "Unable to load a valid configuration."
+msgstr "Nepavyko įkelti teisingos konfigūracijos."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:162
+msgid "Sending mail..."
+msgstr "Siunčiamas el. laiškas..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:163
+msgid "Sending mail"
+msgstr "Siunčiamas el. laiškas"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:165
+msgid "This could take a while..."
+msgstr "Tai gali šiek tiek užtrukti..."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:197
+msgid "The contact email address doesn't seem valid."
+msgstr "Neatrodo, kad kontakto el. paštas yra tinkamas."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:218
+msgid "Unable to send the mail: SMTP error."
+msgstr "Nepavyko išsiųsti el. laiško: SMTP klaida."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:220
+msgid "Unable to connect to the server."
+msgstr "Nepavyko prisijungti prie serverio."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:222
+#, fuzzy
+msgid "Tor is not ready yet"
+msgstr "Tor neparuoštas"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:224
+msgid "Unable to create or to send the mail."
+msgstr "Nepavyko sukurti ar išsiųsti el. laiško."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:229
+msgid ""
+"\n"
+"\n"
+"Make sure that you are connected to Tor and click send again."
+msgstr ""
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:239
+msgid "Your message has been sent."
+msgstr "Jūsų el. laiškas išsiųstas."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:248
+#, fuzzy
+msgid "An error occurred during encryption."
+msgstr "Šifravimo metu įvyko klaida."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/gui.py:317
+msgid "This doesn't seem to be a valid URL or OpenPGP key."
+msgstr "Tai nepanašu į teisingą URL ar OpenPGP raktą."
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:57
+#, python-format
+msgid "Invalid contact email: %s"
+msgstr "Klaidingas kontakto el. paštas: %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:76
+#, python-format
+msgid "Invalid contact OpenPGP key: %s"
+msgstr "Neteisingas kontakto OpenPGP raktas: %s"
+
+#: config/chroot_local-includes/usr/lib/python3/dist-packages/whisperBack/whisperback.py:78
+msgid "Invalid contact OpenPGP public key block"
+msgstr "Neteisingas kontakto OpenPGP viešojo rakto blokas"
+
+#: config/chroot_local-includes/usr/local/bin/tca:11
+msgid ""
+"You turned on Offline Mode in the Welcome Screen.\n"
+"It is impossible to connect to Tor in Offline Mode.\n"
+"To connect to Tor and the Internet, restart Tails without Offline Mode."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.PersistentStorage.desktop.in.h:2
+msgid ""
+"Configure which files and application configuration are saved between "
+"working sessions"
+msgstr ""
+"Konfigūruoti kokios programų konfigūracijos ir kokie failai bus įrašyti tarp "
+"darbinių seansų"
+
+#: ../config/chroot_local-includes/usr/share/applications/root-terminal.desktop.in.h:1
+msgid "Root Terminal"
+msgstr "Šakninis terminalas"
+
+#: ../config/chroot_local-includes/usr/share/applications/root-terminal.desktop.in.h:2
+#, fuzzy
+msgid "Opens a terminal as the root user, using gksu to ask for the password"
+msgstr ""
+"Atidaro terminalą kaip šakninis naudotojas, naudojant gksu slaptažodžio "
+"užklausai."
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:1
+msgid "Tails Documentation"
+msgstr "Tails dokumentacija"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-documentation.desktop.in.h:2
+msgid "Learn how to use Tails"
+msgstr "Sužinokite kaip naudotis Tails"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-about.desktop.in.h:2
+msgid "Learn more about Tails"
+msgstr "Sužinoti daugiau apie Tails"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:1
+#, fuzzy
+msgid "Back Up Persistent Storage"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-backup.desktop.in.h:2
+msgid ""
+"Make a backup of the Tails Persistent Storage to another Tails USB stick"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/applications/tails-installer.desktop.in.h:2
+msgid "Install, clone, upgrade Tails"
+msgstr "Įdiegti, kopijuoti, naujinti Tails"
+
+#: ../config/chroot_local-includes/usr/share/applications/tca.desktop.in.h:2
+msgid "Connect Tails to the Tor network"
+msgstr "Prijungti Tails prie Tor tinklo"
+
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.TorBrowser.desktop.in.h:1
+msgid "Tor Browser"
+msgstr "Tor Naršyklė"
+
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.TorBrowser.desktop.in.h:2
+msgid "Anonymous Web Browser"
+msgstr "Anoniminė saityno naršyklė"
+
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:2
+msgid "Browse the World Wide Web without anonymity"
+msgstr "Naršyti saityną be anonimiškumo"
+
+#: ../config/chroot_local-includes/usr/share/applications/unsafe-browser.desktop.in.h:3
+msgid "Unsafe Web Browser"
+msgstr "Nesaugi saityno naršyklė"
+
+#: ../config/chroot_local-includes/usr/share/applications/unlock-veracrypt-volumes.desktop.in.h:2
+msgid "Mount VeraCrypt encrypted file containers and devices"
+msgstr "Prijungti VeraCrypt šifruotus failų konteinerius ir įrenginius"
+
+#: ../config/chroot_local-includes/usr/share/applications/org.boum.tails.AdditionalSoftware.desktop.in.h:2
+#, fuzzy
+msgid ""
+"Configure the additional software installed from your Persistent Storage "
+"when starting Tails"
+msgstr ""
+"Konfigūruoti papildomą programinę įrangą, kuri, paleidus Tails, yra "
+"įdiegiama iš jūsų ilgalaikio kaupiklio"
+
+#: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:1
+msgid "WhisperBack Error Reporting"
+msgstr "WhisperBack siųsti pranešimus apie klaidas"
+
+#: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:2
+msgid "Send feedback via encrypted e-mail"
+msgstr "Siųsti atsiliepimus šifruotu el. paštu"
+
+#: ../config/chroot_local-includes/usr/share/applications/whisperback.desktop.in.h:3
+msgid "feedback;bug;report;tails;error;"
+msgstr "grįžtamasis ryšys;atsiliepimai;klaida;pranešti;tails;triktis;"
+
+#: ../config/chroot_local-includes/usr/share/desktop-directories/Tails.directory.in.h:2
+msgid "Tails specific tools"
+msgstr "Tails specifiniai įrankiai"
+
+#: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.root-terminal.policy.in.h:1
+msgid "To start a Root Terminal, you need to authenticate."
+msgstr "Norint paleisti šaknies terminalą, jums reikia nustatyti tapatybę."
+
+#: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.AdditionalSoftware.policy.in.h:1
+msgid "Remove an additional software package"
+msgstr "Šalinti papildomos programinės įrangos paketą"
+
+#: ../config/chroot_local-includes/usr/share/polkit-1/actions/org.boum.tails.AdditionalSoftware.policy.in.h:2
+msgid ""
+"Authentication is required to remove a package from your additional software "
+"($(command_line))"
+msgstr ""
+"Reikalingas tapatybės nustatymas, norint pašalinti paketą iš jūsų papildomos "
+"programinės įrangos ($(command_line))"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:18
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:56
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:827
+msgid "Administration Password"
+msgstr "Administravimo slaptažodis"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:34
+msgid ""
+"Set up an administration password if you need to perform administrative "
+"tasks. Otherwise, the administration password is disabled for better "
+"security."
+msgstr ""
+"Jeigu jums reikia atlikti administravimo užduotis, nusistatykite "
+"administravimo slaptažodį. Priešingu atveju, didesnio saugumo sumetimais "
+"slaptažodis bus išjungtas."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:77
+msgid "Enter an administration password"
+msgstr "Įveskite administravimo slaptažodį"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:131
+msgid "Confirm your administration password"
+msgstr "Pakartokite savo administravimo slaptažodį"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:156
+msgid "Disable"
+msgstr "Išjungti"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:186
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:831
+msgid "MAC Address Anonymization"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:202
+msgid ""
+"MAC address anonymization hides the serial number of your network interface "
+"(Wi-Fi or wired) from the local network. Anonymizing MAC addresses is "
+"generally safer as it helps you hide your geographical location. But it "
+"might also create connectivity problems or look suspicious."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:244
+msgid "Anonymize all MAC addresses (default)"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:290
+msgid "Don't anonymize MAC addresses"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:343
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:835
+msgid "Network Configuration"
+msgstr "Tinklo konfigūravimas"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:359
+msgid ""
+"We replaced this additional setting in Tails 4.19 (June 2021) with a Tor "
+"Connection assistant integrated in the desktop.\n"
+"\n"
+"You will be asked whether you want to use Tor bridges when connecting to Tor "
+"after starting Tails.\n"
+"\n"
+"If you want to work offline, enable the Offline Mode in the additional "
+"settings."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:389
+msgid "Offline Mode"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:405
+msgid ""
+"If you want to work completely offline, you can disable all networking for "
+"increased security."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:560
+msgid ""
+"The Unsafe Browser allows you to sign in to a network using a captive "
+"portal.\n"
+"\n"
+"A captive portal is a web page that is displayed before you can access the "
+"Internet. Captive portals usually require you to log in to the network or "
+"enter information such as an email address.\n"
+"\n"
+"The Unsafe Browser is not anonymous and can deanonymize you. Use it only to "
+"sign in to networks.\n"
+"\n"
+"The Unsafe Browser is enabled by default again since Tails 5.8 (December "
+"2022), after we fixed the security vulnerabilities that made us disable it "
+"by default in Tails 4.8 (June 2020)."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:608
+#, fuzzy
+msgid "Enable the Unsafe Browser (default)"
+msgstr "Įjungti darbą tinkle (numatytasis)"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/additional_settings.ui.in:654
+#, fuzzy
+msgid "Disable the Unsafe Browser"
+msgstr "Paleidžiama nesaugi naršyklė..."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:46
+#, fuzzy
+msgid "Settings were loaded from the Persistent Storage."
+msgstr "Nustatymai buvo įkelti iš ilgalaikio kaupiklio."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:98
+msgid "Welcome to Tails!"
+msgstr "Sveiki atvykę į Tails!"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:131
+msgid "Language and Formats"
+msgstr "Kalba ir formatai"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:167
+msgid "Default Settings"
+msgstr "Numatytieji nustatymai"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:225
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:337
+#, fuzzy
+msgid "_Persistent Storage"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:245
+msgid ""
+"You can save some of your files and configuration in an encrypted Persistent "
+"Storage on your Tails USB stick: your documents, browser bookmarks, Wi-Fi "
+"passwords, and so on."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:272
+#, fuzzy
+msgid "Create and configure a Persistent Storage after starting Tails"
+msgstr ""
+"Kad, paleidžiant Tails, ji būtų automatiškai įdiegiama iš ilgalaikio "
+"kaupiklio."
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:364
+msgid "Show Passphrase"
+msgstr "Rodyti slaptafrazę"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:421
+msgid "Enter your passphrase"
+msgstr "Įveskite slaptafrazę"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:436
+msgid "Unlock Encryption"
+msgstr "Atrakinti šifravimą"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:503
+#, fuzzy
+msgid "Impossible to unlock the Persistent Storage."
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:563
+#, fuzzy
+msgid "Partitioning Errors"
+msgstr "Disko skaidymo klaidos"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:599
+msgid ""
+"Errors were detected in the partitioning of your Tails USB stick.\n"
+"\n"
+"Try reinstalling Tails. If the error persists, reinstall on a new USB stick."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:631
+msgid "_Additional Settings"
+msgstr "P_apildomi nustatymai"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:714
+msgid "Add an additional setting"
+msgstr "Pridėti papildomą nustatymą"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:761
+msgid "Shutdown"
+msgstr "Išjungti"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:770
+msgid "_Start Tails"
+msgstr "Palei_sti Tails"
+
+#: ../config/chroot_local-includes/usr/share/tails/greeter/main.ui.in:799
+msgid ""
+"The default settings are safe in most situations. To add a custom setting, "
+"press the \"+\" button below."
+msgstr ""
+"Numatytieji nustatymai daugelyje situacijų yra saugūs. Norėdami pridėti "
+"pasirinktinį nustatymą, žemiau spustelėkite mygtuką \"+\"."
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:95
+msgid "Current _Passphrase"
+msgstr "Dabartinė sla_ptafrazė"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:131
+msgid "_New Passphrase"
+msgstr "_Nauja slaptafrazė"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:179
+msgid "_Confirm New Passphrase"
+msgstr "Pa_kartokite naują slaptafrazę"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:215
+msgid "_Show Passphrases"
+msgstr "_Rodyti slaptafrazes"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:253
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:301
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:161
+msgid "The passphrases do not match"
+msgstr "Slaptafrazės nesutampa"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/change_passphrase_dialog.ui.in:317
+msgid "Ch_ange"
+msgstr "_Keisti"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/deleted_view.ui.in:21
+#, fuzzy
+msgid "The Persistent Storage was successfully deleted."
+msgstr "Ilgalaikis kaupiklis šiame USB atmintuke bus prarastas."
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/deleted_view.ui.in:32
+msgid "_Close"
+msgstr "_Užverti"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:30
+msgid "Oh no! Something has gone wrong."
+msgstr "O, ne! Kažkas nutiko."
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:45
+msgid ""
+"The Persistent Storage service exited unexpectedly.\n"
+"\n"
+"You can send an error report or check the output of the following commands "
+"to investigate:"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/fail_view.ui.in:74
+msgid "Send Error Report"
+msgstr "Siųsti pranešimą apie klaidą"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:61
+msgid ""
+"Your Persistent Storage is unlocked.\n"
+"\n"
+"Its content is available until you shut down Tails.\n"
+"\n"
+"<a href=\"doc/persistent_storage/backup\">Learn how to make a backup of your "
+"Persistent Storage.</a>"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:89
+msgid ""
+"Turn on the features of the Persistent Storage for the data that you want to "
+"save to your Tails USB stick."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:106
+msgid "Personal Documents"
+msgstr "Asmeniniai dokumentai"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:134
+#, fuzzy
+msgid "Persistent Folder"
+msgstr "Ištrinti ilgalaikį tomą"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:135
+msgid "A folder where you can save your documents."
+msgstr "Aplankas, į kurį galite įrašyti savo dokumentus."
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:160
+#, fuzzy
+msgid "Open Persistent Folder"
+msgstr "Ištrinti ilgalaikį tomą"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:173
+#, fuzzy
+msgid "Activate Persistent Folder"
+msgstr "Sukurti ilgalaikį kaupiklį"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:200
+msgid "System Settings"
+msgstr "Sistemos nustatymai"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:228
+#, fuzzy
+msgid "Welcome Screen"
+msgstr "Užrakinti ekraną"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:244
+msgid "Activate Welcome Screen"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:257
+msgid "Printers"
+msgstr "Spausdintuvai"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:273
+msgid "Activate Printers"
+msgstr "Aktyvinti spausdintuvus"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:300
+msgid "Network"
+msgstr "Tinklas"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:328
+msgid "Network Connections"
+msgstr "Tinklo ryšiai"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:329
+msgid "Save Wi-Fi passwords and mobile broadband configuration."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:345
+msgid "Activate Network Connections"
+msgstr "Aktyvinti tinklo ryšius"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:358
+msgid "Tor Bridge"
+msgstr "Tor tinklų tiltas"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:374
+msgid "Activate Tor Bridge"
+msgstr "Aktyvinti Tor tinklų tiltą"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:401
+msgid "Applications"
+msgstr "Programos"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:429
+msgid "Tor Browser Bookmarks"
+msgstr "Tor Naršyklės adresyno įrašai"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:445
+msgid "Activate Tor Browser Bookmarks"
+msgstr "Aktyvinti Tor Naršyklės adresyno įrašus"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:458
+#, fuzzy
+msgid "Electrum Bitcoin Wallet"
+msgstr "Electrum bitcoin piniginė ir konfigūracija"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:474
+#, fuzzy
+msgid "Activate Electrum Bitcoin Wallet"
+msgstr "Electrum bitcoin piniginė ir konfigūracija"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:487
+msgid "Thunderbird Email Client"
+msgstr "Thunderbird el. pašto kliento programa"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:503
+msgid "Activate Thunderbird Email Client"
+msgstr "Aktyvinti Thunderbird el. pašto kliento programą"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:516
+msgid "GnuPG"
+msgstr "GnuPG"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:517
+msgid "OpenPGP keys outside of Thunderbird, including in Kleopatra."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:533
+msgid "Activate GnuPG"
+msgstr "Aktyvinti GnuPG"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:546
+msgid "Pidgin Internet Messenger"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:562
+msgid "Activate Pidgin Internet Messenger"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:575
+msgid "SSH Client"
+msgstr "SSH klientas"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:591
+msgid "Activate SSH Client"
+msgstr "Aktyvinti SSH klientą"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:618
+msgid "Advanced Settings"
+msgstr "Išplėstiniai nustatymai"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:647
+#, fuzzy
+msgid "Install additional software automatically when starting Tails."
+msgstr ""
+"Paleisdami Tails, galite automatiškai įdiegti papildomą programinę įrangą iš "
+"savo ilgalaikio kaupiklio."
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:672
+msgid "Configure Additional Software"
+msgstr "Konfigūruoti papildomą programinę įrangą"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:685
+msgid "Activate Additional Software"
+msgstr "Aktyvinti papildomą programinę įrangą"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:698
+msgid "Dotfiles"
+msgstr "Paslėpti failai"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:699
+msgid "Symlink every file in the Dotfiles folder into the Home folder."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:732
+#, fuzzy
+msgid "Activate Dotfiles"
+msgstr "Paslėpti failai"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:764
+msgid "Custom"
+msgstr "Tinkintas"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:783
+msgid ""
+"To add or remove custom features, modify /live/persistence/"
+"TailsData_unlocked/persistence.conf."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/features_view.ui.in:825
+msgid ""
+"<a href=\"doc/persistent_storage\">Learn more about the Persistent Storage.</"
+"a>"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/locked_view.ui.in:52
+msgid ""
+"<b>Your Persistent Storage is locked.</b>\n"
+"\n"
+"To use or configure your Persistent Storage, unlock it in the Welcome Screen "
+"when starting Tails.\n"
+"\n"
+"To delete your Persistent Storage, click <b>Delete</b> on the right of the "
+"title bar."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:62
+msgid ""
+"Choose the passphrase that you will use to unlock the encryption of your "
+"Persistent Storage and all its data."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:82
+msgid "We recommend a long passphrase of 5 to 7 random words."
+msgstr ""
+"Rekomenduojame ilgą slaptafrazę, kurią sudarytų nuo 5 iki 7 atsitiktinių "
+"žodžių."
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:94
+msgid " For example:"
+msgstr " Pavyzdžiui:"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:186
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:46
+msgid "Passphrase:"
+msgstr "Slaptafrazė:"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:205
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:65
+msgid "Confirm:"
+msgstr "Patvirtinkite:"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:325
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:185
+msgid "_Show Passphrase"
+msgstr "_Rodyti slaptafrazę"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:375
+msgid "_Back"
+msgstr "_Atgal"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/passphrase_view.ui.in:391
+msgid "_Create Persistent Storage"
+msgstr "_Sukurti ilgalaikį kaupiklį"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:56
+msgid ""
+"Everything you do disappears automatically when you shut down Tails.\n"
+"\n"
+"But you can save some of your files and configuration in an encrypted "
+"Persistent Storage on your Tails USB stick, for example:\n"
+"\n"
+"• Your documents\n"
+"• Your Wi-Fi passwords\n"
+"• Your browser bookmarks\n"
+"• ...\n"
+"\n"
+"<a href=\"doc/persistent_storage\">Learn more about the Persistent Storage.</"
+"a>"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:92
+msgid ""
+"Sorry, it is impossible to create a Persistent Storage on this device.\n"
+"\n"
+"To be able to use Tails with a Persistent Storage, please follow our "
+"instructions on <a href=\"install\">installing Tails on a USB stick</a>."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/welcome_view.ui.in:137
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:232
+msgid "Co_ntinue"
+msgstr "Tęs_ti"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:29
+msgid "_Delete…"
+msgstr "Iš_trinti…"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:49
+msgid "_Change Passphrase…"
+msgstr "_Keisti slaptafrazę…"
+
+#: ../config/chroot_local-includes/usr/share/tails/persistent-storage/window.ui.in:66
+msgid "_Restart Tails"
+msgstr "_Paleisti Tails iš naujo"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:61
+msgid "File Containers"
+msgstr "Failų konteineriai"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:80
+msgid "_Add"
+msgstr "_Pridėti"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:86
+msgid "Add a file container"
+msgstr "Pridėti failų konteinerį"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:103
+msgid "Partitions and Drives"
+msgstr "Skaidiniai ir diskai"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/main.ui.in:121
+msgid ""
+"This application is not affiliated with or endorsed by the VeraCrypt project "
+"or IDRIX."
+msgstr ""
+"Ši programa neturi ryšių su VeraCrypt projektu ar IDRIX ir nėra jų remiama."
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:29
+msgid "_Open"
+msgstr "A_tverti"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:38
+msgid "Lock this volume"
+msgstr "Užrakinti šį tomą"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:52
+msgid "_Unlock"
+msgstr "At_rakinti"
+
+#: ../config/chroot_local-includes/usr/share/tails/unlock-veracrypt-volumes/volume.ui.in:61
+msgid "Detach this volume"
+msgstr "Atjungti šį tomą"
+
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:8
+msgid "Choose Passphrase"
+msgstr "Pasirinkite slaptafrazę"
+
+#: ../config/chroot_local-includes/usr/share/tails-installer/passphrase_dialog.ui.in:30
+#, fuzzy
+msgid "Choose the passphrase for the cloned Persistent Storage."
+msgstr "Norėdami apsaugoti ilgalaikį tomą, pasirinkite slaptafrazę"
+
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:281
+msgid "Target USB stick:"
+msgstr "Paskirties USB atmintukas:"
+
+#: ../config/chroot_local-includes/usr/share/tails-installer/tails-installer.ui.in:357
+msgid "Reinstall (delete all data)"
+msgstr "Įdiegti iš naujo (ištrinti visus duomenis)"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:68
+msgid ""
+"If you want us to encrypt messages when we respond to you, add your key ID, "
+"a link to your key, or the key as a public key block:"
+msgstr ""
+"Jeigu norite, kad jums atsakydami, užšifruotume laiškus, pridėkite savo "
+"rakto ID, nuorodą į savo raktą arba raktą kaip viešojo rakto bloką:"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:226
+msgid "WhisperBack"
+msgstr "WhisperBack"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:255
+msgid "Summary"
+msgstr "Santrauka"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:294
+msgid "What were you trying to achieve?"
+msgstr "Ko bandėte pasiekti?"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:340
+msgid ""
+"<b>What happened instead?</b>\n"
+"Describe the error with as many details as possible."
+msgstr ""
+"<b>Kas, vietoj to, nutiko?</b>\n"
+"Kaip įmanoma plačiau aprašykite klaidą."
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:385
+msgid ""
+"<b>What did you do that triggered this error?</b>\n"
+"Describe the exact steps that caused the error, so we can try to make it "
+"happen again.\n"
+"Otherwise, we won't be able to troubleshoot and solve it."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:427
+msgid "Error reporting guidelines"
+msgstr "Pranešimo apie klaidą gairės"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:445
+msgid ""
+"<b>Email address</b>\n"
+"So we can answer you or ask for more details."
+msgstr ""
+"<b>El. pašto adresas</b>\n"
+"Kad galėtume atsakyti ar pasiteirauti dėl išsamesnės informacijos."
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:480
+msgid "Optional PGP Key…"
+msgstr "Nebūtinas PGP raktas…"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:505
+msgid ""
+"Even if we are not able to reply to every report, we analyze all reports to "
+"improve Tails."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:520
+msgid "Description"
+msgstr "Aprašas"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:537
+msgid "Technical Details"
+msgstr "Techniniai duomenys"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:576
+msgid "Headers"
+msgstr "Antraštės"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:621
+msgid "information about the error being reported"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:669
+msgid "Debugging Information"
+msgstr "Derinimo informacija"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:694
+msgid "Technical details to include"
+msgstr "Pridėti techninius duomenis"
+
+#: ../config/chroot_local-includes/usr/share/whisperback/whisperback.ui.in:730
+msgid "_Send"
+msgstr "_Siųsti"
+
+#: ../config/chroot_local-includes/usr/local/share/mime/packages/unlock-veracrypt-volumes.xml.in.h:1
+msgid "TrueCrypt/VeraCrypt container"
+msgstr "TrueCrypt/VeraCrypt konteineris"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:82
+msgid "Configure a Tor bridge"
+msgstr "Konfigūruoti Tor tinklų tiltą"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:106
+msgid ""
+"Bridges are secret Tor relays. Use a bridge as your first Tor relay if "
+"accessing Tor is blocked from where you are."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:122
+msgid "<a href=\"doc/anonymous_internet/tor\">Learn more about Tor bridges</a>"
+msgstr ""
+"<a href=\"doc/anonymous_internet/tor\">Sužinokite daugiau apie Tor tinklų "
+"tiltus</a>"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:157
+msgid "Use a _default bridge"
+msgstr "Naudoti _numatytąjį tinklų tiltą"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:180
+msgid "obfs4 (recommended)"
+msgstr "obfs4 (rekomenduojama)"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:181
+msgid "meek"
+msgstr "meek"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:204
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1518
+msgid "None"
+msgstr "Nėra"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:240
+msgid "_Ask for a Tor bridge by email"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:259
+msgid ""
+"Send an empty email to <tt>bridges@torproject.org</tt> from a Gmail or "
+"Riseup email address with your phone and scan the QR code that is attached "
+"to the automatic reply."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:272
+msgid "Scan _QR code"
+msgstr "Skenuoti _QR kodą"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:373
+msgid "_Enter a bridge that you already know"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:399
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1040
+msgid "Bridge"
+msgstr "Tinklų tiltas"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:412
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1053
+msgid "obfs4 ..."
+msgstr "obfs4..."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:485
+msgid "Save bridge to _Persistent Storage"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:510
+msgid "Save bridge to Persistent Storage"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:650
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1158
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1556
+msgid "_Connect to Tor"
+msgstr "_Prisijungti prie Tor"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:692
+msgid "Error connecting to Tor"
+msgstr "Klaida jungiantis prie Tor"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:736
+msgid "• Wrong clock"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:756
+msgid "Your clock and time zone need to be correct to connect to Tor."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:769
+msgid "Fix _Clock"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:807
+msgid "• Public network"
+msgstr "• Viešas tinklas"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:827
+msgid ""
+"If you are in a shop, hotel, or airport, you might need to sign in to the "
+"local network using the Unsafe Browser."
+msgstr ""
+"Jeigu esate parduotuvėje, viešbutyje ar oro uoste, jums gali tekti "
+"prisiregistruoti prie vietinio tinklo naudojant Nesaugią Naršyklę."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:840
+msgid "Try _Signing in to the Network"
+msgstr "Bandyti pri_siregistruoti prie tinklo"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:879
+msgid "• Local proxy"
+msgstr "• Vietinis įgaliotasis serveris"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:899
+msgid ""
+"If you are on a corporate or university network, you might need to configure "
+"a local proxy."
+msgstr ""
+"Jei naudojatės įmonės ar universiteto tinklu, jums gali tekti sukonfigūruoti "
+"vietinį įgaliotąjį serverį."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:912
+msgid "Configure a Local _Proxy"
+msgstr "Konfigūruoti vietinį įgaliotąjį ser_verį"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:951
+msgid "• Tor bridge by email"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:971
+msgid ""
+"Tor bridges are secret Tor relays. Use a bridge as your first Tor relay if "
+"connections to Tor are blocked, for example in some countries, by some "
+"public networks, or by some parental controls."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:991
+msgid ""
+"To get a bridge, send an empty email to <tt>bridges@torproject.org</tt> from "
+"a Gmail or Riseup email address with your phone and scan the QR code that is "
+"attached to the automatic reply."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1014
+msgid "Scan QR Code"
+msgstr "Skenuoti QR kodą"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1145
+msgid ""
+"<a href=\"doc/anonymous_internet/tor/troubleshoot\">Troubleshooting "
+"connecting to Tor</a>"
+msgstr ""
+"<a href=\"doc/anonymous_internet/tor/troubleshoot\">Nesklandumų šalinimas "
+"jungiantis prie Tor</a>"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1191
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1599
+msgid ""
+"Everything you do on the Internet from Tails goes through the Tor network."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1205
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1614
+msgid ""
+"Tor encrypts and anonymizes your connection by passing it through 3 relays.\n"
+"Tor relays are servers operated by different organizations and volunteers "
+"around the world."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1241
+msgid "<b>Connect to Tor _automatically</b>"
+msgstr "<b>_Automatiškai prisijungti prie Tor</b>"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1291
+msgid ""
+"We recommend connecting to Tor automatically if you are on a public Wi-Fi "
+"network or if many people in your country use Tor to circumvent censorship."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1309
+msgid ""
+"Tails will try different ways of connecting to Tor until it succeeds.\n"
+"\n"
+"Someone monitoring your Internet connection could identify these attempts as "
+"coming from a Tails user."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1343
+msgid "Configure a Tor _bridge"
+msgstr "Konfigūruoti Tor ti_nklų tiltą"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1389
+msgid ""
+"Tor bridges are secret Tor relays. Use a bridge as your first Tor relay if "
+"connections to Tor are blocked, for example in some countries, by some "
+"public networks, or by some parental controls.\n"
+"\n"
+"Choose this option if you already know that you need a bridge. Otherwise, "
+"Tails will autodetect whether you need a bridge to connect to Tor from your "
+"local network."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1431
+msgid "<b>_Hide to my local network that I'm connecting to Tor</b>"
+msgstr "<b>_Nuslėpti nuo mano vietinio tinklo, kad aš prisijungiu prie Tor</b>"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1481
+msgid ""
+"You might need to go unnoticed if using Tor could look suspicious to someone "
+"who monitors your Internet connection."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1499
+msgid ""
+"Tails will only connect to Tor after you configured a Tor bridge. Bridges "
+"are secret Tor relays that hide that you are connecting to Tor.\n"
+"\n"
+"Our team is doing its best to help you connect to Tor using the most "
+"discreet types of Tor bridges.\n"
+"\n"
+"You will have to do extra configuration if you don't know any Tor bridges "
+"yet, if you connect from a public Wi-Fi network, or if you are in the "
+"Eastern Hemisphere."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1544
+msgid ""
+"<a href=\"doc/anonymous_internet/tor\">Learn more about how Tails connects "
+"to Tor</a>"
+msgstr ""
+"<a href=\"doc/anonymous_internet/tor\">Sužinokite daugiau apie tai, kaip "
+"Tails prisijungia prie Tor</a>"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1634
+msgid "No Wi-Fi hardware detected"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1652
+msgid ""
+"Tails couldn't find any Wi-Fi interface on your computer. If your computer "
+"has a Wi-Fi interface, it might not work on Tails.\n"
+"\n"
+"To connect to the Internet you can try to:\n"
+"\n"
+" • Use an Ethernet cable instead of Wi-Fi. Wired interfaces work much more "
+"reliably than Wi-Fi in Tails.\n"
+" • Use USB tethering to share the Wi-Fi or mobile data connection of your "
+"phone using a cable.\n"
+" • Buy a USB Wi-Fi adapter that works in Tails.\n"
+"                "
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1676
+#, fuzzy
+msgid ""
+"\n"
+"<a href=\"doc/anonymous_internet/no-wifi\">\n"
+"Learn more about troubleshooting Wi-Fi not working.\n"
+"</a>\n"
+"                "
+msgstr ""
+"<a href=\"doc/anonymous_internet/tor\">Sužinokite daugiau apie tai, kaip "
+"Tails prisijungia prie Tor</a>"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1704
+msgid "Connect to a local network"
+msgstr "Prisijungti prie vietinio tinklo"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1721
+msgid ""
+"You are not connected to a local network yet. To be able to connect to the "
+"Tor network, you first need to connect to a Wi-Fi, wire, or mobile network."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1735
+msgid "Open Wi-Fi Settings"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1784
+msgid "Testing Internet access…"
+msgstr "Išbandoma prieiga prie interneto…"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1824
+msgid "You have access to the Internet"
+msgstr "Jūs turite prieigą prie interneto"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1858
+msgid "Testing access to Tor…"
+msgstr "Išbandoma prieiga prie Tor…"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1901
+msgid "You can connect to Tor"
+msgstr "Jūs galite prisijungti prie Tor"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1931
+msgid "Failed to connect to Tor without bridges."
+msgstr "Nepavyko prisijungti prie Tor nenaudojant tinklų tiltų."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1947
+msgid "This local network is blocking access to Tor."
+msgstr "Šis vietinis tinklas blokuoja prieigą prie Tor."
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:1979
+msgid "Connecting to Tor…"
+msgstr "Jungiamasi prie Tor…"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2084
+msgid "Start Tor Browser"
+msgstr "Paleisti Tor Naršyklę"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2103
+msgid "Open Network Monitor"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2156
+msgid "Configure a Local Proxy"
+msgstr "Konfigūruoti vietinį įgaliotąjį serverį"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2182
+msgid "Proxy Type"
+msgstr "Įgaliotojo serverio tipas"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2199
+msgid "No proxy"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2200
+msgid "SOCKS 4"
+msgstr "SOCKS 4"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2201
+msgid "SOCKS 5"
+msgstr "SOCKS 5"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2202
+msgid "HTTP / HTTPS"
+msgstr "HTTP / HTTPS"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2221
+msgid "Address"
+msgstr "Adresas"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2238
+msgid "Username"
+msgstr "Naudotojo vardas"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2255
+msgid "IP address or hostname"
+msgstr "IP adresas arba serverio vardas"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2273
+msgid "Port"
+msgstr "Prievadas"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/main.ui.in:2397
+msgid "_Save Proxy Settings"
+msgstr "Į_rašyti įgaliotojo serverio nustatymus"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:7
+msgid "Tor Connection - Fix Clock"
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:76
+msgid ""
+"Your time zone cannot be used to identify or locate you. Your time zone will "
+"never be sent over the network and will only be used to fix your clock and "
+"connect to Tor."
+msgstr ""
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:142
+msgid "Time zone"
+msgstr "Laiko juosta"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:186
+msgid "Time"
+msgstr "Laikas"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:223
+msgid ":"
+msgstr ":"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:277
+msgid "Date"
+msgstr "Data"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:311
+msgid "January"
+msgstr "Sausis"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:312
+msgid "February"
+msgstr "Vasaris"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:313
+msgid "March"
+msgstr "Kovas"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:314
+msgid "April"
+msgstr "Balandis"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:315
+msgid "May"
+msgstr "Gegužė"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:316
+msgid "June"
+msgstr "Birželis"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:317
+msgid "July"
+msgstr "Liepa"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:318
+msgid "August"
+msgstr "Rugpjūtis"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:319
+msgid "September"
+msgstr "Rugsėjis"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:320
+msgid "October"
+msgstr "Spalis"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:321
+msgid "November"
+msgstr "Lapkritis"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:322
+msgid "December"
+msgstr "Gruodis"
+
+#: ../config/chroot_local-includes/usr/share/tails/tca/time-dialog.ui.in:368
+msgid "Clock"
+msgstr "Laikrodis"
+
+#~ msgid ""
+#~ "For debugging information, execute the following command: sudo tails-"
+#~ "debugging-info"
+#~ msgstr ""
+#~ "Norėdami pamatyti derinimo informaciją, įvykdykite šią komandą: sudo "
+#~ "tails-debugging-info"
+
+#~ msgid "Open Onion Circuits"
+#~ msgstr "Atverti Onion grandines"
+
+#~ msgid "Starting the Unsafe Browser..."
+#~ msgstr "Paleidžiama nesaugi naršyklė..."
+
+#~ msgid "This may take a while, so please be patient."
+#~ msgstr "Tai gali šiek tiek užtrukti, prašome būti kantriais."
+
+#~ msgid "Reset Tor Connection"
+#~ msgstr "Atstatyti Tor ryšį"
+
+#~ msgid "Error while updating the signing key"
+#~ msgstr "Klaida atnaujinant pasirašymo raktą"
+
+#~ msgid ""
+#~ "Something went wrong when starting your Tails USB stick for the first "
+#~ "time: resizing the system partition failed"
+#~ msgstr ""
+#~ "Kažkas nutiko pirmąjį kartą paleidžiant jūsų Tails USB atmintuką; "
+#~ "nepavyko pakeisti sistemos skaidinio dydį"
+
+#~ msgid ""
+#~ "If you have already tried this, please send us an error report to help us "
+#~ "solve this issue."
+#~ msgstr ""
+#~ "Jeigu jau esate tai išbandę, atsiųskite mums pranešimą apie klaidą, kad "
+#~ "padėtumėte mums išspręsti šią problemą."
+
+#, fuzzy
+#~| msgid "Create"
+#~ msgid "Create Backup"
+#~ msgstr "Sukurti"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "The bug report could not be sent, likely due to network problems. Please "
+#~ "try to reconnect to the network and click send again.\n"
+#~ "\n"
+#~ "If it does not work, you will be offered to save the bug report."
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Tikriausiai, dėl tinklo problemų, nepavyko išsiųsti klaidos pranešimo. "
+#~ "Prašome pabandyti iš naujo prisijungti prie tinklo ir spustelėti siųsti "
+#~ "dar kartą.\n"
+#~ "\n"
+#~ "Jeigu tai nesuveikia, jums bus pasiūlyta įrašyti klaidos pranešimą."
+
+#, python-format
+#~ msgid "Unable to save %s."
+#~ msgstr "Nepavyko įrašyti %s."
+
+#, python-format
+#~ msgid ""
+#~ "The bug report could not be sent, likely due to network problems.\n"
+#~ "\n"
+#~ "As a work-around you can save the bug report as a file on a USB drive and "
+#~ "try to send it to us at %s from your email account using another system. "
+#~ "Note that your bug report will not be anonymous when doing so unless you "
+#~ "take further steps yourself (e.g. using Tor with a throw-away email "
+#~ "account).\n"
+#~ "\n"
+#~ "Do you want to save the bug report to a file?"
+#~ msgstr ""
+#~ "Tikriausiai, dėl tinklo problemų, nepavyko išsiųsti klaidos pranešimo.\n"
+#~ "\n"
+#~ "Norėdami apeiti problemą, galite įrašyti klaidos pranešimą kaip failą į "
+#~ "savo USB diską ir, naudojantis savo el. pašto paskyra kitoje sistemoje, "
+#~ "pabandyti išsiųsti pranešimą mums, adresu %s. Turėkite omenyje, kad taip "
+#~ "darant, jūsų klaidos pranešimas nebus anoniminis, nebent patys atliksite "
+#~ "tolimesnius žingsnius (pvz., naudosite Tor su vienkartine el. pašto "
+#~ "paskyra).\n"
+#~ "\n"
+#~ "Ar norite įrašyti klaidos pranešimą į failą?"
+
+#~ msgid "Cannot unlock encrypted storage with this passphrase."
+#~ msgstr "Nepavyksta su šia slaptafraze atrakinti ilgalaikio kaupiklio."
+
+#, fuzzy
+#~ msgid "_Passphrase"
+#~ msgstr "Slaptafrazė:"
+
+#~ msgid "Failed to setup chroot."
+#~ msgstr "Nepavyko nustatyti chroot."
+
+#~ msgid "Failed to configure browser."
+#~ msgstr "Nepavyko sukonfigūruoti naršyklės."
+
+#~ msgid "Language & Region"
+#~ msgstr "Kalba ir regionas"
+
+#, python-format
+#~ msgid ""
+#~ "Some partitions of the target device %(device)s are mounted. They will be "
+#~ "unmounted before starting the installation process."
+#~ msgstr ""
+#~ "Kai kurie skaidiniai paskirties įrenginyje %(device)s yra prijungti. "
+#~ "Prieš pradedant diegimo procesą, jie bus atjungti."
+
+#, fuzzy
+#~| msgid "Report an error"
+#~ msgid "Report an Error"
+#~ msgstr "Pranešti apie klaidą"
+
+#~ msgid "Lock screen"
+#~ msgstr "Užrakinti ekraną"
+
+#, python-format
+#~ msgid ""
+#~ "Build information:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Darinio informacija:\n"
+#~ "%s"
+
+#~ msgid "not available"
+#~ msgstr "neprieinama"
+
+#~ msgid "Name of the affected software"
+#~ msgstr "Paveiktos programinės įrangos pavadinimas"
+
+#~ msgid "Exact steps to reproduce the error"
+#~ msgstr "Tikslūs žingsniai, kaip galima pakartoti klaidą"
+
+#~ msgid "Actual result and description of the error"
+#~ msgstr "Faktinis rezultatas ir klaidos aprašas"
+
+#~ msgid "Desired result"
+#~ msgstr "Pageidaujamas rezultatas"
+
+#~ msgid "Send feedback in an encrypted mail."
+#~ msgstr "Siųskite atsiliepimus užšifruotu paštu."
+
+#~ msgid "Copyright © 2009-2018 Tails developers (tails@boum.org)"
+#~ msgstr "Autorių teisės © 2009-2018 Tails kūrėjai (tails@boum.org)"
+
+#~ msgid "Tails developers <tails@boum.org>"
+#~ msgstr "Tails kūrėjai <tails@boum.org>"
+
+#~ msgid "translator-credits"
+#~ msgstr "Moo"
+
+#~ msgid "Copyright © 2009-2018 tails@boum.org"
+#~ msgstr "Autorių teisės © 2009-2018 tails@boum.org"
+
+#~ msgid ""
+#~ "WhisperBack - Send feedback in an encrypted mail\n"
+#~ "Copyright (C) 2009-2018 Tails developers <tails@boum.org>\n"
+#~ "\n"
+#~ "This program is  free software; you can redistribute  it and/or modify\n"
+#~ "it under the  terms of the GNU General Public  License as published by\n"
+#~ "the Free Software Foundation; either  version 3 of the License, or (at\n"
+#~ "your option) any later version.\n"
+#~ "\n"
+#~ "This program  is distributed in the  hope that it will  be useful, but\n"
+#~ "WITHOUT   ANY  WARRANTY;   without  even   the  implied   warranty  of\n"
+#~ "MERCHANTABILITY  or FITNESS  FOR A  PARTICULAR PURPOSE.   See  the GNU\n"
+#~ "General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
+#~ msgstr ""
+#~ "WhisperBack - Siųsti atsiliepimus šifruotu paštu\n"
+#~ "Autorių teisės (C) 2009-2018 Tails kūrėjai <tails@boum.org>\n"
+#~ "\n"
+#~ "Ši programa yra laisvoji programinė įranga; galite ją platinti ir/ar "
+#~ "modifikuoti\n"
+#~ "pagal GNU bendrosios viešosios licencijos sąlygas, kurias nurodė\n"
+#~ " Free Software Foundation; pagal trečią(3) ar vėlesnę licencijos "
+#~ "versiją.\n"
+#~ "\n"
+#~ "Ši programinė įranga platinama tikintis, kad ji bus naudinga, tačiau\n"
+#~ "BE JOKIŲ GARANTIJŲ; netgi be numanomos PARDAVIMO ar TINKAMUMO TAM TIKRAM "
+#~ "TIKLSUI garantijos. Išsamesnei informacijai, žiūrėkite GNU bendrąją "
+#~ "viešąją licenciją.\n"
+#~ "\n"
+#~ "Kartu su šia programa, turėjote gauti GNU bendrosios viešosios licencijos "
+#~ "kopiją. Jei negavote, žiūrėkite <http://www.gnu.org/licenses/>.\n"
+
+#~ msgid "Help:"
+#~ msgstr "Žinynas:"
+
+#~ msgid "Email address (if you want an answer from us)"
+#~ msgstr "El. pašto adresas (jei norite atsakymo iš mūsų)"
+
+#~ msgid "Unlock"
+#~ msgstr "Atrakinti"
+
+#~ msgid "Encrypted _Persistent Storage"
+#~ msgstr "Šifruotas ilgalaikis kau_piklis"
+
+#~ msgid "Enter your passphrase to unlock the persistent storage"
+#~ msgstr "Įveskite savo slaptafrazę, kad atrakintumėte ilgalaikį kaupiklį"
+
+#, fuzzy
+#~ msgid "_Delete..."
+#~ msgstr "Ištrinama..."
+
+#, fuzzy
+#~ msgid "_Change Passphrase..."
+#~ msgstr "Rodyti slaptafrazę"
+
+#, python-format
+#~ msgid ""
+#~ "<h1>Help us fix your bug!</h1>\n"
+#~ "<p>Read <a href=\"%s\">our bug reporting instructions</a>.</p>\n"
+#~ "<p><strong>Do not include more personal information than\n"
+#~ "needed!</strong></p>\n"
+#~ "<h2>About giving us an email address</h2>\n"
+#~ "<p>\n"
+#~ "Giving us an email address allows us to contact you to clarify the "
+#~ "problem. This\n"
+#~ "is needed for the vast majority of the reports we receive as most "
+#~ "reports\n"
+#~ "without any contact information are useless. On the other hand it also "
+#~ "provides\n"
+#~ "an opportunity for eavesdroppers, like your email or Internet provider, "
+#~ "to\n"
+#~ "confirm that you are using Tails.\n"
+#~ "</p>\n"
+#~ msgstr ""
+#~ "<h1>Padėkite mums pataisyti jūsų klaidą!</h1>\n"
+#~ "<p>Perskaitykite <a href=\"%s\">mūsų pranešimų apie klaidas instrukcijas</"
+#~ "a>.</p>\n"
+#~ "<p><strong>Neįtraukite daugiau asmeninės informacijos, negu yra "
+#~ "reikalinga!</strong></p>\n"
+#~ "<h2>Apie jūsų el. pašto adreso pateikimą mums</h2>\n"
+#~ "<p>\n"
+#~ "Jūsų el. pašto adreso pateikimas mums, leidžia mums susisiekti su jumis, "
+#~ "norint\n"
+#~ "pasitikslinti problemą. Tai yra reikalinga daugelyje mūsų gaunamų "
+#~ "pranešimų apie\n"
+#~ "klaidas, kadangi dauguma pranešimų be kontaktinės informacijos yra "
+#~ "nenaudingi.\n"
+#~ "Kita vertus tai suteikia galimybę slapta pasiklausantiems asmenims, kaip "
+#~ "pavyzdžiui,\n"
+#~ "jūsų el. pašto ar interneto tiekėjui, pasitvirtinti, jog naudojate "
+#~ "Tails.\n"
+#~ "</p>\n"
+
+#~ msgid ""
+#~ "<b>Could not choose a download server.</b>\n"
+#~ "\n"
+#~ "This should not happen. Please report a bug."
+#~ msgstr ""
+#~ "<b>Nepavyko pasirinkti atsiuntimo serverio.</b>\n"
+#~ "\n"
+#~ "Taip neturėtų nutikti. Prašome pranešti apie klaidą."
+
+#~ msgid "Error while choosing a download server"
+#~ msgstr "Klaida, pasirenkant atsiuntimo serverį"
+
+#~ msgid "The Amnesic Incognito Live System"
+#~ msgstr "Netenkanti atminties inkognito paleidžiamoji sistema (TAILS)"
+
+#, fuzzy
+#~ msgid ""
+#~ "The Unsafe Browser is not anonymous and the websites that you visit can "
+#~ "see your real IP address.\\n\\nOnly use the Unsafe Browser to sign in to "
+#~ "a network, then close it."
+#~ msgstr ""
+#~ "The Unsafe Browser is not anonymous and the websites that you visit can "
+#~ "see your real IP address.\\n\\nOnly use the Unsafe Browser to sign in to "
+#~ "a network, then close it."
+
+#~ msgid "Enabled"
+#~ msgstr "Įjungta"
+
+#, python-brace-format
+#~ msgid ""
+#~ "live-persist failed with return code {returncode}:\n"
+#~ "{stderr}"
+#~ msgstr ""
+#~ "live-persist patyrė nesėkmę su grįžties kodu {returncode}:\n"
+#~ "{stderr}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "cryptsetup failed with return code {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+#~ msgstr ""
+#~ "cryptsetup patyrė nesėkmę su grįžties kodu {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "live-persist failed with return code {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+#~ msgstr ""
+#~ "live-persist patyrė nesėkmę su grįžties kodu {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+
+#, python-brace-format
+#~ msgid ""
+#~ "umount failed with return code {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+#~ msgstr ""
+#~ "umount patyrė nesėkmę su grįžties kodu {returncode}:\n"
+#~ "{stdout}\n"
+#~ "{stderr}"
+
+#~ msgid "Persistence wizard - Persistent volume creation"
+#~ msgstr "Ilgalaikiškumo vediklis - Ilgalaikio tomo sukūrimas"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "A {size} persistent volume will be created on the <b>{vendor} {model}</b> "
+#~ "device. Data on this volume will be stored in an encrypted form protected "
+#~ "by a passphrase."
+#~ msgstr ""
+#~ "<b>{vendor} {model}</b> įrenginyje bus sukurtas {size} ilgalaikis tomas. "
+#~ "Duomenys šiame tome bus saugomi slaptafraze apsaugotu šifruotu pavidalu."
+
+#~ msgid ""
+#~ "<b>Beware!</b> Using persistence has consequences that must be well "
+#~ "understood. Tails can't help you if you use it wrong! See the "
+#~ "<i>Encrypted persistence</i> page of the Tails documentation to learn "
+#~ "more."
+#~ msgstr ""
+#~ "<b>Saugokitės!</b> Ilgalaikiškumo naudojimas turi pasekmes, kurios turi "
+#~ "būti gerai suprantamos. Tails negalės jums padėti, jei ilgalaikiškumą "
+#~ "naudosite neteisingai! Norėdami sužinoti daugiau, žiūrėkite Tails "
+#~ "dokumentacijoje <i>Šifruoto ilgalaikiškumo</i> puslapį."
+
+#~ msgid "Passphrase can't be empty"
+#~ msgstr "Slaptafrazė negali būti tuščia"
+
+#~ msgid "Failed"
+#~ msgstr "Nepavyko"
+
+#~ msgid "Mounting Tails persistence partition."
+#~ msgstr "Prijungiamas Tails ilgalaikiškumo skaidinys."
+
+#~ msgid "The Tails persistence partition will be mounted."
+#~ msgstr "Bus prijungtas Tails ilgalaikiškumo skaidinys."
+
+#~ msgid "The permissions of the persistent volume will be corrected."
+#~ msgstr "Ilgalaikio tomo leidimai bus ištaisyti."
+
+#~ msgid "Creating default persistence configuration."
+#~ msgstr "Kuriama numatytoji ilgalaikiškumo konfigūracija."
+
+#~ msgid "The default persistence configuration will be created."
+#~ msgstr "Bus sukurta numatytoji ilgalaikiškumo konfigūracija."
+
+#~ msgid "Creating..."
+#~ msgstr "Kuriama..."
+
+#~ msgid "Creating the persistent volume..."
+#~ msgstr "Kuriamas ilgalaikis tomas..."
+
+#~ msgid "Persistence wizard - Persistent volume configuration"
+#~ msgstr "Ilgalaikiškumo vediklis - Ilgalaikio tomo konfigūravimas"
+
+#~ msgid "Specify the files that will be saved in the persistent volume"
+#~ msgstr "Nurodykite failus, kurie bus įrašyti ilgalaikiame tome"
+
+#~ msgid "Save"
+#~ msgstr "Įrašyti"
+
+#~ msgid "Saving..."
+#~ msgstr "Įrašoma..."
+
+#~ msgid "Saving persistence configuration..."
+#~ msgstr "Įrašoma ilgalaikiškumo konfigūracija..."
+
+#~ msgid "Persistence wizard - Persistent volume deletion"
+#~ msgstr "Ilgalaikiškumo vediklis - Ilgalaikio tomo ištrynimas"
+
+#~ msgid "Your persistent data will be deleted."
+#~ msgstr "Jūsų ilgalaikiai duomenys bus ištrinti."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "The persistent volume {partition} ({size}), on the <b>{vendor} {model}</"
+#~ "b> device, will be deleted."
+#~ msgstr ""
+#~ "{partition} ({size}) ilgalaikis tomas, esantis įrenginyje <b>{vendor} "
+#~ "{model}</b>, bus ištrintas."
+
+#~ msgid "Deleting the persistent volume..."
+#~ msgstr "Ištrinamas ilgalaikis tomas..."
+
+#~ msgid "Keep files stored in the `Persistent' directory"
+#~ msgstr "Išsaugoti failus, esančius \"Ilgalaikiame\" kataloge"
+
+#~ msgid "Language, administration password, and additional settings"
+#~ msgstr "Kalba, administravimo slaptažodis bei papildomi nustatymai"
+
+#~ msgid "Bookmarks saved in the Tor Browser"
+#~ msgstr "Tor Naršyklėje įrašyti adresyno įrašai"
+
+#~ msgid "Configuration of network devices and connections"
+#~ msgstr "Tinklo įrenginių ir ryšių konfigūracija"
+
+#~ msgid "Software installed when starting Tails"
+#~ msgstr "Programinė įranga, įdiegiama, paleidžiant Tails"
+
+#~ msgid "Printers configuration"
+#~ msgstr "Spausdintuvų konfigūracija"
+
+#~ msgid "Bitcoin Client"
+#~ msgstr "Bitcoin kliento programa"
+
+#~ msgid "Pidgin"
+#~ msgstr "Pidgin"
+
+#~ msgid "Pidgin profiles and OTR keyring"
+#~ msgstr "Pidgin profiliai ir OTR raktinė"
+
+#~ msgid "SSH keys, configuration and known hosts"
+#~ msgstr "SSH raktai, konfigūracija ir žinomi serveriai"
+
+#~ msgid "Setup Tails persistent volume"
+#~ msgstr "Nustatyti Tails ilgalaikį tomą"
+
+#~ msgid "Device already has a persistent volume."
+#~ msgstr "Įrenginyje jau yra ilgalaikis tomas."
+
+#~ msgid "Device has not enough unallocated space."
+#~ msgstr "Įrenginyje nėra pakankamai nepaskirstytos vietos."
+
+#~ msgid "Device has no persistent volume."
+#~ msgstr "Įrenginyje nėra jokio ilgalaikio tomo."
+
+#~ msgid ""
+#~ "Cannot delete the persistent volume while in use. You should restart "
+#~ "Tails without persistence."
+#~ msgstr ""
+#~ "Negalima ištrinti ilgalaikį tomą, kol jis yra naudojamas. Jūs turėtumėte "
+#~ "iš naujo paleisti Tails be ilgalaikiškumo."
+
+#~ msgid "Persistence volume is not unlocked."
+#~ msgstr "Ilgalaikiškumo tomas nėra atrakintas."
+
+#~ msgid "Persistence volume is not mounted."
+#~ msgstr "Ilgalaikiškumo tomas nėra prijungtas."
+
+#~ msgid ""
+#~ "Persistence volume is not readable. Permissions or ownership problems?"
+#~ msgstr ""
+#~ "Ilgalaikiškumo tomas nėra skaitomas. Leidimų ar nuosavybės problemos?"
+
+#~ msgid "Persistence volume is not writable."
+#~ msgstr "Ilgalaikiškumo tomas nėra skirtas rašymui."
+
+#~ msgid "Persistence wizard - Finished"
+#~ msgstr "Ilgalaikiškumo vediklis - Užbaigta"
+
+#~ msgid ""
+#~ "Only use the Unsafe Browser to sign in to a network, then close it."
+#~ "\\n\\nThe Unsafe Browser is disabled by default for security.\\n\\nTo <a "
+#~ "href='file:///usr/share/doc/tails/website/doc/anonymous_internet/"
+#~ "unsafe_browser.en.html#use'>use the Unsafe Browser</a>, restart Tails and "
+#~ "enable the Unsafe Browser in the additional settings of the Welcome "
+#~ "Screen."
+#~ msgstr ""
+#~ "Only use the Unsafe Browser to sign in to a network, then close it."
+#~ "\\n\\nThe Unsafe Browser is disabled by default for security.\\n\\nTo <a "
+#~ "href='file:///usr/share/doc/tails/website/doc/anonymous_internet/"
+#~ "unsafe_browser.en.html#use'>use the Unsafe Browser</a>, restart Tails and "
+#~ "enable the Unsafe Browser in the additional settings of the Welcome "
+#~ "Screen."
+
+#~ msgid "Delete the persistent volume and its content"
+#~ msgstr "Ištrinti ilgalaikį tomą ir jo turinį"
+
+#~ msgid "Configure persistent volume"
+#~ msgstr "Konfigūruoti ilgalaikį tomą"
+
+#~ msgid "toggle-button"
+#~ msgstr "toggle-button"

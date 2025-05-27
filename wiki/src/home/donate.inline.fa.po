@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-05-07 15:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <a>
+msgid ""
+"[[!meta robots=\"noindex\"]] <a id=\"donate-random\" class=\"random-"
+"message\" href=\"https://torproject.org/donate/donate-ts-sc2025\" "
+"target=\"_blank\" data-display-probability=\"1\">"
+msgstr ""
+
+#. type: Content of: <a><p><strong>
+msgid ""
+"<strong> Opting out of Big Tech means investing in better alternatives.  "
+"That's where Tor, Tor Browser, and Tails come in."
+msgstr ""
+
+#. type: Content of: <a><p><strong>
+msgid "Help fuel the development of truly private tools."
+msgstr ""
+
+#. type: Content of: <a><p>
+msgid "All donations to the Tor Project support Tails.  </strong>"
+msgstr ""
+
+#. type: Content of: <a><p>
+msgid "<span class=\"link\">Donate today</span>"
+msgstr ""
+
+#. type: Content of: outside any tag (error?)
+msgid "</a>"
+msgstr ""

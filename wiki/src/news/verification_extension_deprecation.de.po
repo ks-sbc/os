@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-12-21 23:11+0000\n"
+"PO-Revision-Date: 2024-11-27 10:19+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 09 Dec 2020 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 09 Dec 2020 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Deprecation of the Tails Verification extension\"]]\n"
+msgstr "[[!meta title=\"Abschaffung der Tails-Verifizierungserweiterung\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"Today, we are retiring the *Tails Verification* browser extension that used "
+"to be advertised on our download page. We are replacing it with similar "
+"JavaScript code that now runs directly on the page."
+msgstr ""
+"Heute stellen wir die Browser-Erweiterung *Tails Verification* ein, die "
+"früher auf unserer Download-Seite beworben wurde. Wir ersetzen sie durch "
+"ähnlichen JavaScript-Code, der nun direkt auf der Seite ausgeführt wird."
+
+#. type: Plain text
+msgid "This new verification procedure is:"
+msgstr "Dieses neue Prüfverfahren ist:"
+
+#. type: Plain text
+msgid "- Simpler and faster for first-time users"
+msgstr "- Einfacher und schneller für Erstbenutzer"
+
+#. type: Plain text
+msgid "- Compatible with more web browsers, for example, Edge and Safari"
+msgstr "- Kompatibel mit mehr Webbrowsern, zum Beispiel Edge und Safari"
+
+#. type: Plain text
+msgid "- As secure as the *Tails Verification* extension"
+msgstr "- So sicher wie die *Tails Verification*-Erweiterung"
+
+#. type: Plain text
+msgid ""
+"From the logs on our website, it seems like only a minority of downloads are "
+"currently being verified. We believe that this simplified verification "
+"procedure will greatly increase the number of downloads being verified and "
+"improve the security of our users."
+msgstr ""
+"Aus den Protokollen auf unserer Website scheint es, dass derzeit nur eine "
+"Minderheit der Downloads verifiziert wird. Wir glauben, dass dieses "
+"vereinfachte Verifizierungsverfahren die Anzahl der verifizierten Downloads "
+"erheblich erhöhen und die Sicherheit unserer Nutzer verbessern wird."
+
+#. type: Plain text
+msgid ""
+"Users of the *Tails Verification* extension can safely remove it from their "
+"browser. They will be reminded to do so on the download page."
+msgstr ""
+"Benutzer der *Tails Verification*-Erweiterung können sie sicher aus ihrem "
+"Browser entfernen. Sie werden auf der Download-Seite daran erinnert, dies zu "
+"tun."
+
+#. type: Plain text
+msgid ""
+"We will remove the *Tails Verification* extension from the Firefox and "
+"Chrome stores in a few days."
+msgstr ""
+"Wir werden die *Tails Verification*-Erweiterung in den nächsten Tagen aus "
+"den Firefox- und Chrome-Stores entfernen."
+
+#. type: Plain text
+msgid "The other 2 verification techniques are still available:"
+msgstr "Die anderen 2 Verifizierungstechniken sind weiterhin verfügbar:"
+
+#. type: Bullet: '- '
+msgid ""
+"If you download Tails using BitTorrent, your BitTorrent client automatically "
+"verifies the checksum of the Tails image when the download finishes."
+msgstr ""
+"Wenn Sie Tails über BitTorrent herunterladen, überprüft Ihr BitTorrent-"
+"Client automatisch die Prüfziffer des Tails-Images, wenn der Download "
+"abgeschlossen ist."
+
+#. type: Bullet: '- '
+msgid ""
+"If you know OpenPGP, you can verify your Tails image using an OpenPGP "
+"signature."
+msgstr ""
+"Wenn Sie OpenPGP kennen, können Sie Ihr Tails-Image mit einer OpenPGP-"
+"Signatur verifizieren."
+
+#. type: Plain text
+msgid ""
+"Special thanks to [Mike Meixler](https://www.meixler-tech.com/) who donated "
+"his time to help us with the verification JavaScript!"
+msgstr ""
+"Ein besonderer Dank geht an [Mike Meixler](https://www.meixler-tech.com/), "
+"der uns seine Zeit gespendet hat, um uns mit dem Verifizierungs-JavaScript "
+"zu helfen!"
+
+#. type: Plain text
+msgid ""
+"In the future, this simplification will allow us to further simplify the "
+"download page and installation instructions. We also want to research how to "
+"make the verification faster. If you know WebAssembly, see if you can help "
+"us [speed up the checksum computation](https://gitlab.tails.boum.org/tails/"
+"tails/-/issues/16905)."
+msgstr ""
+"In Zukunft wird uns diese Vereinfachung ermöglichen, die Download-Seite und "
+"die Installationsanweisungen weiter zu vereinfachen. Wir möchten auch "
+"erforschen, wie wir die Verifizierung schneller machen können. Wenn Sie "
+"WebAssembly kennen, schauen Sie, ob Sie uns dabei helfen können, die ["
+"Prüfziffernberechnung zu beschleunigen](https://gitlab.tails.boum.org/tails/"
+"tails/-/issues/16905)."
+
+#. type: Plain text
+msgid ""
+"See also our [[design document on the security and threat model of the "
+"download verification|contribute/design/download_verification]]."
+msgstr ""
+"Siehen Sie auch unser [[Entwurfsdokument zum Sicherheits- und "
+"Bedrohungsmodell der Download-Verifizierung|contribute/design/"
+"download_verification]]."
+
+#~ msgid ""
+#~ "- Simpler and faster for first-time users - Compatible with more web "
+#~ "browsers, for example, Edge and Safari - As secure as the *Tails "
+#~ "Verification* extension"
+#~ msgstr ""
+#~ "- Einfacher und schneller für Erstnutzer - Kompatibel mit mehr "
+#~ "Webbrowsern, z. B. Edge und Safari - So sicher wie die Erweiterung *Tails "
+#~ "Verification*"

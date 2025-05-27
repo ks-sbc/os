@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2021-11-29 17:12+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Berliners, come test new features with us (again) and get a T-shirt!\"]]\n"
+msgstr ""
+"[[!meta title=\"Berlinesos, veniu a provar noves funcionalitats amb "
+"nosaltres (una altra vegada) i aconseguiu una samarreta!\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Wed, 10 Jan 2018 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Wed, 10 Jan 2018 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"We are working on making it much easier to **permanently install additional "
+"software in Tails**."
+msgstr ""
+"Estem treballant per fer que sigui molt més fàcil **instal·lar permanentment "
+"programari addicional a Tails**."
+
+#. type: Plain text
+msgid ""
+"We want to test our design with users to make sure that it is really easy to "
+"use."
+msgstr ""
+"Volem provar el nostre disseny amb els usuaris per assegurar-nos que és "
+"realment fàcil d'utilitzar."
+
+#. type: Plain text
+msgid ""
+"Don't be shy! It will be a great opportunity to contribute to world-class "
+"privacy software like Tails, even if you don't feel really tech-savvy."
+msgstr ""
+"No sigueu tímids! Serà una gran oportunitat per contribuir a un programari "
+"de privadesa de classe mundial com és Tails, fins i tot si no us sentiu "
+"realment coneixedors de la tecnologia."
+
+#. type: Plain text
+msgid "The tests will take place in Berlin (Wedding) in January on:"
+msgstr "Les proves tindran lloc a Berlín (Wedding) al gener els dies:"
+
+#. type: Plain text
+msgid "- Saturday 27 - Sunday 28 - Monday 29"
+msgstr ""
+"- Dissabte 27\n"
+"- Diumenge 28\n"
+"- Dilluns 29"
+
+#. type: Plain text
+msgid "Plan to stay with us for 1 hour."
+msgstr "Planifiqueu quedar-vos amb nosaltres durant 1 hora."
+
+#. type: Plain text
+msgid "We will give you a Tails T-shirt as a token of our thanks."
+msgstr "Us donarem una samarreta de Tails com a mostra del nostre agraïment."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img 33c3/t-shirt.jpg link=\"no\"]]\n"
+msgstr "[[!img 33c3/t-shirt.jpg link=\"no\"]]\n"
+
+#. type: Plain text
+msgid "Please, take this survey so we can organize our schedule:"
+msgstr ""
+"Si us plau, feu aquesta enquesta perquè puguem organitzar el nostre horari:"
+
+#. type: Plain text
+#, no-wrap
+msgid "<strike>https://survey.tails.boum.org/</strike> (We have enough people already!)\n"
+msgstr "<strike>https://survey.tails.boum.org/</strike> (Ja tenim prou gent!)\n"
+
+#. type: Plain text
+msgid ""
+"And if you can't come, maybe you can share this with 2-3 other people in "
+"Berlin?"
+msgstr ""
+"I si no podeu venir, potser podeu compartir això amb dues o tres persones "
+"més a Berlín?"

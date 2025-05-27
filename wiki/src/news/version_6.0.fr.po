@@ -1,0 +1,622 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-01-23 17:10+0000\n"
+"PO-Revision-Date: 2025-04-17 17:34+0000\n"
+"Last-Translator: Chre <tor@renaudineau.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 6.0\"]]\n"
+msgstr "[[!meta title=\"Tails 6.0\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 27 Feb 2024 12:34:56 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"We are very excited to present you Tails 6.0, the first version of Tails "
+"based on Debian 12 (Bookworm) and GNOME 43. Tails 6.0 brings new versions of "
+"most of the software included in Tails as well as several important security "
+"and usability improvements."
+msgstr ""
+"Nous sommes très enthousiastes de vous présenter Tails 6.0, la première "
+"version de Tails basée sur Debian 12 (Bookworm) et GNOME 43. Tails 6.0 "
+"apporte des nouvelles versions de la plupart des logiciels inclus dans Tails "
+"ainsi que plusieurs améliorations importantes sur la sécurité et l'ergonomie."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr "<h1 id=\"features\">Nouvelles fonctionnalités</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Error detection on the Persistent Storage"
+msgstr "Détection d'erreur dans le stockage persistant"
+
+#. type: Plain text
+msgid ""
+"Tails 6.0 warns you about [[errors when reading or writing|ioerror]] from "
+"your Tails USB stick."
+msgstr ""
+"Tails 6.0 vous prévient des [[erreurs lors de la lecture ou de l'écriture|"
+"ioerror]] depuis votre clé USB Tails."
+
+#. type: Plain text
+msgid ""
+"These alerts can help you diagnose hardware failures on your USB stick and "
+"backup your Persistent Storage before it's too late."
+msgstr ""
+"Ces alertes peuvent vous aider à diagnostiquer les problèmes matériels sur "
+"votre clé USB et à faire une sauvegarde de votre stockage persistant avant "
+"qu'il ne soit trop tard."
+
+#. type: Title ##
+#, no-wrap
+msgid "Mount external devices automatically"
+msgstr "Montage automatique des périphériques externes"
+
+#. type: Plain text
+msgid ""
+"When you plug in an external storage device, a USB stick or an external hard "
+"disk, Tails 6.0 mounts it automatically. If the storage device contains an "
+"encrypted partition, Tails 6.0 offers you to unlock the encryption "
+"automatically."
+msgstr ""
+"Lorsque vous branchez un périphérique de stockage externe, une clé USB ou un "
+"disque dur externe, Tails 6.0 le monte automatiquement. Si le périphérique "
+"de stockage contient une partition chiffrée, Tails 6.0 vous propose "
+"automatiquement de déverrouiller le chiffrement."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img test_6.0-rc1/unlock.png link=\"no\" class=\"screenshot\" alt=\"Authentication Required. A\n"
+"passphrase is needed to access encrypted data.\"]]\n"
+msgstr ""
+"[[!img test_6.0-rc1/unlock.png link=\"no\" class=\"screenshot\" alt=\"Authentification requise. Une\n"
+"phrase de passe est nécessaire pour accéder aux données chiffrées.\"]]\n"
+
+#. type: Plain text
+msgid ""
+"This feature also simplifies how to unlock [[*VeraCrypt* encrypted volumes|"
+"doc/encryption_and_privacy/veracrypt]]."
+msgstr ""
+"Cette fonctionnalité simplifie également comment les [[volumes chiffrés "
+"*VeraCrypt*|doc/encryption_and_privacy/veracrypt]] sont déverrouillés."
+
+#. type: Title ##
+#, no-wrap
+msgid "Protection against malicious USB devices"
+msgstr "Protection contre les périphériques USB malveillants"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"If an attacker manages to plug a [[!wikipedia BadUSB desc=\"malicious USB\n"
+"device\"]] in your computer, they could run software that breaks the security\n"
+"built in Tails without your knowledge.\n"
+msgstr ""
+"Si un attaquant envisage de brancher un [[!wikipedia BadUSB desc=\"périphérique USB\n"
+"malveillant\"]] dans votre ordinateur, il pourrait exécuter un logiciel qui casserait la \n"
+"sécurité construite par Tails sans que vous ne vous en rendiez compte.\n"
+
+#. type: Plain text
+msgid ""
+"To protect from such attacks while you are away from your computer, Tails "
+"6.0 ignores any USB device that is plugged in while your screen is locked."
+msgstr ""
+"Pour se protéger d'une attaque de ce type lorsque vous n'êtes pas à "
+"proximité de votre ordinateur, Tails 6.0 ignore tous les périphériques USB "
+"qui pourrait être branché lorsque votre écran est verrouillé."
+
+#. type: Plain text
+msgid ""
+"You can only use new USB devices if they are plugged in while the screen is "
+"unlocked."
+msgstr ""
+"Vous pouvez utiliser un nouveau périphérique USB seulement s'il est branché "
+"lorsque l'écran est déverrouillé."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img test_6.0-rc1/usbguard.png link=\"no\" class=\"screenshot\" alt=\"Notification: Reconnect\n"
+"USB device. New device has been detected while you were away. Please disconnect\n"
+"and reconnect the device to start using it.\"]]\n"
+msgstr ""
+"[[!img test_6.0-rc1/usbguard.png link=\"no\" class=\"screenshot\" alt=\"Notification : Reconnectez\n"
+"le périphérique USB. Un nouveau périphérique a été détecté alors que vous étiez absent. Déconnectez et\n"
+"reconnectez le périphérique pour commencer à l’utiliser.\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Dark Mode and Night Light"
+msgstr "Mode sombre et mode nuit"
+
+#. type: Plain text
+msgid "From the system menu of Tails 6.0, you can now switch between:"
+msgstr ""
+"Depuis le menu système de Tails 6.0, vous pouvez maintenant basculer entre :"
+
+#. type: Plain text
+msgid "- The default *light* mode with colder colors and more brightness"
+msgstr ""
+"- Le mode *lumineux* par défaut avec des couleurs plus froides et plus de "
+"luminosité"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img doc/first_steps/desktop/light.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+msgstr "  [[!img doc/first_steps/desktop/light.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+
+#. type: Plain text
+msgid "- A *dark* mode"
+msgstr "- Le mode *sombre*"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img doc/first_steps/desktop/dark.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+msgstr "  [[!img doc/first_steps/desktop/dark.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+
+#. type: Plain text
+msgid "- A *night light* mode with warmer colors and less brightness"
+msgstr "- Un mode *nuit* avec des couleurs plus chaudes et moins de luminosité"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img doc/first_steps/desktop/night.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+msgstr "  [[!img doc/first_steps/desktop/night.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+
+#. type: Plain text
+msgid "- A combination of both the *dark* mode and *night light* mode"
+msgstr "- Une combinaison des modes *sombre* et *nuit*"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img doc/first_steps/desktop/dark_night.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+msgstr "  [[!img doc/first_steps/desktop/dark_night.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Easier screenshots and screencasts"
+msgstr "Captures d'écran et captures vidéo plus faciles"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"GNOME 43 introduces a new [[!img lib/camera-photo.png alt=\"Take Screenshot\"\n"
+"class=\"symbolic\" link=\"no\"]] shortcut in the system menu that makes it easier\n"
+"to take a screenshot or record a screencast.\n"
+msgstr ""
+"GNOME 43 présente un nouveau raccourci [[!img lib/camera-photo.png alt=\"Capture d'écran\"\n"
+"class=\"symbolic\" link=\"no\"]] dans le menu système qui rend plus facile\n"
+"de prendre une capture d'écran ou d'enregistrer une capture vidéo.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img doc/sensitive_documents/screenshot_and_screencast/camera.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+msgstr "[[!img doc/sensitive_documents/screenshot_and_screencast/camera.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Easier Gmail in Thunderbird"
+msgstr "Gmail plus facile dans Thunderbird"
+
+#. type: Plain text
+msgid ""
+"Thanks to changes in both Thunderbird and Gmail, it's much easier to "
+"configure a Gmail account in Thunderbird in Tails 6.0."
+msgstr ""
+"Grâce à des changements aussi bien dans Thunderbird que dans Gmail, il est "
+"plus facile de configurer un compte Gmail dans Thunderbird dans Tails 6.0."
+
+#. type: Bullet: '- '
+msgid ""
+"You don't have to configure anything special in your Gmail account, other "
+"than the usual 2-Step Verification."
+msgstr ""
+"Vous n'avez rien de particulier à configurer dans votre compte Gmail, à part "
+"l'habituelle validation en deux étapes."
+
+#. type: Bullet: '- '
+msgid ""
+"You can sign in to your Gmail account directly when configuring it in "
+"*Thunderbird*."
+msgstr ""
+"Vous pouvez enregistrer votre compte Gmail directement lors de sa "
+"configuration dans *Thunderbird*."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img test_6.0-rc1/gmail.png link=\"no\" class=\"screenshot\" alt=\"Gmail: Sign in to continue\n"
+"to Mozilla Thunderbird\"]]\n"
+msgstr ""
+"[[!img test_6.0-rc1/gmail.png link=\"no\" class=\"screenshot\" alt=\"Gmail : Se connecter pour continuer\n"
+"vers Mozilla Thunderbird\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Diceware passphrases in 5 more languages"
+msgstr "Phrases de passe diceware dans 5 langues supplémentaires"
+
+#. type: Plain text
+msgid ""
+"When creating a Persistent Storage, suggested passphrases are now also "
+"generated in Catalan, German, Italian, Portuguese, and Spanish."
+msgstr ""
+"Lors de la création d'un stockage persistant, les phrases de passe proposées "
+"sont aussi générées en catalan, allemand, italien, portugais et espagnol."
+
+#. type: Plain text
+msgid ""
+"Thanks to [[!tails_gitlab jawlensky]] who created the word lists for "
+"Catalan, Italian, and Spanish for Tails, but also made them available to all "
+"users of `diceware`."
+msgstr ""
+"Merci à [[!tails_gitlab jawlensky]] qui a créé les listes de mots pour le "
+"catalan, l'italien et l'espagnol pour Tails, mais qui les a aussi rendu "
+"disponibles pour toutes les personnes utilisant `diceware`."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img test_6.0-rc1/diceware.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+msgstr "[[!img test_6.0-rc1/diceware.png link=\"no\" class=\"screenshot\" alt=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Changements et mises à jour</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Included software"
+msgstr "Logiciels inclus"
+
+#. type: Plain text
+msgid ""
+"Tails 6.0 updates most of the applications included in Tails, among others:"
+msgstr ""
+"Tails 6.0 met à jour la plupart des applications incluses dans Tails, entre "
+"autres :"
+
+#. type: Plain text
+msgid ""
+"- *Tor Browser* to [13.0.10](https://blog.torproject.org/new-release-tor-"
+"browser-13010/)."
+msgstr ""
+"- *Navigateur Tor* vers la version [13.0.10](https://blog.torproject.org/new-"
+"release-tor-browser-13010/)."
+
+#. type: Plain text
+msgid "- *Electrum* from 4.0.9 to 4.3.4"
+msgstr "- *Electrum* de la version 4.0.9 à la version 4.3.4"
+
+#. type: Bullet: '  * '
+msgid "Improve support for the Lightning protocol and hardware wallets."
+msgstr ""
+"Améliore le support du protocole Lightning et des portefeuilles matériels."
+
+#. type: Plain text
+msgid "- *KeePassXC* from 2.6.2 to 2.7.4"
+msgstr "- *KeePassXC* de la version 2.6.2 à la version 2.7.4"
+
+#. type: Bullet: '  * '
+msgid "Add entry tags."
+msgstr "Ajout d'étiquettes pour les entrées."
+
+#. type: Bullet: '  * '
+msgid "Support dark mode."
+msgstr "Support du mode sombre."
+
+#. type: Bullet: '  * '
+msgid "Redesign history view."
+msgstr "Nouvelle présentation de la vue historique."
+
+#. type: Plain text
+msgid "- *Metadata Cleaner* from 1.0.2 to 2.4.0"
+msgstr "- *Nettoyeur de métadonnées* de la version 1.0.2 à la version 2.4.0"
+
+#. type: Bullet: '  * '
+msgid "Redesign the whole user interface."
+msgstr "Nouvelle présentation de toute l'interface d'utilisation."
+
+#. type: Bullet: '  * '
+msgid "Add support for AIFF and HEIC files."
+msgstr "Ajout du support pour les fichiers AIFF et HEIC."
+
+#. type: Plain text
+msgid "- *Text Editor* from `gedit` to `gnome-text-editor`"
+msgstr "- *Éditeur de texte* de `gedit` à `gnome-text-editor`"
+
+#. type: Plain text
+msgid "- *Inkscape* from 1.0.2 to 1.2.2"
+msgstr "- *Inkscape* de la version 1.0.2 à la version 1.2.2"
+
+#. type: Plain text
+msgid "- *Audacity* from 2.4.2 to 3.2.4"
+msgstr "- *Audacity* de la version 2.4.2 à la version 3.2.4"
+
+#. type: Plain text
+msgid "- *GIMP* from 2.10.22 to 2.10.34"
+msgstr "- *GIMP* de la version 2.10.22 à la version 2.10.34"
+
+#. type: Plain text
+msgid "- *Kleopatra* from 4:20.08 to 4:22.12"
+msgstr "- *Kleopatra* de la version 4:20.08 à la version 4:22.12"
+
+#. type: Title ##
+#, no-wrap
+msgid "Removed features"
+msgstr "Fonctionnalités supprimées"
+
+#. type: Plain text
+msgid "- Remove the icons on the desktop."
+msgstr "- Suppression des icônes sur le bureau."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  The extension of GNOME Shell that we used to provide this feature is not well\n"
+"  integrated into GNOME and created other problems. ([[!tails_ticket 19920]])\n"
+msgstr ""
+"  L'extension de GNOME Shell nous utilisions pour fournir cette fonctionnalité n'était pas très bien\n"
+"  intégrée dans GNOME et a engendré d'autre problèmes. ([[!tails_ticket 19920]])\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Remove the item **Wipe** and **Wipe available disk space** from the shortcut "
+"menu of the *Files* browser."
+msgstr ""
+"Suppression des éléments **Écraser** et **Écraser l'espace disque "
+"disponible** depuis le menu raccourci du navigateur de *Fichiers*."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  Secure deletion is not reliable enough on USB sticks and Solid-State Drives\n"
+"  (SSDs) for us to keep advertising this feature.\n"
+msgstr ""
+"  L'effacement sécurisé n'est pas assez fiable sur les clés USB et les SSD\n"
+"  (Solid-State Drives) pour nous continuions à faire la promotion de cette fonctionnalité.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  We updated our documentation on [[secure\n"
+"  deletion|doc/encryption_and_privacy/secure_deletion]] to new recommendations:\n"
+"  use encrypted volumes, overwrite the entire device, or disintegrate it\n"
+"  physically.\n"
+msgstr ""
+"  Nous avons mis à jour notre documentation sur l'[[effacement\n"
+"  sécurisé|doc/encryption_and_privacy/secure_deletion]] avec de nouvelles recommandations :\n"
+"  utilisez des volumes chiffrés, écrasez le périphérique entier ou détruisez-le\n"
+"  physiquement.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Remove the item **Remove metadata** from the shortcut menu of the *Files* "
+"browser."
+msgstr ""
+"Suppression de l'élément **Remove metadata** depuis le menu de raccourci du "
+"navigateur de *Fichiers*."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  The developers of MAT2, the metadata removal library used by *Metadata\n"
+"  Cleaner* are not providing this option anymore.\n"
+msgstr ""
+"  Les personnes développant MAT2, la bibliothèque de suppression de métadonnées utilisée par *Nettoyeur\n"
+"  de métadonnées* ne fournissent plus cette option.\n"
+
+#. type: Plain text
+msgid "- Remove *GtkHash*"
+msgstr "- Suppression de *GtkHash*"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can still install *GtkHash* as [[Additional\n"
+"  Software|doc/persistent_storage/additional_software]].\n"
+msgstr ""
+"  Vous pouvez toujours installer *GtkHash* comme [[logiciel\n"
+"  supplémentaire|doc/persistent_storage/additional_software]].\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Problèmes corrigés</h1>\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Fix several issues with special characters and non-Latin scripts in the "
+"screen keyboard. ([[!tails_ticket 18076]])"
+msgstr ""
+"Correction de nombreux problèmes avec des caractères spéciaux et des "
+"écritures non-latines dans le clavier visuel. ([[!tails_ticket 18076]])"
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+"Pour plus de détails, lisez notre [[!tails_gitweb debian/changelog "
+"desc=\"liste des changements\"]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr "<h1 id=\"issues\">Problèmes connus</h1>\n"
+
+#. type: Plain text
+msgid ""
+"- *Onion Circuits* incorrectly claims Tor is not connected. ([[!tails_ticket "
+"20233]])"
+msgstr ""
+"- *Circuits onion* affirme à tort que Tor n'est pas connecté. ([[!"
+"tails_ticket 20233]])"
+
+#. type: Bullet: '- '
+msgid ""
+"The Welcome Screen sometimes displays a warning: **\"Welcome to Tails!\" is "
+"not responding**.  ([[!tails_ticket 20236]])"
+msgstr ""
+"L'écran de bienvenue affiche parfois une erreur : **\"Welcome to Tails!\" is "
+"not responding**.  ([[!tails_ticket 20236]])"
+
+#. type: Plain text
+#, no-wrap
+msgid "  If you see this warning, click on the **Wait** button.\n"
+msgstr "  Si vous voyez cet avertissement, cliquez sur le bouton **Wait**.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Playing a video displays an error: **Failed to query: In service 'dbus:org."
+"freedesktop.Tracker3.Miner.Files': Unit tracker-miner-fs-3-service is masked."
+"** ([[!tails_ticket 20237]])"
+msgstr ""
+"Lire une vidéo affiche une erreur : **Failed to query: In service 'dbus:org."
+"freedesktop.Tracker3.Miner.Files': Unit tracker-miner-fs-3-service is masked."
+"** ([[!tails_ticket 20237]])"
+
+#. type: Plain text
+#, no-wrap
+msgid "  If you see this warning, click on the **OK** button.\n"
+msgstr "  Si vous voyez cet avertissement, cliquez sur le bouton **OK**.\n"
+
+#. type: Plain text
+msgid "- *OnionShare* is still included as version 2.2."
+msgstr "- *OnionShare* est toujours inclus dans sa version 2.2."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  We tried to include *OnionShare* 2.6 in Tails 6.0, but it has several issues\n"
+"  that had security implications. ([[!tails_ticket 20135]] and [[!tails_ticket\n"
+"  20140]])\n"
+msgstr ""
+"  Nous avons essayé d'inclure *OnionShare* 2.6 dans Tails 6.0, mais il a de nombreux problèmes\n"
+"  qui ont des implications en matière de sécurité. ([[!tails_ticket 20135]] et [[!tails_ticket\n"
+"  20140]])\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Mounting external devices automatically interferes with the *Back Up "
+"Persistent Storage* utility. ([[!tails_ticket 20143]])"
+msgstr ""
+"Le montage automatique de périphériques externes interfère avec l'utilitaire "
+"*Sauvegarde du stockage persistant*. ([[!tails_ticket 20143]])"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 6.0</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 6.0</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
+
+#. type: Plain text
+msgid "- Automatic upgrades are only available from Tails 6.0~rc1 to 6.0."
+msgstr ""
+"- Mises à jour automatiques uniquement disponibles depuis Tails 6.0~rc1 vers "
+"la version 6.0."
+
+#. type: Plain text
+#, no-wrap
+msgid "  All other users have to do a [[manual upgrade|doc/upgrade#manual]].\n"
+msgstr "  Toutes les autres personnes doivent faire une [[mise à jour manuelle|doc/upgrade#manual]].\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails 6.0 on a new USB stick"
+msgstr "Pour installer Tails 6.0 sur une nouvelle clé USB"
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr "Suivez nos instructions d'installation :"
+
+#. type: Plain text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr "- [[Installer depuis Windows|install/windows]]"
+
+#. type: Plain text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr "- [[Installer depuis macOS|install/mac]]"
+
+#. type: Plain text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr "- [[Installer depuis Linux|install/linux]]"
+
+#. type: Plain text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+"- [[Installer depuis Debian ou Ubuntu en utilisant la ligne de commande et "
+"GnuPG|install/expert]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>Le stockage persistant de la clé USB sera perdu si\n"
+"vous faites une installation au lieu d'une mise à jour.</p></div>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr "Pour seulement télécharger"
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 6.0 directly:"
+msgstr ""
+"Si vous n'avez pas besoin d'instructions d'installation ou de mise à jour, "
+"vous pouvez télécharger directement Tails 6.0 :"
+
+#. type: Plain text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr "- [[Pour clés USB (image USB)|install/download]]"
+
+#. type: Plain text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "- [[Pour DVD et machines virtuelles (image ISO)|install/download-iso]]"

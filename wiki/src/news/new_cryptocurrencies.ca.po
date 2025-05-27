@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-02-08 03:39+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Wed, 5 Dec 2018 18:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Wed, 5 Dec 2018 18:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"We are accepting donations in 4 new cryptocurrencies\"]]\n"
+msgstr "[[!meta title=\"Acceptem donacions en quatre noves criptomonedes\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"Users of cryptocurrencies have been huge supporters of Tails in all our "
+"previous donation campaigns and we are extremely thankful to them!"
+msgstr ""
+"Els usuaris de criptomonedes han estat grans partidaris de Tails en totes "
+"les nostres campanyes de donació anteriors i els estem molt agraïts!"
+
+#. type: Plain text
+msgid ""
+"As part of our on-going [[donation|news/2018-fundraiser]] [[campaign|"
+"achievements_in_2018]], we are now accepting donations in 4 new "
+"cryptocurrencies, in addition to Bitcoins."
+msgstr ""
+"Com a part de la nostra [[campanya|achievements_in_2018]] de [[recaptació de "
+"fons|news/2018-fundraiser]] en curs, acceptem donacions en quatre noves "
+"criptomonedes, a més de Bitcoins."
+
+#. type: Plain text
+msgid ""
+"We chose these 4 because they are the most popular and easiest for us to "
+"receive. We might add more cryptocurrencies in the future as they gain "
+"momentum."
+msgstr ""
+"Hem escollit aquestes quatre perquè són les més populars i les més fàcils de "
+"rebre. És possible que afegim més criptomonedes en el futur a mesura que "
+"guanyen impuls."
+
+#. type: Plain text
+msgid ""
+"But as of now, we hope the 5 crypto and 4 legacy currencies you'll find on "
+"the donation page will provide you with the necessary means to support us!"
+msgstr ""
+"Però a partir d'ara, esperem que les cinc criptomonedes i les quatre monedes "
+"heretades que trobareu a la pàgina de donació us proporcionin els mitjans "
+"necessaris per donar-nos suport!"
+
+#. type: Title ###
+#, no-wrap
+msgid "Bitcoin Cash"
+msgstr "Bitcoin Cash"
+
+#. type: Plain text
+#, no-wrap
+msgid "**qrzav77wkhd942nyqvya34mya3fqxzx90ypjge0njh**\n"
+msgstr "**qrzav77wkhd942nyqvya34mya3fqxzx90ypjge0njh**\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Ethereum"
+msgstr "Ethereum"
+
+#. type: Plain text
+#, no-wrap
+msgid "**0xD6A73051933ab97C38cEFf2abB2f9E06F3a3ed78**\n"
+msgstr "**0xD6A73051933ab97C38cEFf2abB2f9E06F3a3ed78**\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Ethereum Classic"
+msgstr "Ethereum Classic"
+
+#. type: Plain text
+#, no-wrap
+msgid "**0x86359F8b44188c105E198DdA3c0421AC60729195**\n"
+msgstr "**0x86359F8b44188c105E198DdA3c0421AC60729195**\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Litecoin"
+msgstr "Litecoin"
+
+#. type: Plain text
+#, no-wrap
+msgid "**MJ1fqVucBt8YpfPiQTuwBtmLJtzhizx6pz**\n"
+msgstr "**MJ1fqVucBt8YpfPiQTuwBtmLJtzhizx6pz**\n"
+
+#. type: Plain text
+msgid "[[Donate]]"
+msgstr "[[Feu una donació|donate]]"
+
+#, no-wrap
+#~ msgid "<div class=\"button\"><a href=\"https://tails.net/donate/?r=cryptos\">Donate</a></div>\n"
+#~ msgstr "<div class=\"button\"><a href=\"https://tails.net/donate/index.ca.html?r=cryptos\">Feu una donació</a></div>\n"

@@ -1,0 +1,60 @@
+name: Build Website
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+    paths:
+      - 'wiki/**'
+      - 'ikiwiki.setup'
+      - '.github/workflows/build-website.yml'
+
+jobs:
+  build-website:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tails/ikiwiki:bookworm
+      # If using self-hosted runners with elevated privileges:
+      # options: --privileged
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Full history for git operations
+    
+    - name: Cache website build
+      uses: actions/cache@v3
+      with:
+        path: |
+          config/chroot_local-includes/usr/share/doc/tails/website
+          wiki/src/.ikiwiki
+          underlays
+        key: website-${{ github.ref_name }}-${{ github.sha }}
+        restore-keys: |
+          website-${{ github.ref_name }}-
+          website-
+    
+    - name: Set up build environment
+      run: |
+        export DEBIAN_FRONTEND=noninteractive
+        mkdir -p ${GITHUB_WORKSPACE}/underlays
+        
+    - name: Build website
+      env:
+        UNDERLAYS_DIR: ${{ github.workspace }}/underlays
+        IKIWIKI_RCS_OPTION: ${{ github.ref == 'refs/heads/master' && '--rcs git' || '' }}
+      run: |
+        # Add build commands from GitLab CI
+        # This would need to be adapted from the GitLab CI script
+        echo "Building website..."
+        # ./build-website ${IKIWIKI_RCS_OPTION}
+    
+    - name: Upload website artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: website
+        path: config/chroot_local-includes/usr/share/doc/tails/website
+        retention-days: 1
+        if-no-files-found: error

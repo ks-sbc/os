@@ -1,0 +1,375 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-01-21 17:02+0000\n"
+"PO-Revision-Date: 2025-04-28 22:05+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: Tails translators <tails-l10n@boum.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"System requirements and recommended hardware\"]]\n"
+msgstr "[[!meta title=\"Systemanforderungen und empfohlene Hardware\"]]\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#. type: Plain text
+msgid "- Tails works on:"
+msgstr "- Tails funktioniert auf:"
+
+#. type: Bullet: '  * '
+msgid "Most PC computers that are less than 10 years old"
+msgstr "Die meisten PC-Computer, die weniger als 10 Jahre alt sind"
+
+#. type: Bullet: '  * '
+msgid "Some older Mac computers with an Intel processor"
+msgstr "Einige ältere Mac-Computer mit einem Intel-Prozessor"
+
+#. type: Plain text
+msgid "- Tails does not work:"
+msgstr "- Tails läuft nicht auf:"
+
+#. type: Bullet: '  * '
+msgid "Newer Mac computers with an Apple processor (M1 or M2)"
+msgstr "Neuere Mac-Computer mit einem Apple-Prozessor (M1 oder M2)"
+
+#. type: Bullet: '  * '
+msgid "Smartphones or tablets"
+msgstr "Smartphones oder Tablets"
+
+#. type: Bullet: '  * '
+msgid "Raspberry Pi"
+msgstr "Raspberry Pi"
+
+#. type: Plain text
+msgid "- Tails might not work on:"
+msgstr "- Tails läuft möglicherweise nicht auf:"
+
+#. type: Bullet: '  * '
+msgid "Some older computers, for example, if they don't have 2 GB of RAM."
+msgstr ""
+"Einige ältere Computer, zum Beispiel, wenn sie nicht über 2 GB RAM verfügen."
+
+#. type: Bullet: '  * '
+msgid ""
+"Some newer computers, for example, if their [[graphics card is incompatible "
+"with Linux|support/known_issues/graphics]].  Nvidia or AMD Radeon cards "
+"often do not work in Tails."
+msgstr ""
+"Einige neuere Computer, zum Beispiel, wenn ihre [[Grafikkarte mit Linux "
+"nicht kompatibel ist|support/known_issues/graphics]]. Nvidia- oder AMD "
+"Radeon-Karten funktionieren oft nicht in Tails."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>See our [[list of known hardware compatibility\n"
+"issues|support/known_issues]].</p>\n"
+msgstr "<p>Siehe unsere [[Liste bekannter Hardware-Kompatibilitätsprobleme|support/known_issues]].</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Detailed hardware requirements"
+msgstr "Detaillierte Hardwarevoraussetzungen"
+
+#. type: Plain text
+msgid "- A USB stick of 8 GB minimum or a recordable DVD."
+msgstr "- Ein USB Stick mit mindestens 8 GB oder eine beschreibbare DVD."
+
+#. type: Plain text
+#, no-wrap
+msgid "  All the data on this USB stick or DVD is lost when installing Tails.\n"
+msgstr "  Alle Daten auf diesem USB-Stick oder DVD gehen beim Installieren von Tails verloren.\n"
+
+#. type: Plain text
+msgid "- The ability to start from a USB stick or a DVD reader."
+msgstr ""
+"- Die Möglichkeit, von einem USB-Stick oder einem DVD-Lesegerät zu starten."
+
+#. type: Bullet: '- '
+msgid ""
+"A 64-bit [[!wikipedia x86-64]] [[!wikipedia IBM PC compatible]] processor."
+msgstr ""
+"Ein 64-Bit [[!wikipedia x86-64]] [[!wikipedia_de IBM-PC-kompatibler "
+"Computer]] Prozessor."
+
+#. type: Bullet: '  * '
+msgid ""
+"Tails does not works on [[!wikipedia ARM_architecture desc=\"ARM\"]] or [[!"
+"wikipedia PowerPC]] processors."
+msgstr ""
+"Tails funktioniert nicht auf [[!wikipedia_de Arm-Architektur desc=\"ARM\"]] "
+"oder [[!wikipedia_de PowerPC]]-Prozessoren."
+
+#. type: Bullet: '  * '
+msgid ""
+"Tails does not work on 32-bit computers since [[Tails 3.0|news/"
+"Tails_3.0_will_require_a_64-bit_processor]] (June 2017)."
+msgstr ""
+"Tails läuft nicht mehr auf 32-Bit Computern seit [[Tails 3.0|news/"
+"Tails_3.0_will_require_a_64-bit_processor]] (Juni 2017)."
+
+#. type: Plain text
+msgid "- 2 GB of RAM to work smoothly."
+msgstr "- 2GB RAM um flüssig zu laufen."
+
+#. type: Plain text
+#, no-wrap
+msgid "  Tails can work with less than 2 GB RAM but might behave strangely or crash.\n"
+msgstr "  Tails kann auch mit weniger als 2 GB RAM funktionieren, aber es verhält sich dann vielleicht unerwarteten oder stürzt ab.\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Recommended hardware"
+msgstr "Empfohlene Hardware"
+
+#. type: Plain text
+msgid ""
+"Laptop models evolve too rapidly for us to be able to provide an up-to-date "
+"list of recommended hardware. Below are some guidelines if you, or your "
+"organization, are considering acquiring a laptop dedicated to running Tails."
+msgstr ""
+"Laptop-Modelle entwickeln sich zu schnell weiter, als dass wir eine aktuelle "
+"Liste der empfohlenen Hardware bereitstellen könnten. Im Folgenden finden "
+"Sie einige Richtlinien, wenn Sie oder Ihre Organisation die Anschaffung "
+"eines Laptops für den Betrieb von Tails in Erwägung ziehen."
+
+#. type: Title ###
+#, no-wrap
+msgid "For PC"
+msgstr "Für PC"
+
+#. type: Plain text
+msgid "- Avoid \"gaming\" models with Nvidia or AMD Radeon graphics cards."
+msgstr ""
+"- Vermeiden Sie \"Gaming\"-Modelle mit Nvidia- oder AMD-Radeon-Grafikkarten."
+
+#. type: Bullet: '- '
+msgid ""
+"Consider buying a refurbished laptop from a high-end (professional) series.  "
+"These are cheaper and will last longer than new but lower-quality laptops."
+msgstr ""
+"Erwägen Sie den Kauf eines generalüberholten Notebooks aus einer "
+"hochwertigen (professionellen) Serie.  Diese sind billiger und halten länger "
+"als neue, aber minderwertige Laptops."
+
+#. type: Bullet: '  * '
+msgid ""
+"For example, the Lenovo ThinkPad series work well with Tails, including the "
+"X250, X1 Carbon, T440, T480, and T490 models."
+msgstr ""
+"Die Lenovo ThinkPad-Serien funktionieren beispielsweise gut mit Tails, "
+"darunter die Modelle X250, X1 Carbon, T440, T480 und T490."
+
+#. type: Bullet: '  * '
+msgid ""
+"If you live in a part of the world where buying refurbished laptops is "
+"uncommon, look on eBay and Amazon. Amazon offers a 90-day [Amazon Renewed "
+"Guarantee](https://www.amazon.com/gp/help/customer/display.html?"
+"nodeId=G4ZAA22U35N373NX)."
+msgstr ""
+"Wenn Sie in einem Teil der Welt leben, in dem der Kauf von generalüberholten "
+"Laptops unüblich ist, sollten Sie sich bei eBay und Amazon umsehen. Amazon "
+"bietet eine 90-tägige [Amazon Renewed Guarantee] (https://www.amazon.com/gp/"
+"help/customer/display.html?nodeId=G4ZAA22U35N373NX)."
+
+#. type: Bullet: '- '
+msgid ""
+"Consider buying a new laptop from vendors who guarantee the compatibility "
+"with Linux and Tails like [ThinkPenguin](https://www.thinkpenguin.com/)."
+msgstr ""
+"Erwägen Sie den Kauf eines neuen Laptops von Anbietern, die die "
+"Kompatibilität mit Linux und Tails garantieren, wie [ThinkPenguin] (https://"
+"www.thinkpenguin.com/)."
+
+#. type: Title ###
+#, no-wrap
+msgid "For Mac"
+msgstr "Für Mac"
+
+#. type: Plain text
+msgid ""
+"Unfortunately, we don't know of any Mac model that works well in Tails and "
+"can run the latest macOS version."
+msgstr ""
+"Leider ist uns kein Mac-Modell bekannt, das in Tails gut funktioniert und "
+"die neueste macOS-Version ausführen kann."
+
+#. type: Plain text
+#, no-wrap
+msgid "<!--\n"
+msgstr "<!--\n"
+
+#. type: Plain text
+msgid "To update the list of Mac computer:"
+msgstr "To update the list of Mac computer:"
+
+#. type: Bullet: '1. '
+msgid ""
+"Store an archive of WhisperBack reports from the last 6 months in a folder."
+msgstr ""
+"Store an archive of WhisperBack reports from the last 6 months in a folder."
+
+#. type: Bullet: '2. '
+msgid "Decrypt all the reports:"
+msgstr "Decrypt all the reports:"
+
+#. type: Plain text
+#, no-wrap
+msgid "   ~/Tails/blueprints/stats/whisperback_scripts/decrypt.rb\n"
+msgstr "   ~/Tails/blueprints/stats/whisperback_scripts/decrypt.rb\n"
+
+#. type: Bullet: '3. '
+msgid "Extract the list of computer models:"
+msgstr "Extract the list of computer models:"
+
+#. type: Plain text
+#, no-wrap
+msgid "   ~/Tails/blueprints/stats/whisperback_scripts/content_of.rb \"/usr/sbin/dmidecode -s system-product-name\" > machines\n"
+msgstr "   ~/Tails/blueprints/stats/whisperback_scripts/content_of.rb \"/usr/sbin/dmidecode -s system-product-name\" > machines\n"
+
+#. type: Bullet: '4. '
+msgid "Sort and count identical models:"
+msgstr "Sort and count identical models:"
+
+#. type: Plain text
+#, no-wrap
+msgid "   grep -v Bug_report machines | sort | uniq -c | sort -rhk 1 > top\n"
+msgstr "   grep -v Bug_report machines | sort | uniq -c | sort -rhk 1 > top\n"
+
+#. type: Bullet: '5. '
+msgid ""
+"Share WhisperBack reports number with the Tails team and ask them to "
+"evaluate hardware compatibility hints in those reports."
+msgstr ""
+"Share WhisperBack reports number with the Tails team and ask them to "
+"evaluate hardware compatibility hints in those reports."
+
+#. type: Plain text
+#, no-wrap
+msgid "   While analyzing the reports corresponding from each model, FT should:\n"
+msgstr ""
+"   While analyzing the reports corresponding from each model, FT should:\n"
+
+#. type: Bullet: '   - '
+msgid "Check whether they were sent from the same email address, if any"
+msgstr "Check whether they were sent from the same email address, if any"
+
+#. type: Bullet: '   - '
+msgid "Check whether the wlan0 interface was the same hardware device"
+msgstr "Check whether the wlan0 interface was the same hardware device"
+
+#. type: Bullet: '   - '
+msgid "Check whether the report was about hardware compatibility issues"
+msgstr "Check whether the report was about hardware compatibility issues"
+
+#. type: Bullet: '6. '
+msgid ""
+"Check whether these Mac models still support the latest version of macOS."
+msgstr ""
+"Check whether these Mac models still support the latest version of macOS."
+
+#. type: Plain text
+msgid "To update the list of PC computers:"
+msgstr "To update the list of PC computers:"
+
+#. type: Plain text
+msgid "- Check what's commonly available with refurbishing companies."
+msgstr "- Check what's commonly available with refurbishing companies."
+
+#. type: Plain text
+msgid "- Ask assembly@ for models."
+msgstr "- Ask assembly@ for models."
+
+#. type: Plain text
+#, no-wrap
+msgid "-->\n"
+msgstr "-->\n"
+
+#, fuzzy
+#~| msgid "Tails works on some older Mac computers with an Intel processor."
+#~ msgid "- Tails works on some older Mac computers with an Intel processor."
+#~ msgstr ""
+#~ "Tails läuft auf den meisten Macs mit Intel-Chips die nicht älter als 10 "
+#~ "Jahre sind."
+
+#~ msgid ""
+#~ "\"Gaming\" graphics cards like Nvidia or AMD Radeon, which are often "
+#~ "incompatible."
+#~ msgstr ""
+#~ "\"Gaming\"-Grafikkarten wie Nvidia oder AMD Radeon, die oft nicht "
+#~ "kompatibel sind."
+
+#~ msgid ""
+#~ "<span class=\"definition\">[[!wikipedia IBM_PC_compatible]]</span> but "
+#~ "not <span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span "
+#~ "class=\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>."
+#~ msgstr ""
+#~ "<span class=\"definition\">[[!wikipedia_de IBM-PC-kompatibler_Computer]]</"
+#~ "span> aber weder <span class=\"definition\">[[!wikipedia_de PowerPC]]</"
+#~ "span> noch <span class=\"definition\">[[!wikipedia_de Arm-Architektur "
+#~ "desc=\"ARM\"]]</span>."
+
+#~ msgid ""
+#~ "Tails does not work on newer Mac computers with an [[!wikipedia "
+#~ "Apple_silicon#M_series desc=\"Apple processor\"]] (M1 or M2)."
+#~ msgstr ""
+#~ "Tails funktioniert nicht auf neueren Mac-Computern mit einem ARM <a "
+#~ "href=\"https://de.wikipedia.org/wiki/Apple_Silicon#M-Serie\" "
+#~ "title=\"Apple-Prozessor\">Apple-Prozessor</a> (M1, M2 oder M3)."
+
+#~ msgid "Tails does not work on phone or tablets."
+#~ msgstr "Tails läuft nicht auf Handys oder Tablets."
+
+#, no-wrap
+#~ msgid "<div class=\"note\">\n"
+#~ msgstr "<div class=\"note\">\n"
+
+#, fuzzy, no-wrap
+#~| msgid "Tails requires a 64-bit <span class=\"definition\">[[!wikipedia x86-64]]</span> compatible processor: **<span class=\"definition\">[[!wikipedia IBM_PC_compatible]]</span>** and others but not <span class=\"definition\">[[!wikipedia PowerPC]]</span> nor <span class=\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>. Mac computers are IBM PC compatible since 2006. Tails does **not** run on most tablets and phones."
+#~ msgid ""
+#~ "- A 64-bit <span class=\"definition\">[[!wikipedia x86-64]]</span>\n"
+#~ "  compatible processor:\n"
+#~ "  - <span class=\"definition\">[[!wikipedia IBM_PC_compatible]]</span> but not\n"
+#~ "    <span class=\"definition\">[[!wikipedia PowerPC]]</span> nor\n"
+#~ "    <span class=\"definition\">[[!wikipedia ARM_architecture desc=\"ARM\"]]</span>.\n"
+#~ "  - Most Mac computers are IBM PC compatible since 2006.\n"
+#~ "  - Tails does not work with Mac models that use the [[!wikipedia Apple M1]] chip.\n"
+#~ "  - Tails does not work on 32-bit computers since [[Tails 3.0|news/Tails_3.0_will_require_a_64-bit_processor]] (June 2017).\n"
+#~ "  - Tails does not work on most tablets and phones.\n"
+#~ msgstr "Tails benötigt einen Prozessor, der auf der <span class=\"definition\">[[!wikipedia_de AMD64 desc=\"x86-64-Architektur\"]]</span> basiert. Deshalb läuft es auf den meisten gängigen **<span class=\"definition\">[[!wikipedia_de IBM-PC-kompatibler_Computer desc=\"IBM-PC-kompatiblen Computern\"]]</span>** sowie anderen, aber nicht auf <span class=\"definition\">[[!wikipedia_de PowerPC]]</span>- oder <span class=\"definition\">[[!wikipedia_de ARM-Architektur desc=\"ARM\"]]</span>-Rechnern. MAC-Computer sind seit 2006 IBM-PC-kombatibel. Tails funktioniert **nicht** auf den meisten Tablets und Handys."
+
+#~ msgid ""
+#~ "Tails works on most reasonably recent computers, say manufactured after "
+#~ "2008.  Here is a detailed list of requirements:"
+#~ msgstr ""
+#~ "Tails läuft auf den meisten halbwegs aktuellen Computern (d.h. solche, "
+#~ "die nach 2008 hergestellt wurden). Folgende Voraussetzungen muss der "
+#~ "Rechner jedoch erfüllen:"
+
+#~ msgid ""
+#~ "Either **an internal or external DVD reader** or the possibility to "
+#~ "**boot from a USB stick**."
+#~ msgstr ""
+#~ "Ein **internes oder externes DVD-Laufwerk**, oder die Möglichkeit von "
+#~ "einem **USB-Stick zu starten**."

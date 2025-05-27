@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-05-19 18:10+0000\n"
+"PO-Revision-Date: 2025-05-17 10:57+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Security audit of automatic upgrades and recent changes\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 16 May 2025 17:39:24 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 16 May 2025 17:39:24 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/audit]]\n"
+msgstr "[[!tag security/audit]]\n"
+
+#. type: Plain text
+msgid ""
+"Late 2024, [Radically Open Security](https://www.radicallyopensecurity.com/) "
+"conducted another security audit of critical parts of Tails."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To better protect our users, we addressed the security vulnerabilities as "
+"soon as they were discovered and reported to us, without waiting for the "
+"audit to be complete and public."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We can now share with you the [final report](https://gitlab.tails.boum.org/-/"
+"project/2/uploads/8e2864e7271d1a34d4419f1cb70ebd18/tails-ros-penetration-"
+"test-report-2024.pdf)."
+msgstr ""
+
+#. type: Plain text
+msgid "The auditors concluded that:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"> The Tails operating system leaves a strong security impression, addressing\n"
+"> most anonymity-related concerns. We did not find any remote code execution\n"
+"> vulnerabilities, and all identified issues required a compromised\n"
+"> low-privileged `amnesia` user &ndash; the default user in Tails.\n"
+">\n"
+"> Looking back at the [[previous audit|audit_by_ROS]], we can see the Tails\n"
+"> developers have made significant progress, demonstrating expertise and a\n"
+"> serious commitment to security.\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Findings"
+msgstr ""
+
+#. type: Plain text
+msgid "The auditors did not identify any vulnerability in:"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"The creation of the Persistent Storage with LUKS2, introduced in [[Tails "
+"5.14|version_5.14]] (June 2023)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Our security improvements to [[*Thunderbird*|doc/anonymous_internet/"
+"thunderbird]]"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- The random seed feature, introduced in [[Tails 6.4|version_6.4]] (June "
+"2024)"
+msgstr ""
+
+#. type: Plain text
+msgid "The auditors found 4 issues in:"
+msgstr ""
+
+#. type: Plain text
+msgid "- The automatic upgrade mechanism"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Other important changes since [[Tails 5.8|version_5.8]] (November 2023)"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>ID</th><th>Impact</th><th>Description</th><th>Issue</th><th>Status</th><th>Release</th></tr>\n"
+"<tr><td>OTF-001</td><td>High</td><td>Local privilege escalation in <i>Tails Upgrader</i></td><td>[[!tails_ticket 20701]]</td><td>Fixed</td><td>6.11</td></tr>\n"
+"<tr><td>OTF-002</td><td>High</td><td>Arbitrary code execution in Python scripts</td><td>[[!tails_ticket 20702]]</td><td>Fixed</td><td>6.11</td></tr>\n"
+"<tr><td>       </td><td></td><td></td><td>[[!tails_ticket 20744]]</td><td>Fixed</td><td>6.12</td></tr>\n"
+"<tr><td>OTF-003</td><td>Moderate</td><td>Argument injection in privileged GNOME scripts</td><td>[[!tails_ticket 20709]]</td><td>Fixed</td><td>6.11</td></tr>\n"
+"<tr><td>       </td><td></td><td></td><td>[[!tails_ticket 20710]]</td><td>Fixed</td><td>6.11</td></tr>\n"
+"<tr><td>OTF-004</td><td>Low</td><td>Untrusted search path in Tor Browser launcher</td><td>[[!tails_ticket 20733]]</td><td>Fixed</td><td>6.12</td></tr>\n"
+"</table>\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Postmortem"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Our team went further than simply fixing these issues. We conducted a "
+"*postmortem* to understand *how* we introduced these vulnerabilities in our "
+"releases and *what* we could do to avoid similar vulnerabilities in the "
+"future.  This analysis led to technical, policy, and culture changes."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This analysis was useful and we'll definitely consider doing postmortems "
+"again after future audits. It might also be useful for other projects to "
+"understand how we worked on these long-lasting improvements."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Technical improvements"
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid "Postmortem of OTF-001"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   While preparing a major Tails release based on a new version of Debian, for example, Tails 7.0,\n"
+"   we will look for Perl code included in Tails\n"
+"   that modifies `@INC` in a dangerous way. ([[!tails_ticket 19627]])\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   Furthermore, we now\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!tails_gitweb config/chroot_local-hooks/99-zzz_check_mite desc=\"automatically check\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   for potentially vulnerable Mite code and fail the build if we find any.\n"
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid "Postmortem of OTF-002 ([[!tails_ticket 20719]] and [[!tails_mr 1911]])"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   Our CI now ensures that all our custom Python software runs in\n"
+"   isolated mode.\n"
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid "Postmortem of OTF-003 ([[!tails_ticket 20711]] and [[!tails_mr 1979]])"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   Our `sudo` configuration is now generated from a higher-level description,\n"
+"   which has safer defaults and demands explanations when diverging\n"
+"   from them.\n"
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid "Postmortem of OTF-004 ([[!tails_ticket 20817]] and [[!tails_mr 2040]])"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   Our CI now ensures that we don't write software that does unsafe `.desktop`\n"
+"   file lookup.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   We will also periodically audit the configuration of `onion-grater`, our\n"
+"   firewall for the Tor control port. ([[!tails_ticket 20821]])\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Policy and culture improvements"
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid ""
+"During the audit, we noticed that we lacked a policy about when we should "
+"make confidential security issues public."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   This was problematic because:\n"
+msgstr ""
+
+#. type: Bullet: '   - '
+msgid "We have sometimes been too secretive."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     As a temporary measure, this protected our users by erring on the safe\n"
+"     side.  But, without a disclosure process, we were not meeting our own\n"
+"     standards for transparency and openness to third-party reviews.\n"
+msgstr ""
+
+#. type: Bullet: '   - '
+msgid ""
+"Different team members were working with different assumptions, which caused "
+"communication issues."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   To have better guidelines for confidentiality and disclosure, we created our [[security issue response\n"
+"   policy|contribute/security_policy]], based on the policy of the Tor\n"
+"   Project's Network Team.\n"
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid ""
+"We will be more intentional about when it's worth the effort and risk to do "
+"large code refactoring."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   While refactoring is necessary for a healthy software\n"
+"   development process, this postmortem showed that large refactoring can\n"
+"   also introduce security vulnerabilities.\n"
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid ""
+"When changing security-sensitive code, such as our `sudo` configuration or "
+"any code that elevates privileges, we now require an extra review focused on "
+"security."
+msgstr ""
+
+#. type: Bullet: ' - '
+msgid ""
+"We will communicate about security issues more broadly within our team when "
+"we discover them so that every team member can learn along the way."
+msgstr ""

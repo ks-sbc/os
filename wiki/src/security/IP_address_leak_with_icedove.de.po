@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2018-09-18 06:11+0200\n"
+"PO-Revision-Date: 2024-11-27 10:18+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Mon, 07 Dec 2009 11:20:24 +0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 07 Dec 2009 11:20:24 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Icedove (Thunderbird) leaks the real IP address\"]]\n"
+msgstr "[[!meta title=\"Icedove (Thunderbird) verrät die echte IP-Adresse\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Plain text
+msgid ""
+"The Torbutton extension installed in amnesia being incompatible with Icedove "
+"(Thunderbird), the real IP address of the computer is disclosed to the SMTP "
+"relay that is used to send email."
+msgstr ""
+"Da die in Amnesia installierte Torbutton-Erweiterung nicht mit Icedove "
+"(Thunderbird) kompatibel ist, wird dem SMTP-Relay, das für den E-Mail-"
+"Versand verwendet wird, die echte IP-Adresse des Computers mitgeteilt."
+
+#. type: Title #
+#, no-wrap
+msgid "Impact"
+msgstr "Auswirkungen"
+
+#. type: Plain text
+msgid ""
+"When using Icedove to send email, the computer's real IP address is "
+"disclosed to the SMTP relay, that usually writes it down to a `Received:` "
+"header inside outgoing email. This private information is therefore "
+"disclosed to:"
+msgstr ""
+"Wenn Sie Icedove zum Versenden von E-Mails verwenden, wird die tatsächliche "
+"IP-Adresse des Computers an das SMTP-Relay weitergegeben, das sie in der "
+"Regel in die Kopfzeile \"Received:\" der ausgehenden E-Mail einträgt. Diese "
+"privaten Informationen werden daher offengelegt:"
+
+#. type: Bullet: '* '
+msgid "the SMTP relay's administrators;"
+msgstr "die Administratoren des SMTP-Relais;"
+
+#. type: Bullet: '* '
+msgid ""
+"anyone who is able to read such a sent email, including: anyone the email is "
+"sent to, various network and email servers administrators."
+msgstr ""
+"jeder, der eine solche gesendete E-Mail lesen kann, einschließlich: jeder, "
+"an den die E-Mail gesendet wird, sowie verschiedene Netzwerk- und E-Mail-"
+"Server-Administratoren."
+
+#. type: Plain text
+msgid ""
+"When using a NAT-ed Internet connection, the disclosed IP is a local network "
+"one (e.g. 192.168.1.42), which usually does not reveal too much. On the "
+"other hand, when connecting directly to the Internet, e.g. using a PPP or "
+"DSL modem and no router, the disclosed IP truly reveals the location of the "
+"amnesia user."
+msgstr ""
+"Bei der Verwendung einer NAT-ed Internetverbindung ist die offengelegte IP "
+"eine lokale Netzwerk-IP (z. B. 192.168.1.42), die in der Regel nicht zu viel "
+"verrät. Wenn man hingegen direkt mit dem Internet verbunden ist, z. B. über "
+"ein PPP- oder DSL-Modem ohne Router, zeigt die offengelegte IP tatsächlich "
+"den Standort des Amnesie-Nutzers an."
+
+#. type: Title #
+#, no-wrap
+msgid "Solution"
+msgstr "Lösung"
+
+#. type: Plain text
+msgid ""
+"Upgrade to [[amnesia 0.4.1|news/version_0.4.1]], that ships with Claws Mail "
+"instead of Icedove, **and** set the following preferences in `~/.claws-mail/"
+"accountrc` for every account:"
+msgstr ""
+"Upgrade auf [[amnesia 0.4.1|news/version_0.4.1]], das Claws Mail anstelle "
+"von Icedove enthält, **und** setzen Sie die folgenden Einstellungen in "
+"`~/.claws-mail/accountrc` für jedes Konto:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        set_domain=1\n"
+"        domain=localhost\n"
+msgstr ""
+"        set_domain=1\n"
+"        domain=localhost\n"
+
+#. type: Plain text
+msgid "See [[!tails_ticket 6119]] for details."
+msgstr "Siehe [[!tails_ticket 6119]] für Details."
+
+#. type: Title #
+#, no-wrap
+msgid "Mitigation"
+msgstr "Milderung"
+
+#. type: Plain text
+msgid ""
+"Best is to avoid using Icedove (Thunderbird) in amnesia until fixed images "
+"are released. If not possible:"
+msgstr ""
+"Am besten ist es, Icedove (Thunderbird) im Amnesiemodus zu vermeiden, bis "
+"die fehlerfreien Images veröffentlicht werden. Wenn dies nicht möglich ist:"
+
+#. type: Bullet: '* '
+msgid ""
+"Use amnesia behind a NAT-ed Internet connection, inside a LAN that uses "
+"widespread IP addresses."
+msgstr ""
+"Verwenden Sie Amnesia hinter einer NAT-geschützten Internetverbindung, "
+"innerhalb eines LANs, das weit verbreitete IP-Adressen nutzt."
+
+#. type: Bullet: '* '
+msgid ""
+"Use a trustworthy, privacy-friendly SMTP relay that does not write down the "
+"client's IP address anywhere, especially in email headers."
+msgstr ""
+"Verwenden Sie ein vertrauenswürdiges, datenschutzfreundliches SMTP-Relay, "
+"das die IP-Adresse des Kunden nirgends angibt, insbesondere nicht in den E"
+"-Mail-Kopfzeilen."
+
+#. type: Plain text
+msgid ""
+"Note that using GnuPG does not fix this problem at all: GnuPG only encrypts "
+"the email body, the email headers being always kept in clear."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Affected versions"
+msgstr "Betroffene Versionen"
+
+#. type: Plain text
+msgid ""
+"Any amnesia release until, and including, 0.3.  amnesia 0.4 is not affected."
+msgstr ""
+"Jede Amnesia-Version bis einschließlich 0.3. Amnesia 0.4 ist nicht betroffen."

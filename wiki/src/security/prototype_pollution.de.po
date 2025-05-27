@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2022-06-04 08:39+0200\n"
+"PO-Revision-Date: 2024-10-21 15:09+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Mon, 24 May 2022 12:34:56 -0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 24 May 2022 12:34:56 -0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Serious security vulnerability in Tails 5.0\"]]\n"
+msgstr "[[!meta title=\"Schwerwiegende Sicherheitslücke in Tails 5.0\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Tor Browser* in Tails 5.0 and earlier is unsafe to use for sensitive\n"
+"information.\n"
+msgstr ""
+"Der *Tor Browser* in Tails 5.0 und früher ist unsicher für sensible\n"
+"Informationen.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"**We recommend that you stop using Tails until the release of 5.1 (early June) if\n"
+"you use *Tor Browser* for sensitive information (passwords, private messages,\n"
+"personal information, etc.).**\n"
+msgstr ""
+"**Wir empfehlen, die Verwendung von Tails bis zur Veröffentlichung von "
+"Version 5.1 (Anfang Juni) \n"
+"einzustellen, wenn Sie den *Tor Browser* für sensible Informationen ("
+"Passwörter, private Nachrichten, \n"
+"persönliche Daten usw.) nutzen.**\n"
+
+#. type: Plain text
+msgid ""
+"A security vulnerability was discovered in the JavaScript engine of "
+"*Firefox* and *Tor Browser*. See the [Mozilla Foundation Security Advisory "
+"2022-19](https://www.mozilla.org/en-US/security/advisories/mfsa2022-19/)"
+msgstr ""
+"Eine Sicherheitslücke wurde in der JavaScript-Engine von *Firefox* und *Tor "
+"Browser* entdeckt. Siehe das [Mozilla Foundation Security Advisory "
+"2022-19](https://www.mozilla.org/en-US/security/advisories/mfsa2022-19/)"
+
+#. type: Plain text
+msgid ""
+"This vulnerability allows a malicious website to bypass some of the security "
+"built in *Tor Browser* and access information from other websites."
+msgstr ""
+"Diese Sicherheitslücke ermöglicht es einer bösartigen Website, einige der im "
+"*Tor Browser* integrierten Sicherheitsmaßnahmen zu umgehen und auf "
+"Informationen von anderen Websites zuzugreifen."
+
+#. type: Plain text
+msgid ""
+"For example, after you visit a malicious website, an attacker controlling "
+"this website might access the password or other sensitive information that "
+"you send to other websites afterwards during the same Tails session."
+msgstr ""
+"Beispielsweise könnte ein Angreifer, der eine bösartige Website "
+"kontrolliert, nach dem Besuch dieser Website auf das Passwort oder andere "
+"sensible Informationen zugreifen, die Sie während derselben Tails-Sitzung an "
+"andere Websites senden."
+
+#. type: Plain text
+msgid ""
+"This vulnerability doesn't break the anonymity and encryption of Tor "
+"connections."
+msgstr ""
+"Diese Sicherheitsanfälligkeit beeinträchtigt nicht die Anonymität und "
+"Verschlüsselung von Tor-Verbindungen."
+
+#. type: Plain text
+msgid ""
+"For example, it is still safe and anonymous to access websites from Tails if "
+"you don't share sensitive information with them."
+msgstr ""
+"Zum Beispiel ist es weiterhin sicher und anonym, von Tails aus auf Websites "
+"zuzugreifen, wenn Sie keine sensiblen Informationen mit ihnen teilen."
+
+#. type: Plain text
+msgid ""
+"After *Tor Browser* has been compromised, the only reliable solution is to "
+"restart Tails."
+msgstr ""
+"Nachdem *Tor Browser* kompromittiert wurde, besteht die einzige zuverlässige "
+"Lösung darin, Tails neu zu starten."
+
+#. type: Plain text
+msgid ""
+"Other applications in Tails are not vulnerable. *Thunderbird* in Tails is "
+"not vulnerable because JavaScript is disabled."
+msgstr ""
+"Andere Anwendungen in Tails sind nicht anfällig. *Thunderbird* in Tails ist "
+"nicht anfällig, weil JavaScript deaktiviert ist."
+
+#. type: Plain text
+msgid ""
+"The *Safest* [[security level of *Tor Browser*|doc/anonymous_internet/"
+"Tor_Browser#security-level]] is not affected because JavaScript is disabled "
+"at this security level."
+msgstr ""
+"Das *sicherste* [[Sicherheitsniveau des *Tor Browsers*|doc/"
+"anonymous_internet/Tor_Browser#security-level]] ist nicht betroffen, da "
+"JavaScript auf diesem Sicherheitsniveau deaktiviert ist."
+
+#. type: Plain text
+msgid ""
+"This vulnerability will be fixed in Tails 5.1 (early June), but our team "
+"doesn't have the capacity to publish an emergency release earlier."
+msgstr ""
+"Diese Sicherheitsanfälligkeit wird in Tails 5.1 (Anfang Juni) behoben, aber "
+"unser Team hat nicht die Kapazität, eine Notfallversion früher zu "
+"veröffentlichen."

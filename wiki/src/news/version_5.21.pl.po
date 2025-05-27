@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-12-22 09:53+0100\n"
+"PO-Revision-Date: 2024-04-29 12:53+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 5.21\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 22 Dec 2023 12:00:00 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Help troubleshoot when resizing the system partition fails the first time "
+"Tails is started."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img resizing.png link=\"no\" alt=\"Error message: Resizing System Partition Failed - It will be impossible to create a Persistent Storage or apply automatic upgrades.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "- Translate the date displayed in the top navigation bar."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img clock.png link=\"no\" alt=\"Clock showing date in Spanish\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [13.0.7](https://blog.torproject.org/new-release-"
+"tor-browser-1307)."
+msgstr ""
+
+#. type: Plain text
+msgid "- Update the *Tor* client to 0.4.8.10."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Fix *Tor Browser* crashing when clicking on the *UBlock* icon. ([[!"
+"tails_ticket 20061]])"
+msgstr ""
+
+#. type: Plain text
+msgid "- Make time synchronization more reliable. ([[!tails_ticket 19923]])"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- [[!tails_gitlab @BenWestgate]] fixed several issues in the backup feature "
+"of *Tails Cloner*:"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid ""
+"Remove message about doing a backup when no USB stick is plugged in. ([[!"
+"tails_ticket 20063]])"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid ""
+"Update available options when plugging in another USB stick. ([[!"
+"tails_ticket 20042]])"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid ""
+"Point to backup instructions when choosing to clone the Persistent Storage.  "
+"([[!tails_mr 1305]])"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.21</h1>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.21."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr ""
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "[[Install from Windows|install/windows]]"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "[[Install from macOS|install/mac]]"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "[[Install from Linux|install/linux]]"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid ""
+"[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.21 directly:"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr ""

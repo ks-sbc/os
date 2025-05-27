@@ -1,0 +1,305 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-08 03:39+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Wed, 15 Nov 2017 10:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Wed, 15 Nov 2017 10:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Have your cake and eat it, too!\"]]\n"
+msgstr "[[!meta title=\"Tingueu el vostre pastís i mengeu-lo també!\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Reproducible Tails builds"
+msgstr "Compilacions reproductibles de Tails"
+
+#. type: Plain text
+msgid ""
+"We have received the Mozilla Open Source Support award in order to make "
+"Tails ISO images build reproducibly. This project was on our roadmap for "
+"2017 and with the release of Tails 3.3 we are proud to present one of the "
+"world's first reproducible ISO images of a Linux operating system."
+msgstr ""
+"Hem rebut el premi Mozilla Open Source Support per tal que les imatges ISO "
+"de Tails es creïn de manera reproductible. Aquest projecte estava al nostre "
+"full de ruta per al 2017 i amb el llançament de Tails 3.3 estem orgullosos "
+"de presentar una de les primeres imatges ISO reproduïbles del món d'un "
+"sistema operatiu Linux."
+
+#. type: Title =
+#, no-wrap
+msgid "From source code to binary code"
+msgstr "Del codi font al codi binari"
+
+#. type: Plain text
+msgid ""
+"When we write software, we do this using programming languages which a human "
+"can read and understand. This is called the _source code_. One can imagine "
+"source code much like a very precise recipe. Such a recipe describes an "
+"exact procedure: which ingredients and which amount of ingredients do you "
+"need? How should they be mixed together at which temperature should they be "
+"cooked or baked? The recipe will even describe the expected outcome: how the "
+"meal should look and taste like."
+msgstr ""
+"Quan escrivim programari, ho fem utilitzant llenguatges de programació que "
+"un humà pot llegir i entendre. Això s'anomena _codi font_. Un pot imaginar "
+"el codi font molt semblant a una recepta molt precisa. Aquesta recepta "
+"descriu un procediment exacte: quins ingredients i quina quantitat "
+"d'ingredients necessiteu? Com s'han de barrejar a quina temperatura s'han de "
+"cuinar o coure? La recepta fins i tot descriurà el resultat esperat: com "
+"hauria de ser l'aspecte i el gust del menjar."
+
+#. type: Plain text
+msgid ""
+"When we generate a Tails ISO image, our source code and the Debian packages "
+"we include are assembled into a binary ISO image, much like when the "
+"ingredients of the recipe are mixed together, one obtains the meal. The "
+"amounts and ingredients of this meal cannot be easily reverse engineered. "
+"The result of *our* cooking process is a Tails ISO image which users "
+"download and install onto a USB stick."
+msgstr ""
+"Quan generem una imatge ISO de Tails, el nostre codi font i els paquets de "
+"Debian que incloem s'agrupen en una imatge ISO binària, de la mateixa manera "
+"que quan es barregen els ingredients de la recepta, s'obté el menjar. Les "
+"quantitats i ingredients d'aquest àpat no es poden modificar fàcilment amb "
+"enginyeria inversa. El resultat del *nostre* procés de cuina és una imatge "
+"ISO de Tails que els usuaris baixen i instal·len en un llapis USB."
+
+#. type: Plain text
+msgid ""
+"We, chefs and aides in the kitchen (Tails developers and contributors), "
+"provide you, our users, with several means to verify that this ISO image is "
+"indeed the one we want you to download, either using our Firefox add-on "
+"which does this verification automatically for you or by using our OpenPGP "
+"signature. Both of these verification methods simply tell you that the ISO "
+"image is the image which we want you to download: That the meal you get is "
+"indeed the meal that you've ordered, and not a meal which has been poisoned "
+"or exchanged by an evil waiter (such as a download mirror)."
+msgstr ""
+"Nosaltres, cuiners i ajudants de la cuina (desenvolupadors i col·laboradors "
+"de Tails), us proporcionem, als nostres usuaris, diversos mitjans per "
+"verificar que aquesta imatge ISO és realment la que volem que baixeu, ja "
+"sigui utilitzant el nostre complement de Firefox que fa aquesta verificació "
+"automàtica o mitjançant la nostra signatura OpenPGP. Ambdós mètodes de "
+"verificació simplement us diuen que la imatge ISO és la imatge que volem que "
+"baixeu: que el menjar que rebeu és realment el menjar que heu demanat i no "
+"un menjar que hagi estat enverinat o intercanviat per un mal cambrer (com "
+"ara un mirall de baixada)."
+
+#. type: Plain text
+msgid ""
+"However, even with such sophisticated verification methods, it is still "
+"impossible to trace back the meal to the recipe: Does the meal contain only "
+"the ingredients it is supposed to contain? Or could unauthorized personnel "
+"have broken into the kitchen at night, and then poisoned the ingredients and "
+"made the oven cook at 50 degrees higher than displayed? In other words, "
+"could a malicious entity have compromised our build machines? That's what "
+"reproducible builds help verify and protect against."
+msgstr ""
+"Tanmateix, fins i tot amb mètodes de verificació tan sofisticats, encara és "
+"impossible remuntar l'àpat a la recepta: el menjar conté només els "
+"ingredients que se suposa que ha de contenir? O el personal no autoritzat "
+"podria haver entrat a la cuina a la nit i després enverinar els ingredients "
+"i fer coure el forn a 50 graus més alt del que es mostra? En altres "
+"paraules, una entitat maliciosa podria haver compromès les nostres màquines "
+"de construcció? Això és el que ajuden a verificar i protegir les "
+"compilacions reproduïbles."
+
+#. type: Title =
+#, no-wrap
+msgid "What's a reproducible build?"
+msgstr "Què és una compilació reproduïble?"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"> Reproducible builds are a set of software development practices that create\n"
+"> a verifiable path from human readable source code to the binary code used\n"
+"> by computers. *(quoted from https://reproducible-builds.org/)*\n"
+msgstr ""
+"> Les compilacions reproduïbles són un conjunt de pràctiques de desenvolupament de programari que creen\n"
+"> una ruta verificable des del codi font llegible per un humà fins al codi binari utilitzat\n"
+"> pels ordinadors. *(citat de https://reproducible-builds.org/)*\n"
+
+#. type: Plain text
+msgid ""
+"In other words, with reproducible builds, each cooking process of the same "
+"recipe is exactly repeatable."
+msgstr ""
+"En altres paraules, amb compilacions reproduïbles, cada procés de cocció de "
+"la mateixa recepta és exactament repetible."
+
+#. type: Plain text
+msgid ""
+"At Tails, we have worked during a year to implement such a set of practices. "
+"This makes it now possible to compare ISO images built by multiple parties "
+"from the same source code and Debian packages, and to ensure that they all "
+"result in exactly the same ISO image."
+msgstr ""
+"A Tails hem treballat durant un any per implementar aquest conjunt de "
+"pràctiques. Això fa que ara sigui possible comparar imatges ISO creades per "
+"diverses persones des del mateix codi font i paquets de Debian, i assegurar-"
+"se que de totes en resulti exactament la mateixa imatge ISO."
+
+#. type: Plain text
+msgid ""
+"Or again, using our cooking metaphor: Several of us will cook the meal, "
+"compare that we all cooked the same meal and only once we're sure about "
+"that, we will deliver it to you."
+msgstr ""
+"O, de nou, utilitzant la nostra metàfora de la cuina: molts de nosaltres "
+"cuinarem el menjar, compararem que tots haguem cuinat el mateix menjar i "
+"només un cop estiguem segurs, us el lliurarem."
+
+#. type: Plain text
+msgid ""
+"We all can thus gain confidence that no broken oven has introduced malicious "
+"code or failures: or we would notice it before delivering the meal."
+msgstr ""
+"D'aquesta manera, tots podem confiar en que cap forn trencat ha introduït "
+"codi maliciós o errors: o ho notaríem abans de lliurar el menjar."
+
+#. type: Title =
+#, no-wrap
+msgid "What does this mean for you as a user?"
+msgstr "Què significa això per als usuaris?"
+
+#. type: Plain text
+msgid ""
+"This does not change anything in the way you download and install Tails, and "
+"you don't have to make additional verifications. It simply helps trust that "
+"the Tails ISO image that we distribute is indeed coming from the source code "
+"and Debian packages it is meant to be made of.  With reproducible Tails, it "
+"only takes one knowledgeable person to build Tails and compare with the ISO "
+"image the Tails project distributes to uncover some kinds of backdoors."
+msgstr ""
+"Això no canvia res en la manera de baixar i instal·lar Tails, i no cal que "
+"feu verificacions addicionals. Simplement ajuda a confiar que la imatge ISO "
+"de Tails que distribuïm prové de fet del codi font i dels paquets de Debian "
+"dels quals està pensat. Amb Tails reproduïbles, només cal una persona "
+"experta per construir Tails i comparar-la amb la imatge ISO que distribueix "
+"el projecte Tails per descobrir alguns tipus de portes del darrere."
+
+#. type: Plain text
+msgid ""
+"And by the way, not only our ISO images are now reproducible, but so are our "
+"incremental upgrades. And you are benefiting from this improvement without "
+"even noticing :)"
+msgstr ""
+"I, per cert, ara no només les nostres imatges ISO són reproduïbles, sinó "
+"també les nostres actualitzacions incrementals. I us beneficieu d'aquesta "
+"millora sense ni adonar-vos-en :)"
+
+#. type: Title =
+#, no-wrap
+msgid "Thank you"
+msgstr "Gràcies"
+
+#. type: Plain text
+msgid ""
+"Besides Mozilla's Open Source Support and the Reproducible Builds community "
+"that provided critical help where we strongly needed it, we'd also like to "
+"thank all members of our community who helped us test this process. You "
+"giving us a hand is much appreciated!"
+msgstr ""
+"A més del suport de Mozilla Open Source Support i la comunitat Reproducible "
+"Builds que ens va proporcionar ajuda crítica on la necessitàvem molt, també "
+"ens agradaria donar les gràcies a tots els membres de la nostra comunitat "
+"que ens van ajudar a provar aquest procés. El vostre cop de mà és molt "
+"agraït!"
+
+#. type: Title =
+#, no-wrap
+msgid "Technical implementation"
+msgstr "Implementació tècnica"
+
+#. type: Plain text
+msgid ""
+"If you are interested in the technical details of our implementation, we "
+"invite you to read our [report to the Reproducible Builds community](https://"
+"lists.reproducible-builds.org/pipermail/rb-general/2017-October/000656."
+"html)  about how we did it."
+msgstr ""
+"Si esteu interessats en els detalls tècnics de la nostra implementació, us "
+"convidem a llegir el nostre [informe a la comunitat Reproducible "
+"Builds](https://lists.reproducible-builds.org/pipermail/rb-general/"
+"2017-October/000656.html) sobre com ho hem fet."
+
+#. type: Plain text
+msgid ""
+"We've also published technical [[instructions to verify|/contribute/build/"
+"reproducible/#verify-iso]] one's own [[build|/contribute/build/]]."
+msgstr ""
+"També hem publicat [[instruccions tècniques per verificar|/contribute/build/"
+"reproducible/#verify-iso]] la pròpia [[compilació|/contribute/build/]]."
+
+#. type: Title =
+#, no-wrap
+msgid "Help us make Tails even better"
+msgstr "Ajudeu-nos a fer que Tails sigui encara millor"
+
+#. type: Plain text
+msgid ""
+"Tails is a self organized free software project. We depend on partnerships, "
+"grants and most importantly on donations by individuals like you."
+msgstr ""
+"Tails és un projecte de programari lliure auto-organitzat. Depenem de "
+"col·laboracions, subvencions i, el més important, de les donacions de "
+"persones com tu."
+
+#. type: Plain text
+msgid ""
+"Care to give us a hand to make Tails bake even better cakes in the future? "
+"[[Donate today!|donate]]"
+msgstr ""
+"Voldríeu fer-nos un cop de mà per fer que Tails cuini encara millors "
+"pastissos en un futur? [[Feu una donació avui!|donate]]"
+
+#. type: Title =
+#, no-wrap
+msgid "Known issues"
+msgstr "Problemes coneguts"
+
+#. type: Plain text
+msgid ""
+"Any reproducible build process is reproducible… until proven otherwise. In "
+"our case last-minute issues were discovered and should be fixed in the next "
+"Tails release:"
+msgstr ""
+"Qualsevol procés de compilació reproduïble és reproduïble… fins que es "
+"demostri el contrari. En el nostre cas, es van descobrir problemes d'última "
+"hora i s'haurien de solucionar en la propera versió de Tails:"
+
+#. type: Bullet: ' - '
+msgid "[[!tails_ticket 14933]]"
+msgstr "[[!tails_ticket 14933]]"

@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-11-15 14:41+0100\n"
+"PO-Revision-Date: 2024-05-16 14:56+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta title=\"Tails 5.19.1\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta date=\"Wed, 15 Nov 2023 14:00:00 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"This release is an emergency release to fix an important security "
+"vulnerability in Tor."
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- Update the *Tor* client to 0.4.8.9, which fixes the TROVE-2023-006 "
+"vulnerability."
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"[[!inline pages=\"news/version_5.19.1/TROVE-2023-006.inline\" raw=\"yes\" "
+"sort=\"age\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid "None specific to this release."
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid "See the list of [[long-standing issues|support/known_issues]]."
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.19.1</h1>\n"
+msgstr ""
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.19.1."
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual "
+"upgrade|doc/upgrade/#manual]]."
+msgstr ""
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid "Follow our installation instructions:"
+msgstr ""
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid "[[Install from Windows|install/windows]]"
+msgstr ""
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid "[[Install from macOS|install/mac]]"
+msgstr ""
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid "[[Install from Linux|install/linux]]"
+msgstr ""
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid ""
+"[[Install from Debian or Ubuntu using the command line and "
+"GnuPG|install/expert]]"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be "
+"lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To download only"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.19.1 directly:"
+msgstr ""
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr ""
+
+#. type: Bullet: '  - '
+#, markdown-text
+msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr ""

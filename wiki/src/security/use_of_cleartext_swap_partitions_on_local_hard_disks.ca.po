@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2018-10-01 16:15+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Mon, 22 Nov 2009 11:20:24 +0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 22 Nov 2009 11:20:24 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Use of cleartext swap partitions on local hard disks\"]]\n"
+msgstr ""
+"[[!meta title=\"Ús de particions d'intercanvi de text clar als discs durs "
+"locals\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Plain text
+msgid ""
+"At least until its version 1.157.4-1, `live-initramfs` has a [bug](http://"
+"lists.debian.org/debian-live/2009/09/msg00125.html)  that makes it use any "
+"cleartext swap partition found on local hard disks."
+msgstr ""
+"Almenys fins a la seva versió 1.157.4-1, `live-initramfs` té un "
+"[error](http://lists.debian.org/debian-live/2009/09/msg00125.html) que fa "
+"que utilitzi qualsevol partició de text clar d'intercanvi que es troba als "
+"discs durs locals."
+
+#. type: Title #
+#, no-wrap
+msgid "Impact"
+msgstr "Impacte"
+
+#. type: Plain text
+msgid ""
+"Any kind of information about the user's activities can be stored on the "
+"local hard disks of the computers being used with affected amnesia systems."
+msgstr ""
+"Qualsevol tipus d'informació sobre les activitats de l'usuari es pot "
+"emmagatzemar als discs durs locals dels ordinadors que s'utilitzen amb "
+"sistemes d'amnesia afectats."
+
+#. type: Title #
+#, no-wrap
+msgid "Mitigation of passed effects"
+msgstr "Mitigació dels efectes passats"
+
+#. type: Plain text
+msgid ""
+"It is recommended to securely erase, using a program such as `shred`, any "
+"cleartext Linux swap partition present on computers having been used with "
+"affected amnesia systems."
+msgstr ""
+"Es recomana esborrar de manera segura, utilitzant un programa com `shred`, "
+"qualsevol partició d'intercanvi de Linux de text clar present als ordinadors "
+"que s'hagi utilitzat amb sistemes d'amnesia afectats."
+
+#. type: Title #
+#, no-wrap
+msgid "Solution"
+msgstr "Solució"
+
+#. type: Plain text
+msgid ""
+"We fixed this hole on 20091006 (commit 00c1ff633e8958d0233) by installing a "
+"custom fixed `live-initramfs` package into built images."
+msgstr ""
+"Hem corregit aquest forat al 20091006 (commit 00c1ff633e8958d0233) instal·"
+"lant un paquet personalitzat `live-initramfs` a les imatges integrades."
+
+#. type: Plain text
+msgid ""
+"The relevant patch was then [integrated](http://lists.debian.org/debian-"
+"live/2009/10/msg00124.html)  in upstream's Git."
+msgstr ""
+"El pedaç rellevant es va [integrar](http://lists.debian.org/debian-live/2009/"
+"10/msg00124.html) al Git d'amunt."
+
+#. type: Title #
+#, no-wrap
+msgid "Affected versions"
+msgstr "Versions afectades"
+
+#. type: Plain text
+msgid ""
+"Releases 0.2-20090815 and 0.2-20090816 are affected, as well as any custom "
+"image built from Git before commit 00c1ff633e8958d0233."
+msgstr ""
+"Les versions 0.2-20090815 i 0.2-20090816 es veuen afectades, així com "
+"qualsevol imatge personalitzada creada des de Git abans de la confirmació "
+"00c1ff633e8958d0233."

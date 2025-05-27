@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2018-09-18 06:11+0200\n"
+"PO-Revision-Date: 2024-10-17 13:09+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Mon, 22 Nov 2009 11:20:24 +0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 22 Nov 2009 11:20:24 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Use of cleartext swap partitions on local hard disks\"]]\n"
+msgstr ""
+"[[!meta title=\"Verwendung von unverschlüsselten Swap-Partitionen auf "
+"lokalen Festplatten\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Plain text
+msgid ""
+"At least until its version 1.157.4-1, `live-initramfs` has a [bug](http://"
+"lists.debian.org/debian-live/2009/09/msg00125.html)  that makes it use any "
+"cleartext swap partition found on local hard disks."
+msgstr ""
+"Zumindest bis zur Version 1.157.4-1 hat `live-initramfs` einen "
+"[Bug](http://lists.debian.org/debian-live/2009/09/msg00125.html), der es "
+"dazu bringt, jede Klartext-Swap-Partition zu benutzen, die auf lokalen "
+"Festplatten gefunden wird."
+
+#. type: Title #
+#, no-wrap
+msgid "Impact"
+msgstr "Auswirkungen"
+
+#. type: Plain text
+msgid ""
+"Any kind of information about the user's activities can be stored on the "
+"local hard disks of the computers being used with affected amnesia systems."
+msgstr ""
+"Jede Art von Information über die Aktivitäten des Benutzers kann auf den "
+"lokalen Festplatten der Computer gespeichert werden, die mit den betroffenen "
+"Amnesie-Systemen verwendet werden."
+
+#. type: Title #
+#, no-wrap
+msgid "Mitigation of passed effects"
+msgstr "Minderung der Auswirkungen vergangener Ereignisse"
+
+#. type: Plain text
+msgid ""
+"It is recommended to securely erase, using a program such as `shred`, any "
+"cleartext Linux swap partition present on computers having been used with "
+"affected amnesia systems."
+msgstr ""
+"Es wird empfohlen, jede unverschlüsselte Linux-Swap-Partition, die auf "
+"Computern vorhanden ist, die mit betroffenen Amnesiesystemen verwendet "
+"wurden, sicher zu löschen, indem Sie ein Programm wie `shred` verwenden."
+
+#. type: Title #
+#, no-wrap
+msgid "Solution"
+msgstr "Lösung"
+
+#. type: Plain text
+msgid ""
+"We fixed this hole on 20091006 (commit 00c1ff633e8958d0233) by installing a "
+"custom fixed `live-initramfs` package into built images."
+msgstr ""
+"Wir haben dieses Sicherheitsproblem am 06.10.2009 (Commit "
+"00c1ff633e8958d0233) behoben, indem wir ein benutzerdefiniertes, "
+"korrigiertes `live-initramfs`-Paket in die erstellten Images installiert "
+"haben."
+
+#. type: Plain text
+msgid ""
+"The relevant patch was then [integrated](http://lists.debian.org/debian-"
+"live/2009/10/msg00124.html)  in upstream's Git."
+msgstr ""
+"Der relevante Patch wurde dann in das Git des Upstreams "
+"[integriert](http://lists.debian.org/debian-live/2009/10/msg00124.html)."
+
+#. type: Title #
+#, no-wrap
+msgid "Affected versions"
+msgstr "Betroffene Versionen"
+
+#. type: Plain text
+msgid ""
+"Releases 0.2-20090815 and 0.2-20090816 are affected, as well as any custom "
+"image built from Git before commit 00c1ff633e8958d0233."
+msgstr ""
+"Die Versionen 0.2-20090815 und 0.2-20090816 sind betroffen, ebenso wie jedes "
+"benutzerdefinierte Image, das vor dem Commit 00c1ff633e8958d0233 aus Git "
+"erstellt wurde."

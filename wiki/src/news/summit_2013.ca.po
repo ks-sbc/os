@@ -1,0 +1,305 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-04-05 17:54+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 2013 summit report\"]]\n"
+msgstr "[[!meta title=\"Informe de la cimera de Tails 2013\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 09 Aug 2013 09:12:07 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 09 Aug 2013 09:12:07 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+msgid ""
+"A bunch of people spend a dozen days together in July at the third Tails "
+"developers yearly summit. This was a great opportunity to have crazy hacking "
+"sessions in person, as well as to discuss where we are heading to and how."
+msgstr ""
+"Un munt de persones han passat una dotzena de dies juntes al juliol a la "
+"tercera cimera anual de desenvolupadors de Tails. Aquesta ha sigut una gran "
+"oportunitat per tenir sessions de pirateig boges en persona, així com per "
+"discutir cap a on ens dirigim i com."
+
+#. type: Title #
+#, no-wrap
+msgid "Discussions"
+msgstr "Debats"
+
+#. type: Plain text
+msgid ""
+"We mainly discussed the **growth of the project**: given the growing number "
+"of users and our super-short release cycle, it is a challenge to keep the "
+"project sustainable and maintainable in the mid/long term."
+msgstr ""
+"Vam parlar principalment del **creixement del projecte**: donat el nombre "
+"creixent d'usuaris i el nostre cicle de llançament súper curt, és un repte "
+"mantenir el projecte sostenible i mantenible a mitjà/llarg termini."
+
+#. type: Plain text
+msgid ""
+"Our take on this is first reflected by our **updated roadmap**: we now have "
+"a better vision of what we want to focus on for the next major releases of "
+"Tails: the 1.0, 1.1 and 2.0 milestones are now pretty well defined, and we "
+"even were bold enough to draft goals for 3.0."
+msgstr ""
+"La nostra visió d'això es reflecteix primer en el nostre **full de ruta "
+"actualitzat**: ara tenim una millor visió del que volem centrar-nos per als "
+"propers llançaments importants de Tails: les fites 1.0, 1.1 i 2.0 ara estan "
+"força ben definides, i fins i tot vam ser prou atrevits per redactar "
+"objectius per a la 3.0."
+
+#. type: Plain text
+msgid ""
+"Another key aspect on this topic was that we need to **make it easier to "
+"contribute** to Tails. We have listed many enhancements that could be made "
+"in this direction, especially on the website.  We also have identified areas "
+"that could benefit most from a few new dedicated contributors. We will "
+"publish targeted calls for help in the next few months."
+msgstr ""
+"Un altre aspecte clau sobre aquest tema és que hem de **facilitar la "
+"contribució** a Tails. Hem enumerat moltes millores que es podrien fer en "
+"aquesta direcció, especialment al lloc web. També hem identificat àrees que "
+"podrien beneficiar-se més d'uns quants nous col·laboradors dedicats. "
+"Publicarem crides d'ajuda específiques en els propers mesos."
+
+#. type: Plain text
+msgid ""
+"We also **redesigned our communication channels** to ease involvement of new "
+"contributors, to make more workload sharing possible, and to be able to "
+"provide better user support. In short:"
+msgstr ""
+"També hem **redissenyat els nostres canals de comunicació** per facilitar la "
+"participació de nous col·laboradors, per fer possible compartir més càrrega "
+"de treball i poder oferir un millor suport als usuaris. En resum:"
+
+#. type: Bullet: '  * '
+msgid ""
+"Our mailing lists see quite a lot of traffic these days.  This might deter "
+"people from reading it. So, we will create two specialized mailing lists: a "
+"private, encrypted one will receive bug reports, while a public one will be "
+"dedicated to user support."
+msgstr ""
+"Les nostres llistes de correu veuen molt trànsit aquests dies. Això pot "
+"dissuadir la gent de llegir-les. Així doncs, crearem dues llistes de correu "
+"especialitzades: una privada, encriptada, rebrà informes d'errors, mentre "
+"que una de pública estarà dedicada al suport dels usuaris."
+
+#. type: Bullet: '  * '
+msgid ""
+"A growing FAQ will be assembled: it will be a tool for self-service help, "
+"and should make support work less repetitive."
+msgstr ""
+"Es reunirà una pàgina de preguntes més freqüents creixent: serà una eina "
+"d'ajuda d'autoservei i hauria de fer que el treball d'assistència sigui "
+"menys repetitiu."
+
+#. type: Bullet: '  * '
+msgid ""
+"In a few months, we will evaluate how all this fares and we will reconsider "
+"web support, which is postponed for the moment."
+msgstr ""
+"D'aquí a uns mesos, avaluarem com va tot això i reconsiderarem el suport "
+"web, que de moment està ajornat."
+
+#. type: Plain text
+msgid ""
+"Still, the tails-dev mailing list remains the main communication channel for "
+"development and project-wide discussions."
+msgstr ""
+"Tot i així, la llista de correu tails-dev continua sent el principal canal "
+"de comunicació per al desenvolupament i les discussions a tot el projecte."
+
+#. type: Plain text
+msgid ""
+"This summit gave us the chance to **evaluate and refine processes** that we "
+"have set up a year ago, such as our time-based release schedule and a formal "
+"merge policy."
+msgstr ""
+"Aquesta cimera ens va donar l'oportunitat d'**avaluar i perfeccionar els "
+"processos** que vam establir fa un any, com ara el nostre programa de "
+"llançament basat en el temps i una política formal de fusió."
+
+#. type: Plain text
+msgid ""
+"To end with, the **public development meetings** experiment will be "
+"extended, and we will go on having monthly **Low Hanging Fruits sessions**. "
+"Not only these sessions are very useful to make Tails better, but we were "
+"happy to see new people join these parties recently. We hope to see even "
+"more of that in the future: these sessions are great times to **start "
+"contributing** to Tails!"
+msgstr ""
+"Per acabar, s'allargarà l'experiment de les **reunions públiques de "
+"desenvolupament** i continuarem fent sessions mensuals de **Low Hanging "
+"Fruits**. Aquestes sessions no només són molt útils per millorar Tails, sinó "
+"que ens alegra veure que recentment gent nova s'ha incorporat a aquestes "
+"festes. Esperem veure-ho encara més en el futur: aquestes sessions són bons "
+"moments per **començar a contribuir** a Tails!"
+
+#. type: Title #
+#, no-wrap
+msgid "Hack"
+msgstr "Hack"
+
+#. type: Plain text
+msgid ""
+"Hours of meetings were certainly a necessary part of the summit, but we also "
+"dedicated a fair share of our time to hands-on activities.  Fortunately "
+"there is quite a lot of room for improvements in Tails, so we were never "
+"left unoccupied."
+msgstr ""
+"Certament, les hores de reunions van ser una part necessària de la cimera, "
+"però també vam dedicar una bona part del nostre temps a activitats "
+"pràctiques. Afortunadament, hi ha molt marge de millora a Tails, de manera "
+"que no ens hem quedat desocupats."
+
+#. type: Plain text
+msgid ""
+"The most noticeable technical change that happened during the summit was "
+"perhaps our **move to Redmine** for managing our tasks and plans. We are not "
+"exploiting the full potential of Redmine yet, but it already feels far less "
+"messy than how we did previously. Hopefully this will help others get "
+"involved! Many thanks go to Riseup for hosting the Redmine instance we use.  "
+"Note that we will keep using ikiwiki for blueprints."
+msgstr ""
+"El canvi tècnic més notable que s'ha produït durant la cimera ha sigut "
+"potser el nostre **canvi a Redmine** per gestionar les nostres tasques i "
+"plans. Encara no estem explotant tot el potencial de Redmine, però ja notem "
+"que és molt menys desordenat que el mètode anterior. Esperem que això ajudi "
+"a altres a participar! Moltes gràcies a Riseup per allotjar la instància de "
+"Redmine que fem servir. Tingueu en compte que seguirem utilitzant ikiwiki "
+"per als documents de disseny."
+
+#. type: Plain text
+msgid ""
+"Taking advantage of Redmine, we have started classifying tasks in various "
+"useful ways: e.g. **easy tickets** do not require much knowledge of the "
+"Tails internals to be solved, and are ideal places to get involved. In "
+"passing, other nice custom queries provide lists of tasks involving "
+"sysadmin.  and web development."
+msgstr ""
+"Aprofitant Redmine, hem començat a classificar les tasques de diverses "
+"maneres útils: per exemple, els **easy tickets** no requereixen gaire "
+"coneixement de la part interna de Tails per resoldre's, i són ideals per "
+"començar a col·laborar. De passada, altres consultes personalitzades "
+"agradables proporcionen llistes de tasques que involucren l'administració de "
+"sistemes i el desenvolupament web."
+
+#. type: Plain text
+msgid ""
+"We spent some time listing problems with early builds of **Tails based on "
+"Debian Wheezy**. It is now clearer to us what remains to do: [[!tails_ticket "
+"6015 desc=\"a few dozens tickets\"]] were created. Did we mention that any "
+"kind of help is warmly welcome? :)"
+msgstr ""
+"Vam passar una estona enumerant problemes amb les primeres versions de "
+"**Tails basades en Debian Wheezy**. Ara ens queda més clar què queda per "
+"fer: es van crear [[!tails_ticket 6015 desc=\"unes desenes de tiquets\"]]. "
+"Hem esmentat que qualsevol tipus d'ajuda és benvinguda? :)"
+
+#. type: Plain text
+msgid ""
+"Our **Jenkins instance** also had been taken care of: it is getting closer "
+"to something we can use and rely upon as part of our daily workflow."
+msgstr ""
+"La nostra **instància de Jenkins** també s'ha atès: s'està apropant a alguna "
+"cosa que podem utilitzar i en què podem confiar com a part del nostre flux "
+"de treball diari."
+
+#. type: Plain text
+msgid ""
+"A lot of branches were **merged for the upcoming 0.20 release**, including "
+"the installation of Dasher and a first step towards the replacement of "
+"TrueCrypt."
+msgstr ""
+"Es van **fusionar moltes branques per al proper llançament 0.20**, inclosa "
+"la instal·lació de Dasher i un primer pas cap a la substitució de TrueCrypt."
+
+#. type: Plain text
+msgid ""
+"The **Pidgin and OTR documentation** was rewritten to be clearer and more "
+"precise, as well as our explanation of the way random nicknames are "
+"generated for Pidgin accounts."
+msgstr ""
+"La **documentació de Pidgin i OTR** es va reescriure per ser més clara i "
+"precisa, així com la nostra explicació de com es generen els sobrenoms "
+"aleatoris per als comptes de Pidgin."
+
+#. type: Plain text
+msgid ""
+"More steps have also been done towards **not starting Iceweasel** on startup."
+msgstr "També s'han fet més passos per **no iniciar Iceweasel** a l'arrencada."
+
+#. type: Title #
+#, no-wrap
+msgid "At the end is the beginning"
+msgstr "Al final és el principi"
+
+#. type: Plain text
+msgid ""
+"As you can guess, this summit was as intense as the previous ones.  Tails is "
+"living decisive times, so we expect the next year to be pretty interesting. "
+"*You* can perhaps make the difference, so do not hesitate [[joining the "
+"dance|contribute]]!"
+msgstr ""
+"Com podeu suposar, aquesta cimera va ser tan intensa com les anteriors. "
+"Tails viu moments decisius, així que esperem que l'any vinent sigui força "
+"interessant. *Tu* potser pots marcar la diferència, així que no dubtis a "
+"[[unir-te al ball|contribute]]!"
+
+#~ msgid ""
+#~ "The most noticeable technical change that happened during the summit was "
+#~ "perhaps our **move to Redmine** for managing our [tasks](https://labs."
+#~ "riseup.net/code/projects/tails/issues?query_id=108)  and plans. We are "
+#~ "not exploiting the full potential of Redmine yet, but it already feels "
+#~ "far less messy than how we did previously. Hopefully this will help "
+#~ "others get involved! Many thanks go to Riseup for hosting the Redmine "
+#~ "instance we use.  Note that we will keep using ikiwiki for blueprints."
+#~ msgstr ""
+#~ "El canvi tècnic més notable que s'ha produït durant la cimera ha sigut "
+#~ "potser el nostre **moviment a Redmine** per gestionar les nostres "
+#~ "[tasques](https://labs.riseup.net/code/projects/tails/issues?"
+#~ "query_id=108) i plans. Encara no estem explotant tot el potencial de "
+#~ "Redmine, però ja se sent molt menys desordenat que com ho fèiem abans. "
+#~ "Esperem que això ajudi a altres a participar! Moltes gràcies a Riseup per "
+#~ "allotjar la instància de Redmine que fem servir. Tingueu en compte que "
+#~ "seguirem utilitzant ikiwiki per als documents de disseny."
+
+#~ msgid ""
+#~ "Taking advantage of Redmine, we have started classifying tasks in various "
+#~ "useful ways: e.g. **easy tickets** do not require much knowledge of the "
+#~ "Tails internals to be solved, and are ideal places to get involved. In "
+#~ "passing, other nice custom queries provide lists of tasks involving "
+#~ "sysadmin.  and [web development](https://labs.riseup.net/code/projects/"
+#~ "tails/issues?query_id=115)."
+#~ msgstr ""
+#~ "Aprofitant el Redmine, hem començat a classificar les tasques de diverses "
+#~ "maneres útils: per exemple, els **easy tickets** no requereixen gaire "
+#~ "coneixement de la part interna de Tails per resoldre's, i són llocs "
+#~ "ideals per implicar-se. De passada, altres consultes personalitzades "
+#~ "agradables proporcionen llistes de tasques que involucren l'administració "
+#~ "de sistemes i el [desenvolupament web](https://labs.riseup.net/code/"
+#~ "projects/tails/issues?query_id=115)."

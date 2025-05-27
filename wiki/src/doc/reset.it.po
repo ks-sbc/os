@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails italiano\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-12-21 23:10+0000\n"
+"PO-Revision-Date: 2024-02-28 15:50+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: ita <transitails@inventati.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Uninstalling Tails or resetting a USB stick\"]]\n"
+msgstr "[[!meta title=\"Disinstallare Tails o inizializzare una chiavetta USB\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/reset.intro\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/reset.intro.it\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+msgid ""
+"- [[Instructions for Linux with GNOME: Ubuntu, Debian, Tails, etc.|reset/"
+"linux]]"
+msgstr ""
+"- [[Istruzioni per Linux con GNOME: Ubuntu, Debian, Tails, ecc.|reset/linux]]"
+
+#. type: Plain text
+msgid "- [[Instructions for Windows|reset/windows]]"
+msgstr "- [[Istruzioni per Windows|reset/windows]]"
+
+#. type: Plain text
+msgid "- [[Instructions for macOS|reset/mac]]"
+msgstr "- [[Istruzioni per macOS|reset/mac]]"

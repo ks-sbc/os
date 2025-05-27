@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2021-11-29 17:12+0000\n"
+"PO-Revision-Date: 2024-10-09 14:09+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Berliners, come test new features with us and get a T-shirt!\"]]\n"
+msgstr ""
+"[[!meta title=\"Berliner, testet neue Funktionen mit uns und erhaltet ein "
+"T-Shirt!\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 23 Nov 2017 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 23 Nov 2017 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid "We are working on making it much easier to use VeraCrypt in Tails."
+msgstr ""
+"Wir arbeiten daran, die Verwendung von VeraCrypt in Tails wesentlich zu "
+"vereinfachen."
+
+#. type: Plain text
+msgid ""
+"We want to test our design with users to make sure that it is really easy to "
+"use. We are looking for users of either VeraCrypt, Tails, or both."
+msgstr ""
+"Wir möchten unser Design mit Benutzern testen, um sicherzustellen, dass es "
+"wirklich einfach zu benutzen ist. Wir suchen nach Nutzern von VeraCrypt, "
+"Tails oder beidem."
+
+#. type: Plain text
+msgid ""
+"Don't be shy! It will be a great opportunity to contribute to world-class "
+"privacy software like Tails, even if you have little or no knowledge of "
+"Tails or VeraCrypt."
+msgstr ""
+"Seien Sie nicht schüchtern! Es ist eine großartige Gelegenheit, zu einer "
+"Weltklasse-Datenschutzsoftware wie Tails beizutragen, selbst wenn Sie wenig "
+"oder gar keine Kenntnisse über Tails oder VeraCrypt haben."
+
+#. type: Plain text
+msgid ""
+"The tests will take place in Berlin (Wedding) on Friday 8, Saturday 9, and "
+"Sunday 10 of December in the afternoon. Plan to stay with us for 1 hour."
+msgstr ""
+"Die Tests finden in Berlin (Wedding) am Freitag, den 8., Samstag, den 9., "
+"und Sonntag, den 10. Dezember nachmittags statt. Planen Sie, 1 Stunde bei "
+"uns zu bleiben."
+
+#. type: Plain text
+msgid "We will give you a Tails T-shirt as a token of our thanks."
+msgstr "Wir werden Ihnen ein Tails-T-Shirt als Zeichen unseres Dankes schenken."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img 33c3/t-shirt.jpg link=\"no\"]]\n"
+msgstr "[[!img 33c3/t-shirt.jpg link=\"no\"]]\n"
+
+#. type: Plain text
+msgid "Please, take this survey so we can organize our schedule:"
+msgstr ""
+"Bitte nehmen Sie an dieser Umfrage teil, damit wir unseren Zeitplan "
+"organisieren können:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<strike>https://survey.tails.boum.org/</strike> (We have\n"
+"enough people already!)\n"
+msgstr ""
+"<strike>https://survey.tails.boum.org/</strike> (Wir haben \n"
+"bereits genug Leute!)\n"
+
+#. type: Plain text
+msgid ""
+"And if you can't come, maybe you can forward this to 2-3 other people in "
+"Berlin?"
+msgstr ""
+"Und wenn Sie nicht kommen können, könnten Sie dies vielleicht an 2-3 andere "
+"Personen in Berlin weiterleiten?"

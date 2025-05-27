@@ -1,0 +1,277 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-08-13 16:36+0000\n"
+"PO-Revision-Date: 2025-04-17 17:39+0000\n"
+"Last-Translator: Chre <tor@renaudineau.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 6.6\"]]\n"
+msgstr "[[!meta title=\"Tails 6.6\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 13 Aug 2024 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 13 Aug 2024 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Changements et mises à jour</h1>\n"
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [13.5.2](https://blog.torproject.org/new-release-"
+"tor-browser-1352)."
+msgstr ""
+"- Mise à jour du *Navigateur Tor* vers la version [13.5.2](https://blog."
+"torproject.org/new-release-tor-browser-1352)."
+
+#. type: Plain text
+msgid ""
+"- Update *Thunderbird* to [115.14.0](https://www.thunderbird.net/en-US/"
+"thunderbird/115.14.0/releasenotes/)."
+msgstr ""
+"- Mise à jour de *Thunderbird* vers la version [115.14.0](https://www."
+"thunderbird.net/en-US/thunderbird/115.14.0/releasenotes/)."
+
+#. type: Bullet: '- '
+msgid ""
+"Update [many](https://salsa.debian.org/kernel-team/firmware-nonfree/-/blob/"
+"master/debian/changelog?ref_type=heads) firmware packages. This improves the "
+"support for newer hardware: graphics, Wi-Fi, and so on."
+msgstr ""
+"Mise à jour de [nombreux](https://salsa.debian.org/kernel-team/"
+"firmware-nonfree/-/blob/master/debian/changelog?ref_type=heads) paquets de "
+"micrologiciels. Cela permet d'améliorer la prise en charge du matériel plus "
+"récent : cartes graphiques, Wi-Fi, etc."
+
+#. type: Bullet: '- '
+msgid ""
+"Detect new types of errors when resizing the system partition fails (the "
+"first time Tails is started) and report the following error message."
+msgstr ""
+"Détection de nouveaux types d'erreurs lorsque le redimensionnement de la "
+"partition système échoue (au premier démarrage de Tails) et affichage du "
+"message d'erreur suivant."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  <p class=\"code\">\n"
+"  Something went wrong when starting your Tails USB stick for the first time:<br>\n"
+"  resizing the system partition failed\n"
+"  <br><br>\n"
+"  It will be impossible to create a Persistent Storage or apply automatic upgrades.\n"
+"  </p>\n"
+msgstr ""
+"  <p class=\"code\">\n"
+"  Un problème s'est produit lors du premier démarrage de votre clé USB Tails "
+":<br>\n"
+"  échec du redimensionnement de la partition système\n"
+"  <br><br>\n"
+"  Il sera impossible de créer un stockage persistant ou d'appliquer des "
+"mises à jour automatiques.\n"
+"  </p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  Affected users can try to install Tails again or use a different USB stick.\n"
+msgstr ""
+"  Les personnes concernées peuvent essayer d'installer à nouveau Tails ou "
+"d'utiliser une autre clé USB.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Problèmes corrigés</h1>\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Persistent Storage"
+msgstr "Stockage persistant"
+
+#. type: Bullet: '- '
+msgid ""
+"Increase the maximum waiting time to 4 minutes when unlocking the Persistent "
+"Storage before returning an error. ([[!tails_ticket 20475]])"
+msgstr ""
+"Augmentation à 4 minutes du temps d'attente maximum avant de renvoyer une "
+"erreur lors du déverrouillage du stockage persistant. ([[!tails_ticket "
+"20475]])"
+
+#. type: Bullet: '- '
+msgid ""
+"Made the creation of the Persistent Storage more robust after starting a "
+"Tails USB stick for the first time. ([[!tails_ticket 20451]])"
+msgstr ""
+"La création du stockage persistant a été rendue plus robuste après le "
+"démarrage d'une clé USB Tails pour la première fois. ([[!tails_ticket "
+"20451]])"
+
+#. type: Bullet: '- '
+msgid ""
+"Prevent the Persistent Storage settings from freezing after opening a link "
+"to the documentation. ([[!tails_ticket 20438]])"
+msgstr ""
+"Empêche le gel des paramètres du stockage persistant après l'ouverture d'un "
+"lien vers la documentation. ([[!tails_ticket 20438]])"
+
+#. type: Bullet: '- '
+msgid ""
+"Prevent Additional Software from crashing when installing virtual packages.  "
+"([[!tails_ticket 20477]])"
+msgstr ""
+"Empêche les logiciels supplémentaires de planter lors de l'installation de "
+"paquets virtuels.  ([[!tails_ticket 20477]])"
+
+#. type: Title ###
+#, no-wrap
+msgid "Networking"
+msgstr "Réseau"
+
+#. type: Plain text
+msgid ""
+"- Fix connecting to the Tor network using default bridges. ([[!tails_ticket "
+"20467]])"
+msgstr ""
+"- Correction de la connexion au réseau Tor en utilisant les ponts par "
+"défaut. ([[!tails_ticket 20467]])"
+
+#. type: Plain text
+msgid ""
+"- Allow enabling multiple network interfaces again. ([[!tails_ticket 20128]])"
+msgstr ""
+"- Permettre à nouveau l'activation de plusieurs interfaces réseau. ([["
+"!tails_ticket 20128]])"
+
+#. type: Title ###
+#, no-wrap
+msgid "Tails Cloner"
+msgstr "Tails Cloner"
+
+#. type: Bullet: '- '
+msgid ""
+"Remove 30 seconds of waiting time when installing by cloning.  ([[!"
+"tails_ticket 20131]])"
+msgstr ""
+"Suppression des 30 secondes d'attente lors de l'installation par clonage.  "
+"([[!tails_ticket 20131]])"
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+"Pour plus de détails, lisez notre [[!tails_gitweb debian/changelog desc="
+"\"liste des changements\"]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 6.6</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 6.6</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 6.0 or later to 6.6."
+msgstr ""
+"- Mises à jour automatiques disponibles depuis Tails 6.0 ou plus récent vers "
+"la version 6.6."
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Si vous ne pouvez pas faire une mise à jour automatique ou si le démarrage "
+"de Tails échoue après une mise à jour automatique, merci d'essayer de faire "
+"une [[mise à jour manuelle|doc/upgrade/#manual]]."
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails 6.6 on a new USB stick"
+msgstr "Pour installer Tails 6.6 sur une nouvelle clé USB"
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr "Suivez nos instructions d'installation :"
+
+#. type: Plain text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr "- [[Installer depuis Windows|install/windows]]"
+
+#. type: Plain text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr "- [[Installer depuis macOS|install/mac]]"
+
+#. type: Plain text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr "- [[Installer depuis Linux|install/linux]]"
+
+#. type: Plain text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+"- [[Installer depuis Debian ou Ubuntu en utilisant la ligne de commande et "
+"GnuPG|install/expert]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>Le stockage persistant de la clé USB sera perdu "
+"si\n"
+"vous faites une installation au lieu d'une mise à jour.</p></div>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr "Pour seulement télécharger"
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 6.6 directly:"
+msgstr ""
+"Si vous n'avez pas besoin d'instructions d'installation ou de mise à jour, "
+"vous pouvez télécharger directement Tails 6.6 :"
+
+#. type: Plain text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr "- [[Pour clés USB (image USB)|install/download]]"
+
+#. type: Plain text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "- [[Pour DVD et machines virtuelles (image ISO)|install/download-iso]]"

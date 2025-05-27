@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-11-18 12:45+0000\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta title=\"Shape Tails' future today!\"]]\n"
+msgstr "[[!meta title=\"Doneu forma al futur de Tails avui!\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta date=\"Mon, 18 Nov 2024 00:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 18 Nov 2024 00:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"📢 It’s that time of year again when we emerge from our encrypted shells to "
+"ask for your support!"
+msgstr ""
+"📢 Torna a ser l'època de l'any on sortim de les nostres shells xifrades per "
+"demanar el vostre suport!"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"2024 has been a life-changing year for Tails. We’ve continued doing what we "
+"do best -- developing Tails as an accessible shield for privacy, anonymity, "
+"and anti-censorship. And you may have heard: [[we merged operations with the "
+"Tor Project|/news/tails_tor]]."
+msgstr ""
+"El 2024 ha estat un any que ha canviat la vida de Tails. Hem continuat fent "
+"el que millor sabem fer: desenvolupar Tails com un escut accessible per a la "
+"privadesa, l'anonimat i la lluita contra la censura. I potser heu sentit: [["
+"hem combinat les operacions amb el Projecte Tor|/news/tails_tor]]."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"✊ This transition couldn’t have come at a more critical time for online and "
+"offline freedoms. Civil society is contracting, liberatory struggles are "
+"being silenced, and investigative journalists are being surveilled through "
+"increasingly sophisticated tools. In this landscape, our merger with the Tor "
+"Project isn’t just about operational efficiencies. By joining forces, we are "
+"strategically strengthening the infrastructure necessary for responding to "
+"these evolving challenges."
+msgstr ""
+"✊ Aquesta transició no podria haver arribat en un moment més crític per a "
+"les llibertats en línia i fora de línia. La societat civil es contrau, les "
+"lluites alliberadores estan sent silenciades i els periodistes "
+"d'investigació són vigilats amb eines cada cop més sofisticades. En aquest "
+"panorama, la nostra fusió amb el Projecte Tor no és només una qüestió "
+"d'eficiència operativa. En unir forces, estem reforçant estratègicament la "
+"infraestructura necessària per respondre a aquests reptes en evolució."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!img index/camping.svg link=\\\"no\\\" alt=\\\"\\\"]]\n"
+msgstr "[[!img index/camping.svg link=\\\"no\\\" alt=\\\"\\\"]]\n"
+
+#. type: Title #
+#, markdown-text, no-wrap
+msgid "How you can help"
+msgstr "Com podeu ajudar"
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Make a donation: Donate through any of the [[channels listed on our "
+"website|donate]]."
+msgstr ""
+"Feu una donació: feu una donació a través de qualsevol dels [[canals que "
+"apareixen al nostre lloc web|donate]]."
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Double your impact: Many corporations match employees’ donations to "
+"charitable organisations. Ask your employer if they do, and if they don't -- "
+"ask why! Search for our fiscal host, Riseup Labs, and specify Tails in your "
+"donation."
+msgstr ""
+"Doble el vostre impacte: moltes corporacions igualen les donacions dels "
+"empleats a organitzacions benèfiques. Pregunteu al vostre cap si ho fa i, si "
+"no, pregunteu per què! Cerqueu el nostre amfitrió fiscal, Riseup Labs, i "
+"especifiqueu Tails a la vostra donació."
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Spread the word: Share this fundraiser with your network! We are on "
+"[X](https://twitter.com/Tails_live)."
+msgstr ""
+"Feu difusió: compartiu aquesta recaptació de fons amb la vostra xarxa! Estem "
+"a [X](https://twitter.com/Tails_live)."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"While we’ve joined the Tor Project, all contributions during this campaign "
+"will be used for Tails-related activities."
+msgstr ""
+"Tot i que ens hem unit al Projecte Tor, totes les contribucions durant "
+"aquesta campanya s'utilitzaran per a activitats relacionades amb Tails."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"Together, we can ensure that everyone -- regardless of their circumstances "
+"-- has access to the tech they need to stay safe, secure, and free."
+msgstr ""
+"Junts, podem garantir que tothom, independentment de les seves "
+"circumstàncies, tingui accés a la tecnologia que necessita per mantenir-se "
+"segur, protegit i lliure."
+
+#. type: Plain text
+#, markdown-text
+msgid "[[Donate]]"
+msgstr "[[Feu una donació|donate]]"

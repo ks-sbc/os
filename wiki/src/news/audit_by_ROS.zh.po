@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-11-14 10:03+0000\n"
+"PO-Revision-Date: 2024-04-28 08:55+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Security audit of Persistent Storage and Tor integration\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 10 Nov 2023 17:00:00 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/audit]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In March 2023, [Radically Open Security](https://www.radicallyopensecurity."
+"com/) conducted a security audit on the major improvements that we released "
+"in [[Tails 5.8|version_5.8]] (December 2022) on the Persistent Storage, the "
+"Unsafe Browser, and the Wayland integration."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To better protect our users, we addressed most of the security "
+"vulnerabilities as soon as they were discovered and reported to us, without "
+"waiting for the audit to be complete and public. We can now share with your "
+"the [final report](https://gitlab.tails.boum.org/tails/tails/uploads/"
+"df935595f41faa687805136a6bfa2910/tails-ros-penetration-test-report-1-2.pdf)."
+msgstr ""
+
+#. type: Plain text
+msgid "We are proud of the conclusion of the auditors:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"> ***Overall, the Tails operating system left a solid impression and addressed\n"
+"> most of the concerns of an average user in need of anonymity.***\n"
+">\n"
+"> *This is particularly evident in the isolation of various components by the\n"
+"> developers. For example, the configured AppArmor rules often prevented a\n"
+"> significant impact of the found vulnerabilities. Shifting to Wayland was a\n"
+"> good decision, as it provides more security by isolating individual GUI\n"
+"> applications.*\n"
+">\n"
+"> *All in all, no serious vulnerabilities were found through the integration\n"
+"> into Wayland. Unsafe Browser and Persistent Storage should now be less\n"
+"> vulnerable to attack, as all vulnerabilities have been fixed.*\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The auditors found 6 *High*, 1 *Moderate*, 3 *Low*-severity issues. Another "
+"issue was fixed before the actual impact was assessed and so marked as "
+"having *Unknown* severity."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We fixed all these issues as soon as possible and before making them public "
+"on our GitLab. The last issue was fixed in 5.14, 3 weeks after it was "
+"reported to us."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"As good as the results of this audit are, they also serve as a reminder that "
+"no software is ever 100% secure and that every release of Tails can fix "
+"critical security vulnerabilities. Your best protection against all kinds of "
+"attack is to keep your Tails up-to-date."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Because at Tails we believe that transparency is key to building trust, all "
+"the code of our software is public and the results of this audit as well. "
+"You can find below a summary of all the issues and their fixes."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Detailed findings"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Tor integration"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>ID</th><th>Issue</th><th>Description</th><th>Impact</th><th>Status</th><th>Release</th></tr>\n"
+"<tr><td>TLS-012</td><td>[[!tails_ticket 19585]]</td><td>Leak clear IP as low-privileged user amnesia</td><td>High</td><td>Fixed</td><td>5.12</td></tr>\n"
+"<tr><td>TLS-013</td><td>[[!tails_ticket 19594]]</td><td>Local privilege escalation to Tor Connection sandbox</td><td>High</td><td>Fixed</td><td>5.12</td></tr>\n"
+"<tr><td>TLS-014</td><td>[[!tails_ticket 19595]]</td><td>Local privilege escalation to Tor Browser sandbox</td><td>Moderate</td><td>Fixed</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-017</td><td>[[!tails_ticket 19610]]</td><td>Insecure permissions of chroot overlay</td><td>Unknown</td><td>Fixed</td><td>5.13</td></tr>\n"
+"</table>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Persistent Storage"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>ID</th><th>Issue</th><th>Description</th><th>Impact</th><th>Status</th><th>Release</th></tr>\n"
+"<tr><td>TLS-003</td><td>[[!tails_ticket 19546]]</td><td>Local privilege escalation in Persistent folder activation hook</td><td>High</td><td>Fixed</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-004</td><td>[[!tails_ticket 19547]]</td><td>Symlink attack in Persistent folder deactivation hook</td><td>Low</td><td>Fixed</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-005</td><td>[[!tails_ticket 19548]]</td><td>Local privilege escalation in GnuPG feature activation hook</td><td>High</td><td>Fixed</td><td>5.11</td></tr>\n"
+"</table>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Core"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>ID</th><th>Issue</th><th>Description</th><th>Impact</th><th>Status</th><th>Release</th></tr>\n"
+"<tr><td>TLS-001</td><td>[[!tails_ticket 19464]]</td><td>Local privilege escalation in tails-shell-library</td><td>High</td><td>Fixed</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-009</td><td>[[!tails_ticket 19599]]</td><td>Man-in-the-middle attack on onion-grater service</td><td>Low</td><td>Fixed</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-011</td><td>[[!tails_ticket 19576]]</td><td>Limited path traversal in tails-documentation</td><td>Low</td><td>Fixed</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-019</td><td>[[!tails_ticket 19677]]</td><td>Local privilege escalation in tailslib leads to arbitrary file read</td><td>High</td><td>Fixed</td><td>5.14</td></tr>\n"
+"</table>\n"
+msgstr ""

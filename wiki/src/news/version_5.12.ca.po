@@ -1,0 +1,370 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 5.12 is out\"]]\n"
+msgstr "[[!meta title=\"Tails 5.12\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Wed, 19 Apr 2023 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Wed, 19 Apr 2023 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr "<h1 id=\"features\">Noves funcionalitats</h1>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2>Data deletion when deactivating a feature of the Persistent Storage</h2>\n"
+msgstr ""
+"<h2>Supressió de dades en desactivar una funció de l'Emmagatzematge "
+"Persistent</h2>\n"
+
+#. type: Plain text
+msgid ""
+"After you turn off a feature of the Persistent Storage, you can now click "
+"the **Delete Data** button to delete the data stored for this feature."
+msgstr ""
+"Després de desactivar una funció de l'Emmagatzematge Persistent, ara podeu "
+"fer clic al botó **Suprimeix les dades** per suprimir les dades "
+"emmagatzemades per a aquesta funció."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img delete-data.png link=\"no\" alt=\"Persistent Storage settings with message:\n"
+"Persistent Folder. The data of this feature is still saved. Delete Data?\"]]\n"
+msgstr ""
+"[[!img delete-data.png link=\"no\" alt=\"Configuració de l'Emmagatzematge "
+"Persistent amb el missatge:\n"
+"Carpeta Persistent. Les dades d'aquesta funció encara estan desades. Voleu "
+"suprimir les dades?\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2>Passphrase suggestion when creating the Persistent Storage</h2>\n"
+msgstr ""
+"<h2>Suggeriment de contrasenya en crear l'Emmagatzematge Persistent</h2>\n"
+
+#. type: Plain text
+msgid ""
+"When creating the Persistent Storage, a random and very secure passphrase is "
+"now displayed as a suggestion:"
+msgstr ""
+"Quan es crea l'Emmagatzematge Persistent, ara es mostra una contrasenya "
+"aleatòria i molt segura com a suggeriment:"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img diceware.png link=\"no\" alt=\"We recommend a long passphrase of 5 to 7 random words. For example: Ella Grim Inca Brief Facts Panda\"]]\n"
+msgstr ""
+"[[!img diceware.png link=\"no\" alt=\"Recomanem una contrasenya llarga de 5 "
+"a 7 paraules aleatòries. Per exemple: Ella Grim Inca Brief Facts Panda\"]]\n"
+
+#. type: Plain text
+msgid ""
+"This passphrase uses the diceware method to give very strong security "
+"guarantees while being possible to memorize."
+msgstr ""
+"Aquesta contrasenya utilitza el mètode diceware per oferir garanties de "
+"seguretat molt fortes alhora que es pot memoritzar."
+
+#. type: Plain text
+msgid ""
+"For example, a six-word passphrase like we suggest would take 3&#8239;505 "
+"years to crack at a trillion guesses a second."
+msgstr ""
+"Per exemple, per trencar una contrasenya de sis paraules com la que suggerim "
+"es trigarien 3&#8239;505 anys a un ritme d'un bilió d'intents per segon."
+
+#. type: Plain text
+msgid ""
+"Learn more about the maths in [The Intercept: Passphrases That You Can "
+"Memorize — But That Even the NSA Can’t Guess](https://theintercept."
+"com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/)."
+msgstr ""
+"Obteniu més informació sobre les matemàtiques a [The Intercept: contrasenyes "
+"que podeu memoritzar, però que fins i tot la NSA no pot "
+"endevinar](https://theintercept.com/2015/03/26/"
+"passphrases-can-memorize-attackers-cant-guess/)."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [12.0.5](https://blog.torproject.org/new-release-"
+"tor-browser-1205/)."
+msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [12.0.5](https://blog."
+"torproject.org/new-release-tor-browser-1205/)."
+
+#. type: Bullet: '- '
+msgid ""
+"Update the *Linux* kernel to 6.1.20. This improves the support for newer "
+"hardware: graphics, Wi-Fi, and so on."
+msgstr ""
+"S'ha actualitzat el nucli de *Linux* a la versió 6.1.20. Això millora la "
+"compatibilitat amb el maquinari més nou: gràfics, Wi-Fi, etc."
+
+#. type: Plain text
+msgid "- Use a new icon for the backup utility for the Persistent Storage."
+msgstr ""
+"- S'utilitza una icona nova per a la utilitat de còpia de seguretat per a "
+"l'Emmagatzematge Persistent."
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img lib/apps/backup.png link=\"no\" alt=\"\"]]\n"
+msgstr "  [[!img lib/apps/backup.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
+
+#. type: Plain text
+msgid "We fixed several reliability issues with the Persistent Storage:"
+msgstr ""
+"Hem solucionat diversos problemes de fiabilitat amb l'Emmagatzematge "
+"Persistent:"
+
+#. type: Bullet: '- '
+msgid ""
+"We improved the error message when a feature of the Persistent Storage fails "
+"to activate from the Welcome Screen to clarify which feature is affected."
+msgstr ""
+"Hem millorat el missatge d'error quan una funció de l'Emmagatzematge "
+"Persistent no s'activa des de la Pantalla de Benvinguda per aclarir quina "
+"funció està afectada."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  [[!img failure-to-activate.png link=\"no\" alt=\"Welcome Screen with error\n"
+"  message: Failed to activate some features of the Persistent Storage:\n"
+"  Persistent Folder.\"]]\n"
+msgstr ""
+"  [[!img failure-to-activate.png link=\"no\" alt=\"Pantalla de Benvinguda "
+"amb el\n"
+"  missatge d'error: No s'han pogut activar algunes funcions de "
+"l'Emmagatzematge Persistent:\n"
+"  Carpeta Persistent.\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  After starting Tails, the feature that failed to activate is marked as such\n"
+"  in the Persistent Storage settings. You can try turning the feature off and\n"
+"  on again or deleting its data to reset it entirely.\n"
+msgstr ""
+"  Després d'iniciar Tails, la funció que no s'ha pogut activar es marca com "
+"a tal\n"
+"  a la configuració d'Emmagatzematge Persistent. Podeu provar de desactivar "
+"la funció i\n"
+"  tornar a engegar o suprimir les seves dades per restablir-les completament."
+"\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  [[!img activation-failed.png link=\"no\" alt=\"Persistent Storage settings with\n"
+"  error message: Persistent Folder. Activation failed. Try again.\"]]\n"
+msgstr ""
+"  [[!img activation-failed.png link=\"no\" alt=\"Configuració de "
+"l'Emmagatzematge Persistent amb\n"
+"  el missatge d'error: Carpeta persistent. L'activació ha fallat. Torneu-ho "
+"a provar.\"]]\n"
+
+#. type: Bullet: '- '
+msgid ""
+"We made the activation of the Persistent Storage more reliable in 2 error "
+"cases. ([[!tails_ticket 19376]] and [[!tails_ticket 19331]])"
+msgstr ""
+"Hem fet més fiable l'activació de l'Emmagatzematge Persistent en dos casos "
+"d'error. ([[!tails_ticket 19376]] i [[!tails_ticket 19331]])"
+
+#. type: Bullet: '- '
+msgid ""
+"We added a progress indicator while turning on a new feature to clarify that "
+"it can take some time. ([[!tails_ticket 19291]])"
+msgstr ""
+"Hem afegit un indicador de progrés mentre activem una funció nova per "
+"aclarir que pot trigar una mica. ([[!tails_ticket 19291]])"
+
+#. type: Bullet: '- '
+msgid ""
+"We made sure that all data that is already available in Tails is really "
+"copied to the USB stick when turning on a feature. ([[!tails_ticket 19368]])"
+msgstr ""
+"Ens hem assegurat que totes les dades que ja estan disponibles a Tails es "
+"copien realment al llapis USB quan s'activa una funció. ([[!tails_ticket "
+"19368]])"
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
+"\"]]."
+msgstr ""
+"Per a més detalls, llegiu el nostre [[!tails_gitweb debian/changelog desc="
+"\"registre de canvis\"]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<!--\n"
+msgstr "<!--\n"
+
+#. type: Plain text
+msgid ""
+"Copy the known issues from the previous version if they haven't been solved "
+"or move them to /support/known_issues if more appropriate."
+msgstr ""
+"Copy the known issues from the previous version if they haven't been solved "
+"or move them to /support/known_issues if more appropriate."
+
+#. type: Plain text
+#, no-wrap
+msgid "-->\n"
+msgstr "-->\n"
+
+#. type: Plain text
+msgid "None specific to this release."
+msgstr "Cap específic d'aquesta versió."
+
+#. type: Plain text
+msgid "See the list of [[long-standing issues|support/known_issues]]."
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.12</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 5.12</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.12."
+msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior fins a la versió 5.12."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+"  Podeu [[reduir la mida de la baixada|doc/upgrade#reduce]] de futures\n"
+"  actualitzacions automàtiques fent una actualització manual a la darrera "
+"versió.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr "Per instal·lar Tails en un nou llapis USB"
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Windows|install/windows]]"
+msgstr "[[Instal·lar des de Windows|install/windows]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from macOS|install/mac]]"
+msgstr "[[Instal·lar des de macOS|install/mac]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Linux|install/linux]]"
+msgstr "[[Instal·lar des de Linux|install/linux]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr "Per només baixar"
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.12 directly:"
+msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.12 directament:"
+
+#. type: Bullet: '  - '
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
+
+#. type: Bullet: '  - '
+msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"

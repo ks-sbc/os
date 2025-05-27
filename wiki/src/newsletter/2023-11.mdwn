@@ -1,0 +1,127 @@
+[[!meta title="2023 in Retrospect"]]
+
+[[!pagetemplate template="newsletter.tmpl"]]
+
+<style>#unsubscribe { display: none; }</style>
+
+At the end of every year, we ask our supporters and well-wishers to make a
+contribution towards our mission. As we enter the last month of 2023, we are
+[reflecting](https://tails.net/news/gift_of_privacy/) on a year in
+which progressive, liberatory movements battled intense online surveillance
+from powerful public and private actors alike.
+
+Unfortunately, Tails' mission is more important now than ever before.
+
+You are reading this because you have donated to Tails in the past. And you're
+also reading this because we'd love [your renewed and continued
+support](https://tails.net/donate/) for Tails to scale greater
+heights in 2024!
+
+Improvements to the Persistent Storage
+======================================
+
+### External security audit
+
+In March 2023, we partnered with [Radically Open
+Security](https://www.radicallyopensecurity.com/) to conduct a comprehensive
+pen-test of our major improvements for Persistent Storage, Unsafe Browser, and
+the Wayland integration in [Tails 5.8](https://tails.net/news/version_5.8/). Tails performed exceptionally well in the
+test, demonstrating our dedication to robust security measures. You can find
+the full results [here](https://tails.net/news/audit_by_ROS/).
+
+### Enhanced backup
+
+<img src="https://tails.net/doc/persistent_storage/backup/clone.png" alt=""/>
+
+[Tails 5.14](https://tails.net/news/version_5.14/) introduced a new and improved backup method for the Persistent Storage.
+Users can now create a complete backup of their Persistent Storage by cloning
+it to a full backup Tails installation. This ensures that your valuable data is
+not lost in case of accidental deletion or hardware failure.
+
+### Data deletion
+
+<img src="https://tails.net/news/version_5.12/delete-data.png" alt=""/>
+
+In case you'd like to delete some data from your Persistent Storage, [Tails 5.12](https://tails.net/news/version_5.12) and later
+provides a straightforward way. Simply click the **Delete Data** button after
+disabling a Persistent Storage feature to erase the corresponding
+data.
+
+### Stronger encryption
+
+In [Tails 5.14](https://tails.net/news/version_5.14/), we adopted LUKS2 with Argon2id as the default encryption algorithm for all new Persistent Storage and LUKS-encrypted volumes. This upgrade provides significantly stronger protection against brute-force attacks
+compared to the previous PBKDF2 algorithm.
+
+Our likely next big feature
+===========================
+
+<img src="https://tails.net/newsletter/2023-11/walkie-talkie.png" alt=""/>
+
+In our last newsletter, we asked for your help to shape the future of Tails in
+the form of a survey about upcoming features.
+
+We received 105 answers from Tails supporters like you. We were thrilled to see
+your interest in helping us set our priorities!
+
+In parallel, we interviewed 14 journalists, activists, and digital
+security trainers who use Tails around the world. We talked to researchers who
+work on high-stakes investigations like [Amnesty
+International](https://www.amnesty.org/) and [OCCRP](https://www.occrp.org/),
+digital security trainers who support human rights defenders in Afghanistan,
+Syria, and Uganda, environmental activists from [Les Soulèvements de la
+Terre](https://lessoulevementsdelaterre.org/) who are criminalized by their
+government, organizations that create safe whistleblowing platforms like [Secure
+Drop](https://securedrop.org/) and [MexicoLeaks](https://mexicoleaks.mx/),
+independent journalists who investigate state surveillance, online crime,
+sexual violence, and so on.
+
+**One tool stood out as the top priority for our users:
+[Signal](https://signal.org/).**
+
+Signal in Tails would help journalists, activists, and whistleblowers communicate more easily with their collaborators but also handle hazardous material and sensitive communications more safely.
+
+The fact that Signal requires a phone number to register is a major concern for
+people in need of anonymity like whistleblowers and activists. But many of them
+already use Signal anyway as it's the best trade-off between security,
+usability, and popularity. Soon, the upcoming [*username feature*](https://community.signalusers.org/t/public-username-testing-staging-environment/56866)
+of Signal will allow sharing usernames instead of phone numbers.
+
+On top of Signal, we'll keep thinking about
+alternatives for those who really can't afford to register with a phone number.
+
+**We identified including VPN in Tails as our next priority.**
+
+Having another browser that uses a VPN instead of Tor would also be very useful
+in Tails as a way of working around the limitations of the Tor network. VPNs
+have higher speed and lower latency, are not blocked by websites as much as Tor is,
+support videoconferencing tools, have fewer CAPTCHAs, and allow choosing your
+exit country.
+
+What we're reading
+==================
+
+<img src="https://images.squarespace-cdn.com/content/v1/57e01ea36b8f5b62f6667771/b56dcef6-e080-4c1e-b51a-4b852a473295/FEATURES%E2%80%93+Photo+courtesy+of+Jay+Galvin+via+Flickr%E2%80%93mural.jpg?format=600w" alt=""/>
+
+*<a href="https://www.mountholyokenews.com/campus-life/2023/10/30/letter-to-the-editors-highlighting-the-history-of-palestinian-liberatory-art-and-its-censorship">Humanity is the Key</a>, mural by Palestinian-American muralist Chris Gazaleh*
+
+- We stand in solidarity with the resistance of Palestinians against Israeli
+  apartheid, colonial theft of lands, and genocidal violence. Violent and
+  necropolitical technologies deployed by the global state-military complex
+  instrumentalize Israel's occupation of Palestine. [Read about Elbit
+  Systems](https://www.wrmea.org/2019-august-september/elbit-systems-bringing-israeli-apartheid-to-the-u.s.-mexican-border.html),
+  the Israeli weapons manufacturer digitizing borders from occupied Palestine
+  to [Mexico](https://theintercept.com/2019/08/25/border-patrol-israel-elbit-surveillance/).
+
+- The Internet is shaped by many competing forces, but none as brutish as those
+  wielded by authoritarian governments. The Indian government has taken it upon
+  itself to develop a playbook for repressive regimes. Here's a [series of
+  stories](https://www.dailydot.com/modis-internet/) showcasing how pervasive
+  this power is. Nineteen Eighty-Four, hold my beer.
+
+- In our last newsletter, we wrote about the Online Safety Bill (OSB) in the
+  United Kingdom. As was the case with the OSB, and is with many other policy
+  proposals, they all seek to weaken encryption to protect children from
+  exploitation and abuse online. Wondering who benefits from this narrative, I
+  found an answer
+  [here](https://balkaninsight.com/2023/09/25/who-benefits-inside-the-eus-fight-over-scanning-for-child-sex-content/).
+  Spoiler: it's not the children.

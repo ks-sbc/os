@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2018-09-18 06:11+0200\n"
+"PO-Revision-Date: 2024-11-27 10:18+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Mon, 22 Nov 2009 11:20:24 +0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 22 Nov 2009 11:20:24 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Ineffective firewall-level Tor enforcement\"]]\n"
+msgstr "[[!meta title=\"Unwirksame Firewall-Ebene Tor-Durchsetzung\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Plain text
+msgid ""
+"The `openntpd` package is not installed anymore since commit "
+"bf8cc787ce46e9946ab47d5383feb1174da3f22a (20091006). The `ntpd` user is then "
+"non-existent on built amnesia systems."
+msgstr ""
+"Das Paket `openntpd` ist seit dem Commit "
+"bf8cc787ce46e9946ab47d5383feb1174da3f22a (20091006) nicht mehr installiert. "
+"Der `ntpd`-Benutzer ist dann auf gebauten Amnesie-Systemen nicht existent."
+
+#. type: Plain text
+msgid ""
+"This user is however mentioned in `/etc/firewall.conf`.  `iptables-restore` "
+"being apparently picky about imperfect configuration files, it refuses to "
+"load it, and the firewall-level Tor enforcement is therefore not effective."
+msgstr ""
+"Dieser Benutzer ist jedoch in `/etc/firewall.conf` erwähnt.  Da `iptables-"
+"restore` anscheinend wählerisch ist, wenn es um unvollkommene "
+"Konfigurationsdateien geht, weigert es sich, sie zu laden, und die "
+"Durchsetzung von Tor auf Firewall-Ebene ist daher nicht effektiv."
+
+#. type: Title #
+#, no-wrap
+msgid "Impact"
+msgstr "Auswirkungen"
+
+#. type: Plain text
+msgid ""
+"Some applications establish direct connections through the Internet, not "
+"using the Tor network at all."
+msgstr ""
+"Einige Anwendungen stellen direkte Verbindungen über das Internet her, ohne "
+"das Tor-Netzwerk zu nutzen."
+
+#. type: Plain text
+msgid "Details:"
+msgstr "Details:"
+
+#. type: Bullet: '* '
+msgid "iceweasel is not affected, thanks to the torbutton extension"
+msgstr "Iceweasel ist nicht betroffen, dank der Torbutton-Erweiterung"
+
+#. type: Bullet: '* '
+msgid ""
+"applications that take into account the relevant environment variables "
+"(namely `http_proxy`, `HTTP_PROXY`, `SOCKS_SERVER` and `SOCKS5_SERVER`) are "
+"not affected"
+msgstr ""
+"Anwendungen, die die relevanten Umgebungsvariablen (nämlich `http_proxy`, "
+"`HTTP_PROXY`, `SOCKS_SERVER` und `SOCKS5_SERVER`) berücksichtigen, sind "
+"nicht betroffen"
+
+#. type: Bullet: '* '
+msgid ""
+"any other application, such as Pidgin or Thunderbird, is probably affected."
+msgstr ""
+"Andere Anwendungen wie Pidgin oder Thunderbird sind wahrscheinlich ebenfalls "
+"betroffen."
+
+#. type: Title #
+#, no-wrap
+msgid "Solution"
+msgstr "Lösung"
+
+#. type: Plain text
+msgid ""
+"This problem has been fixed in [[Git|contribute/git]] commit "
+"9c425e8de13e6b4f885."
+msgstr ""
+"Dieses Problem wurde im [[Git|contribute/git]]-Commit 9c425e8de13e6b4f885 "
+"behoben."
+
+#. type: Title #
+#, no-wrap
+msgid "Affected versions"
+msgstr "Betroffene Versionen"
+
+#. type: Plain text
+msgid "No released amnesia version is affected."
+msgstr "Keine veröffentlichte Amnesie-Version ist betroffen."
+
+#. type: Plain text
+msgid ""
+"Custom images built from Git snapshots equal of after "
+"bf8cc787ce46e9946ab47d5383feb1174da3f22a (20091006), and before "
+"9c425e8de13e6b4f885 (excluded), are affected."
+msgstr ""
+"Benutzerdefinierte Abbilder, die aus Git-Schnappschüssen erstellt wurden, "
+"die gleich oder nach bf8cc787ce46e9946ab47d5383feb1174da3f22a (20091006) und "
+"vor 9c425e8de13e6b4f885 (ausgeschlossen) liegen, sind betroffen."

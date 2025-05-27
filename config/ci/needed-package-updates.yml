@@ -1,0 +1,43 @@
+---
+distribution: bookworm
+ignore:
+  temporary:
+    PKG_NAME:
+      version: "VERSION_STRING"
+      reason: "see #XXXX"
+    blinker:
+      version: 1.9.0-1
+      reason: "New upstream release, no compelling reason to upgrade"
+    cryptsetup:
+      version: 2:2.6.1-4~deb12u1
+      reason: "We install a backport of this version for Bullseye for #19728, no need to upgrade to the version from Bookworm"
+    flask:
+      version: 3.1.0-2
+      reason: "New upstream release, no compelling reason to upgrade"
+    flatpak:
+      version: 1.16.0-2~bpo12+1
+      reason: "We are patching the version from Debian Stable and have no compelling reason to backport from Debian Testing"
+    gdisk:
+      version: 1.0.10-2
+      reason: "No relevant change compared to 1.0.10-1~bpo12+1~tails1 + incompatible with Bookworm"
+    firmware-free:
+      version: 20241210-2
+      reason: "No change relevant to Tails since 20241210-1"
+    firmware-nonfree:
+      version: 20250410-2
+      reason: "Upgrade is scheduled soon (#20935)"
+    firmware-sof:
+      version: 2025.01-1
+      reason: "New upstream release, no compelling reason to upgrade"
+    onionshare:
+      version: 2.6.3-1
+      reason: "No relevant change compared to 2.6.2-1~0.tails1 + incompatible with Bookworm"
+    python-werkzeug:
+      version: 3.1.3-2
+      reason: "New upstream release, no compelling reason to upgrade"
+    zd1211-firmware:
+      version: 1:1.5-13
+      reason: "No change relevant to Tails since 1:1.5-12"
+  general:
+    - tor
+    - live-boot

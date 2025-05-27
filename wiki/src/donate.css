@@ -1,0 +1,84 @@
+#flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#feature, #other-ways-2 {
+  width: 60%;
+}
+
+#widgets-and-other-ways-1, #other-ways-3 {
+  width: 40%;
+}
+
+#flex, #recommended {
+  margin: 0 -30px;
+}
+
+#feature, #widgets, #other-ways-1, #other-ways-2, #other-ways-3 {
+  padding: 0 30px;
+}
+
+@media (max-width: 978px) {
+#flex {
+  flex-direction: column;
+}
+#feature, #other-ways-2, #widgets-and-other-ways-1, #other-ways-3 {
+  width: 100%;
+}
+}
+
+/* Left part */
+
+#feature img {
+  display: block;
+  margin: auto;
+  width: 400px;
+}
+
+@media (max-width: 500px) {
+#feature img {
+  width: 100%;
+}
+}
+
+#feature h1 {
+  margin: 1em 0;
+}
+
+.paypal {
+  width: 100%;
+}
+
+.paypal a {
+  font-size: 20px;
+}
+
+/* Other ways */
+
+h2 {
+  margin-top: 0 !important;
+}
+
+h3 {
+  color: var(--medium-purple);
+}
+
+#other-ways-1, #recommended {
+  padding: 30px !important;
+}
+
+#other-ways-1, #other-ways-2, #other-ways-3 {
+  background: var(--background-gray);
+}
+
+.crypto-address {
+  overflow-wrap: break-word;
+  font-size: 13px;
+}
+
+.toggleable {
+  margin-top: 1.5em !important;
+  background: white !important;
+  padding: 30px 30px 0 30px !important;
+}

@@ -1,0 +1,94 @@
+name: Lint
+
+on:
+  push:
+    branches: [ master, stable, testing, devel ]
+  pull_request:
+    branches: [ master, stable, testing, devel ]
+
+jobs:
+  lint-po:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tails/debian:bookworm
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Checkout jenkins-tools
+      uses: actions/checkout@v4
+      with:
+        repository: tails/jenkins-tools
+        path: jenkins-tools
+    
+    - name: Install dependencies
+      run: |
+        export DEBIAN_FRONTEND=noninteractive
+        apt-get update -qq
+        apt-get -qy install git i18nspector
+    
+    - name: Lint PO files
+      run: |
+        ./jenkins-tools/slaves/lint_po --no-schroot po/*.po
+    
+    - name: Lint website PO files
+      run: |
+        ./jenkins-tools/slaves/lint_po --no-schroot wiki/src/*.*.po
+
+  ruff:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tails/debian:bookworm
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Install dependencies
+      run: |
+        export DEBIAN_FRONTEND=noninteractive
+        apt-get update -qq
+        apt-get -qy install ruff
+    
+    - name: Run ruff
+      run: |
+        ruff check --output-format=github
+
+  mypy:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tails/debian:bookworm
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Install dependencies
+      run: |
+        export DEBIAN_FRONTEND=noninteractive
+        apt-get update -qq
+        apt-get -qy install python3-mypy
+    
+    - name: Run mypy
+      run: |
+        mypy --config-file pyproject.toml
+
+  rubocop:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/tails/debian:bookworm
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Install dependencies
+      run: |
+        export DEBIAN_FRONTEND=noninteractive
+        apt-get update -qq
+        apt-get -qy install rubocop
+    
+    - name: Run rubocop
+      run: |
+        rubocop --format github

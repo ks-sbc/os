@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-26 12:26+0100\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Closing tails-support@boum.org\"]]\n"
+msgstr "[[!meta title=\"Tancament de tails-support@boum.org\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Wed, 07 Jun 2017 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Wed, 07 Jun 2017 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+msgid ""
+"We decided to close tails-support@boum.org, the public mailing list for user "
+"support which [was created in 2013](https://tails.net/news/tails-support/)  "
+"after closing the forum that we had on this website."
+msgstr ""
+"Hem decidit tancar tails-support@boum.org, la llista de correu pública per a "
+"l'assistència als usuaris que [va ser creada el 2013](https://tails.net/news/"
+"tails-support/index.ca.html) després de tancar el fòrum que teníem en aquest "
+"lloc web."
+
+#. type: Plain text
+msgid "The idea behind having a public space for user support was to:"
+msgstr ""
+"La idea darrere de tenir un espai públic d'assistència als usuaris era:"
+
+#. type: Bullet: '- '
+msgid ""
+"Reduce the amount of work for our help desk behind [[tails-support-"
+"private@boum.org|about/contact#tails-support-private]] (which is encrypted "
+"and also receives [[*WhisperBack* reports|doc/first_steps/whisperback]])."
+msgstr ""
+"Reduir la quantitat de treball del nostre servei d'assistència [[tails-"
+"support-private@boum.org|about/contact#tails-support-private]] (que està "
+"encriptat i també rep [[informes de*WhisperBack*|doc/first_steps/"
+"whisperback]])."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  This is not really working as tails-support-private@boum.org still\n"
+"  has 12 times more traffic than tails-support@boum.org.\n"
+msgstr ""
+"  Això no funciona realment, ja que tails-support-private@boum.org encara\n"
+"  té 12 vegades més trànsit que tails-support@boum.org.\n"
+
+#. type: Plain text
+msgid "- Build a community of people doing user support outside of our team."
+msgstr ""
+"- Crear una comunitat de persones que fan suport als usuaris fora del nostre "
+"equip."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  This is not really working either as most of the threads are still\n"
+"  answered by our help desk or other core\n"
+"  contributors.\n"
+msgstr ""
+"  Això tampoc funciona realment, ja que la majoria dels missatges encara estan\n"
+"  sent contestats pel nostre servei d'ajuda o altres\n"
+"  col·laboradors del nostre equip.\n"
+
+#. type: Plain text
+msgid ""
+"- Build a public database to make it easy to consult or reuse previous "
+"answers."
+msgstr ""
+"- Crear una base de dades pública per facilitar la consulta o la "
+"reutilització de respostes anteriors."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  This is not really working either as the archive of the mailing list\n"
+"  are hard to search and reuse and it's easier to point people to\n"
+"  the documentation, known issues, or FAQ.\n"
+msgstr ""
+"  Això tampoc funciona realment ja que l'arxiu de la llista de correu\n"
+"  és difícil de cercar i reutilitzar i és més fàcil apuntar a la gent a\n"
+"  la documentació, als problemes coneguts o a les preguntes més freqüents.\n"
+
+#. type: Plain text
+msgid "Having a public mailing list also makes it:"
+msgstr "Tenir una llista de correu pública també fa que:"
+
+#. type: Bullet: '- '
+msgid ""
+"Complicated to make sure that both the list and the sender receive our "
+"answers."
+msgstr ""
+"Sigui complicat assegurar-nos que tant la llista com el remitent reben les "
+"nostres respostes."
+
+#. type: Bullet: '- '
+msgid ""
+"Sensitive to ask for more technical information about the problem, such as "
+"logs, as they are harder for the person reporting the error to share with us "
+"and also raises privacy concerns."
+msgstr ""
+"És sensible demanar més informació tècnica sobre el problema, com ara els "
+"registres, ja que és més difícil que la persona que informa de l'error "
+"comparteixi amb nosaltres i també planteja problemes de privadesa."
+
+#. type: Bullet: '- '
+msgid ""
+"Duplicate work between tails-support-private@boum.org and tails-support@boum."
+"org as people often write to both."
+msgstr ""
+"Duplica la feina entre tails-support-private@boum.org i tails-support@boum."
+"org, ja que la gent sovint escriu a tots dos correus."
+
+#. type: Plain text
+msgid ""
+"The major downside of closing tails-support@boum.org is that it was a good "
+"place for developers to have some feedback on the recurrent problems faced "
+"by users. We want to solve this while working on a [request tracker for our "
+"help desk](https://tails.net/blueprint/RT_for_help_desk/)."
+msgstr ""
+"El principal inconvenient de tancar tails-support@boum.org és que era un bon "
+"lloc perquè els desenvolupadors tinguessin comentaris sobre els problemes "
+"recurrents als quals s'enfronten els usuaris. Volem resoldre això mentre "
+"treballem en un [seguidor de sol·licituds per al nostre servei d'ajuda]"
+"(https://tails.net/blueprint/RT_for_help_desk/)."
+
+#. type: Plain text
+msgid ""
+"See you on [[tails-support-private@boum.org|about/contact#tails-support-"
+"private]]!"
+msgstr ""
+"Ens veiem a [[tails-support-private@boum.org|about/contact#tails-support-"
+"private]]!"

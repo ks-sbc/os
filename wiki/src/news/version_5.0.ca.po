@@ -1,0 +1,393 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-08-24 19:56+0000\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 5.0 is out\"]]\n"
+msgstr "[[!meta title=\"Tails 5.0\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 03 May 2022 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 03 May 2022 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"We are especially proud to present you Tails 5.0, the first version of Tails "
+"based on Debian 11 (Bullseye). It brings new versions of a lot of the "
+"software included in Tails and new OpenPGP tools."
+msgstr ""
+"Estem especialment orgullosos de presentar-vos Tails 5.0, la primera versió "
+"de Tails basada en Debian 11 (Bullseye). Aporta noves versions de gran part "
+"del programari inclòs a Tails i noves eines OpenPGP."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr "<h1 id=\"features\">Noves funcionalitats</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Kleopatra"
+msgstr "Kleopatra"
+
+#. type: Plain text
+msgid ""
+"We added [[*Kleopatra*|doc/encryption_and_privacy/kleopatra]] to replace the "
+"*OpenPGP Applet* and the *Password and Keys* utility, also known as "
+"*Seahorse*."
+msgstr ""
+"Hem afegit [[*Kleopatra*|doc/encryption_and_privacy/kleopatra]] per "
+"substituir l'*Applet OpenPGP* i la utilitat *Contrasenya i claus*, també "
+"coneguda com a *Seahorse*."
+
+#. type: Plain text
+msgid ""
+"The *OpenPGP Applet* was not actively developped anymore and was complicated "
+"for us to keep in Tails. The *Password and Keys* utility was also poorly "
+"maintained and Tails users suffered from too many of its issues until now, "
+"like [[!tails_ticket 17183]]."
+msgstr ""
+"L'*Applet OpenPGP* ja no es desenvolupa activament i és complicat mantenir-"
+"lo a Tails. La utilitat *Contrasenya i claus* tampoc s'està mantenint i els "
+"usuaris de Tails patien massa problemes fins ara, com ara [[!tails_ticket "
+"17183]]."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Kleopatra* provides equivalent features in a single tool and is more\n"
+"actively developed.\n"
+msgstr ""
+"*Kleopatra* ofereix funcions equivalents en una única eina i es\n"
+"desenvolupa de manera més activa.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img kleopatra.png alt=\"\" link=\"no\"]]\n"
+msgstr "[[!img kleopatra.png alt=\"\" link=\"no\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
+
+#. type: Bullet: '- '
+msgid ""
+"The Additional Software feature of the Persistent Storage is enabled by "
+"default to make it faster and more robust to configure your first additional "
+"software package."
+msgstr ""
+"La funció de Programari Addicional de l'Emmagatzematge Persistent està "
+"activada de manera predeterminada perquè la configuració del vostre primer "
+"paquet de programari addicional sigui més ràpida i robusta."
+
+#. type: Bullet: '- '
+msgid ""
+"You can now use the Activities overview to access your windows and "
+"applications. To access the Activities overview, you can either:"
+msgstr ""
+"Ara podeu utilitzar la visió general d'Activitats per accedir a les vostres "
+"finestres i aplicacions. Per accedir a la visió general de les activitats, "
+"podeu:"
+
+#. type: Bullet: '  - '
+msgid "Click on the <b>Activities</b> button."
+msgstr "Fer clic al botó <b>Activitats</b>."
+
+#. type: Bullet: '  - '
+msgid "Throw your mouse pointer to the top-left hot corner."
+msgstr "Llençar el punter del ratolí a la cantonada superior esquerra."
+
+#. type: Bullet: '  - '
+msgid ""
+"Press the <b>Super</b> ([[!img lib/start.png alt=\"\" class=\"symbolic\" "
+"link=\"no\"]]) key on your keyboard."
+msgstr ""
+"Prémer la tecla <b>Super</b> ([[!img lib/start.png alt=\"\" class=\"symbolic"
+"\" link=\"no\"]]) del teclat."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can see your windows and applications in the overview. You can also start\n"
+"  typing to search your applications, files, and folders.\n"
+msgstr ""
+"  Podeu veure les vostres finestres i aplicacions a la visió general. També "
+"podeu\n"
+"  escriure per cercar les vostres aplicacions, fitxers i carpetes.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img desktop.png alt=\"\" link=\"no\"]]\n"
+msgstr "[[!img desktop.png alt=\"\" link=\"no\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Included software"
+msgstr "Programari inclòs"
+
+#. type: Plain text
+msgid "Most included software has been upgraded in Debian 11, for example:"
+msgstr ""
+"La majoria del programari inclòs s'ha actualitzat a Debian 11, per exemple:"
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [11.0.11](https://blog.torproject.org/new-release-"
+"tor-browser-11011)."
+msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [11.0.11](https://blog."
+"torproject.org/new-release-tor-browser-11011)."
+
+#. type: Bullet: '- '
+msgid ""
+"Update *GNOME* from 3.30 to 3.38, with lots of small improvements to the "
+"desktop, the core *GNOME* utilities, and the locking screen."
+msgstr ""
+"S'ha actualitzat *GNOME* de la versió 3.30 a la 3.38, amb moltes petites "
+"millores a l'escriptori, les utilitats bàsiques de *GNOME* i la pantalla de "
+"bloqueig."
+
+#. type: Bullet: '- '
+msgid ""
+"Update *MAT* from 0.8 to 0.12, which adds support to clean metadata from "
+"SVG, WAV, EPUB, PPM, and Microsoft Office files."
+msgstr ""
+"S'ha actualitzat *MAT* de la versió 0.8 a la 0.12, que afegeix suport per "
+"netejar les metadades dels fitxers SVG, WAV, EPUB, PPM i Microsoft Office."
+
+#. type: Plain text
+msgid "- Update *Audacity* from 2.2.2 to 2.4.2."
+msgstr "- S'ha actualitzat *Audacity* de la versió 2.2.2 a la 2.4.2."
+
+#. type: Plain text
+msgid "- Update *Disk Utility* from 3.30 to 3.38."
+msgstr "- S'ha actualitzat *Utilitat de disc* de la versió 3.30 a la 3.38."
+
+#. type: Plain text
+msgid "- Update *GIMP* from 2.10.8 to 2.10.22."
+msgstr "- S'ha actualitzat *GIMP* de la versió 2.10.8 a la 2.10.22."
+
+#. type: Plain text
+msgid "- Update *Inkscape* from 0.92 to 1.0."
+msgstr "- S'ha actualitzat *Inkscape* de la versió 0.92 a la 1.0."
+
+#. type: Plain text
+msgid "- Update *LibreOffice* from 6.1 to 7.0."
+msgstr "- S'ha actualitzat *LibreOffice* de la versió 6.1 a la 7.0."
+
+#. type: Title ##
+#, no-wrap
+msgid "Hardware support"
+msgstr "Suport de maquinari"
+
+#. type: Bullet: '- '
+msgid ""
+"The new support for driverless printing and scanning in Linux makes it "
+"easier to make recent printers and scanners work in Tails."
+msgstr ""
+"El nou suport per a la impressió i l'escaneig sense controlador a Linux fa "
+"que sigui més fàcil fer que les impressores i escàners recents funcionin a "
+"Tails."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Fix unlocking *VeraCrypt* volumes that have very long passphrases.  ([[!"
+"tails_ticket 17474]])"
+msgstr ""
+"S'ha solucionat el desbloqueig de volums *VeraCrypt* amb contrasenyes molt "
+"llargues. ([[!tails_ticket 17474]])"
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
+"\"]]."
+msgstr ""
+"Per a més detalls, llegiu el nostre [[!tails_gitweb debian/changelog desc="
+"\"registre de canvis\"]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<!--\n"
+msgstr "<!--\n"
+
+#. type: Plain text
+msgid ""
+"Copy the known issues from the previous version if they haven't been solved "
+"or move them to /support/known_issues if more appropriate."
+msgstr ""
+"Copy the known issues from the previous version if they haven't been solved "
+"or move them to /support/known_issues if more appropriate."
+
+#. type: Plain text
+#, no-wrap
+msgid "-->\n"
+msgstr "-->\n"
+
+#. type: Bullet: '- '
+msgid ""
+"*Additional Software* sometimes doesn't work when restarting for the first "
+"time right after creating a Persistent Storage. ([[!tails_ticket 18839]])"
+msgstr ""
+"El *Programari Addicional* de vegades no funciona quan es reinicia per "
+"primera vegada just després de crear un Emmagatzematge Persistent. ([["
+"!tails_ticket 18839]])"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  To solve this, install the same additional software package again after\n"
+"  restarting with the Persistent Storage for the first time.\n"
+msgstr ""
+"  Per solucionar-ho, torneu a instal·lar el mateix paquet de programari "
+"addicional després\n"
+"  de reiniciar amb l'Emmagatzematge Persistent per primera vegada.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"*Thunderbird* displays a popup to choose an application when opening links.  "
+"([[!tails_ticket 18913]])"
+msgstr ""
+"*Thunderbird* mostra una finestra emergent per triar una aplicació en obrir "
+"enllaços. ([[!tails_ticket 18913]])"
+
+#. type: Plain text
+msgid "- *Tails Installer* sometimes fails to clone. ([[!tails_ticket 18844]])"
+msgstr ""
+"- L'*Instal·lador de Tails* de vegades no pot clonar. ([[!tails_ticket "
+"18844]])"
+
+#. type: Plain text
+msgid "See the list of [[long-standing issues|support/known_issues]]."
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.0</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 5.0</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
+
+#. type: Plain text
+msgid "- Automatic upgrades are not available to 5.0."
+msgstr ""
+"- Les actualitzacions automàtiques no estan disponibles a la versió 5.0."
+
+#. type: Plain text
+#, no-wrap
+msgid "  All users have to do a [[manual upgrade|doc/upgrade#manual]].\n"
+msgstr ""
+"  Tots els usuaris han de fer una [[actualització manual|doc/"
+"upgrade#manual]].\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr "Per instal·lar Tails en un nou llapis USB"
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Windows|install/windows]]"
+msgstr "[[Instal·lar des de Windows|install/windows]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from macOS|install/mac]]"
+msgstr "[[Instal·lar des de macOS|install/mac]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Linux|install/linux]]"
+msgstr "[[Instal·lar des de Linux|install/linux]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr "Per només baixar"
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.0 directly:"
+msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.0 directament:"
+
+#. type: Bullet: '  - '
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
+
+#. type: Bullet: '  - '
+msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"next\">What's coming up?</h1>\n"
+msgstr "<h1 id=\"next\">Què ve?</h1>\n"
+
+#. type: Plain text
+msgid "Tails 5.1 is [[scheduled|contribute/calendar]] for May 31."
+msgstr "Tails 5.1 està [[programat|contribute/calendar]] per al 31 de maig."

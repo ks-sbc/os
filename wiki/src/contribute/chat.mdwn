@@ -1,0 +1,17 @@
+[[!meta title="Contributors chat"]]
+
+In addition to the [[tails general chatroom|support/chat]],
+we have a dedicated chatroom for contributors.
+
+To join it, use your preferred instant messaging client that supports XMPP, e.g.
+[[Pidgin|http://www.pidgin.im/]], which runs on Windows, GNU/Linux and
+macOS.
+
+Here are the needed technical details:
+
+* Protocol: XMPP
+* Room: `tails-dev`
+* Server: `chat.disroot.org`
+
+To learn more about XMPP or to sign up for a Disroot XMPP account, see the
+Disroot page on [chatting with XMPP](https://disroot.org/en/services/xmpp).

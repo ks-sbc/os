@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2021-11-19 17:07+0000\n"
+"PO-Revision-Date: 2024-11-27 10:18+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sat, 12 Apr 2014 20:23:45 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 12 Apr 2014 20:23:45 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"And the winner is...\"]]\n"
+msgstr "[[!meta title=\"Und der Gewinner ist...\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"Our [[logo contest|logo_contest]] ended up a few days ago.  Since then, 11 "
+"regular Tails contributors voted on the [[!tails_blueprint logo desc=\"36 "
+"proposals\"]]."
+msgstr ""
+"Unser [[Logowettbewerb|logo_contest]] endete vor ein paar Tagen.  Seitdem "
+"haben 11 regelmäßige Tails-Mitarbeiter über das [[!tails_blueprint logo desc="
+"\"36 proposals\"]] abgestimmt."
+
+#. type: Title =
+#, no-wrap
+msgid "Winner"
+msgstr "Gewinner"
+
+#. type: Plain text
+msgid ""
+"The winning proposal is the one by [[!tails_blueprint logo#tchou desc=\"Tchou"
+"\"]]."
+msgstr ""
+"Der Gewinner ist der Vorschlag von [[!tails_blueprint logo#tchou desc=\"Tchou"
+"\"]]."
+
+#. type: Plain text
+msgid ""
+"We commented on the initial version and we already came up with an improved "
+"version: [[!tails_blueprint logo/tchou-improved.png]]"
+msgstr ""
+"Wir haben die ursprüngliche Version kommentiert und bereits eine verbesserte "
+"Version entwickelt: [[!tails_blueprint logo/tchou-improved.png]]"
+
+#. type: Plain text
+msgid "Congratulations!"
+msgstr "Herzlichen Glückwunsch!"
+
+#. type: Plain text
+msgid ""
+"In the coming days we will keep on fine-tuning it and integrating it in time "
+"for Tails 1.0. So don't hesitate to comment on it."
+msgstr ""
+"In den kommenden Tagen werden wir daran weiterarbeiten, es zu optimieren und "
+"rechtzeitig für Tails 1.0 zu integrieren. Zögern Sie also nicht, Kommentare "
+"dazu abzugeben."
+
+#. type: Title =
+#, no-wrap
+msgid "Top 7"
+msgstr "Top 7"
+
+#. type: Plain text
+msgid "Six other great proposals made it to the top 7:"
+msgstr "Sechs weitere großartige Vorschläge haben es in die Top 7 geschafft:"
+
+#. type: Bullet: '  - '
+msgid ""
+"2nd: tie between [[!tails_blueprint logo#andrew desc=\"Andrew\"]] and [[!"
+"tails_blueprint logo#joe desc=\"Joe\"]]"
+msgstr ""
+"2. Platz: Gleichstand zwischen [[!tails_blueprint logo#andrew desc=\"Andrew\""
+"]] und [[!tails_blueprint logo#joe desc=\"Joe\"]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"4th: tie between [[!tails_blueprint logo#jared desc=\"Jared\"]] and [[!"
+"tails_blueprint logo#renato desc=\"Renato\"]]"
+msgstr ""
+"4. Platz: Unentschieden zwischen [[!tails_blueprint logo#jared desc=\"Jared\""
+"]] und [[!tails_blueprint logo#renato desc=\"Renato\"]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"6th: tie between [[!tails_blueprint logo#mewchan desc=\"MewChan, hiding cat"
+"\"]] and [[!tails_blueprint logo#christopher desc=\"Christopher\"]]"
+msgstr ""
+"6. Platz: Gleichstand zwischen [[!tails_blueprint logo#mewchan desc=\"MewChan"
+", versteckende Katze\"]] und [[!tails_blueprint logo#christopher desc="
+"\"Christopher\"]]"
+
+#. type: Plain text
+msgid ""
+"This [[!tails_blueprint logo/top7.pdf desc=\"PDF\"]] shows a graph of how "
+"many voters preferred a given proposal to another one."
+msgstr ""
+"Dieses [[!tails_blueprint logo/top7.pdf desc=\"PDF\"]] zeigt ein Diagramm, "
+"wie viele Wähler einen bestimmten Vorschlag einem anderen vorgezogen haben."
+
+#. type: Plain text
+msgid ""
+"We reiterate our thanks to the 31 designers who worked for this contest to "
+"be such a success."
+msgstr ""
+"Wir sprechen unseren Dank an die 31 Designer aus, die dafür gearbeitet "
+"haben, dass dieser Wettbewerb ein so großer Erfolg wurde."

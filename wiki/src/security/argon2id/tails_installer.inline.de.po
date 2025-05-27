@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"PO-Revision-Date: 2024-10-22 13:09+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Bullet: '   1. '
+msgid "Plug in the new USB stick."
+msgstr "Schließen Sie den neuen USB-Stick an."
+
+#. type: Bullet: '   1. '
+msgid "Choose **Applications**&nbsp;▸ **Tails Cloner**."
+msgstr "Wählen Sie **Anwendungen**&nbsp;▸ **Tails Cloner**."
+
+#. type: Bullet: '   1. '
+msgid ""
+"Turn on the option **Clone the current Persistent Storage** below the option "
+"**Clone the current Tails**."
+msgstr ""
+"Aktivieren Sie die Option **Clone the current Persistent Storage** unterhalb "
+"der Option **Clone the current Tails**."
+
+#. type: Bullet: '   1. '
+msgid ""
+"Make sure that the new USB stick is selected in the **Target USB stick** "
+"menu."
+msgstr ""
+"Stellen Sie sicher, dass der neue USB-Stick im Menü **Ziel-USB-Stick** "
+"ausgewählt ist."
+
+#. type: Bullet: '   1. '
+msgid "To start the cloning, click on the **Install** button."
+msgstr ""
+"Um den Klonvorgang zu starten, klicken Sie auf die Schaltfläche "
+"**Installieren**."
+
+#. type: Bullet: '   1. '
+msgid ""
+"Enter a passphrase for the Persistent Storage on the new USB stick in the "
+"**Passphrase** text box."
+msgstr ""
+"Geben Sie eine Passphrase für den persistenten Speicher des neuen USB-Sticks "
+"in das Textfeld **Passphrase** ein."
+
+#. type: Bullet: '   1. '
+msgid "Enter the same passphrase again in the **Confirm** text box."
+msgstr ""
+"Geben Sie die gleiche Passphrase erneut in das Textfeld **Bestätigen** ein."
+
+#. type: Bullet: '   1. '
+msgid "Click **Continue**."
+msgstr "Klicken Sie auf **Fortfahren**."
+
+#. type: Bullet: '   1. '
+msgid "Read the warning message in the confirmation dialog."
+msgstr "Lesen Sie die Warnmeldung im Bestätigungsfenster."
+
+#. type: Bullet: '   1. '
+msgid "Click **Delete All Data and Install** to confirm."
+msgstr ""
+"Klicken Sie auf **Alle Daten löschen und installieren**, um zu bestätigen."
+
+#. type: Plain text
+#, no-wrap
+msgid "      Cloning takes a few minutes.\n"
+msgstr "      Cloning nimmt ein paar Minuten in Anspruch.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "      <div class=\"bug\">\n"
+msgstr "      <div class=\"bug\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"      <p>The progress bar usually freezes for some time\n"
+"      while synchronizing data on disk.</p>\n"
+msgstr ""
+"      <p>Die Fortschrittsanzeige friert normalerweise eine Zeit lang ein, "
+"während Daten auf der Festplatte synchronisiert werden.</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "      </div>\n"
+msgstr "      </div>\n"

@@ -1,0 +1,73 @@
+# KSBC OS Git Attributes
+# Ensure consistent line endings and proper handling of sensitive files
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Force LF for script files
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+*.py text eol=lf
+*.rb text eol=lf
+*.pl text eol=lf
+
+# Force LF for config files
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.mdwn text eol=lf
+*.txt text eol=lf
+*.rst text eol=lf
+README* text eol=lf
+LICENSE* text eol=lf
+CHANGELOG* text eol=lf
+
+# Web files
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.svg text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.xz binary
+*.deb binary
+*.rpm binary
+*.iso binary
+*.img binary
+
+# Security: Don't diff certain files
+*.key binary diff=no
+*.pem binary diff=no
+*.crt binary diff=no
+*.p12 binary diff=no
+*.pfx binary diff=no
+*.druids-key binary diff=no
+*.druids-secret binary diff=no
+
+# Git configuration
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.gitmodules text eol=lf
+
+# DRUIDS specific
+DRUIDS.md text eol=lf
+CLAUDE.md text eol=lf
+*.druids text eol=lf

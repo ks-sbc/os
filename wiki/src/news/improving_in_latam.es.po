@@ -1,0 +1,400 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-01-07 19:02+0000\n"
+"PO-Revision-Date: 2025-03-06 14:58+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  title=\"Improving Tails for human rights defenders in Latin America\"]]\n"
+msgstr "[[!meta title=\"Mejorando Tails para defensores de derechos humanos en América Latina\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"Tue, 06 Jun 2023 14:00:00 +0000\"]]\n"
+msgstr "[[!meta  date=\"Tue, 06 Jun 2023 14:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"Between 2021 and 2023 Tails, [Tor](https://torproject.org/), and the "
+"[Guardian Project](https://guardianproject.info/) partnered to organize "
+"training and usability tests in Ecuador, Mexico, and Brazil. Our goals were "
+"to:"
+msgstr ""
+"Entre 2021 y 2023 Tails, [Tor](https://torproject.org/), y [Guardian Project]"
+"(https://guardianproject.info/) se asociaron para organizar capacitaciones y "
+"pruebas de usabilidad en Ecuador, México y Brasil. Nuestros objetivos eran:"
+
+#. type: Bullet: '- '
+msgid ""
+"Promote our digital security tools and train human rights defenders in the "
+"Global South."
+msgstr ""
+"Promocionar nuestras herramientas de seguridad digital y capacitar a "
+"defensores de derechos humanos en el Sur Global."
+
+#. type: Plain text
+msgid ""
+"- Learn from their experiences and needs to help us prioritize future work."
+msgstr ""
+
+#. type: Plain text
+msgid "- Improve the usability of our tools based on their feedback."
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Usability tests and improvements"
+msgstr "Pruebas de usabilidad y mejoras"
+
+#. type: Plain text
+msgid ""
+"We conducted 4 rounds of in-person moderated usability tests in Mexico, "
+"Brazil, and Ecuador to identify usability issues in the features of Tails "
+"that are most important to new users:"
+msgstr ""
+"Realizamos 4 rondas de pruebas de usabilidad moderadas en persona en México, "
+"Brasil y Ecuador para identificar problemas de usabilidad en las "
+"funcionalidades de Tails que son más importantes para los nuevos usuarios:"
+
+#. type: Plain text
+msgid "- Installation"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Tor Connection"
+msgid "- Tor Connection"
+msgstr "Conexión a Tor"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Persistent Storage"
+msgid "- Persistent Storage"
+msgstr "Almacenamiento Persistente"
+
+#. type: Plain text
+msgid ""
+"The DesignOps tools that we used to organize these usability tests are all "
+"[[publicly available on our website|contribute/how/user_experience]]."
+msgstr ""
+"Las herramientas de DesignOps que usamos para organizar estas pruebas de "
+"usabilidad están todas [[disponibles públicamente en nuestro sitio web|"
+"contribute/how/user_experience]]."
+
+#. type: Plain text
+msgid ""
+"The detailed methodology for each of the usability tests is explained in the "
+"corresponding GitLab issues, linked below."
+msgstr ""
+"La metodología detallada para cada una de las pruebas de usabilidad se "
+"explica en los incidentes correspondientes de GitLab, vinculados a "
+"continuación."
+
+#. type: Title ###
+#, no-wrap
+msgid "Installation"
+msgstr "Instalación"
+
+#. type: Plain text
+msgid ""
+"In December 2021 in Mexico, we learned that the tools for new users to "
+"install Tails worked well, but several people got lost while navigating the "
+"instructions on the website."
+msgstr ""
+"En diciembre de 2021 en México, supimos que las herramientas para que los "
+"nuevos usuarios instalaran Tails funcionaban bien, pero varias personas se "
+"perdieron mientras navegaban por las instrucciones del sitio web."
+
+#. type: Plain text
+msgid ""
+"Based on these findings, we restructured our installation pages and fixed 30 "
+"usability issues on the website."
+msgstr ""
+"Con base en estos hallazgos, reestructuramos nuestras páginas de instalación "
+"y solucionamos 30 problemas de usabilidad en el sitio web."
+
+#. type: Plain text
+msgid ""
+"We tested these improvements in August 2022 in Brazil and confirmed that the "
+"new installation pages were much easier to follow. Only 1 out of 4 "
+"participants had trouble installing Tails on their own. All participants "
+"could start Tails and connect to the Tor network easily."
+msgstr ""
+"Probamos estas mejoras en agosto de 2022 en Brasil y confirmamos que las "
+"nuevas páginas de instalación eran mucho más fáciles de seguir. Solo 1 de "
+"cada 4 participantes tuvo problemas para instalar Tails por su cuenta. Todos "
+"los participantes pudieron iniciar Tails y conectarse a la red Tor "
+"fácilmente."
+
+#. type: Plain text
+msgid "Details:"
+msgstr "Detalles:"
+
+#. type: Bullet: '- '
+msgid "Usability tests of first-time use in Mexico ([[!tails_ticket 18074]])"
+msgstr ""
+"Pruebas de usabilidad de primer uso en México ([[!tails_ticket 18074]])"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Summary of findings](https://gitlab.tails.boum.org/tails/tails/-/"
+"issues/18074#note_210738)"
+msgstr ""
+"[Resumen de hallazgos](https://gitlab.tails.boum.org/tails/tails/-/"
+"issues/18074#note_210738)"
+
+#. type: Bullet: '  * '
+#, fuzzy
+#| msgid ""
+#| "[Detailed findings](https://gitlab.tails.boum.org/tails/ux/-/raw/master/"
+#| "first-time/rainbow_table.fods?inline=false)"
+msgid ""
+"[Detailed findings](https://gitlab.tails.boum.org/tails/ux/-/raw/master/"
+"first-time/rainbow_table_installation_2021_08_Mexico.fods?inline=false)"
+msgstr ""
+"[Recomendaciones detalladas](https://gitlab.tails.boum.org/tails/ux/-/raw/"
+"master/first-time/rainbow_table.fods?inline=false)"
+
+#. type: Bullet: '- '
+msgid "Usability tests of first-time use in Brazil ([[!tails_ticket 18784]])"
+msgstr ""
+"Pruebas de usabilidad de primer uso en Brasil ([[!tails_ticket 18784]])"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Summary of findings](https://lists.autistici.org/message/20221012.181235."
+"a673efeb.en.html)"
+msgstr ""
+"[Resumen de hallazgos](https://lists.autistici.org/message/20221012.181235."
+"a673efeb.en.html)"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Detailed findings](https://gitlab.tails.boum.org/tails/ux/-/blob/master/"
+"first-time/rainbow_table_installation_2022_08_Sao_Paulo.fods?inline=false)"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Tor Connection"
+msgstr "Conexión a Tor"
+
+#. type: Plain text
+msgid ""
+"In July 2021, we released the Tor Connection assistant to completely "
+"redesign how to connect Tails to the Tor network. The new assistant is most "
+"useful to people who are at high risk of physical surveillance, under heavy "
+"network censorship, or on a poor Internet connection."
+msgstr ""
+"En julio de 2021, lanzamos el asistente Tor Connection para rediseñar por "
+"completo cómo conectar Tails a la red Tor. El nuevo asistente es más útil "
+"para las personas que están en alto riesgo de vigilancia física, bajo una "
+"fuerte censura de la red o con una mala conexión a Internet."
+
+#. type: Plain text
+msgid ""
+"In August 2022 in Brazil, we tested the usability of Tor Connection when "
+"accessing the Tor network is blocked by censorship or by a captive portal."
+msgstr ""
+"En agosto de 2022 en Brasil, probamos la usabilidad de Tor Connection cuando "
+"el acceso a la red Tor está bloqueado por la censura o por un portal cautivo."
+
+#. type: Plain text
+msgid ""
+"Despite the many usability issues that we fixed since the first release of "
+"Tor Connection, 3 test participants out of 4 failed to connect when access "
+"to the Tor network was blocked."
+msgstr ""
+"A pesar de los muchos problemas de usabilidad que solucionamos desde el "
+"primer lanzamiento de Tor Connection, 3 de los 4 participantes de la prueba "
+"no pudieron conectarse cuando se bloqueó el acceso a la red Tor."
+
+#. type: Plain text
+msgid ""
+"Since then we fixed 14 usability issues affecting Tor Connection: to "
+"understand better why connecting to Tor fails, to make it easier to "
+"configure a Tor bridge, and to make it easier to sign in to a network using "
+"a captive portal."
+msgstr ""
+"Desde entonces, solucionamos 14 problemas de usabilidad que afectaban a "
+"Conexión Tor: para comprender mejor por qué falla la conexión a Tor, para "
+"facilitar la configuración de un puente Tor y para facilitar el inicio de "
+"sesión en una red mediante un portal cautivo."
+
+#. type: Bullet: '- '
+msgid "Usability tests of Tor Connection ([[!tails_ticket 18762]])"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid ""
+"[Summary of findings](https://lists.autistici.org/"
+"message/20221012.140611.7e58f067.en.html)"
+msgstr ""
+
+#. type: Bullet: '  * '
+#, fuzzy
+#| msgid ""
+#| "[Detailed findings](https://gitlab.tails.boum.org/tails/ux/-/raw/master/"
+#| "first-time/rainbow_table.fods?inline=false)"
+msgid ""
+"[Detailed findings](https://gitlab.tails.boum.org/tails/ux/-/raw/master/"
+"network/rainbow_table_tor_connection_2022_08_Sao_Paulo.ods?inline=false)"
+msgstr ""
+"[Recomendaciones detalladas](https://gitlab.tails.boum.org/tails/ux/-/raw/"
+"master/first-time/rainbow_table.fods?inline=false)"
+
+#. type: Title ###
+#, no-wrap
+msgid "Persistent Storage"
+msgstr "Almacenamiento Persistente"
+
+#. type: Plain text
+msgid ""
+"In March 2023 in Ecuador, we tested the usability of the new Persistent "
+"Storage, which was released in Tails in December 2022."
+msgstr ""
+"En marzo de 2023 en Ecuador, probamos la usabilidad del nuevo Almacenamiento "
+"Persistente, que se lanzó en Tails en diciembre de 2022."
+
+#. type: Plain text
+msgid ""
+"We didn't find any serious usability issues in the new Persistent Storage. "
+"The fact that people don't have to restart to create and enable the "
+"Persistent Storage and that their data (eg. Wi-Fi password) is stored on "
+"creation were huge improvements compared to the old Persistent Storage."
+msgstr ""
+"No encontramos ningún problema grave de usabilidad en el nuevo "
+"Almacenamiento Persistente. El hecho de que las personas no tengan que "
+"reiniciar para crear y habilitar el Almacenamiento Persistente y que sus "
+"datos (por ejemplo, la contraseña de Wi-Fi) se almacenen en la creación fue "
+"una gran mejora en comparación con el antiguo Almacenamiento Persistente."
+
+#. type: Bullet: '- '
+msgid ""
+"March 2023: Usability tests of the new Persistent Storage ([[!tails_ticket "
+"18648]])"
+msgstr ""
+"Marzo 2023: Pruebas de usabilidad del nuevo Almacenamiento Persistente ([[!"
+"tails_ticket 18648]])"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Summary of findings](https://lists.autistici.org/"
+"message/20230510.091842.23ed75ba.en.html)"
+msgstr ""
+"[Resumen de resultados](https://lists.autistici.org/"
+"message/20230510.091842.23ed75ba.en.html)"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Detailed findings](https://gitlab.tails.boum.org/tails/ux/-/raw/master/"
+"persistent%20storage/rainbow_table_persistent_storage_2023_03_Ecuador.fods?"
+"inline=false)"
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Trainings"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Through our combined efforts we reached 47 organizations and trained 433 "
+"human rights defenders on our family of tools based on the Tor network. For "
+"Tails only, we conducted 8 workshops and trained 84 people on using Tails: "
+"journalists, activists, feminists, lawyers, and human rights defenders."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The material used for these Tails workshops is available on our website in "
+"[English](https://tails.net/contribute/how/promote/slides/"
+"Ciclo_Autodefensa_Digital_202204/Tails-English.odp), [Spanish](https://tails."
+"net/contribute/how/promote/slides/Ciclo_Autodefensa_Digital_202204/Tails-"
+"Spanish.odp), and [Portuguese](https://tails.net/contribute/how/promote/"
+"slides/Ciclo_Autodefensa_Digital_202204/Tails-Portuguese.odp)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Assistants to the workshops were able to start Tails on all their PC "
+"computers but had more frequent issues with Mac computers."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"From what is already possible to do with Tails, people were most interested "
+"in using Tails to:"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Handle sensitive data, for example, medical data of abortion patients, "
+"sensitive documents from political trials, or field studies from human "
+"rights violations. That said, not all journalists thought that they were "
+"manipulating data that was sensitive enough to require a tool like Tails.  "
+"Sometimes it was hard to draw the line on when to use Tails and when not."
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Investigate sensitive topics online, either for journalistic purposes, "
+"medical purposes, or when making safe travel plans."
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Have a secure OS when using other people's computer, either when traveling "
+"or when people don't have the means to have their own computer."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"From what is not possible yet to do with Tails, people were most interested "
+"in:"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Doing online meetings and using mobile messaging apps like Signal and "
+"Telegram from Tails."
+msgstr ""
+
+#. type: Plain text
+msgid "- Using a VPN instead of Tor for speed and access to more websites."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We included both of these objectives in our 3-year product strategy.  You "
+"can track our progress in the GitLab issues related to [[!tails_ticket "
+"19472]]."
+msgstr ""
+"Incluimos ambos objetivos en nuestra estrategia de producto a 3 años. Puedes "
+"seguir nuestro progreso en los problemas de GitLab relacionados con [[!"
+"tails_ticket 19472]]."

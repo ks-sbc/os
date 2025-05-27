@@ -1,0 +1,113 @@
+[[!meta title="Resetting a USB stick using Windows"]]
+
+[[!inline pages="doc/reset.intro" raw="yes" sort="age"]]
+
+<div class="caution">
+
+<p><b>You might overwrite any hard disk on the computer.</b></p>
+
+<p>If at some point you are not sure about which device to choose, stop proceeding.</p>
+
+</div>
+
+Erase Tails from the USB stick
+==============================
+
+First, erase Tails from the USB stick:
+
+1. Make sure that the USB stick that you want to reset is unplugged.
+
+1. Open the **Start** ([[!img lib/start.png class="symbolic" link="no" alt=""]]) menu.
+
+1. Choose **Windows System**&nbsp;▸ **Command Prompt**.
+
+1. Execute the following command to start the *Diskpart* utility.
+
+   <p class="command-windows">diskpart</p>
+
+1. Execute the following command to obtain information about the disks in the
+   computer.
+
+   <p class="command-windows">list disk</p>
+
+   For example:
+
+       Diskpart> list disk
+
+         Disk ###  Status      Size     Free     Dyn  Gpt
+         --------  ----------  -------  -------  ---  ---
+         Disk 0    Online        80 GB      0 B
+
+1. Plug in the USB stick that you want to reset.
+
+1. Run the same command again.
+
+   <p class="command-windows">list disk</p>
+
+   A new disk, which corresponds to the USB stick that you plugged in,
+   appears in the list.
+
+   For example:
+
+        Diskpart> list disk
+
+          Disk ###  Status      Size     Free     Dyn  Gpt
+          --------  ----------  -------  -------  ---  ---
+          Disk 0    Online        80 GB      0 B
+          Disk 1    Online         8 GB      0 B
+
+   Make sure that its size corresponds to the size of the USB stick that you want to
+   reset. Note down its disk number.
+
+   In this example, the disk number of the USB stick is 1.
+   Yours might be different.
+
+1. Execute the following command to select the USB stick. Replace
+   <span class="command-placeholder">number</span> with the disk number found
+   in step 7.
+
+   <p class="command-windows command-template">select disk=<span class="command-placeholder">number</span></p>
+
+1. Execute the following command to delete the partition table from the USB
+   stick.
+
+   <p class="command-windows">clean</p>
+
+Create a new partition on the USB stick
+=======================================
+
+Then, create a new partition on the USB stick:
+
+1. Execute the following command to create a new partition table on the USB
+   stick.
+
+   <p class="command-windows">convert mbr</p>
+
+1. Execute the following command to create a new primary partition on the USB
+   stick.
+
+   <p class="command-windows">create partition primary</p>
+
+1. Unplug the USB stick.
+
+1. Plug the USB stick again.
+
+1. A dialog appears to format the disk before using it.
+
+   [[!img format.png link="no" class="screenshot" alt="You need to format the disk before you can use it. Do you want to format it?"]]
+
+1. Click on the **Format disk** button.
+
+1. In the **Format USB Drive** dialog, review the settings and click **Start**.
+
+1. After the formatting is complete, the USB stick should appear as a new drive
+   in the files browser.
+
+   Otherwise, try unplugging and plugging it again.
+
+Troubleshooting
+===============
+
+- [How to start the *Command Prompt*](https://www.computerhope.com/issues/chdos.htm)
+
+- [Microsoft: diskpart](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/diskpart)

@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Italian Tails translation\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-26 12:26+0100\n"
+"PO-Revision-Date: 2024-12-04 17:07+0000\n"
+"Last-Translator: _ignifugo <ignifugo@insicuri.net>\n"
+"Language-Team: ita <transitails@inventati.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Resetting a USB stick using Linux\"]]\n"
+msgstr "[[!meta title=\"Inizializzare una chiavetta USB usando Linux\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/reset.intro\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr "[[!inline pages=\"doc/reset.intro.it\" raw=\"yes\" sort=\"age\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=1]]\n"
+msgstr "[[!toc levels=1]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"disks\"></a>\n"
+msgstr "<a id=\"disks\"></a>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Using the *Disks* utility"
+msgstr "Usare l'utilità *Dischi*"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"caution\">\n"
+msgstr "<div class=\"caution\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p><b>You might overwrite any hard disk on the computer.</b></p>\n"
+msgstr "<p><b>Rischi di sovrascrivere il disco rigido del computer.</b></p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<p>If at some point you are not sure about which device to choose, stop proceeding.</p>\n"
+msgstr ""
+"<p>Se in qualche passaggio non sei sicura di quale dispositivo scegliere, "
+"interrompi la procedura.</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Bullet: '1. '
+msgid "Make sure that the USB stick that you want to reset is unplugged."
+msgstr "Assicurati che la chiavetta USB che vuoi resettare sia disinserita."
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks** to start the "
+"*Disks* utility."
+msgstr ""
+"Scegli **Applicazioni**&nbsp;▸ **Utilità**&nbsp;▸ **Dischi** per avviare "
+"l'utilità *Dischi*."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   A list of all the storage devices on the computer appears in the left pane\n"
+"   of the window.\n"
+msgstr ""
+"   Una lista di tutti i dispositivi del computer appariranno nel pannello di sinistra\n"
+"della finestra.\n"
+
+#. type: Bullet: '1. '
+msgid "Plug in the USB stick that you want to reset."
+msgstr "Collega la chiavetta USB da resettare."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   A new device appears in the list of storage devices. This new device\n"
+"   corresponds to the USB stick that you plugged in. Click on it.\n"
+msgstr ""
+"   Un nuovo dispositivo appare nella lista dei dispositivi di archiviazione. "
+"Questo nuovo\n"
+"      dispositivo corrisponde alla chiavetta USB che hai inserito. Fai clic "
+"su di esso.\n"
+
+#. type: Bullet: '1. '
+msgid ""
+"In the right pane of the window, verify that the device corresponds to the "
+"USB stick that you want to reset, its brand, its size, etc."
+msgstr ""
+"Nel pannello destro della finestra, verifica che il dispositivo corrisponda "
+"alla chiavetta USB che vuoi inizializzare, la sua marca, la sua dimensione, "
+"ecc."
+
+#. type: Bullet: '1. '
+#, fuzzy
+#| msgid ""
+#| "To reset the USB stick, click on the <span class=\"guimenu\">[[!img lib/"
+#| "open-menu.png alt=\"Menu\" class=symbolic link=no]]</span> button in the "
+#| "titlebar and choose <span class=\"guilabel\">Format Disk…</span>."
+msgid ""
+"To reset the USB stick, click on the [[!img lib/view-more.png alt=\"Drive "
+"Options\" class=\"symbolic\" link=\"no\"]] button in the title bar and "
+"choose **Format Disk** to erase all the existing partitions on the device."
+msgstr ""
+"Per resettare la chiavetta USB, fai clic sul tasto <span class=\"guimenu\">[!"
+"img lib/open-menu.png alt=\"Menu\" class=symbolic link=no]]</span> nella "
+"barra del titolo e scegli <span class=\"guilabel\">Formattazione disco...</"
+"span>."
+
+#. type: Bullet: '1. '
+#, fuzzy
+#| msgid "In the <span class=\"guilabel\">Format Disk</span> dialog:"
+msgid "In the **Format Disk** dialog:"
+msgstr ""
+"Nella finestra di dialogo <span class=\"guilabel\">Formatta disco</span>:"
+
+#. type: Bullet: '   - '
+#, fuzzy
+#| msgid ""
+#| "   1. If you want to erase all data securely, choose to\n"
+#| "   **Overwrite existing data with zeroes** in the\n"
+#| "   **Erase** menu.\n"
+msgid ""
+"If you want to overwrite all data on the device, choose **Overwrite existing "
+"data with zeroes** in the **Erase** menu."
+msgstr ""
+"   1. Se vuoi cancellare tutti i dati in maniera sicura, scegli di\n"
+"   **Sovrascrivere i dati esistenti con zeri** nel\n"
+"   menu **Cancella**.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     <div class=\"caution\">\n"
+msgstr "     <div class=\"caution\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"     <p>Overwriting existing data does not erase all data on flash\n"
+"     memories, such as USB sticks and SSDs (Solid-State Drives).</p>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "     <p>See the [[limitations of file deletion|doc/encryption_and_privacy/secure_deletion#spare]].</p>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "     </div>\n"
+msgstr "     </div>\n"
+
+#. type: Bullet: '   - '
+#, fuzzy
+#| msgid ""
+#| "   2. Choose **Compatible with all systems and devices (MBR/DOS)**\n"
+#| "   in the **Partitioning** menu.\n"
+msgid ""
+"Choose **Compatible with all systems and devices (MBR/DOS)** in the "
+"**Partitioning** menu."
+msgstr ""
+"   2. Scegli **Compatibile con tutti i sistemi e dispositivi (MBR/DOS)**.\n"
+"   nel menu **Partizionamento**.\n"
+
+#. type: Bullet: '1. '
+#, fuzzy
+#| msgid "Click on the **Format…** button."
+msgid "Click **Format**."
+msgstr "Clicca sul tasto **Formattazione...**."
+
+#. type: Bullet: '1. '
+#, fuzzy
+#| msgid ""
+#| "In the confirmation dialog, click on the <span class=\"bold\">Format</"
+#| "span> button to confirm."
+msgid "In the confirmation dialog, click **Format** to confirm."
+msgstr ""
+"Nella schermata di conferma, clicca su <span class=\"bold\">Formattare</"
+"span> per confermare."
+
+#. type: Bullet: '1. '
+msgid ""
+"To make sure that all the changes are written to the USB stick, click on the"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!img lib/media-eject.png alt=\"Eject\" class=\"symbolic\" link=\"no\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "   button in the title bar.\n"
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Resetting a Tails USB stick from itself"
+msgstr "Ripristinare una chiavetta USB Tails dalla stessa"
+
+#. type: Plain text
+msgid ""
+"If Tails is your only Linux system, you can generally reset a Tails USB "
+"stick directly from that USB stick while running Tails."
+msgstr ""
+"Se Tails è il tuo unico sistema Linux, puoi in genere inizializzare una "
+"chiavetta USB Tails direttamente dalla chiavetta stessa, mentre Tails è in "
+"esecuzione."
+
+#. type: Bullet: '1.  '
+msgid "When starting Tails, add the `toram` boot option in the *Boot Loader*."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    See [[using the *Boot Loader*|advanced_topics/boot_options]].\n"
+msgstr ""
+
+#. type: Bullet: '2.  '
+#, fuzzy
+#| msgid ""
+#| "If Tails starts as usual, follow the instructions for [[resetting a USB "
+#| "stick using <span class=\"application\">GNOME Disks</span>|linux#disks]]."
+msgid ""
+"If Tails starts as usual, follow the instructions for [[resetting a USB "
+"stick using the *Disks* utility|linux#disks]]."
+msgstr ""
+"Se Tails si avvia come al solito, segui le istruzioni per [[inizializzare "
+"una chiavetta USB usando <span class=\"application\">GNOME Disks</span>|"
+"linux#disks]]."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    **If the system fails to start**, that means that the computer does not have\n"
+"    enough memory for this operation mode. Try with another computer, or find\n"
+"    another Linux system, such as another Tails USB stick, to do the reset from.\n"
+msgstr ""
+"    **Se il sistema non si avvia**, ciò significa che il computer non ha\n"
+"    memoria sufficiente per operare in questa modalità. Prova con un altro computer, o trova\n"
+"    un altro sistema Linux, come un'altra chiavetta USB Tails, da cui eseguire l'inizializzazione.\n"
+
+#~ msgid ""
+#~ "To make sure that all the changes are written to the USB stick, click on "
+#~ "the <span class=\"guimenu\">[[!img lib/media-eject.png alt=\"Eject\" "
+#~ "class=symbolic link=no]]</span> button in the titlebar."
+#~ msgstr ""
+#~ "Per assicurarti che tutte le modifiche siano state scritte sulla "
+#~ "chiavetta USB, fai clic sul bottone <span class=\"guimenu\">[[!img lib/"
+#~ "media-eject.png alt=\"Espelle questo disco\" class=symbolic link=no]]</"
+#~ "span> nella barra del titolo."
+
+#, no-wrap
+#~ msgid "Using <span class=\"application\">GNOME Disks</span>"
+#~ msgstr "Usando <span class=\"application\">Dischi GNOME</span>"
+
+#, no-wrap
+#~ msgid ""
+#~ "1. Choose\n"
+#~ "   <span class=\"menuchoice\">\n"
+#~ "     <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+#~ "     <span class=\"guisubmenu\">Utilities</span>&nbsp;▸\n"
+#~ "     <span class=\"guimenuitem\">Disks</span>\n"
+#~ "   </span>\n"
+#~ "   to start <span class=\"application\">GNOME Disks</span>.\n"
+#~ msgstr ""
+#~ "1. Scegli\n"
+#~ "   <span class=\"menuchoice\">\n"
+#~ "     <span class=\"guimenu\">Applicazioni</span>&nbsp;▸\n"
+#~ "     <span class=\"guisubmenu\">Utilità</span>&nbsp;▸\n"
+#~ "     <span class=\"guimenuitem\">Dischi</span>\n"
+#~ "   </span>\n"
+#~ "   per avviare <span class=\"applicazion\">GNOME Disks</span>.\n"
+
+#~ msgid ""
+#~ "When starting Tails, add the <span class=\"command\">toram</span> boot "
+#~ "option in the <span class=\"application\">Boot Loader</span>. For "
+#~ "detailed instructions, see the documentation on [[using the <span "
+#~ "class=\"application\">Boot Loader</span>|advanced_topics/boot_options]]."
+#~ msgstr ""
+#~ "Quando avvii Tails, aggiungi l'opzione di avvio <span "
+#~ "class=\"command\">toram</span> nel <span class=\"application\">Boot "
+#~ "Loader</span>. Per istruzioni dettagliate, vedi la documentazione su "
+#~ "[[using the <span class=\"application\">Boot Loader</span>|"
+#~ "advanced_topics/boot_options]]."
+
+#~ msgid "    Then click on the <span class=\"bold\">Format…</span> button.\n"
+#~ msgstr ""
+#~ "    Per formattare il dispositivo, clicca su <span "
+#~ "class=\"bold\">Formattare il Disco</span>.\n"
+
+#~ msgid ""
+#~ "In the popup window, choose <span class=\"guilabel\">Master Boot Record</"
+#~ "span> from the <span class=\"guilabel\">Scheme</span> drop-down list. "
+#~ "Then click on the <span class=\"bold\">Format</span> button."
+#~ msgstr ""
+#~ "Nella finestra popup, scegli<span class=\"guilabel\">Master Boot Record</"
+#~ "span> dal menù a tendina<span class=\"guilabel\">Schema</span>.Clicca sul "
+#~ "bottone<span class=\"bold\">Formattare</span>."

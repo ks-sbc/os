@@ -1,0 +1,5 @@
+[[!meta title="Upgrading a Tails USB stick"]]
+
+[[!toc levels=2]]
+
+[[!inline pages="doc/upgrade" raw="yes" sort="age"]]

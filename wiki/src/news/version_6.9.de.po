@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-10-31 08:56+0100\n"
+"PO-Revision-Date: 2024-11-02 20:10+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta title=\"Tails 6.9\"]]\n"
+msgstr "[[!meta title=\"Tails 6.9\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta date=\"Thu, 31 Oct 2024 00:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Thu, 31 Oct 2024 00:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Änderungen und Updates</h1>\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- Update *Tor Browser* to "
+"[14.0.1](https://blog.torproject.org/new-release-tor-browser-1401/)."
+msgstr ""
+"- *Tor Browser* auf [14.0.1](https://blog.torproject.org/"
+"new-release-tor-browser-1401/) aktualisiert."
+
+#. type: Plain text
+#, markdown-text
+msgid "- Update the *Tor* client to 0.4.8.13."
+msgstr "- Den *Tor*-Client auf 0.4.8.13 aktualisiert."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- Update *Thunderbird* to "
+"[115.16.0](https://www.thunderbird.net/en-US/thunderbird/115.16.0esr/releasenotes/)."
+msgstr ""
+"- *Thunderbird* auf [115.16.0](https://www.thunderbird.net/en-US/thunderbird/"
+"115.16.0esr/releasenotes/) aktualisiert."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Behobene Probleme</h1>\n"
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Fix automatic upgrades aborting with the error message \"`The upgrade could "
+"not be downloaded`\" even after a successful download. ([[!tails_ticket "
+"20593]])"
+msgstr ""
+"Behebt das Problem, dass automatische Upgrades mit der Fehlermeldung \"`Das "
+"Upgrade konnte nicht heruntergeladen werden`\" abgebrochen werden, selbst "
+"nach einem erfolgreichen Download. ([[!tails_ticket 20593]])"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+"Für weitere Details lesen Sie unser [[!tails_gitweb debian/changelog desc="
+"\"Änderungsprotokoll\"]]."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"get\">Get Tails 6.9</h1>\n"
+msgstr "<h1 id=\"get\">Tails 6.9 herunterladen</h1>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Um Ihren Tails-USB-Stick zu aktualisieren und Ihren beständigen "
+"Datenspeicher beizubehalten"
+
+#. type: Plain text
+#, markdown-text
+msgid "- Automatic upgrades are available from Tails 6.0 or later to 6.9."
+msgstr ""
+"- Automatische Upgrades sind von Tails 6.0 oder neuer auf 6.9 verfügbar."
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual "
+"upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Wenn Sie ein automatisches Upgrade nicht durchführen können oder Tails nach "
+"einem automatischen Upgrade nicht startet, versuchen Sie bitte ein [["
+"manuelles Upgrade|doc/upgrade/#manual]]."
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To install Tails 6.9 on a new USB stick"
+msgstr "Um Tails 6.9 auf einem neuen USB-Stick zu installieren"
+
+#. type: Plain text
+#, markdown-text
+msgid "Follow our installation instructions:"
+msgstr "Befolgen Sie unsere Installationsanweisungen:"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr "- [[Von Windows installieren|install/windows]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr "- [[Von MacOS installieren|install/mac]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr "- [[Von Linux installieren|install/linux]]"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and "
+"GnuPG|install/expert]]"
+msgstr ""
+"- [[Von Debian oder Ubuntu über die Befehlszeile und GnuPG installieren|"
+"install/expert]]"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be "
+"lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>Der beständige Datenspeicher auf dem USB-Stick "
+"geht verloren,\n"
+"wenn Sie installieren anstatt zu aktualisieren.</p></div>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To download only"
+msgstr "Nur herunterladen"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 6.9 directly:"
+msgstr ""
+"Wenn Sie keine Installations- oder Upgrade-Anweisungen benötigen, können Sie "
+"Tails 6.9 direkt herunterladen:"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr "- [[Für USB-Sticks (USB-Image)|install/download]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "- [[Für DVDs und virtuelle Maschinen (ISO-Image)|install/download-iso]]"

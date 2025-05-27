@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-11-23 12:57+0000\n"
+"PO-Revision-Date: 2023-07-14 16:35+0000\n"
+"Last-Translator: Chre <tor@renaudineau.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9.1\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Bullet: '   1. '
+msgid "Choose **Applications**&nbsp;▸ **Persistent Storage**."
+msgstr "Choisir **Applications**&nbsp;▸ **Stockage persistant**."
+
+#. type: Bullet: '   1. '
+msgid "Click on the **Change Passphrase** button on the left of the title bar."
+msgstr ""
+"Cliquer sur le bouton **Modifier la phrase de passe** à gauche de la barre "
+"de titre."
+
+#. type: Bullet: '   1. '
+msgid "Enter the current passphrase in the **Current Passphrase** text box."
+msgstr ""
+"Entrer la phrase de passe actuelle dans la boîte de dialogue **Phrase de "
+"passe actuelle**."
+
+#. type: Bullet: '   1. '
+msgid "Enter your new passphrase in the **New Passphrase** text box."
+msgstr ""
+"Entrer la nouvelle phrase de passe dans la boîte de dialogue **Nouvelle "
+"phrase de passe**."
+
+#. type: Bullet: '   1. '
+msgid ""
+"Enter your new passphrase again in the **Confirm New Passphrase** text box."
+msgstr ""
+"Entrer votre nouvelle phrase de passe une nouvelle fois dans la boîte de "
+"dialogue **Confirmer la nouvelle phrase de passe**."
+
+#. type: Bullet: '   1. '
+msgid "Click **Change**."
+msgstr "Cliquer sur **Modifier**."
+
+#. type: Bullet: '   1. '
+msgid "Close the **Persistent Storage** settings."
+msgstr "Fermer les paramètres du **stockage persistant**."

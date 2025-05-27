@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2022-02-25 15:40-0600\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Mon, 16 Mar 2015 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 16 Mar 2015 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Transition to a new OpenPGP signing key\"]]\n"
+msgstr "[[!meta title=\"Transició a una nova clau de signatura OpenPGP\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid "Tails is transitioning to a new OpenPGP signing key."
+msgstr "Tails està passant a una nova clau de signatura OpenPGP."
+
+#. type: Plain text
+msgid "The signing key is the key that we use to:"
+msgstr "La clau de signatura és la clau que fem servir per:"
+
+#. type: Bullet: '  - '
+msgid "Sign our official ISO images."
+msgstr "Signar les nostres imatges ISO oficials."
+
+#. type: Bullet: '  - '
+msgid ""
+"Certify the other [[OpenPGP keys|doc/about/openpgp_keys]] used by the "
+"project."
+msgstr ""
+"Certificar les altres [[claus OpenPGP|doc/about/openpgp_keys]] utilitzades "
+"pel projecte."
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"note\">\n"
+msgstr "<div class=\"note\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>The previous signing key is safe and, to the best of our knowledge, it\n"
+"has not been compromised.</p>\n"
+msgstr ""
+"<p>La clau de signatura anterior és segura i, segons el que sabem,\n"
+"no s'ha vist compromesa.</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>We are doing this change to improve our security practices when\n"
+"manipulating such a critical piece of data.</p>\n"
+msgstr ""
+"<p>Estem fent aquest canvi per millorar les nostres pràctiques de seguretat "
+"en\n"
+"manipular una eina tan crítica.</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr "</div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"tip\">\n"
+msgstr "<div class=\"tip\">\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<ul>\n"
+"  <li>The old key can still be used to verify Tails 1.3 ISO images.</li>\n"
+"  <li>The new key will be used to sign ISO images starting from Tails 1.3.1.</li>\n"
+"</ul>\n"
+msgstr ""
+"<ul>\n"
+"  <li>La clau antiga encara es pot utilitzar per verificar les imatges ISO "
+"de Tails 1.3.</li>\n"
+"  <li>La nova clau s'utilitzarà per signar imatges ISO a partir de Tails 1.3."
+"1.</li>\n"
+"</ul>\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Import and verify the new signing key"
+msgstr "Importar i verificar la nova clau de signatura"
+
+#. type: Plain text
+msgid ""
+"Click on the following button to download and import the new signing key:"
+msgstr ""
+"Feu clic al botó següent per baixar i importar la nova clau de signatura:"
+
+#. type: Plain text
+#, no-wrap
+msgid "<a class=\"download-key\" href=\"https://tails.net/tails-signing.key\">new Tails signing key</a>\n"
+msgstr ""
+"<a class=\"download-key\" href=\"https://tails.net/tails-signing.key\">nova "
+"clau de signatura de Tails</a>\n"
+
+#. type: Plain text
+msgid ""
+"The new signing key is itself signed by the old signing key. So you can "
+"transitively trust this new key if you had trusted the old signing key."
+msgstr ""
+"La clau de signatura nova està signada per l'antiga clau de signatura. Així, "
+"podeu confiar transitivament en aquesta nova clau si havíeu confiat en la "
+"clau de signatura antiga."
+
+#. type: Plain text
+msgid ""
+"To verify that the new key is correctly signed by the old key, you can "
+"execute the following command:"
+msgstr ""
+"Per verificar que la clau nova està signada correctament per la clau antiga, "
+"podeu executar l'ordre següent:"
+
+#. type: Plain text
+#, no-wrap
+msgid "    gpg --check-sigs A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+msgstr "    gpg --check-sigs A490D0F4D311A4153E2BB7CADBB802B258ACD84F\n"
+
+#. type: Plain text
+msgid ""
+"The output should include a signature of the new key by the old key such as:"
+msgstr ""
+"La sortida hauria d'incloure una signatura de la clau nova amb la clau "
+"antiga, com ara:"
+
+#. type: Plain text
+#, no-wrap
+msgid "    sig!         0x1202821CBE2CD9C1 2015-01-19  Tails developers (signing key) <tails@boum.org>\n"
+msgstr ""
+"    sig!         0x1202821CBE2CD9C1 2015-01-19  Tails developers (signing "
+"key) <tails@boum.org>\n"
+
+#. type: Plain text
+msgid ""
+"In this output, the status of the verification is indicated by a flag "
+"directly following the \"`sig`\" tag. A \"`!`\" indicates that the signature "
+"has been successfully verified."
+msgstr ""
+"En aquesta sortida, l'estat de la verificació s'indica mitjançant un "
+"indicador directament després de l'etiqueta \"`sig`\". Un \"`!`\" indica que "
+"la signatura s'ha verificat correctament."
+
+#. type: Title =
+#, no-wrap
+msgid "Security policy for the new signing key"
+msgstr "Política de seguretat per a la nova clau de signatura"
+
+#. type: Plain text
+msgid "Here is the full description of the new signing key:"
+msgstr "Aquí teniu la descripció completa de la nova clau de signatura:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<pre>\n"
+"    pub   4096R/0xDBB802B258ACD84F 2015-01-18 [expires: 2017-01-11]\n"
+"          Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC D84F\n"
+"    uid                 [ unknown] Tails developers (offline long-term identity key) <tails@boum.org>\n"
+"    uid                 [ unknown] Tails developers <tails@boum.org>\n"
+"    sub   4096R/0x98FEC6BC752A3DB6 2015-01-18 [expires: 2017-01-11]\n"
+"    sub   4096R/0x3C83DCB52F699C56 2015-01-18 [expires: 2017-01-11]\n"
+"</pre>\n"
+msgstr ""
+"<pre>\n"
+"    pub   4096R/0xDBB802B258ACD84F 2015-01-18 [expires: 2017-01-11]\n"
+"          Key fingerprint = A490 D0F4 D311 A415 3E2B  B7CA DBB8 02B2 58AC "
+"D84F\n"
+"    uid                 [ unknown] Tails developers (offline long-term "
+"identity key) <tails@boum.org>\n"
+"    uid                 [ unknown] Tails developers <tails@boum.org>\n"
+"    sub   4096R/0x98FEC6BC752A3DB6 2015-01-18 [expires: 2017-01-11]\n"
+"    sub   4096R/0x3C83DCB52F699C56 2015-01-18 [expires: 2017-01-11]\n"
+"</pre>\n"
+
+#. type: Plain text
+msgid "You can see that it has:"
+msgstr "Podeu veure que té:"
+
+#. type: Bullet: '  - '
+msgid ""
+"A primary key (marked as `pub`) with ID `0xDBB802B258ACD84F`. This primary "
+"key:"
+msgstr ""
+"Una clau primària (marcada com a `pub`) amb l'identificador "
+"`0xDBB802B258ACD84F`. Aquesta clau primària:"
+
+#. type: Bullet: '    - '
+msgid ""
+"Is not owned in a usable format by any single individual. It is split "
+"cryptographically using gfshare."
+msgstr ""
+"No és propietat en un format utilitzable per cap individu. Es divideix "
+"criptogràficament mitjançant gfshare."
+
+#. type: Bullet: '    - '
+msgid "Is only used offline, in an air-gapped Tails."
+msgstr "Només s'utilitza fora de línia, en un Tails amb buit d'aire."
+
+#. type: Bullet: '    - '
+msgid ""
+"Expires in less than one year. We will extend its validity as many times as "
+"we find reasonable."
+msgstr ""
+"Caduca en menys d'un any. Estendrem la seva validesa tantes vegades com "
+"considerem raonable."
+
+#. type: Bullet: ' - '
+msgid ""
+"Two subkeys (marked as `sub`) with IDs `0x98FEC6BC752A3DB6` and "
+"`0x3C83DCB52F699C56` which are stored on OpenPGP smartcards and owned by our "
+"release managers.  Smartcards ensure that the cryptographic operations are "
+"done on the smartcard itself and that the secret cryptographic material is "
+"not directly available to the operating system using it."
+msgstr ""
+"Dues subclaus (marcades com a `sub`) amb els identificadors "
+"`0x98FEC6BC752A3DB6` i `0x3C83DCB52F699C56` que s'emmagatzemen a les "
+"targetes intel·ligents OpenPGP i són propietat dels nostres gestors de "
+"llançaments. Les targetes intel·ligents garanteixen que les operacions "
+"criptogràfiques es realitzen a la mateixa targeta intel·ligent i que el "
+"material criptogràfic secret no estigui directament disponible per al "
+"sistema operatiu que l'utilitzi."
+
+#. type: Title =
+#, no-wrap
+msgid "Web-of-Trust with the Debian keyring"
+msgstr "Web de confiança amb l'anell de claus de Debian"
+
+#. type: Plain text
+msgid ""
+"This new signing key has already been signed by various Debian developers, "
+"namely:"
+msgstr ""
+"Aquesta nova clau de signatura ja ha estat signada per diversos "
+"desenvolupadors de Debian:"
+
+#. type: Bullet: '   - '
+msgid "gregor herrmann <gregoa@debian.org>, with key `0xBB3A68018649AA06`"
+msgstr "gregor herrmann <gregoa@debian.org>, amb la clau `0xBB3A68018649AA06`"
+
+#. type: Bullet: '   - '
+msgid "Holger Levsen <holger@debian.org>, with key `0x091AB856069AAA1C`"
+msgstr "Holger Levsen <holger@debian.org>, amb la clau `0x091AB856069AAA1C`"
+
+#. type: Bullet: '   - '
+msgid "Stefano Zacchiroli <zack@debian.org>, with key `0x9C31503C6D866396`"
+msgstr "Stefano Zacchiroli <zack@debian.org>, amb la clau `0x9C31503C6D866396`"
+
+#. type: Plain text
+msgid ""
+"So you can use the technique described in our documentation to further "
+"verify the Tails signing key against the Debian keyring using any of those "
+"three keys."
+msgstr ""
+"Així que podeu utilitzar la tècnica descrita a la nostra documentació per "
+"verificar encara més la clau de signatura de Tails amb l'anell de claus de "
+"Debian utilitzant qualsevol d'aquestes tres claus."

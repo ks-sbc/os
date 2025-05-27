@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-05-06 14:17+0000\n"
+"PO-Revision-Date: 2025-05-17 14:56+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 6.15\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Thu, 01 May 2025 00:00:00 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [14.5.1](https://blog.torproject.org/new-release-"
+"tor-browser-1451)."
+msgstr ""
+
+#. type: Plain text
+msgid "- Update the *Linux* kernel to 6.1.135."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Make sure Tails cannot store data in UEFI variables or ACPI tables when "
+"crashing.  ([[!tails_ticket 20813]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Fix the appearance of the GRUB Boot Loader with Secure Boot.  ([[!"
+"tails_ticket 20899]])"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Remove firmware for the Wi-Fi interfaces based on the BCM4301 and BCM4306 "
+"chips. ([[!tails_ticket 20887]])"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  We believe that these interfaces are only available on computers that are too\n"
+"  old to start Tails. Please [[let us know|support#talk]] if your Wi-Fi stopped\n"
+"  working in Tails 6.15.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"The *Unsafe Browser* appears in the window list bar with the *Tor Browser* "
+"icon.  ([[!tails_ticket 20934]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"[[Additional software|persistent_storage/additional_software]] may initially "
+"fail to install the first time you start Tails after upgrading. This should "
+"be fixed shortly after you connect to Tor."
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Connecting to the Internet with *USB tethering* is broken with some phones.  "
+"([[!tails_ticket 20940]])"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 6.15</h1>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 6.0 or later to 6.15."
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails 6.15 on a new USB stick"
+msgstr ""
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 6.15 directly:"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr ""

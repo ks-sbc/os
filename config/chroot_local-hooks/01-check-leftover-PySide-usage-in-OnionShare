@@ -1,0 +1,20 @@
+#!/bin/sh
+
+set -eu
+
+echo 'Checking leftover PySide usage in OnionShare'
+
+if grep \
+    --extended-regexp \
+    --recursive \
+    --include='*.py' \
+    '^\s*(import|from)\s+PySide[26]' \
+    /usr/lib/python3/dist-packages/onionshare/; then
+    echo "OnionShare still contains instances of PySide usage. " \
+        "If you are building Tails based on Trixie, delete this check, " \
+        "which is now obsolete. Otherwise, update the patch that ports to QtPy " \
+        "in our custom backport to Bookworm: " \
+        "https://salsa.debian.org/pkg-privacy-team/onionshare/-/tree/tails/6.x" \
+        >&2
+    exit 1
+fi

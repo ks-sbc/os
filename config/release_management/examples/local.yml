@@ -1,0 +1,12 @@
+# The directory where one stores `tails-amd64-*` sub-directories,
+# like the ones downloaded with BitTorrent.
+isos: FIXME
+# The directory where build artifacts (e.g. the `.packages` file) land.
+artifacts: FIXME
+# A checkout of the `master` branch of the main Tails Git repository.
+master_checkout: FIXME
+# The checkout of the branch of the main Tails Git repository
+# used to prepare the release (`stable` or `testing`).
+release_checkout: FIXME
+# A checkout of https://gitlab.torproject.org/tpo/web/blog
+tor_blog_checkout: FIXME

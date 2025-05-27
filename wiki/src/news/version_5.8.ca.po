@@ -1,0 +1,1118 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 5.8 is out\"]]\n"
+msgstr "[[!meta title=\"Tails 5.8\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 20 Dec 2022 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 20 Dec 2022 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"Tails 5.8 is the most important release of Tails in years. It includes both "
+"major redesign of existing features, important usability improvements, and "
+"hardened security."
+msgstr ""
+"Tails 5.8 és la versió més important de Tails en anys. Inclou tant un "
+"redisseny important de les funcions existents, millores importants "
+"d'usabilitat i una seguretat reforçada."
+
+#. type: Plain text
+msgid ""
+"This work has been made possible by donations from users like you. If you "
+"like these changes and want more, donate now to fund our work in 2023."
+msgstr ""
+"Aquest treball ha estat possible gràcies a les donacions d'usuaris com vós. "
+"Si us agraden aquests canvis i en voleu més, feu una donació ara per "
+"finançar la nostra feina el 2023."
+
+#. type: Plain text
+msgid "[[**Donate now to fund our work in 2023.**|donate]]"
+msgstr "[[**Dona ara per finançar la nostra feina el 2023.**|donate]]"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=3]]\n"
+msgstr "[[!toc levels=3]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr "<h1 id=\"features\">Noves funcionalitats</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "New Persistent Storage"
+msgstr "Nou Emmagatzematge Persistent"
+
+#. type: Plain text
+msgid ""
+"After 2 years of hard work, we are extremely proud to present you a complete "
+"redesign of the Persistent Storage."
+msgstr ""
+"Després de 2 anys de treball dur, estem molt orgullosos de presentar-vos un "
+"redisseny complet de l'Emmagatzematge Persistent."
+
+#. type: Plain text
+msgid ""
+"The Persistent Storage hasn't changed much since its first release in 2012 "
+"because the code was hard to modify and improve. But, we learned from users "
+"that the Persistent Storage could do a lot more for you if it had more "
+"features and was easier to use."
+msgstr ""
+"L'Emmagatzematge Persistent no ha canviat gaire des del seu primer "
+"llançament el 2012 perquè el codi era difícil de modificar i millorar. Però, "
+"vam aprendre dels usuaris que l'Emmagatzematge Persistent podria fer molt "
+"més per vosaltres si tingués més funcions i fos més fàcil d'utilitzar."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img create.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img create.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img configure.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img configure.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Bullet: '- '
+msgid ""
+"You don't have to restart anymore after creating the Persistent Storage or "
+"each time you activate a new feature."
+msgstr ""
+"Ja no cal que reinicieu després de crear l'Emmagatzematge Persistent o cada "
+"vegada que activeu una funció nova."
+
+#. type: Bullet: '- '
+msgid ""
+"You can change the password of your Persistent Storage from this new "
+"application."
+msgstr ""
+"Podeu canviar la contrasenya del vostre Emmagatzematge Persistent des "
+"d'aquesta nova aplicació."
+
+#. type: Bullet: '- '
+msgid ""
+"You can choose to create a Persistent Storage directly from the Welcome "
+"Screen, if you don't have one already."
+msgstr ""
+"Podeu triar crear un Emmagatzematge Persistent directament des de la "
+"Pantalla de Benvinguda, si encara no en teniu cap."
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img onboard.png link=\"no\" alt=\"\"]]\n"
+msgstr "  [[!img onboard.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Wayland and better Unsafe Browser"
+msgstr "Wayland i millor Navegador Insegur"
+
+#. type: Plain text
+msgid "We replaced the deprecated X.Org display system with Wayland."
+msgstr "Hem substituït el sistema de visualització X.Org obsolet per Wayland."
+
+#. type: Plain text
+msgid ""
+"Even if you won't notice any visual difference, Wayland brings more security "
+"in depth to Tails by making it harder for a compromised application in Tails "
+"to compromise or misuse another application."
+msgstr ""
+"Fins i tot si no noteu cap diferència visual, Wayland aporta més seguretat "
+"en profunditat a Tails ja que és més difícil que una aplicació compromesa a "
+"Tails comprometi o faci un mal ús d'una altra aplicació."
+
+#. type: Plain text
+msgid ""
+"For example, since [[Tails 4.8|news/version_4.8]], the *Unsafe Browser* was "
+"disabled by default because a security vulnerability in another application "
+"in Tails could start an invisible *Unsafe Browser*, reveal your IP address, "
+"and [[deanonymize you|doc/anonymous_internet/unsafe_browser#security]]."
+msgstr ""
+"Per exemple, des de la versió [[Tails 4.8|news/version_4.8]], el *Navegador "
+"Insegur* es va desactivar de manera predeterminada perquè una vulnerabilitat "
+"de seguretat en una altra aplicació de Tails podria iniciar un *Navegador "
+"Insegur* invisible, revelar la vostra adreça IP i [[desanonimitzar-vos|doc/"
+"anonymous_internet/unsafe_browser#security]]."
+
+#. type: Plain text
+msgid ""
+"Wayland fixes this vulnerability and makes it safe to reenable the *Unsafe "
+"Browser* by default. You can still disable the *Unsafe Browser* in the "
+"Welcome Screen."
+msgstr ""
+"Wayland soluciona aquesta vulnerabilitat i fa que sigui segur tornar a "
+"habilitar el *Navegador Insegur* de manera predeterminada. Encara podeu "
+"desactivar el *Navegador Insegur* a la Pantalla de Benvinguda."
+
+#. type: Plain text
+msgid ""
+"Wayland also brings in other features that were not working yet in the "
+"*Unsafe Browser*:"
+msgstr ""
+"Wayland també inclou altres funcions que encara no funcionaven al *Navegador "
+"Insegur*:"
+
+#. type: Plain text
+msgid ""
+"- Sound - Uploads and downloads - Alternative input methods for Chinese and "
+"other non-Latin languages - Accessibility features like the screen reader "
+"and virtual keyboard"
+msgstr ""
+"- So\n"
+"- Càrregues i baixades\n"
+"- Mètodes d'entrada alternatius per al xinès i altres idiomes no llatins\n"
+"- Funcions d'accessibilitat com el lector de pantalla i el teclat virtual"
+
+#. type: Title ##
+#, no-wrap
+msgid "QR code scanning of Tor bridges"
+msgstr "Escaneig de codis QR dels ponts de Tor"
+
+#. type: Plain text
+msgid ""
+"We made it easier to enter new Tor bridges in Tails by scanning a QR code."
+msgstr ""
+"Hem facilitat la introducció de nous ponts de Tor a Tails escanejant un codi "
+"QR."
+
+#. type: Plain text
+msgid "To get a QR code, you can either:"
+msgstr "Per obtenir un codi QR, podeu:"
+
+#. type: Bullet: '- '
+msgid ""
+"Send an empty email to <bridges@torproject.org> from a Gmail or Riseup email "
+"address."
+msgstr ""
+"Enviar un correu electrònic buit a <bridges@torproject.org> des d'una adreça "
+"de correu electrònic de Gmail o Riseup."
+
+#. type: Bullet: '- '
+msgid ""
+"Get bridges from <https://bridges.torproject.org/> and print the QR code on "
+"paper."
+msgstr ""
+"Obtenir ponts a <https://bridges.torproject.org/> i imprimir el codi QR en "
+"paper."
+
+#. type: Plain text
+msgid ""
+"We are aware that the QR codes that are currently provided are too big to be "
+"easy to scan. We are [working with Tor](https://gitlab.torproject.org/tpo/"
+"anti-censorship/bridgedb/-/issues/40052)  to make them smaller and easier to "
+"scan."
+msgstr ""
+"Som conscients que els codis QR que es proporcionen actualment són massa "
+"grans per ser fàcils d'escanejar. Estem [treballant amb Tor](https://gitlab."
+"torproject.org/tpo/anti-censorship/bridgedb/-/issues/40052) per fer-los més "
+"petits i més fàcils d'escanejar."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img test_5.8-beta1/qr_code.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img test_5.8-beta1/qr_code.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [12.0.1](https://blog.torproject.org/new-release-"
+"tor-browser-1201)."
+msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [12.0.1](https://blog."
+"torproject.org/new-release-tor-browser-1201)."
+
+#. type: Plain text
+msgid ""
+"- Update *Thunderbird* to [102.6.0](https://www.thunderbird.net/en-US/"
+"thunderbird/102.6.0/releasenotes/)."
+msgstr ""
+"- S'ha actualitzat *Thunderbird* a la versió [102.6.0](https://www."
+"thunderbird.net/en-US/thunderbird/102.6.0/releasenotes/)."
+
+#. type: Plain text
+msgid "- Update *Tor* to 0.4.7.12."
+msgstr "- S'ha actualitzat *Tor* a la versió 0.4.7.12."
+
+#. type: Plain text
+msgid "- Remove the *Dasher* graphical text entry application."
+msgstr "- S'ha suprimit l'aplicació d'entrada de text gràfic *Dasher*."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
+
+#. type: Plain text
+msgid "We fixed 3 usability issues in the *Tor Connection* assistant:"
+msgstr ""
+"Hem solucionat tres problemes d'usabilitat a l'assistent de *Connexió Tor*:"
+
+#. type: Plain text
+msgid ""
+"- Display a percentage on the connection progress bar. ([[!tails_ticket "
+"19208]])"
+msgstr ""
+"- Es mostra un percentatge a la barra de progrés de la connexió. ([["
+"!tails_ticket 19208]])"
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img progress.png link=\"no\" alt=\"\"]]\n"
+msgstr "  [[!img progress.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+msgid "- Fix links to documentation. ([[!tails_ticket 19172]])"
+msgstr ""
+"- S'han corregit els enllaços a la documentació. ([[!tails_ticket 19172]])"
+
+#. type: Plain text
+msgid ""
+"- Add a **Bridge** label in front of the line to enter a custom bridge. ([[!"
+"tails_ticket 19169]])"
+msgstr ""
+"- S'ha afegit una etiqueta **Pont** davant de la línia per introduir un pont "
+"personalitzat. ([[!tails_ticket 19169]])"
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
+"\"]]."
+msgstr ""
+"Per a més detalls, llegiu el nostre [[!tails_gitweb debian/changelog desc="
+"\"registre de canvis\"]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
+
+#. type: Plain text
+msgid ""
+"If you are facing some of these issues, try downgrading to Tails 5.7. To do "
+"so:"
+msgstr ""
+"Si teniu alguns d'aquests problemes, proveu de baixar Tails 5.7. Per fer-ho:"
+
+#. type: Plain text
+msgid ""
+"- Download [Tails 5.7](https://iso-history.tails.boum.org/tails-amd64-5.7/)  "
+"- Do a [[manual upgrade|upgrade#manual]] to Tails 5.7."
+msgstr ""
+"- Baixeu [Tails 5.7](https://iso-history.tails.boum.org/tails-amd64-5.7/)\n"
+"- Feu una [[actualització manual|upgrade#manual]] a Tails 5.7."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"qt\">Problems with Qt applications like <i>Kleopatra</i> and <i>Feather</i></h2>\n"
+msgstr ""
+"<h2 id=\"qt\">Problemes amb aplicacions Qt com <i>Kleopatra</i> i "
+"<i>Feather</i></h2>\n"
+
+#. type: Plain text
+msgid ""
+"Applications using the Qt toolkit have issues in Wayland. You can work "
+"around these issues by running these applications using XWayland instead."
+msgstr ""
+"Les aplicacions que utilitzen el conjunt d'eines Qt tenen problemes a "
+"Wayland. Podeu solucionar aquests problemes executant aquestes aplicacions "
+"mitjançant XWayland."
+
+#. type: Title ###
+#, no-wrap
+msgid "Clipboard encryption and decryption is broken in *Kleopatra* ([[!tails_ticket 19329]])"
+msgstr ""
+"L'encriptatge i el desencriptatge del porta-retalls estan trencats a "
+"*Kleopatra* ([[!tails_ticket 19329]])"
+
+#. type: Plain text
+msgid "To fix this:"
+msgstr "Per solucionar això:"
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Terminal** to open a "
+"terminal."
+msgstr ""
+"Trieu **Aplicacions**&nbsp;▸ **Utilitats**&nbsp;▸ **Terminal** per obrir un "
+"terminal."
+
+#. type: Bullet: '1. '
+msgid "Execute the following command in the terminal:"
+msgstr "Executeu l'ordre següent al terminal:"
+
+#. type: Plain text
+#, no-wrap
+msgid "       unset QT_QPA_PLATFORM & kleopatra &\n"
+msgstr "       unset QT_QPA_PLATFORM & kleopatra &\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"   This only works if *Kleopatra* has never been started since Tails started.\n"
+"   Otherwise, execute this command and try again:\n"
+msgstr ""
+"   Això només funciona si *Kleopatra* no s'ha iniciat des que s'ha iniciat "
+"Tails.\n"
+"   En cas contrari, executeu aquesta ordre i torneu-ho a provar:\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "       killall kleopatra\n"
+msgstr "       killall kleopatra\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "AppImages like *Feather* wallet and *Bitcoin-Qt* fail to load ([[!tails_ticket 19326]])"
+msgstr ""
+"Imatges d'aplicacions com la cartera *Feather* i *Bitcoin-Qt* no es poden "
+"carregar ([[!tails_ticket 19326]])"
+
+#. type: Bullet: '1. '
+msgid "Navigate to your AppImage in the *Files* browser."
+msgstr "Navegueu a la vostra AppImage al navegador de *Fitxers*."
+
+#. type: Bullet: '1. '
+msgid ""
+"Do right-click (on Mac, click with two fingers) in the folder and choose "
+"**Open in Terminal**."
+msgstr ""
+"Feu clic amb el botó dret (a Mac, feu clic amb dos dits) a la carpeta i "
+"trieu **Obre al terminal**."
+
+#. type: Bullet: '1. '
+msgid "Execute the following command in the terminal to start your AppImage."
+msgstr "Executeu l'ordre següent al terminal per iniciar l'AppImage."
+
+#. type: Plain text
+#, no-wrap
+msgid "   Replace:\n"
+msgstr "   Substituïu:\n"
+
+#. type: Bullet: '   - '
+msgid ""
+"<span class=\"command-placeholder\">application.AppImage</span> by the file "
+"name of your AppImage."
+msgstr ""
+"<span class=\"command-placeholder\">application.AppImage</span> pel nom de "
+"fitxer de la vostra AppImage."
+
+#. type: Plain text
+#, no-wrap
+msgid "   <p class=\"pre command\">unset QT_QPA_PLATFORM ; ./<span class=\"command-placeholder\">application.AppImage</span></p>\n"
+msgstr ""
+"   <p class=\"pre command\">unset QT_QPA_PLATFORM ; ./<span class=\"command-"
+"placeholder\">application.AppImage</span></p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "   For example, to start the *Feather* wallet version 2.1.2, execute:\n"
+msgstr ""
+"   Per exemple, per iniciar la versió 2.1.2 de la cartera *Feather*, "
+"executeu:\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "       unset QT_QPA_PLATFORM ; ./feather-2.1.2.AppImage\n"
+msgstr "       unset QT_QPA_PLATFORM ; ./feather-2.1.2.AppImage\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"graphics\">Some graphics cards stopped working in Tails 5.8 ([[!tails_ticket 19353]])</h2>\n"
+msgstr ""
+"<h2 id=\"graphics\">Algunes targetes gràfiques van deixar de funcionar a "
+"Tails 5.8 ([[!tails_ticket 19353]])</h2>\n"
+
+#. type: Plain text
+msgid ""
+"People have reported us several graphics cards that used to work in Tails "
+"5.7 and stopped working in Tails 5.8:"
+msgstr ""
+"La gent ens ha informat de diverses targetes gràfiques que solien funcionar "
+"a Tails 5.7 i que han deixat de funcionar a Tails 5.8:"
+
+#. type: Bullet: '- '
+msgid "Nvidia"
+msgstr "Nvidia"
+
+#. type: Bullet: '  * '
+msgid "`10de:0a70` GeForce 310M"
+msgstr "`10de:0a70` GeForce 310M"
+
+#. type: Bullet: '  * '
+msgid "`10de:1f82` GeForce GTX 1650: this is fixed in Tails 5.9"
+msgstr "`10de:1f82` GeForce GTX 1650: això s'ha solucionat a Tails 5.9"
+
+#. type: Bullet: '  * '
+msgid "`10de:220a` RTX 3080"
+msgstr "`10de:220a` RTX 3080"
+
+#. type: Bullet: '  * '
+msgid "`10de:2482` GA104 GeForce RTX 3070 Ti"
+msgstr "`10de:2482` GA104 GeForce RTX 3070 Ti"
+
+#. type: Bullet: '  * '
+msgid "`10de:2486` GA104 GeForce RTX 3060 Ti: this is fixed in Tails 5.9"
+msgstr "`10de:2486` GA104 GeForce RTX 3060 Ti: això s'ha arreglat a Tails 5.9"
+
+#. type: Bullet: '  * '
+msgid "`10de:2488` RTX 3070: this is fixed in Tails 5.9"
+msgstr "`10de:2488` RTX 3070: això s'ha solucionat a Tails 5.9"
+
+#. type: Bullet: '  * '
+msgid "`10de:2489` RTX 3060 Ti"
+msgstr "`10de:2489` RTX 3060 Ti"
+
+#. type: Bullet: '  * '
+msgid "`10de:24dc` GA104M GeForce RTX 3080 Mobile"
+msgstr "`10de:24dc` GA104M GeForce RTX 3080 Mobile"
+
+#. type: Bullet: '  * '
+msgid "`10de:2504` RTX: this is fixed in Tails 5.9"
+msgstr "`10de:2504` RTX: això s'ha solucionat a Tails 5.9"
+
+#. type: Bullet: '  * '
+msgid "`10de:2560` GA106M GeForce RTX 3060 Mobile"
+msgstr "`10de:2560` GA106M GeForce RTX 3060 Mobile"
+
+#. type: Bullet: '  * '
+msgid "GeForce RTX 3060 Ti Founders Edition: this is fixed in Tails 5.9"
+msgstr "GeForce RTX 3060 Ti Founders Edition: això s'ha solucionat a Tails 5.9"
+
+#. type: Bullet: '  * '
+msgid "`10de:25e0`"
+msgstr "`10de:25e0`"
+
+#. type: Bullet: '- '
+msgid "Intel"
+msgstr "Intel"
+
+#. type: Bullet: '  * '
+msgid "`8086:0046` Core Processor Integrated Graphic Controller"
+msgstr "`8086:0046` Core Processor Integrated Graphic Controller"
+
+#. type: Bullet: '    - '
+msgid "This will be fixed in Tails 5.9 with an update of the Linux kernel."
+msgstr ""
+"Això es solucionarà a Tails 5.9 amb una actualització del nucli de Linux."
+
+#. type: Bullet: '  * '
+msgid "`8086:0a16` Haswell-ULT Integrated Graphics Controller"
+msgstr "`8086:0a16` Haswell-ULT Integrated Graphics Controller"
+
+#. type: Bullet: '  * '
+msgid "`8086:1916` Skylake GT2"
+msgstr "`8086:1916` Skylake GT2"
+
+#. type: Bullet: '    - '
+msgid ""
+"Add the `i915.force_probe=1916` [[boot option|doc/advanced_topics/"
+"boot_options]] and [let us know](mailto:tails-bugs@boum.org) whether it "
+"helps."
+msgstr ""
+"Afegiu l'[[opció d'arrencada|doc/advanced_topics/boot_options]] `i915."
+"force_probe=1916` i [feu-nos saber](mailto:tails-bugs@boum.org) si us ajuda."
+
+#. type: Bullet: '  * '
+msgid "`8086:3185` GeminiLake (UHD Graphics 600)"
+msgstr "`8086:3185` GeminiLake (UHD Graphics 600)"
+
+#. type: Bullet: '    - '
+msgid ""
+"Add the `i915.force_probe=3185` [[boot option|doc/advanced_topics/"
+"boot_options]] and [let us know](mailto:tails-bugs@boum.org) whether it "
+"helps."
+msgstr ""
+"Afegiu l'[[opció d'arrencada|doc/advanced_topics/boot_options]] `i915."
+"force_probe=3185` i [feu-nos saber](mailto:tails-bugs@boum.org) si us ajuda."
+
+#. type: Bullet: '  * '
+msgid "`8086:4690`"
+msgstr "`8086:4690`"
+
+#. type: Bullet: '    - '
+msgid ""
+"Add the `i915.force_probe=4690` [[boot option|doc/advanced_topics/"
+"boot_options]] and [let us know](mailto:tails-bugs@boum.org) whether it "
+"helps."
+msgstr ""
+"Afegiu l'[[opció d'arrencada|doc/advanced_topics/boot_options]] `i915."
+"force_probe=4690` i [feu-nos saber](mailto:tails-bugs@boum.org) si us ajuda."
+
+#. type: Bullet: '  * '
+msgid "`8086:4692` UHD Graphics 730"
+msgstr "`8086:4692` UHD Graphics 730"
+
+#. type: Bullet: '    - '
+msgid ""
+"Add the `i915.force_probe=4692` [[boot option|doc/advanced_topics/"
+"boot_options]] and [let us know](mailto:tails-bugs@boum.org) whether it "
+"helps."
+msgstr ""
+"Afegiu l'[[opció d'arrencada|doc/advanced_topics/boot_options]] `i915."
+"force_probe=4692` i [feu-nos saber](mailto:tails-bugs@boum.org) si us ajuda."
+
+#. type: Bullet: '  * '
+msgid "`8086:46a6` Alder Lake-P"
+msgstr "`8086:46a6` Alder Lake-P"
+
+#. type: Bullet: '    - '
+msgid ""
+"Add the `i915.force_probe=46a6` [[boot option|doc/advanced_topics/"
+"boot_options]] and [let us know](mailto:tails-bugs@boum.org) whether it "
+"helps."
+msgstr ""
+"Afegiu l'[[opció d'arrencada|doc/advanced_topics/boot_options]] `i915."
+"force_probe=46a6` i [feu-nos saber](mailto:tails-bugs@boum.org) si us ajuda."
+
+#. type: Bullet: '  * '
+msgid "`8086:46a8`"
+msgstr "`8086:46a8`"
+
+#. type: Bullet: '    - '
+msgid ""
+"Add the `i915.force_probe=46a8` [[boot option|doc/advanced_topics/"
+"boot_options]] and [let us know](mailto:tails-bugs@boum.org) whether it "
+"helps."
+msgstr ""
+"Afegiu l'[[opció d'arrencada|doc/advanced_topics/boot_options]] `i915."
+"force_probe=46a8` i [feu-nos saber](mailto:tails-bugs@boum.org) si us ajuda."
+
+#. type: Bullet: '  * '
+msgid "`8086:4e55`"
+msgstr "`8086:4e55`"
+
+#. type: Bullet: '    - '
+msgid ""
+"To fix this, add the `i915.force_probe=4e55` [[boot option|doc/"
+"advanced_topics/boot_options]]."
+msgstr ""
+"Per solucionar-ho, afegiu l'[[opció d'arrencada|doc/advanced_topics/"
+"boot_options]] `i915.force_probe=4e55`."
+
+#. type: Bullet: '  * '
+msgid "`8086:4e71`"
+msgstr "`8086:4e71`"
+
+#. type: Bullet: '    - '
+msgid ""
+"Add the `i915.force_probe=4e71` [[boot option|doc/advanced_topics/"
+"boot_options]] and [let us know](mailto:tails-bugs@boum.org) whether it "
+"helps."
+msgstr ""
+"Afegiu l'[[opció d'arrencada|doc/advanced_topics/boot_options]] `i915."
+"force_probe=4e71` i [feu-nos saber](mailto:tails-bugs@boum.org) si us ajuda."
+
+#. type: Bullet: '  * '
+msgid "`8086:5917`"
+msgstr "`8086:5917`"
+
+#. type: Bullet: '    - '
+msgid ""
+"Add the `i915.force_probe=5917` [[boot option|doc/advanced_topics/"
+"boot_options]] and [let us know](mailto:tails-bugs@boum.org) whether it "
+"helps."
+msgstr ""
+"Afegiu l'[[opció d'arrencada|doc/advanced_topics/boot_options]] `i915."
+"force_probe=5917` i [feu-nos saber](mailto:tails-bugs@boum.org) si us ajuda."
+
+#. type: Bullet: '  * '
+msgid "`8086:8a56`"
+msgstr "`8086:8a56`"
+
+#. type: Bullet: '    - '
+msgid ""
+"To fix this, add the `i915.force_probe=8a56` [[boot option|doc/"
+"advanced_topics/boot_options]]."
+msgstr ""
+"Per solucionar-ho, afegiu l'[[opció d'arrencada|doc/advanced_topics/"
+"boot_options]] `i915.force_probe=8a56`."
+
+#. type: Bullet: '- '
+msgid "AMD"
+msgstr "AMD"
+
+#. type: Bullet: '  * '
+msgid "`1002:1506`"
+msgstr "`1002:1506`"
+
+#. type: Bullet: '  * '
+msgid "`1002:15e7`"
+msgstr "`1002:15e7`"
+
+#. type: Bullet: '  * '
+msgid "`1002:6605` Radeon R7 M260X"
+msgstr "`1002:6605` Radeon R7 M260X"
+
+#. type: Bullet: '  * '
+msgid "`1002:6649` Bonaire FirePro W5100"
+msgstr "`1002:6649` Bonaire FirePro W5100"
+
+#. type: Bullet: '  * '
+msgid "`1002:73df` RX Radeon 6700XT (Navi 22)"
+msgstr "`1002:73df` RX Radeon 6700XT (Navi 22)"
+
+#. type: Bullet: '  * '
+msgid "`1002:73ff` Navi 23"
+msgstr "`1002:73ff` Navi 23"
+
+#. type: Bullet: '  * '
+msgid "`1002:743f` RX 6400"
+msgstr "`1002:743f` RX 6400"
+
+#. type: Bullet: '- '
+msgid "If the error message lists multiple graphics cards:"
+msgstr "Si el missatge d'error mostra diverses targetes gràfiques:"
+
+#. type: Bullet: '  - '
+msgid ""
+"If possible, plug the monitor into the motherboard's Intel graphics card, as "
+"opposed to the external Nvidia or AMD/ATI graphics card."
+msgstr ""
+"Si és possible, connecteu el monitor a la targeta gràfica Intel de la placa "
+"base, a diferència de la targeta gràfica externa Nvidia o AMD/ATI."
+
+#. type: Bullet: '  - '
+msgid ""
+"Explicitly select one of the two graphics adapters in the BIOS instead of "
+"letting the system choose one automatically. If this does not solve the "
+"problem, try selecting the other graphics adapter."
+msgstr ""
+"Seleccioneu explícitament un dels dos adaptadors de gràfics de la BIOS en "
+"lloc de deixar que el sistema en triï un automàticament. Si això no resol el "
+"problema, proveu de seleccionar l'altre adaptador de gràfics."
+
+#. type: Bullet: '  - '
+msgid ""
+"Add the `nouveau.modeset=0` [[boot option|doc/advanced_topics/"
+"boot_options]].  This will force the system to use your other graphics "
+"cards, instead of the NVIDIA one."
+msgstr ""
+"Afegiu l'[[opció d'arrencada|doc/advanced_topics/boot_options]] `nouveau."
+"modeset=0`. Això obligarà el sistema a utilitzar les vostres altres targetes "
+"gràfiques, en lloc de la NVIDIA."
+
+#. type: Plain text
+msgid ""
+"These graphics card probably don't work as good on Wayland as they used to "
+"work on X.Org."
+msgstr ""
+"Probablement, aquestes targetes gràfiques no funcionen tan bé a Wayland com "
+"abans funcionaven a X.Org."
+
+#. type: Plain text
+msgid "Unfortunately, we have no solution to offer you so far."
+msgstr "Malauradament, fins ara no tenim cap solució per oferir-vos."
+
+#. type: Plain text
+msgid ""
+"We hope that this gets fixed in the next update of the Linux kernel, maybe "
+"in Tails 5.9."
+msgstr ""
+"Esperem que això es solucioni en la propera actualització del nucli de "
+"Linux, potser a Tails 5.9."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2 id=\"ps\">Persistent Storage fails to load with symbolic links in Dotfiles ([[!tails_ticket 19346]])</h2>\n"
+msgstr ""
+"<h2 id=\"ps\">L'Emmagatzematge Persistent no es pot carregar amb enllaços "
+"simbòlics a Dotfiles ([[!tails_ticket 19346]])</h2>\n"
+
+#. type: Plain text
+msgid ""
+"If you have [[!wikipedia Symbolic_link desc=\"symbolic links\"]] in the "
+"[[Dotfiles|doc/persistent_storage/configure#dotfiles]] feature of your "
+"Persistent Storage, your Persistent Storage fails to load with the error "
+"message:"
+msgstr ""
+"Si teniu [[!wikipedia Symbolic_link desc=\"enllaços simbòlics\"]] a la "
+"funció [[Dotfiles|doc/persistent_storage/configure#dotfiles]] del vostre "
+"Emmagatzematge Persistent, el vostre Emmagatzematge Persistent no es carrega "
+"i mostra el següent missatge d'error:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Failed to activate the Persistent Storage.\n"
+"    Please start Tails and send an error report.\n"
+msgstr ""
+"    No s'ha pogut activar l'Emmagatzematge Persistent.\n"
+"    Inicieu Tails i envieu un informe d'error.\n"
+
+#. type: Plain text
+msgid "To fix this, remove or replace these symbolic links."
+msgstr "Per solucionar-ho, elimineu o substituïu aquests enllaços simbòlics."
+
+#. type: Plain text
+msgid ""
+"The following instructions explain how to access the content of your "
+"Persistent Storage."
+msgstr ""
+"Les instruccions següents expliquen com accedir al contingut del vostre "
+"Emmagatzematge Persistent."
+
+#. type: Plain text
+msgid "- When starting Tails:"
+msgstr "- En iniciar Tails:"
+
+#. type: Bullet: '  1. '
+msgid "Do not unlock your Persistent Storage."
+msgstr "No desbloquegeu el vostre Emmagatzematge Persistent."
+
+#. type: Bullet: '  2. '
+msgid ""
+"Set an [[administration password|doc/first_steps/welcome_screen/"
+"administration_password]]."
+msgstr ""
+"Establiu una [[contrasenya d'administració|doc/first_steps/welcome_screen/"
+"administration_password]]."
+
+#. type: Plain text
+msgid "- In Tails, unlock your Persistent Storage:"
+msgstr "- A Tails, desbloquegeu el vostre Emmagatzematge Persistent:"
+
+#. type: Bullet: '  1. '
+msgid "Choose **Applications**&nbsp;▸ **Utilities**&nbsp;▸ **Disks**."
+msgstr "Trieu **Aplicacions**&nbsp;▸ **Utilitats**&nbsp;▸ **Discs**."
+
+#. type: Bullet: '  1. '
+msgid "In the *Disks* utility, select your Tails USB stick in the left pane."
+msgstr ""
+"A la utilitat *Discs*, seleccioneu el vostre llapis USB de Tails al panell "
+"esquerre."
+
+#. type: Bullet: '  1. '
+msgid "Select the **TailsData LUKS** partition in the right pane."
+msgstr "Seleccioneu la partició **TailsData LUKS** al panell dret."
+
+#. type: Bullet: '  1. '
+msgid ""
+"Click the **[[!img lib/unlock.png alt=\"Unlock selected encrypted partition"
+"\" class=\"symbolic\" link=\"no\"]]** button."
+msgstr ""
+"Feu clic al botó **[[!img lib/unlock.png alt=\"Desbloqueja la partició "
+"encriptada seleccionada\" class=\"symbolic\" link=\"no\"]]**."
+
+#. type: Bullet: '  1. '
+msgid "Enter the passphrase of your Persistent Storage."
+msgstr "Introduïu la contrasenya del vostre Emmagatzematge Persistent."
+
+#. type: Bullet: '  1. '
+msgid "In the second password prompt, enter your administration password."
+msgstr ""
+"A la segona sol·licitud de contrasenya, introduïu la vostra contrasenya "
+"d'administració."
+
+#. type: Bullet: '  1. '
+msgid ""
+"Click the **TailsData Ext4** that appeared below the **TailsData LUKS** "
+"partition."
+msgstr ""
+"Feu clic a **TailsData Ext4** que apareix a sota de la partició **TailsData "
+"LUKS**."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  1. Click the **[[!img lib/media-playback-start.png alt=\"Mount selected\n"
+"   partition\" link=no class=symbolic]]**.\n"
+msgstr ""
+"  1. Feu clic a **[[!img lib/media-playback-start.png alt=\"Munta la "
+"partició\n"
+"   seleccionada\" link=no class=symbolic]]**.\n"
+
+#. type: Bullet: '  1. '
+msgid "Close the *Disks* utility."
+msgstr "Tanqueu la utilitat *Discs*."
+
+#. type: Plain text
+msgid "- Navigate to the content of your Persistent Storage:"
+msgstr "- Navegueu fins al contingut del vostre Emmagatzematge Persistent:"
+
+#. type: Bullet: '  1. '
+msgid ""
+"Choose **Applications**&nbsp;▸ **System Tools**&nbsp;▸ **Root Terminal** to "
+"open a terminal with administration rights."
+msgstr ""
+"Trieu **Aplicacions**&nbsp;▸ **Eines del sistema**&nbsp;▸ **Terminal "
+"d'administrador** per obrir un terminal amb drets d'administració."
+
+#. type: Bullet: '  1. '
+msgid ""
+"Execute the following command to open the *Files* browser with "
+"administration rights:"
+msgstr ""
+"Executeu l'ordre següent per obrir el navegador de *Fitxers* amb drets "
+"d'administració:"
+
+#. type: Plain text
+#, no-wrap
+msgid "         nautilus\n"
+msgstr "         nautilus\n"
+
+#. type: Bullet: '  1. '
+msgid ""
+"In the *Files* browser, navigate to */media/amnesia/TailsData/dotfiles*."
+msgstr "Al navegador de *Fitxers*, aneu a */media/amnesia/TailsData/dotfiles*."
+
+#. type: Plain text
+#, no-wrap
+msgid "     Remove or replace all symbolic links in the dotfiles folder.\n"
+msgstr ""
+"     Elimineu o substituïu tots els enllaços simbòlics de la carpeta "
+"dotfiles.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     Symbolic links have the following icon:\n"
+msgstr "     Els enllaços simbòlics tenen la icona següent:\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "     [[!img symlink.png link=\"no\" alt=\"\"]]\n"
+msgstr "     [[!img symlink.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Bullet: '  1. '
+msgid "Restart Tails and try unlocking your Persistent Storage like usually."
+msgstr ""
+"Reinicieu Tails i proveu de desbloquejar el vostre Emmagatzematge Persistent "
+"com de costum."
+
+#. type: Title ##
+#, no-wrap
+msgid "*Tor Browser* has no minimize and maximize buttons ([[!tails_ticket 19328]])"
+msgstr ""
+"El *Navegador Tor* no té botons de minimització i maximització ([["
+"!tails_ticket 19328]])"
+
+#. type: Plain text
+msgid "To work around this:"
+msgstr "Per solucionar això:"
+
+#. type: Bullet: '1. '
+msgid ""
+"Right-click on the *Tor Browser* tab in the window list at the bottom of the "
+"screen."
+msgstr ""
+"Feu clic amb el botó dret a la pestanya *Navegador Tor* a la llista de "
+"finestres a la part inferior de la pantalla."
+
+#. type: Bullet: '1. '
+msgid "Choose **Minimize** or **Maximize**."
+msgstr "Trieu **Minimitza** o **Maximitza**."
+
+#. type: Title ##
+#, no-wrap
+msgid "Welcome Screen and Tor Connection don't fit on 800×600 ([[!tails_ticket 19324]])"
+msgstr ""
+"La Pantalla de Benvinguda i la Connexió Tor no encaixen en 800×600 ([["
+"!tails_ticket 19324]])"
+
+#. type: Plain text
+msgid ""
+"The top of the Welcome Screen and some button of the Tor Connection "
+"assistant are cut out on small displays (800×600), like virtual machines."
+msgstr ""
+"La part superior de la Pantalla de Benvinguda i algun botó de l'assistent de "
+"Connexió Tor es tallen en pantalles petites (800×600), com les màquines "
+"virtuals."
+
+#. type: Plain text
+msgid "You can press **Alt+S** to start Tails."
+msgstr "Podeu prémer **Alt+S** per iniciar Tails."
+
+#. type: Title ##
+#, no-wrap
+msgid "Switches of the Persistent Storage settings are very slow sometimes ([[!tails_ticket 19291]])"
+msgstr ""
+"Els canvis de la configuració de l'Emmagatzematge Persistent de vegades són "
+"molt lents ([[!tails_ticket 19291]])"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"The switches that turn on and off the different features of the Persistent Storage\n"
+"are very slow to respond on some USB sticks. Please report on [[!tails_ticket\n"
+"19291]] if this happens to you.\n"
+msgstr ""
+"Els interruptors que encenen i apaguen les diferents funcions de "
+"l'Emmagatzematge Persistent\n"
+"són molt lents a respondre en alguns llapis USB. Informeu-nos a [[!"
+"tails_ticket\n"
+"19291]] si això us passa.\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Progress bar of *Tor Connection* gets stuck around 50% ([[!tails_ticket 19173]])"
+msgstr ""
+"La barra de progrés de *Connexió Tor* s'encalla al voltant del 50% ([["
+"!tails_ticket 19173]])"
+
+#. type: Plain text
+msgid ""
+"When using a custom Tor `obfs4` bridge, the progress bar of *Tor Connection* "
+"sometimes gets stuck halfway through and becomes extremely slow."
+msgstr ""
+"Quan s'utilitza un pont de Tor `obfs4` personalitzat, la barra de progrés de "
+"*Connexió Tor* de vegades s'encalla a la meitat i es torna extremadament "
+"lenta."
+
+#. type: Plain text
+msgid "To fix this, you can either:"
+msgstr "Per solucionar-ho, podeu:"
+
+#. type: Bullet: '* '
+msgid "Close and reopen *Tor Connection* to speed up the initial connection."
+msgstr ""
+"Tancar i tornar a obrir *Connexió Tor* per accelerar la connexió inicial."
+
+#. type: Bullet: '* '
+msgid "Try a different `obfs4` bridge."
+msgstr "Provar un pont `obfs4` diferent."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  This issue only affects outdated obfs4 bridges and does not happen with\n"
+"  obfs4 bridges that run version 0.0.12 or later.\n"
+msgstr ""
+"  Aquest problema només afecta els ponts obfs4 obsolets i no passa amb\n"
+"  els ponts obfs4 que executen la versió 0.0.12 o posterior.\n"
+
+#. type: Plain text
+msgid "See the list of [[long-standing issues|support/known_issues]]."
+msgstr "Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.8</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 5.8</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.8."
+msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.8."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+"  Podeu [[reduir la mida de la baixada|doc/upgrade#reduce]] de futures\n"
+"  actualitzacions automàtiques fent una actualització manual a la darrera "
+"versió.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr "Per instal·lar Tails en un nou llapis USB"
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Windows|install/windows]]"
+msgstr "[[Instal·lar des de Windows|install/windows]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from macOS|install/mac]]"
+msgstr "[[Instal·lar des de macOS|install/mac]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Linux|install/linux]]"
+msgstr "[[Instal·lar des de Linux|install/linux]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr "Per només baixar"
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.8 directly:"
+msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.8 directament:"
+
+#. type: Bullet: '  - '
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
+
+#. type: Bullet: '  - '
+msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"

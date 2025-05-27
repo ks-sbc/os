@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-11-20 11:01+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 20 Oct 2017 10:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 20 Oct 2017 10:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Many hands make Tails!\"]]\n"
+msgstr "[[!meta title=\"Moltes mans fan Tails!\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid "Today we are asking you to give us a hand to fund our work in 2018."
+msgstr ""
+"Avui us demanem que ens doneu un cop de mà per finançar la nostra feina el "
+"2018."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"**Tails protects thousands of people everyday to be safe online and we\n"
+"give out Tails for free because we believe that nobody should have to\n"
+"pay to be protected from surveillance and censorship.**\n"
+msgstr ""
+"**Tails protegeix milers de persones cada dia per mantenir-se fora de perill en línia i nosaltres\n"
+"regalem Tails de franc perquè creiem que ningú hauria de\n"
+"pagar per estar protegit de la vigilància i la censura.**\n"
+
+#. type: Plain text
+msgid ""
+"We've all become used to get content and tools on the Internet without "
+"paying for them. But you know that this is the result of users having become "
+"the new product. While sharing images and messages online, users generate "
+"page and advertisement views &mdash; which in turn generate income, reaching "
+"up to several billions of dollars for some companies."
+msgstr ""
+"Tots ens hem acostumat a obtenir contingut i eines a Internet sense pagar-"
+"les. Però aquest és el resultat de que els usuaris s'hagin convertit en el "
+"nou producte. Mentre comparteixen imatges i missatges en línia, els usuaris "
+"generen visualitzacions de pàgines i anuncis &mdash; que al seu torn generen "
+"ingressos, arribant fins a diversos milers de milions de dòlars per a "
+"algunes empreses."
+
+#. type: Plain text
+msgid ""
+"At Tails we will never sell your data, nor send you targeted advertising. "
+"And we will never sell our project to a company. We have made this clear in "
+"our Social Contract. This contract is our public promise to our users as "
+"well as to the rest of the world, and with it, we are affirming a commitment "
+"to our beliefs."
+msgstr ""
+"A Tails mai vendrem les vostres dades, ni us enviarem publicitat dirigida. I "
+"mai vendrem el nostre projecte a una empresa. Ho hem deixat clar al nostre "
+"Contracte Social. Aquest contracte és la nostra promesa pública tant als "
+"nostres usuaris com a la resta del món, i amb ell, estem afirmant un "
+"compromís amb les nostres creences."
+
+#. type: Plain text
+msgid ""
+"Being free software is a necessary requirement for our tools to be safe and "
+"to protect you as intended. If our source code was closed, there would be no "
+"way of actually verifying that our software is trustworthy."
+msgstr ""
+"El fet de ser programari lliure és un requisit necessari perquè les nostres "
+"eines siguin segures i us protegeixin com s'ha previst. Si el nostre codi "
+"font es tanqués, no hi hauria manera de verificar que el nostre programari "
+"sigui fiable."
+
+#. type: Plain text
+msgid ""
+"Last year we've made it clear [[how much of our overall budget came from "
+"government grants|news/why_we_need_donations]] and that, in order to remain "
+"independent and to use our money in the best interest of our users, we "
+"needed to be able to rely on donations. Our first donation campaign was a "
+"big success in that regard: your donations covered nearly one third of our "
+"budget of 2017."
+msgstr ""
+"L'any passat vam deixar clar [[quant del nostre pressupost global provenia "
+"de subvencions governamentals|news/why_we_need_donations]] i que, per "
+"mantenir-nos independents i utilitzar els nostres diners en el millor "
+"interès dels nostres usuaris, havíem de poder confiar en les donacions. La "
+"nostra primera campanya de donacions va ser un gran èxit en aquest sentit: "
+"les vostres donacions van cobrir gairebé un terç del nostre pressupost del "
+"2017."
+
+#. type: Plain text
+msgid ""
+"Our yearly expenses equal 230.000 € on average since 2015 - which is a very "
+"small budget compared to the multi billionaire companies and agencies "
+"running the surveillance business. Many of us still do a lot of work during "
+"their free time."
+msgstr ""
+"Les nostres despeses anuals equivalen a 230.000 € de mitjana des del 2015, "
+"que és un pressupost molt petit en comparació amb les empreses i agències "
+"multimilionàries que gestionen el negoci de la vigilància. Molts de "
+"nosaltres encara treballem molt durant el nostre temps lliure."
+
+#. type: Plain text
+msgid ""
+"While last year's fundraising success was amazing, 2018 will arrive fast and "
+"our user base is continuously growing. During 2017 we counted 22.061 boots "
+"per day on average. ([[How do we know this?|support/faq#boot-statistics]]) "
+"**Many hands make Tails: If each of our users gave $15, our budget for the "
+"whole year would be raised within one day.** If we could fund Tails entirely "
+"through donations by our users, this would make us independent from "
+"government grants."
+msgstr ""
+"Tot i que l'èxit de recaptació de fons de l'any passat va ser increïble, el "
+"2018 arribarà ràpidament i la nostra base d'usuaris creix contínuament. "
+"Durant el 2017 hem comptabilitzat 22.061 arrencades diaries de mitjana. "
+"([[Com ho sabem?|support/faq#boot-statistics]]) **Moltes mans fan Tails: si "
+"cadascun dels nostres usuaris donés 15 dòlars, el nostre pressupost per a "
+"tot l'any s'assoliria en un sol dia.** Si poguéssim finançar Tails "
+"íntegrament a través de donacions dels nostres usuaris, això ens faria "
+"independents de les subvencions governamentals."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"This image shows the evolution of Tails boots per day since 2013:\n"
+"[[!img boots_per_day.png link=\"no\" class=\"top-margin center\" alt=\"Tails boots per\n"
+"day increasing steadily from 7000 in December 2013 to 22000 in October 2017\"]]\n"
+msgstr ""
+"Aquesta imatge mostra l'evolució de les arrencades de Tails per dia des del 2013:\n"
+"[[!img boots_per_day.png link=\"no\" class=\"top-margin center\" alt=\"Arrencades de Tails per\n"
+"dia augmentant constantment de 7000 el desembre de 2013 a 22000 l'octubre de 2017\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"**But many of our users could actually get in trouble** if they donated to\n"
+"an anti-surveillance tool like Tails. So when donating to Tails you are\n"
+"also [[giving a hand to these people|news/who_are_you_helping]] by\n"
+"keeping Tails alive. Please consider setting up a yearly or monthly\n"
+"donation.\n"
+msgstr ""
+"**Però molts dels nostres usuaris podrien tenir problemes** si fessin una donació\n"
+"a una eina anti-vigilància com Tails. Així que quan feu una donació a Tails\n"
+"també esteu [[donant un cop de mà a aquestes persones|news/who_are_you_helping]] per\n"
+"mantenint Tails viu. Si us plau, considereu la possibilitat de configurar una donació anual o mensual.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Last year, we received 2.043 individual donations. **If you want Tails to\n"
+"survive and be largely independent from government grants, please take a\n"
+"minute and <a href=\"https://tails.net/donate/?r=giveahand\">give us a hand</a>!**\n"
+msgstr ""
+"L'any passat vam rebre 2.043 donacions individuals. **Si voleu que Tails\n"
+"sobrevisqui i que es converteixi en gran mesura independent de les subvencions del govern, si us plau, prengueu un\n"
+"minut i <a href=\"https://tails.net/donate/index.ca.html?r=giveahand\">doneu-nos un cop de mà</a>!**\n"
+
+#. type: Plain text
+msgid "[[Donate]]"
+msgstr "[[Feu una donació|donate]]"
+
+#, no-wrap
+#~ msgid "<div class=\"button\"><a href=\"https://tails.net/donate/?r=giveahand\">Donate</a></div>\n"
+#~ msgstr "<div class=\"button\"><a href=\"https://tails.net/donate/index.ca.html?r=giveahand\">Feu una donació</a></div>\n"

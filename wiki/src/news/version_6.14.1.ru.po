@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-04-03 14:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 6.14.1\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Thu, 03 Apr 2025 13:00:00 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Today, we are releasing 6.14.1 instead of 6.14 because we discovered an "
+"important issue while testing 6.14 on Tuesday and had to start the release "
+"process again to fix it."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "More flexible confinement of *Tor Browser*"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We improved the confinement technology that we use to protect your files "
+"from possible security vulnerabilities in *Tor Browser*."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Until now, *Tor Browser* could only save downloads to and read files from a "
+"limited number of folders."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"With Tails 6.14.1, you can safely access any folder in your *Home* folder or "
+"Persistent Storage from *Tor Browser*."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This new integration also solves other usability and accessibility issues:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- The Large Text accessibility feature works in *Tor Browser*. ([[!"
+"tails_ticket 19266]])"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- The Cursor Size accessibility feature works in *Tor Browser*. ([[!"
+"tails_ticket 19572]])"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- The minimize and maximize buttons are available again in the title bar. "
+"([[!tails_ticket 19328]])"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"These improvements rely on 2 security technologies: the flexibility of the "
+"new [XDG Desktop Portals](https://flatpak.github.io/xdg-desktop-portal/) of "
+"*Flatpak* allowed us to relax the [[AppArmor confinement|contribute/design/"
+"application_isolation]], improving usability without compromising on "
+"security."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [14.0.9](https://blog.torproject.org/new-release-"
+"tor-browser-1409)."
+msgstr ""
+
+#. type: Plain text
+msgid "- Update the *Tor* client to 0.4.8.16."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Fix the Welcome Screen freezing after unlocking the Persistent Storage.  ([[!"
+"tails_ticket 20783]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Add a clearer border to the *Kleopatra* window when on white background.  "
+"([[!tails_ticket 20861]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Fix the error when closing the check for upgrades from *About Tails*.  ([[!"
+"tails_ticket 20861]])"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<!--\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Copy the known issues from the previous version if they haven't been solved "
+"or move them to /support/known_issues if more appropriate."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "-->\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 6.14.1</h1>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 6.0 or later to 6.14.1."
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails 6.14.1 on a new USB stick"
+msgstr ""
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 6.14.1 directly:"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr ""

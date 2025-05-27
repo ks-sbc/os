@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-04-15 14:45+0200\n"
+"PO-Revision-Date: 2025-04-17 23:25+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta title=\"Tails 6.14.2\"]]\n"
+msgstr "[[!meta title=\"Tails 6.14.2\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta date=\"Tue, 15 Apr 2025 11:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 15 Apr 2025 11:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"This release is an emergency release to fix security vulnerabilities in the "
+"Linux kernel and the implementation of the Perl programming language."
+msgstr ""
+"Cette version est une version d'urgence pour corriger des vulnérabilités de "
+"sécurité dans le noyau Linux et dans l'implémentation du langage de "
+"programmation Perl."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Changements et mises à jour</h1>\n"
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Update *Linux* to 6.1.133, which fixes [multiple security "
+"vulnerabilities](https://www.debian.org/security/2025/dsa-5900-1)  that may "
+"lead to a privilege escalation or information leaks."
+msgstr ""
+"Mise à jour du noyau *Linux* vers la version 6.1.133, qui corrige [plusieurs "
+"failles de sécurités](https://www.debian.org/security/2025/dsa-5900-1)  "
+"pouvant entraîner une élévation des privilèges ou des fuites d'informations."
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Update *perl* to 5.36.0-7+deb12u2, which fixes a [heap-based buffer overflow "
+"vulnerability](https://www.debian.org/security/2025/dsa-5902-1), which may "
+"result in denial of service, or potentially the execution of arbitrary code."
+msgstr ""
+"Mise à jour de *perl* vers la version 5.36.0-7+deb12u2, qui corrige une ["
+"vulnérabilité de débordement de tampon](https://www.debian.org/security/2025/"
+"dsa-5902-1), qui peut entraîner une attaque par déni de service ou une "
+"exécution potentielle de code malicieux."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+"Pour plus de détails, lisez notre [[!tails_gitweb debian/changelog desc="
+"\"liste des changements\"]]."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"get\">Get Tails 6.14.2</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 6.14.2</h1>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
+
+#. type: Plain text
+#, markdown-text
+msgid "- Automatic upgrades are available from Tails 6.0 or later to 6.14.2."
+msgstr ""
+"- Mises à jour automatiques disponibles depuis Tails 6.0 ou plus récent vers "
+"la version 6.14.2."
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual "
+"upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Si vous ne pouvez pas faire une mise à jour automatique ou si le démarrage "
+"de Tails échoue après une mise à jour automatique, merci d'essayer de faire "
+"une [[mise à jour manuelle|doc/upgrade/#manual]]."
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To install Tails 6.14.2 on a new USB stick"
+msgstr "Pour installer Tails 6.14.2 sur une nouvelle clé USB"
+
+#. type: Plain text
+#, markdown-text
+msgid "Follow our installation instructions:"
+msgstr "Suivez nos instructions d'installation :"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr "- [[Installer depuis Windows|install/windows]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr "- [[Installer depuis macOS|install/mac]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr "- [[Installer depuis Linux|install/linux]]"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and "
+"GnuPG|install/expert]]"
+msgstr ""
+"- [[Installer depuis Debian ou Ubuntu en utilisant la ligne de commande et "
+"GnuPG|install/expert]]"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be "
+"lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>Le stockage persistant de la clé USB sera perdu "
+"si\n"
+"vous faites une installation au lieu d'une mise à jour.</p></div>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To download only"
+msgstr "Pour seulement télécharger"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 6.14.2 directly:"
+msgstr ""
+"Si vous n'avez pas besoin d'instructions d'installation ou de mise à jour, "
+"vous pouvez télécharger directement Tails 6.14.2 :"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr "- [[Pour clés USB (image USB)|install/download]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "- [[Pour DVD et machines virtuelles (image ISO)|install/download-iso]]"

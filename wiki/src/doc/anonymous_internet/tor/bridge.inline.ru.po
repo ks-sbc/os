@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-05-27 21:54+0000\n"
+"PO-Revision-Date: 2024-05-16 22:55+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  To learn about other Tor bridges, you have several options listed below.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  <div class=\"tip\">\n"
+"  <p>None of these options is easy to do from Tails, so we recommend that you\n"
+"  learn about several bridges from your regular computer <i>before starting\n"
+"  Tails</i> and store the bridge lines in a text document on separate USB\n"
+"  stick.</p>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  <p>After you restarted on Tails, you can copy one of these bridge lines from\n"
+"  this other USB stick into <i>Tor Connection</i>.</p>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  </div>\n"
+msgstr "  </div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  Even someone who knows your bridge cannot know what you are doing online from\n"
+"  Tails.\n"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "**CAPTCHA**"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    You can solve a CAPTCHA on [https://bridges.torproject.org/](https://bridges.torproject.org/bridges?transport=obfs4).\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    We recommend doing so from a different\n"
+"    local network if you want to hide that you are connecting to Tor.\n"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "**Email**"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    You can send an empty email to\n"
+"    <a href=\"mailto:bridges@torproject.org\">bridges@torproject.org</a> from a\n"
+"    Gmail or Riseup email address.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Sending the email reveals to Gmail or Riseup that you are trying to\n"
+"    connect to Tor but not to someone who monitors your Internet connection.\n"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "**Telegram**"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    You can send the message `/bridges` to\n"
+"    [@GetBridgesBot](https://t.me/GetBridgesBot) on *Telegram*.\n"
+msgstr ""

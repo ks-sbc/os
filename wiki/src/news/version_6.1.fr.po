@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-03-27 10:52+0100\n"
+"PO-Revision-Date: 2025-04-17 17:39+0000\n"
+"Last-Translator: Chre <tor@renaudineau.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta title=\"Tails 6.1\"]]\n"
+msgstr "[[!meta title=\"Tails 6.1\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta date=\"Tue, 27 Mar 2024 12:34:56 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Changements et mises à jour</h1>\n"
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Update *Tor Browser* to "
+"[13.0.13](https://blog.torproject.org/new-release-tor-browser-13013/).  This "
+"includes the changes brought by "
+"[13.0.12](https://blog.torproject.org/new-release-tor-browser-13012/)."
+msgstr ""
+"Mise à jour du *Navigateur Tor* vers la version [13.0.13](https://blog."
+"torproject.org/new-release-tor-browser-13013/).  Incluant les changements "
+"apportés par la version [13.0.12](https://blog.torproject.org/"
+"new-release-tor-browser-13012/)."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- Update *Thunderbird* to "
+"[115.9.0](https://www.thunderbird.net/en-US/thunderbird/115.9.0/releasenotes/)."
+msgstr ""
+"- Mise à jour de *Thunderbird* vers la version [115.9.0](https://www."
+"thunderbird.net/en-US/thunderbird/115.9.0/releasenotes/)."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Problèmes corrigés</h1>\n"
+
+#. type: Plain text
+#, markdown-text
+msgid "- Fix Onion Circuits. [[!tails_ticket 20233]]"
+msgstr "- Correction de Circuits onion. [[!tails_ticket 20233]]"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- Fix Welcome Screen frequently showing a **\"Welcome to Tails!\" is not "
+"responding** error."
+msgstr ""
+"- Correction de l'écran de bienvenue qui affichait souvent une erreur **"
+"\"Welcome to Tails!\" is not responding**."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "  [[!tails_ticket 20236]]\n"
+msgstr "  [[!tails_ticket 20236]]\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- Fix *Videos* showing an error message during playback. [[!tails_ticket "
+"20243]]"
+msgstr ""
+"- Correction de *Vidéos* qui affichait un message d'erreur durant la "
+"lecture. [[!tails_ticket 20243]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- Fix problems with changing the passphrase of the Persistent Storage."
+msgstr ""
+"- Correction de problèmes avec le changement de la phrase de passe du "
+"stockage persistant."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "  [[!tails_ticket 20217]]\n"
+msgstr "  [[!tails_ticket 20217]]\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- *Tails Cloner* can now install and upgrade to devices with multiple "
+"mounted partitions."
+msgstr ""
+"- *Tails Cloner* peut désormais installer et mettre à jour des périphériques "
+"avec plusieurs partitions montées."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "  [[!tails_ticket 20149]]\n"
+msgstr "  [[!tails_ticket 20149]]\n"
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"The Persistent Storage settings now display all enabled custom Persistent "
+"Storage features. [[!tails_ticket 19267]]"
+msgstr ""
+"Les paramètres du stockage persistant affichent désormais toutes les "
+"fonctionnalités personnalisées du stockage persistant qui sont disponibles. "
+"[[!tails_ticket 19267]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- Mitigate the RFDS Intel CPU vulnerabilities. [[!tails_ticket 20274]]"
+msgstr ""
+"- Atténuation des vulnérabilités RFDS des processeurs Intel. [[!tails_ticket "
+"20274]]"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+"Pour plus de détails, lisez notre [[!tails_gitweb debian/changelog desc="
+"\"liste des changements\"]]."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"get\">Get Tails 6.1</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 6.1</h1>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Pour mettre à jour votre clé USB Tails et conserver votre stockage persistant"
+
+#. type: Plain text
+#, markdown-text
+msgid "- Automatic upgrades are available from Tails 6.0 to 6.1."
+msgstr ""
+"- Mises à jour automatiques disponibles depuis Tails 6.0 vers la version 6.1."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+"  Vous pouvez [[réduire la taille du téléchargement|doc/upgrade#reduce]] des "
+"futures\n"
+"  mises à jours automatiques en effectuant une mise à jour manuelle vers la "
+"dernière version.\n"
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual "
+"upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Si vous ne pouvez pas faire une mise à jour automatique ou si le démarrage "
+"de Tails échoue après une mise à jour automatique, merci d'essayer de faire "
+"une [[mise à jour manuelle|doc/upgrade/#manual]]."
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To install Tails 6.1 on a new USB stick"
+msgstr "Pour installer Tails 6.1 sur une nouvelle clé USB"
+
+#. type: Plain text
+#, markdown-text
+msgid "Follow our installation instructions:"
+msgstr "Suivez nos instructions d'installation :"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr "- [[Installer depuis Windows|install/windows]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr "- [[Installer depuis macOS|install/mac]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr "- [[Installer depuis Linux|install/linux]]"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and "
+"GnuPG|install/expert]]"
+msgstr ""
+"- [[Installer depuis Debian ou Ubuntu en utilisant la ligne de commande et "
+"GnuPG|install/expert]]"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be "
+"lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>Le stockage persistant de la clé USB sera perdu "
+"si\n"
+"vous faites une installation au lieu d'une mise à jour.</p></div>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To download only"
+msgstr "Pour seulement télécharger"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 6.1 directly:"
+msgstr ""
+"Si vous n'avez pas besoin d'instructions d'installation ou de mise à jour, "
+"vous pouvez télécharger directement Tails 6.1 :"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr "- [[Pour clés USB (image USB)|install/download]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "- [[Pour DVD et machines virtuelles (image ISO)|install/download-iso]]"

@@ -1,0 +1,5 @@
+# XXX:Bookworm: this sudo rule should be replaced by a polkit rule (#19213)
+[[commands]]
+allowed_user = "amnesia"
+executable = "/bin/systemctl"
+args = ["start", "tails-additional-software-install.service"]

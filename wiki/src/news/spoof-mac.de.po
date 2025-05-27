@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-26 12:27+0100\n"
+"PO-Revision-Date: 2024-11-13 13:35+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Call for testing: MAC address spoofing\"]]\n"
+msgstr "[[!meta title=\"Aufruf zum Testen: Spoofing von MAC-Adressen\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sun, 29 Dec 2013 12:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Sun, 29 Dec 2013 12:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+msgid ""
+"You can help Tails! The [[MAC address spoofing|contribute/design/"
+"MAC_address]] feature is ready for testing. This feature prevents "
+"geographical tracking of your network devices (and by extension, you) by "
+"randomising their [[!wikipedia MAC addresses]]."
+msgstr ""
+"Sie können Tails helfen! Die Funktion [[MAC-Adressspoofing|contribute/design/"
+"MAC_address]] steht zum Testen bereit. Diese Funktion verhindert die "
+"geografische Verfolgung Ihrer Netzwerkgeräte (und damit auch Ihrer), indem "
+"Sie deren [[!wikipedia_de MAC-Adresse desc=\"MAC-Adressen\"]] zufällig "
+"auswählen."
+
+#. type: Plain text
+msgid ""
+"If you have security auditing skills you are more than welcome to review our "
+"[[design|contribute/design/MAC_address]] and [[implementation|contribute/"
+"design/MAC_address#implementation]]."
+msgstr ""
+"Wenn Sie über Fähigkeiten im Bereich der Sicherheitsüberprüfung verfügen, "
+"können Sie gerne unsere [[design|contribute/design/MAC_address]] und "
+"[[Implementierung|contribute/design/MAC_address#implementation]] überprüfen."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Background"
+msgstr "Hintergrund"
+
+#. type: Plain text
+msgid ""
+"Every network device (wired, Wi-Fi/wireless, 3G/mobile) has a [[!wikipedia "
+"MAC address]], which is a unique identifier used to address them on the "
+"local network. Broadcasting a unique identifier in this manner introduce a "
+"couple of potential privacy issues for Tails users. Geographical location "
+"tracking is the main one: observing a MAC address at a particular location "
+"and time ties the corresponding device to the same location and time. If the "
+"real identity of the device's owner is known, their movements can be "
+"determined. To prevent this one can temporarily change the MAC address to "
+"something random at each boot, which is referred to as \"MAC address "
+"spoofing\"."
+msgstr ""
+"Jedes Netzwerkgerät (verkabelt, Wi-Fi/drahtlos, 3G/mobil) verfügt über eine "
+"[[!wikipedia_de MAC-Adresse]], eine eindeutige Kennung, mit der es im "
+"lokalen Netzwerk adressiert wird. Das Senden einer eindeutigen Kennung auf "
+"diese Weise führt zu einigen potenziellen Datenschutzproblemen für Tails-"
+"Benutzer. Die geografische Standortverfolgung ist die Wichtigste: Die "
+"Beobachtung einer MAC-Adresse an einem bestimmten Ort und zu einer "
+"bestimmten Zeit bindet das entsprechende Gerät an denselben Ort und dieselbe "
+"Zeit. Wenn die tatsächliche Identität des Gerätebesitzers bekannt ist, "
+"können deren Bewegungen bestimmt werden. Um dies zu verhindern, kann man die "
+"MAC-Adresse bei jedem Start vorübergehend in etwas Zufälliges ändern, was "
+"als \"MAC-Adress-Spoofing\" bezeichnet wird."
+
+#. type: Title #
+#, no-wrap
+msgid "How to download the test image"
+msgstr "So laden Sie das Test-Image herunter"
+
+#. type: Plain text
+msgid ""
+"Download the latest test ISO from [build_Tails_ISO_devel](http://nightly."
+"tails.boum.org/build_Tails_ISO_devel/). **Keep in mind that this is a test "
+"image.** Do not use it for anything else than testing this feature."
+msgstr ""
+"Laden Sie die neueste Test-ISO von [build_Tails_ISO_devel](http://nightly."
+"tails.boum.org/build_Tails_ISO_devel/) herunter. ** Beachten Sie, dass dies "
+"eine Pre-Version ist. ** Verwenden Sie es ausschließlich nur zum Testen "
+"dieser Funktion."
+
+#. type: Title #
+#, no-wrap
+msgid "How to use MAC spoofing in Tails"
+msgstr "Die Verwendung von MAC-Spoofing in Tails"
+
+#. type: Plain text
+msgid ""
+"MAC spoofing is enabled by default in this test ISO. You can change this "
+"with a [[startup option|doc/first_steps/welcome_screen]]. The (preliminary) "
+"MAC spoofing documentation tries to explain situations where it actually may "
+"be a bad idea to keep this option enabled. However, as this is just a test "
+"version we of course urge you to not use it for anything serious, and if "
+"possible, to test both to enable and disable the option."
+msgstr ""
+"MAC-Spoofing ist standardmäßig in diesem Test-ISO aktiviert. Sie können dies "
+"mit einer [[Startoption|doc/first_steps/welcome_screen]] ändern. Die "
+"(vorläufige) Dokumentation zum MAC-Spoofing versucht zu erklären, in welchen "
+"Situationen es tatsächlich eine schlechte Idee sein kann, diese Option "
+"aktiviert zu lassen. Da dies jedoch nur eine Testversion ist, fordern wir "
+"Sie selbstverständlich auf, sie nicht für ernsthafte Anwendungen zu "
+"verwenden und, wenn möglich, beide Optionen – sowohl die Aktivierung als "
+"auch die Deaktivierung – zu testen."
+
+#. type: Title #
+#, no-wrap
+msgid "What to test"
+msgstr "Was zu testen"
+
+#. type: Plain text
+msgid ""
+"For any MAC spoofing-related issues you experience using this test ISO, "
+"please include the output from the following commands when reporting it to "
+"us (note: it requires setting an [[doc/first_steps/welcome_screen/"
+"administration_password]]):"
+msgstr ""
+"Bei allen MAC-Spoofing-bezogenen Problemen, die Sie mit diesem Test-ISO "
+"haben, fügen Sie bitte die Ausgabe der folgenden Befehle bei, wenn Sie es "
+"uns melden (Hinweis: Es erfordert die Festlegung eines [[doc/first_steps/"
+"welcome_screen/administration_password]]):"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    sudo grep spoof-mac /var/log/syslog\n"
+"    sudo grep unblock-network /var/log/syslog\n"
+msgstr ""
+"    sudo grep spoof-mac /var/log/syslog\n"
+"    sudo grep unblock-network /var/log/syslog\n"
+
+#. type: Plain text
+msgid ""
+"In particular, we would like you to pay extra attention to the following "
+"things:"
+msgstr "Insbesondere bitten wir, auf folgende Dinge besonders zu achten:"
+
+#. type: Title ##
+#, no-wrap
+msgid "Verify that the MAC spoofing setting is enforced"
+msgstr "Stellen Sie sicher, dass die MAC-Spoofing-Einstellung übernommen wurde"
+
+#. type: Plain text
+msgid ""
+"Please verify that the MAC spoofing setting you select actually is enforced "
+"by issuing the following commands:"
+msgstr ""
+"Stellen Sie sicher, dass die von Ihnen ausgewählte MAC-Spoofing-Einstellung "
+"tatsächlich übernommen wurde, indem Sie die folgenden Befehle eingeben:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    . /usr/local/lib/tails-shell-library/hardware.sh\n"
+"    for i in $(get_all_ethernet_nics); do\n"
+"      echo \"Interface $i\"\n"
+"      macchanger $i\n"
+"    done\n"
+msgstr ""
+"    . /usr/local/lib/tails-shell-library/hardware.sh\n"
+"    for i in $(get_all_ethernet_nics); do\n"
+"      echo \"Interface $i\"\n"
+"      macchanger $i\n"
+"    done\n"
+
+#. type: Plain text
+msgid ""
+"For each network device you'll get an entry looking something like this:"
+msgstr ""
+"Für jedes Netzwerkgerät erhalten Sie einen Eintrag, der ungefähr so aussieht:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Interface eth0\n"
+"    Permanent MAC: 12:34:56:78:90:ab (unknown)\n"
+"    Current   MAC: 12:34:56:f4:fb:22 (unknown)\n"
+msgstr ""
+"    Interface eth0\n"
+"    Permanent MAC: 12:34:56:78:90:ab (unknown)\n"
+"    Current   MAC: 12:34:56:f4:fb:22 (unknown)\n"
+
+#. type: Plain text
+msgid ""
+"The \"Permanent MAC\" is the network device's \"real\", unique MAC address; "
+"the \"Current MAC\" is whatever it is set to at the moment, spoofed or not. "
+"In other words:"
+msgstr ""
+"Der \"Permanent MAC\" ist die \"echte\", eindeutige MAC-Adresse des "
+"Netzwerkgeräts. Der \"Current MAC\" ist das, worauf er gerade eingestellt "
+"ist, gefälscht oder nicht. Mit anderen Worten:"
+
+#. type: Bullet: '* '
+msgid "if they are *different*, then MAC spoofing is *enabled*;"
+msgstr "wenn sie *unterschiedlich* sind, ist das MAC-Spoofing *aktiviert*;"
+
+#. type: Bullet: '* '
+msgid "if they are *the* *same*, then MAC spoofing is *disabled*."
+msgstr "Wenn sie *gleich* sind, ist das MAC-Spoofing *deaktiviert*."
+
+#. type: Plain text
+msgid "Please report if you ever get unexpected results."
+msgstr "Wir bitten um Rückmeldung, wenn Sie unerwartete Ergebnisse erhalten."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "MAC address whitelisting problems"
+msgid "MAC address allowlisting problems"
+msgstr "Probleme mit der MAC-Adresse-Whitelist"
+
+#. type: Plain text
+msgid ""
+"Some wireless networks are configured to only allow connections for devices "
+"with certain MAC addresses, called MAC address allowlisting. MAC address "
+"spoofing will cause issues on networks like these. Therefore Tails has a "
+"crude mechanism for detecting this, and will show an informative "
+"notification about what to do about it."
+msgstr ""
+"Einige drahtlose Netzwerke sind so konfiguriert, dass nur Geräte mit "
+"bestimmten MAC-Adressen eine Verbindung herstellen dürfen, was als MAC-"
+"Adress-Whitelistung bezeichnet wird. Das Spoofing von MAC-Adressen kann auf "
+"solchen Netzwerken zu Problemen führen. Daher verfügt Tails über einen "
+"einfachen Mechanismus zur Erkennung dieses Problems und zeigt eine "
+"informative Benachrichtigung darüber an, was zu tun ist."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "If you have access to a wireless network that employs MAC address "
+#| "whitelisting, then connect to it with MAC spoofing enabled and verify "
+#| "that Tails shows a notification with the headline: \"Network connection "
+#| "blocked?\"."
+msgid ""
+"If you have access to a wireless network that employs MAC address "
+"allowlisting, then connect to it with MAC spoofing enabled and verify that "
+"Tails shows a notification with the headline: \"Network connection blocked?"
+"\"."
+msgstr ""
+"Wenn Sie Zugriff auf ein drahtloses Netzwerk haben, in dem die MAC-Adressen-"
+"Whitelist verwendet wird, stellen Sie eine Verbindung mit aktiviertem MAC-"
+"Spoofing her und stellen Sie sicher, dass Tails eine Benachrichtigung mit "
+"der Überschrift \"Netzwerkverbindung blockiert?\" anzeigt."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Note: Tails detection mechanism for MAC address whitelisting only works "
+#| "for wireless (Wi-Fi) networks."
+msgid ""
+"Note: Tails detection mechanism for MAC address allowlisting only works for "
+"wireless (Wi-Fi) networks."
+msgstr ""
+"Hinweis: Der Mechanismus zur Erkennung von Tails der MAC-Adressen-Whitelist "
+"funktioniert nur für drahtlose Netzwerke (Wi-Fi)."
+
+#. type: Title ##
+#, no-wrap
+msgid "Network problems"
+msgstr "Netzwerkprobleme"
+
+#. type: Plain text
+msgid ""
+"Please report all network device and connection issues, e.g. if any of your "
+"network devices do not get detected by Tails at all, if the network "
+"connection fails, or if the network connection succeeds but actually does "
+"not work. Also check whether you experience the same issues using Tails 0.22."
+msgstr ""
+"Bitte melden Sie alle Netzwerkgeräte- und Verbindungsprobleme, z.B. wenn "
+"eines Ihrer Netzwerkgeräte von Tails überhaupt nicht erkannt wird, wenn die "
+"Netzwerkverbindung fehlschlägt oder wenn die Netzwerkverbindung erfolgreich "
+"ist, aber tatsächlich nicht funktioniert. Überprüfen Sie auch, ob bei Tails "
+"0.22 dieselben Probleme auftreten."
+
+#. type: Title #
+#, no-wrap
+msgid "Known issues"
+msgstr "Bekannte Probleme"
+
+#. type: Title ##
+#, no-wrap
+msgid "No fail-safe for hotplugged devices after logging in"
+msgstr "Keine Ausfallsicherheit für Hotplugged-Geräte nach dem Anmelden"
+
+#. type: Plain text
+msgid ""
+"In order to prevent the real MAC address from leaking when MAC spoofing "
+"fails for some network device, Tails has a fail-safe that simply disables "
+"the device. At the moment this only works for network devices present before "
+"logging in with Tails Greeter; the fail-safe does *not* work for e.g. Wi-Fi "
+"USB dongles hotplugged *after* that."
+msgstr ""
+"Um zu verhindern, dass die echte MAC-Adresse verloren geht, wenn das MAC-"
+"Spoofing für ein Netzwerkgerät fehlschlägt, verfügt Tails über eine "
+"Ausfallsicherung, die das Gerät einfach deaktiviert. Im Moment funktioniert "
+"dies nur für Netzwerkgeräte, die vorhanden sind, bevor Sie sich im Tails "
+"Greeter anmelden. Der Fail-Safe funktioniert *nicht* für z.B. Wi-Fi USB-"
+"Dongles die *danach* eingesteckt wurden."

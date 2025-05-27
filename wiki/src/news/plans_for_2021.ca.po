@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-02-08 01:30+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Our plans for 2021\"]]\n"
+msgstr "[[!meta title=\"Els nostres plans per al 2021\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 08 Jan 2021 18:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 08 Jan 2021 18:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"In 2021, we want to focus on improving some of the very core features of "
+"Tails, especially for **censorship circumvention**."
+msgstr ""
+"El 2021, volem centrar-nos a millorar algunes de les característiques "
+"bàsiques de Tails, especialment per a la **elusió de la censura**."
+
+#. type: Plain text
+msgid ""
+"To support our work in 2021, take a minute now to [[donate and fight "
+"surveillance and censorship|donate]]!"
+msgstr ""
+"Per donar suport a la nostra feina el 2021, dediqueu un minut ara per [[fer "
+"una donació i lluitar contra la vigilància i la censura|donate]]!"
+
+#. type: Title -
+#, no-wrap
+msgid "Censorship circumvention"
+msgstr "Elusió de la censura"
+
+#. type: Plain text
+msgid ""
+"We want to completely redesign how to **start Tor and configure Tor "
+"bridges**."
+msgstr ""
+"Volem redissenyar completament com **iniciar Tor i configurar els ponts de "
+"Tor**."
+
+#. type: Plain text
+msgid ""
+"This will make it easier for people in countries where accessing Tor is "
+"blocked to circumvent censorship. According to data from the Tor project, "
+"the top 5 countries by users of Tor bridges are Russia, Iran, the US, "
+"Belarus, and China."
+msgstr ""
+"Això facilitarà que les persones dels països on l'accés a Tor estigui "
+"bloquejat puguin evitar la censura. Segons dades del projecte Tor, els 5 "
+"principals països dels usuaris dels ponts de Tor són Rússia, l'Iran, els "
+"EUA, Bielorússia i la Xina."
+
+#. type: Title -
+#, no-wrap
+msgid "Persistent Storage"
+msgstr "Emmagatzematge Persistent"
+
+#. type: Plain text
+msgid ""
+"We want to improve the interface of the **Persistent Storage settings**."
+msgstr ""
+"Volem millorar la interfície de la **configuració de l'Emmagatzematge "
+"Persistent**."
+
+#. type: Plain text
+msgid ""
+"Improving the Persistent Storage was your top priority when we surveyed our "
+"users in July. We want to start by improving the usability of its core "
+"features and rewriting this 9-year-old Perl application into Python GTK+. "
+"This will make it possible to improve it faster in the future."
+msgstr ""
+"Millorar l'Emmagatzematge Persistent era la vostra prioritat principal quan "
+"vam enquestar els nostres usuaris al juliol. Volem començar millorant la "
+"usabilitat de les seves funcions bàsiques i reescriure aquesta aplicació "
+"Perl de 9 anys a Python GTK+. Això permetrà millorar-lo més ràpidament en el "
+"futur."
+
+#. type: Plain text
+msgid "We also want to make it possible to persist Tor bridges."
+msgstr "També volem fer possible que persisteixin els ponts de Tor."
+
+#. type: Title -
+#, no-wrap
+msgid "Security and maintenance"
+msgstr "Seguretat i manteniment"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"To improve the security of all applications in Tails, we want to **migrate to\n"
+"<em>Wayland</em>**. *Wayland* is a new display system for Linux that better\n"
+"controls how each application interacts with the rest of the system.\n"
+msgstr ""
+"Per millorar la seguretat de totes les aplicacions de Tails, volem **migrar a\n"
+"<em>Wayland</em>**. *Wayland* és un nou sistema de visualització per a Linux que\n"
+"controla millor com cada aplicació interactua amb la resta del sistema.\n"
+
+#. type: Plain text
+msgid ""
+"For example, *Wayland* will fix how the [[*Unsafe Browser* can be used to "
+"deanonymize you|doc/anonymous_internet/unsafe_browser#security]]."
+msgstr ""
+"Per exemple, *Wayland* corregirà [[la forma en la que es pot utilitzar el "
+"*Navegador Insegur* per desanonimitzar-vos|doc/anonymous_internet/"
+"unsafe_browser#security]]."
+
+#. type: Plain text
+msgid ""
+"We will also release **Tails 5.0**, based on Debian 11 (Bullseye) at the end "
+"of 2021. It will bring new versions of most of the software included in "
+"Tails."
+msgstr ""
+"També llançarem **Tails 5.0**, basat en Debian 11 (Bullseye) a finals de "
+"2021. Aportarà noves versions de la majoria del programari inclòs a Tails."
+
+#. type: Title =
+#, no-wrap
+msgid "Help us fight surveillance and censorship"
+msgstr "Ajudeu-nos a lluitar contra la vigilància i la censura"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img donate/godzilla.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img donate/godzilla.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+msgid ""
+"All our work is made possible by donations from people like you. We "
+"particularly appreciate monthly and yearly donations, even the smallest "
+"ones.  Because they help us plan our work, they are the most valuable for "
+"the sustainability of Tails."
+msgstr ""
+"Tot el nostre treball és possible gràcies a les donacions de persones com "
+"tu. Agraïm especialment les donacions mensuals i anuals, fins i tot les més "
+"petites. Com que ens ajuden a planificar la nostra feina, són les més "
+"valuoses per a la sostenibilitat de Tails."
+
+#. type: Plain text
+msgid ""
+"To support our work in 2021, take a minute now to donate and fight "
+"surveillance and censorship!"
+msgstr ""
+"Per donar suport a la nostra feina el 2021, dediqueu un minut ara a donar i "
+"lluitar contra la vigilància i la censura!"
+
+#. type: Plain text
+msgid "[[Donate]]"
+msgstr "[[Feu una donació|donate]]"
+
+#, no-wrap
+#~ msgid ""
+#~ "To support our work in 2021, take a minute now to\n"
+#~ "<a href=\"https://tails.net/donate/?r=pt\">donate and fight surveillance and censorship</a>!\n"
+#~ msgstr ""
+#~ "Per donar suport a la nostra feina el 2021, dediqueu un minut ara a\n"
+#~ "<a href=\"https://tails.net/donate/index.ca.html?r=pt\">fer una donació i lluitar contra la vigilància i la censura</a>!\n"
+
+#, no-wrap
+#~ msgid "<div class=\"cfa\"><a href=\"https://tails.net/donate/?r=pb\">Donate</a></div>\n"
+#~ msgstr "<div class=\"cfa\"><a href=\"https://tails.net/donate/index.ca.html?r=pb\">Feu una donació</a></div>\n"

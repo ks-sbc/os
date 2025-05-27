@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-02-19 18:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Converting dangerous documents to safe PDFs using Dangerzone\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 06 Aug 2024 18:00:00 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Today, we added documentation on our website to [[install *Dangerzone* in "
+"Tails|doc/persistent_storage/additional_software/dangerzone]]."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"When you receive untrusted documents, for example, email attachments, "
+"*[Dangerzone](https://dangerzone.rocks/)* allows you to convert them into "
+"safe PDFs before opening."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Dangerzone* is particularly useful for journalists who might receive dangerous\n"
+"documents from anonymous sources or download them from the Internet.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Dangerzone* is an essential tool and is built by great people. It was first\n"
+"written by [Micah Lee](https://micahflee.com/about/) to protect investigative\n"
+"journalists while working at [The Intercept](https://theintercept.com/).\n"
+"*Dangerzone* is now maintained by [Freedom of the Press\n"
+"Foundation](https://freedom.press), a nonprofit that protects public-interest\n"
+"journalism. Edward Snowden and Laura Poitras are on its Board of Directors.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"It's totally the kind of software that aligns with [[our mission|contribute/"
+"mission]]. The only reason why we are not including *Dangerzone* in Tails by "
+"default is because *Dangerzone* is too big and not available in Debian."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"So, we collaborated with Alex Pyrgiotis from Freedom of the Press Foundation "
+"to make it as easy as possible to install *Dangerzone* in Tails as "
+"[[Additional Software|doc/persistent_storage/additional_software]]. The "
+"setup requires using the command line, but, after that, *Dangerzone* will "
+"install automatically every time you start Tails."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Dangerzone* will allow more investigative journalists to use the safe\n"
+"environment that Tails provides when manipulating sensitive documents.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"It's also the first time that we recommend installing a 3rd party package "
+"that is not available in Debian. We know that a lot of software that would "
+"be useful for our users is not readily available in Debian. If this first "
+"experiment is successful, we might document more such packages."
+msgstr ""

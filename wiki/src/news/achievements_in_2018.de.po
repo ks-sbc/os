@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-11-20 11:01+0000\n"
+"PO-Revision-Date: 2024-11-27 10:19+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 14 Nov 2018 08:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 14 Nov 2018 08:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Our achievements in 2018\"]]\n"
+msgstr "[[!meta title=\"Unsere Erfolge in 2018\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"On October 12, we started our [[yearly donation campaign|news/2018-"
+"fundraiser]].  Today, we summarize what we achieved with your help in 2018 "
+"and renew our call for donations."
+msgstr ""
+"Am 12. Oktober haben wir unsere [[jährliche Spendenaktion|news/2018-"
+"fundraiser]] gestartet.  Heute fassen wir zusammen, was wir mit Ihrer Hilfe "
+"im Jahr 2018 erreicht haben und erneuern unseren Spendenaufruf."
+
+#. type: Title =
+#, no-wrap
+msgid "New features"
+msgstr "Neue Funktionen"
+
+#. type: Bullet: '- '
+msgid ""
+"We integrated *VeraCrypt* in the desktop to allow you to work with encrypted "
+"files across different operating systems (Windows, Linux, and macOS)."
+msgstr ""
+"Wir haben *VeraCrypt* in den Desktop integriert, damit Sie mit "
+"verschlüsselten Dateien auf verschiedenen Betriebssystemen (Windows, Linux "
+"und macOS) arbeiten können."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  This work was done upstream in GNOME and will be available outside of\n"
+"  Tails in Debian 10 (Buster) and Ubuntu 18.10 (Cosmic Cuttlefish).\n"
+msgstr ""
+"  Diese Arbeit wurde upstream in GNOME durchgeführt und wird außerhalb von \n"
+"  Tails in Debian 10 (Buster) und Ubuntu 18.10 (Cosmic Cuttlefish) verfügbar sein.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"*Additional Software* allows you to install additional software "
+"automatically when starting Tails."
+msgstr ""
+"*Zusätzliche Software* ermöglicht es Ihnen, zusätzliche Software automatisch "
+"beim Starten von Tails zu installieren."
+
+#. type: Bullet: '- '
+msgid ""
+"We added a [[screen locker|doc/first_steps/desktop#screen-locker]] to give "
+"you some protection if you leave your Tails unattended, willingly or not."
+msgstr ""
+"Wir haben einen [[Bildschirmschoner|doc/first_steps/desktop#screen-locker]] "
+"hinzugefügt, um Ihnen einen gewissen Schutz zu bieten, wenn Sie Ihr Tails "
+"unbeaufsichtigt lassen, ob absichtlich oder nicht."
+
+#. type: Bullet: '- '
+msgid ""
+"We completely redesigned our [[download page|install/download]] and "
+"verification extension to make it easier to get and verify Tails. It is also "
+"now possible to verify Tails from Chrome."
+msgstr ""
+"Wir haben unsere [[Download-Seite|install/download]] und die "
+"Verifizierungserweiterung vollständig neu gestaltet, um es einfacher zu "
+"machen, Tails zu erhalten und zu verifizieren. Es ist jetzt auch möglich, "
+"Tails von Chrome aus zu verifizieren."
+
+#. type: Title =
+#, no-wrap
+msgid "Adoption"
+msgstr "Übernahme"
+
+#. type: Plain text
+msgid "- Tails was used approximately 22 000 times a day."
+msgstr "- Tails wurde ungefähr 22.000 Mal täglich genutzt."
+
+#. type: Bullet: '- '
+msgid ""
+"We did more usability work than ever before. Every new feature was tested "
+"with actual users to make sure Tails becomes easier to use."
+msgstr ""
+"Wir haben mehr Usability-Arbeit geleistet als je zuvor. Jede neue Funktion "
+"wurde mit tatsächlichen Benutzern getestet, um sicherzustellen, dass Tails "
+"benutzerfreundlicher wird."
+
+#. type: Bullet: '- '
+msgid ""
+"We answered 1123 bug reports through our help desk and helped all these "
+"people to be safer online."
+msgstr ""
+"Wir haben 1123 Fehlerberichte über unseren Helpdesk beantwortet und all "
+"diesen Personen geholfen, sicherer online zu sein."
+
+#. type: Title =
+#, no-wrap
+msgid "Under the hood"
+msgstr "Unter der Haube"
+
+#. type: Bullet: '- '
+msgid ""
+"We released 11 new versions of Tails to continue offering improvements and "
+"security fixes as soon as possible, including 4 emergency releases. This "
+"year we've faced critical security issues like Spectre, Meltdown, EFAIL, and "
+"issues in Firefox and are working hard to always have your back covered!"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"We made the build of Tails completely [[reproducible|news/"
+"reproducible_Tails]], which brings even more trust in the ISO images that we "
+"are distributing, a faster release process, and slightly smaller upgrades."
+msgstr ""
+"Wir haben den Build von Tails vollständig [[reproduzierbar|news/"
+"reproducible_Tails]] gemacht, was das Vertrauen in die ISO-Images, die wir "
+"verteilen, erhöht, einen schnelleren Freigabeprozess ermöglicht und die "
+"Upgrades etwas kleiner macht."
+
+#. type: Bullet: '- '
+msgid ""
+"We greatly diversified our sources of income. Thanks to all of you, the "
+"share of donations that we got from individuals increased from 17% to 34%. "
+"This made our organization more robust and independent."
+msgstr ""
+"Wir haben unsere Einkommensquellen erheblich diversifiziert. Dank all Ihrer "
+"Unterstützung ist der Anteil der Spenden, den wir von Einzelpersonen "
+"erhalten haben, von 17 % auf 34 % gestiegen. Dies hat unsere Organisation "
+"robuster und unabhängiger gemacht."
+
+#. type: Title =
+#, no-wrap
+msgid "Community"
+msgstr ""
+
+#. type: Bullet: '- '
+#, fuzzy
+#| msgid ""
+#| "We published a [[social contract|news/social_contract]] to clarify the "
+#| "social commitments that we stand by as Tails contributors."
+msgid ""
+"We published a social contract to clarify the social commitments that we "
+"stand by as Tails contributors."
+msgstr ""
+"Wir haben einen [[sozialen Vertrag|news/social_contract]] veröffentlicht, um "
+"die sozialen Verpflichtungen, zu denen wir als Tails-Beitragsleistende "
+"stehen, zu klären."
+
+#. type: Bullet: '- '
+msgid ""
+"We attended 12 conferences and connected to free software and Internet "
+"freedom communities in 8 different countries, including Chaos Computer "
+"Congress (Germany), FOSDEM (Belgium), Internet Freedom Festival (Spain), Tor "
+"Meeting (Italy and Mexico), Debian Conference (Taiwan), and CryptoRave "
+"(Brazil)."
+msgstr ""
+"Wir haben an 12 Konferenzen teilgenommen und Verbindungen zu Gemeinschaften "
+"für freie Software und Internetfreiheit in 8 verschiedenen Ländern geknüpft, "
+"darunter der Chaos Computer Congress (Deutschland), FOSDEM (Belgien), das "
+"Internet Freedom Festival (Spanien), das Tor-Meeting (Italien und Mexiko), "
+"die Debian-Konferenz (Taiwan) und CryptoRave (Brasilien)."
+
+#. type: Bullet: '- '
+msgid ""
+"We grew our pool of regular contractors with 4 new workers, mostly to work "
+"on our core code and infrastructure. These include several very skilled "
+"Debian developers."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"All of this is made possible by donations from people like you. And because "
+"they help us to plan our work, we particularly appreciate monthly and yearly "
+"donations, even the smallest ones."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you liked our work in 2018, please take a minute to donate and make us "
+"thrive in 2019!"
+msgstr ""
+
+#. type: Plain text
+msgid "[[Donate]]"
+msgstr "[[Spenden|donate]]"
+
+#, no-wrap
+#~ msgid "  [[!img doc/encryption_and_privacy/veracrypt/unlock-veracrypt-volumes-with-partition.png link=\"no\" alt=\"\"]]\n"
+#~ msgstr "  [[!img doc/encryption_and_privacy/veracrypt/unlock-veracrypt-volumes-with-partition.png link=\"no\" alt=\"\"]]\n"
+
+#, no-wrap
+#~ msgid "  [[!img doc/first_steps/desktop/screen-locker.png alt=\"\" link=\"no\"]]\n"
+#~ msgstr "  [[!img doc/first_steps/desktop/screen-locker.png alt=\"\" link=\"no\"]]\n"

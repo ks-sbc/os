@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-08 03:39+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Mon, 02 Nov 2016 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Mon, 02 Nov 2016 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"What we do with your money\"]]\n"
+msgstr "[[!meta title=\"Què fem amb els vostres diners\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"In our last post we explained [[why we need donations]]. Today we're telling "
+"you more about how we use these donations."
+msgstr ""
+"A la nostra última publicació vam explicar [[per què necessitem donacions|"
+"why we need donations]]. Avui us expliquem més sobre com fem servir aquestes "
+"donacions."
+
+#. type: Plain text
+msgid "In 2015, we spent around 184 000€, distributed as follows:"
+msgstr "L'any 2015 vam gastar uns 184 000€, distribuïts de la següent manera:"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img expenses.png link=\"no\" class=\"top-margin center\" alt=\"Releases &\n"
+"foundations: 25%, New features: 23%, Help desk: 16%, Infrastructure: 13%,\n"
+"Administration: 12%, Meetings: 10%\"]]\n"
+msgstr ""
+"[[!img expenses.png link=\"no\" class=\"top-margin center\" alt=\"Versions i\n"
+"fonaments: 25%, Noves funcions: 23%, Assistència tècnica: 16%, Infraestructura: 13%,\n"
+"Administració: 12%, Reunions: 10%\"]]\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Even without building anything new in Tails, publishing our **releases** "
+"every 6 weeks is a lot of work as it also implies fixing the problems found "
+"in previous versions, documenting the changes, migrating to newer versions "
+"of Debian, GNOME, and Tor Browser, and making sure that the **foundations** "
+"of Tails stay relevant. As the schedule of emergency releases is "
+"unpredictable, they are hard to fund through grants and we instead usually "
+"rely on donations."
+msgstr ""
+"Fins i tot sense crear res de nou a Tails, publicar els nostres "
+"**llançaments** cada sis setmanes suposa molta feina, ja que també implica "
+"solucionar els problemes trobats en versions anteriors, documentar els "
+"canvis, migrar a versions més noves de Debian, GNOME i del Navegador Tor i "
+"assegurar-se que els **fonaments** de Tails segueixen sent rellevants. Com "
+"que el calendari d'emissions d'emergència és imprevisible, és difícil "
+"finançar-les mitjançant subvencions i, en canvi, normalment confiem en "
+"donacions."
+
+#. type: Bullet: '- '
+msgid ""
+"Developing **new features** is not the biggest share of our budget. They are "
+"almost exclusively covered by grants or developed by volunteers. Since 2015, "
+"new features that were not funded by grants included:"
+msgstr ""
+"El desenvolupament de **funcions noves** no és la part més important del "
+"nostre pressupost. Estan cobertes gairebé exclusivament per subvencions o "
+"desenvolupades per voluntaris. Des del 2015, les novetats que no s'han "
+"finançat amb subvencions inclouen:"
+
+#. type: Bullet: '  - '
+msgid "Integrating the *Electrum* Bitcoin client."
+msgstr "Integració del client *Electrum* Bitcoin."
+
+#. type: Bullet: '  - '
+msgid "Replacing *Vidalia* with *Onion Circuits*."
+msgstr "Substituir *Vidalia* per *Onion Circuits*."
+
+#. type: Bullet: '  - '
+msgid "Continue working on a new version of *Tails Greeter*."
+msgstr "Continuar treballant en una nova versió de *Tails Greeter*."
+
+#. type: Bullet: '  - '
+msgid ""
+"Mentoring a Google Summer of Code on *Tails Server* to allow running onion "
+"services from Tails (websites, collaboration tools, etc.)."
+msgstr ""
+"Mentoratge d'un Google Summer of Code al *Tails Server* per permetre "
+"l'execució de serveis onion des de Tails (llocs web, eines de col·laboració, "
+"etc.)."
+
+#. type: Bullet: '  - '
+msgid "Adding an offline mode that disables all networking."
+msgstr "Afegir un mode fora de línia que desactiva totes les xarxes."
+
+#. type: Bullet: '  - '
+msgid "Adding support for `obfs4` Tor bridges."
+msgstr "Afegir suport per als ponts de Tor `obfs4`."
+
+#. type: Bullet: '  - '
+msgid "Writing numerous additions to our website and documentation."
+msgstr "Escriure nombroses addicions al nostre lloc web i a la documentació."
+
+#. type: Bullet: '- '
+msgid ""
+"Our **help desk** is helping hundreds of Tails users each month. Each user "
+"request costs us 6€ on average to proceed. In 2016 our help desk was paid "
+"entirely out of donations."
+msgstr ""
+"El nostre **servei d'assistència** ajuda centenars d'usuaris de Tails cada "
+"mes. Cada sol·licitud d'usuari ens costa 6€ de mitjana per continuar. L'any "
+"2016 el nostre servei d'assistència es va pagar íntegrament amb donacions."
+
+#. type: Bullet: '- '
+msgid ""
+"Organizing our own **meetings** and attending conferences in our field is "
+"critical to keep our community alive and relevant. But this is usually hard "
+"to get funded by grants, so donations help us a lot here.  Since 2015, we "
+"attended more than 15 international conferences on free software (DebConf), "
+"Internet freedom (IFF), hacking (32C3), human rights (RightsCon), and "
+"journalism (Logan CIJ). And organized more than 10 internal in-person "
+"meetings and development sprints."
+msgstr ""
+"Organitzar les nostres pròpies **reunions** i assistir a conferències en el "
+"nostre camp és fonamental per mantenir viva i rellevant la nostra comunitat. "
+"Però això sol ser difícil de finançar amb subvencions, així que les "
+"donacions ens ajuden molt en aquest aspecte. Des del 2015, hem assistit a "
+"més de 15 conferències internacionals sobre programari lliure (DebConf), "
+"llibertat a Internet (IFF), pirateig (32C3), drets humans (RightsCon) i "
+"periodisme (Logan CIJ). I vam organitzar més de 10 reunions internes "
+"presencials i esprints de desenvolupament."
+
+#. type: Bullet: '- '
+msgid ""
+"In 2015, we worked a lot on **infrastructure**, for example to write an "
+"automated test suite to verify continuously the well-functioning of our ISO "
+"images, to automate the build of development ISO images for testing, etc. "
+"This work is invisible to the user but, for example, makes it much faster to "
+"publish emergency releases when we discover serious bugs."
+msgstr ""
+"El 2015, hem treballat molt en la **infraestructura**, per exemple per "
+"escriure una suite de proves automatitzada per verificar contínuament el bon "
+"funcionament de les nostres imatges ISO, per automatitzar la creació "
+"d'imatges ISO de desenvolupament per a proves, etc. Aquesta feina és "
+"invisible per a l'usuari però, per exemple, fa que sigui molt més ràpid "
+"publicar versions d'emergència quan descobrim errors greus."
+
+#. type: Bullet: '- '
+msgid ""
+"Keeping Tails successful also implies quite a bit of **administration** to "
+"raise funds, do accounting, organize work, write reports, etc."
+msgstr ""
+"Mantenir l'èxit de Tails també implica bastanta **administració** per "
+"recaptar fons, fer comptabilitat, organitzar el treball, escriure informes, "
+"etc."
+
+#. type: Bullet: '- '
+msgid ""
+"Since 2015, we added Farsi and Italian translations to our website and "
+"worked on the prototype of a web translation platform to allow more "
+"translators to contribute and more diverse people to use Tails."
+msgstr ""
+"Des del 2015, hem afegit traduccions al farsi i a l'italià al nostre lloc "
+"web i hem treballat en el prototip d'una plataforma de traducció web per "
+"permetre que més traductors contribueixin i més persones diverses utilitzin "
+"Tails."
+
+#. type: Plain text
+msgid "If you like our work, please take one minute to keep Tails alive."
+msgstr ""
+"Si us agrada la nostra feina, preneu-vos un minut per mantenir Tails viu."
+
+#. type: Plain text
+msgid "[[Donate]]"
+msgstr "[[Feu una donació|donate]]"
+
+#, no-wrap
+#~ msgid "<div class=\"button\"><a href=\"https://tails.net/donate/?r=what2017\">Donate</a></div>\n"
+#~ msgstr "<div class=\"button\"><a href=\"https://tails.net/donate/index.ca.html?r=what2017\">Feu una donació</a></div>\n"

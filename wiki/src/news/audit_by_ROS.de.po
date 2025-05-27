@@ -1,0 +1,291 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-11-14 10:03+0000\n"
+"PO-Revision-Date: 2024-10-09 19:22+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"[[!meta title=\"Security audit of Persistent Storage and Tor "
+"integration\"]]\n"
+msgstr ""
+"[[!meta title=\"Sicherheitsüberprüfung des beständigen Speichers und Tor-"
+"Integration\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta date=\"Fri, 10 Nov 2023 17:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 10 Nov 2023 17:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag security/audit]]\n"
+msgstr "[[!tag security/audit]]\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"In March 2023, [Radically Open "
+"Security](https://www.radicallyopensecurity.com/) conducted a security audit "
+"on the major improvements that we released in [[Tails 5.8|version_5.8]] "
+"(December 2022) on the Persistent Storage, the Unsafe Browser, and the "
+"Wayland integration."
+msgstr ""
+"Im März 2023 führte [Radically Open Security](https://www."
+"radicallyopensecurity.com/) ein Sicherheitsaudit zu den wesentlichen "
+"Verbesserungen durch, die wir in [[Tails 5.8|version_5.8]] (Dezember 2022) "
+"in Bezug auf den Persistent Storage, den Unsafe Browser und die Wayland-"
+"Integration veröffentlicht haben."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"To better protect our users, we addressed most of the security "
+"vulnerabilities as soon as they were discovered and reported to us, without "
+"waiting for the audit to be complete and public. We can now share with your "
+"the [final "
+"report](https://gitlab.tails.boum.org/tails/tails/uploads/df935595f41faa687805136a6bfa2910/tails-ros-penetration-test-report-1-2.pdf)."
+msgstr ""
+"Um unsere Benutzer besser zu schützen, haben wir die meisten der "
+"Sicherheitslücken behoben, sobald sie entdeckt und uns gemeldet wurden, ohne "
+"auf den Abschluss und die Veröffentlichung des Audits zu warten. Wir können "
+"Ihnen nun den [finalen Bericht](https://gitlab.tails.boum.org/tails/tails/"
+"uploads/df935595f41faa687805136a6bfa2910/tails-ros-penetration-test-"
+"report-1-2.pdf) mitteilen."
+
+#. type: Plain text
+#, markdown-text
+msgid "We are proud of the conclusion of the auditors:"
+msgstr "Wir sind stolz auf das Fazit der Prüfer:"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"> ***Overall, the Tails operating system left a solid impression and "
+"addressed\n"
+"> most of the concerns of an average user in need of anonymity.***\n"
+">\n"
+"> *This is particularly evident in the isolation of various components by "
+"the\n"
+"> developers. For example, the configured AppArmor rules often prevented a\n"
+"> significant impact of the found vulnerabilities. Shifting to Wayland was "
+"a\n"
+"> good decision, as it provides more security by isolating individual GUI\n"
+"> applications.*\n"
+">\n"
+"> *All in all, no serious vulnerabilities were found through the "
+"integration\n"
+"> into Wayland. Unsafe Browser and Persistent Storage should now be less\n"
+"> vulnerable to attack, as all vulnerabilities have been fixed.*\n"
+msgstr ""
+"> ***Insgesamt hinterließ das Tails-Betriebssystem einen soliden Eindruck "
+"und\n"
+"> ging auf die meisten Bedenken eines durchschnittlichen Benutzers ein, der "
+"Anonymität benötigt.***\n"
+">\n"
+"> *Dies ist besonders in der Isolierung verschiedener Komponenten durch die\n"
+"> Entwickler deutlich. Zum Beispiel verhinderten die konfigurierten AppArmor-"
+"Regeln oft eine\n"
+"> erhebliche Auswirkung der gefundenen Schwachstellen. Der Wechsel zu "
+"Wayland war eine\n"
+"> gute Entscheidung, da es durch die Isolierung einzelner GUI-Anwendungen "
+"mehr Sicherheit bietet.*\n"
+">\n"
+"> *Alles in allem wurden durch die Integration\n"
+"> in Wayland keine ernsthaften Schwachstellen gefunden. Unsicherer Browser "
+"und Persistenter Speicher sollten nun weniger\n"
+"> angreifbar sein, da alle Schwachstellen behoben wurden.*\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"The auditors found 6 *High*, 1 *Moderate*, 3 *Low*-severity issues. Another "
+"issue was fixed before the actual impact was assessed and so marked as "
+"having *Unknown* severity."
+msgstr ""
+"Die Prüfer fanden 6 *Hohe*, 1 *Mäßige*, 3 *Niedrige*-Schweregrad-Probleme. "
+"Ein weiteres Problem wurde behoben, bevor die tatsächliche Auswirkung "
+"bewertet wurde und daher als *Unbekannter* Schweregrad markiert."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"We fixed all these issues as soon as possible and before making them public "
+"on our GitLab. The last issue was fixed in 5.14, 3 weeks after it was "
+"reported to us."
+msgstr ""
+"Wir haben alle diese Probleme so schnell wie möglich behoben und bevor wir "
+"sie auf unserem GitLab öffentlich gemacht haben. Das letzte Problem wurde in "
+"5.14 behoben, 3 Wochen nachdem es uns gemeldet wurde."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"As good as the results of this audit are, they also serve as a reminder that "
+"no software is ever 100% secure and that every release of Tails can fix "
+"critical security vulnerabilities. Your best protection against all kinds of "
+"attack is to keep your Tails up-to-date."
+msgstr ""
+"So gut die Ergebnisse dieses Audits auch sind, dienen sie auch als "
+"Erinnerung daran, dass keine Software jemals 100% sicher ist und dass jede "
+"Version von Tails kritische Sicherheitslücken schließen kann. Ihr bester "
+"Schutz gegen alle Arten von Angriffen besteht darin, Ihr Tails immer auf dem "
+"neuesten Stand zu halten."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"Because at Tails we believe that transparency is key to building trust, all "
+"the code of our software is public and the results of this audit as "
+"well. You can find below a summary of all the issues and their fixes."
+msgstr ""
+"Weil wir bei Tails glauben, dass Transparenz der Schlüssel zum Aufbau von "
+"Vertrauen ist, ist der gesamte Code unserer Software öffentlich und die "
+"Ergebnisse dieser Prüfung ebenfalls. Unten finden Sie eine Zusammenfassung "
+"aller Probleme und deren Lösungen."
+
+#. type: Title #
+#, markdown-text, no-wrap
+msgid "Detailed findings"
+msgstr "Detaillierte Ergebnisse"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "Tor integration"
+msgstr "Tor-Integration"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>ID</th><th>Issue</th><th>Description</th><th>Impact</th><th>Status</th><th>Release</th></tr>\n"
+"<tr><td>TLS-012</td><td>[[!tails_ticket 19585]]</td><td>Leak clear IP as "
+"low-privileged user "
+"amnesia</td><td>High</td><td>Fixed</td><td>5.12</td></tr>\n"
+"<tr><td>TLS-013</td><td>[[!tails_ticket 19594]]</td><td>Local privilege "
+"escalation to Tor Connection "
+"sandbox</td><td>High</td><td>Fixed</td><td>5.12</td></tr>\n"
+"<tr><td>TLS-014</td><td>[[!tails_ticket 19595]]</td><td>Local privilege "
+"escalation to Tor Browser "
+"sandbox</td><td>Moderate</td><td>Fixed</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-017</td><td>[[!tails_ticket 19610]]</td><td>Insecure permissions "
+"of chroot overlay</td><td>Unknown</td><td>Fixed</td><td>5.13</td></tr>\n"
+"</table>\n"
+msgstr ""
+"<table>\n"
+"<tr><th>ID</th><th>Problem</th><th>Beschreibung</th><th>Auswirkung</th><th>St"
+"atus</th><th>Veröffentlichung</th></tr>\n"
+"<tr><td>TLS-012</td><td>[[!tails_ticket 19585]]</td><td>Leak der klaren IP "
+"als Benutzer mit niedrigen Rechten "
+"Amnesie</td><td>Hoch</td><td>Behoben</td><td>5.12</td></tr>\n"
+"<tr><td>TLS-013</td><td>[[!tails_ticket 19594]]</td><td>Lokale "
+"Rechteerhöhung zur Tor-Verbindung-"
+"Sandbox</td><td>Hoch</td><td>Behoben</td><td>5.12</td></tr>\n"
+"<tr><td>TLS-014</td><td>[[!tails_ticket 19595]]</td><td>Lokale "
+"Rechteerhöhung zur Tor-Browser-"
+"Sandbox</td><td>Mäßig</td><td>Behoben</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-017</td><td>[[!tails_ticket 19610]]</td><td>Unsichere "
+"Berechtigungen des Chroot-"
+"Overlays</td><td>Unbekannt</td><td>Behoben</td><td>5.13</td></tr>\n"
+"</table>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "Persistent Storage"
+msgstr "Beständiger Datenspeicher"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>ID</th><th>Issue</th><th>Description</th><th>Impact</th><th>Status</th><th>Release</th></tr>\n"
+"<tr><td>TLS-003</td><td>[[!tails_ticket 19546]]</td><td>Local privilege "
+"escalation in Persistent folder activation "
+"hook</td><td>High</td><td>Fixed</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-004</td><td>[[!tails_ticket 19547]]</td><td>Symlink attack in "
+"Persistent folder deactivation "
+"hook</td><td>Low</td><td>Fixed</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-005</td><td>[[!tails_ticket 19548]]</td><td>Local privilege "
+"escalation in GnuPG feature activation "
+"hook</td><td>High</td><td>Fixed</td><td>5.11</td></tr>\n"
+"</table>\n"
+msgstr ""
+"<table>\n"
+"<tr><th>ID</th><th>Problem</th><th>Beschreibung</th><th>Auswirkung</th><th>St"
+"atus</th><th>Veröffentlichung</th></tr>\n"
+"<tr><td>TLS-003</td><td>[[!tails_ticket 19546]]</td><td>Lokale "
+"Rechteerweiterung im Aktivierungshook des persistenten "
+"Ordners</td><td>Hoch</td><td>Behoben</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-004</td><td>[[!tails_ticket 19547]]</td><td>Symlink-Angriff im "
+"Deaktivierungshook des persistenten "
+"Ordners</td><td>Niedrig</td><td>Behoben</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-005</td><td>[[!tails_ticket 19548]]</td><td>Lokale "
+"Rechteerweiterung im Aktivierungshook der GnuPG-"
+"Funktion</td><td>Hoch</td><td>Behoben</td><td>5.11</td></tr>\n"
+"</table>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "Core"
+msgstr "Kern"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"<table>\n"
+"<tr><th>ID</th><th>Issue</th><th>Description</th><th>Impact</th><th>Status</th><th>Release</th></tr>\n"
+"<tr><td>TLS-001</td><td>[[!tails_ticket 19464]]</td><td>Local privilege "
+"escalation in "
+"tails-shell-library</td><td>High</td><td>Fixed</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-009</td><td>[[!tails_ticket 19599]]</td><td>Man-in-the-middle "
+"attack on onion-grater "
+"service</td><td>Low</td><td>Fixed</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-011</td><td>[[!tails_ticket 19576]]</td><td>Limited path "
+"traversal in "
+"tails-documentation</td><td>Low</td><td>Fixed</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-019</td><td>[[!tails_ticket 19677]]</td><td>Local privilege "
+"escalation in tailslib leads to arbitrary file "
+"read</td><td>High</td><td>Fixed</td><td>5.14</td></tr>\n"
+"</table>\n"
+msgstr ""
+"<table>\n"
+"<tr><th>ID</th><th>Problem</th><th>Beschreibung</th><th>Auswirkung</th><th>St"
+"atus</th><th>Veröffentlichung</th></tr>\n"
+"<tr><td>TLS-001</td><td>[[!tails_ticket 19464]]</td><td>Lokale "
+"Rechteerweiterung in tails-shell-"
+"library</td><td>Hoch</td><td>Behoben</td><td>5.11</td></tr>\n"
+"<tr><td>TLS-009</td><td>[[!tails_ticket 19599]]</td><td>Man-in-the-middle-"
+"Angriff auf den Onion-Grater-Dienst</td><td>Gering</td><td>Behoben</td><td>5."
+"13</td></tr>\n"
+"<tr><td>TLS-011</td><td>[[!tails_ticket 19576]]</td><td>Begrenzte "
+"Pfadüberquerung in tails-"
+"documentation</td><td>Gering</td><td>Behoben</td><td>5.13</td></tr>\n"
+"<tr><td>TLS-019</td><td>[[!tails_ticket 19677]]</td><td>Lokale "
+"Rechteerweiterung in tailslib führt zu beliebigem "
+"Dateilesezugriff</td><td>Hoch</td><td>Behoben</td><td>5.14</td></tr>\n"
+"</table>\n"

@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2021-11-01 08:55+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 06 Jan 2012 22:01:54 +0100\"]]\n"
+msgstr "[[!meta date=\"Fri, 06 Jan 2012 22:01:54 +0100\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"New SSL certificate for tails.boum.org\"]]\n"
+msgstr "[[!meta title=\"Nou certificat SSL per a tails.boum.org\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Plain text
+msgid ""
+"On the same day Tails 0.10 was put out, our website started to use a "
+"commercial SSL certificate. This new certificate replaces the previous one "
+"that was delivered by the non-commercial [CACert certificate authority]"
+"(http://www.cacert.org/)."
+msgstr ""
+"El mateix dia que es va publicar Tails 0.10, el nostre lloc web va començar "
+"a utilitzar un certificat SSL comercial. Aquest nou certificat substitueix "
+"l'anterior que va ser lliurat per l'[autoritat de certificació "
+"CACert](http://www.cacert.org/) no comercial."
+
+#. type: Title =
+#, no-wrap
+msgid "What are SSL certificates?"
+msgstr "Què són els certificats SSL?"
+
+#. type: Plain text
+msgid ""
+"Using HTTPS instead of plain HTTP to connect to a website allows you to "
+"encrypt your communication with the server. But encryption alone does not "
+"guarantee that you are talking with the right server, and not someone "
+"impersonating it, for example in case of a man-in-the-middle attack."
+msgstr ""
+"L'ús d'HTTPS en lloc d'HTTP normal per connectar-se a un lloc web us permet "
+"encriptar la vostra comunicació amb el servidor. Però l'encriptatge per si "
+"sol no garanteix que esteu parlant amb el servidor adequat i no algú que el "
+"suplanti, per exemple, en cas d'atac de «man-in-the-middle»."
+
+#. type: Plain text
+msgid ""
+"SSL certificates try to solve this problem. A SSL certificate is usually "
+"issued by a certificate authority to certify the identity of a server. When "
+"you reach a website your web browser might trust an SSL certificate "
+"automatically if it trusts the authority that issued it."
+msgstr ""
+"Els certificats SSL intenten resoldre aquest problema. Normalment, una "
+"autoritat de certificació emet un certificat SSL per certificar la identitat "
+"d'un servidor. Quan arribeu a un lloc web, el vostre navegador web pot "
+"confiar automàticament en un certificat SSL si confia en l'autoritat que "
+"l'ha emès."
+
+#. type: Plain text
+msgid ""
+"Commercial certificate authorities are making a living out of selling SSL "
+"certificates; they are usually trusted automatically by most of the "
+"browsers.  Other non-commercial authorities, such as [CACert](http://www."
+"cacert.org/), need to be installed by the operating system or by the user to "
+"avoid displaying a security warning when visiting the website."
+msgstr ""
+"Les autoritats de certificats comercials viuen de la venda de certificats "
+"SSL; solen ser de confiança automàtica per la majoria dels navegadors. "
+"Altres autoritats no comercials, com [CACert](http://www.cacert.org/), han "
+"de ser instal·lades pel sistema operatiu o per l'usuari per evitar que es "
+"mostri un avís de seguretat en visitar el lloc web."
+
+#. type: Title =
+#, no-wrap
+msgid "Weaknesses of the system"
+msgstr "Debilitats del sistema"
+
+#. type: Plain text
+msgid ""
+"But this trust system has proven to be flawed in many ways. For example, "
+"during 2011, two certificate authorities were compromised, and many fake "
+"certificates were issued and used in the wild. See [Comodo: The Recent RA "
+"Compromise](https://blog.comodo.com/other/the-recent-ra-compromise/)  and "
+"[The Tor Project: The DigiNotar Debacle, and what you should do about it]"
+"(https://blog.torproject.org/blog/diginotar-debacle-and-what-you-should-do-"
+"about-it)."
+msgstr ""
+"Però aquest sistema de confiança ha demostrat ser defectuós de moltes "
+"maneres. Per exemple, durant el 2011, dues autoritats de certificació es van "
+"veure compromeses i es van emetre i utilitzar molts certificats falsos. "
+"Vegeu [Comodo: The Recent RA Compromise](https://blog.comodo.com/other/"
+"the-recent-ra-compromise/) (en anglès) i [The Tor Project: The DigiNotar "
+"Debacle, i què hauríeu de fer al respecte](https://blog.torproject.org/blog/"
+"diginotar-debacle-and-what-you-should-do-about-it) (en anglès)."
+
+#. type: Plain text
+msgid ""
+"It is clear for us that getting an commercial SSL certificate is not enough "
+"to strongly authenticate our website, and for example authenticity of our "
+"releases.  That's why we always propose you stronger ways of authenticating "
+"our Tails release using OpenPGP signatures."
+msgstr ""
+"És clar per a nosaltres que obtenir un certificat SSL comercial no és "
+"suficient per autenticar fortament el nostre lloc web i, per exemple, "
+"l'autenticitat de les nostres versions. És per això que sempre us proposem "
+"maneres més sòlides d'autenticar la nostra versió de Tails mitjançant "
+"signatures OpenPGP."
+
+#. type: Title =
+#, no-wrap
+msgid "Why get a commercial certificate then?"
+msgstr "Per què obtenir un certificat comercial llavors?"
+
+#. type: Plain text
+msgid ""
+"Still we decided to get a commercial certificate for the following reasons:"
+msgstr ""
+"Tot i així vam decidir obtenir un certificat comercial pels motius següents:"
+
+#. type: Bullet: '- '
+msgid ""
+"It makes it harder to setup a simplistic man-in-the-middle attacks against "
+"the people who didn't use HTTPS so far to visit our website."
+msgstr ""
+"Dificulta la configuració d'atacs simplistes de «man-in-the-middle» contra "
+"les persones que fins ara no utilitzaven HTTPS per visitar el nostre lloc "
+"web."
+
+#. type: Bullet: '- '
+msgid ""
+"Our website now is only available with HTTPS enabled. This may be important "
+"to provide some confidentiality while posting on the forum for example."
+msgstr ""
+"El nostre lloc web ara només està disponible amb HTTPS habilitat. Això pot "
+"ser important per proporcionar una certa confidencialitat mentre es publica "
+"al fòrum, per exemple."

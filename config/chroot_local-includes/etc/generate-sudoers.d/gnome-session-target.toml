@@ -1,0 +1,6 @@
+# Allow the user service tails-start-system-gnome-session-target.service
+# to start the system target gnome-session.target.
+[[commands]]
+executable = "/bin/systemctl"
+args = ["start", "gnome-session.target"]
+allowed_user = "amnesia"

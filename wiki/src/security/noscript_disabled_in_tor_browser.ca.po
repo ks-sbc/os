@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-01-23 00:41+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sat, 04 May 2019 00:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 04 May 2019 00:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tor Browser not safe without manual action\"]]\n"
+msgstr "[[!meta title=\"El Navegador Tor no és segur sense acció manual\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag security/fixed]]\n"
+msgstr "[[!tag security/fixed]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\">Tor Browser in Tails 3.13.1 is not safe to use\n"
+"without taking the manual steps listed below each time you start\n"
+"Tails!</div>\n"
+msgstr ""
+"<div class=\"caution\">El Navegador Tor a Tails 3.13.1 no és segur d'utilitzar\n"
+"sense seguir els passos manuals que s'indiquen a continuació cada vegada que s'inici\n"
+"Tails!</div>\n"
+
+#. type: Plain text
+msgid ""
+"Starting from Friday May 3, a problem in *Firefox* and *Tor Browser* "
+"disabled all add-ons, especially *NoScript* which is used to:"
+msgstr ""
+"A partir del divendres 3 de maig, un problema a *Firefox* i al *Navegador "
+"Tor* va desactivar tots els complements, especialment *NoScript* que "
+"s'utilitza per:"
+
+#. type: Bullet: '- '
+msgid ""
+"Strengthen *Tor Browser* against some JavaScript attacks that can lead to "
+"compromised accounts and credentials on websites."
+msgstr ""
+"Reforçar el *Navegador Tor* contra alguns atacs de JavaScript que poden "
+"provocar la pèrdua de comptes i credencials als llocs web."
+
+#. type: Bullet: '- '
+msgid ""
+"Enable or disable JavaScript on some websites using the *NoScript* "
+"interface, if you use it."
+msgstr ""
+"Activar o desactivar el JavaScript en alguns llocs web mitjançant la "
+"interfície *NoScript*, si la feu servir."
+
+#. type: Plain text
+msgid ""
+"If *NoScript* is activated, the *NoScript* icon appears in the top-right "
+"corner and *Tor Browser* is safe:"
+msgstr ""
+"Si *NoScript* està activat, la icona de *NoScript* apareix a l'extrem "
+"superior dret i el *Navegador Tor* és segur:"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img news/version_3.13.2/with-noscript.png alt=\"\" link=\"no\"]]\n"
+msgstr "[[!img news/version_3.13.2/with-noscript.png alt=\"\" link=\"no\"]]\n"
+
+#. type: Plain text
+msgid ""
+"If *NoScript* is deactivated, the *NoScript* icon is absent from the top-"
+"right corner and *Tor Browser* is unsafe:"
+msgstr ""
+"Si *NoScript* està desactivat, la icona de *NoScript* està absent a l'extrem "
+"superior dret i el *Navegador Tor* no és segur:"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img news/version_3.13.2/without-noscript.png alt=\"\" link=\"no\"]]\n"
+msgstr "[[!img news/version_3.13.2/without-noscript.png alt=\"\" link=\"no\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Activate *NoScript* manually"
+msgstr "Activeu *NoScript* manualment"
+
+#. type: Plain text
+msgid ""
+"To secure *Tor Browser* in Tails 3.13.1 or earlier, you must activate "
+"*NoScript* every time you start Tails:"
+msgstr ""
+"Per protegir el *Navegador Tor* a Tails 3.13.1 o anterior, heu d'activar "
+"*NoScript* cada vegada que inicieu Tails:"
+
+#. type: Bullet: '1. '
+msgid "Open the address `about:config` in *Tor Browser*."
+msgstr "Obriu l'adreça `about:config` al *Navegador Tor*."
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!img news/version_3.13.2/about-config.png link=\"no\"]]\n"
+msgstr "   [[!img news/version_3.13.2/about-config.png link=\"no\"]]\n"
+
+#. type: Bullet: '1. '
+msgid "Click the **I accept the risk!** button."
+msgstr "Feu clic al botó **Accepto el risc!**."
+
+#. type: Bullet: '1. '
+msgid "At the top of the page, search for `xpinstall.signatures.required`."
+msgstr ""
+"A la part superior de la pàgina, cerqueu `xpinstall.signatures.required`."
+
+#. type: Bullet: '1. '
+msgid ""
+"Double-click on the **xpinstall.signatures.required** line in the results to "
+"set its value to **false**."
+msgstr ""
+"Feu doble clic a la línia **xpinstall.signatures.required** als resultats "
+"per establir-ne el valor a **false**."
+
+#. type: Bullet: '1. '
+msgid "Verify that *NoScript* is activated again."
+msgstr "Comproveu que *NoScript* estigui activat de nou."
+
+#. type: Plain text
+#, no-wrap
+msgid "   [[!img news/version_3.13.2/xpinstall-false.png link=\"no\"]]\n"
+msgstr "   [[!img news/version_3.13.2/xpinstall-false.png link=\"no\"]]\n"

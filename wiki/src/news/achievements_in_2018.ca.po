@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-11-20 11:01+0000\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Fri, 14 Nov 2018 08:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Fri, 14 Nov 2018 08:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Our achievements in 2018\"]]\n"
+msgstr "[[!meta title=\"Els nostres assoliments el 2018\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"On October 12, we started our [[yearly donation campaign|news/2018-"
+"fundraiser]].  Today, we summarize what we achieved with your help in 2018 "
+"and renew our call for donations."
+msgstr ""
+"El 12 d'octubre vam començar la nostra [[campanya anual de donacions|"
+"news/2018-fundraiser]]. Avui resumim el que hem aconseguit amb la vostra "
+"ajuda el 2018 i renovem la nostra convocatòria de donacions."
+
+#. type: Title =
+#, no-wrap
+msgid "New features"
+msgstr "Noves funcionalitats"
+
+#. type: Bullet: '- '
+msgid ""
+"We integrated *VeraCrypt* in the desktop to allow you to work with encrypted "
+"files across different operating systems (Windows, Linux, and macOS)."
+msgstr ""
+"Hem integrat *VeraCrypt* a l'escriptori per permetre-vos treballar amb "
+"fitxers encriptats en diferents sistemes operatius (Windows, Linux i macOS)."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  This work was done upstream in GNOME and will be available outside of\n"
+"  Tails in Debian 10 (Buster) and Ubuntu 18.10 (Cosmic Cuttlefish).\n"
+msgstr ""
+"  Aquest treball es va fer upstream a GNOME i estarà disponible fora de\n"
+"  Tails a Debian 10 (Buster) i Ubuntu 18.10 (Cosmic Cuttlefish).\n"
+
+#. type: Bullet: '- '
+msgid ""
+"*Additional Software* allows you to install additional software "
+"automatically when starting Tails."
+msgstr ""
+"La funció de *Programari Addicional* us permet instal·lar programari "
+"addicional automàticament quan inicieu Tails."
+
+#. type: Bullet: '- '
+msgid ""
+"We added a [[screen locker|doc/first_steps/desktop#screen-locker]] to give "
+"you some protection if you leave your Tails unattended, willingly or not."
+msgstr ""
+"Hem afegit un [[bloqueig de pantalla|doc/first_steps/desktop#screen-locker]] "
+"per oferir-vos una mica de protecció si deixeu Tails sense vigilància, "
+"voluntàriament o no."
+
+#. type: Bullet: '- '
+msgid ""
+"We completely redesigned our [[download page|install/download]] and "
+"verification extension to make it easier to get and verify Tails. It is also "
+"now possible to verify Tails from Chrome."
+msgstr ""
+"Hem redissenyat completament la nostra [[pàgina de baixada|install/"
+"download]] i l'extensió de verificació per tal que sigui més fàcil obtenir i "
+"verificar Tails. Ara també és possible verificar Tails des de Chrome."
+
+#. type: Title =
+#, no-wrap
+msgid "Adoption"
+msgstr "Adopció"
+
+#. type: Plain text
+msgid "- Tails was used approximately 22 000 times a day."
+msgstr "- Tails s'ha utilitzat aproximadament 22 000 vegades al dia."
+
+#. type: Bullet: '- '
+msgid ""
+"We did more usability work than ever before. Every new feature was tested "
+"with actual users to make sure Tails becomes easier to use."
+msgstr ""
+"Hem fet més feina d'usabilitat que mai. Cada funció nova s'ha provat amb "
+"usuaris reals per assegurar-nos que Tails sigui més fàcil d'utilitzar."
+
+#. type: Bullet: '- '
+msgid ""
+"We answered 1123 bug reports through our help desk and helped all these "
+"people to be safer online."
+msgstr ""
+"Hem contestat 1123 informes d'errors a través del nostre servei "
+"d'assistència i hem ajudat a totes aquestes persones a estar més segures en "
+"línia."
+
+#. type: Title =
+#, no-wrap
+msgid "Under the hood"
+msgstr "Sota el capó"
+
+#. type: Bullet: '- '
+msgid ""
+"We released 11 new versions of Tails to continue offering improvements and "
+"security fixes as soon as possible, including 4 emergency releases. This "
+"year we've faced critical security issues like Spectre, Meltdown, EFAIL, and "
+"issues in Firefox and are working hard to always have your back covered!"
+msgstr ""
+"Hem llançat 11 noves versions de Tails per continuar oferint millores i "
+"solucions de seguretat tan aviat com ha sigut possible, incloses quatre "
+"versions d'emergència. Aquest any ens hem enfrontat a problemes de seguretat "
+"crítics com Spectre, Meltdown, EFAIL i problemes a Firefox i estem "
+"treballant dur per tenir sempre l'esquena coberta!"
+
+#. type: Bullet: '- '
+msgid ""
+"We made the build of Tails completely [[reproducible|news/"
+"reproducible_Tails]], which brings even more trust in the ISO images that we "
+"are distributing, a faster release process, and slightly smaller upgrades."
+msgstr ""
+"Hem fet que la creació de Tails sigui completament [[reproductible|news/"
+"reproducible_Tails]], la qual cosa aporta encara més confiança en les "
+"imatges ISO que estem distribuint, un procés de llançament més ràpid i "
+"actualitzacions una mica més petites."
+
+#. type: Bullet: '- '
+msgid ""
+"We greatly diversified our sources of income. Thanks to all of you, the "
+"share of donations that we got from individuals increased from 17% to 34%. "
+"This made our organization more robust and independent."
+msgstr ""
+"Hem diversificat molt les nostres fonts d'ingressos. Gràcies a tots "
+"vosaltres, la proporció de donacions que hem rebut de particulars ha "
+"augmentat del 17% al 34%. Això ha fet que la nostra organització sigui més "
+"robusta i independent."
+
+#. type: Title =
+#, no-wrap
+msgid "Community"
+msgstr "Comunitat"
+
+#. type: Bullet: '- '
+msgid ""
+"We published a social contract to clarify the social commitments that we "
+"stand by as Tails contributors."
+msgstr ""
+"Hem publicat un contracte social per aclarir els compromisos socials que "
+"mantenim com a col·laboradors de Tails."
+
+#. type: Bullet: '- '
+msgid ""
+"We attended 12 conferences and connected to free software and Internet "
+"freedom communities in 8 different countries, including Chaos Computer "
+"Congress (Germany), FOSDEM (Belgium), Internet Freedom Festival (Spain), Tor "
+"Meeting (Italy and Mexico), Debian Conference (Taiwan), and CryptoRave "
+"(Brazil)."
+msgstr ""
+"Hem assistit a dotze conferències i hem connectat amb programari lliure i "
+"comunitats de llibertat d'Internet a vuit països diferents, entre ells Chaos "
+"Computer Congress (Alemanya), FOSDEM (Bèlgica), Internet Freedom Festival "
+"(Espanya), Tor Meeting (Itàlia i Mèxic), Debian Conference (Taiwan), i "
+"CryptoRave (Brasil)."
+
+#. type: Bullet: '- '
+msgid ""
+"We grew our pool of regular contractors with 4 new workers, mostly to work "
+"on our core code and infrastructure. These include several very skilled "
+"Debian developers."
+msgstr ""
+"Hem augmentat el nostre grup de contractistes habituals amb 4 treballadors "
+"nous, principalment per treballar en el nostre codi bàsic i la nostra "
+"infraestructura. Aquests inclouen diversos desenvolupadors de Debian molt "
+"hàbils."
+
+#. type: Plain text
+msgid ""
+"All of this is made possible by donations from people like you. And because "
+"they help us to plan our work, we particularly appreciate monthly and yearly "
+"donations, even the smallest ones."
+msgstr ""
+"Tot això és possible gràcies a les donacions de persones com tu. I perquè "
+"ens ajuden a planificar la nostra feina, agraïm especialment les donacions "
+"mensuals i anuals, fins i tot les més petites."
+
+#. type: Plain text
+msgid ""
+"If you liked our work in 2018, please take a minute to donate and make us "
+"thrive in 2019!"
+msgstr ""
+"Si us ha agradat la nostra feina el 2018, preneu-vos un minut per fer una "
+"donació i fer-nos prosperar el 2019!"
+
+#. type: Plain text
+msgid "[[Donate]]"
+msgstr "[[Feu una donació|donate]]"
+
+#, no-wrap
+#~ msgid "  [[!img doc/encryption_and_privacy/veracrypt/unlock-veracrypt-volumes-with-partition.png link=\"no\" alt=\"\"]]\n"
+#~ msgstr "  [[!img doc/encryption_and_privacy/veracrypt/unlock-veracrypt-volumes-with-partition.png link=\"no\" alt=\"\"]]\n"
+
+#, no-wrap
+#~ msgid "  [[!img doc/first_steps/desktop/screen-locker.png alt=\"\" link=\"no\"]]\n"
+#~ msgstr "  [[!img doc/first_steps/desktop/screen-locker.png alt=\"\" link=\"no\"]]\n"
+
+#, no-wrap
+#~ msgid "<div class=\"button\"><a href=\"https://tails.net/donate/?r=2018-achievements\">Donate</a></div>\n"
+#~ msgstr "<div class=\"button\"><a href=\"https://tails.net/donate/index.ca.html?r=2018-achievements\">Feu una donació</a></div>\n"

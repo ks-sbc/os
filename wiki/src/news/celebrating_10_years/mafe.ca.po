@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-09-04 09:56+0200\n"
+"PO-Revision-Date: 2024-09-28 16:09+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Mafé\"]]\n"
+msgstr "[[!meta title=\"Mafé\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Western African dish based on sweet potatoes. Ingredients for 12 people! :)"
+msgstr ""
+"Plat africà occidental a base de moniatos. Ingredients per a 12 persones! :)"
+
+#. type: Title ##
+#, no-wrap
+msgid "Yof ingredients"
+msgstr "Ingredients Yof"
+
+#. type: Bullet: '* '
+msgid "1 bunch of parsley"
+msgstr "Un manat de julivert"
+
+#. type: Bullet: '* '
+msgid "1 big onion"
+msgstr "Una ceba gran"
+
+#. type: Bullet: '* '
+msgid "3 cloves of garlic"
+msgstr "Tres dents d'all"
+
+#. type: Bullet: '* '
+msgid "3 cubes dehydrated vegetable broth"
+msgstr "Tres daus de brou vegetal deshidratat"
+
+#. type: Bullet: '* '
+msgid "2 teaspoons of chili powder (or fresh)"
+msgstr "Dues culleradetes de xili en pols (o fresc)"
+
+#. type: Bullet: '* '
+msgid "Salt"
+msgstr "Sal"
+
+#. type: Title ##
+#, no-wrap
+msgid "Main ingredients"
+msgstr "Ingredients principals"
+
+#. type: Bullet: '* '
+msgid "3 big onions"
+msgstr "Tres cebes grans"
+
+#. type: Bullet: '* '
+msgid "2.5 kg sweet potatoes 🍠 (yes! U+1F360 is \"ROASTED SWEET POTATO\"!)"
+msgstr "2,5 kg de moniatos 🍠 (sí! U+1F360 és un «MONIATO ROSTIT»!)"
+
+#. type: Bullet: '* '
+msgid "800 g. crushed tomatoes (canned is fine)"
+msgstr "800 g. de tomàquets triturats (en llauna està bé)"
+
+#. type: Bullet: '* '
+msgid "400 g. smooth peanut butter"
+msgstr "400 g. de mantega de cacauet suau"
+
+#. type: Bullet: '* '
+msgid ""
+"½ l. boiled vegetable broth. It is a good idea to make a bit more and keep "
+"it in case the mafé becomes to thick."
+msgstr ""
+"Mig litre de brou de verdures bullit. És una bona idea fer-ne una mica més i "
+"conservar-lo per si el mafé es fa massa gros."
+
+#. type: Bullet: '* '
+msgid "4 table spoons sunflower oil"
+msgstr "Quatre cullerades soperes d'oli de gira-sol"
+
+#. type: Bullet: '* '
+msgid ""
+"(Optional [used during the 2017 summit]): ½ bunch chopped parsley for "
+"decoration"
+msgstr ""
+"(Opcional [utilitzat durant la cimera del 2017]): mig ram de julivert picat "
+"per a la decoració"
+
+#. type: Bullet: '* '
+msgid ""
+"(Optional [but not used during the 2017 summit]): more chili for a more "
+"authentic/traditional experience! :)"
+msgstr ""
+"(Opcional [però no utilitzat durant la cimera del 2017]): més xili per a una "
+"experiència més autèntica/tradicional! :)"
+
+#. type: Title ##
+#, no-wrap
+msgid "Steps"
+msgstr "Passos"
+
+#. type: Bullet: '1.  '
+msgid ""
+"Prepare the yof by mixing (preferably with an electrical mixer)  all "
+"ingredients into a paste."
+msgstr ""
+"Prepareu el yof barrejant (preferiblement amb una batedora elèctrica) tots "
+"els ingredients en una pasta."
+
+#. type: Bullet: '2.  '
+msgid "Peel and chop both onions and sweet potatoes into big pieces."
+msgstr "Peleu i talleu les cebes i els moniatos a trossos grans."
+
+#. type: Bullet: '3.  '
+msgid ""
+"Heat the sunflower oil in a pot (will need a lid later!) for the main dish."
+msgstr ""
+"Escalfeu l'oli de gira-sol en una olla (més tard necessitarà una tapa!) per "
+"al plat principal."
+
+#. type: Bullet: '4.  '
+msgid "Add the yof and stir for 2 minutes on medium heat."
+msgstr "Afegiu el yof i remeneu durant 2 minuts a foc mitjà."
+
+#. type: Bullet: '5.  '
+msgid "Add onions."
+msgstr "Afegiu les cebes."
+
+#. type: Bullet: '6.  '
+msgid "Stir for 4 minutes."
+msgstr "Remeneu durant 4 minuts."
+
+#. type: Bullet: '7.  '
+msgid ""
+"Add sweet potatoes, tomatoes and ⅔ of the broth, making sure that the "
+"potatoes are *exactly* covered by the liquid."
+msgstr ""
+"Afegiu moniatos, tomàquets i dos terços del brou, procurant que els moniatos "
+"estiguin *exactament* coberts pel líquid."
+
+#. type: Bullet: '8.  '
+msgid ""
+"Increase to high heat, cover the pot with a lid and let it boil until the "
+"sweet potatoes are cooked. Stir regularly! This should take about 25 minutes "
+"(but it depends on the size of the potato pieces)."
+msgstr ""
+"Pugeu a foc fort, tapeu l'olla amb una tapa i deixeu-ho bullir fins que els "
+"moniatos estiguin cuits. Remeneu regularment! Això hauria de trigar uns 25 "
+"minuts (però depèn de la mida dels trossos de patata)."
+
+#. type: Bullet: '9.  '
+msgid ""
+"Add peanut butter and the rest of the broth, and stir it evenly in the "
+"mixture."
+msgstr ""
+"Afegiu la mantega de cacauet i la resta del brou i remeneu-ho uniformement a "
+"la barreja."
+
+#. type: Bullet: '10. '
+msgid "Decrease to low heat and stir regularly for another 20 minutes."
+msgstr "Baixeu a foc lent i remeneu regularment durant 20 minuts més."
+
+#. type: Bullet: '11. '
+msgid "Season with salt (and optionally more chili), and serve with rice!"
+msgstr "Salpebreu (i opcionalment afegiu més xili) i serviu-ho amb arròs!"
+
+#. type: Plain text
+msgid ""
+"As mentioned in the main ingredients, if the result is too thick, it can be "
+"made thinner by adding any extra broth."
+msgstr ""
+"Com s'ha dit als ingredients principals, si el resultat és massa espès, es "
+"pot fer més líquid afegint-hi més brou."

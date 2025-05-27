@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-01-07 18:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Printing and scanning\"]]\n"
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Printing"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"To configure a printer or manage your printing jobs choose\n"
+"<span class=\"menuchoice\">\n"
+"  <span class=\"guimenu\">Applications</span>&nbsp;▸\n"
+"  <span class=\"guisubmenu\">System Tools</span>&nbsp;▸\n"
+"  <span class=\"guimenuitem\">Settings</span></span>&nbsp;▸\n"
+"  <span class=\"bold\">Printers</span></span>.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To check the compatibility of your printer with Linux and Tails, consult the "
+"[OpenPrinting database](https://openprinting.github.io/printers/) of the "
+"Linux Foundation."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"tip\">\n"
+"<p>To reuse the configuration of your printers across different working\n"
+"sessions, turn on the [[Printers|persistent_storage/configure#printers]]\n"
+"feature of the Persistent Storage.</p>\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Scanning"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Tails includes the [*Document Scanner*](https://gitlab.gnome.org/GNOME/"
+"simple-scan)  utility to scan documents and photos."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To start *Document Scanner*, choose **Applications**&nbsp;▸ "
+"**Utilities**&nbsp;▸ **Document Scanner**."
+msgstr ""

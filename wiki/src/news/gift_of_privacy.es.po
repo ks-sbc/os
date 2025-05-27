@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-10-28 23:12+0000\n"
+"PO-Revision-Date: 2025-03-06 14:58+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta title=\"Make the gift of privacy!\"]]\n"
+msgstr "[[!meta title=\"¡Regala privacidad!\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta date=\"Sat, 28 Oct 2023 23:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 28 Oct 2023 23:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"With malicious actors’ intrusions into human rights growing in "
+"sophistication and scale, Tails offers hope for those seeking refuge in a "
+"more secure digital environment. We stand on the precipice of a future where "
+"digital privacy should be a fundamental right, not a luxury."
+msgstr ""
+"Ante la creciente sofisticación y magnitud de las intrusiones de agentes "
+"maliciosos en los derechos humanos, Tails ofrece esperanza a quienes buscan "
+"refugio en un entorno digital más seguro. Nos encontramos en el precipicio "
+"de un futuro en el que la privacidad digital debería ser un derecho "
+"fundamental, no un lujo."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!img donate/godzilla.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img donate/godzilla.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"Since we started in 2008, millions of people around the world have used "
+"Tails to be more secure, autonomous, and anonymous in their digital lives."
+msgstr ""
+"Desde que empezamos en 2008, millones de personas de todo el mundo han "
+"utilizado Tails para ser más autónomas, seguras y anónimas en su vida "
+"digital."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"We have come so far thanks to you, and need your support to continue to do "
+"what we do best: deliver the world's most privacy-preserving operating "
+"system!"
+msgstr ""
+"Hemos llegado tan lejos gracias a ti, y necesitamos tu apoyo para seguir "
+"haciendo lo que mejor sabemos hacer: ¡ofrecer el sistema operativo que más "
+"protege la privacidad del mundo!"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"Your donations a lion's share [[of our income|donate#income]]. But, this "
+"share has reduced in the last couple of years. Globally, philanthropic "
+"giving has fallen, in what is yet another symptom of the challenging "
+"political and economic conditions we find ourselves in. But this hasn’t "
+"tempered our ambitions. Despite these challenges, Tails has gotten bigger "
+"and better over the past year. We have spent more time improving Tails this "
+"year than any previous year. But to achieve this, we have relied a bit more "
+"on support from large, institutional donors."
+msgstr ""
+"Vuestras donaciones representan la mayor parte [[de nuestros "
+"ingresos|donate#income]]. Pero esta parte se ha reducido en los dos últimos "
+"años. Las donaciones filantrópicas han disminuido en todo el mundo, un "
+"síntoma más de las difíciles condiciones políticas y económicas en las que "
+"nos encontramos. Pero esto no ha moderado nuestras ambiciones. A pesar de "
+"estos retos, Tails ha crecido y mejorado en el último año. Este año hemos "
+"dedicado más tiempo a mejorar Tails que en cualquier otro año anterior. Pero "
+"para lograrlo, hemos dependido un poco más del apoyo de grandes donantes "
+"institucionales."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"While we are grateful for the support and generosity of our \"large\" "
+"donors, we want to keep our reliance on them to a minimum. We are betting on "
+"having diversified income streams as our insurance from economic volatility "
+"and assurance of growing Tails sustainably and with complete decisional "
+"autonomy.  Although, this means that we rely on you even more. And hence "
+"this fundraiser!"
+msgstr ""
+"Aunque agradecemos el apoyo y la generosidad de nuestros \"grandes\" "
+"donantes, queremos reducir al mínimo nuestra dependencia en ellos. Apostamos "
+"por tener fuentes de ingresos diversificadas como nuestro seguro frente a la "
+"volatilidad económica y la garantía de hacer crecer Tails de forma "
+"sostenible y con total autonomía de decisión. Aunque esto significa que "
+"dependemos aún más de vosotros. ¡Y de ahí esta recaudación de fondos!"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"Our goal is clear: to make Tails even more useful for vulnerable people in "
+"high-risk environments. And we want to do this while remaining as autonomous "
+"as our users are."
+msgstr ""
+"Nuestro objetivo es claro: hacer que Tails sea aún más útil para las "
+"personas vulnerables en entornos de alto riesgo. Y queremos hacerlo siendo "
+"tan autónomos como nuestros usuarios."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"The proceeds from this fundraiser will drive initiatives that will make "
+"Tails even more usable and secure. We want to add new, big features to "
+"Tails, enhance user experience with even more usability tests, and increase "
+"Tails’ use in more geographies around the world."
+msgstr ""
+"Los ingresos de esta recaudación de fondos impulsarán iniciativas que harán "
+"que Tails sea aún más usable y seguro. Queremos añadir nuevas y grandes "
+"características a Tails, mejorar la experiencia del usuario con aún más "
+"pruebas de usabilidad, y aumentar el uso de Tails en más geografías de todo "
+"el mundo."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"Every donation, no matter how small, makes a difference. Please donate today "
+"and help us keep Tails alive and well in 2024 and beyond! Here are 5 ways "
+"you can get involved:"
+msgstr ""
+"Cada donación, por pequeña que sea, marca la diferencia. Haz tu donativo hoy "
+"y ayúdanos a mantener a Tails con vida en 2024 y más allá. Aquí tienes 5 "
+"formas de participar:"
+
+#. type: Bullet: '1. '
+#, markdown-text
+msgid ""
+"<b>By making a recurring donation.</b> [[Recurring donations|donate]] are "
+"the best insurance for Tails' mission. These help us weather economic "
+"uncertainties and plan our work sustainably."
+msgstr ""
+"<b>Haciendo una donación recurrente.</b> [[Las Donaciones "
+"recurrentes|donate]] son el mejor seguro para la misión de Tails. Nos ayudan "
+"a superar las incertidumbres económicas y a planificar nuestro trabajo de "
+"forma sostenible."
+
+#. type: Bullet: '2. '
+#, markdown-text
+msgid ""
+"<b>With a one-time gift.</b> If you can't set-up a recurring donation, you "
+"can make a [[one-time donation|donate]]. Donate via PayPal, bank transfers, "
+"mail in your checks, or just send us good, old cash. Here's a pro-tip: "
+"donations of over $1&#8239;000 entitle you to some neat [[sponsorship "
+"benefits|sponsors/become]]."
+msgstr ""
+
+#. type: Bullet: '3. '
+#, markdown-text
+msgid ""
+"<b>Through cryptocurrency.</b> We accept [[crypto donations|donate]] in "
+"Bitcoin, Ethereum, and Monero."
+msgstr ""
+"<b>A través de criptomonedas.</b> Aceptamos [[donaciones de "
+"criptomonedas|donate]] en Bitcoin, Ethereum y Monero."
+
+#. type: Bullet: '4. '
+#, markdown-text
+msgid ""
+"<b>Gift matching.</b> If your employer runs gift-matching programmes, "
+"consider looking up <b>Riseup Labs</b> and donate to <b>Tails via Riseup "
+"Labs</b>. Riseup Labs is our fiscal sponsor in the United States of America."
+msgstr ""
+"<b>Compensación de donaciones.</b> Si tu empresa tiene programas de "
+"compensación de donaciones, considera la posibilidad de buscar <b>Riseup "
+"Labs</b> y donar a <b>Tails a través de Riseup Labs</b>. Riseup Labs es "
+"nuestro patrocinador fiscal en los Estados Unidos de América."
+
+#. type: Bullet: '5. '
+#, markdown-text
+msgid ""
+"<b>Spread the word.</b> And finally, please share this fundraiser with your "
+"network, friends, and colleagues. Help us amplify our impact by reaching a "
+"wider audience!"
+msgstr ""
+"<b>Corre la voz.</b> Y, por último, por favor, comparte esta recaudación de "
+"fondos con tu red de contactos, amigos y colegas. Ayúdanos a ampliar nuestro "
+"impacto llegando a un público más amplio."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"Thank you for being part of this journey and a toast to our future "
+"adventures together! Oh, and in case you have somehow managed to skip over "
+"all the links to our donations page so far, here it is: "
+"<https://tails.net/donate/>."
+msgstr ""

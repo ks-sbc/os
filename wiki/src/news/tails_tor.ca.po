@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-02-19 18:39+0000\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Uniting for Internet Freedom: Tor Project & Tails Join Forces\"]]\n"
+msgstr "[[!meta title=\"Unió per la llibertat d'Internet: el Projecte Tor i Tails uneixen forces\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Thu, 26 Sep 2024 09:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Thu, 26 Sep 2024 09:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Today the Tor Project, a global non-profit developing tools for online "
+#| "privacy and anonymity, and Tails, a portable operating system that uses "
+#| "Tor to protect users from digital surveillance, have joined forces and "
+#| "merged operations. Incorporating Tails into the Tor Project's structure "
+#| "allows for easier collaboration, better sustainability, reduced overhead, "
+#| "and expanded training and outreach programs to counter a larger number of "
+#| "digital threats. In short, coming together will strengthen both "
+#| "organizations' ability to protect people worldwide from surveillance and "
+#| "censorship."
+msgid ""
+"Today the Tor Project, a global nonprofit developing tools for online "
+"privacy and anonymity, and Tails, a portable operating system that uses Tor "
+"to protect users from digital surveillance, have joined forces and merged "
+"operations. Incorporating Tails into the Tor Project's structure allows for "
+"easier collaboration, better sustainability, reduced overhead, and expanded "
+"training and outreach programs to counter a larger number of digital "
+"threats. In short, coming together will strengthen both organizations' "
+"ability to protect people worldwide from surveillance and censorship."
+msgstr ""
+"Avui, el Projecte Tor, una organització global sense ànim de lucre que "
+"desenvolupa eines per a la privadesa i l'anonimat en línia, i Tails, un "
+"sistema operatiu portàtil que utilitza Tor per protegir els usuaris de la "
+"vigilància digital, han unit forces i operacions. La incorporació de Tails a "
+"l'estructura del Projecte Tor permet una col·laboració més fàcil, una millor "
+"sostenibilitat, una reducció de despeses generals i programes de formació i "
+"divulgació ampliats per contrarestar un nombre més gran d'amenaces digitals. "
+"En resum, la unió reforçarà la capacitat d'ambdues organitzacions per "
+"protegir les persones de tot el món de la vigilància i la censura."
+
+#. type: Title ##
+#, no-wrap
+msgid "Pooling resources to better serve a global community"
+msgstr "Posar en comú els recursos per servir millor a una comunitat global"
+
+#. type: Plain text
+msgid ""
+"Countering the threat of global mass surveillance and censorship to a free "
+"Internet, Tor and Tails provide essential tools to help people around the "
+"world stay safe online. By joining forces, these two privacy advocates will "
+"pool their resources to focus on what matters most: ensuring that activists, "
+"journalists, other at-risk and everyday users will have access to improved "
+"digital security tools."
+msgstr ""
+"Per contrarestar l'amenaça de la vigilància massiva global i la censura per "
+"a una Internet lliure, Tor i Tails ofereixen eines essencials per ajudar a "
+"les persones de tot el món a mantenir-se segures en línia. En unir forces, "
+"aquestes dues organitzacions defensores de la privadesa uniran els seus "
+"recursos per centrar-se en allò que més importa: assegurar que activistes, "
+"periodistes, altres usuaris en risc i quotidians tindran accés a eines de "
+"seguretat digital millorades."
+
+#. type: Plain text
+msgid ""
+"In late 2023, Tails approached the Tor Project with the idea of merging "
+"operations. Tails had outgrown its existing structure. Rather than expanding "
+"Tails’s operational capacity on their own and putting more stress on Tails "
+"workers, merging with the Tor Project, with its larger and established "
+"operational framework, offered a solution. By joining forces, the Tails team "
+"can now focus on their core mission of maintaining and improving Tails OS, "
+"exploring more and complementary use cases while benefiting from the larger "
+"organizational structure of The Tor Project."
+msgstr ""
+"A finals de 2023, Tails es va apropar al Projecte Tor amb la idea de "
+"fusionar operacions. Tails va superar la seva estructura existent. En lloc "
+"d'ampliar la capacitat operativa de Tails per si sol i posar més estrès als "
+"treballadors de Tails, la fusió amb el Projecte Tor, amb el seu marc "
+"operatiu més gran i establert, va oferir una solució. En unir forces, "
+"l'equip de Tails ara pot centrar-se en la seva missió principal de mantenir "
+"i millorar el sistema operatiu Tails, explorant més casos d'ús i casos d'ús "
+"complementaris alhora que es beneficia de l'estructura organitzativa més "
+"àmplia del Projecte Tor."
+
+#. type: Plain text
+msgid ""
+"This solution is a natural outcome of the Tor Project and Tails' shared "
+"history of collaboration and solidarity. 15 years ago, Tails' first release "
+"was announced on a Tor mailing list, Tor and Tails developers have been "
+"collaborating closely since 2015, and more recently Tails has been a sub-"
+"grantee of Tor. For Tails, it felt obvious that if they were to approach a "
+"bigger organization with the possibility of merging, it would be the Tor "
+"Project."
+msgstr ""
+"Aquesta solució és un resultat natural de la història de col·laboració i "
+"solidaritat compartida pel Projecte Tor i Tails. Fa 15 anys, el primer "
+"llançament de Tails es va anunciar en una llista de correu electrònic de "
+"Tor, els desenvolupadors de Tor i Tails col·laboren estretament des del 2015 "
+"i, més recentment, Tails ha estat subvencionat per Tor. Per a Tails, "
+"semblava obvi que si s'acostaven a una organització més gran amb la "
+"possibilitat de fusionar-se, aquesta seria el Projecte Tor."
+
+#. type: Plain text
+#, no-wrap
+msgid "> \"Running Tails as an independent project for 15 years has been a huge effort, but not for the reasons you might expect. The toughest part wasn't the tech–it was handling critical tasks like fundraising, finances, and HR. After trying to manage those in different ways, I’m really relieved that Tails is now under the Tor Project’s wing. In a way, it feels like coming home.\" <p class=\"signature\">–intrigeri, Team Lead Tails OS, The Tor Project</p>\n"
+msgstr "> «Fer de Tails un projecte independent durant 15 anys ha estat un gran esforç, però no pels motius que es poden esperar. La part més difícil no ha estat la tecnologia, sinó la gestió de tasques crítiques com la recaptació de fons, les finances i els recursos humans. Després d'intentar gestionar-ho de diferents maneres, estic molt alleujat que Tails estigui ara sota la protecció del Projecte Tor. D'alguna manera, se sent com tornar a casa». <p class=\"signature\">–intrigeri, Líder d'equip de Tails OS, el Projecte Tor</p>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Welcoming new users and partners into our communities"
+msgstr "Donar la benvinguda a nous usuaris i socis a les nostres comunitats"
+
+#. type: Plain text
+msgid ""
+"Whether it’s someone seeking access to the open web or facing surveillance, "
+"Tor and Tails offer complementary protections. While Tor Browser anonymizes "
+"online activity, Tails secures the entire operating system–from files to "
+"browsing sessions. For journalists working in repressive regions or covering "
+"sensitive topics, Tor and Tails are often used as a set to protect their "
+"communications and safeguard their sources. The merger will lead to more "
+"robust treatment of these overlapping threat models and offer a "
+"comprehensive solution for those who need both network and system-level "
+"security in high-risk environments."
+msgstr ""
+"Tant si es tracta d'algú que busca accedir a la web oberta com si s'enfronta "
+"a la vigilància, Tor i Tails ofereixen proteccions complementàries. Mentre "
+"que el Navegador Tor anonimitza l'activitat en línia, Tails assegura tot el "
+"sistema operatiu, des dels fitxers fins a les sessions de navegació. Per als "
+"periodistes que treballen en regions repressives o cobreixen temes "
+"sensibles, Tor i Tails s'utilitzen sovint en conjunt per protegir les seves "
+"comunicacions i salvaguardar les seves fonts. La fusió donarà lloc a un "
+"tractament més sòlid d'aquests models d'amenaça superposats i oferirà una "
+"solució integral per a aquells que necessiten seguretat a nivell de xarxa i "
+"de sistema en entorns d'alt risc."
+
+#. type: Plain text
+msgid ""
+"It will also open up broader training and outreach opportunities. Until now, "
+"Tor’s educational efforts have primarily focused on its browser. With Tails "
+"integrated into these programs, we can address a wider range of privacy "
+"needs and security scenarios.  Lastly, this merger will lead to increased "
+"visibility for Tails. Many users familiar with Tor may not yet know about "
+"Tails OS. By bringing Tails within the Tor Project umbrella, we can "
+"introduce this powerful tool to more individuals and groups needing to "
+"remain anonymous while working in hostile environments."
+msgstr ""
+"També obrirà oportunitats de formació i divulgació més àmplies. Fins ara, "
+"els esforços educatius de Tor s'han centrat principalment en el seu "
+"navegador. Amb Tails integrat en aquests programes, podem abordar una gamma "
+"més àmplia de necessitats de privadesa i escenaris de seguretat. Finalment, "
+"aquesta fusió donarà lloc a una major visibilitat de Tails. És possible que "
+"molts usuaris familiaritzats amb Tor encara no coneguin el sistema operatiu "
+"Tails. En incorporar Tails al Projecte Tor, podem introduir aquesta potent "
+"eina a més persones i grups que necessiten mantenir-se en l'anonimat mentre "
+"treballen en entorns hostils."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"> \"Joining Tor means we’ll finally have the capacity to reach more people who need Tails. We've known for a long time that we needed to ramp up our outreach, but we just didn’t have the resources to do so\"\n"
+"> <p class=\"signature\">–intrigeri</p>\n"
+msgstr ""
+"> «Unir-nos a Tor vol dir que finalment tindrem la capacitat d'arribar a més persones que necessiten Tails. Fa temps que sabem que havíem d'augmentar la nostra difusió, però simplement no teníem els recursos per fer-ho».\n"
+"> <p class=\"signature\">–intrigeri</p>\n"
+
+#. type: Plain text
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"> \"By bringing these two organizations together, we’re not just making things easier for our teams, but ensuring the sustainable development and advancement of these vital tools. Working together allows for faster, more efficient collaboration, enabling the quick integration of new features from one tool to the other. This collaboration strengthens our mission and accelerates our ability to respond to evolving threats.\"\n"
+"> <p class=\"signature\">– Isabela Fernandes, Executive Director, The Tor Project</p>\n"
+msgstr ""
+"> «En unir aquestes dues organitzacions, no només estem facilitant les coses als nostres equips, sinó que garantim el desenvolupament sostenible i l'avenç d'aquestes eines vitals. Treballar junts permet una col·laboració més ràpida i eficient, que permet la integració ràpida de noves funcionalitats d'una eina a l'altra. Aquesta col·laboració reforça la nostra missió i accelera la nostra capacitat de respondre a les amenaces en evolució».\n"
+"> <p class=\"signature\">– Isabela Fernandes, directora executiva, The Tor Project</p>\n"
+
+#. type: Plain text
+msgid ""
+"Your support will go a long way to support this merge. Please consider "
+"[making a donation to the Tor Project](https://donate.torproject.org/)"
+msgstr ""
+"El vostre suport ajudarà enormement en aquesta fusió. Considereu [fer una "
+"donació al Projecte Tor](https://donate.torproject.org/)"
+
+#. type: Plain text
+msgid ""
+"If you'd like to earmark your donation specifically for Tails activities, "
+"you can continue to do so through [Tails' donation page](https://tails.net/"
+"donate/) until further notice."
+msgstr ""
+"Si voleu destinar la vostra donació específicament a les activitats de "
+"Tails, podeu continuar fent-ho a la [pàgina de donació de Tails](https://"
+"tails.net/donate/index.ca.html) fins a nou avís."
+
+#. type: Plain text
+msgid ""
+"To learn more about how we are integrating our donation infrastructures and "
+"how your funds will be used, please refer to our updated [Donation FAQ]"
+"(https://donate.torproject.org/faq/)."
+msgstr ""
+"Per obtenir més informació sobre com estem integrant les nostres "
+"infraestructures de donació i com s'utilitzaran els vostres fons, consulteu "
+"les nostres [Preguntes més freqüents sobre donacions](https://donate."
+"torproject.org/faq/)."

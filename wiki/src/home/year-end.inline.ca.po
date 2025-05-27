@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-10-27 09:15+0000\n"
+"PO-Revision-Date: 2024-09-19 22:06+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Content of: <div><div><p>
+msgid ""
+"<strong>Nobody should have to pay to be safe while using computers.</strong>"
+msgstr ""
+"<strong>Ningú hauria de pagar per mantenir-se fora de perill mentre utilitza "
+"ordinadors.</strong>"
+
+#. type: Content of: <div><div><p>
+msgid ""
+"That's why we give out Tails for free. However, keeping Tails secure, "
+"constantly improving, and accessible costs money."
+msgstr ""
+"És per això que donem Tails de forma gratuïta. Tanmateix, mantenir Tails "
+"segur, millorant constantment i accessible costa diners."
+
+#. type: Content of: <div><div><p>
+msgid ""
+"When you donate, you are keeping safe the thousands of other people who rely "
+"on Tails and cannot donate."
+msgstr ""
+"Quan feu una donació, protegiu a milers d'altres persones que depenen de "
+"Tails i que no poden fer una donació."
+
+#. type: Content of: <div><div><p>
+msgid ""
+"<span class=\"highlight\">If everyone reading this gave $5, our fundraiser "
+"would be done in one day.</span> The price of a USB stick is all we need."
+msgstr ""
+"<span class=\"highlight\">Si tothom que llegeix això donés 5 dòlars, la "
+"nostra recaptació de fons es faria en un dia.</span> El preu d'un llapis USB "
+"és tot el que necessitem."
+
+#. type: Content of: <div><div><p>
+msgid "[[Donate now to fight surveillance and censorship!|donate]]"
+msgstr ""
+"[[Feu una donació ara per lluitar contra la vigilància i la censura!|donate]]"
+
+#. type: Content of: <div><div>
+msgid "[[!img tails_net_donate.png link=\"no\" alt=\"\"]]"
+msgstr "[[!img tails_net_donate.png link=\"no\" alt=\"\"]]"
+
+#. type: Content of: <div><div><p>
+msgid "<i>Scan to donate from your phone.</i>"
+msgstr "<i>Escanegeu per fer una donació des del telèfon.</i>"

@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-01-30 11:25+0100\n"
+"PO-Revision-Date: 2024-04-29 08:13+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 5.22\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 30 Jan 2024 12:34:56 +0000\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"In *Tor Browser*, you can now save files to more folders: Documents, "
+"Downloads, Music, Pictures, and Videos. You can also upload files from these "
+"folders."
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"When your Persistent Storage is broken, Tails now tries to repair its file "
+"system when you unlock it in the Welcome Screen."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Report the write speed after cloning a Persistent Storage from *Tails "
+"Cloner*."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Do not try to unlock or delete a Persistent Storage on a read-only USB "
+"stick."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [13.0.9](https://blog.torproject.org/new-release-"
+"tor-browser-1309/)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Update *Thunderbird* to [115.7](https://www.thunderbird.net/en-US/"
+"thunderbird/115.7.0/releasenotes/)."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Stop leaking the first-level domain of visited websites in *WhisperBack* "
+"reports.  The problem was first introduced in Tails 5.15.1 (July 2023). ([[!"
+"tails_mr 1344]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Make installing Tails with *Tails Cloner* more robust by fixing occasional "
+"errors `AttributeError: 'NoneType' object has no attribute 'props'`.  Thanks "
+"to Ben Westgate! ([[!tails_mr 1312]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Fix saving the Additional Software configuration when creating a Persistent "
+"Storage. ([[!tails_mr 1350]])"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Fix help link when resizing the system partition fails the first time Tails "
+"is started. ([[!tails_mr 1341]])"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.22</h1>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.22."
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr ""
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.22 directly:"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr ""

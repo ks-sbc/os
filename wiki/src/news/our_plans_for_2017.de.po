@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-01-15 11:18+0000\n"
+"PO-Revision-Date: 2024-11-13 13:36+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sat, 26 Nov 2016 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 26 Nov 2016 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Our plans for the coming years\"]]\n"
+msgstr "[[!meta title=\"Unsere Pläne für die nächsten Jahre\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"As part of our ongoing donation campaign, we already explained you [[why we "
+"needed donations|why_we_need_donations]] and [[how we use these donations|"
+"what_we_do_with_your_money]]. Today we are sharing with you our plans for "
+"the next years:"
+msgstr ""
+"Im Rahmen unserer laufenden Spendenkampagne haben wir Ihnen bereits "
+"erläutert, [[warum wir Spenden benötigen|why_we_need_donations]] und [[wie "
+"wir diese Spenden verwenden|what_we_do_with_your_money]]. Heute teilen wir "
+"Ihnen unsere Pläne für die nächsten Jahre mit:"
+
+#. type: Bullet: '  - '
+msgid "**Easier adoption**"
+msgstr "**Einfachere Einführung**"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Revamp Tails Greeter**: make it easier to configure Tails when starting "
+"([[!tails_ticket 5464]])"
+msgstr ""
+"**Überarbeitung des Tails Greeter**: Erleichtert die Konfiguration von Tails "
+"beim Start ([[!tails_ticket 5464]])"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Rethink the installation and upgrade process**: take a step back and "
+"reflect on the future of Tails Installer, the installation on Windows and "
+"Mac, and automatic upgrades ([[!tails_ticket 11679]])"
+msgstr ""
+"**Überdenken Sie den Installations- und Upgrade-Prozess**: Nehmen Sie einen "
+"Schritt zurück und reflektieren Sie über die Zukunft des Tails Installers, "
+"die Installation auf Windows und Mac sowie automatische Upgrades ([[!"
+"tails_ticket 11679]])"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Graphical installation method for macOS**: what would it take to document "
+"tools other than Tails Installer to do a graphical installation from macOS? "
+"([[!tails_ticket 11682]])"
+msgstr ""
+"**Grafische Installationsmethode für macOS**: Was wäre erforderlich, um "
+"Werkzeuge neben dem Tails Installer zu dokumentieren, die eine grafische "
+"Installation von macOS aus ermöglichen? ([[!tails_ticket 11682]])"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Explain better what Tails is** and what makes it so awesome ([[!"
+"tails_ticket 9814]])"
+msgstr ""
+"**Besser erklären, was Tails ist** und was es so großartig macht ([[!"
+"tails_ticket 9814]])"
+
+#. type: Bullet: '  - '
+msgid "**Security hardening**"
+msgstr "**Sicherheitsverstärkung**"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Reproducible build of the ISO image**: protect users and developers from a "
+"malicious build of our ISO image ([[!tails_ticket 5630]])"
+msgstr ""
+"**Reproduzierbarer Build des ISO-Images**: Schützt Benutzer und Entwickler "
+"vor einem bösartigen Build unseres ISO-Images ([[!tails_ticket 5630]])"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Persistent Tor state**: have persistent entry guards ([[!tails_ticket "
+"5462]])"
+msgstr ""
+"**Persistenter Tor-Zustand**: dauerhafte Einstiegsgardisten ([[!tails_ticket "
+"5462]])"
+
+#. type: Bullet: '    - '
+msgid ""
+"**HTTPS mirrors**: serve our downloads over HTTPS only ([[!tails_ticket "
+"9796]])"
+msgstr ""
+"**HTTPS-Server**: Stellen Sie unsere Downloads nur über HTTPS zur Verfügung "
+"([[!tails_ticket 9796]])"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Persistent seed for random number generator**: have better entropy and "
+"stronger crypto ([[!tails_ticket 7675]])"
+msgstr ""
+"**Beständiger Seed für den Zufallszahlengenerator**: bessere Entropie und "
+"stärkere Kryptografie ([[!tails_ticket 7675]])"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Browser fingerprint**: compare and reevaluate the web fingerprint of Tor "
+"Browser inside and outside Tails ([[!tails_ticket 5362]])"
+msgstr ""
+"**Browser-Fingerabdruck**: Vergleichen und bewerten Sie den Webfingerabdruck "
+"des Tor Browsers innerhalb und außerhalb von Tails ([[!tails_ticket 5362]])"
+
+#. type: Bullet: '  - '
+msgid "**Community**"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid ""
+"**Web platform for translators**: make it easier to translate our website "
+"([[!tails_ticket 10034]])"
+msgstr ""
+"**Webplattform für Übersetzer**: Erleichtert die Übersetzung unserer Website "
+"([[!tails_ticket 10034]])"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Social contract**: guiding principles that reflects the commitment to our "
+"ideals ([[!tails_ticket 11669]])"
+msgstr ""
+"**Gesellschaftsvertrag**: Leitprinzipien, die das Engagement für unsere "
+"Ideale widerspiegeln ([[!tails_ticket 11669]])"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Personas**: study and describe our user base to take better design "
+"decisions ([[!tails_ticket 11162]])"
+msgstr ""
+"**Personas**: Unsere Benutzerbasis untersuchen und beschreiben, um bessere "
+"Designentscheidungen zu treffen ([[!tails_ticket 11162]])"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Improvements to WhisperBack**: make it easier and faster to answer support "
+"requests ([[!tails_ticket 9799]], [[!tails_ticket 9800]])"
+msgstr ""
+"**Verbesserungen an WhisperBack**: Es einfacher und schneller machen, "
+"Supportanfragen zu beantworten ([[!tails_ticket 9799]], [[!tails_ticket "
+"9800]])"
+
+#. type: Bullet: '  - '
+msgid "**Sustainability**"
+msgstr "**Nachhaltigkeit**"
+
+#. type: Bullet: '    - '
+msgid "**Tails based on Debian Stretch** (Tails 3.0)"
+msgstr "**Tails basierend auf Debian Stretch** (Tails 3.0)"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Better server infrastructure**: to handle our growing needs on continuous "
+"integration and have a backup server ([[!tails_ticket 11680]], [[!"
+"tails_ticket 6185]])"
+msgstr ""
+"**Bessere Serverinfrastruktur**: um unseren wachsenden Bedarf an "
+"kontinuierlicher Integration zu decken und einen Backup-Server zu haben ([[!"
+"tails_ticket 11680]], [[!tails_ticket 6185]])"
+
+#. type: Bullet: '    - '
+msgid ""
+"**Test Tails on ARM**: starting with a few Chromebooks supported by Debian "
+"([[!tails_ticket 11677]])"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid ""
+"**Tails on tablets**: specify what upstream projects (GNOME, Debian, etc.) "
+"should work on to help porting Tails to tablets and smartphones ([[!"
+"tails_ticket 10039]])"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "**Fundraising**"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "**Have more reliable and steady sources of income**"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "**Depend less on grants from governments**"
+msgstr ""
+
+#. type: Bullet: '  - '
+msgid "**New applications and features**"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid ""
+"**Graphical interface for the Additional Packages persistent feature**: "
+"allow users to customize which applications are available in their Tails ([[!"
+"tails_ticket 5996]] [[!tails_ticket 9059]])"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid ""
+"**Backups**: provide a graphical tool to backup the persistent volume ([[!"
+"tails_ticket 5301]])"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid ""
+"**Screen locker**: allow users to lock their session with a password ([[!"
+"tails_ticket 5684]])"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid ""
+"**Tails Server**: run onion services from Tails (VoIP chat rooms, "
+"collaboration tools, web servers, messaging servers, etc.) ([[!tails_ticket "
+"5688]])"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid ""
+"**Tails Verifier**: allow verifying whether a Tails installation has been "
+"corrupted ([[!tails_ticket 7496]])"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid ""
+"**TrueCrypt support in GNOME**: graphical utilities to mount TrueCrypt "
+"volumes ([[!tails_ticket 11684]], [[!tails_ticket 6337]])"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"These are all items that we find important and want to prioritize. But "
+"making them a reality will require lots of work, time, and money; on top of "
+"all the day-to-day work that we do to simply keep Tails alive."
+msgstr ""
+"Dies sind alle Punkte, die wir für wichtig halten und priorisieren möchten. "
+"Ihre Umsetzung erfordert jedoch viel Arbeit, Zeit und Geld, zusätzlich zu "
+"all den täglichen Aufgaben, die wir erledigen, um Tails einfach am Laufen zu "
+"halten."
+
+#. type: Plain text
+msgid ""
+"If you want us to get there faster, please take one minute to make a "
+"donation."
+msgstr ""
+"Wenn Sie möchten, dass wir schneller dorthin gelangen, nehmen Sie sich bitte "
+"eine Minute Zeit, um eine Spende zu tätigen."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "If your organization is interested in funding one of these tasks in "
+#| "particular, please contact us at [[mailto:accounting@tails.net]] "
+#| "([[OpenPGP key|accounting-tails-net.key]])."
+msgid ""
+"If your organization is interested in funding one of these tasks in "
+"particular, please contact us."
+msgstr ""
+"Wenn Ihre Organisation daran interessiert ist, eine dieser Aufgaben speziell "
+"zu finanzieren, kontaktieren Sie uns bitte unter [[mailto:accounting@tails."
+"net]] ([[OpenPGP-Schlüssel|accounting-tails-net.key]])."
+
+#. type: Plain text
+msgid "[[Donate]]"
+msgstr "[[Spenden|donate]]"

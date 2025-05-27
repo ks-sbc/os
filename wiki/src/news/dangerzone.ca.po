@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-02-19 18:39+0000\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Converting dangerous documents to safe PDFs using Dangerzone\"]]\n"
+msgstr "[[!meta title=\"Convertir documents perillosos en PDF segurs mitjançant Dangerzone\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 06 Aug 2024 18:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 06 Aug 2024 18:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"Today, we added documentation on our website to [[install *Dangerzone* in "
+"Tails|doc/persistent_storage/additional_software/dangerzone]]."
+msgstr ""
+"Avui hem afegit documentació al nostre lloc web per [[instal·lar "
+"*Dangerzone* a Tails|doc/persistent_storage/additional_software/dangerzone]]."
+
+#. type: Plain text
+msgid ""
+"When you receive untrusted documents, for example, email attachments, "
+"*[Dangerzone](https://dangerzone.rocks/)* allows you to convert them into "
+"safe PDFs before opening."
+msgstr ""
+"Quan rebeu documents no fiables, per exemple, fitxers adjunts de correu "
+"electrònic, *[Dangerzone](https://dangerzone.rocks/)* us permet convertir-"
+"los en fitxers PDF segurs abans d'obrir-los."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Dangerzone* is particularly useful for journalists who might receive dangerous\n"
+"documents from anonymous sources or download them from the Internet.\n"
+msgstr ""
+"*Dangerzone* és especialment útil per als periodistes que reben documents\n"
+"potencialment perillosos de fonts anònimes o els baixen d'Internet.\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid ""
+#| "*Dangerzone* is an essential tool and is built by great people. It was first\n"
+#| "written by [Micah Lee](https://micahflee.com/about/) to protect investigative\n"
+#| "journalists while working at [The Intercept](https://theintercept.com/).\n"
+#| "*Dangerzone* is now maintained by [Freedom of the Press\n"
+#| "Foundation](https://freedom.press), a non-profit that protects public-interest\n"
+#| "journalism. Edward Snowden and Laura Poitras are on its Board of Directors.\n"
+msgid ""
+"*Dangerzone* is an essential tool and is built by great people. It was first\n"
+"written by [Micah Lee](https://micahflee.com/about/) to protect investigative\n"
+"journalists while working at [The Intercept](https://theintercept.com/).\n"
+"*Dangerzone* is now maintained by [Freedom of the Press\n"
+"Foundation](https://freedom.press), a nonprofit that protects public-interest\n"
+"journalism. Edward Snowden and Laura Poitras are on its Board of Directors.\n"
+msgstr ""
+"*Dangerzone* és una eina essencial i ha estat creat per grans persones. Va\n"
+"ser escrit primerament per [Micah Lee](https://micahflee.com/about/) per\n"
+"protegir els periodistes d'investigació mentre treballaven a\n"
+"[The Intercept](https://theintercept.com/). *Dangerzone* ara és mantingut\n"
+"per la [Freedom of the Press Foundation](https://freedom.press), una\n"
+"organització sense ànim de lucre que protegeix el periodisme d'interès\n"
+"públic. Edward Snowden i Laura Poitras formen part del seu consell\n"
+"d'administració.\n"
+
+#. type: Plain text
+msgid ""
+"It's totally the kind of software that aligns with [[our mission|contribute/"
+"mission]]. The only reason why we are not including *Dangerzone* in Tails by "
+"default is because *Dangerzone* is too big and not available in Debian."
+msgstr ""
+"És totalment el tipus de programari que s'alinea amb [[la nostra missió|"
+"contribute/mission]]. L'únic motiu pel qual no incloem *Dangerzone* a Tails "
+"per defecte és perquè *Dangerzone* és massa gran i no està disponible a "
+"Debian."
+
+#. type: Plain text
+msgid ""
+"So, we collaborated with Alex Pyrgiotis from Freedom of the Press Foundation "
+"to make it as easy as possible to install *Dangerzone* in Tails as "
+"[[Additional Software|doc/persistent_storage/additional_software]]. The "
+"setup requires using the command line, but, after that, *Dangerzone* will "
+"install automatically every time you start Tails."
+msgstr ""
+"Així doncs, vam col·laborar amb Alex Pyrgiotis de la Freedom of the Press "
+"Foundation per facilitar al màxim la instal·lació de *Dangerzone* a Tails "
+"com a [[Programari Addicional|doc/persistent_storage/additional_software]]. "
+"La configuració requereix utilitzar la línia d'ordres, però, després d'això, "
+"*Dangerzone* s'instal·larà automàticament cada vegada que inicieu Tails."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Dangerzone* will allow more investigative journalists to use the safe\n"
+"environment that Tails provides when manipulating sensitive documents.\n"
+msgstr ""
+"*Dangerzone* permetrà que més periodistes d'investigació utilitzin l'entorn\n"
+"segur que proporciona Tails quan manipulen documents sensibles.\n"
+
+#. type: Plain text
+msgid ""
+"It's also the first time that we recommend installing a 3rd party package "
+"that is not available in Debian. We know that a lot of software that would "
+"be useful for our users is not readily available in Debian. If this first "
+"experiment is successful, we might document more such packages."
+msgstr ""
+"També és la primera vegada que recomanem instal·lar un paquet de tercers que "
+"no estigui disponible a Debian. Sabem que un munt de programari que seria "
+"útil per als nostres usuaris no està disponible a Debian. Si aquest primer "
+"experiment té èxit, és possible que documentem més paquets d'aquest tipus."

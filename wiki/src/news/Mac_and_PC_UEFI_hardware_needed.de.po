@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-10-08 13:50+0000\n"
+"PO-Revision-Date: 2024-11-27 10:18+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Help Tails: Mac and PC UEFI hardware needed\"]]\n"
+msgstr "[[!meta title=\"Hilf Tails: Mac und PC UEFI Hardware gesucht\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sat, 12 Oct 2013 09:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 12 Oct 2013 09:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"For the moment, Tails has very limited support for Mac.  Also, Tails lacks "
+"UEFI support, so quite a few recent PC's refuse to boot from a Tails USB "
+"stick."
+msgstr ""
+"Derzeit bietet Tails nur sehr eingeschränkte Unterstützung für Mac. Außerdem "
+"fehlt Tails die UEFI-Unterstützung, sodass einige neuere PCs sich weigern, "
+"von einem Tails USB-Stick zu starten."
+
+#. type: Plain text
+msgid ""
+"We will be working on this in the next few months. However, our testing and "
+"development possibilities are limited: we do not own the right hardware yet."
+msgstr ""
+"Wir werden in den nächsten Monaten daran arbeiten. Allerdings sind unsere "
+"Test- und Entwicklungsmöglichkeiten begrenzt: Wir besitzen die passende "
+"Hardware noch nicht."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=2]]\n"
+msgstr "[[!toc levels=2]]\n"
+
+#. type: Title =
+#, no-wrap
+msgid "What we need"
+msgstr "Was wir benötigen"
+
+#. type: Plain text
+msgid ""
+"If you can afford it, please consider donating known-working hardware of the "
+"kind described below."
+msgstr ""
+"Wenn du es dir leisten kannst, dann erwäge doch bitte unten beschreibene "
+"bekanntermaßen funktionierende Hardware zu spenden."
+
+#. type: Plain text
+msgid ""
+"Alternatively, you may want to consider [[donating through Bitcoin|donate]] "
+"and dropping us an email to earmark your donation for hardware purchase."
+msgstr ""
+"Alternativ könnten Sie in Betracht ziehen, [[durch Bitcoin zu spenden|"
+"donate]] und uns eine E-Mail zu senden, um Ihre Spende für den Hardwarekauf "
+"zu kennzeichnen."
+
+#. type: Plain text
+msgid ""
+"Else, there are [[many other ways|contribute]] you can contribute to Tails :)"
+msgstr ""
+"Andernfalls gibt es [[viele andere Möglichkeiten|contribute]], wie Sie zu "
+"Tails beitragen können :)"
+
+#. type: Title -
+#, no-wrap
+msgid "MacBook Pro or MacBook Air (2010 or later)"
+msgstr "MacBook Pro oder MacBook Air (2010 oder neuer)"
+
+#. type: Bullet: '* '
+msgid ""
+"EFI 2.6 firmware or later: you can check this on the [Apple firmware updates "
+"page](https://support.apple.com/kb/HT1237)"
+msgstr ""
+"EFI 2.6-Firmware oder neuer: Sie können dies auf der [Apple-Firmware-Updates-"
+"Seite](https://support.apple.com/kb/HT1237) überprüfen"
+
+#. type: Bullet: '* '
+msgid "preferably with embedded DVD reader"
+msgstr "vorzugsweise mit integriertem DVD-Leser"
+
+#. type: Bullet: '* '
+msgid "preferably 13\""
+msgstr "am besten 13\""
+
+#. type: Title -
+#, no-wrap
+msgid "Recent PC laptops"
+msgstr "Aktuelle PC-Laptops"
+
+#. type: Bullet: '* '
+msgid ""
+"must support booting Debian off UEFI: send us the exact brand and model of "
+"the hardware you could donate, and we will happily check this for you"
+msgstr ""
+"Muss das Booten von Debian über UEFI unterstützen: Senden Sie uns die genaue "
+"Marke und das Modell der Hardware, die Sie spenden möchten, und wir werden "
+"dies gerne für Sie überprüfen"
+
+#. type: Bullet: '* '
+msgid "well supported by Debian Wheezy"
+msgstr "gut unterstützt von Debian Wheezy"
+
+#. type: Bullet: '* '
+msgid "preferably 13\" or less"
+msgstr ""
+
+#. type: Title -
+#, no-wrap
+msgid "When and how many"
+msgstr "Wann und wie viel"
+
+#. type: Plain text
+msgid ""
+"We need this hardware by the end of November but the sooner, the better."
+msgstr ""
+"Wir brauchen diese Hardware bis Ende November, aber je früher, desto besser."
+
+#. type: Plain text
+msgid ""
+"We could definitely make use of several such computers. One item of each "
+"category is enough for initial development, but it would be much better not "
+"to rely on a single person for maintaining support of this kind of hardware."
+msgstr ""
+"Wir könnten auf jeden Fall von mehreren solchen Computern profitieren. Ein "
+"Gerät aus jeder Kategorie reicht für die initiale Entwicklung, aber es wäre "
+"viel besser, nicht auf eine einzige Person angewiesen zu sein, um die "
+"Unterstützung für diese Art von Hardware aufrechtzuerhalten."
+
+#. type: Plain text
+msgid "Thanks in advance!"
+msgstr "Danke im Vorraus!"
+
+#, no-wrap
+#~ msgid "How to donate"
+#~ msgstr "Wie gespendet werden kann"
+
+#~ msgid "Please send offers to <info@tails.net>."
+#~ msgstr "Bitte senden Sie Angebote an <info@tails.net>."

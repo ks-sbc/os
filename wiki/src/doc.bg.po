@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-04-23 19:06+0000\n"
+"PO-Revision-Date: 2024-10-10 15:09+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: Tails translators <tails-l10n@boum.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Documentation\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"tip\">\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p>If this section doesn't answer your questions, you can also look at our\n"
+"[[FAQ|support/faq]].</p>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "General information"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/about.index\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<a id=\"install\"></a>\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Download, installation, and upgrade"
+msgstr ""
+
+#. type: Plain text
+msgid "- Installing from:"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[Windows|install/windows]]"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[macOS|install/mac]]"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[Linux (recommended)|install/linux]]"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid ""
+"[[Debian, Ubuntu, or Mint using the command line and GnuPG (experts)|install/"
+"expert]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- Installing by cloning from another Tails:"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[For PC|install/clone/pc]]"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[For Mac|install/clone/mac]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- [[Burning a DVD|install/dvd]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- Downloading without installing:"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[For DVDs (ISO image)|install/download-iso]]"
+msgstr ""
+
+#. type: Plain text
+msgid "- Upgrading a Tails USB stick:"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[Upgrading automatically|upgrade]]"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[Upgrading manually from your Tails|upgrade/tails]]"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[Upgrading manually from Windows|upgrade/windows]]"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[Upgrading manually from macOS|upgrade/mac]]"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[Upgrading manually from Linux|upgrade/linux]]"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "[[Upgrading manually by cloning from another Tails|upgrade/clone]]"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid ""
+"[[Repairing a Tails USB stick that fails to start after an upgrade|upgrade/"
+"repair]]"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid ""
+"Uninstalling Tails or resetting a USB stick using [[Linux|reset/linux]], "
+"[[Windows|reset/windows]], or [[Mac|reset/mac]]"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "First steps with Tails"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/first_steps.index\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Persistent Storage"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/persistent_storage.index\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Uncensored and anonymous Internet"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/anonymous_internet.index\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Encryption and privacy"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/encryption_and_privacy.index\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Work on sensitive documents"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/sensitive_documents.index\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Advanced topics"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"doc/advanced_topics.index\" raw=\"yes\" sort=\"age\"]]\n"
+msgstr ""

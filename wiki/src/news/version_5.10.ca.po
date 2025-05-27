@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-04-05 17:54+0000\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 5.10 is out\"]]\n"
+msgstr "[[!meta title=\"Tails 5.10\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Thu, 16 Feb 2023 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Thu, 16 Feb 2023 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Canvis i actualitzacions</h1>\n"
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [12.0.3](https://blog.torproject.org/new-release-"
+"tor-browser-1203)."
+msgstr ""
+"- S'ha actualitzat el *Navegador Tor* a la versió [12.0.3](https://blog."
+"torproject.org/new-release-tor-browser-1203)."
+
+#. type: Plain text
+msgid ""
+"- Ask for confirmation when starting without unlocking the Persistent "
+"Storage."
+msgstr ""
+"- Es demana confirmació quan s'inicia sense desbloquejar l'Emmagatzematge "
+"Persistent."
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!img unlock.png link=\"no\" alt=\"Do you really want to start Tails without unlocking your Persistent Storage?\"]]\n"
+msgstr "  [[!img unlock.png link=\"no\" alt=\"Voleu iniciar Tails sense desbloquejar el vostre Emmagatzematge Persistent?\"]]\n"
+
+#. type: Plain text
+msgid ""
+"- Update our [[documentation on the Persistent Storage|doc/"
+"persistent_storage]]."
+msgstr ""
+"- Hem actualitzat la nostra [[documentació sobre l'Emmagatzematge Persistent|"
+"doc/persistent_storage]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Problemes solucionats</h1>\n"
+
+#. type: Plain text
+msgid ""
+"- Avoid crashing when the download of an upgrade is stopped and resumed. ([[!"
+"tails_ticket 18435]])"
+msgstr ""
+"- S'evita el bloqueig quan la baixada d'una actualització s'atura i es "
+"reprèn. ([[!tails_ticket 18435]])"
+
+#. type: Plain text
+msgid "- Solve a possible privilege escalation through a symlink attack."
+msgstr ""
+"- Es resol una possible escalada de privilegis mitjançant un atac d'enllaç "
+"simbòlic."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  Dennis Brinkrolf discovered that an adversary who could already run arbitrary\n"
+"  code as the amnesia user in Tails 5.9, could have escalated their privileges\n"
+"  to reading arbitrary files on the system. It might have been possible to use\n"
+"  this as part of an exploit chain to gain root privileges.\n"
+msgstr ""
+"  Dennis Brinkrolf va descobrir que un adversari que pogués córrer arbitràriament\n"
+"  codi com a usuari d'amnesia a Tails 5.9, podria haver augmentat els seus privilegis\n"
+"  per llegir fitxers arbitraris al sistema. Podria haver estat possible utilitzar\n"
+"  això com a part d'una cadena d'explotació per obtenir privilegis d'administrador.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h2>Persistent Storage</h2>\n"
+msgstr "<h2>Emmagatzematge Persistent</h2>\n"
+
+#. type: Bullet: '- '
+msgid ""
+"Avoid opening the Persistent Storage settings each time after login.  ([[!"
+"tails_ticket 19410]])"
+msgstr ""
+"S'evita obrir la configuració de l'Emmagatzematge Persistent cada cop "
+"després d'iniciar sessió. ([[!tails_ticket 19410]])"
+
+#. type: Bullet: '- '
+msgid ""
+"Solve some cases of failure to activate the Persistent Storage by bumping "
+"the unlocking timeout to 120 seconds. ([[!tails_ticket 19432]])"
+msgstr ""
+"Es resolen alguns casos de fallada per activar l'Emmagatzematge Persistent "
+"augmentant el temps d'espera de desbloqueig a 120 segons. ([[!tails_ticket "
+"19432]])"
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+"Per a més detalls, llegiu el nostre [[!tails_gitweb debian/changelog desc="
+"\"registre de canvis\"]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr "<h1 id=\"issues\">Problemes coneguts</h1>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<!--\n"
+msgstr "<!--\n"
+
+#. type: Plain text
+msgid ""
+"Copy the known issues from the previous version if they haven't been solved "
+"or move them to /support/known_issues if more appropriate."
+msgstr ""
+"Copy the known issues from the previous version if they haven't been solved "
+"or move them to /support/known_issues if more appropriate."
+
+#. type: Plain text
+#, no-wrap
+msgid "-->\n"
+msgstr "-->\n"
+
+#. type: Plain text
+msgid "None specific to this release."
+msgstr "Cap específic d'aquesta versió."
+
+#. type: Plain text
+msgid "See the list of [[long-standing issues|support/known_issues]]."
+msgstr ""
+"Vegeu la llista de [[problemes de llarga durada|support/known_issues]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.10</h1>\n"
+msgstr "<h1 id=\"get\">Obtenir Tails 5.10</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Per actualitzar el vostre llapis USB de Tails i mantenir el vostre "
+"Emmagatzematge Persistent"
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.10."
+msgstr ""
+"- Les actualitzacions automàtiques estan disponibles des de Tails 5.0 o "
+"posterior a la versió 5.10."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+"  Podeu [[reduir la mida de la baixada|doc/upgrade#reduce]] de futures\n"
+"  actualitzacions automàtiques fent una actualització manual a la darrera "
+"versió.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Si no podeu fer una actualització automàtica o si Tails no s'inicia després "
+"d'una actualització automàtica, proveu de fer una [[actualització manual|doc/"
+"upgrade/#manual]]."
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr "Per instal·lar Tails en un nou llapis USB"
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr "Seguiu les nostres instruccions d'instal·lació:"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Windows|install/windows]]"
+msgstr "[[Instal·lar des de Windows|install/windows]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from macOS|install/mac]]"
+msgstr "[[Instal·lar des de macOS|install/mac]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Linux|install/linux]]"
+msgstr "[[Instal·lar des de Linux|install/linux]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+"[[Instal·lar des de Debian o Ubuntu mitjançant la línia d'ordres i GnuPG|"
+"install/expert]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>L'Emmagatzematge Persistent del llapis USB es "
+"perdrà si\n"
+"instal·leu en comptes d'actualitzar.</p></div>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr "Per només baixar"
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.10 directly:"
+msgstr ""
+"Si no necessiteu instruccions d'instal·lació o actualització, podeu baixar "
+"Tails 5.10 directament:"
+
+#. type: Bullet: '  - '
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr "[[Per a llapis USB (imatge USB)|install/download]]"
+
+#. type: Bullet: '  - '
+msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "[[Per a DVD i màquines virtuals (imatge ISO)|install/download-iso]]"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"next\">What's coming up?</h1>\n"
+msgstr "<h1 id=\"next\">Què ve?</h1>\n"
+
+#. type: Plain text
+msgid "Tails 5.11 is [[scheduled|contribute/calendar]] for March 14."
+msgstr "Tails 5.11 està [[programat|contribute/calendar]] per al 14 de març."

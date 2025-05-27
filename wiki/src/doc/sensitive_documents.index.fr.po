@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tails\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-12-21 23:10+0000\n"
+"PO-Revision-Date: 2024-05-12 12:53+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: Tails translators <tails@boum.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+msgid "- [[Removing metadata from files|sensitive_documents/metadata]]"
+msgstr ""
+"- [[Supprimer des métadonnées de fichiers|sensitive_documents/metadata]]"
+
+#. type: Plain text
+msgid "- [[Office suite|sensitive_documents/office_suite]]"
+msgstr "- [[Suite bureautique|sensitive_documents/office_suite]]"
+
+#. type: Plain text
+msgid "- [[Graphics|sensitive_documents/graphics]]"
+msgstr "- [[Graphisme|sensitive_documents/graphics]]"
+
+#. type: Plain text
+msgid "- [[Sound and video|sensitive_documents/sound_and_video]]"
+msgstr "- [[Son et vidéo|sensitive_documents/sound_and_video]]"
+
+#. type: Plain text
+msgid "- [[Printing and scanning|sensitive_documents/printing_and_scanning]]"
+msgstr "- [[Imprimer et scanner|sensitive_documents/printing_and_scanning]]"
+
+#. type: Plain text
+msgid ""
+"- [[Screenshot and screencast|sensitive_documents/screenshot_and_screencast]]"
+msgstr ""
+"- [[Capture d'écran et capture vidéo|sensitive_documents/"
+"screenshot_and_screencast]]"
+
+#~ msgid ""
+#~ "[[!traillink Desktop_publishing|sensitive_documents/desktop_publishing]]"
+#~ msgstr ""
+#~ "[[!traillink Publication_Assistée_par_Ordinateur|sensitive_documents/"
+#~ "desktop_publishing]]"

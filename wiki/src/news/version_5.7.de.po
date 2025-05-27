@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2023-08-24 19:56+0000\n"
+"PO-Revision-Date: 2024-11-02 20:10+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 5.7 is out\"]]\n"
+msgstr "[[!meta title=\"Tails 5.7 is out\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Tue, 22 Nov 2022 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 22 Nov 2022 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr "<h1 id=\"features\">Neue Funktionen</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Metadata Cleaner"
+msgstr "Metadata Cleaner"
+
+#. type: Plain text
+msgid ""
+"We added *Metadata Cleaner*, a new tool to clean metadata from your files."
+msgstr ""
+"Wir haben *Metadata Cleaner* hinzugefügt, ein neues Werkzeug, um Metadaten "
+"aus Ihren Dateien zu entfernen."
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img metadata_cleaner.png link=\"no\" alt=\"\"]]\n"
+msgstr "[[!img metadata_cleaner.png link=\"no\" alt=\"\"]]\n"
+
+#. type: Plain text
+msgid ""
+"When we switched to *MAT* 0.8.0 in Tails 4.0, *MAT* lost its graphical "
+"interface and was only accessible from the contextual menu of the *Files* "
+"browser. It became especially hard for new users of Tails to learn how to "
+"clean their files. *Metadata Cleaner* fixes this by providing a simple and "
+"easily discoverable graphic interface to remove metadata."
+msgstr ""
+"Als wir in Tails 4.0 zu *MAT* 0.8.0 wechselten, verlor *MAT* seine grafische "
+"Benutzeroberfläche und war nur über das Kontextmenü des *Dateien*-Browsers "
+"zugänglich. Es wurde besonders schwierig für neue Benutzer von Tails, zu "
+"lernen, wie sie ihre Dateien bereinigen können. *Metadata Cleaner* behebt "
+"dies, indem er eine einfache und leicht auffindbare grafische "
+"Benutzeroberfläche zum Entfernen von Metadaten bereitstellt."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*Metadata Cleaner* works on the same file formats and is as secure as *MAT*\n"
+"because *Metadata Cleaner* also uses *MAT* in the background to do the actual\n"
+"cleaning.\n"
+msgstr ""
+"*Metadata Cleaner* funktioniert mit denselben Dateiformaten und ist ebenso "
+"sicher wie *MAT*, \n"
+"da *Metadata Cleaner* ebenfalls *MAT* im Hintergrund verwendet, um die "
+"tatsächliche Bereinigung durchzuführen.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Änderungen und Updates</h1>\n"
+
+#. type: Plain text
+msgid ""
+"- Update *Tor Browser* to [11.5.8](https://blog.torproject.org/new-release-"
+"tor-browser-1158)."
+msgstr ""
+"- Aktualisiert *Tor Browser* auf [11.5.8](https://blog.torproject.org/new-"
+"release-tor-browser-1158)."
+
+#. type: Plain text
+msgid "- Update *tor* to 0.4.7.11."
+msgstr "- Aktualisiert *tor* auf 0.4.7.11."
+
+#. type: Plain text
+msgid ""
+"- Remove `pdf-redact-tools`, which was broken. ([[!tails_ticket 19250]])"
+msgstr ""
+"- Entfernt `pdf-redact-tools`, das fehlerhaft war. ([[!tails_ticket 19250]])"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Behobene Probleme</h1>\n"
+
+#. type: Plain text
+msgid "We fixed 2 small usability issues in *Tor Connection*:"
+msgstr "Wir haben 2 kleine Usability-Probleme im *Tor Connection* behoben:"
+
+#. type: Plain text
+msgid ""
+"- Explain better how to use the *Unsafe Browser* to sign in to a local "
+"network. ([[!tails_ticket 19168]])"
+msgstr ""
+"- Erklärt besser, wie man den *Unsafe Browser* verwendet, um sich bei einem "
+"lokalen Netzwerk anzumelden. ([[!tails_ticket 19168]])"
+
+#. type: Plain text
+msgid ""
+"- Remove the *(easier)* and *(safer)* comments in the first screen. ([[!"
+"tails_ticket 19166]])"
+msgstr ""
+"- Entfernt die Kommentare *(einfacher)* und *(sicherer)* im ersten "
+"Bildschirm. ([[!tails_ticket 19166]])"
+
+#. type: Plain text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog desc=\"changelog"
+"\"]]."
+msgstr ""
+"Für weitere Details lesen Sie unser [[!tails_gitweb debian/changelog desc="
+"\"Änderungsprotokoll\"]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"issues\">Known issues</h1>\n"
+msgstr "<h1 id=\"issues\">Bekannte Probleme</h1>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Progress bar of Tor Connection getting stuck around 50%"
+msgstr "Fortschrittsanzeige der Tor-Verbindung bleibt bei etwa 50 % stehen"
+
+#. type: Plain text
+msgid ""
+"When using a custom Tor `obfs4` bridge, the progress bar of *Tor Connection* "
+"sometimes gets stuck halfway through and becomes extremely slow. ([[!"
+"tails_ticket 19173]])"
+msgstr ""
+"Beim Verwenden eines benutzerdefinierten Tor `obfs4`-Bridges bleibt der "
+"Fortschrittsbalken von *Tor-Verbindung* manchmal auf halbem Weg stehen und "
+"wird extrem langsam. ([[!tails_ticket 19173]])"
+
+#. type: Plain text
+msgid "To fix this, you can either:"
+msgstr "Um dies zu beheben, können Sie entweder:"
+
+#. type: Plain text
+msgid "- Close and reopen *Tor Connection* to speed up the initial connection."
+msgstr ""
+"- Schließen Sie *Tor Connection* und öffnen Sie es erneut, um die initiale "
+"Verbindung zu beschleunigen."
+
+#. type: Plain text
+msgid "- Try a different `obfs4` bridge."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  We believe that this issue should not happen with an up-to-date bridge\n"
+"  running `obfs4proxy` version 0.0.12 or later.\n"
+msgstr ""
+
+#. type: Plain text
+msgid "See the list of [[long-standing issues|support/known_issues]]."
+msgstr "Siehe die Liste der [[Altlasten|support/known_issues]]."
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"get\">Get Tails 5.7</h1>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Um Ihren Tails-USB-Stick zu aktualisieren und Ihren beständigen "
+"Datenspeicher beizubehalten"
+
+#. type: Plain text
+msgid "- Automatic upgrades are available from Tails 5.0 or later to 5.7."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+"  Sie können [[die Größe des Downloads|doc/upgrade#reduce]] von zukünftigen\n"
+"  automatischen Upgrades reduzieren, indem Sie ein manuelles Upgrade auf die "
+"neueste Version durchführen.\n"
+
+#. type: Bullet: '- '
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Wenn Sie ein automatisches Upgrade nicht durchführen können oder Tails nach "
+"einem automatischen Upgrade nicht startet, versuchen Sie bitte ein [["
+"manuelles Upgrade|doc/upgrade/#manual]]."
+
+#. type: Title ##
+#, no-wrap
+msgid "To install Tails on a new USB stick"
+msgstr "Um Tails auf einem neuen USB-Stick zu installieren"
+
+#. type: Plain text
+msgid "Follow our installation instructions:"
+msgstr "Befolgen Sie unsere Installationsanweisungen:"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Windows|install/windows]]"
+msgstr "[[Installieren von Windows|install/windows]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from macOS|install/mac]]"
+msgstr "[[Installieren von macOS|install/mac]]"
+
+#. type: Bullet: '  - '
+msgid "[[Install from Linux|install/linux]]"
+msgstr "[[Installieren von Linux|install/linux]]"
+
+#. type: Bullet: '  - '
+msgid ""
+"[[Install from Debian or Ubuntu using the command line and GnuPG|install/"
+"expert]]"
+msgstr ""
+"[[Installation von Debian oder Ubuntu über die Kommandozeile und GnuPG|"
+"install/expert]]"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>Der beständige Datenspeicher auf dem USB-Stick "
+"geht verloren,\n"
+"wenn Sie installieren anstatt zu aktualisieren.</p></div>\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "To download only"
+msgstr "Nur herunterladen"
+
+#. type: Plain text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 5.7 directly:"
+msgstr ""
+"Wenn Sie keine Installations- oder Upgrade-Anleitungen benötigen, können Sie "
+"Tails 5.7 direkt herunterladen:"
+
+#. type: Bullet: '  - '
+msgid "[[For USB sticks (USB image)|install/download]]"
+msgstr "[[Für USB-Sticks (USB-Image)|install/download]]"
+
+#. type: Bullet: '  - '
+msgid "[[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "[[Für DVDs und virtuelle Maschinen (ISO-Image)|install/download-iso]]"
+
+#. type: Plain text
+#, no-wrap
+msgid "<h1 id=\"next\">What's coming up?</h1>\n"
+msgstr "<h1 id=\"next\">Was kommt als Nächstes?</h1>\n"
+
+#. type: Plain text
+msgid "Tails 5.8 is [[scheduled|contribute/calendar]] for December 20."
+msgstr "Tails 5.8 ist [[geplant|contribute/calendar]] für den 20. Dezember."

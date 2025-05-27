@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-01-07 19:02+0000\n"
+"PO-Revision-Date: 2025-05-21 15:05+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  title=\"Improving Tails for human rights defenders in Latin America\"]]\n"
+msgstr "[[!meta title=\"Millorem Tails per als defensors dels drets humans a Llatinoamèrica\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"Tue, 06 Jun 2023 14:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 06 Jun 2023 14:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"Between 2021 and 2023 Tails, [Tor](https://torproject.org/), and the "
+"[Guardian Project](https://guardianproject.info/) partnered to organize "
+"training and usability tests in Ecuador, Mexico, and Brazil. Our goals were "
+"to:"
+msgstr ""
+"Entre el 2021 i el 2023, Tails, [Tor](https://torproject.org/) i el "
+"[Projecte Guardian](https://guardianproject.info/) es van associar per "
+"organitzar proves de formació i usabilitat a l'Equador, Mèxic i el Brasil . "
+"Els nostres objectius eren:"
+
+#. type: Bullet: '- '
+msgid ""
+"Promote our digital security tools and train human rights defenders in the "
+"Global South."
+msgstr ""
+"Promoure les nostres eines de seguretat digital i formar defensors dels "
+"drets humans al Sud Global."
+
+#. type: Plain text
+msgid ""
+"- Learn from their experiences and needs to help us prioritize future work."
+msgstr ""
+"- Aprendre de les seves experiències i necessitats per ajudar-nos a "
+"prioritzar el treball futur."
+
+#. type: Plain text
+msgid "- Improve the usability of our tools based on their feedback."
+msgstr ""
+"- Millorar la usabilitat de les nostres eines a partir dels seus comentaris."
+
+#. type: Title =
+#, no-wrap
+msgid "Usability tests and improvements"
+msgstr "Proves i millores d'usabilitat"
+
+#. type: Plain text
+msgid ""
+"We conducted 4 rounds of in-person moderated usability tests in Mexico, "
+"Brazil, and Ecuador to identify usability issues in the features of Tails "
+"that are most important to new users:"
+msgstr ""
+"Hem realitzat quatre proves d'usabilitat moderades en persona a Mèxic, "
+"Brasil i Equador per identificar problemes d'usabilitat a les funcions de "
+"Tails que són més importants per als usuaris nous:"
+
+#. type: Plain text
+msgid "- Installation"
+msgstr "- Instal·lació"
+
+#. type: Plain text
+msgid "- Tor Connection"
+msgstr "- Connexió Tor"
+
+#. type: Plain text
+msgid "- Persistent Storage"
+msgstr "- Emmagatzematge Persistent"
+
+#. type: Plain text
+msgid ""
+"The DesignOps tools that we used to organize these usability tests are all "
+"[[publicly available on our website|contribute/how/user_experience]]."
+msgstr ""
+"Les eines de DesignOps que hem utilitzat per organitzar aquestes proves "
+"d'usabilitat estan totes [[disponibles públicament al nostre lloc web|"
+"contribute/how/user_experience]]."
+
+#. type: Plain text
+msgid ""
+"The detailed methodology for each of the usability tests is explained in the "
+"corresponding GitLab issues, linked below."
+msgstr ""
+"La metodologia detallada per a cadascuna de les proves d'usabilitat "
+"s'explica als problemes corresponents de GitLab, enllaçats a continuació."
+
+#. type: Title ###
+#, no-wrap
+msgid "Installation"
+msgstr "Instal·lació"
+
+#. type: Plain text
+msgid ""
+"In December 2021 in Mexico, we learned that the tools for new users to "
+"install Tails worked well, but several people got lost while navigating the "
+"instructions on the website."
+msgstr ""
+"El desembre del 2021 a Mèxic, vam saber que les eines per als nous usuaris "
+"per instal·lar Tails funcionaven bé, però diverses persones es van perdre "
+"mentre navegaven per les instruccions del lloc web."
+
+#. type: Plain text
+msgid ""
+"Based on these findings, we restructured our installation pages and fixed 30 "
+"usability issues on the website."
+msgstr ""
+"A partir d'aquestes troballes, vam reestructurar les nostres pàgines "
+"d'instal·lació i vam solucionar 30 problemes d'usabilitat al lloc web."
+
+#. type: Plain text
+msgid ""
+"We tested these improvements in August 2022 in Brazil and confirmed that the "
+"new installation pages were much easier to follow. Only 1 out of 4 "
+"participants had trouble installing Tails on their own. All participants "
+"could start Tails and connect to the Tor network easily."
+msgstr ""
+"Vam provar aquestes millores l'agost de 2022 al Brasil i vam confirmar que "
+"les noves pàgines d'instal·lació eren molt més fàcils de seguir. Només 1 de "
+"cada 4 participants va tenir problemes per instal·lar Tails pel seu compte. "
+"Tots els participants podien iniciar Tails i connectar-se a la xarxa Tor "
+"fàcilment."
+
+#. type: Plain text
+msgid "Details:"
+msgstr "Detalls:"
+
+#. type: Bullet: '- '
+msgid "Usability tests of first-time use in Mexico ([[!tails_ticket 18074]])"
+msgstr "Proves d'usabilitat del primer ús a Mèxic ([[!tails_ticket 18074]])"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Summary of findings](https://gitlab.tails.boum.org/tails/tails/-/"
+"issues/18074#note_210738)"
+msgstr ""
+"[Resum de les troballes](https://gitlab.tails.boum.org/tails/tails/-/"
+"issues/18074#note_210738)"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Detailed findings](https://gitlab.tails.boum.org/tails/ux/-/raw/master/"
+"first-time/rainbow_table_installation_2021_08_Mexico.fods?inline=false)"
+msgstr ""
+"[Descobriments detallats](https://gitlab.tails.boum.org/tails/ux/-/raw/"
+"master/first-time/rainbow_table_installation_2021_08_Mexico.fods?"
+"inline=false)"
+
+#. type: Bullet: '- '
+msgid "Usability tests of first-time use in Brazil ([[!tails_ticket 18784]])"
+msgstr "Proves d'usabilitat del primer ús al Brasil ([[!tails_ticket 18784]])"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Summary of findings](https://lists.autistici.org/message/20221012.181235."
+"a673efeb.en.html)"
+msgstr ""
+"[Resum de les troballes](https://lists.autistici.org/message/20221012.181235."
+"a673efeb.ca.html)"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Detailed findings](https://gitlab.tails.boum.org/tails/ux/-/blob/master/"
+"first-time/rainbow_table_installation_2022_08_Sao_Paulo.fods?inline=false)"
+msgstr ""
+"[Descobriments detallats](https://gitlab.tails.boum.org/tails/ux/-/blob/"
+"master/first-time/rainbow_table_installation_2022_08_Sao_Paulo.fods?"
+"inline=false)"
+
+#. type: Title ###
+#, no-wrap
+msgid "Tor Connection"
+msgstr "Connexió Tor"
+
+#. type: Plain text
+msgid ""
+"In July 2021, we released the Tor Connection assistant to completely "
+"redesign how to connect Tails to the Tor network. The new assistant is most "
+"useful to people who are at high risk of physical surveillance, under heavy "
+"network censorship, or on a poor Internet connection."
+msgstr ""
+"El juliol de 2021, vam llançar l'assistent de connexió Tor per redissenyar "
+"completament com connectar Tails a la xarxa Tor. El nou assistent és més "
+"útil per a persones que tenen un alt risc de vigilància física, amb una "
+"forta censura a la xarxa o amb una connexió a Internet deficient."
+
+#. type: Plain text
+msgid ""
+"In August 2022 in Brazil, we tested the usability of Tor Connection when "
+"accessing the Tor network is blocked by censorship or by a captive portal."
+msgstr ""
+"L'agost de 2022 al Brasil, vam provar la usabilitat de Connexió Tor quan "
+"l'accés a la xarxa Tor està bloquejat per la censura o per un portal captiu."
+
+#. type: Plain text
+msgid ""
+"Despite the many usability issues that we fixed since the first release of "
+"Tor Connection, 3 test participants out of 4 failed to connect when access "
+"to the Tor network was blocked."
+msgstr ""
+"Malgrat els molts problemes d'usabilitat que hem solucionat des del primer "
+"llançament de Connexió Tor, tres dels quatre participants de la prova no es "
+"van connectar quan es va bloquejar l'accés a la xarxa Tor."
+
+#. type: Plain text
+msgid ""
+"Since then we fixed 14 usability issues affecting Tor Connection: to "
+"understand better why connecting to Tor fails, to make it easier to "
+"configure a Tor bridge, and to make it easier to sign in to a network using "
+"a captive portal."
+msgstr ""
+"Des de llavors, hem solucionat 14 problemes d'usabilitat que afectaven a la "
+"Connexió Tor: per entendre millor per què falla la connexió a Tor, per "
+"facilitar la configuració d'un pont de Tor i per facilitar la sessió a una "
+"xarxa mitjançant un portal captiu."
+
+#. type: Bullet: '- '
+msgid "Usability tests of Tor Connection ([[!tails_ticket 18762]])"
+msgstr "Proves d'usabilitat de Connexió Tor ([[!tails_ticket 18762]])"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Summary of findings](https://lists.autistici.org/"
+"message/20221012.140611.7e58f067.en.html)"
+msgstr ""
+"[Resum de les troballes](https://lists.autistici.org/"
+"message/20221012.140611.7e58f067.ca.html)"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Detailed findings](https://gitlab.tails.boum.org/tails/ux/-/raw/master/"
+"network/rainbow_table_tor_connection_2022_08_Sao_Paulo.ods?inline=false)"
+msgstr ""
+"[Descobriments detallats](https://gitlab.tails.boum.org/tails/ux/-/raw/"
+"master/network/rainbow_table_tor_connection_2022_08_Sao_Paulo.ods?"
+"inline=false)"
+
+#. type: Title ###
+#, no-wrap
+msgid "Persistent Storage"
+msgstr "Emmagatzematge Persistent"
+
+#. type: Plain text
+msgid ""
+"In March 2023 in Ecuador, we tested the usability of the new Persistent "
+"Storage, which was released in Tails in December 2022."
+msgstr ""
+"El març de 2023 a l'Equador, vam provar la usabilitat del nou Emmagatzematge "
+"Persistent, que es va llançar a Tails el desembre de 2022."
+
+#. type: Plain text
+msgid ""
+"We didn't find any serious usability issues in the new Persistent Storage. "
+"The fact that people don't have to restart to create and enable the "
+"Persistent Storage and that their data (eg. Wi-Fi password) is stored on "
+"creation were huge improvements compared to the old Persistent Storage."
+msgstr ""
+"No hem trobat cap problema greu d'usabilitat al nou Emmagatzematge "
+"Persistent. El fet que la gent no hagi de reiniciar-se per crear i habilitar "
+"l'Emmagatzematge Persistent i que les seves dades (p. ex., la contrasenya de "
+"Wi-Fi) s'emmagatzemin en la creació van ser grans millores en comparació amb "
+"l'antic Emmagatzematge Persistent."
+
+#. type: Bullet: '- '
+msgid ""
+"March 2023: Usability tests of the new Persistent Storage ([[!tails_ticket "
+"18648]])"
+msgstr ""
+"Març de 2023: proves d'usabilitat del nou Emmagatzematge Persistent ([[!"
+"tails_ticket 18648]])"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Summary of findings](https://lists.autistici.org/"
+"message/20230510.091842.23ed75ba.en.html)"
+msgstr ""
+"[Resum de les troballes](https://lists.autistici.org/"
+"message/20230510.091842.23ed75ba.ca.html)"
+
+#. type: Bullet: '  * '
+msgid ""
+"[Detailed findings](https://gitlab.tails.boum.org/tails/ux/-/raw/master/"
+"persistent%20storage/rainbow_table_persistent_storage_2023_03_Ecuador.fods?"
+"inline=false)"
+msgstr ""
+"[Descobriments detallats](https://gitlab.tails.boum.org/tails/ux/-/raw/"
+"master/persistent%20storage/rainbow_table_persistent_storage_2023_03_Ecuador."
+"fods?inline=false)"
+
+#. type: Title =
+#, no-wrap
+msgid "Trainings"
+msgstr "Entrenaments"
+
+#. type: Plain text
+msgid ""
+"Through our combined efforts we reached 47 organizations and trained 433 "
+"human rights defenders on our family of tools based on the Tor network. For "
+"Tails only, we conducted 8 workshops and trained 84 people on using Tails: "
+"journalists, activists, feminists, lawyers, and human rights defenders."
+msgstr ""
+"Amb els nostres esforços conjunts hem arribat a 47 organitzacions i hem "
+"format 433 defensors dels drets humans en la nostra família d'eines basades "
+"en la xarxa Tor. Només per a Tails, vam realitzar 8 tallers i vam formar 84 "
+"persones sobre l'ús de Tails: periodistes, activistes, feministes, advocats "
+"i defensors dels drets humans."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The material used for these Tails workshops is available on our website "
+#| "in [English](https://tails.net/contribute/how/promote/material/slides/"
+#| "Ciclo_Autodefensa_Digital_202204/Tails-English.odp), [Spanish](https://"
+#| "tails.net/contribute/how/promote/material/slides/"
+#| "Ciclo_Autodefensa_Digital_202204/Tails-Spanish.odp), and [Portuguese]"
+#| "(https://tails.net/contribute/how/promote/material/slides/"
+#| "Ciclo_Autodefensa_Digital_202204/Tails-Portuguese.odp)."
+msgid ""
+"The material used for these Tails workshops is available on our website in "
+"[English](https://tails.net/contribute/how/promote/slides/"
+"Ciclo_Autodefensa_Digital_202204/Tails-English.odp), [Spanish](https://tails."
+"net/contribute/how/promote/slides/Ciclo_Autodefensa_Digital_202204/Tails-"
+"Spanish.odp), and [Portuguese](https://tails.net/contribute/how/promote/"
+"slides/Ciclo_Autodefensa_Digital_202204/Tails-Portuguese.odp)."
+msgstr ""
+"El material utilitzat per a aquests tallers de Tails està disponible al "
+"nostre lloc web en [anglès](https://tails.net/contribute/how/promote/"
+"material/slides/Ciclo_Autodefensa_Digital_202204/Tails-English.odp), "
+"[castellà](https://tails.net/contribute/how/promote/material/slides/"
+"Ciclo_Autodefensa_Digital_202204/Tails-Spanish.odp) i [portuguès](https://"
+"tails.net/contribute/how/promote/material/slides/"
+"Ciclo_Autodefensa_Digital_202204/Tails-Portuguese.odp)."
+
+#. type: Plain text
+msgid ""
+"Assistants to the workshops were able to start Tails on all their PC "
+"computers but had more frequent issues with Mac computers."
+msgstr ""
+"Els assistents dels tallers van poder iniciar Tails a tots els seus "
+"ordinadors, però tenien problemes més freqüents amb els ordinadors Mac."
+
+#. type: Plain text
+msgid ""
+"From what is already possible to do with Tails, people were most interested "
+"in using Tails to:"
+msgstr ""
+"Pel que ja és possible fer amb Tails, la gent estava més interessada a "
+"utilitzar Tails per:"
+
+#. type: Bullet: '- '
+msgid ""
+"Handle sensitive data, for example, medical data of abortion patients, "
+"sensitive documents from political trials, or field studies from human "
+"rights violations. That said, not all journalists thought that they were "
+"manipulating data that was sensitive enough to require a tool like Tails.  "
+"Sometimes it was hard to draw the line on when to use Tails and when not."
+msgstr ""
+"Gestionar dades sensibles, per exemple, dades mèdiques de pacients "
+"avortades, documents sensibles de judicis polítics o estudis de camp sobre "
+"violacions dels drets humans. Dit això, no tots els periodistes pensaven que "
+"estaven manipulant dades prou sensibles com per requerir una eina com Tails. "
+"De vegades era difícil traçar una línia sobre quan utilitzar Tails i quan no."
+
+#. type: Bullet: '- '
+msgid ""
+"Investigate sensitive topics online, either for journalistic purposes, "
+"medical purposes, or when making safe travel plans."
+msgstr ""
+"Investigar temes sensibles en línia, ja sigui amb finalitats periodístiques, "
+"amb finalitats mèdiques o per fer plans de viatge segurs."
+
+#. type: Bullet: '- '
+msgid ""
+"Have a secure OS when using other people's computer, either when traveling "
+"or when people don't have the means to have their own computer."
+msgstr ""
+"Tenir un sistema operatiu segur quan fan servir l'ordinador d'altres "
+"persones, ja sigui quan viatgen o quan la gent no tingui els mitjans per "
+"tenir el seu propi ordinador."
+
+#. type: Plain text
+msgid ""
+"From what is not possible yet to do with Tails, people were most interested "
+"in:"
+msgstr ""
+"Pel que encara no és possible fer amb Tails, la gent estava més interessada "
+"en:"
+
+#. type: Bullet: '- '
+msgid ""
+"Doing online meetings and using mobile messaging apps like Signal and "
+"Telegram from Tails."
+msgstr ""
+"Fer reunions en línia i utilitzar aplicacions de missatgeria mòbil com "
+"Signal i Telegram des de Tails."
+
+#. type: Plain text
+msgid "- Using a VPN instead of Tor for speed and access to more websites."
+msgstr ""
+"- Usar una VPN en lloc de Tor per a la velocitat i l'accés a més llocs web."
+
+#. type: Plain text
+msgid ""
+"We included both of these objectives in our 3-year product strategy.  You "
+"can track our progress in the GitLab issues related to [[!tails_ticket "
+"19472]]."
+msgstr ""
+"Hem inclòs aquests dos objectius en la nostra estratègia de producte de 3 "
+"anys. Podeu fer un seguiment del nostre progrés als \"issues\" de GitLab "
+"relacionats amb [[!tails_ticket 19472]]."
+
+#~ msgid ""
+#~ "[Detailed findings](https://gitlab.tails.boum.org/tails/ux/-/raw/master/"
+#~ "first-time/rainbow_table.fods?inline=false)"
+#~ msgstr ""
+#~ "[Descobriments detallats](https://gitlab.tails.boum.org/tails/ux/-/raw/"
+#~ "master/first-time/rainbow_table.fods?inline=false)"
+
+#~ msgid "- Installation - Tor Connection - Persistent Storage"
+#~ msgstr ""
+#~ "- Instal·lació\n"
+#~ "- Connexió Tor\n"
+#~ "- Emmagatzematge Persistent"

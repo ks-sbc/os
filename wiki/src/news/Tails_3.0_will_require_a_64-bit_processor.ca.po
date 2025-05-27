@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-02-26 12:26+0100\n"
+"PO-Revision-Date: 2025-05-21 15:04+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Wed, 01 Feb 2017 10:23:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Wed, 01 Feb 2017 10:23:56 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails 3.0 will require a 64-bit processor\"]]\n"
+msgstr "[[!meta title=\"Tails 3.0 requerirà un processador de 64 bits\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Tails 3.0 will require a 64-bit <span\n"
+"class=\"definition\">[[!wikipedia x86-64]]</span> compatible processor.\n"
+"As opposed to older versions of Tails, it will not work on\n"
+"32-bit processors.\n"
+msgstr ""
+"Tails 3.0 requerirà un processador de 64 bits compatible amb\n"
+"<span class=\"definition\">[[!wikipedia_ca Arquitectura_x86-64 desc=\"x86-"
+"64\"]]</span>.\n"
+"A diferència de les versions anteriors de Tails, no funcionarà\n"
+"per a processadors de 32 bits.\n"
+
+#. type: Plain text
+msgid ""
+"We have waited for years until we felt it was the right time to do this "
+"switch. Still, this was a hard decision for us to make. Today, we want to "
+"explain why we eventually made this decision, how it will affect users, and "
+"when."
+msgstr ""
+"Hem esperat durant anys fins que hem sentit que era el moment adequat per "
+"fer aquest canvi. Tot i així, ha sigut una decisió difícil de prendre per a "
+"nosaltres. Avui volem explicar per què finalment hem pres aquesta decisió, "
+"com afectarà els usuaris i quan."
+
+#. type: Title #
+#, no-wrap
+msgid "When will this transition happen?"
+msgstr "Quan es produirà aquesta transició?"
+
+#. type: Plain text
+msgid ""
+"Our current goal is to release Tails 3.0, and stop supporting computers with "
+"a 32-bit processor, on **June 13, 2017**."
+msgstr ""
+"El nostre objectiu actual és llançar Tails 3.0 i deixar de donar suport als "
+"ordinadors amb un processador de 32 bits el **13 de juny de 2017**."
+
+#. type: Title #
+#, no-wrap
+msgid "Will Tails still work on this computer?"
+msgstr "Tails encara funcionarà en aquest ordinador?"
+
+#. type: Plain text
+msgid "Here is the quickest way to find out:"
+msgstr "Aquí teniu la manera més ràpida d'esbrinar-ho:"
+
+#. type: Bullet: '1. '
+msgid "Start Tails."
+msgstr "Inicieu Tails."
+
+#. type: Bullet: '1. '
+msgid ""
+"Choose <span class=\"menuchoice\"><span class=\"guimenu\">Applications</"
+"span>&nbsp;▸ <span class=\"guisubmenu\">Utilities</span>&nbsp;▸ <span "
+"class=\"guimenuitem\">Terminal</span></span> to open a terminal."
+msgstr ""
+"Trieu <span class=\"menuchoice\"><span class=\"guimenu\">Aplicacions</"
+"span>&nbsp;▸ <span class=\"guisubmenu\">Utilitats</span>&nbsp;▸ <span "
+"class=\"guimenuitem\">Terminal</span></span> per obrir un terminal."
+
+#. type: Bullet: '1. '
+msgid "Execute the following command to display system information:"
+msgstr "Executeu l'ordre següent per mostrar la informació del sistema:"
+
+#. type: Plain text
+#, no-wrap
+msgid "           uname -m\n"
+msgstr "           uname -m\n"
+
+#. type: Bullet: '1. '
+msgid "Then, there are two possible cases:"
+msgstr "Aleshores, hi ha dos casos possibles:"
+
+#. type: Bullet: '   * '
+msgid ""
+"If you see `x86_64`, then you're good: Tails 3.0 should work fine on this "
+"computer. But the best way to be 100% sure is to try one of the test "
+"versions of Tails 3.0. One was released last November, and a new one should "
+"be published later this week, so: stay tuned!"
+msgstr ""
+"Si veieu `x86_64`, aleshores esteu bé: Tails 3.0 hauria de funcionar bé en "
+"aquest ordinador. Però la millor manera d'estar 100% segur és provar una de "
+"les versions de prova de Tails 3.0. Una es va publicar el novembre passat, i "
+"una de nova s'hauria de publicar a finals d'aquesta setmana, així que: "
+"estigueu atent!"
+
+#. type: Bullet: '   * '
+msgid ""
+"Else, if you see `i686`, then we have bad news: Tails 3.0 will *not* work on "
+"this computer. You now have four and a half months to find a computer with a "
+"64-bit processor. Sorry, and good luck with that!"
+msgstr ""
+"En cas contrari, si veieu `i686`, tenim una mala notícia: Tails 3.0 *no* "
+"funcionarà en aquest ordinador. Ara teniu quatre mesos i mig per trobar un "
+"ordinador amb un processador de 64 bits. Ho sentim, i molta sort amb això!"
+
+#. type: Title #
+#, no-wrap
+msgid "Why this change?"
+msgstr "Per què aquest canvi?"
+
+#. type: Plain text
+msgid ""
+"It's no surprise that over the last years, the number of people who use "
+"Tails on a 32-bit computer [[!tails_ticket 8183 desc=\"has dropped\"]]: most "
+"32-bit computers are at least ten years old, and one after the other their "
+"hardware stops working. As a result, in the beginning of 2016, [[!toggle "
+"id=\"stats\" text=\"only 4%\"]] of Tails users were still using a 32-bit "
+"computer."
+msgstr ""
+"No és d'estranyar que durant els últims anys, el nombre de persones que "
+"utilitzen Tails en un ordinador de 32 bits [[!tails_ticket 8183 desc=\"ha "
+"caigut\"]]: la majoria dels ordinadors de 32 bits tenen almenys deu anys i "
+"un després de l'altre, el seu maquinari deixa de funcionar. Com a resultat, "
+"a principis de 2016, [[!toggle id=\"stats\" text=\"només el 4%\"]] dels "
+"usuaris de Tails encara utilitzaven un ordinador de 32 bits."
+
+#. type: Plain text
+msgid ""
+"[[!toggleable id=\"stats\" text=\"\"\"These statistics are gathered from bug "
+"reports we have received from [[WhisperBack|doc/first_steps/"
+"whisperback#whisperback]].\"\"\"]]"
+msgstr ""
+"[[!toggleable id=\"stats\" text=\"\"\"Aquestes estadístiques es recullen a "
+"partir dels informes d'errors que hem rebut de [[WhisperBack|doc/first_steps/"
+"whisperback#whisperback]].\"\"\"]]"
+
+#. type: Plain text
+msgid ""
+"Of course, some of these computers will keep working for a while. But once "
+"the number had fallen this low, the benefits of switching Tails to 64-bit "
+"outweighed the reasons we had to keep supporting 32-bit computers."
+msgstr ""
+"Per descomptat, alguns d'aquests ordinadors seguiran funcionant durant un "
+"temps. Però una vegada que el nombre va baixar tan baix, els avantatges de "
+"canviar Tails a 64 bits van superar els motius pels quals havíem de "
+"continuar donant suport a ordinadors de 32 bits."
+
+#. type: Plain text
+msgid "We had two main reasons to switch Tails to 64-bit:"
+msgstr "Teníem dos motius principals per canviar Tails a 64 bits:"
+
+#. type: Bullet: '* '
+msgid ""
+"**We want Tails users to be safer**: software built for 64-bit processors "
+"can benefit from several improvements that make it harder for attackers to "
+"exploit security vulnerabilities (improved [[!wikipedia Address space layout "
+"randomization]], compulsory support for the [[!wikipedia NX bit]])."
+msgstr ""
+"**Volem que els usuaris de Tails estiguin més segurs**: el programari creat "
+"per a processadors de 64 bits pot beneficiar-se de diverses millores que "
+"dificulten l'explotació de vulnerabilitats de seguretat per als atacants ([[!"
+"wikipedia Address space layout randomization desc=\"aleatorització millorada "
+"de la disposició de l'espai d'adreces\"]], suport obligatori per al [[!"
+"wikipedia NX bit]])."
+
+#. type: Bullet: '* '
+msgid ""
+"**We want to our project to be (more) sustainable**: Tails has been using a "
+"64-bit Linux kernel for a while on machines that support it.  But all other "
+"programs included in Tails so far were built for 32-bit processors, and "
+"compatibility issues kept arising. In the last few years, the developers who "
+"maintain Tails have spent lots of time addressing such issues. We would "
+"rather see them spend their time in ways that benefit our users on the long "
+"term, and not on problems that will vanish when Tails switches to 64-bit "
+"eventually."
+msgstr ""
+"**Volem que el nostre projecte sigui (més) sostenible**: Tails fa temps que "
+"utilitza un nucli Linux de 64 bits en màquines que el suporten. Però tots "
+"els altres programes inclosos a Tails fins ara s'han creat per a "
+"processadors de 32 bits i han sorgit problemes de compatibilitat. En els "
+"últims anys, els desenvolupadors que mantenen Tails han dedicat molt de "
+"temps abordant aquests problemes. Preferim veure'ls passar el temps de "
+"manera que beneficiï els nostres usuaris a llarg termini, i no en problemes "
+"que desapareixeran quan Tails canviï a 64 bits."
+
+#. type: Plain text
+msgid ""
+"Thanks for your attention, and sorry for the inconvenience it may cause to "
+"you."
+msgstr ""
+"Gràcies per la vostra atenció, i disculpeu les molèsties que us pugui "
+"ocasionar."

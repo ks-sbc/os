@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2025-02-04 18:13+0000\n"
+"PO-Revision-Date: 2024-10-17 13:09+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta date=\"Sat, 02 Aug 2014 00:00:00 +0000\"]]\n"
+msgstr "[[!meta date=\"Sat, 02 Aug 2014 00:00:00 +0000\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Tails HackFest 2014, retrospect\"]]\n"
+msgstr "[[!meta title=\"Tails HackFest 2014, Rückblick\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+msgid ""
+"The first Tails HackFest, which took place on July 5-6 in Paris, was a great "
+"event: about 120 people attended on Saturday, 70 people on Sunday. We shared "
+"some good workshops, some very good food, and homemade beer in a nice and "
+"friendly atmosphere."
+msgstr ""
+"Das erste Tails HackFest, das am 5. und 6. Juli in Paris stattfand, war eine "
+"großartige Veranstaltung: Am Samstag nahmen etwa 120 Personen teil, am "
+"Sonntag 70 Personen. Wir hatten einige gute Workshops, sehr gutes Essen und "
+"selbstgebrautes Bier in einer netten und freundlichen Atmosphäre."
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "The slides of some talks have been [published](https://tails.net/promote/"
+#| "slides/), but there is more to come."
+msgid ""
+"The slides of some talks have been published, but there is more to come."
+msgstr ""
+"Die Folien einiger Vorträge wurden bereits [veröffentlicht](https://tails."
+"net/promote/slides/), aber es werden noch weitere folgen."
+
+#. type: Plain text
+msgid ""
+"The first Tails stickers were distributed and you can also make your own!"
+msgstr ""
+"Die ersten Tails-Aufkleber wurden verteilt und du kannst auch deine eigenen "
+"machen!"
+
+#. type: Plain text
+msgid ""
+"We are particularly happy that the HackFest attracted very different people, "
+"so we were a quite diverse assembly. Probably thanks to our anti-harassment "
+"policy (thanks Genma for the French translation)..."
+msgstr ""
+"Wir freuen uns besonders, dass das HackFest sehr unterschiedliche Menschen "
+"angezogen hat, sodass wir eine recht vielfältige Versammlung waren. "
+"Wahrscheinlich dank unserer Antischikane-Politik (danke Genma für die "
+"französische Übersetzung)..."
+
+#. type: Plain text
+msgid ""
+"Some people talked about the HackFest: [jvoisin](http://dustri.org/b/tails-"
+"hackfest.html), and... more? (please send links!)"
+msgstr ""
+"Einige Leute haben über das HackFest gesprochen: [jvoisin](http://dustri.org/"
+"b/tails-hackfest.html), und... mehr? (Bitte senden Sie Links!)"
+
+#. type: Plain text
+msgid "Thanks to:"
+msgstr "Dank an:"
+
+#. type: Bullet: '  - '
+msgid "[IRILL](https://www.irill.org/) for the use of the place"
+msgstr "[IRILL](https://www.irill.org/) für die Nutzung des Ortes"
+
+#. type: Bullet: '  - '
+msgid ""
+"[The Tor Project](https://www.torproject.org/), [Mozilla Foundation](https://"
+"www.mozilla.org/) and [Debian](https://www.debian.org/)  for the sponsorship"
+msgstr ""
+"[Das Tor-Projekt](https://www.torproject.org/), [Mozilla Foundation](https://"
+"www.mozilla.org/) und [Debian](https://www.debian.org/)   für die "
+"Unterstützung"
+
+#. type: Bullet: '  - '
+msgid "Stefano Zacchiroli and Sylvestre Ledru for the organization help"
+msgstr ""
+"Stefano Zacchiroli und Sylvestre Ledru für die organisatorische Unterstützung"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  - and of course, all our fabulous attendees that made the event so interesting\n"
+"and nice!\n"
+msgstr "  - und natürlich all unsere großartigen Teilnehmer, die die Veranstaltung so interessant und angenehm gemacht haben!\n"
+
+#. type: Title =
+#, no-wrap
+msgid "New mailing lists"
+msgstr "Neue Mailinglisten"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* <tails-project@boum.org>: public, archived\n"
+"mailing list to\n"
+"talk about the non-technical decisions regarding the project.\n"
+"* <tails-press@boum.org>: the new contact for journalists and people\n"
+"wanting to promote Tails. Just write to <tails-press@boum.org>. You\n"
+"can encrypt your email.\n"
+"* tails-ux@boum.org: public, archived\n"
+"mailing list to discuss\n"
+"Tails website and software user interfaces.\n"
+msgstr ""
+"* <tails-project@boum.org>: öffentliche, archivierte\n"
+"Mailingliste, um über die nicht-technischen\n"
+"Entscheidungen bezüglich des Projekts zu sprechen.\n"
+"* <tails-press@boum.org>: der neue Kontakt für Journalisten und Personen,\n"
+"die Tails fördern möchten. Schreiben Sie einfach an <tails-press@boum.org>.\n"
+"Sie können Ihre E-Mail verschlüsseln.\n"
+"* tails-ux@boum.org: öffentliche, archivierte \n"
+"Mailingliste zur Diskussion\n"
+"über die Benutzeroberflächen der Tails-Website und -Software.\n"

@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-04-23 12:59+0200\n"
+"PO-Revision-Date: 2024-11-02 20:10+0000\n"
+"Last-Translator: Benjamin Held <Benjamin.Held@protonmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta title=\"Tails 6.2\"]]\n"
+msgstr "[[!meta title=\"Tails 6.2\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!meta date=\"Tue, 23 Apr 2024 12:34:56 +0000\"]]\n"
+msgstr "[[!meta date=\"Tue, 23 Apr 2024 12:34:56 +0000\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!pagetemplate template=\"news.tmpl\"]]\n"
+msgstr "[[!pagetemplate template=\"news.tmpl\"]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "[[!tag announce]]\n"
+msgstr "[[!tag announce]]\n"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"features\">New features</h1>\n"
+msgstr "<h1 id=\"features\">Neue Funktionen</h1>\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"We added 21 new languages to the Welcome Screen: Albanian, Armenian, Basque, "
+"Bengali, Bulgarian, Estonian, Galician, Icelandic, Japanese, Kazakh, Korean, "
+"Latvian, Malay, Norwegian Nynorsk, Polish, Serbian, Slovak, Swahili, Thai, "
+"Ukrainian, and Vietnamese."
+msgstr ""
+"Wir haben 21 neue Sprachen zum Begrüßungsbildschirm hinzugefügt: Albanisch, "
+"Armenisch, Baskisch, Bengalisch, Bulgarisch, Estnisch, Galicisch, "
+"Isländisch, Japanisch, Kasachisch, Koreanisch, Lettisch, Malaiisch, "
+"Norwegisch Nynorsk, Polnisch, Serbisch, Slowakisch, Swahili, Thailändisch, "
+"Ukrainisch und Vietnamesisch."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"Some of these languages only have little of our custom Tails applications "
+"translated, but other applications included in Tails are better translated."
+msgstr ""
+"Einige dieser Sprachen haben nur wenige Übersetzungen unserer speziell für "
+"Tails entwickelten Anwendungen, aber andere in Tails enthaltene Anwendungen "
+"sind besser übersetzt."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"If you want to translate Tails better in these languages or translate Tails "
+"into other languages, you can contribute to the [Tor Project "
+"Weblate](https://hosted.weblate.org/projects/tor/tails-gui/)."
+msgstr ""
+"Wenn Sie Tails in diesen Sprachen besser übersetzen oder Tails in andere "
+"Sprachen übersetzen möchten, können Sie zum [Tor Project "
+"Weblate](https://hosted.weblate.org/projects/tor/tails-gui/) beitragen."
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"New languages will be included automatically in future versions of Tails as "
+"soon as 25% of strings are translated."
+msgstr ""
+"Neue Sprachen werden automatisch in zukünftige Versionen von Tails "
+"aufgenommen, sobald 25 % der Zeichenfolgen übersetzt sind."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"changes\">Changes and updates</h1>\n"
+msgstr "<h1 id=\"changes\">Änderungen und Updates</h1>\n"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- Update *Tor Browser* to "
+"[13.0.14](https://blog.torproject.org/new-release-tor-browser-13014)."
+msgstr ""
+"- Update *Tor Browser* auf [13.0.14](https://blog.torproject.org/new-release-"
+"tor-browser-13014)."
+
+#. type: Plain text
+#, markdown-text
+msgid "- Update the *Tor* client to 0.4.8.11."
+msgstr "- Aktualisiert den *Tor*-Client auf 0.4.8.11."
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Rename the localization section of the Welcome Screen as **Language and "
+"Formats**."
+msgstr ""
+"Bennen Sie den Lokalisierungsbereich des Willkommensbildschirms in **Sprache "
+"und Formate** um."
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Make **Upgrade later** the default option in the dialog opened by **Tails "
+"Upgrader**."
+msgstr ""
+"Stellen Sie **Upgrade später** als Standardoption im Dialog ein, der von **"
+"Tails Upgrader** geöffnet wird."
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Include more errors in the [[detection of read and write errors|ioerror]] on "
+"the USB stick."
+msgstr ""
+"Fügen Sie weitere Fehler in die [[Erkennung von Lese- und "
+"Schreibfehlern|ioerror]] auf dem USB-Stick ein."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"fixes\">Fixed problems</h1>\n"
+msgstr "<h1 id=\"fixes\">Behobene Probleme</h1>\n"
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Fix a reliability issue that disabled Wi-Fi on some hardware.  "
+"([[!tails_ticket 20045]])"
+msgstr ""
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Disable **SysRq** keys, which allowed crashing a Tails session from the "
+"keyboard and bypass the lock screen. ([[!tails_ticket 20334]])"
+msgstr ""
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Disable Speculative Store Bypass to improve our mitigation of [Spectre "
+"v4](https://cyberus-technology.de/articles/intel-store-load-spectre-vulnerability).  "
+"([[!tails_ticket 20335]])"
+msgstr ""
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"Improve the error message when creating a Persistent Storage is impossible.  "
+"([[!tails_ticket 20328]])"
+msgstr ""
+"Verbessert die Fehlermeldung, wenn die Erstellung eines beständigen "
+"Datenspeichers unmöglich ist. ([[!tails_ticket 20328]])"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"For more details, read our [[!tails_gitweb debian/changelog "
+"desc=\"changelog\"]]."
+msgstr ""
+"Für weitere Details lesen Sie unser [[!tails_gitweb debian/changelog desc="
+"\"Änderungsprotokoll\"]]."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid "<h1 id=\"get\">Get Tails 6.2</h1>\n"
+msgstr "<h1 id=\"get\">Tails 6.2 herunterladen</h1>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To upgrade your Tails USB stick and keep your Persistent Storage"
+msgstr ""
+"Um Ihren Tails-USB-Stick zu aktualisieren und Ihren beständigen "
+"Datenspeicher beizubehalten"
+
+#. type: Plain text
+#, markdown-text
+msgid "- Automatic upgrades are available from Tails 6.0 or later to 6.2."
+msgstr ""
+"- Automatische Upgrades sind von Tails 6.0 oder höher auf 6.2 verfügbar."
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"  You can [[reduce the size of the download|doc/upgrade#reduce]] of future\n"
+"  automatic upgrades by doing a manual upgrade to the latest version.\n"
+msgstr ""
+"  Sie können [[die Größe des Downloads|doc/upgrade#reduce]] von zukünftigen\n"
+"  automatischen Upgrades reduzieren, indem Sie ein manuelles Upgrade auf die "
+"neueste Version durchführen.\n"
+
+#. type: Bullet: '- '
+#, markdown-text
+msgid ""
+"If you cannot do an automatic upgrade or if Tails fails to start after an "
+"automatic upgrade, please try to do a [[manual "
+"upgrade|doc/upgrade/#manual]]."
+msgstr ""
+"Wenn Sie ein automatisches Upgrade nicht durchführen können oder Tails nach "
+"einem automatischen Upgrade nicht startet, versuchen Sie bitte ein [["
+"manuelles Upgrade|doc/upgrade/#manual]]."
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To install Tails 6.2 on a new USB stick"
+msgstr "Um Tails 6.2 auf einem neuen USB-Stick zu installieren"
+
+#. type: Plain text
+#, markdown-text
+msgid "Follow our installation instructions:"
+msgstr "Befolgen Sie unsere Installationsanweisungen:"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from Windows|install/windows]]"
+msgstr "- [[Von Windows installieren|install/windows]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from macOS|install/mac]]"
+msgstr "- [[Von MacOS installieren|install/mac]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[Install from Linux|install/linux]]"
+msgstr "- [[Von Linux installieren|install/linux]]"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"- [[Install from Debian or Ubuntu using the command line and "
+"GnuPG|install/expert]]"
+msgstr ""
+"- [[Von Debian oder Ubuntu über die Befehlszeile und GnuPG installieren|"
+"install/expert]]"
+
+#. type: Plain text
+#, markdown-text, no-wrap
+msgid ""
+"<div class=\"caution\"><p>The Persistent Storage on the USB stick will be "
+"lost if\n"
+"you install instead of upgrading.</p></div>\n"
+msgstr ""
+"<div class=\"caution\"><p>Der beständige Datenspeicher auf dem USB-Stick "
+"geht verloren,\n"
+"wenn Sie installieren anstatt zu aktualisieren.</p></div>\n"
+
+#. type: Title ##
+#, markdown-text, no-wrap
+msgid "To download only"
+msgstr "Nur herunterladen"
+
+#. type: Plain text
+#, markdown-text
+msgid ""
+"If you don't need installation or upgrade instructions, you can download "
+"Tails 6.2 directly:"
+msgstr ""
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[For USB sticks (USB image)|install/download]]"
+msgstr "- [[Für USB-Sticks (USB-Image)|install/download]]"
+
+#. type: Plain text
+#, markdown-text
+msgid "- [[For DVDs and virtual machines (ISO image)|install/download-iso]]"
+msgstr "- [[Für DVDs und virtuelle Maschinen (ISO-Image)|install/download-iso]]"

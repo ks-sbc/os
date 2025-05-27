@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: tails-l10n@boum.org\n"
+"POT-Creation-Date: 2024-05-27 21:54+0000\n"
+"PO-Revision-Date: 2024-10-11 04:18+0000\n"
+"Last-Translator: xin <xin@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  To learn about other Tor bridges, you have several options listed below.\n"
+msgstr "  Pour connaître d'autres ponts Tor, vous avez plusieurs options listées ci-dessous.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  <div class=\"tip\">\n"
+"  <p>None of these options is easy to do from Tails, so we recommend that you\n"
+"  learn about several bridges from your regular computer <i>before starting\n"
+"  Tails</i> and store the bridge lines in a text document on separate USB\n"
+"  stick.</p>\n"
+msgstr ""
+"  <div class=\"tip\">\n"
+"  <p>Aucune de ces options n'est facile à faire depuis Tails, nous recommandons donc de vous \n"
+"   renseigner sur des ponts depuis votre ordinateur habituel <i>avant de démarrer\n"
+"  Tails</i> et de stocker les lignes de ponts dans un document texte sur une clé USB\n"
+"  séparée.</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  <p>After you restarted on Tails, you can copy one of these bridge lines from\n"
+"  this other USB stick into <i>Tor Connection</i>.</p>\n"
+msgstr ""
+"  <p>Après avoir redémarré sur Tails, vous pouvez copier une de ces lignes de pont depuis\n"
+"  l'autre clé USB dans <i>Connexion à Tor</i>.</p>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "  </div>\n"
+msgstr "  </div>\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"  Even someone who knows your bridge cannot know what you are doing online from\n"
+"  Tails.\n"
+msgstr ""
+"  Même une personne connaissant votre pont ne peut pas savoir ce que vous faites en ligne depuis\n"
+"  Tails.\n"
+
+#. type: Bullet: '  - '
+msgid "**CAPTCHA**"
+msgstr "**CAPTCHA**"
+
+#. type: Plain text
+#, no-wrap
+msgid "    You can solve a CAPTCHA on [https://bridges.torproject.org/](https://bridges.torproject.org/bridges?transport=obfs4).\n"
+msgstr "    Vous pouvez résoudre un CAPTCHA sur [https://bridges.torproject.org/](https://bridges.torproject.org/bridges?transport=obfs4) (en anglais).\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    We recommend doing so from a different\n"
+"    local network if you want to hide that you are connecting to Tor.\n"
+msgstr ""
+"    Nous recommandons de le faire depuis un réseau\n"
+"    local différent si vous voulez cacher le fait que vous vous connectez à "
+"Tor.\n"
+
+#. type: Bullet: '  - '
+msgid "**Email**"
+msgstr "**Courrier électronique**"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    You can send an empty email to\n"
+"    <a href=\"mailto:bridges@torproject.org\">bridges@torproject.org</a> from a\n"
+"    Gmail or Riseup email address.\n"
+msgstr ""
+"    Vous pouvez envoyer un message vide à\n"
+"    <a href=\"mailto:bridges@torproject.org\">bridges@torproject.org</a> depuis une\n"
+"    adresse de courrier électronique Gmail ou Riseup.\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Sending the email reveals to Gmail or Riseup that you are trying to\n"
+"    connect to Tor but not to someone who monitors your Internet connection.\n"
+msgstr ""
+"    Envoyer ce courrier électronique révèle à Gmail ou à Riseup que vous essayez de\n"
+"    vous connecter à Tor mais pas à une personne surveillant votre connexion Internet.\n"
+
+#. type: Bullet: '  - '
+msgid "**Telegram**"
+msgstr "**Telegram**"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    You can send the message `/bridges` to\n"
+"    [@GetBridgesBot](https://t.me/GetBridgesBot) on *Telegram*.\n"
+msgstr ""
+"    Vous pouvez envoyer le message `/bridges` à\n"
+"    [@GetBridgesBot](https://t.me/GetBridgesBot) sur *Telegram*.\n"
